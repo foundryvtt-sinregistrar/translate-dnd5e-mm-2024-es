@@ -1,0 +1,19 @@
+{
+  "label": "Rasgos",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "mm2024ActivitiesById"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mm2024MergeEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "mm2024AdvancementById"
+    }
+  },
+  "folders": {},
+  "entries": {}
+}

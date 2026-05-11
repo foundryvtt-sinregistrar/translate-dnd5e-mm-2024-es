@@ -1,0 +1,19 @@
+{
+  "label": "Monstruos",
+  "mapping": {
+    "details": {
+      "path": "system.details",
+      "converter": "mm2024ActorDetails"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mm2024MergeEffects"
+    },
+    "items": {
+      "path": "items",
+      "converter": "mm2024ActorFullById"
+    }
+  },
+  "folders": {},
+  "entries": {}
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Manual de Monstruos",
+  "mapping": {
+    "title": "flags.dnd5e.title",
+    "pages": {
+      "path": "pages",
+      "converter": "mm2024JournalPagesById"
+    }
+  },
+  "folders": {},
+  "entries": {}
+}
