@@ -1269,85 +1269,85 @@
         "g2nO7BdHr87x4LcU": {
           "name": "Garras reptantes",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.2FfZKVMaJ8hCP1va caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Severed Appendages with Malicious Will</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Ninguno</p><p>Crawling claws are severed hands that move and act of their own murderous accord. These deathless appendages can spring to life from the severed limbs of killers and villains, and sinister magic-users might animate crawling claws as foul servants. Crawling claws appear in a variety of forms, from decaying human hands to the fresh appendages of animals or monsters.</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.2FfZKVMaJ8hCP1va caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Apéndices cercenados con voluntad maligna</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Ninguno</p><p>Las garras reptantes son manos cercenadas que se mueven y actúan por su propia voluntad asesina. Estos apéndices sin vida pueden cobrar vida a partir de miembros amputados de asesinos y villanos, y los usuarios de magia siniestros podrían animar garras reptantes como sirvientes infames. Las garras reptantes aparecen con formas muy variadas, desde manos humanas putrefactas hasta apéndices frescos de animales o monstruos.</p>"
           }
         },
         "qVzJYYgD5qGPzC5T": {
           "name": "Garra reptante",
           "text": {
-            "content": "<aside class=\"quote float-clear\"><p>Is it possible for any creature, any living being, to be inherently evil? Such an assertion may itself facilitate the committing of evil acts. By defining a person as evil, we give them free rein to behave as they will, absolving them from the wickedness of their words and the evil of their hands.</p><p class=\"quote-author\">—Ansolm Haas, The Isolation of Evil</p></aside><p>Lone crawling claws can continue killing sprees they perpetrated in life. Some recklessly attack the living, while others pursue specific victims. In rare cases, a crawling claw wreaks mayhem while the rest of its body still lives, with the original creature potentially unaware of its severed hand’s crimes.</p>"
+            "content": "<aside class=\"quote float-clear\"><p>¿Es posible que alguna criatura, algún ser vivo, sea inherentemente malvado? Tal afirmación podría facilitar por sí misma la comisión de actos malvados. Al definir a una persona como malvada, le damos vía libre para comportarse como quiera, absolviéndola de la maldad de sus palabras y de la perversidad de sus manos.</p><p class=\"quote-author\">—Ansolm Haas, <em>El aislamiento del mal</em></p></aside><p>Una garra reptante solitaria puede continuar las matanzas que perpetró en vida. Algunas atacan temerariamente a los vivos, mientras que otras persiguen a víctimas concretas. En casos raros, una garra reptante causa estragos mientras el resto de su cuerpo aún vive, quizá sin que la criatura original sepa nada de los crímenes de su mano cercenada.</p>"
           }
         },
         "H0hptBJtqqsq7vnK": {
           "name": "Enjambre de garras reptantes",
           "text": {
-            "content": "<p>Swarms of crawling claws are typically animated by depraved necromancers. Occasionally, these grotesque swarms arise from mass graves or after tragedies, refusing to let their murderers escape their grasp.</p>"
+            "content": "<p>Los enjambres de garras reptantes suelen ser animados por nigromantes depravados. En ocasiones, estos enjambres grotescos surgen de fosas comunes o tras tragedias, negándose a permitir que sus asesinos escapen de su alcance.</p>"
           }
         },
         "VICfYukXoYkWJ1yn": {
           "name": "Sectarios",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.00xigL73QK6AnaUF classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Doomsayers and Fanatics</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Individual, Reliquias</p><p>Cultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to bring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship supernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Tira o elige a result from the Sectario Agendas tabla to inspire what a cultist seeks to achieve.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultistAgendas rollable classes=\"caption-top\"]</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.00xigL73QK6AnaUF classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Agoreros y fanáticos</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Individual, Reliquias</p><p>Los sectarios usan magia y medidas extremas para propagar creencias radicales. Algunos persiguen secretos esotéricos en privado, mientras que otros forman cábales sombrías que buscan provocar finales aterradores. Los sectarios suelen seguir tradiciones místicas oscuras u obsesionarse con interpretaciones de profecías antiguas. Pueden venerar patrones sobrenaturales: deidades, criaturas de otros mundos, mentes alienígenas manipuladoras o fuerzas aún más extrañas. Tira o elige un resultado de la tabla Agendas de sectarios para inspirar lo que un sectario intenta conseguir.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultistAgendas rollable classes=\"caption-top\"]</p>"
           }
         },
         "eFfvGebpwsVHuEws": {
           "name": "Símbolos ocultistas",
           "text": {
-            "content": "<aside class=\"quote\"><p>Dread Tharizdun, power of the Elder Elemental Eye and master of all destructive forces, I am the Champion of Elemental Evil and am ready to carry out your wishes.</p><p class=\"quote-author\">—Rites of the Cult of Elemental Evil</p></aside><p>Cults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of cultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the Cult Symbols tabla to inspire a cult’s icons.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultSymbols000 caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultSymbolsDep caption=false]</p>"
+            "content": "<aside class=\"quote\"><p>Temible Tharizdun, poder del Ojo Elemental Anciano y señor de todas las fuerzas destructivas, soy el Campeón del Mal Elemental y estoy preparado para cumplir tus deseos.</p><p class=\"quote-author\">—Ritos del Culto del Mal Elemental</p></aside><p>Los cultos suelen identificarse con símbolos que ejemplifican sus creencias. Tales símbolos pueden marcar objetos importantes para el culto, así como la vestimenta y los cuerpos de los propios sectarios. Estos símbolos pueden ser ampliamente comprensibles, o pueden tener significado solo para los sectarios. Tira dos veces o elige resultados de la tabla Símbolos de culto para inspirar los iconos de un culto.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultSymbols000 caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCultSymbolsDep caption=false]</p>"
           }
         },
         "LlG9vEb9l9r0PJuM": {
           "name": "Miembros de culto",
           "text": {
-            "content": "<p>Cults often form hierarchies around a charismatic or domineering leader. While cult members might work independently, they take their orders from superiors with greater supernatural powers. Cualquiera cult might have the following sorts of members.</p>"
+            "content": "<p>Los cultos suelen formar jerarquías en torno a un líder carismático o dominante. Aunque los miembros de un culto pueden actuar de forma independiente, reciben órdenes de superiores con mayores poderes sobrenaturales. Cualquier culto podría contar con los siguientes tipos de miembros.</p>"
           }
         },
         "7OEqZFJzetIk928C": {
           "name": "Sectario",
           "text": {
-            "content": "<p>Cultists devote themselves to their faith’s leaders and otherworldly masters. While this zeal grants cultists no magical powers, it gives them remarkable resolve in the face of threats. Cultists perform much of a cult’s mundane work, which might include evangelism, criminal acts, or serving as sacrifices.</p>"
+            "content": "<p>Los sectarios se entregan a los líderes de su fe y a sus amos de otros mundos. Aunque este fervor no les concede poderes mágicos, les da una resolución notable frente a las amenazas. Los sectarios realizan gran parte del trabajo mundano de un culto, lo que puede incluir evangelización, actos criminales o servir como sacrificios.</p>"
           }
         },
         "DHw4tAz06WzLz07b": {
           "name": "Sectario fanático",
           "text": {
-            "content": "<p>Sectario fanatics lead small cults or cells within larger cults. They’re privy to more of a cult’s mysteries than lower-ranking cultists are, granting them access to magical powers from their patrons.</p>"
+            "content": "<p>Los sectarios fanáticos dirigen cultos pequeños o células dentro de cultos mayores. Conocen más misterios del culto que los sectarios de menor rango, lo que les concede acceso a poderes mágicos otorgados por sus patrones.</p>"
           }
         },
         "s4D5OTWHOKhQcYwW": {
-          "name": "Sectario hierofante",
+          "name": "Hierofante sectario",
           "text": {
-            "content": "<p>Sectario hierophants are leaders who oversee the lives of their underlings, dictate the edicts of the cult, and interpret their patron’s will. They possess supernatural powers gained from the cult’s patron, supernatural sources, or the power of their own fanaticism. These leaders know their cult’s deepest secrets and often control strange relics, mystical sites, and monstrous servants.</p>"
+            "content": "<p>Los hierofantes sectarios son líderes que supervisan la vida de sus subordinados, dictan los edictos del culto e interpretan la voluntad de su patrón. Poseen poderes sobrenaturales obtenidos del patrón del culto, de fuentes sobrenaturales o de la fuerza de su propio fanatismo. Estos líderes conocen los secretos más profundos de su culto y a menudo controlan reliquias extrañas, lugares místicos y sirvientes monstruosos.</p>"
           }
         },
         "mLhSdTMNUASK6i3R": {
           "name": "Tipos de sectarios",
           "text": {
-            "content": "<p>Cults can organize around any mystical tradition, but many serve supernatural beings. Cult members often have abilities tied to the forces they worship.</p>"
+            "content": "<p>Los cultos pueden organizarse en torno a cualquier tradición mística, pero muchos sirven a seres sobrenaturales. Los miembros de un culto suelen tener capacidades ligadas a las fuerzas que veneran.</p>"
           }
         },
         "TfHVYHWtS92E2YRI": {
           "name": "Sectario aberrante",
           "text": {
-            "content": "<p>Aberrant cultists pursue mind-bending powers from alien forces. Aberrant cultists align with monsters such as aboleths and mind flayers or forces such as Cthulhu, Hadar, Ityak-Ortheel the Elf Eater, Nyarlathotep, malicious solar bodies, or entities from the Far Realm.</p>"
+            "content": "<p>Los sectarios aberrantes persiguen poderes que retuercen la mente, procedentes de fuerzas alienígenas. Estos sectarios se alinean con monstruos como aboleths y azotamentes, o con fuerzas como Cthulhu, Hadar, Ityak-Ortheel el Devorador de Elfos, Nyarlathotep, cuerpos solares malignos o entidades del Reino Lejano.</p>"
           }
         },
         "n7c1yeBdbTnjOZNX": {
           "name": "Sectario de la muerte",
           "text": {
-            "content": "<p>Death cultists revel in nihilistic forces, embracing them as paths to undeath, multiversal purity, or entropic inevitability. These cultists serve powerful undead beings, apocalyptic prophecies, or immortals with power over death, such as Acererak, Kyuss, Orcus, Vecna, or Wee Jas.</p>"
+            "content": "<p>Los sectarios de la muerte se deleitan en fuerzas nihilistas y las abrazan como caminos hacia la no muerte, la pureza multiversal o la inevitabilidad entrópica. Estos sectarios sirven a poderosos seres muertos vivientes, profecías apocalípticas o inmortales con poder sobre la muerte, como Acererak, Kyuss, Orcus, Vecna o Wee Jas.</p>"
           }
         },
         "7hD06JH0iI54c2Bh": {
           "name": "Sectario elemental",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.uCmcE0HVO62lsSZb classes=\"top-frame\"]</p><p>Elemental cultists harness destructive natural forces to cleanse the world of civilization or prove the dominance of one element over all others. Such cultists are aligned with Elemental monsters or wicked immortals such as the Princes of Elemental Evil or the Elder Elemental Eye.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.uCmcE0HVO62lsSZb classes=\"top-frame\"]</p><p>Los sectarios elementales canalizan fuerzas naturales destructivas para purgar el mundo de civilización o demostrar el dominio de un elemento sobre todos los demás. Estos sectarios se alinean con monstruos elementales o inmortales malvados como los Príncipes del Mal Elemental o el Ojo Elemental Anciano.</p>"
           }
         },
         "AR1qFw34j7YLQUwO": {
           "name": "Sectario infernal",
           "text": {
-            "content": "<p>Fiend cultists worship fiends or evil deities. They often work to bring ruin to innocents or to summon their sinister patron into the world. Fiend cultists might serve infamous powers such as archdevils and demon lords, or foul immortals—beings such as Demogorgon, Pazuzu, Iuz, Zariel, or Zuggtmoy.</p>"
+            "content": "<p>Los sectarios infernales veneran a infernales o deidades malignas. A menudo trabajan para llevar la ruina a inocentes o para invocar a su patrón siniestro en el mundo. Los sectarios infernales podrían servir a poderes infames como archidiablos y señores demoníacos, o a inmortales corruptos: seres como Demogorgon, Pazuzu, Iuz, Zariel o Zuggtmoy.</p>"
           }
         },
         "URxt7XoMBPMOxHQ5": {
