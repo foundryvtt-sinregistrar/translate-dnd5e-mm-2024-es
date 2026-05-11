@@ -1,4 +1,4 @@
-export function phb2024JournalEntryFullById(entity, translation) {
+export function mm2024JournalEntryFullById(entity, translation) {
     if (!translation) return entity;
 
     // Entry name

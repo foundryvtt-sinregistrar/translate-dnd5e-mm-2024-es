@@ -8,5 +8,594 @@
     }
   },
   "folders": {},
-  "entries": {}
+  "entries": {
+    "mmAppendixAAnima": {
+      "name": "Animales",
+      "title": "Ap. A: Animales",
+      "pages": {
+        "CTjWCCwtyafG0uqR": {
+          "name": "Apéndice A",
+          "text": {
+            "content": "<aside class=\"notable\"><h4>Animales fantásticos</h4><p>Los siguientes bloques de estadísticas de este apéndice representan versiones fantásticas de animales del mundo real:</p><p><strong>@UUID[.FJ5occovKENUe5Oq]{Halcón sangriento}:</strong> Aves parecidas a halcones, excesivamente agresivas, conocidas por robar gemas</p><p><strong>@UUID[.IO3FQv6plccdlyiN]{Serpiente voladora}:</strong> Serpientes aladas y venenosas que a menudo se entrenan para servir como mensajeras</p><p><strong>@UUID[.elcWGQGyU3lvuU5z]{Águila gigante}:</strong> Poderosas águilas que ayudan a los héroes</p><p><strong>@UUID[.neFAvivqaFHAKD49]{Alce gigante}:</strong> Guardianes místicos del bosque</p><p><strong>@UUID[.4pciwmCodavbh37k]{Escarabajo de fuego gigante}:</strong> Escarabajos luminosos que habitan en cuevas</p><p><strong>@UUID[.445bqbUoIKHvwBlJ]{Búho gigante}:</strong> Sabios y augures aviares</p><p><strong>@UUID[.Uv5sBiJUmczYDNTf]{Buitre gigante}:</strong> Buitres crueles que sirven a villanos</p></aside><p>Este apéndice proporciona bloques de estadísticas para animales del tipo Bestia —junto con muchos de sus parientes gigantescos o mitologizados— en orden alfabético. La mayoría representan versiones de animales que existen, o existieron, en el mundo real. Puedes encontrar descripciones de estas criaturas en diccionarios u otras fuentes educativas, o crear nuevos papeles para ellas en tus mundos de D&amp;D.</p><p>Usa estos bloques de estadísticas para representar a las criaturas que les dan nombre u otras criaturas similares. Por ejemplo, el bloque de estadísticas de la Pantera también puede representar un puma, mientras que el bloque de estadísticas de la Cabra gigante podría representar un búfalo. Cualquiera de estos bloques de estadísticas también puede servir como animal fantástico, con nombres distintivos y detalles cosméticos únicos para tus aventuras de D&amp;D.</p><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.bNVLyJe2MXY4EIqR classes=\"size-three float-right top-frame\"]</p>"
+          }
+        },
+        "boTjWmd9sj4Ff62o": {
+          "name": "Alosaurio",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAllosaurus0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "a5txJkdnuJmV5xH3": {
+          "name": "Anquilosaurio",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.A0XhzS5dHXWfv0E7 caption=false classes=\"float-right size-three\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnkylosaurus00 statblock caption=false cite=true]</p>"
+          }
+        },
+        "czh3ZaFg7XKlcxYk": {
+          "name": "Simio",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmApe00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "AcSox4ZVvskoypvI": {
+          "name": "Archelon",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.Wd2M7w0m3jnSja5R classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmArchelon000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "GkLx8qGH75yHKX8x": {
+          "name": "Babuino",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBaboon00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "HIgtnVFNmcAB77dd": {
+          "name": "Tejón",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBadger00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "Jdt7inWc4MIXwmRy": {
+          "name": "Murciélago",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBat00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "3p5w6mH7RBWrEcJK": {
+          "name": "Oso negro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlackBear00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "FJ5occovKENUe5Oq": {
+          "name": "Halcón sangriento",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBloodHawk00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "VFprtr4VdsEvQjr2": {
+          "name": "Jabalí",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBoar0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "lhJH1uwqdttA5lii": {
+          "name": "Oso pardo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBrownBear00000 statblock caption=false cite=true]</p><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.oAldhkWQto9OjgGN classes=\"bottom-frame\"]</p>"
+          }
+        },
+        "qzS0AMZVduN1xVts": {
+          "name": "Camello",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.TBu5jS7ulQ1XFaZT classes=\"float-right size-three\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCamel000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "BoFqf2ThVjLvZ4H1": {
+          "name": "Gato",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCat00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "p4HBDVcNg2OX9pct": {
+          "name": "Serpiente constrictora",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.hkg0ZmsUNLbiWOJU classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmConstrictorSna statblock caption=false cite=true]</p>"
+          }
+        },
+        "EhvyvdbH2bjgComK": {
+          "name": "Cangrejo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCrab0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "twYp1c1osDo89qDM": {
+          "name": "Cocodrilo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCrocodile00000 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Las prohibiciones de nuestros dioses son claras. No ordenaré a mis guerreros que traigan la cabeza del cocodrilo Mil Dientes, por muchos que devore. Vosotros, aventureros, en cambio...</p><p class=\"quote-author\">—Reina Othokent, soberana del pueblo lagarto</p></aside>"
+          }
+        },
+        "fm8Yzam5Wxb7OeQh": {
+          "name": "Ciervo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeer0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "ZxlZRBBDl8EypJmR": {
+          "name": "Lobo terrible",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.VhWPhbkJjwPbpvf6 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDireWolf000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "7PsCDnXY0pGjXrXN": {
+          "name": "Caballo de tiro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDraftHorse0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "vtnadpiROqSD24P9": {
+          "name": "Águila",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEagle000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "b9TbOuyLSTeOyEnG": {
+          "name": "Elefante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.jsMqG55NjMU0pnl9 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmElephant000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "wrIzYa8s8t4WYuyx": {
+          "name": "Alce",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmElk00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "IO3FQv6plccdlyiN": {
+          "name": "Serpiente voladora",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFlyingSnake000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "zFRmBXXTTcFTG9Lm": {
+          "name": "Rana",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFrog0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "JlXXtzdFo7W6Zcj7": {
+          "name": "Simio gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantApe000000 statblock caption=false cite=true]</p><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.viBTVxF3Eq1WPKUw classes=\"side-by-side right-cradle-frame\"]</p>"
+          }
+        },
+        "DktMoFqpU9kz4H08": {
+          "name": "Tejón gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantBadger000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "k8p9t7XRMLmgWKZr": {
+          "name": "Murciélago gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantBat000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "GDvf4czpKOh0rzEs": {
+          "name": "Jabalí gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.wirYBeJsrBPL8OF8 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantBoar00000 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Bordeamos las costas de varias islas, navegando al sudoeste hasta llegar a una pequeña península separada de la isla principal por una enorme muralla de piedra. Fuimos bien recibidos por la gente de Tanaroa, la pequeña aldea que vigila esta muralla. Los aldeanos no tienen otro nombre para la gran isla que la Isla del Terror.</p><p class=\"quote-author\">—Rory Barbarosa, <em>Bitácora del Gallivant</em></p></aside>"
+          }
+        },
+        "5SOuMdlM08DPALos": {
+          "name": "Ciempiés gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantCentipede statblock caption=false cite=true]</p>"
+          }
+        },
+        "2D2IoGRcYJh3UBtK": {
+          "name": "Serpiente constrictora gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantConstrict statblock caption=false cite=true]</p>"
+          }
+        },
+        "jh5Ng0qYr1y78DqO": {
+          "name": "Cangrejo gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.bIg0vixy1PerLFKR classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantCrab00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "OJaSAdru9P6LEOJX": {
+          "name": "Cocodrilo gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantCrocodile statblock caption=false cite=true]</p>"
+          }
+        },
+        "elcWGQGyU3lvuU5z": {
+          "name": "Águila gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantEagle0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "neFAvivqaFHAKD49": {
+          "name": "Alce gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantElk000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "4pciwmCodavbh37k": {
+          "name": "Escarabajo de fuego gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantFireBeetl statblock caption=false cite=true]</p>"
+          }
+        },
+        "4nItoON53aHTT6Np": {
+          "name": "Rana gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantFrog00000 statblock caption=false cite=true classes=\"long-statblock\"]</p>"
+          }
+        },
+        "2NJl3sJS76BRyxUo": {
+          "name": "Cabra gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.oC0a02HtyKyHdOHp classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantGoat00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "U8YNCNPoZS2NeQwD": {
+          "name": "Hiena gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantHyena0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "fxV4PwLNMDkDWR1v": {
+          "name": "Lagarto gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.vqlurmdMVEG1QgzA classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantLizard000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "jxiVjzp16SwzKsaX": {
+          "name": "Pulpo gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantOctopus00 statblock classes=\"tall-statblock\" caption=false cite=true]</p>"
+          }
+        },
+        "445bqbUoIKHvwBlJ": {
+          "name": "Búho gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantOwl000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "n8TUtOLRih6gVCii": {
+          "name": "Rata gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.GCQ3YrbCAW9ad64n classes=\"side-by-side top-frame\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantRat000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "n76bIbxf1pulhlA1": {
+          "name": "Escorpión gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantScorpion0 statblock caption=false cite=true]</p>"
+          }
+        },
+        "w1Opj6ngpPLYpzhS": {
+          "name": "Caballito de mar gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantSeahorse0 statblock caption=false cite=true]</p>"
+          }
+        },
+        "SdUF7NzQS4SIlQ0N": {
+          "name": "Tiburón gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantShark0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "eoatHdLIlkdTpEee": {
+          "name": "Araña gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantSpider000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "YfzVyNjuNNu4gXnn": {
+          "name": "Calamar gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.3mIDcNyN61wQCSKt classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantSquid0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "hsa2gVukJJ9SwJT0": {
+          "name": "Sapo gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantToad00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "gozuPqBLq5CdFCRn": {
+          "name": "Serpiente venenosa gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantVenomousS statblock caption=false cite=true]</p>"
+          }
+        },
+        "Uv5sBiJUmczYDNTf": {
+          "name": "Buitre gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantVulture00 statblock caption=false cite=true]</p>"
+          }
+        },
+        "fEe7XSeW72md375c": {
+          "name": "Avispa gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.4noKQDL3RMy1W7b4 classes=\"side-by-side cradle-frame\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantWasp00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "jQvnBOQd03L1jGrX": {
+          "name": "Comadreja gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.aoJarGx0eB934z4U classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantWeasel000 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Guardaos de las serpientes gigantes peludas de las montañas Yatil. Sus pieles pueden ser cálidas, pero sus mordeduras son mortales.</p><p class=\"quote-author\">—Bannik Vorl, agente del margrave de la Marca de Bissel</p></aside>"
+          }
+        },
+        "Omk66TpbyCBK4VAo": {
+          "name": "Tarántula gigante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.oaQLGGQdTOGpdp9g classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantWolfSpide statblock caption=false cite=true]</p>"
+          }
+        },
+        "37WXMK2WwtcRDkdm": {
+          "name": "Cabra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoat0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "QUwo5emFmozN6HR0": {
+          "name": "Halcón",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.rOI1CNWQVh4g7M83 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHawk0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "13bD8Xxw7q0lmKWa": {
+          "name": "Hipopótamo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHippopotamus00 statblock caption=false cite=true]</p>"
+          }
+        },
+        "uTz3wXhNOzvpzPUb": {
+          "name": "Tiburón cazador",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.2aXYDyJRElagxwVK classes=\"side-by-side cradle-frame\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHunterShark000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "VKK4nyjpJeLwKWlc": {
+          "name": "Hiena",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHyena000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "ieRVzfbn2KW6VRTD": {
+          "name": "Chacal",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmJackal00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "3EEBc1Q3WgEvIOag": {
+          "name": "Orca",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKillerWhale000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "OTvyXXmnLKlZF3WE": {
+          "name": "León",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.aO41mnCTjbbSjav2 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLion0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "t0mlUZQbdH2B2mHU": {
+          "name": "Lagarto",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLizard00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "4tGjZ082H9TPphMu": {
+          "name": "Mamut",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMammoth0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "dgJg7tuZWjBsn7hN": {
+          "name": "Mastín",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMastiff0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "xFjCuguLB1XoSlbx": {
+          "name": "Mula",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMule0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "GM6UQ2SSCRaT8OGu": {
+          "name": "Pulpo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.c3mJ5tNEWELL8y6Y classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOctopus0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "6KI7zSxbWs0IsiRv": {
+          "name": "Búho",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.8Ah65SuUgiZKx9vx classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOwl00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "WUNl1zE74grQUcLv": {
+          "name": "Pantera",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPanther0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "8h5EEu5HRIvcJrIz": {
+          "name": "Piraña",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPiranha0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "wQgeDjxOLkKUQB5e": {
+          "name": "Plesiosaurio",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPlesiosaurus00 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Antes me limitaba a nadar por el lago y comer peces, pero la humana que me dio este don dijo que debía poner de mi parte para ayudar a la Doncella de Escarcha. Ahora espanto a los pescadores y a quien haga falta para no volver a ser una bestia estúpida.</p><p class=\"quote-author\">—El Monstruo de Maer Dualdon, plesiosaurio despertado</p></aside>"
+          }
+        },
+        "fznVlCTAdPJUaHM0": {
+          "name": "Oso polar",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPolarBear00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "89QDRHWkdYr89DSG": {
+          "name": "Poni",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPony0000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "E96ZlrCHriUorDx1": {
+          "name": "Pteranodon",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPteranodon0000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "0qRJvElPfvgHGz78": {
+          "name": "Rata",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRat00000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "R9HVIaiL5SqZ1iw9": {
+          "name": "Cuervo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRaven000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "JfDoHJpnBWjJJeRz": {
+          "name": "Tiburón de arrecife",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmReefShark00000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "8bi3eca7gmGQcWcY": {
+          "name": "Rinoceronte",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.2ahCb3rpXljKaZkN classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRhinoceros0000 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Oh, me deshice de esa <em>Varita de las Maravillas</em> hace años. Lo último que necesitan los jardines de hierbas de la Mansión Ivy es otro rinoceronte.</p><p class=\"quote-author\">—Penelope Harpell</p></aside>"
+          }
+        },
+        "ibiVEbFYaeqWBzGZ": {
+          "name": "Caballo de monta",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRidingHorse000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "40R28GfmcwWg3Yft": {
+          "name": "Tigre dientes de sable",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSabertoothedTi statblock caption=false cite=true]</p>"
+          }
+        },
+        "hUYdZhpfslWujrSp": {
+          "name": "Escorpión",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.CqPAZohQtaFBOwN1 classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmScorpion000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "kCw8NHo2ppAOUoch": {
+          "name": "Caballito de mar",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSeahorse000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "h9aXxE75mHc8X6TY": {
+          "name": "Araña",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpider00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "WnWpnZ03SftzmcfW": {
+          "name": "Enjambre de murciélagos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfBats000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "w4ty6cWbJfvzIkMZ": {
+          "name": "Enjambre de insectos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfInsects statblock caption=false cite=true]</p>"
+          }
+        },
+        "S7rB7SAOoNmKJr5F": {
+          "name": "Enjambre de pirañas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfPiranha statblock caption=false cite=true]</p>"
+          }
+        },
+        "UJnZTn2SUWeTfPu9": {
+          "name": "Enjambre de ratas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfRats000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "L0FocVGFlfjnoePN": {
+          "name": "Enjambre de cuervos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.z9PTBjuy5s3R5Pqg caption=false classes=\"float-right size-two lift-50\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfRavens0 statblock caption=false cite=true]</p><aside class=\"quote\"><p>Sus ojos están por todas partes: motas de carbonado, charcos de medianoche. La Reina Cuervo observa.</p><p class=\"quote-author\">—Grafiti de Evernight</p></aside>"
+          }
+        },
+        "gk15WhvhQVgUn3UG": {
+          "name": "Enjambre de serpientes venenosas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfVenomou statblock caption=false cite=true]</p>"
+          }
+        },
+        "ozStXaLUa5m3Qdnu": {
+          "name": "Tigre",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTiger000000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "8Ee3YGY7XA0ne3my": {
+          "name": "Triceratops",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTriceratops000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "aCqYOSQyjLzFs3FP": {
+          "name": "Tiranosaurio Rex",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.4rzlqmT2xLOtDuHi classes=\"float-right size-three lift-50\" caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTyrannosaurusR statblock caption=false cite=true]</p>"
+          }
+        },
+        "juxlYZeL7OUeznLt": {
+          "name": "Serpiente venenosa",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVenomousSnake0 statblock caption=false cite=true]</p>"
+          }
+        },
+        "yJVGUXzX1AgIUhv8": {
+          "name": "Buitre",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVulture0000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "RBoaA6zRfVsmokCc": {
+          "name": "Caballo de guerra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWarhorse000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "5gIc77Hzm2rqC84x": {
+          "name": "Comadreja",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWeasel00000000 statblock caption=false cite=true]</p>"
+          }
+        },
+        "Ls3RwFhjHWdrOSAK": {
+          "name": "Lobo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWolf0000000000 statblock caption=false cite=true]</p>"
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-export function phb2024JournalPagesById(source, translation) {
+export function mm2024JournalPagesById(source, translation) {
     if (!source || !translation) return source;
 
     const setProperty = globalThis.foundry?.utils?.setProperty
@@ -44,7 +44,7 @@ export function phb2024JournalPagesById(source, translation) {
             page.name = tPage.name;
         }
 
-        // Título interno usado por el índice especial del PHB:
+        // Título interno usado por el índice especial del mm:
         // pages.<id>.flags.dnd5e.title
         const pageTitle =
             (typeof tPage.title === "string") ? tPage.title :

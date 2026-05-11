@@ -3,12 +3,12 @@
  * - Registers for both "es" and "es-ES" style language codes.
  */
 Hooks.on("init", () => {
-  const babele = game?.babele;
-  if (!babele) return;
+    const babele = game?.babele;
+    if (!babele) return;
 
-  const current = game.i18n?.lang ?? "es";
-  const base = current.split("-")[0];
-  const langs = Array.from(new Set([current, base]));
+    const current = game.i18n?.lang ?? "es";
+    const base = current.split("-")[0];
+    const langs = Array.from(new Set([current, base]));
 
     const compendium = {
         "dnd-monster-manual.content": {
