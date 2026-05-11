@@ -1071,61 +1071,61 @@
         "gzTUYPi9wHg0WMP0": {
           "name": "Osgos",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EJk5FMiDOaByFxxx caption=false classes=\"float-right size-two lift-50\"]</p><p class=\"creature-flavor\"><em>Lurking Goblinoid Brutes</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Bosque, Pradera, Planar (Parajes Feéricos), Infraoscuridad; <strong>Tesoro:</strong> Armamento, Individual</p><p>Bugbears embody fear of the wilds and the menace of natural places. They’re notoriously stealthy, and foes that venture into their territories often vanish without a trace.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EJk5FMiDOaByFxxx caption=false classes=\"float-right size-two lift-50\"]</p><p class=\"creature-flavor\"><em>Brutos goblinoides acechantes</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Bosque, Pradera, Planar (Parajes Feéricos), Infraoscuridad; <strong>Tesoro:</strong> Armamento, Individual</p><p>Los osgos encarnan el miedo a las tierras salvajes y la amenaza de los lugares naturales. Son famosos por su sigilo, y los enemigos que se aventuran en sus territorios a menudo desaparecen sin dejar rastro.</p>"
           }
         },
         "lMvm5fxnuHBDhxD2": {
           "name": "Osgo acechador",
           "text": {
-            "content": "<p>Bugbear stalkers frequently take their victims hostage, relishing opportunities to imprison and terrorize other creatures.</p>"
+            "content": "<p>Los osgos acechadores suelen tomar rehenes a sus víctimas, disfrutando de toda oportunidad de encarcelar y aterrorizar a otras criaturas.</p>"
           }
         },
         "aZNE3q6npBVVLIa1": {
           "name": "Osgo guerrero",
           "text": {
-            "content": "<p>Bugbear warriors serve those who offer them treasure, food, or the chance to hunt challenging prey.</p>"
+            "content": "<p>Los osgos guerreros sirven a quienes les ofrecen tesoros, comida o la ocasión de cazar presas desafiantes.</p>"
           }
         },
         "7YC2xCG9MigFWkoe": {
           "name": "Bulettes",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.cvK1louEjKMLI1Vz caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Ravenous, Subsurface Land Sharks</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pradera, Colina, Montaña; <strong>Tesoro:</strong> Ninguno</p><p>Also called “land sharks,” bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They burrow rapidly just belowground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.cvK1louEjKMLI1Vz caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Tiburones terrestres voraces y subterráneos</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pradera, Colina, Montaña; <strong>Tesoro:</strong> Ninguno</p><p>También llamadas “tiburones terrestres”, las bulettes son depredadores de una determinación implacable que excavan bajo los obstáculos, saltan por encima de ellos o irrumpen a través de ellos en persecución de su presa. Excavan rápidamente justo por debajo de la superficie. Al detectar movimiento, emergen desde abajo e intentan atrapar a la presa entre sus enormes fauces.</p>"
           }
         },
         "QzzVukWu7JMpUiLe": {
           "name": "Bulette",
           "text": {
-            "content": "<p>Bulettes range under vast territories. They often threaten animal herds, and they can wipe out whole farming communities.</p>"
+            "content": "<p>Las bulettes recorren territorios enormes. Suelen amenazar a los rebaños de animales y pueden arrasar comunidades agrícolas enteras.</p>"
           }
         },
         "vRlIMWOXhWa4PnEV": {
           "name": "Bulette cachorro",
           "text": {
-            "content": "<p>Juvenile bulettes are known as pups. They travel in small groups, using their numbers to bring down larger foes. Their arrival frequently presages the appearance of an adult bulette.</p>"
+            "content": "<p>Las bulettes juveniles se conocen como cachorros. Viajan en pequeños grupos y usan su número para derribar enemigos más grandes. Su llegada suele presagiar la aparición de una bulette adulta.</p>"
           }
         },
         "PMD05f22oIhFXfR1": {
           "name": "Bullywugs",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ge05JmB5wPdmaAQ3 caption=false classes=\"float-right size-two lift-50\"]</p><p class=\"creature-flavor\"><em>Amphibious Appreciators of Marsh and Muck</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pantano; <strong>Tesoro:</strong> Instrumentos, Individual</p><p>Fey embodiments of swamplands, bullywugs protect the murky wilds and consider themselves cosmically favored for that role. These human-size, toad- or frog-like creatures have close relationships with the creatures of the swamp.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ge05JmB5wPdmaAQ3 caption=false classes=\"float-right size-two lift-50\"]</p><p class=\"creature-flavor\"><em>Anfibios amantes de las marismas y el fango</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pantano; <strong>Tesoro:</strong> Instrumentos, Individual</p><p>Como encarnaciones feéricas de los humedales, los bullywugs protegen las tierras salvajes y cenagosas, y se consideran cósmicamente favorecidos por desempeñar ese papel. Estas criaturas de tamaño humano, parecidas a sapos o ranas, mantienen estrechas relaciones con las criaturas del pantano.</p>"
           }
         },
         "pkcKu5qmduJzTjMl": {
           "name": "Bullywug erudito del pantano",
           "text": {
-            "content": "<p>Bullywug bog sages channel the magic of the swamp to sicken foes and speak with plants.</p>"
+            "content": "<p>Los bullywugs eruditos del pantano canalizan la magia de la ciénaga para enfermar a sus enemigos y hablar con las plantas.</p>"
           }
         },
         "H5vEeQNCOqMvmsSt": {
           "name": "Bullywug guerrero",
           "text": {
-            "content": "<p>Bullywug warriors are adept at moving through swamps and ambushing trespassers. They often work alongside packs of trained giant frogs.</p>"
+            "content": "<p>Los bullywugs guerreros son expertos en moverse por los pantanos y tender emboscadas a los intrusos. Suelen actuar junto a manadas de ranas gigantes entrenadas.</p>"
           }
         },
         "B5yFLgV28d86CWwO": {
           "name": "Cambion",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.gWQznavqUVets84S caption=false classes=\"float-right size-three lift-50\"]</p><p class=\"creature-flavor\"><em>Mortal Infused with Fiendish Might</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Reliquias</p><p>Cambions are former mortals corrupted by fiendish power or possessed by insidious forces. While tieflings are free-willed individuals with a hint of fiendish ancestry, cambions are inherently tied to or remade by the wicked magic of the Planos Inferiores.</p><p>Many cambions serve the malevolent forces that are the source of their powers. Others seek to claim the might of whatever created them or to seize otherworldly powers of their own. Among the most notorious of such cambions is Iuz, a villain who became an evil demigod and whose villainous nation threatens the Free City of Greyhawk on Oerth.</p><aside class=\"quote\"><p>It seems that I must do everything myself, since I have only fools for servants. Clearly disappointment must ever be the price of divinity.</p><p class=\"quote-author\">—Iuz the Evil, cambion demigod</p></aside><p>Cambions come into being in disparate ways. Tira o elige a result from the Cambion Origins tabla to determine the source of a cambion’s fiendish might.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCambionOrigins rollable classes=\"caption-top\"]</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.gWQznavqUVets84S caption=false classes=\"float-right size-three lift-50\"]</p><p class=\"creature-flavor\"><em>Mortal imbuido de poder infernal</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Cualquiera; <strong>Tesoro:</strong> Reliquias</p><p>Los cambiones son antiguos mortales corrompidos por poder infernal o poseídos por fuerzas insidiosas. Mientras que los tieflings son individuos con libre albedrío y un toque de ascendencia infernal, los cambiones están vinculados inherentemente a la magia perversa de los Planos Inferiores o han sido rehechos por ella.</p><p>Muchos cambiones sirven a las fuerzas malévolas que son la fuente de sus poderes. Otros buscan reclamar el poder de aquello que los creó o hacerse con poderes de otros mundos por sí mismos. Entre los cambiones más notorios se encuentra Iuz, un villano que se convirtió en semidiós maligno y cuya nación perversa amenaza la Ciudad Libre de Greyhawk en Oerth.</p><aside class=\"quote\"><p>Parece que debo hacerlo todo yo mismo, ya que solo tengo necios por sirvientes. Está claro que la decepción siempre debe ser el precio de la divinidad.</p><p class=\"quote-author\">—Iuz el Maligno, semidiós cambion</p></aside><p>Los cambiones nacen de formas muy diversas. Tira o elige un resultado de la tabla Orígenes del cambion para determinar la fuente del poder infernal de un cambion.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmCambionOrigins rollable classes=\"caption-top\"]</p>"
           }
         },
         "NTrXiS2nr1jrYq0F": {
