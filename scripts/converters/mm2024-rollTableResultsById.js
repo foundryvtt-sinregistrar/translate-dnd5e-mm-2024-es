@@ -1,4 +1,4 @@
-export function phb2024RollTableResultsById(source, translation) {
+export function mm2024RollTableResultsById(source, translation) {
     if (!source || !translation || typeof translation !== "object") return source;
 
     const cloneOne = (r) => foundry.utils.deepClone?.(r) ?? structuredClone(r);

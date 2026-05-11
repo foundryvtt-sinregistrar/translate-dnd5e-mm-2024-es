@@ -1,4 +1,4 @@
-export function phb2024ActivitiesById(source, translation) {
+export function mm2024ActivitiesById(source, translation) {
     if (!source || typeof source !== "object" || !translation || typeof translation !== "object") {
         return source;
     }
