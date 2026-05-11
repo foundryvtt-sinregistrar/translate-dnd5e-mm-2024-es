@@ -1868,6 +1868,1493 @@
           }
         }
       }
+    },
+    "mmMonstersAtoZ00": {
+      "name": "Monstruos de la A a la Z",
+      "pages": {
+        "PvqfUauw3m1qe7oF": {
+          "name": "Aarakocra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1AB1kcMsMnE3ucAr caption=false cite=false]</p><h2>Aarakocra aeromante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PTb2n2M73OpzYRhU caption=false cite=false]</p><h2>Aarakocra experto en escaramuzas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UC607AqpkrOUHCf6 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAarakocraAerom caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAarakocraSkirm caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "wWsjCZ54lUjU4iyd": {
+          "name": "Aboleth",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.zKQ8LudN8ic7X5tu caption=false cite=false]</p><h2>Guaridas de aboleths</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hJH8stTKsGyCliPp caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAboleth0000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "iGrx8vJIixPLomRP": {
+          "name": "Elemental de aire",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.i5pNZbihTET81SQO caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAirElemental00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "Qbz3ccyaaDNXjTkR": {
+          "name": "Señor de los animales",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hgLZCXL2IF6jYYTr caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnimalLord0000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "1GgU9QS72NPS3JUX": {
+          "name": "Objetos animados",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YKvIouWZhOP2prWL caption=false cite=false]</p><h2>Armadura animada</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TJfHa9mcPEnVs0gn caption=false cite=false]</p><h2>Escoba animada</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCMAJo0381v0a8gb caption=false cite=false]</p><h2>Espada voladora animada</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hOHBUNv71AbHmuOU caption=false cite=false]</p><h2>Alfombra asfixiante animada</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Pbu9kEMJQNGcJlDo caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnimatedArmor0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnimatedBroom0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnimatedFlying caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnimatedRugOfS caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "3WSN4TTWARjvUkgR": {
+          "name": "Ankheg",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OsLfNiBTDGTKaajS caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAnkheg00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "bss5O7eA2XxF0cko": {
+          "name": "Arcanaloth",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1c77kgwmUBXjt3ew caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmArcanaloth0000 caption=false statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "LYBl2Naj4emvKwfQ": {
+          "name": "Archisaga",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.8LUieZ8atjwqr7QR caption=false cite=false]</p><h2>Guaridas de archisagas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XUDAXmTKXhJtUipt caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmArchhag0000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "7ZwTS15VL3A4r2R0": {
+          "name": "Asesino",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.xpHM2vQIAyR2ttqJ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAssassin000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "14Q0pyxQsCAWoZzo": {
+          "name": "Plantas despertadas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.e87Q14xxD5s8sJrv caption=false cite=false]</p><h2>Arbusto despertado</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NX5fqyiagrUG461O caption=false cite=false]</p><h2>Árbol despertado</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Pw4j0m1k0tVffhD2 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedShrub0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAwakenedTree00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "V5baGKbVj377IR8d": {
+          "name": "Picos de hacha",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HbA0tUgLR0NxiPyW caption=false cite=false]</p><h2>Pico de hacha</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kB9xuOKJSZ9Dnp98 caption=false cite=false]</p><h2>Pico de hacha gigante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NdMiY8UWuX76WuZd caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAxeBeak0000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGiantAxeBeak00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "t9hzKBCxFAkt0w1p": {
+          "name": "Azers",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hjy5XDYlj1J5cpV6 caption=false cite=false]</p><h2>Azer piromante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mZMbcB3znF204Crx caption=false cite=false]</p><h2>Azer centinela</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Shm8WcUiuPAfkSZc caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAzerPyromancer caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAzerSentinel00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "mWcROUZcRLMN8Hxl": {
+          "name": "Balor",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.dstDspmI7LdrCsxy caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBalor000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "L0qddX7CgImaznG2": {
+          "name": "Bandidos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ORyQoMthsD5YZa49 caption=false cite=false]</p><h2>Bandido</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.BOqXIilnnBRsQabZ caption=false cite=false]</p><h2>Bandido capitán</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Sdj1owLnrEFL6KGB caption=false cite=false]</p><h2>Embaucador bandido</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mYYcK59M5xX38pXL caption=false cite=false]</p><h2>Bandido señor del crimen</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4XFYC8rTLTnoPr5i caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBandit00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBanditCaptain0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBanditDeceiver caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBanditCrimeLor caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "HaaAUnfAdtnlu2Ya": {
+          "name": "Banshee",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Q4jPemJvvv6Gsp2k caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBanshee0000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "Vzpho8zJkNsHQU7y": {
+          "name": "Diablo punzante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.95Oeqtw6UgtSLiO1 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBarbedDevil000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "1EZPz65fWSJgSXwi": {
+          "name": "Barlgura",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GlqgXskIFwSsAHDc caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBarlgura000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "8kIKiDSHasHd3MBv": {
+          "name": "Basilisco",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XSbY1pakVSOrMX5q caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBasilisk000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "65CntoJ7zvQIx01s": {
+          "name": "Diablo barbado",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PTpNAXCUpaUdNbcx caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBeardedDevil00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "1gKMIAfGAHAyBvLK": {
+          "name": "Behir",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3KRqfk0N13GxO0yw caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBehir000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "EUF3lxstl3f2BBth": {
+          "name": "Contemplador",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ROov3E2qOiEfjDXM caption=false cite=false]</p><h2>Guaridas de contempladores</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KR7cEJQa2N3FpOsS caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBeholder000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "3lN8zNGucKxT5vRS": {
+          "name": "Berserkers",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rCW1BWWOS7a0ibg1 caption=false cite=false]</p><h2>Berserker comandante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.RMuUV76hjk3waEER caption=false cite=false]</p><h2>Berserker</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.W16gTtESSKym2RPY caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBerserkerComma caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBerserker00000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "AEAFZ04se5eTU3zO": {
+          "name": "Dragones negros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EZn4p80bsBA4HbN8 caption=false cite=false]</p><h2>Dragón negro cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iE49waOfpKA4oHnC caption=false cite=false]</p><h2>Dragón negro joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ijzoMEowLIlXAWFU caption=false cite=false]</p><h2>Dragón negro adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.SQc2W3nrWbI05SlX caption=false cite=false]</p><h2>Dragón negro anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IS3Fu9OgbF3akCJJ caption=false cite=false]</p><h2>Guaridas de dragones negros</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FEo2r1L5xVDNMdAq caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlackDragonWyr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungBlackDrag caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlackDrag caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlackDr caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "KXTWkTyyCY4sFLZ3": {
+          "name": "Pudin negro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.t22zRqSzWwBmczVu caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlackPudding00 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "LX1YjwsnqGcIFV3o": {
+          "name": "Marchitas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.oIXTiU1B2cJqnVtP caption=false cite=false]</p><h2>Marchita rama</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4iHm8iktmxV4hyP0 caption=false cite=false]</p><h2>Marchita aguja</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ipVmBSov2XlEc47B caption=false cite=false]</p><h2>Marchita enredadera</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.RZfbvPmt0H5c537e caption=false cite=false]</p><h2>Marchito árbol</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.D5No4Ue9PCh5HOJj caption=false cite=false]</p><h2>Marchita de Gulthias</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.yzTvB3ANn81bx7GJ caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTwigBlight0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNeedleBlight00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVineBlight0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTreeBlight0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGulthiasBlight caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "lnvPSdpmEDhJ5R3m": {
+          "name": "Perro intermitente",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mI5uYW2EOiR5fIG6 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlinkDog000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "UDFfOYVQZVvEQ3gA": {
+          "name": "Amasijo de aniquilaciónn",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.eOmRGDXv0BqCZbVA caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlobOfAnnihila caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "aZiLko1zh4zt4P23": {
+          "name": "Dragones azules",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YmY5NC1DqZVHBNX2 caption=false cite=false]</p><h2>Dragón azul cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GVSCBsxQxqj2LjpV caption=false cite=false]</p><h2>Dragón azul joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ZSbk7sRomEX38jns caption=false cite=false]</p><h2>Dragón azul adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.dWfTqDzedhTCxeLU caption=false cite=false]</p><h2>Dragón azul anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.9wP9DzFRsF8qd1zv caption=false cite=false]</p><h2>Guaridas de dragones azules</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FxUO6BqWDhTii6wG caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlueDragonWyrm caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungBlueDrago caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultBlueDrago caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientBlueDra caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "WK7w7PlQ02LoGhOb": {
+          "name": "Diablo óseo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LhlUSSOMbbHHTi5e caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBoneDevil00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "x3ekUM7SjdtoScmx": {
+          "name": "Naga ósea",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FO4z6Rte4lAlNGNG caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBoneNaga000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "jDgvwqagylAaxKt3": {
+          "name": "Dragones de oropel",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3DDDv8e649NFyopV caption=false cite=false]</p><h2>Dragón de oropel cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.nAKAMLWRU0p3mOg4 caption=false cite=false]</p><h2>Dragón de oropel joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GRZTySs2c5SdcjrF caption=false cite=false]</p><h2>Dragón de oropel adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sNzT62I9lI6DI0eu caption=false cite=false]</p><h2>Dragón de oropel anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TaM3BPlTPJMh6g8d caption=false cite=false]</p><h2>Guaridas de dragones de oropel</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.qiYpaclDMsKS9soI caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBrassDragonWyr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungBrassDrag caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultBrassDrag caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientBrassDr caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "0H7Jo2EpoR64vzip": {
+          "name": "Dragones de bronce",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LAHrPwVByV6h0Mz4 caption=false cite=false]</p><h2>Dragón de bronce cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ajynsa5CfyCvkTqU caption=false cite=false]</p><h2>Dragón de bronce joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B9HrF6w51Ouw5Mlb caption=false cite=false]</p><h2>Dragón de bronce adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.78f3FEWOBLP7r9Te caption=false cite=false]</p><h2>Dragón de bronce anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LtM1392nQ9TJRZaT caption=false cite=false]</p><h2>Guaridas de dragones de bronce</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HbASCl4o2PUtmdEq caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBronzeDragonWy caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungBronzeDra caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultBronzeDra caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientBronzeD caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "ttyP63f4ZpvFn6J4": {
+          "name": "Osgos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.gzTUYPi9wHg0WMP0 caption=false cite=false]</p><h2>Osgo acechador</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lMvm5fxnuHBDhxD2 caption=false cite=false]</p><h2>Osgo guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.aZNE3q6npBVVLIa1 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBugbearStalker caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBugbearWarrior caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "Bm2ZYgxlO9mRp8Py": {
+          "name": "Bulettes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.7YC2xCG9MigFWkoe caption=false cite=false]</p><h2>Bulette</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.QzzVukWu7JMpUiLe caption=false cite=false]</p><h2>Bulette cachorro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vRlIMWOXhWa4PnEV caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBulette0000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBulettePup0000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "EneaqijhCKrrRGR1": {
+          "name": "Bullywugs",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PMD05f22oIhFXfR1 caption=false cite=false]</p><h2>Bullywug erudito del pantano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pkcKu5qmduJzTjMl caption=false cite=false]</p><h2>Bullywug guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.H5vEeQNCOqMvmsSt caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBullywugBogSag caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBullywugWarrio caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "FjO8vvVvfBgReVNs": {
+          "name": "Cambion",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B5yFLgV28d86CWwO caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCambion0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "lzCuz90RVsU3QPZT": {
+          "name": "Carroñero reptante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NTrXiS2nr1jrYq0F caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCarrionCrawler caption=false cite=true statblock]</p>"
+          }
+        },
+        "aqxr51qyAtsTzrPn": {
+          "name": "Centauros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6gendus8Qp1rrN8T caption=false cite=false]</p><h2>Centauro guardián</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VPAlFFXi5MywskyX caption=false cite=false]</p><h2>Centauro soldado</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.C1ervmnWcTkkyyxn caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCentaurWarden0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCentaurTrooper caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "Z6lIT7pPpdBRIMP0": {
+          "name": "Diablo de las cadenas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ZshK0GnbqU7TpaWe caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmChainDevil0000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "tX5PpH5scn1FhnF2": {
+          "name": "Chasme",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PkE84hL7046zeNb2 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmChasme00000000 caption=false cite=true statblock classes=\"float-left size-three\"]</p>"
+          }
+        },
+        "XV5BjYEJaMWINegZ": {
+          "name": "Quimera",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mFCTkCQYJLzYjSmu caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmChimera0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "2Znoovi4GcwAOuxa": {
+          "name": "Chuul",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B5wMYkbLXefYyuOS caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmChuul000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "3jj30B8y8b0KajI2": {
+          "name": "Gólem de arcilla",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.nXNuSMVknNRvHuOi caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmClayGolem00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "7CjrSnTgojI1OMuu": {
+          "name": "Manto",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ub0nTAbrWB4Lv64X caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCloaker0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "RH9YYPySDKpPC1V4": {
+          "name": "Gigante de las nubes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.MwzDhNxxTWGG8aoj caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCloudGiant0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "zUje6Iw2d7GuBk2q": {
+          "name": "Cocatrices",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.oIcwVIju3yCafPj9 caption=false cite=false]</p><h2>Cocatriz</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iqIjiQxS8rq7rdhG caption=false cite=false]</p><h2>Cocatriz regente</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3nANgGs91MTvPseH caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCockatrice0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCockatriceRege caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "ZGkEh52f3xIq88Iq": {
+          "name": "Coloso",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vvpOrm9V2nkqRlBC caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmColossus000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "ajpmD0clrJLcZI2V": {
+          "name": "Plebeyo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.M7bvUVFcncRjraJP caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCommoner000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "Jc6zaXWczN31hE7N": {
+          "name": "Dragones de cobre",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1gZk82d5dqtIeB4K caption=false cite=false]</p><h2>Dragón de cobre cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lTZn2r3AIookCsvp caption=false cite=false]</p><h2>Dragón de cobre joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rf7XkQDPecZGRgUs caption=false cite=false]</p><h2>Dragón de cobre adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.65HPUh59Y7xmtgsE caption=false cite=false]</p><h2>Dragón de cobre anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.JZSMBqM2jcAR6Id8 caption=false cite=false]</p><h2>Guaridas de dragones de cobre</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.CcknwGjBYkv7PPRI caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCopperDragonWy caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungCopperDra caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultCopperDra caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientCopperD caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "uSMwwTTplaQEO9fd": {
+          "name": "Couatl",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kYeBOKLe4Jxxf9Gr caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCouatl00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "CszG4ZiW2V02je4W": {
+          "name": "Garras reptantes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.g2nO7BdHr87x4LcU caption=false cite=false]</p><h2>Garra reptante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.qVzJYYgD5qGPzC5T caption=false cite=false]</p><h2>Enjambre de garras reptantes</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.H0hptBJtqqsq7vnK caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCrawlingClaw00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfCrawlin caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "qgqsaCYASrFoI4Uf": {
+          "name": "Sectarios",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VICfYukXoYkWJ1yn caption=false cite=false]</p><h2>Símbolos ocultistas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.eFfvGebpwsVHuEws caption=false cite=false]</p><h2>Miembros de culto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LlG9vEb9l9r0PJuM caption=false cite=false]</p><h2>Sectario</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.7OEqZFJzetIk928C caption=false cite=false]</p><h2>Sectario fanático</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DHw4tAz06WzLz07b caption=false cite=false]</p><h2>Sectario hierofante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.s4D5OTWHOKhQcYwW caption=false cite=false]</p><h2>Tipos de sectarios</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mLhSdTMNUASK6i3R caption=false cite=false]</p><h2>Sectario aberrante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TfHVYHWtS92E2YRI caption=false cite=false]</p><h2>Sectario de la muerte</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.n7c1yeBdbTnjOZNX caption=false cite=false]</p><h2>Sectario elemental</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.7hD06JH0iI54c2Bh caption=false cite=false]</p><h2>Sectario infernal</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AR1qFw34j7YLQUwO caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCultist0000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCultistFanatic caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCultistHieroph caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAberrantCultis caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathCultist00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmElementalCulti caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFiendCultist00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "0mkPBYRvou4g9EPO": {
+          "name": "Cíclopes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.URxt7XoMBPMOxHQ5 caption=false cite=false]</p><h2>Cíclope oráculo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Df5asCLOA4tLryL9 caption=false cite=false]</p><h2>Cíclope centinela</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GwEDK1IJDgAaWyzN caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCyclopsOracle0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmCyclopsSentry0 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "iHHH9jhhejRoxJdV": {
+          "name": "Dao",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XVjUNAzCz2zam09o caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDao00000000000 caption=false cite=true statblock classes=\"double-column float-clear\"]</p>"
+          }
+        },
+        "huvjxSJunu6ndZoW": {
+          "name": "Mantoscuro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DmKKsAs8j6WW7lQ2 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDarkmantle0000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "RXdpcdlHks9CDB6g": {
+          "name": "Perro del inframundo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iG1sIrpf7kyhMuPk caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathDog000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "5Fn3vCXgb7puJZoY": {
+          "name": "Caballeros de la muerte",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IC2tkedmjZBt4733 caption=false cite=false]</p><h2>Caballero de la muerte</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IcPhMww7JfsVRjTT caption=false cite=false]</p><h2>Caballero de la muerte aspirante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YODr1hp93SXFKzLn caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathKnight000 caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathKnightAsp caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "hBgrZDxT43QhcJ2S": {
+          "name": "Tirano sepulcral",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.7Xo5zu42gIQjrpPS caption=false cite=false]</p><h2>Guaridas de tiranos sepulcrales</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Ckr0NCF3IpLoeQ0F caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathTyrant000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "knQpWkYijzGRv7DV": {
+          "name": "Semilich",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NZEcrwCByEr0O7IM caption=false cite=false]</p><h2>Guaridas de semiliches</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.73nRmWoJvYKGQFhw caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDemilich000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "DHkkEOXbxYvM9oDP": {
+          "name": "Deva",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.veFHZfCVInZR1hxv caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeva0000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "qxKbLizZikAFa3wM": {
+          "name": "Bestia trémula",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mE8wcG0Ohf1FLESk caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDisplacerBeast caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "HdDBchzgJSumNmtU": {
+          "name": "Djinn",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WGDkyYe5UIbzgaa1 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDjinni00000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "tYgbSVxqZY9RZ7B5": {
+          "name": "Doppelganger",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1HjQuidJ5OdJh2Nd caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDoppelganger00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "psn0yt737OC1t9oI": {
+          "name": "Dracoliche",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IHoaZrAmth1TcD6m caption=false cite=false]</p><h2>Guaridas de dracoliches</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.onfvCULmDEbXGgra caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDracolich00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "QujrWUUaJVhoy2Av": {
+          "name": "Dragón tortuga",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sIYrutl3MUYXMVFp caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDragonTurtle00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "ld6ImmsNezopmAiG": {
+          "name": "Dretches",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Tp3r2uMnilo9SUIu caption=false cite=false]</p><h2>Dretch</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YeZoNZxhdDHR3iC2 caption=false cite=false]</p><h2>Enjambre de dretchs</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.oMjHuXIXawTv8iDy caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDretch00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfDretche caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "OA8oAxiFp2tj27i4": {
+          "name": "Draña",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1HrIAXqljEfEvurX caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDrider00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "X25yEyfkwDA2Qtl8": {
+          "name": "Druida",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YHhY8teRtbcSR64M caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDruid000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "pdWbT1UdTD148Nji": {
+          "name": "Dríada",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hcyESLRYsvc6utwx caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDryad000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "HcsgkUS97Zs9Ov9X": {
+          "name": "Elemental de tierra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Ux3UEbQ2Xe3VpAVd caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEarthElemental caption=false cite=true statblock]</p>"
+          }
+        },
+        "GhZmhPTyPgB8ry5C": {
+          "name": "Ifrit",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3CGsI2MNtnuSKs9W caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEfreeti0000000 caption=false cite=true statblock classes=\"double-column float-clear\"]</p>"
+          }
+        },
+        "urcYzqA4LMoEGYBP": {
+          "name": "Cataclismo elemental",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DlINa6sPHd2EwAv1 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmElementalCatac caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.i4X9aPoqE5DTohBz caption=false]</p>"
+          }
+        },
+        "SVS7eSxC7Np7xFqi": {
+          "name": "Empíreos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EeghH4EY0e0ozOgz caption=false cite=false]</p><h2>Empíreo menor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UfP3XBh5DPF3cHCM caption=false cite=false]</p><h2>Empíreo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.48cwdwrUBvwJfXPn caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEmpyreanIota00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEmpyrean000000 caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "Ci0k7DXfjeh9FjN3": {
+          "name": "Erinia",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YXZP2A00UrCViGCe caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmErinyes0000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "XNMSV5yRjDCwGZNU": {
+          "name": "Ettercap",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.MTUsn5tNpmZEIy7W caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEttercap000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "eC7HENHOpIGQoctq": {
+          "name": "Ettin",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.tCN0ubTwkqFBx3hl caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmEttin000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "7E2Dl3xe8XZrOsm4": {
+          "name": "Dragones feéricos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AqBgo4Po2QO1WBkC caption=false cite=false]</p><h2>Dragón feérico adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2YePImjgR84EIBWl caption=false cite=false]</p><h2>Dragón feérico joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.QKc0waSu0Sdmk38v caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFaerieDragonAd caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFaerieDragonYo caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "vw6icAkUuQJ80NCq": {
+          "name": "Elemental de fuego",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.M6gKJjmLDllg2rjI caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFireElemental0 caption=false cite=true statblock]</p>"
+          }
+        },
+        "586Z9tTrDDbK6Liz": {
+          "name": "Gigante de fuego",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.eFNUb8o8E9JZ3Wg6 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFireGiant00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "BaU3SDkKYJ2CtUfe": {
+          "name": "Calavera llameante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WAZJUcMdEthzO4bu caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFlameskull0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "9fI6fUNcF9NVJuBo": {
+          "name": "Gólem de carne",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sR4OpXpVwpw33CZC caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFleshGolem0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "iW7jho2ZvRah62E7": {
+          "name": "Flumph",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rK8xFsGMGM8QM56T caption=false cite=false]</p><h2>Colores de los flumphs</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.JFMPXfRI4trDMqO8 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFlumph00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "fT6A4nurk67RYmD9": {
+          "name": "Fomoré",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.oFVBU9PSAuN8Fy7I caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFomorian000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "XecjLLzc76kP0qKM": {
+          "name": "Gigante de escarcha",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6RdlNz0OFdYqFwgH caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFrostGiant0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "39KwfdzA13BzHkac": {
+          "name": "Hongos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pHlrbJcqGZYeFMhG caption=false cite=false]</p><h2>Hongo espora de gas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lI6SmutHpHid0grH caption=false cite=false]</p><h2>Hongo chillón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.CSFP1ELruuRCuHzZ caption=false cite=false]</p><h2>Hongo violeta</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.nvdF1xo3NshgH5lb caption=false cite=false]</p><h2>Necromole de hongos violetas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.QvL76BJNuAfB8EM1 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGasSporeFungus caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShriekerFungus caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVioletFungus00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVioletFungusNe caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "9bEi68kTsxj3u6Lg": {
+          "name": "Galeb Duhr",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.u4tRuqf6d6sNPbw8 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGalebDuhr00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "suz7Du1BGcefHMl0": {
+          "name": "Gárgola",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KJkoHa6ASqqSjrFX caption=false cite=false]</p><h2>Emboscadas de gárgolas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rOTJWyJC8aZdsngw caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGargoyle000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "0B3uI9PTzjAVI0vv": {
+          "name": "Cubo gelatinoso",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LmJS4wMt04wihw1Q caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGelatinousCube caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "rnyO7BzCzqqz7ZI5": {
+          "name": "Ghasts",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XJ3VpoOXcjYl1EV9 caption=false cite=false]</p><h2>Ghast</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4F193kyn5e9M7Hof caption=false cite=false]</p><h2>Ghast llamatumbas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AjVj91IZEUvWaXBL caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGhast000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGhastGravecall caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "KWbzkTnSU0FxRxoU": {
+          "name": "Fantasma",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Gay4X5s0XxGUuko6 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGhost000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "0fW9x56xf2hWWEZX": {
+          "name": "Guls",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DN8RNyJ7NsoA7TnO caption=false cite=false]</p><h2>Gul</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EvVQvnw1GfKG0xc3 caption=false cite=false]</p><h2>Gul lacedón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DIgn5Jug9peaUxrv caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGhoul000000000 statblock caption=false cite=false classes=\"float-clear\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLacedonGhoul00 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "HXrP0VKGl6qyA7N5": {
+          "name": "Bocón barbotante",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WCa9D9bIA97aX4L0 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGibberingMouth caption=false cite=true statblock]</p>"
+          }
+        },
+        "za6IuZM5MjVTyTlw": {
+          "name": "Githyanki",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iSDG3OfSEicT5fF9 caption=false cite=false]</p><h2>Historia de los gith</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GKSAkJ5I0Ev0Cjkk caption=false cite=false]</p><h2>Githyanki guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.C2gSy3RDEy5GsatZ caption=false cite=false]</p><h2>Githyanki guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.5maG6rPClxnKCsBj caption=false cite=false]</p><h2>Githyanki dracomante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0gsn7mTrBjI9W1vX caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.dmgGithyankiWarr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGithyankiKnigh caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGithyankiDraco caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "gaICgQBvquF1zrnv": {
+          "name": "Githzerai",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FKgl37ucRqWGFQ9R caption=false cite=false]</p><h2>Githzerai monje</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.wHWuZewIMuhrbzR3 caption=false cite=false]</p><h2>Githzerai zerth</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ImbrTxpqMFgtntYq caption=false cite=false]</p><h2>Githzerai psiónico</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kB2VUVf8bOiGsaoi caption=false cite=false]</p><h2>Aventuras con gith</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.RhoVhoLvTjz5x9kC caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGithzeraiMonk0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGithzeraiZerth caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGithzeraiPsion caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "BY9PswYVqCcQbMAx": {
+          "name": "Glabrezu",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ywxoKSaj2hlvewVQ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGlabrezu000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "TabtuHu8HUGNVtzE": {
+          "name": "Gladiador",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2gFebLtp90s1VxzM caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGladiator00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "DrdLFfrbGG5cZy9L": {
+          "name": "Gnolls",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1uUpd2TSpFjkisSO caption=false cite=false]</p><h2>Gnoll guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LKcAv2xpFiGs8zUr caption=false cite=false]</p><h2>Gnoll líder de manada</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PyyKB1yIyjePee3Z caption=false cite=false]</p><h2>Gnoll colmillo de Yeenoghu</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.nXilFJKZwDxzMhH5 caption=false cite=false]</p><h2>Gnoll demoníaco</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DUrr79Kkoh6GUPO0 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGnollWarrior00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGnollPackLord0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGnollFangOfYee caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGnollDemoniac0 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "goSlSnDEGaHdlsQF": {
+          "name": "Goblins",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TwMrfWrYo0ZAnWB3 caption=false cite=false]</p><h2>Goblin secuaz</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.x4VLvBATmEBnTTxK caption=false cite=false]</p><h2>Goblin guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ktLVwvt2KkJVB9eS caption=false cite=false]</p><h2>Goblin jefe</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.bgTL13d21Sxf05VY caption=false cite=false]</p><h2>Goblin embrujador</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.145GyIunaaiDfZxI caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoblinMinion00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoblinWarrior0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoblinBoss0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoblinHexer000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "zHMPI5TdgKnJWs99": {
+          "name": "Dragones de oro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.96svBVkFRzy9KxVV caption=false cite=false]</p><h2>Dragón de oro cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EYVuimt0yYV7FDtr caption=false cite=false]</p><h2>Dragón de oro joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.8K8p4I5btAbrfTNR caption=false cite=false]</p><h2>Dragón de oro adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.xU39aBETjUzCKRMu caption=false cite=false]</p><h2>Dragón de oro anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.aQvoYpH6UK83WfF1 caption=false cite=false]</p><h2>Guaridas de dragones de oro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6DKByyj6JivNSlLh caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoldDragonWyrm caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungGoldDrago caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultGoldDrago caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientGoldDra caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "pMjvawJX5WY4VLKK": {
+          "name": "Gorgonas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.JxyP5eAIU1bftrTt caption=false cite=false]</p><h2>Gorgona</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1azZJ5R4nj9uOjtv caption=false cite=false]</p><h2>Gorgona de latón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.11nUl1RaCzks5cxL caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGorgon00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBrazenGorgon00 caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "a6wMcNZvtPpb5umI": {
+          "name": "Goristro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.um5Xsk8cOVkShhaL caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGoristro000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "Bb3ZEkljniXdO5Zr": {
+          "name": "Cienos grises",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IMrvogdwbM9y1eDJ caption=false cite=false]</p><h2>Cieno gris</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3CtaZvXT0QtPFi3T caption=false cite=false]</p><h2>Cieno gris psíquico</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EiKKzFnkAMRwhdMA caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGrayOoze000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPsychicGrayOoz caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "zNzVq7B6Yt1dcY0z": {
+          "name": "Dragones verdes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HxHIj9RZWeGNXKxV caption=false cite=false]</p><h2>Dragón verde cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DP4aGqWKWJxG1bE8 caption=false cite=false]</p><h2>Dragón verde joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2dp42pGJ1XUApqak caption=false cite=false]</p><h2>Dragón verde adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ggmtfOCGQgeBhX26 caption=false cite=false]</p><h2>Dragón verde anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.f6FP49T1ELv3aASd caption=false cite=false]</p><h2>Guaridas de dragones verdes</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kjE0Ff31hZsDdeye caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGreenDragonWyr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungGreenDrag caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultGreenDrag caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientGreenDr caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "CsuPeVqOrFXTv1R7": {
+          "name": "Saga cetrina",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.RKUOXb2m19c6HP3E caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGreenHag000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "q49lTy0Sn69kHbd5": {
+          "name": "Grell",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ML5Eu2aqnDTUWcSo caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGrell000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "e3scXeedo3gCxvre": {
+          "name": "Gricks",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ZipqOolotovtuLdW caption=false cite=false]</p><h2>Grick</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.yWXH5nyv3LFDwBAv caption=false cite=false]</p><h2>Grick anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KHQHO2JXfXoBmHxq caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGrick000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGrickAncient00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "eeg9raqppRQ13zOy": {
+          "name": "Grifo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ON11KffjBuaUnB66 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGriffon0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "pmRC7bgPJLoFkaph": {
+          "name": "Grimlock",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PwPfB4jnIWSKBdz0 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGrimlock000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "NC2baa46dbJyUkUK": {
+          "name": "Naga guardiana",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NQUnWb1s5RYa0Xek caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGuardianNaga00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "r0pe2hVhtdgniAJ0": {
+          "name": "Guardias",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Zh9j3VBgGnsvq9x4 caption=false cite=false]</p><h2>Guardia</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IzCvcbHgZ8uPj9TU caption=false cite=false]</p><h2>Guardia capitán</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vTvxvndvzT5NYBJi caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGuard000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGuardCaptain00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "riHODSUMg7fpAh5e": {
+          "name": "Semidragón",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rai3t2OxfEHlPYBJ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHalfdragon0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "lMuD6KCu5kYWyvNY": {
+          "name": "Arpía",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.g8rZSNVG7tURaQgk caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHarpy000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "OZ69A7wRsDxfLscr": {
+          "name": "Sabueso infernal",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sTelJLU6cHPQ8gzx caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHellHound00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "8ZqnUDXWxvulMWrz": {
+          "name": "Horror acorazado",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4l5kLEeNLKSnzNoN caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHelmedHorror00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "HE0kTsH3SdDpczmv": {
+          "name": "Hezrou",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GK0Mj5JDYx9OSir8 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHezrou00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "HH30QWMfofHvHCST": {
+          "name": "Gigante de las colinas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iJ1Og14jr9j6RJ6b caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHillGiant00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "QXzCEhyjXN2tBrTA": {
+          "name": "Hipogrifo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.THHKwSB7ZhCMBEHv caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHippogriff0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "zaAQ44rQ5HlaAKam": {
+          "name": "Hobgoblins",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.eFGs6u803PtWG5k7 caption=false cite=false]</p><h2>Hobgoblin guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.qn7hUk5eNskZNKk9 caption=false cite=false]</p><h2>Hobgoblin capitán</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kr2tx1DFAcwGmzKR caption=false cite=false]</p><h2>Hobgoblin señor de la guerra</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2UC2gnsIYudCderX caption=false cite=false]</p><h2>Guerra hobgoblin</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.gQeZtIJWO1fbrExf caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarri caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinCapta caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHobgoblinWarlo caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "KDWLIurYLocdvkK4": {
+          "name": "Homúnculo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KCh7IJEce6Ki5SEm caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHomunculus0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "BueR11lX1frXNAPC": {
+          "name": "Horror ganchudo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6zzvqtvuJNJMye3A caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHookHorror0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "bTUDs1G1E2Rxoq9k": {
+          "name": "Diablo astado",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.zZ2RDYRFRDDrRizJ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHornedDevil000 caption=false cite=true statblock classes=\"float-left size-three\"]</p>"
+          }
+        },
+        "625c7JbLfS3us1WI": {
+          "name": "Hidra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sYX3rL43R3oTYo86 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHydra000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "xJIzo0wJVAxE6OD2": {
+          "name": "Diablo gélido",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sA9Jx5SXPoQvmnOO caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmIceDevil000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "D2kEU89bgQra3Ovs": {
+          "name": "Diablillo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6c0Aa15WAeqtY3hl caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmImp00000000000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "a5EpOcLCNws9jXXz": {
+          "name": "Íncubo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Eqctro3hPZWecGfP caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmIncubus0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "swJjjcxCoD49Odbg": {
+          "name": "Devorador de intelectos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AjhsGC1wSZXs1xkE caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmIntellectDevou caption=false cite=true statblock classes=\"double-column float-clear\"]</p>"
+          }
+        },
+        "ELp83NN658cUf6RO": {
+          "name": "Acechador invisible",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WWl0kN8fl4JFXLIM caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmInvisibleStalk caption=false cite=true statblock]</p>"
+          }
+        },
+        "AwNgUID2m7TDvXYA": {
+          "name": "Gólem de hierro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ahfhMNlHANArUrVj caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmIronGolem00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "3OJSpCShMUZSOmSK": {
+          "name": "Hombre chacal",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.x6cBtZATrxEVlOiZ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmJackalwere0000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "59w0uxFT4fRHQ5qm": {
+          "name": "Kenku",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0tyzoFzNK6DuXsbD caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKenku000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "AgCaArPy6j8On17a": {
+          "name": "Caballeros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.G5uYpVQgKpPIkFQY caption=false cite=false]</p><h2>Caballero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.8ypc00V48Je5p3JY caption=false cite=false]</p><h2>Caballero andante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.eXRlMJe4EnfGxGmA caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKnight00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmQuestingKnight caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "fhipU7AVeuhyW2uu": {
+          "name": "Kobolds",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NC8c3St0SoWBP6K8 caption=false cite=false]</p><h2>Kobold guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.khL20BavkkD4YZGY caption=false cite=false]</p><h2>Kobold alado</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4kl1kLxpIC5DtwUH caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKoboldWarrior0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWingedKobold00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "olGFjcp4lo32fJWk": {
+          "name": "Kraken",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.bFoBpRe9ScqLJa1Z caption=false cite=false]</p><h2>Guaridas de krakens</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TxjnUlcNFpCq9w0l caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKraken00000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "YMVA2Bkwtcm5zUx3": {
+          "name": "Kuo-toa",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.5cWxPFYWZSjJw6ih caption=false cite=false]</p><h2>Kuo-toa</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XEDbrbc4fOsasH55 caption=false cite=false]</p><h2>Kuo-toa látigo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VEYcunqNbjyhHOwB caption=false cite=false]</p><h2>Kuo-toa vigilante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.N6Prinvb9ppnSZub caption=false cite=false]</p><h2>Kuo-toa arcipreste</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jVLHLrDcjEGUhZmp caption=false cite=false]</p><h2>Deidades kuo-toa</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FX5W9hFopnLnQb5b caption=false cite=false]</p><h2>Santuarios kuo-toa</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lg1qtGDWlR15hicq caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKuotoa00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKuotoaWhip0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKuotoaMonitor0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmKuotoaArchprie caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "nXprTG3DeAMemuUe": {
+          "name": "Lamia",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Lawk1h1Wf49rxX8U caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLamia000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "JIFZoQluhbgl35lV": {
+          "name": "Larvas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Tg5WKzTIgNAHo1Wq caption=false cite=false]</p><h2>Larva</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.giSj09GeYhBxyMFk caption=false cite=false]</p><h2>Enjambre de larvas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.qP19tiUEj4k2lfOF caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLarva000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfLarvae0 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "2bADxJuWILSLbKnL": {
+          "name": "Lemures",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.StGSoy9GntE0mCiY caption=false cite=false]</p><h2>Lémur</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HJOkVF1j68fs3m7Y caption=false cite=false]</p><h2>Enjambre de lémures</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2uQgVLQGiUio5qo8 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLemure00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfLemures caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "Hfq86WdpWcb3vhql": {
+          "name": "Liche",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ffwjHi6PTfPQRIZV caption=false cite=false]</p><h2>Receptáculos espirituales de liche</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0wyZOOAoMzH1SqYA caption=false cite=false]</p><h2>Guaridas de liches</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.igvMYutrjUg3LAHv caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLich0000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "DpbWaX1Oyc6Gp8zJ": {
+          "name": "Hombres lagarto",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Io4JcuHDAySsBlvu caption=false cite=false]</p><h2>Hombre lagarto geomante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.85wfFNgms1hLuQ0m caption=false cite=false]</p><h2>Hombre lagarto soberano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2w4jxh9j1P9Lr9d1 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLizardfolkGeom caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmLizardfolkSove caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "09MGKnX2pmlDjmdl": {
+          "name": "Magos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.BRPgUa1VGeHBz5BR caption=false cite=false]</p><h2>Mago aprendiz</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Lu0aXXNBNrEZuygN caption=false cite=false]</p><h2>Mago</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.G2fA16d9pkedAKnr caption=false cite=false]</p><h2>Archimago</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XgwCvqpKKFam6ioR caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMageApprentice caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMage0000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmArchmage000000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "M1mfkIm7eKnJA45P": {
+          "name": "Magmin",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TYIL6pvvbva1d83B caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMagmin00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "oJgdBG8zAZ35elZr": {
+          "name": "Mane",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.veNtTec5Xx4Cu1Y9 caption=false cite=false]</p><h2>Mane</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.THQIg50PcHdnwG4d caption=false cite=false]</p><h2>Mane engendro vaporoso</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.rnHk70BN9bhrV1CG caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmManes000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmManesVaporspaw caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "q2zX8PdjPV8FRmAs": {
+          "name": "Mantícora",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.b4BHSQ6FCDR9zlmt caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmManticore00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "3Q1LK4S238926DuZ": {
+          "name": "Marid",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ZpeSDtD5WDWXd8J9 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMarid000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "dCnwfsBJ3GawLyxe": {
+          "name": "Marilith",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.I4KPmOfsuEucKfST caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMarilith000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "D7PYxDa5AJ5kInPo": {
+          "name": "Medusa",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.N1jHJAYmaoJPz0NW caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMedusa00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "OQm0oXqDIN8O51fv": {
+          "name": "Mephits",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.C5AnYUB2Vhu0urqS caption=false cite=false]</p><h2>Mephit de polvo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hX5LRqqZKKcvWC4l caption=false cite=false]</p><h2>Mephit de hielo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EMol37CIB1HCkHpJ caption=false cite=false]</p><h2>Mephit de magma</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.QvLBV3IvfwSLB6e2 caption=false cite=false]</p><h2>Mephit de barro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YLXmbvWLnVDKveGY caption=false cite=false]</p><h2>Mephit de humo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NwAge4RajZjmo4gX caption=false cite=false]</p><h2>Mephit de vapor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.G3d4GDT0FWo30AdL caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDustMephit0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmIceMephit00000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMagmaMephit000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMudMephit00000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSmokeMephit000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSteamMephit000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "QV5odPhFTckpZOZN": {
+          "name": "Sirénidos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.M0nVaXv2BJW7h5uo caption=false cite=false]</p><h2>Sirénido experto en escaramuzas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OAB2KodjH7XuPIgz caption=false cite=false]</p><h2>Sirénido dominaolas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.51K49M642lvoSKnJ caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMerfolkSkirmis caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMerfolkWaveben caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "LY1ywDGQxNYk4q8B": {
+          "name": "Merrow",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1dm4BKbtxnBNDd2Y caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMerrow00000000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "65OcDLuolejxKQ2U": {
+          "name": "Mezzoloth",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.9jo3t6ifQrGm5CPI caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMezzoloth00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "wmX9SvP3L9iJJcMa": {
+          "name": "Mimeto",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lLRnYAv64F7SfrJd caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMimic000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "KjzjtN2FLoQuIC1U": {
+          "name": "Azotamentes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.5LyhJwnpglaWlV03 caption=false cite=false]</p><h2>Colonias de azotamentes</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HBgcnGxoOgtor3r3 caption=false cite=false]</p><h2>Azotamentes</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.BCMRjr11kMY5aylP caption=false cite=false]</p><h2>Azotamentes arcanista</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vVo5ft5neZAFeeJB caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMindFlayer0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMindFlayerArca caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "kps2oSHEpq6gRHB3": {
+          "name": "Minotauro de Bafomet",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jqKn0BtJJlHPShTp caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMinotaurOfBaph caption=false cite=true statblock]</p>"
+          }
+        },
+        "JgYv7ZTXa3fJAe0W": {
+          "name": "Modrones",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Bduky50I4knEL2On caption=false cite=false]</p><h2>Marchas modronas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FboeGzC8KgGNGkM9 caption=false cite=false]</p><h2>Modrón monodrón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NYMFEMfR4J2Csbrx caption=false cite=false]</p><h2>Modrón duodrón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TE1Wbky3XCpEP3wx caption=false cite=false]</p><h2>Modrón tridrón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.q4DugtflSjrOm5vl caption=false cite=false]</p><h2>Modrón cuadrón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.H8WzE0MNWqwC1LyK caption=false cite=false]</p><h2>Modrón pentadrón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B1qI3xH98ZUFjZmF caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmModronMonodron caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmModronDuodrone caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmModronTridrone caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmModronQuadrone caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmModronPentadro caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "iUTxd2FG3EnoTpsm": {
+          "name": "Momias",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YuuqpbH93Kq9hizu caption=false cite=false]</p><h2>Momia</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KAmNNROqkQBqQmUr caption=false cite=false]</p><h2>Señor de las momias</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HJG9Pn70BOWbJROM caption=false cite=false]</p><h2>Guaridas de señores de las momias</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B4XvTkWih1fYQ079 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMummy000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMummyLord00000 caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "jRM8IqxtBJHRvbUr": {
+          "name": "Micónidos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.JziaIm4OW3wH5a2P caption=false cite=false]</p><h2>Micónido brote</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.a1SVfhxGUb1T0Gu7 caption=false cite=false]</p><h2>Micónido adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.9OKSyLIKsVJsSOyM caption=false cite=false]</p><h2>Micónido siervo espora</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.8DA87xVN0cOsW49g caption=false cite=false]</p><h2>Micónido soberano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.FWxT2ugGptk5ySLD caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSprout0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMyconidAdult00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSporeSe caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMyconidSoverei caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "3TpDSG1lYJiOmnGl": {
+          "name": "Nalfeshnee",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.bG2lzFCLqlpghJF8 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNalfeshnee0000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "HQ1QoVmxUAsjDiOO": {
+          "name": "Saga de la noche",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OZ4pczqo9wAgj4CD caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNightHag000000 caption=false cite=true statblock classes=\"double-column float-left\"]</p>"
+          }
+        },
+        "6uMySCQYSC9akp91": {
+          "name": "Pesadilla",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TEIsR6Zs2MO6qtpO caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNightmare00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "k2DYpVkdt5bbCamK": {
+          "name": "Nobles",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TVskfAu471arcBTq caption=false cite=false]</p><h2>Noble</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mZUN05Y3B77gCkk6 caption=false cite=false]</p><h2>Noble prodigio</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OEkcXqCvmgQD2wlj caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNoble000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNobleProdigy00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "CxukODBLPpi3jbhd": {
+          "name": "Nótico",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.zAlhxCv4MtiSnQ3r caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNothic00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "JC48IwnqcnXkmUXK": {
+          "name": "Nycaloth",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HsF8MsussxXOooen caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmNycaloth000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "of3oLVlwvYX6ybm5": {
+          "name": "Gelatina ocre",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.evt8e4dV68dyDGLx caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOchreJelly0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "GBHy7deHQGI2YVBb": {
+          "name": "Ogros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1Hp2MOUaAODie8ex caption=false cite=false]</p><h2>Ogro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.kqE5GUlHs8pLCwvw caption=false cite=false]</p><h2>Ogrillón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PSeo538HYRWHAkpE caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOgre0000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOgrillonOgre00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "y5QmKEt8q0NY1PWb": {
+          "name": "Oni",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Z00uEF13gQr3y7sl caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOni00000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "jgLx11VRi8tFOpkX": {
+          "name": "Otyugh",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.995pf31VOwItrbXB caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOtyugh00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "K9SWarlAwdXslP7x": {
+          "name": "Osos lechuza",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3OaVYG2opAydAD8R caption=false cite=false]</p><h2>Oso lechuza</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vYZwsyU9V1RdbFAm caption=false cite=false]</p><h2>Oso lechuza primigenio</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.quH68MqJ0ntD75b8 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOwlbear0000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPrimevalOwlbea caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "SiK8FIXEn3NIWZ9B": {
+          "name": "Pegaso",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Xd0ej0BIhKo6R0WV caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPegasus0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "xxMXETvJ3SebBwXk": {
+          "name": "Artistas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.dtqHG194fU6sAkTi caption=false cite=false]</p><h2>Artista</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.L0h033a73MFIXIfh caption=false cite=false]</p><h2>Artista virtuoso</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1ZKq25wusaR9hG96 caption=false cite=false]</p><h2>Artista legendario</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TaaL2dxipGpa3b72 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPerformer00000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPerformerMaest caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPerformerLegen caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "7nZbxZhs4bZfR6HW": {
+          "name": "Peryton",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mc57rUGHJlbQ9CAx caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPeryton0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "5N2ZXYIqYXegb76E": {
+          "name": "Araña de fase",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.oBjj7N2MG8GAEATU caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPhaseSpider000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "YzST0G41jzizJnQC": {
+          "name": "Perforador",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.CDbQlgWRWN6vpz9a caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPiercer0000000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "aa7MouLFWuPhlFxo": {
+          "name": "Piratas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.quXy2WM17LbbHjxu caption=false cite=false]</p><h2>Pirata</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0wZfG9paOUWsIK3C caption=false cite=false]</p><h2>Pirata capitán</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OI716HLJMqdzlKdZ caption=false cite=false]</p><h2>Pirata almirante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Yz7FHnVhJIOFDVQg caption=false cite=false]</p><h2>Banderas piratas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mBYKmXIJ5MfUYNKy caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPirate00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPirateCaptain0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPirateAdmiral0 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "FDv1NYEzGuK8yk6M": {
+          "name": "Diablo de la sima",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.bBzXVjiSjkZzn8oA caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPitFiend000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "BJNkSlDkHnickjwh": {
+          "name": "Pixies",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.BK2fFx2HQtSJinWc caption=false cite=false]</p><h2>Pixie</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ujVreuOcy0MnjDAw caption=false cite=false]</p><h2>Pixie hacedor de maravillas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.gHeGDz5NYixiINRC caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPixie000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPixieWonderbri caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "2DfEnIm8DZ3RUXYD": {
+          "name": "Planetar",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.s6lpK73LAecu67YU caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPlanetar000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "0wsSKsZqMDdNoW72": {
+          "name": "Poltergeist",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.xb3Ofr2UYoMpRNcH caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPoltergeist000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "lTHYTnUozD9zcWVu": {
+          "name": "Sacerdotes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pS5jmRPKdOnsgrDJ caption=false cite=false]</p><h2>Sacerdote acólito</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.uMFZ7CGSEvFrVOyM caption=false cite=false]</p><h2>Sacerdote</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.83KrukAfzLNQrK5L caption=false cite=false]</p><h2>Arcipreste</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IDZFM5AyIAXaIsjg caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPriestAcolyte0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPriest00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmArchpriest0000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "BRyYSNRwXDseFWPv": {
+          "name": "Pseudodragón",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NhqYPD69TqlVJpKV caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPseudodragon00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "A3x6KhVM3eWRVkfi": {
+          "name": "Gusano púrpura",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.wOy1rLPfr426Wj3Q caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmPurpleWorm0000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "ApNwACOGK9u3M6rY": {
+          "name": "Quaggoths",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.dwHPzrvTmw8NhmBV caption=false cite=false]</p><h2>Quaggoth</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1x1Q6MFjBz5OV6We caption=false cite=false]</p><h2>Quaggoth thonot</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.b8zQK1l4RqhjLPj1 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmQuaggoth000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmQuaggothThonot caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "1Atgt2aMSTqlG5eB": {
+          "name": "Quasit",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.5VW4pbLF5nwdO7II caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmQuasit00000000 caption=false cite=true statblock classes=\"float-clear\"]</p>"
+          }
+        },
+        "mkv392EfPeTaa3de": {
+          "name": "Rakshasa",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DMYEpWr3wvK4RLih caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRakshasa000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "3aopi18MGbDzmWZ5": {
+          "name": "Dragones rojos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Rx08X1mW6m5uYldI caption=false cite=false]</p><h2>Dragón rojo cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.u7L682ldreJy4PlC caption=false cite=false]</p><h2>Dragón rojo joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.LsnRaIsmjInxG6NW caption=false cite=false]</p><h2>Dragón rojo adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.81ihWzHnwzZEfEfa caption=false cite=false]</p><h2>Dragón rojo anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2rLkCQ4pLH4RKO4V caption=false cite=false]</p><h2>Guaridas de dragones rojos</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.i7877t4jjZpLevaQ caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRedDragonWyrml caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungRedDragon caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultRedDragon caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientRedDrag caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "NJONx1Rup0q8vfYP": {
+          "name": "Remorhazes",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.uP3cah0fyIoh75nV caption=false cite=false]</p><h2>Remorhaz joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.aMkiDiwIIEBJZUIR caption=false cite=false]</p><h2>Remorhaz</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jrzeumln8G614SWk caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungRemorhaz0 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRemorhaz000000 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "HrPDRNaT0Zz9AqVJ": {
+          "name": "Redivivos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.MIgxduVUrgHmADPd caption=false cite=false]</p><h2>Redivivo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.SxGjvNgZB5wXtNs9 caption=false cite=false]</p><h2>Redivivo de cementerio</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0EftlNXoS5D6HsaH caption=false cite=false]</p><h2>Redivivo de guarida</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NalhxqwOlHZ5t2u7 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRevenant000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGraveyardReven caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmHauntingRevena caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "rpcSorH8nprBzFup": {
+          "name": "Roc",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GS2JdYGVDYQ3ZqP4 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRoc00000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "w7ccK0ecdSUbYUv6": {
+          "name": "Lacero",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Tnu6KW8hvlaLqaV3 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRoper000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "75LcKiIsCIrohlPV": {
+          "name": "Monstruo corrosivo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hetWZ4EnyqetDuMe caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRustMonster000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "vhOJQTnDz9Sf1W7L": {
+          "name": "Sahuagin",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6GoEsoHTiVUdeAKu caption=false cite=false]</p><h2>Sahuagin guerrero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.e7E1JhVR2AaUl70T caption=false cite=false]</p><h2>Sahuagin sacerdote</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iAneRFTJ1QnBA0JK caption=false cite=false]</p><h2>Sahuagin barón</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VUSDJNlrBgC3IuEK caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSahuaginWarrio caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSahuaginPriest caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSahuaginBaron0 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "ynmjvFoain2bPeDT": {
+          "name": "Salamandras",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.M1Lv0PPOXfB6TqK1 caption=false cite=false]</p><h2>Salamandra serpiente de fuego</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.erLb5gJU2ugNhvAm caption=false cite=false]</p><h2>Salamandra</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.9ZConHQYKEXQhzT6 caption=false cite=false]</p><h2>Salamandra maestra infernal</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.qB2s02dzMuZWHB5M caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSalamanderFire caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSalamander0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSalamanderInfe caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "GUqJfLCvwMdf3yNq": {
+          "name": "Sátiros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vW03U4jAKQWpKcQB caption=false cite=false]</p><h2>Sátiro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.V567esgSthGoBoaM caption=false cite=false]</p><h2>Sátiro gran vividor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.B7bIMzFK1bTtZyAz caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSatyr000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSatyrRevelmast caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "dAGFvwxCAeUBmXOc": {
+          "name": "Espantapájaros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.IpI51d7PV9nUXGDi caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmScarecrow00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "QSlsqIPbYl4uICvq": {
+          "name": "Batidores",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Ia0dhEMIJJ7PVLVn caption=false cite=false]</p><h2>Batidor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AXb6rgRnpN7qGWWX caption=false cite=false]</p><h2>Batidor capitán</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VX0oHl3h3YclLO4l caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmScout000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmScoutCaptain00 caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "CZhyuaLCB8xtFYyA": {
+          "name": "Saga de los mares",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jEFfXl8mrfl7ntNe caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSeaHag00000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "5GJRlwRj1ceTGf4k": {
+          "name": "Sombra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VYmVmSUznIAKRkCf caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShadow00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "HlSi65ERIHC9chCx": {
+          "name": "Demonio de las sombras",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.CbZ59AUjl4jp0zqJ caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShadowDemon000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "0mGWnYS0ksKK9fmW": {
+          "name": "Dragones sombríos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.dSmoOrvVQ3rqd1IQ caption=false cite=false]</p><h2>Guaridas de dragones sombríos</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sVyoieqYygL0nMnh caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmJuvenileShadow caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShadowDragon00 caption=false cite=true statblock]</p>"
+          }
+        },
+        "pc8cX3dReRJJEsiQ": {
+          "name": "Broza movediza",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.ZP2vT17CUnrJPlaT caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShamblingMound caption=false cite=true statblock]</p>"
+          }
+        },
+        "9W9uFO42HWgyS24L": {
+          "name": "Guardián escudo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PvFjj9fYSOERAgJV caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmShieldGuardian caption=false cite=true statblock]</p>"
+          }
+        },
+        "Sx4qcQcPDQULERBu": {
+          "name": "Dragones de plata",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.REGxFxNrTLFswtA1 caption=false cite=false]</p><h2>Dragón de plata cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HwVckgQCUMSXFgQx caption=false cite=false]</p><h2>Dragón de plata joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UpCNZu2zMpPUgijm caption=false cite=false]</p><h2>Dragón de plata adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PhEr0qvx0sUA4mGl caption=false cite=false]</p><h2>Dragón de plata anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0X2En0mZCehSaM3E caption=false cite=false]</p><h2>Guaridas de dragones de plata</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Mn5LFyEn1R6aeEAD caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSilverDragonWy caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungSilverDra caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultSilverDra caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientSilverD caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "xqFT4a6u74XouKIn": {
+          "name": "Esqueletos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.w1RMyPzpjolhQMVX caption=false cite=false]</p><h2>Esqueleto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pm1ZyudVsOl0ve5C caption=false cite=false]</p><h2>Caballo de guerra esqueleto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mEn3s9jAHVYbVKuc caption=false cite=false]</p><h2>Minotauro esqueleto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.92pW3csYLecufnk8 caption=false cite=false]</p><h2>Esqueleto llameante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.URA77mxAIyPUKcXr caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSkeleton000000 caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWarhorseSkelet caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmMinotaurSkelet caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmFlamingSkeleto caption=false cite=true statblock]</div>"
+          }
+        },
+        "GRWVtBvLvjrk1lVy": {
+          "name": "Slaadi",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.AXXqca9xNbd6xnJ6 caption=false cite=false]</p><h2>Renacuajo slaad</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.b21ZhbjLPDZojvRz caption=false cite=false]</p><h2>Slaad rojo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0xVNRpqlT9RMxLj0 caption=false cite=false]</p><h2>Slaad azul</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.F4ttjJh7ZvhMRs7w caption=false cite=false]</p><h2>Slaad verde</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1pzSK6Xdqr7zA5J0 caption=false cite=false]</p><h2>Slaad gris</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.mULRXgmLDe71q1GC caption=false cite=false]</p><h2>Slaad de la muerte</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.z4NUWOhiUAgzobGl caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSlaadTadpole00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmRedSlaad000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBlueSlaad00000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGreenSlaad0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmGraySlaad00000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDeathSlaad0000 caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "bqLhFAoXv884wD4A": {
+          "name": "Solar",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VRjlxCp3tR7k1nE7 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSolar000000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "alSQr6ddEfeShZL3": {
+          "name": "Espectador",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jor6W6Cw6F6LxOtX caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpectator00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "dtrk5pI0tl7LIEyr": {
+          "name": "Espectro",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.RKrM0kXa1bmbMMAo caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpecter0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "Lw1NWxwPXcogtFng": {
+          "name": "Esfinges",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.JPdmXY7WGZdIPlJo caption=false cite=false]</p><h2>Esfinge de las maravillas</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.knvt7pCk5slbRRf0 caption=false cite=false]</p><h2>Esfinge de los secretos</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.OhcZTXr50rKAYzoj caption=false cite=false]</p><h2>Esfinge del conocimiento</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.fKMxrzT2eWlAqDAn caption=false cite=false]</p><h2>Esfinge del valor</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.lb8l0oAUq5gHE7SE caption=false cite=false]</p><h2>Guaridas de esfinges</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.GPhDyArKCA2mX2NX caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfWonder caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfSecret caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfLore00 caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSphinxOfValor0 caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "O8rRo03FXskNIFlr": {
+          "name": "Espías",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.VCqqHnYYkh2Hn5w6 caption=false cite=false]</p><h2>Espía</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.O5k5Yo9UowcBfqiB caption=false cite=false]</p><h2>Espía maestro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vbqXzTJoaTzXe1mz caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpy00000000000 caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpyMaster00000 caption=false cite=true statblock]</div>"
+          }
+        },
+        "j54RIAwkoElglDIJ": {
+          "name": "Diablo espinoso",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.xJBiATpZ0x2Hm7xk caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpinedDevil000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "mGuNH8XAxdLVXBbu": {
+          "name": "Naga espiritual",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.SYPUI0R76sVilXaV caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSpiritNaga0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "6Xu0DgMDkEhIlqgg": {
+          "name": "Duende",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.V6OhuMIts22zPe8X caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSprite00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "z8nL1R6ydHEM4fNR": {
+          "name": "Estirges",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XvhPdtq14MUqgYVO caption=false cite=false]</p><h2>Estirge</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1FyvNuYRqfEBdGNl caption=false cite=false]</p><h2>Enjambre de estirges</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3NFw8o4jC82NCkx7 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmStirge00000000 caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSwarmOfStirges caption=false cite=true statblock]</div>"
+          }
+        },
+        "aFgWcIHzszJvMczu": {
+          "name": "Gigante de piedra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WfxCGg9aXvs1tYek caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmStoneGiant0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "yWJPHwSnSbwcxkLG": {
+          "name": "Gólem de piedra",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.XW2WF8vjTcmnKF17 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmStoneGolem0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "E5iDh5xWQ2KCEMgV": {
+          "name": "Gigante de las tormentas",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iG3lijXgyVoYGtye caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmStormGiant0000 caption=false cite=true statblock classes=\"float-left size-three\"]</p>"
+          }
+        },
+        "nM9DcYQzVicWFffF": {
+          "name": "Súcubo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Kzvd8PBUBkJG5zSg caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmSuccubus000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "AT1WFd5AeDretysm": {
+          "name": "Tarasca",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.PO8JoJqpyue1HVl4 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTarrasque00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "triOjQsZolElS1aX": {
+          "name": "Thri-kreen",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.yUJyNvAzX9dNTgOY caption=false cite=false]</p><h2>Thri-kreen merodeador</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.xwmlhxEV2Vu9M9Ua caption=false cite=false]</p><h2>Thri-kreen psiónico</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.fE1SHSUqDnErcGS2 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmThrikreenMarau caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmThrikreenPsion caption=false cite=true statblock]</div>"
+          }
+        },
+        "cvBRoWNl38kmSVAd": {
+          "name": "Pendencieros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UqOqk409VNapbgEM caption=false cite=false]</p><h2>Pendenciero</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vQksq6TlqGNyyl5l caption=false cite=false]</p><h2>Pendenciero jefe</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.T47eTnRd4tadGFU9 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTough000000000 caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmToughBoss00000 caption=false cite=true statblock]</div>"
+          }
+        },
+        "mDah1TlOfj7AO685": {
+          "name": "Ent",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.go8rV3jC4cxigCm4 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTreant00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "okrh1zdqI24vHqrX": {
+          "name": "Troglodita",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.bEeY8cAxTOypsyl1 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTroglodyte0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "g6utOXxz572cn6zQ": {
+          "name": "Troll",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sHbNGpgAXFWveYvK caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTroll000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmTrollLimb00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "k4LPNihmATY7OFpb": {
+          "name": "Ultroloth",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.R4m2h4Boo6lsMBAT caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmUltroloth00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "4EuSHnoibshv43UZ": {
+          "name": "Mole sombría",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.j9CGMjwt5JemDGYA caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmUmberHulk00000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "6dGAuELNaC2dHzcU": {
+          "name": "Unicornio",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4EtOTIaHnhnS9jA5 caption=false cite=false]</p><h2>Guaridas de unicornios</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sTeJ3Fyus2oyLaRk caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmUnicorn0000000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "9Ek1sZ0PfUSb0o6k": {
+          "name": "Vampiros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.y4ooBM6PNZfWH3Tv caption=false cite=false]</p><h2>Siervo de vampiro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.iWbAQD1GN6bn7JeU caption=false cite=false]</p><h2>Engendro vampírico</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jMEWxA9YWC4W4aTi caption=false cite=false]</p><h2>Vampiro portador de la noche</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.6X4FKeIZkADH9rmW caption=false cite=false]</p><h2>Vampiro</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1pHv6S4uhRp75CB4 caption=false cite=false]</p><h2>Vampiro señor umbrío</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TAFN1aAdVmpf1VDl caption=false cite=false]</p><h2>Guaridas de vampiros</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.DtJNmKUcITLeOCt0 caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVampireFamilia caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVampireSpawn00 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVampireNightbr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVampire0000000 caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVampireUmbralL caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "2GUthdl90W7Kad3X": {
+          "name": "Vrock",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.yqpU1D8Hjb3YzIHu caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmVrock000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "wD72m9uZOS5e32E0": {
+          "name": "Guerreros",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.3Il3CvacAVpf6Rch caption=false cite=false]</p><h2>Guerrero de infantería</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Tg6q9tEwUMz6alIf caption=false cite=false]</p><h2>Guerrero veterano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Dqm3ro7bU8A7sM4B caption=false cite=false]</p><h2>Guerrero comandante</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.8KIpoR728XfNWfEB caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWarriorInfantr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWarriorVeteran caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWarriorCommand caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "Bcq4yzQxVc6hDwxv": {
+          "name": "Elemental de agua",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.4bNusptShch1Vxm9 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWaterElemental caption=false cite=true statblock]</p>"
+          }
+        },
+        "rHvQMCU1E4LZlHt6": {
+          "name": "Extraño de agua",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hXIUJSLqt2xdkd3a caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWaterWeird0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "suHSIeLVLizTYPgT": {
+          "name": "Hombre oso",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EMwFy85pB2e6pWOI cite=false caption=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWerebear000000 caption=false cite=true statblock classes=\"float-left size-three\"]</p>"
+          }
+        },
+        "a0EgLIjt1P7mtHux": {
+          "name": "Hombre jabalí",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.sYgETXS9CrfFfM2w caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWereboar000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "mju7ANQw1s3x7aCb": {
+          "name": "Hombre rata",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UqcZ61TWxqASvJRi caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWererat0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "E5RLxiNJHNfev2XP": {
+          "name": "Hombre tigre",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.1BWrTscJDUOd8yLf caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWeretiger00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "cfaxLaO73jh8D8fE": {
+          "name": "Hombre lobo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.NPEN2rieeOcDlnvo caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWerewolf000000 caption=false cite=true statblock classes=\"float-left size-three\"]</p>"
+          }
+        },
+        "mnYg929awNFAxcse": {
+          "name": "Dragones blancos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.BLKyHDLfoZP7Tm9h caption=false cite=false]</p><h2>Dragón blanco cría</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.EELGWO5bZ7HjIhjY caption=false cite=false]</p><h2>Dragón blanco joven</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.5hB2C7GTQi4facDL caption=false cite=false]</p><h2>Dragón blanco adulto</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TTfBXSz1OddabtdM caption=false cite=false]</p><h2>Dragón blanco anciano</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.Ayz7UfYkqj9WMBkl caption=false cite=false]</p><h2>Guaridas de dragones blancos</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.jHeADoGE11eL40yP caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWhiteDragonWyr caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYoungWhiteDrag caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAdultWhiteDrag caption=false cite=true statblock classes=\"double-column\"]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAncientWhiteDr caption=false cite=true statblock classes=\"double-column\"]</p></div>"
+          }
+        },
+        "Ien9YD2TwbezGYBh": {
+          "name": "Tumulario",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.hnXwwafu4pEdSzWv caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWight000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "8hYWLKgyyPtzb5rh": {
+          "name": "Fuego fatuo",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.wspNxVE4KofrKKnm caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWillowisp00000 caption=false cite=true statblock classes=\"double-column\"]</p>"
+          }
+        },
+        "w7m4OUspECB22dxr": {
+          "name": "Lobo invernal",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.TtpEEuyn9BgZnkxH caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWinterWolf0000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "tZtIR5GiKLh8uwaf": {
+          "name": "Huargos",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.9wPwyBWpNGzAL7yb caption=false cite=false]</p><h2>Huargo</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.KQj16GboSsgX6Jhe caption=false cite=false]</p><h2>Huargo terrible</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.gcgESovx8SQ8NdIm caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\">@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWorg0000000000 caption=false cite=true statblock]@Embed[Compendium.dnd-monster-manual.actors.Actor.mmDireWorg000000 caption=false cite=true statblock]</div>"
+          }
+        },
+        "MFmZUIbvV3cIl5a6": {
+          "name": "Aparición",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.MjPLUclFHalyuLor caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWraith00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "HeMQGYJNLFGaDjUJ": {
+          "name": "Guiverno",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.YVet3pmxbtmVY8H9 caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmWyvern00000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "xTFPEcoBtBOgDqgY": {
+          "name": "Xorn",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.x5xyhJgsveGEssiH caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmXorn0000000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "eV1x4wYhzwx2Upkv": {
+          "name": "Yetis",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.07ezSTwHdHqQLidQ caption=false cite=false]</p><h2>Yeti</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.UVyLzotBQfyZppDl caption=false cite=false]</p><h2>Yeti abominable</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.vZHCGFTviQHOHKWY caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYeti0000000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmAbominableYeti caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "gAWAeiZZpnxBuPyl": {
+          "name": "Yochlol",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.l6xocvv8vtK3K2Ta caption=false cite=false]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYochlol0000000 caption=false cite=true statblock]</p>"
+          }
+        },
+        "x9F6dHLFaLmxi5ts": {
+          "name": "Yuan-ti",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.l9Nak3iZRRAfQo0B caption=false cite=false]</p><h2>Yuan-ti infiltrado</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.15JlAiclL3Nlcn0i caption=false cite=false]</p><h2>Yuan-ti corruptos</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.HkPrJ2CZxoEjY3pV caption=false cite=false]</p><h2>Yuan-ti abominación</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.pzNxIAuRxLZLCayw caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYuantiInfiltra caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYuantiMalison1 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYuantiMalison2 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYuantiMalison3 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmYuantiAbominat caption=false cite=true statblock]</p></div>"
+          }
+        },
+        "80kEKa3Nic5cGn3f": {
+          "name": "Zombis",
+          "text": {
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.2xCqDBEM46bLXD4q caption=false cite=false]</p><h2>Zombi</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.WuSY8kEg0E7DusN5 caption=false cite=false]</p><h2>Ogro zombi</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.0T8giAslc7JILSGC caption=false cite=false]</p><h2>Contemplador zombi</h2><p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmAppendixMonste.JournalEntryPage.CTDIhHPg4KKvFqia caption=false cite=false]</p><div class=\"flex-between align-start flex-wrap\"><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmOgreZombie0000 caption=false cite=true statblock]</p><p>@Embed[Compendium.dnd-monster-manual.actors.Actor.mmBeholderZombie caption=false cite=true statblock]</p></div>"
+          }
+        }
+      }
     }
   }
 }
