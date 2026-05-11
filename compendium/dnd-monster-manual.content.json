@@ -1707,85 +1707,85 @@
         "DN8RNyJ7NsoA7TnO": {
           "name": "Gules",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EVfaVbUfg7WyJuBh caption=false classes=\"float-right size-two lift-50 bottom-frame\"]</p><p class=\"creature-flavor\"><em>Eaters of the Dead</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pantano, Infraoscuridad, Urbano; <strong>Tesoro:</strong> Cualquiera</p><p>Packs of ghouls haunt the rotten corners of the world, ravenously hunting for corpses and those soon to be corpses. These gaunt, animate cadavers with unnaturally long tongues dwell in catacombs and ruins where they devour the contents of graves and paralyze foes with vicious claws.</p><aside class=\"quote float-clear\"><p>On a plain of teeth, in a temple of filth, the starving king wastes no morsel. Every coffin a banquet. Every slab a platter. Now is the time of feasting!</p><p class=\"quote-author\">—Invocation of Doresain, King of Ghouls</p></aside>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EVfaVbUfg7WyJuBh caption=false classes=\"float-right size-two lift-50 bottom-frame\"]</p><p class=\"creature-flavor\"><em>Devoradores de muertos</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Pantano, Infraoscuridad, Urbano; <strong>Tesoro:</strong> Cualquiera</p><p>Manadas de gules acechan los rincones podridos del mundo, cazando vorazmente cadáveres y a quienes pronto lo serán. Estos cadáveres demacrados y animados, de lenguas antinaturalmente largas, moran en catacumbas y ruinas, donde devoran el contenido de las tumbas y paralizan a sus enemigos con sus garras feroces.</p><aside class=\"quote float-clear\"><p>En una llanura de dientes, en un templo de inmundicia, el rey hambriento no desperdicia ni una migaja. Cada ataúd es un banquete. Cada losa, una bandeja. ¡Ha llegado la hora del festín!</p><p class=\"quote-author\">—Invocación de Doresain, Rey de los Gules</p></aside>"
           }
         },
         "EvVQvnw1GfKG0xc3": {
           "name": "Gul",
           "text": {
-            "content": "<p>Ghouls rise from the bodies of cannibals and villains with depraved hungers. They form packs out of shared voracity</p>"
+            "content": "<p>Los gules surgen de los cuerpos de caníbales y villanos dominados por hambres depravadas. Forman manadas unidas por su voracidad compartida.</p>"
           }
         },
         "DIgn5Jug9peaUxrv": {
           "name": "Gul lacedón",
           "text": {
-            "content": "<p>Lacedons are loose-skinned, aquatic ghouls. They often arise from the corpses of greedy pirates, those who starved on deserted islands, or scoundrels who met their end by drowning.</p>"
+            "content": "<p>Los lacedones son gules acuáticos de piel flácida. A menudo surgen de los cadáveres de piratas codiciosos, de quienes murieron de hambre en islas desiertas o de bribones que encontraron su fin ahogándose.</p>"
           }
         },
         "WCa9D9bIA97aX4L0": {
           "name": "Bocón barbotante",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.M7Ffsj978ytSqlFb caption=false classes=\"float-right size-three lift-1\"]</p><p class=\"creature-flavor\"><em>Ravenous Chorus of Unreality</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Ninguno</p><p>Gibbering mouthers endlessly feed on and regrow their own amoeboid bodies—amorphous heaps roiling with eyes, teeth, and strange organs. These mind-bending terrors sing and scream, laugh and cry with a cacophony of voices ranging from disturbingly unnatural to shockingly familiar. They exist only to feed and to unleash their disdain for reality, their many maws dripping with otherworldly spittle.</p><aside class=\"quote float-clear\"><p>Alas, the Elder Elves made a fatal mistake. When the Dragon’s Tear comet next returned, the Vast Portal—still keyed to the Far Realm of alien entities—linked to the comet and opened again. And what emerged, ululating profanities, sang unnameable hungers into an unguarded world.</p><p class=\"quote-author\">—From The Book of the Portal,<br />found near Firestorm Peak</p></aside><p>Gibbering mouthers come into being in various unpleasant ways. Tira o elige a result from the Bocón barbotante Nascencies tabla to inspire what brought one of these horrors into being.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmGibberingMouth rollable classes=\"caption-top\"]</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.M7Ffsj978ytSqlFb caption=false classes=\"float-right size-three lift-1\"]</p><p class=\"creature-flavor\"><em>Coro voraz de la irrealidad</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Ninguno</p><p>Los bocones barbotantes se alimentan sin cesar de sus propios cuerpos ameboides y los regeneran: montones amorfos que hierven con ojos, dientes y órganos extraños. Estos horrores que retuercen la mente cantan y chillan, ríen y lloran con una cacofonía de voces que van de lo inquietantemente antinatural a lo estremecedoramente familiar. Existen solo para alimentarse y para desatar su desprecio por la realidad, con sus numerosas fauces chorreando saliva de otro mundo.</p><aside class=\"quote float-clear\"><p>Ay, los Elfos Ancianos cometieron un error fatal. Cuando el cometa Lágrima del Dragón regresó, el Gran Portal —aún vinculado al Reino Lejano de entidades alienígenas— se enlazó con el cometa y volvió a abrirse. Y lo que emergió, ululando blasfemias, cantó hambres innombrables en un mundo desprevenido.</p><p class=\"quote-author\">—De <em>El Libro del Portal</em>,<br />hallado cerca del Pico Tormenta de Fuego</p></aside><p>Los bocones barbotantes nacen de diversas formas desagradables. Tira o elige un resultado de la tabla Nacimientos del bocón barbotante para inspirar qué dio origen a uno de estos horrores.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmGibberingMouth rollable classes=\"caption-top\"]</p>"
           }
         },
         "iSDG3OfSEicT5fF9": {
           "name": "Githyanki",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.6FTuchI4hNLxsW31 classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Invaders from the Plano Astral</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Planar (Plano Astral); <strong>Tesoro:</strong> Armamento</p><p>Githyanki were once an ordinary people, but the deeds of a vile mind flayer empire etched conflict on their being. Gaunt, humanlike creatures, githyanki have serrated ears and speckled skin ranging through shades of yellow, green, and brown. While some githyanki follow their own paths, many are influenced by a past that forever altered their fates.</p><aside class=\"quote\"><p>To slay in Vlaakith’s name is our greatest service. To die in her name is our last act of reverence.</p><p class=\"quote-author\">—Meldavh, githyanki knight</p></aside>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.6FTuchI4hNLxsW31 classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Invasores del Plano Astral</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Planar (Plano Astral); <strong>Tesoro:</strong> Armamento</p><p>Los githyanki fueron antaño un pueblo común, pero las acciones de un vil imperio de azotamentes grabaron el conflicto en su ser. Criaturas demacradas y humanoides, los githyanki tienen orejas aserradas y piel moteada en tonos amarillos, verdes y marrones. Aunque algunos githyanki siguen sus propios caminos, muchos están influidos por un pasado que alteró para siempre sus destinos.</p><aside class=\"quote\"><p>Matar en nombre de Vlaakith es nuestro mayor servicio. Morir en su nombre es nuestro último acto de reverencia.</p><p class=\"quote-author\">—Meldavh, caballero githyanki</p></aside>"
           }
         },
         "GKSAkJ5I0Ev0Cjkk": {
           "name": "Historia de los gith",
           "text": {
-            "content": "<p>Ages ago, a humanlike people were conquered by an empire of mind flayers. The illithids manipulated this forgotten people through untold horrors, forced evolution, and psychic reshaping. Eventually one named Gith rose from among the captives and led a rebellion against their oppressors. Gith’s followers, who became known as the gith, defeated the mind flayers and shattered their vast empire.</p><p>The victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith’s drive for vengeance and new conquests was evidence of species-wide mental programing laid by the mind flayers, biological manipulation that condemned her people to continued servitude. This claim split the gith into Gith’s followers, the githyanki (meaning “followers of Gith”), and Zerthimon’s followers, the githzerai (meaning “those who spurn Gith”), and sparked an ongoing conflict.</p><p>When Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaakith’s line has continued to the githyanki’s current ruler, Vlaakith the Lich-Queen. This undead tyrant compels her people to wage endless wars against mind flayers, githzerai, and any others that threaten githyanki supremacy.</p>"
+            "content": "<p>Hace eras, un pueblo humanoide fue conquistado por un imperio de azotamentes. Los illitas manipularon a este pueblo olvidado mediante horrores indecibles, evolución forzada y remodelación psíquica. Finalmente, una de sus cautivas llamada Gith se alzó entre ellos y lideró una rebelión contra sus opresores. Los seguidores de Gith, que pasaron a ser conocidos como los gith, derrotaron a los azotamentes y destrozaron su vasto imperio.</p><p>La victoria de los gith duró poco. Mientras Gith forjaba su propio imperio naciente, un líder llamado Zerthimon la desafió. Zerthimon afirmó que el impulso de Gith hacia la venganza y las nuevas conquistas era prueba de una programación mental de toda la especie implantada por los azotamentes, una manipulación biológica que condenaba a su pueblo a una servidumbre continuada. Esta afirmación dividió a los gith entre los seguidores de Gith, los githyanki (que significa «seguidores de Gith»), y los seguidores de Zerthimon, los githzerai (que significa «quienes rechazan a Gith»), y desencadenó un conflicto que perdura hasta hoy.</p><p>Cuando Gith pereció, su consejera, Vlaakith, asumió el gobierno de los githyanki. La línea de Vlaakith ha continuado hasta la gobernante actual de los githyanki, Vlaakith la Reina Exánime. Esta tirana muerta viviente obliga a su pueblo a librar guerras interminables contra azotamentes, githzerai y cualquier otro que amenace la supremacía githyanki.</p>"
           }
         },
         "C2gSy3RDEy5GsatZ": {
-          "name": "Githyanki guerrero",
+          "name": "Guerrero githyanki",
           "text": {
-            "content": "<p>Githyanki warriors use psionic abilities to augment their battle prowess.</p>"
+            "content": "<p>Los guerreros githyanki usan capacidades psiónicas para aumentar su destreza en combate.</p>"
           }
         },
         "5maG6rPClxnKCsBj": {
-          "name": "Githyanki guerrero",
+          "name": "Caballero githyanki",
           "text": {
-            "content": "<p>Githyanki knights wield silver blades to slay magic-users who use the <em>Proyección astral</em> conjuro to intrude on githyanki territories on the Plano Astral. These silver blades are sacred to the githyanki. Non-githyanki who claim these weapons often find themselves hunted by wrathful githyanki knights.</p>"
+            "content": "<p>Los caballeros githyanki empuñan espadas de plata para matar a los usuarios de magia que usan el conjuro <em>Proyección astral</em> para inmiscuirse en territorios githyanki del Plano Astral. Estas espadas de plata son sagradas para los githyanki. Los no githyanki que se apoderan de estas armas suelen acabar perseguidos por caballeros githyanki furiosos.</p>"
           }
         },
         "0gsn7mTrBjI9W1vX": {
-          "name": "Githyanki dracomante",
+          "name": "Dracomante githyanki",
           "text": {
-            "content": "<p>One of Gith’s last deeds was to forge an alliance between the githyanki and the dragon god Tiamat. Ever since, the Dragon Queen’s red dragon consort, Ephelomon, and his kind have been allies of the githyanki. Githyanki dracomancers uphold this pact and cultivate magic talents that complement the might of red dragons.</p>"
+            "content": "<p>Uno de los últimos actos de Gith fue forjar una alianza entre los githyanki y la diosa dragón Tiamat. Desde entonces, Ephelomon, consorte dragón rojo de la Reina Dragón, y los de su especie han sido aliados de los githyanki. Los dracomantes githyanki sostienen este pacto y cultivan talentos mágicos que complementan el poder de los dragones rojos.</p>"
           }
         },
         "FKgl37ucRqWGFQ9R": {
           "name": "Githzerai",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ZdU0WjGEX34GR03R classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Explorers at Reality’s Extremes</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Planar (Limbo); <strong>Tesoro:</strong> Arcano, Individual</p><p>Githzerai are gaunt, humanlike beings, physically identical to githyanki. They share a history with githyanki as creatures physically and psychically transformed by mind flayers (see the “Githyanki” section). Githzerai know that in body and mind, their species was manipulated by their former illithid oppressors. Rather than giving in to this programming, githzerai follow the teachings of their first leader, Zerthimon, and reshape their minds and bodies to find peace.</p><p>Githzerai psychically create serene, hidden sanctuaries in chaotic reaches of the multiverse. Most of these redoubts drift through the chaotic plane of Limbo, but githzerai conclaves can also be found in the Abismo, the Caos Elemental, and the Parajes Feéricos. Githzerai create these cloisters to hone their psionic abilities, to gain insights from the multiverse, and to avoid githyanki and mind flayers.</p><aside class=\"quote\"><p>We githzerai crave a challenge, so that when Zerthimon returns, he shall find us ready. Thus we traveled to howling Limbo to make our new home.</p><p class=\"quote-author\">—Zaerith Menyar-Ag-Gith, githzerai leader</p></aside>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ZdU0WjGEX34GR03R classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Exploradores en los extremos de la realidad</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Planar (Limbo); <strong>Tesoro:</strong> Arcano, Individual</p><p>Los githzerai son seres demacrados y humanoides, físicamente idénticos a los githyanki. Comparten historia con los githyanki como criaturas transformadas física y psíquicamente por los azotamentes (consulta la sección «Githyanki»). Los githzerai saben que, en cuerpo y mente, su especie fue manipulada por sus antiguos opresores illitas. En lugar de ceder a esa programación, los githzerai siguen las enseñanzas de su primer líder, Zerthimon, y remodelan su mente y su cuerpo para hallar la paz.</p><p>Los githzerai crean psíquicamente santuarios serenos y ocultos en los confines caóticos del multiverso. La mayoría de estos reductos flotan por el plano caótico de Limbo, pero también pueden encontrarse enclaves githzerai en el Abismo, el Caos Elemental y los Parajes Feéricos. Los githzerai crean estos claustros para perfeccionar sus capacidades psiónicas, obtener revelaciones del multiverso y evitar a githyanki y azotamentes.</p><aside class=\"quote\"><p>Nosotros, los githzerai, ansiamos un desafío, de modo que cuando Zerthimon regrese nos encuentre preparados. Por eso viajamos al aullante Limbo para convertirlo en nuestro nuevo hogar.</p><p class=\"quote-author\">—Zaerith Menyar-Ag-Gith, líder githzerai</p></aside>"
           }
         },
         "wHWuZewIMuhrbzR3": {
-          "name": "Githzerai monje",
+          "name": "Monje githzerai",
           "text": {
-            "content": "<p>Githzerai monks pursue control of their minds by honing their physical and psionic talents. They might be found beyond githzerai sanctuaries, testing themselves amid the dangerous extremes of the multiverse.</p>"
+            "content": "<p>Los monjes githzerai persiguen el control de sus mentes perfeccionando sus talentos físicos y psiónicos. Pueden encontrarse más allá de los santuarios githzerai, poniéndose a prueba en los extremos peligrosos del multiverso.</p>"
           }
         },
         "ImbrTxpqMFgtntYq": {
-          "name": "Githzerai zerth",
+          "name": "Zerth githzerai",
           "text": {
-            "content": "<p>Githzerai zerths embody the discipline espoused by their first leader, Zerthimon. Their psionic control aids them in protecting their people and traveling the planes of existence without fear of being followed by githyanki or mind flayer foes.</p>"
+            "content": "<p>Los zerths githzerai encarnan la disciplina defendida por su primer líder, Zerthimon. Su control psiónico les ayuda a proteger a su pueblo y a viajar por los planos de existencia sin temor a que los sigan enemigos githyanki o azotamentes.</p>"
           }
         },
         "kB2VUVf8bOiGsaoi": {
-          "name": "Githzerai psiónico",
+          "name": "Psión githzerai",
           "text": {
-            "content": "<p>These powerful psions oversee githzerai sanctuaries, study enigmatic planar events, and lead rrakkma—hostile forays into mind flayer colonies to slay illithids and uncover secrets of how the ancient gith were transformed.</p>"
+            "content": "<p>Estos poderosos psiones supervisan los santuarios githzerai, estudian enigmáticos sucesos planares y lideran rrakkma: incursiones hostiles en colonias de azotamentes para matar illitas y descubrir secretos sobre cómo fueron transformados los antiguos gith.</p>"
           }
         },
         "RhoVhoLvTjz5x9kC": {
           "name": "Aventuras con gith",
           "text": {
-            "content": "<div><p>Characters might be drawn into conflicts involving githzerai and githyanki in various ways. Tira o elige a result from the Gith Conflicts tabla to inspire adventures featuring these age-old rivals.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmGithConflicts0 rollable classes=\"caption-top\"]</p></div>"
+            "content": "<div><p>Los personajes pueden verse arrastrados a conflictos que implican a githzerai y githyanki de diversas formas. Tira o elige un resultado de la tabla Conflictos gith para inspirar aventuras protagonizadas por estos rivales ancestrales.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmGithConflicts0 rollable classes=\"caption-top\"]</p></div>"
           }
         },
         "ywxoKSaj2hlvewVQ": {
