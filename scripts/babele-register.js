@@ -11,6 +11,22 @@ Hooks.on("init", () => {
   const langs = Array.from(new Set([current, base]));
 
     const compendium = {
+        "dnd-monster-manual.content": {
+            label: "MM 2024 - Contenido",
+            path: "dnd-monster-manual.content.json"
+        },
+        "dnd-monster-manual.actors": {
+            label: "MM 2024 - Monstruos",
+            path: "dnd-monster-manual.actors.json"
+        },
+        "dnd-monster-manual.features": {
+            label: "MM 2024 - Rasgos",
+            path: "dnd-monster-manual.features.json"
+        },
+        "dnd-monster-manual.tables": {
+            label: "MM 2024 - Tablas",
+            path: "dnd-monster-manual.tables.json"
+        }
     };
 
     for (const lang of langs) {
