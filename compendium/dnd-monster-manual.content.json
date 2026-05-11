@@ -2949,85 +2949,85 @@
         "uP3cah0fyIoh75nV": {
           "name": "Remorhazes",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.09hey3RgCdxHsYrw caption=false classes=\"float-right size-three lift-1\"]</p><p class=\"creature-flavor\"><em>Super-Heated Ártico Arthropods</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Ártico; <strong>Tesoro:</strong> Ninguno</p><p>Remorhazes are centipede-like terrors that burrow through snow and ice to ambush smaller creatures that trespass in their frozen territories.</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.09hey3RgCdxHsYrw caption=false classes=\"float-right size-three lift-1\"]</p><p class=\"creature-flavor\"><em>Artrópodos árticos sobrecalentados</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Ártico; <strong>Tesoro:</strong> Ninguno</p><p>Los remorhazes son terrores semejantes a ciempiés que excavan a través de la nieve y el hielo para emboscar a criaturas más pequeñas que invaden sus territorios helados.</p>"
           }
         },
         "aMkiDiwIIEBJZUIR": {
           "name": "Remorhaz joven",
           "text": {
-            "content": "<p>Young remorhazes scorch and consume any creatures they can chase down and overwhelm.</p>"
+            "content": "<p>Los remorhazes jóvenes abrasan y devoran a cualquier criatura a la que puedan alcanzar y superar.</p>"
           }
         },
         "jrzeumln8G614SWk": {
           "name": "Remorhaz",
           "text": {
-            "content": "<p>Full-grown remorhazes are single-minded ambush predators. They attempt to bite prey and trap it against their searing bodies, then swallow their meal whole. Remorhazes eat as much as they can, since they might go months without feeding.</p>"
+            "content": "<p>Los remorhazes adultos son depredadores de emboscada de mente simple. Intentan morder a su presa y atraparla contra sus cuerpos abrasadores, para después tragarse la comida entera. Los remorhazes comen todo lo que pueden, ya que pueden pasar meses sin alimentarse.</p>"
           }
         },
         "MIgxduVUrgHmADPd": {
           "name": "Redivivos",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.g3tWf21ZrLjTHiIk classes=\"float-right size-three lift-50\"]</p><p class=\"creature-flavor\"><em>Vengeance from beyond the Grave</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Bosque, Pantano, Urbano; <strong>Tesoro:</strong> Cualquiera</p><p>Wrathful spirits bent on revenge, revenants possess corpses and other materials, using them to seek justice or vent their rage on those who wronged them. Revenants refuse to rest until those they seek to punish are no more. If their bodies are destroyed, revenants claim new forms and continue their ruthless quests.</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.g3tWf21ZrLjTHiIk classes=\"float-right size-three lift-50\"]</p><p class=\"creature-flavor\"><em>Venganza desde más allá de la tumba</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Bosque, Pantano, Urbano; <strong>Tesoro:</strong> Cualquiera</p><p>Espíritus iracundos obsesionados con la venganza, los redivivos poseen cadáveres y otros materiales para buscar justicia o descargar su furia sobre quienes les hicieron daño. Los redivivos se niegan a descansar hasta que aquellos a quienes desean castigar dejan de existir. Si sus cuerpos son destruidos, reclaman nuevas formas y prosiguen sus implacables misiones.</p>"
           }
         },
         "SxGjvNgZB5wXtNs9": {
           "name": "Redivivo",
           "text": {
-            "content": "<p>Revenants possess the bodies they had in life, using them to hunt down their killers. If their bodies are destroyed, they take control of new bodies that gradually change to resemble the revenants’ original forms.</p>"
+            "content": "<p>Los redivivos poseen los cuerpos que tuvieron en vida y los usan para dar caza a sus asesinos. Si sus cuerpos son destruidos, toman el control de nuevos cuerpos que cambian poco a poco hasta asemejarse a sus formas originales.</p>"
           }
         },
         "0EftlNXoS5D6HsaH": {
           "name": "Redivivo de cementerio",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.cspuHQxRqtMYdMEB caption=false classes=\"float-right size-two float-clear lift-1 top-frame\"]</p><p>Graveyard revenants possess dozens of bodies that combine to form grotesque masses. They take revenge on those responsible for mass deaths or institutions that callously ruin lives.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.cspuHQxRqtMYdMEB caption=false classes=\"float-right size-two float-clear lift-1 top-frame\"]</p><p>Los redivivos de cementerio poseen docenas de cuerpos que se combinan para formar masas grotescas. Se vengan de quienes fueron responsables de muertes masivas o de instituciones que arruinaron vidas con crueldad indiferente.</p>"
           }
         },
         "NalhxqwOlHZ5t2u7": {
           "name": "Redivivo de guarida",
           "text": {
-            "content": "<p>Haunting revenants possess ruins and forsaken places connected with their deaths—such as abandoned buildings, wrecked ships, or junk heaps. These revenants lurk in plain sight, waiting for their foes to near, then trap their victims within their massive bodies. Those inside a revenant might be battered by animate furnishings or more unsettling manifestations of the revenant’s hatred.</p><p>The places haunting revenants lurk swiftly gain infamous reputations.</p>"
+            "content": "<p>Los redivivos de guarida poseen ruinas y lugares abandonados vinculados a sus muertes, como edificios deshabitados, barcos naufragados o montones de chatarra. Estos redivivos acechan a plena vista, esperando a que sus enemigos se acerquen, y entonces atrapan a sus víctimas dentro de sus cuerpos enormes. Quienes quedan dentro de un redivivo pueden ser golpeados por mobiliario animado o por manifestaciones aún más inquietantes del odio del redivivo.</p><p>Los lugares donde acechan los redivivos de guarida adquieren rápidamente una reputación infame.</p>"
           }
         },
         "GS2JdYGVDYQ3ZqP4": {
           "name": "Roc",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.UlwT2h1iG128STAh caption=false classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Avian of Unbelievable Size</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Ártico, Costero, Desierto, Colina, Montaña; <strong>Tesoro:</strong> Cualquiera</p><p>Birds of prey of fantastic scale, rocs hunt over vast territories and can snatch whole elephants, whales, or wagons in their talons. They then carry their prey back to their remote nests, journeys that can take days and cover hundreds of miles.</p><p>Rocs nest amid remote heights. Their nests are typically littered with treasure and uneaten prey. Tira o elige an option from the Roc Nest Remnants tabla to inspire what’s in a roc’s nest.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmRocNestRemnant rollable classes=\"caption-top\"]</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.UlwT2h1iG128STAh caption=false classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Ave de tamaño inconcebible</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Ártico, Costero, Desierto, Colina, Montaña; <strong>Tesoro:</strong> Cualquiera</p><p>Aves de presa de escala fantástica, los rocs cazan en territorios inmensos y pueden arrebatar elefantes, ballenas o carros enteros con sus garras. Después llevan a sus presas de vuelta a sus nidos remotos, viajes que pueden durar días y cubrir cientos de millas.</p><p>Los rocs anidan en alturas apartadas. Sus nidos suelen estar llenos de tesoros y presas sin devorar. Tira o elige una opción de la tabla Restos del nido de roc para inspirar qué hay en el nido de un roc.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmRocNestRemnant rollable classes=\"caption-top\"]</p>"
           }
         },
         "Tnu6KW8hvlaLqaV3": {
           "name": "Lacero",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EK2vLUwfHD2audVu caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Tentacled Subterranean Trapper</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Cualquiera</p><p>Camouflaged as rock formations, ropers are aberrant ambushers that lurk in wait for smaller creatures. These bizarre subterranean hunters extend their rubbery tentacles to explore and prod their surroundings, often reaching beyond their fields of vision. Should they encounter prey, these limbs ensnare victims and drag them close to ropers’ toothy maws. If these tentacles are severed, ropers rapidly grow replacements.</p><aside class=\"quote-left\"><p>Rule 9: Never trust a stalagmite.</p><p class=\"quote-author\">—X the Mystic’s Rules of Dungeon Survival</p></aside><p>Ropers can move, albeit slowly. Crawling on the sticky cilia that cover their undersides, ropers can climb walls and suspend themselves from ceilings. These hunters often position themselves in unexpected or treacherous locations, using their surroundings to weaken their prey. Tira o elige a result from the Lacero Hazards tabla to inspire what dangers ropers employ when ambushing prey.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmRoperHazards00 rollable classes=\"caption-top\"]</p><p>*See the Dungeon Master’s Guide.</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EK2vLUwfHD2audVu caption=false classes=\"float-right size-two lift-50 top-frame\"]</p><p class=\"creature-flavor\"><em>Trampero subterráneo tentaculado</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Cualquiera</p><p>Camuflados como formaciones rocosas, los laceros son aberraciones emboscadoras que acechan a la espera de criaturas más pequeñas. Estos extraños cazadores subterráneos extienden sus tentáculos gomosos para explorar y tantear su entorno, a menudo más allá de su campo de visión. Si encuentran una presa, estas extremidades apresan a las víctimas y las arrastran hacia las fauces dentadas del lacero. Si estos tentáculos son cortados, los laceros hacen crecer sustitutos con rapidez.</p><aside class=\"quote-left\"><p>Regla 9: Nunca confíes en una estalagmita.</p><p class=\"quote-author\">—Reglas de supervivencia en mazmorras de X el Místico</p></aside><p>Los laceros pueden moverse, aunque lentamente. Arrastrándose sobre los cilios pegajosos que cubren su parte inferior, los laceros pueden trepar por paredes y suspenderse de techos. Estos cazadores suelen colocarse en lugares inesperados o traicioneros, usando el entorno para debilitar a su presa. Tira o elige un resultado de la tabla Peligros del lacero para inspirar qué peligros emplean los laceros al emboscar a sus presas.</p><p>@Embed[Compendium.dnd-monster-manual.tables.RollTable.mmRoperHazards00 rollable classes=\"caption-top\"]</p><p>*Consulta la Guía del Dungeon Master.</p>"
           }
         },
         "hetWZ4EnyqetDuMe": {
           "name": "Monstruo corrosivo",
           "text": {
-            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EFYpwumOB2uFkNpq caption=false classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Corrosive, Equipment-Eating Scavenger</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Ninguno</p><p>Rust monsters roam the Infraoscuridad searching for ferrous metal. When they find this material—whether natural veins, subterranean structures, or creatures’ equipment—these beetle-like scavengers rush to feed. Using their feathery antennae, rust monsters dissolve metals such as iron and steel into rusted scrap. They easily gnaw through this corroded metal using their mandibles. Rust monsters usually ignore creatures without metal equipment, but they defend themselves if attacked.</p>"
+            "content": "<p class=\"creature-flavor\">@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.EFYpwumOB2uFkNpq caption=false classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Carroñero corrosivo devorador de equipo</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Infraoscuridad; <strong>Tesoro:</strong> Ninguno</p><p>Los monstruos corrosivos recorren la Infraoscuridad en busca de metal ferroso. Cuando encuentran este material —ya sean vetas naturales, estructuras subterráneas o el equipo de otras criaturas—, estos carroñeros semejantes a escarabajos se lanzan a alimentarse. Con sus antenas plumosas, los monstruos corrosivos disuelven metales como el hierro y el acero hasta convertirlos en chatarra oxidada. Luego roen con facilidad ese metal corroído usando sus mandíbulas. Los monstruos corrosivos suelen ignorar a las criaturas que no llevan equipo metálico, pero se defienden si son atacados.</p>"
           }
         },
         "6GoEsoHTiVUdeAKu": {
           "name": "Sahuagin",
           "text": {
-            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ChnP9rhaSGfwJDAI classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Ravagers from Beneath the Waves</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Costero, Subacuático; <strong>Tesoro:</strong> Cualquiera</p><p>Sahuagin are fiendish terrors that prey on creatures above and below the water. Called “sea devils” by residents of coastal communities, sahuagin are ruthless raiders. They ransack ships, fishing villages, and undersea communities to slake their bloodthirst, claim treasure, and make sacrifices to their vicious deity—the sharklike god Sekolah.</p><p>Sahuagin constantly war on any peoples living near their territory. Merfolk and other aquatic folk bear the brunt of these attacks, but sahuagin also hunt air-breathers who sail over or swim through the waters the sea devils claim. Sahuagin often attack alongside sharks, which they can telepathically command.</p>"
+            "content": "<p>@Embed[Compendium.dnd-monster-manual.content.JournalEntry.mmArtHandouts000.JournalEntryPage.ChnP9rhaSGfwJDAI classes=\"top-frame\"]</p><p class=\"creature-flavor\"><em>Devastadores de las profundidades marinas</em></p><p class=\"habitat-treasure\"><strong>Hábitat:</strong> Costero, Subacuático; <strong>Tesoro:</strong> Cualquiera</p><p>Los sahuagin son terrores infernales que depredan criaturas tanto sobre el agua como bajo ella. Llamados “diablos del mar” por los habitantes de las comunidades costeras, los sahuagin son saqueadores despiadados. Arrasan barcos, aldeas pesqueras y comunidades submarinas para saciar su sed de sangre, reclamar tesoros y ofrecer sacrificios a su deidad despiadada: Sekolah, dios con forma de tiburón.</p><p>Los sahuagin están en guerra constante contra cualquier pueblo que viva cerca de su territorio. Los sirénidos y otros pueblos acuáticos soportan lo peor de estos ataques, pero los sahuagin también cazan a respiradores de aire que navegan sobre las aguas que reclaman los diablos del mar o nadan a través de ellas. Los sahuagin suelen atacar junto a tiburones, a los que pueden dar órdenes telepáticamente.</p>"
           }
         },
         "e7E1JhVR2AaUl70T": {
           "name": "Sahuagin guerrero",
           "text": {
-            "content": "<p>Sahuagin warriors are vicious combatants that savage their foes with webbed claws. Once sahuagin draw blood, they usually attack until either they or their foe is slain.</p><aside class=\"quote\"><p>When a sahuagin comes at you, it doesn’t seem to be living until it bites you. Then the thing’s black eyes turn red as hellfire and the waves foam crimson. Then comes the screaming.</p><p class=\"quote-author\">—Tiguran Maremrynd, A Survivor’s Memoir</p></aside>"
+            "content": "<p>Los guerreros sahuagin son combatientes feroces que despedazan a sus enemigos con garras palmeadas. Una vez que los sahuagin derraman sangre, suelen atacar hasta que ellos o su enemigo mueren.</p><aside class=\"quote\"><p>Cuando un sahuagin se abalanza sobre ti, no parece estar vivo hasta que te muerde. Entonces los ojos negros de la criatura se vuelven rojos como el fuego infernal y las olas se tiñen de carmesí. Luego vienen los gritos.</p><p class=\"quote-author\">—Tiguran Maremrynd, <em>Memorias de un superviviente</em></p></aside>"
           }
         },
         "iAneRFTJ1QnBA0JK": {
           "name": "Sahuagin sacerdote",
           "text": {
-            "content": "<p>Sahuagin priests serve the will of Sekolah or other fiendish masters. They direct and support other sahuagin, and they consider every combatant that falls in battle—whether enemy or ally—a sacrifice to their fierce deities.</p>"
+            "content": "<p>Los sacerdotes sahuagin sirven la voluntad de Sekolah o de otros amos infernales. Dirigen y apoyan a otros sahuagin, y consideran a cada combatiente que cae en batalla —enemigo o aliado— un sacrificio para sus feroces deidades.</p>"
           }
         },
         "VUSDJNlrBgC3IuEK": {
           "name": "Sahuagin barón",
           "text": {
-            "content": "<p>During times of great conflict, Sekolah blesses particularly ruthless sahuagin warriors with increased size and an additional pair of arms, transforming them into sahuagin barons. These boons elevate the recipients’ status among their kind, and they become champions or leaders. Sahuagin barons’ blood is infused with profane magic capable of searing their enemies and making these foes irresistible targets for other Fiends.</p>"
+            "content": "<p>En tiempos de gran conflicto, Sekolah bendice a guerreros sahuagin especialmente despiadados con mayor tamaño y un par adicional de brazos, transformándolos en barones sahuagin. Estos dones elevan el estatus de quienes los reciben entre los suyos, y se convierten en campeones o líderes. La sangre de los barones sahuagin está imbuida de magia profana capaz de abrasar a sus enemigos y convertir a esos adversarios en objetivos irresistibles para otros infernales.</p>"
           }
         },
         "M1Lv0PPOXfB6TqK1": {
