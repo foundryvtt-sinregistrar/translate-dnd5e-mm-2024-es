@@ -597,6 +597,974 @@
         }
       }
     },
+    "mmArtHandouts000": {
+      "name": "Ilustraciones",
+      "pages": {
+        "c6zObT0HPIBpzqG1": {
+          "name": "Vista general del bloque de estadísticas"
+        },
+        "e06DyDS6SacJxt2f": {
+          "name": "Aarakocra"
+        },
+        "9rzbJzo2uraYvE55": {
+          "name": "Aboleth"
+        },
+        "Ex2o7zlOHRjos5Ui": {
+          "name": "Elemental de aire"
+        },
+        "Ysq9b1rDKDynLSci": {
+          "name": "Señor de los animales"
+        },
+        "y4bbErwCxFE2ojOy": {
+          "name": "Objetos animados"
+        },
+        "jFbOxJDngxHXAeQW": {
+          "name": "Ankheg"
+        },
+        "saJxpepVsPa06B7g": {
+          "name": "Arcanaloth"
+        },
+        "ekgXrE0H9OxpH4RG": {
+          "name": "Archisaga"
+        },
+        "MnH1zfzozfNDhl45": {
+          "name": "Asesino"
+        },
+        "wyCZWeHDivGkORO1": {
+          "name": "Árbol despertado"
+        },
+        "YfapgsndlLNMhyr5": {
+          "name": "Pico de hacha"
+        },
+        "n8Wl7PjhL3OpTTgv": {
+          "name": "Azer"
+        },
+        "hy9x34x6CFwcB23B": {
+          "name": "Balor"
+        },
+        "KwYpLhsvsc1NDTSn": {
+          "name": "Bandidos"
+        },
+        "QfrJL3K1ZB1r9CKu": {
+          "name": "Banshee"
+        },
+        "1wUnkAI5fv9ack9o": {
+          "name": "Diablo punzante"
+        },
+        "LoMy9zzSUGYhK6WQ": {
+          "name": "Barlgura"
+        },
+        "XtKanqqzWfGQ1nnK": {
+          "name": "Basilisco"
+        },
+        "StEYwQye8HQ9YxQk": {
+          "name": "Diablo barbado"
+        },
+        "rcHEyx8s3Si1vXwt": {
+          "name": "Behir"
+        },
+        "BakAzucP8sPariyh": {
+          "name": "Contemplador"
+        },
+        "cvtEgTpsTOv2oN1c": {
+          "name": "Berserker"
+        },
+        "s5CPzWj0OOdoFMgZ": {
+          "name": "Dragón negro cría"
+        },
+        "v1xO9PUmlC2aznYD": {
+          "name": "Dragón negro adulto"
+        },
+        "FCxXySa15GPZaZAe": {
+          "name": "Dragón negro anciano"
+        },
+        "I1UtEXMc7C2xWHsx": {
+          "name": "Pudin negro"
+        },
+        "r90nnqC4oKMMWJuD": {
+          "name": "Marchitas rama"
+        },
+        "gbL1Ow16gt6o88JF": {
+          "name": "Marchitas"
+        },
+        "LVbjo1A3xAYjxQg7": {
+          "name": "Marchita de Gulthias"
+        },
+        "mdbTdyqEIiX1zznV": {
+          "name": "Perro intermitente"
+        },
+        "hFWFOpYafiDeBkQA": {
+          "name": "Amasijo de aniquilaciónn"
+        },
+        "KZA8RgvixZYhiifG": {
+          "name": "Dragón azul cría"
+        },
+        "Rr3I3ZCbZqF2vQfd": {
+          "name": "Dragón azul adulto"
+        },
+        "zjGefufLFY1uvFjB": {
+          "name": "Dragón azul anciano"
+        },
+        "QrEtZmUlaPMl9rB8": {
+          "name": "Diablo óseo"
+        },
+        "SdaMo2JdKR6KRUxN": {
+          "name": "Naga ósea"
+        },
+        "jGLeTcYi5qCk9y57": {
+          "name": "Dragón de oropel cría"
+        },
+        "781iDxBc1nN2OZct": {
+          "name": "Dragón de oropel adulto"
+        },
+        "2Y7RaLikLn7SgKiw": {
+          "name": "Dragón de oropel anciano"
+        },
+        "iG6PGZ4AlfBVzLCX": {
+          "name": "Dragón de bronce cría"
+        },
+        "LhVx3vNOyYpm0fAv": {
+          "name": "Dragón de bronce adulto"
+        },
+        "nl4CxG21CMZXHJWi": {
+          "name": "Dragón de bronce anciano"
+        },
+        "EJk5FMiDOaByFxxx": {
+          "name": "Osgos"
+        },
+        "cvK1louEjKMLI1Vz": {
+          "name": "Bulettes"
+        },
+        "ge05JmB5wPdmaAQ3": {
+          "name": "Bullywugs"
+        },
+        "gWQznavqUVets84S": {
+          "name": "Cambion"
+        },
+        "uGgXh4VIKrmXqRq4": {
+          "name": "Carroñero reptante"
+        },
+        "oEIHKi0dbBaGDtxM": {
+          "name": "Centauros"
+        },
+        "JK6pdZfy3B81nllT": {
+          "name": "Diablo de las cadenas"
+        },
+        "soH0Sh5K0oFtC77K": {
+          "name": "Chasme"
+        },
+        "6MSLQ95uLUwDmdmu": {
+          "name": "Quimera"
+        },
+        "Zi2FsVqLBKS6P4fM": {
+          "name": "Chuul"
+        },
+        "ENVwdTIEEf2itAzS": {
+          "name": "Gólem de arcilla"
+        },
+        "Ql55vQgY3XjRCdcx": {
+          "name": "Manto"
+        },
+        "UfSjIYh7XSNxLwHO": {
+          "name": "Gigante de las nubes"
+        },
+        "AVwoE39RSRMC9c8Z": {
+          "name": "Cocatriz"
+        },
+        "7tDRyRfBIxDOeiQk": {
+          "name": "Cocatriz recortada"
+        },
+        "auDW8nOuP9WQpUZ7": {
+          "name": "Coloso"
+        },
+        "BwZznUdKBbq6lneT": {
+          "name": "Plebeyos"
+        },
+        "nkdgLhGf2j1S9XBl": {
+          "name": "Cría de dragón de cobre"
+        },
+        "jo7mFOwEQ93B1keY": {
+          "name": "Dragón de cobre adulto"
+        },
+        "60J6r5aW22zIcp2c": {
+          "name": "Dragón de cobre anciano"
+        },
+        "1wSWtKaYi2ywvnxm": {
+          "name": "Couatl"
+        },
+        "2FfZKVMaJ8hCP1va": {
+          "name": "Garras reptantes"
+        },
+        "00xigL73QK6AnaUF": {
+          "name": "Sectarios"
+        },
+        "uCmcE0HVO62lsSZb": {
+          "name": "Sectario elemental"
+        },
+        "BfYvRpVPGrDEOOP3": {
+          "name": "Cíclopes"
+        },
+        "pQOuSxXJVqGU7WbZ": {
+          "name": "Dao"
+        },
+        "ZgS8yH3gGOq4UWJP": {
+          "name": "Mantoscuro"
+        },
+        "yloAbXj4y3Bk4JwW": {
+          "name": "Perro del inframundo"
+        },
+        "xaVe6QDoYinq3bY1": {
+          "name": "Caballero de la muerte con aspirantes"
+        },
+        "u65ZHLft3dXfCYCN": {
+          "name": "Tirano sepulcral"
+        },
+        "2REPMI2LB1LxjLK6": {
+          "name": "Semilich"
+        },
+        "fJwUjXWjHzXYlzmB": {
+          "name": "Deva"
+        },
+        "V1rpGnHoXOUvWNFb": {
+          "name": "Bestia trémula"
+        },
+        "oPJEtvvW6KQSmX4L": {
+          "name": "Djinn"
+        },
+        "zciT1bWJ5X4MhXsE": {
+          "name": "Doppelganger"
+        },
+        "dIpJ9ujlKGI6l7TX": {
+          "name": "Dracoliche"
+        },
+        "9fkVEpMi7I1kkDpH": {
+          "name": "Dragón tortuga"
+        },
+        "wt1OWvE4dWTeUM5L": {
+          "name": "Dretchs"
+        },
+        "dU27MOiCEYOxjNUh": {
+          "name": "Draña"
+        },
+        "eGHYRvhixasexZet": {
+          "name": "Druida"
+        },
+        "4rCxYanQpanY5dvW": {
+          "name": "Dríade"
+        },
+        "yC0ZARX08HatY2Ot": {
+          "name": "Elemental de tierra"
+        },
+        "nQFeWNF6AwBbpjBy": {
+          "name": "Ifrit"
+        },
+        "cX0guEqQPcL9kfC8": {
+          "name": "Cataclismo elemental"
+        },
+        "i4X9aPoqE5DTohBz": {
+          "name": "Montañas"
+        },
+        "2bLHU5BFkZcLefGj": {
+          "name": "Empíreo"
+        },
+        "sbcrVytogOa2R5Qr": {
+          "name": "Erinia"
+        },
+        "dnQMffbac0Vrxtxd": {
+          "name": "Ettercap"
+        },
+        "CWBPA8KsqIJzGYE2": {
+          "name": "Ettin"
+        },
+        "s25jNqKl9TMQi10l": {
+          "name": "Dragones feéricos"
+        },
+        "elP0SQVVUF6vTQM3": {
+          "name": "Elemental de fuego"
+        },
+        "Grz6u1ydBBOD2M4o": {
+          "name": "Gigante de fuego"
+        },
+        "1OI2RKyKLrHuzoQa": {
+          "name": "Calavera llameante"
+        },
+        "Wb1UZlASIbLD3Ptq": {
+          "name": "Gólem de carne"
+        },
+        "xUE0NVTUynPQvh99": {
+          "name": "Flumph"
+        },
+        "Z5TWsmxFnX2ZPPFN": {
+          "name": "Fomoré"
+        },
+        "38e8opU0db1lfgr0": {
+          "name": "Gigante de escarcha"
+        },
+        "FOHxOq0mU98UM0Ds": {
+          "name": "Hongos"
+        },
+        "QzhgyzX20XtRFUyv": {
+          "name": "Necromole de hongos violetas"
+        },
+        "nmgbbpH13CD9nQRD": {
+          "name": "Galeb Duhr"
+        },
+        "GItjEgV0aXDqg5fk": {
+          "name": "Gárgola"
+        },
+        "VMb5V9t6BEiFyFnc": {
+          "name": "Cubo gelatinoso"
+        },
+        "R26MiQsqnl6fSXKo": {
+          "name": "Ghasts"
+        },
+        "fpm1tkGctzWWTfsZ": {
+          "name": "Fantasma"
+        },
+        "EVfaVbUfg7WyJuBh": {
+          "name": "Gules"
+        },
+        "M7Ffsj978ytSqlFb": {
+          "name": "Bocón barbotante"
+        },
+        "6FTuchI4hNLxsW31": {
+          "name": "Githyanki"
+        },
+        "ZdU0WjGEX34GR03R": {
+          "name": "Githzerai"
+        },
+        "BJk75sxTEamE3wpG": {
+          "name": "Glabrezu"
+        },
+        "Hq1z71PBP1wX4ZBF": {
+          "name": "Gladiador"
+        },
+        "9F9tWwYGKD4XcEQC": {
+          "name": "Gnolls"
+        },
+        "cBVzC8bpftooySMS": {
+          "name": "Goblins"
+        },
+        "JpOiZRf5LRO7FVoD": {
+          "name": "Dragón de oro cría"
+        },
+        "k5I9PDgI0UIf2Zea": {
+          "name": "Dragón de oro adulto"
+        },
+        "HqmUYAuOZXW1t5B5": {
+          "name": "Dragón de oro anciano"
+        },
+        "SknhhXOeHONmmygD": {
+          "name": "Gorgones"
+        },
+        "VewVzKD94zJVlY3V": {
+          "name": "Goristro"
+        },
+        "jcTrY9MC02LsVkII": {
+          "name": "Cieno gris"
+        },
+        "Yk8Rm9uHMLrBw70O": {
+          "name": "Dragón verde cría"
+        },
+        "PkYqOitn88M2ERBK": {
+          "name": "Dragón verde adulto"
+        },
+        "P67q7POtIoEv6opP": {
+          "name": "Dragón verde anciano"
+        },
+        "8DfpeUPUZSWd5u2n": {
+          "name": "Saga cetrina"
+        },
+        "4jMVLMK26xpO31uY": {
+          "name": "Grell"
+        },
+        "Fz71hbnYzqOAHd22": {
+          "name": "Gricks"
+        },
+        "mVdCUAMif2D5B3cg": {
+          "name": "Grifo"
+        },
+        "bkC7tgM45mg6wLs1": {
+          "name": "Grimlock"
+        },
+        "OdUyEG4M0NP94MtH": {
+          "name": "Naga guardiana"
+        },
+        "wPwb0rLQD1MmML3O": {
+          "name": "Guardias"
+        },
+        "eBjVosgmMmjCuPVO": {
+          "name": "Semidragón"
+        },
+        "8X24P3Ri9RNtvb1i": {
+          "name": "Arpía"
+        },
+        "IzDSms6FDnN47Z9V": {
+          "name": "Sabueso infernal"
+        },
+        "zXj85dKuP9bjz75M": {
+          "name": "Horror acorazado"
+        },
+        "BbwLAgSNlSSlNF6a": {
+          "name": "Hezrou"
+        },
+        "wvHJQthwTn6jqh3U": {
+          "name": "Gigante de las colinas"
+        },
+        "8XzNCeqbp59D4AYx": {
+          "name": "Hipogrifo"
+        },
+        "AP8pgbTtMxik7btZ": {
+          "name": "Hobgoblins"
+        },
+        "Dh5TD59HWKHiQWGG": {
+          "name": "Homúnculo"
+        },
+        "GH7lXzeMMod10Gwt": {
+          "name": "Horror ganchudo"
+        },
+        "h1fv9OlETvhQuHBI": {
+          "name": "Diablo astado"
+        },
+        "kKUnGfpBOCyQzK7X": {
+          "name": "Hidra"
+        },
+        "etFREmomPMQrNnA5": {
+          "name": "Diablo gélido"
+        },
+        "gjT00IJgxZwU6WwQ": {
+          "name": "Diablillo"
+        },
+        "QucOIE4hZnfQFxle": {
+          "name": "Íncubo"
+        },
+        "ZfVZL4T9y6LE6w45": {
+          "name": "Devorador de intelectos"
+        },
+        "CpRimnt6lf9Us3S5": {
+          "name": "Acechador invisible"
+        },
+        "e5Da0H8o4dNIsmWM": {
+          "name": "Gólem de hierro"
+        },
+        "yo03wVukpcXva3iq": {
+          "name": "Hombre chacal"
+        },
+        "IP56OQKa00P6HHVa": {
+          "name": "Kenku"
+        },
+        "HFApU8ARS3yXFHop": {
+          "name": "Caballeros"
+        },
+        "QtXZuKHCsfQBl1q2": {
+          "name": "Caballeros sin borde"
+        },
+        "FUAFG9Ig3zt7KtIZ": {
+          "name": "Kobolds"
+        },
+        "sOOONFV6pY930RoV": {
+          "name": "Kraken"
+        },
+        "vgnasZK9xLmt0hFy": {
+          "name": "Kuo-toa arcipreste"
+        },
+        "F8Xi8TJrdthU6mKz": {
+          "name": "Kuo-toa"
+        },
+        "nXzjI9SJmrkDWovI": {
+          "name": "Kuo-toa látigo"
+        },
+        "V41ZuvMK0QLQDkFL": {
+          "name": "Lamia"
+        },
+        "ceRLmbsNPSXbxU1A": {
+          "name": "Larvas"
+        },
+        "4YPiVfChaiBkCa5B": {
+          "name": "Lémur"
+        },
+        "yXvu5NJgsINWnPtM": {
+          "name": "Liche"
+        },
+        "QmY98xs2U9AtWUiy": {
+          "name": "Hombres lagarto"
+        },
+        "6BnQ9iAnorblkSW8": {
+          "name": "Magos"
+        },
+        "4N1AiNNvlObStTwe": {
+          "name": "Magmin"
+        },
+        "dkwKVGrLXlRTc1p5": {
+          "name": "Manes"
+        },
+        "CUCgwo3GMjBi1K2h": {
+          "name": "Mantícora"
+        },
+        "UaQtYrSYHvfDQZkI": {
+          "name": "Marid"
+        },
+        "z3YN8AzEcB0EUNrC": {
+          "name": "Marilith"
+        },
+        "Yo26oiTbwHGBIw6P": {
+          "name": "Medusa"
+        },
+        "K9VjkR9UC92EmU6i": {
+          "name": "Mephits"
+        },
+        "gg4DLE4hm3Yq9k3D": {
+          "name": "Mephit de humo"
+        },
+        "7yiqDKCaLb0OliNn": {
+          "name": "Sirénidos"
+        },
+        "LHAKfsX4Nxmh8v2v": {
+          "name": "Merrow"
+        },
+        "OizYVYJqFhIJyjJ3": {
+          "name": "Mezzoloth"
+        },
+        "qjvx39o6rp1vuu59": {
+          "name": "Mimeto"
+        },
+        "Z8RIYO3Rb882rc4U": {
+          "name": "Azotamentes"
+        },
+        "lVEnVGdlk0boQ2zR": {
+          "name": "Minotauro de Bafomet"
+        },
+        "WykIOuhgQjo87lN1": {
+          "name": "Modrons"
+        },
+        "tYyUvYZLyr5C7u3k": {
+          "name": "Duodrone"
+        },
+        "lNfr64YOHdeqMXn0": {
+          "name": "Tridrone"
+        },
+        "4VYbWc8f1lZLMsrT": {
+          "name": "Quadrone"
+        },
+        "rteWKEN08dVe23Gz": {
+          "name": "Pentadrone"
+        },
+        "RpLC6YcfXjegqWR0": {
+          "name": "Momias"
+        },
+        "UO8J2nYV0byyjqUF": {
+          "name": "Señor de las momias"
+        },
+        "6r6AhxT2Rvh4Qes1": {
+          "name": "Micónidos"
+        },
+        "y3vTb0mZXLuMz3ny": {
+          "name": "Nalfeshnee"
+        },
+        "oXoBau7WxO0RzgLW": {
+          "name": "Saga de la noche"
+        },
+        "io5irN86jaOAVv8C": {
+          "name": "Pesadilla"
+        },
+        "4YU2adNDQs5O2PRC": {
+          "name": "Nobles"
+        },
+        "ChAyaVnq72w7NgMq": {
+          "name": "Nótico"
+        },
+        "1E1aObbPaUOfwSRx": {
+          "name": "Nycaloth"
+        },
+        "4uqOkZMhpLl8mSoG": {
+          "name": "Gelatina ocre"
+        },
+        "2mR1ZSs0KncdugME": {
+          "name": "Ogros"
+        },
+        "FXpnC3DxL8Qri1PC": {
+          "name": "Oni"
+        },
+        "QHqanb0qIx1v1bPB": {
+          "name": "Otyugh"
+        },
+        "TOwStGiHOSOEdoD3": {
+          "name": "Osos lechuza"
+        },
+        "YYBp4ZUoEuUrbBaD": {
+          "name": "Pegaso"
+        },
+        "9FgQv3Vih1Iy20qH": {
+          "name": "Artistas"
+        },
+        "JvzZcF96Scj9ijjM": {
+          "name": "Peryton"
+        },
+        "5GjKqIVAd9aEf8gm": {
+          "name": "Araña de fase"
+        },
+        "FfGvhR6ynCKUx5zn": {
+          "name": "Perforador"
+        },
+        "KNf5HGOw6yOuGCCC": {
+          "name": "Piratas"
+        },
+        "linPUetDjunimRol": {
+          "name": "Diablo de la sima"
+        },
+        "RUSrIVIPunVpyhM9": {
+          "name": "Pixies"
+        },
+        "94C2BuDrSZuaTQQU": {
+          "name": "Planetar"
+        },
+        "h7JFF6OlvwbDdP98": {
+          "name": "Poltergeist"
+        },
+        "kvVlVNDI70a1T7GF": {
+          "name": "Sacerdotes"
+        },
+        "xVzFnhROLdOxJHtZ": {
+          "name": "Pseudodragón"
+        },
+        "LcVzSWRg2WM1xff9": {
+          "name": "Gusano púrpura"
+        },
+        "y16yy3Lsh3SW1Nlv": {
+          "name": "Quaggoths"
+        },
+        "wzh8CYym8MMHjrxG": {
+          "name": "Quasit"
+        },
+        "5erdJ1RbJTkmlmP1": {
+          "name": "Rakshasa"
+        },
+        "fp4ZFtGRPwpBPTSm": {
+          "name": "Dragón rojo cría"
+        },
+        "mEoZUZRxAsIRU1Ql": {
+          "name": "Dragón rojo adulto"
+        },
+        "l3W8M9VsCN1YmF3v": {
+          "name": "Dragón rojo anciano"
+        },
+        "09hey3RgCdxHsYrw": {
+          "name": "Remorhazes"
+        },
+        "g3tWf21ZrLjTHiIk": {
+          "name": "Redivivo y redivivo de cementerio"
+        },
+        "cspuHQxRqtMYdMEB": {
+          "name": "Redivivo de guarida"
+        },
+        "UlwT2h1iG128STAh": {
+          "name": "Roc"
+        },
+        "EK2vLUwfHD2audVu": {
+          "name": "Lacero"
+        },
+        "EFYpwumOB2uFkNpq": {
+          "name": "Monstruo corrosivo"
+        },
+        "ChnP9rhaSGfwJDAI": {
+          "name": "Sahuagin"
+        },
+        "f99txppWcLdPBoXx": {
+          "name": "Salamandras"
+        },
+        "1R1PeajnI19Ps1W5": {
+          "name": "Sátiro"
+        },
+        "ZpgJ197N4c52EJwc": {
+          "name": "Espantapájaros"
+        },
+        "hQBByzCzRi7kgiy6": {
+          "name": "Batidores"
+        },
+        "GP4AhphHhR3fYVNq": {
+          "name": "Saga de los mares"
+        },
+        "XDwJAYzWaR0Y597R": {
+          "name": "Sombra"
+        },
+        "3RvKQoYDrkkcPQMC": {
+          "name": "Demonio de las sombras"
+        },
+        "DiNJXL3QE1xGtLza": {
+          "name": "Dragones sombríos"
+        },
+        "xelRs4wS7PEbu4BZ": {
+          "name": "Broza movediza"
+        },
+        "DEiSR21ub4SNlIbl": {
+          "name": "Guardián escudo"
+        },
+        "lqHwLScYUg3Usyeg": {
+          "name": "Dragón de plata cría"
+        },
+        "6qK1aHrnI99IUb07": {
+          "name": "Dragón de plata adulto"
+        },
+        "GaZRvmKCdfjvnlTw": {
+          "name": "Dragón de plata anciano"
+        },
+        "HLWqOiQIe0JYK47X": {
+          "name": "Esqueletos"
+        },
+        "GEsmsBncwCghRgy1": {
+          "name": "Slaadi"
+        },
+        "9SwmCCzeT5dNGnmw": {
+          "name": "Slaad de la muerte"
+        },
+        "YyczqMwvlhGVjR3p": {
+          "name": "Solar"
+        },
+        "Vh8ZTTC3B3K32ZSR": {
+          "name": "Espectador"
+        },
+        "GmMDiRipXOs06cVL": {
+          "name": "Espectro"
+        },
+        "0GZl0OiEE18W1wXA": {
+          "name": "Esfinges"
+        },
+        "LUT0zFu34iJ38ln9": {
+          "name": "Esfinge en sombra"
+        },
+        "6xQD6Wxg7CQLKlZM": {
+          "name": "Esfinge en el aire"
+        },
+        "Vw2EhCBu1TQI4C1R": {
+          "name": "Esfinge rugiendo"
+        },
+        "lcC54TvIR8emPcVl": {
+          "name": "Espías"
+        },
+        "527Mp3A5JPvl5SFG": {
+          "name": "Diablo espinoso"
+        },
+        "40eKE22ybAx8jNEO": {
+          "name": "Naga espiritual"
+        },
+        "QqJOHBJmDx4g36Jc": {
+          "name": "Duende"
+        },
+        "OYjnSNrYwnfQZPH7": {
+          "name": "Estirges"
+        },
+        "MlxbO3PHJOKevEku": {
+          "name": "Gigante de piedra"
+        },
+        "ae4V17gG0tiCQo34": {
+          "name": "Gólem de piedra"
+        },
+        "RLN95e3lJZwcPvvb": {
+          "name": "Gigante de las tormentas"
+        },
+        "1N0k6QtiF0WTNCbg": {
+          "name": "Súcubo"
+        },
+        "j3GbchJO8Ksa9lS8": {
+          "name": "Tarasca"
+        },
+        "IS1f3lzcSPlee78r": {
+          "name": "Thri-kreen"
+        },
+        "JCQNPrV2bNoTtQ6m": {
+          "name": "Pendencieros"
+        },
+        "HmQveeGf10p8L2Pa": {
+          "name": "Ent"
+        },
+        "1tgSpsLUWcoBiNc3": {
+          "name": "Troglodita"
+        },
+        "KylWrsP66Eas3Gz6": {
+          "name": "Troll"
+        },
+        "GYiKUzFDtlhk3dJg": {
+          "name": "Ultroloth"
+        },
+        "E07lQooRvFMXbpUf": {
+          "name": "Mole sombría"
+        },
+        "i2PevZdEgicEeep6": {
+          "name": "Unicornio"
+        },
+        "WS56cF1jXXq2lTD4": {
+          "name": "Vampiros"
+        },
+        "pR69OcFPya2juCVu": {
+          "name": "Vampire portador de la noche"
+        },
+        "Cdb4qNhLWFWKpujU": {
+          "name": "Los vampiros se preparan para una comida de medianoche."
+        },
+        "ATidpZxUgtRJUHaq": {
+          "name": "Vampiro señor de las sombras"
+        },
+        "ch0kumODnCRnSkYH": {
+          "name": "Vrock"
+        },
+        "lQY8nDUHenS6ZL14": {
+          "name": "Guerrero comandante"
+        },
+        "uQ8D9DFmlz6SFmcE": {
+          "name": "Elemental de agua"
+        },
+        "GsNt17d9eSpf3T4y": {
+          "name": "Extraño de agua"
+        },
+        "hMe3dS6tnlcitZZy": {
+          "name": "Hombre oso"
+        },
+        "BYrs4GCxaEi6G2ig": {
+          "name": "Hombre tigre"
+        },
+        "cANZYfVRnRqrFypw": {
+          "name": "Hombre lobo"
+        },
+        "tDZ3frsFz4Ppu683": {
+          "name": "Dragón blanco cría"
+        },
+        "n1Fk1C95pPpKaC7G": {
+          "name": "Dragón blanco adulto"
+        },
+        "Dj9piYCP64ZqWkT9": {
+          "name": "Dragón blanco anciano"
+        },
+        "CybQo16vyPNwStng": {
+          "name": "Tumulario"
+        },
+        "UMmrpIVPEem3zNZy": {
+          "name": "Fuego fatuo"
+        },
+        "kKRx0Az4IWGRYR0b": {
+          "name": "Lobo invernal"
+        },
+        "AB3lxGMz22xHfL2F": {
+          "name": "Huargo"
+        },
+        "U4UW8mnZWXdnWCnN": {
+          "name": "Aparición"
+        },
+        "dbkLpOIMAzSB9peY": {
+          "name": "Guiverno"
+        },
+        "RxmmQSqnrRaSMR9h": {
+          "name": "Xorn"
+        },
+        "xhRWLqSErZBWA5qq": {
+          "name": "Yeti"
+        },
+        "FudxAjlXMDHZdGoB": {
+          "name": "Yeti abominable"
+        },
+        "FHTtiIuw90mThbB6": {
+          "name": "Yochlol"
+        },
+        "WQeKiGROy41arUEh": {
+          "name": "Yuan-ti infiltrados"
+        },
+        "xvm3pq6Uqg49hhfQ": {
+          "name": "Tipos de yuan-ti corrupto"
+        },
+        "DVHw2hmhQpjRyTMM": {
+          "name": "Yuan-ti corrupto tipo 3"
+        },
+        "02R32TMVTkWKAKkV": {
+          "name": "Yuan-ti abominación"
+        },
+        "fWtNMWDeWAM82dxK": {
+          "name": "Zombis"
+        },
+        "A0XhzS5dHXWfv0E7": {
+          "name": "Anquilosaurio"
+        },
+        "Wd2M7w0m3jnSja5R": {
+          "name": "Archelon"
+        },
+        "oAldhkWQto9OjgGN": {
+          "name": "Druida con animales"
+        },
+        "TBu5jS7ulQ1XFaZT": {
+          "name": "Camello"
+        },
+        "hkg0ZmsUNLbiWOJU": {
+          "name": "Serpiente constrictora"
+        },
+        "VhWPhbkJjwPbpvf6": {
+          "name": "Lobo terrible"
+        },
+        "jsMqG55NjMU0pnl9": {
+          "name": "Elefante"
+        },
+        "viBTVxF3Eq1WPKUw": {
+          "name": "Simio gigante y murciélagos gigantes"
+        },
+        "wirYBeJsrBPL8OF8": {
+          "name": "Jabalí gigante"
+        },
+        "bIg0vixy1PerLFKR": {
+          "name": "Cangrejo gigante"
+        },
+        "oC0a02HtyKyHdOHp": {
+          "name": "Cabra gigante"
+        },
+        "vqlurmdMVEG1QgzA": {
+          "name": "Lagarto gigante"
+        },
+        "3mIDcNyN61wQCSKt": {
+          "name": "Calamar gigante"
+        },
+        "aoJarGx0eB934z4U": {
+          "name": "Comadreja gigante"
+        },
+        "4noKQDL3RMy1W7b4": {
+          "name": "Avispas gigantes"
+        },
+        "oaQLGGQdTOGpdp9g": {
+          "name": "Tarántula gigante"
+        },
+        "rOI1CNWQVh4g7M83": {
+          "name": "Halcón"
+        },
+        "2aXYDyJRElagxwVK": {
+          "name": "Animales acuáticos"
+        },
+        "aO41mnCTjbbSjav2": {
+          "name": "León"
+        },
+        "c3mJ5tNEWELL8y6Y": {
+          "name": "Pulpo"
+        },
+        "8Ah65SuUgiZKx9vx": {
+          "name": "Búho"
+        },
+        "GCQ3YrbCAW9ad64n": {
+          "name": "Ratas"
+        },
+        "2ahCb3rpXljKaZkN": {
+          "name": "Rinoceronte"
+        },
+        "CqPAZohQtaFBOwN1": {
+          "name": "Escorpión"
+        },
+        "z9PTBjuy5s3R5Pqg": {
+          "name": "Enjambre de cuervos"
+        },
+        "4rzlqmT2xLOtDuHi": {
+          "name": "Tiranosaurio Rex"
+        },
+        "bNVLyJe2MXY4EIqR": {
+          "name": "Invocación en la selva tropical"
+        },
+        "oPPj03t60doMt1IX": {
+          "name": "Leyendo un libro en el bosque"
+        }
+      }
+    },
     "mmCredits0000000": {
       "name": "Créditos",
       "pages": {
