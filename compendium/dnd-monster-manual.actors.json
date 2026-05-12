@@ -23,13 +23,17 @@
       },
       "items": {
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMessage000]</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLightningB]</em></p><p class=\"feature\">El aarakocra lanza <em>Caída de pluma</em> en respuesta al desencadenante de ese conjuro, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>"
         },
         "uzW4y82zupKmeJGS": {
           "name": "Elementalismo",
           "activities": {
             "NND0Ry2h5vSfZgq5": {
-              "name": "Invocar elemento"
+              "name": "Invocar elemento",
+              "description": {
+                "chatFlavor": "La invocación de fuego y agua dura 1 minuto"
+              }
             },
             "8IholW9syQX6TFOg": {
               "name": "Esculpir elemento"
@@ -39,7 +43,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Ejerces control sobre los elementos, creando uno de los siguientes efectos dentro del alcance.</p><p><strong>Invocar aire.</strong> Creas una brisa lo bastante fuerte como para ondular tela, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas, todo en un Cubo de 5 pies. Las puertas y contraventanas que alguien o algo mantenga abiertas no se ven afectadas.</p><p><strong>Invocar tierra.</strong> Creas un fino manto de polvo o arena que cubre superficies en un área cuadrada de 5 pies, o haces que una sola palabra aparezca con tu letra en un parche de tierra o arena.</p><p><strong>Invocar fuego.</strong> Creas una fina nube de ascuas inofensivas y humo coloreado y perfumado en un Cubo de 5 pies. Eliges el color y el aroma, y las ascuas pueden encender velas, antorchas o lámparas en esa área. El aroma del humo perdura durante 1 minuto.</p><p><strong>Invocar agua.</strong> Creas una pulverización de niebla fresca que humedece ligeramente a criaturas y objetos en un Cubo de 5 pies. Como alternativa, creas 1 taza de agua limpia en un recipiente abierto o sobre una superficie, y el agua se evapora en 1 minuto.</p><p><strong>Esculpir elemento.</strong> Haces que tierra, arena, fuego, humo, niebla o agua que quepa en un Cubo de 1 pie adopte una forma tosca (como la de una criatura) durante 1 hora.</p>"
         },
         "tvVAA7smwcflJu4W": {
           "name": "Ráfaga de viento",
@@ -47,7 +52,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una Línea de viento fuerte de 60 pies de largo y 10 pies de ancho surge desde ti en una dirección que eliges durante la duración. Cada criatura en la Línea debe superar una tirada de salvación de Fuerza o ser empujada 15 pies lejos de ti siguiendo la dirección de la Línea. Una criatura que termine su turno en la Línea debe realizar la misma salvación.</p><p>Cualquier criatura en la Línea debe gastar 2 pies de movimiento por cada 1 pie que se mueva al acercarse a ti.</p><p>La ráfaga dispersa gas o vapor, y extingue velas y llamas similares desprotegidas en el área. Hace que las llamas protegidas, como las de los faroles, oscilen violentamente y tiene un 50 por ciento de probabilidad de extinguirlas.</p><p>Como acción adicional en tus turnos posteriores, puedes cambiar la dirección en la que surge la Línea.</p>"
         },
         "dWYREmsWqBqUx44b": {
           "name": "Mano de mago",
@@ -55,7 +61,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una mano espectral flotante aparece en un punto que eliges dentro del alcance. La mano dura hasta que termina la duración. La mano desaparece si llega a estar a más de 30 pies de ti o si lanzas este conjuro de nuevo.</p><p>Cuando lanzas el conjuro, puedes usar la mano para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto, o verter el contenido de un vial.</p><p>Como acción Mágica en tus turnos posteriores, puedes volver a controlar la mano de este modo. Como parte de esa acción, puedes mover la mano hasta 30 pies.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
         },
         "prKe7hfW26vEqzqR": {
           "name": "Mensaje",
@@ -68,7 +75,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Señalas a una criatura dentro del alcance y susurras un mensaje. El objetivo (y solo el objetivo) oye el mensaje y puede responder con un susurro que solo tú puedes oír.</p><p>Puedes lanzar este conjuro a través de objetos sólidos si estás familiarizado con el objetivo y sabes que está al otro lado de la barrera. El silencio mágico, 1 pie de piedra, metal o madera, o una fina lámina de plomo bloquean el conjuro.</p>"
         },
         "phAFylbfCGfTlXl3": {
           "name": "Relámpago",
@@ -76,10 +84,12 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Un relámpago que forma una Línea de 100 pies de largo y 5 pies de ancho surge de ti en una dirección que eliges. Cada criatura en la Línea realiza una tirada de salvación de Destreza; recibe 8d6 de daño de Relámpago si falla la salvación, o la mitad de ese daño si la supera.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 3.</p>"
         },
         "veXFEVCxcnHLPodm": {
-          "name": "Caída de pluma"
+          "name": "Caída de pluma",
+          "description": "<p>El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal]</em> en respuesta al desencadenante de ese conjuro, usando la misma característica para lanzar conjuros que @UUID[.mmSpellcasting00].</p>"
         },
         "2Zi6nV1saGPcm4KO": {
           "name": "Caída de pluma",
@@ -87,13 +97,24 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige hasta cinco criaturas que estén cayendo dentro del alcance. La velocidad de descenso de cada criatura que cae se reduce a 60 pies por asalto hasta que el conjuro termine. Si una criatura aterriza antes de que el conjuro termine, no recibe daño por la caída, y el conjuro termina para esa criatura.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
+            }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmWindStaff00000]], y puede usar [[/item .mmSpellcasting00]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em>.</p>"
+        },
+        "mmWindStaff00000": {
+          "name": "Bastón del viento",
+          "description": "<p class=\"feature\"><em>Tirada de ataque cuerpo a cuerpo o a distancia:</em> [[/attack]], alcance [[lookup @item.range.reach]] pies o alcance [[lookup @item.range.value]] pies. <em>Impacto:</em> [[/damage average]] de daño.</p>",
+          "activities": {
+            "TdWiKZSEp6pced2X": {
+              "name": ""
             }
           }
         }
@@ -106,7 +127,25 @@
       },
       "items": {
         "mmTalons00000000": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=XNNdFG40ZJluVYJ7]] de daño si el [[lookup @name lowercase]] [[lookup @activation.condition activity=XNNdFG40ZJluVYJ7]] inmediatamente antes del impacto.</p>",
+          "activities": {
+            "XNNdFG40ZJluVYJ7": {
+              "name": "Ataque a la carga",
+              "activation": {
+                "condition": "se movió 30+ pies en línea recta hacia el objetivo"
+              }
+            }
+          }
+        },
+        "mmWindJavelin000": {
+          "name": "Jabalina del viento",
+          "description": "<p class=\"feature\"><em>Tirada de ataque cuerpo a cuerpo o a distancia:</em> [[/attack]], alcance [[lookup @item.range.reach]] pies o alcance [[lookup @item.range.value]]/[[lookup @item.range.long]] pies. <em>Impacto:</em> [[/damage average]] de daño. <em>Impacto o fallo:</em> La jabalina regresa mágicamente a la mano del [[lookup @name lowercase]] inmediatamente después de un ataque a distancia.</p>",
+          "activities": {
+            "aSQhFaATcOI4gZTz": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -122,7 +161,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmTentacleLash00]]. Puede reemplazar cualquier ataque por un uso de [[/item .mmMindRot0000000]].</p>"
         },
         "mmTentacleLash00": {
           "activities": {
@@ -132,9 +172,12 @@
           },
           "effects": {
             "fwsC4LEiEsiCH93R": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD), y tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que termine el agarre.</p>"
             }
-          }
+          },
+          "name": "Latigazo de tentáculo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.acr.passive]]) por uno de los dos tentáculos, y tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que termine el agarre.</p>"
         },
         "mmMindRot0000000": {
           "activities": {
@@ -144,15 +187,20 @@
           },
           "effects": {
             "JuN8NLLbs3BGEhaZ": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Putrefacción mental",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=DvEIJK7HFwBWNpkq]], [[lookup @target.affects.labels.statblock activity=DvEIJK7HFwBWNpkq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=DvEIJK7HFwBWNpkq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> solo [[lookup @damage.onSave capitalize activity=DvEIJK7HFwBWNpkq]] de daño.</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión menor}</em></p>"
         },
         "mmCounterspell00": {
-          "name": "Contrahechizo"
+          "name": "Contrahechizo",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCounterspe]{Contrahechizo}</em> en respuesta al desencadenante de ese conjuro, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>"
         },
         "ACbxovsCKcunHdN8": {
           "name": "Contrahechizo",
@@ -160,7 +208,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Intentas interrumpir a una criatura que está lanzando un conjuro. La criatura realiza una tirada de salvación de Constitución. Si falla la salvación, el conjuro se disipa sin efecto, y la acción, acción adicional o reacción usada para lanzarlo se desperdicia. Si ese conjuro se lanzó con un espacio de conjuro, el espacio no se gasta.</p>"
         },
         "6saPoZ8DMmR30IcK": {
           "name": "Detectar pensamientos",
@@ -176,7 +225,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Activas uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Detectar pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti que pertenezcan a criaturas que conozcan idiomas o sean telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera, 1 pulgada de metal o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo una criatura que puedas ver a 30 pies o menos de ti, o una criatura a 30 pies o menos de ti que hayas detectado con la opción Detectar pensamientos. Averiguas qué ocupa más la mente del objetivo en ese momento. Si el objetivo no conoce ningún idioma y no es telepático, no averiguas nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar sondear más a fondo la mente del objetivo. Si sondeas más a fondo, el objetivo realiza una tirada de salvación de Sabiduría. Si falla la salvación, disciernes sus razonamientos, emociones y algo que pesa mucho en su mente (como una preocupación, un amor o un odio). Si supera la salvación, el conjuro termina. En cualquier caso, el objetivo sabe que estás sondeando su mente, y hasta que apartes tu atención de la mente del objetivo, este puede realizar una acción en su turno para hacer una prueba de [[/check ability=int skill=arc dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>"
         },
         "meMOGWEoFYLwnRpI": {
           "name": "Ilusión menor",
@@ -189,7 +239,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas un sonido o una imagen de un objeto dentro del alcance que dura hasta que termina la duración. Consulta las descripciones siguientes para los efectos de cada opción. La ilusión termina si lanzas este conjuro de nuevo.</p><p>Si una criatura realiza una acción de Estudiar para examinar el sonido o la imagen, puede determinar que es una ilusión con una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] con éxito contra tu CD de salvación de conjuros. Si una criatura discierne la ilusión tal como es, la ilusión se vuelve tenue para ella.</p><p><strong>Sonido.</strong> Si creas un sonido, su volumen puede ir desde un susurro hasta un grito. Puede ser tu voz, la voz de otra persona, el rugido de un león, el redoble de tambores o cualquier otro sonido que elijas. El sonido continúa sin interrupción durante la duración, o puedes hacer sonidos discretos en diferentes momentos antes de que el conjuro termine.</p><p><strong>Imagen.</strong> Si creas la imagen de un objeto —como una silla, huellas embarradas o un cofre pequeño—, no debe ser mayor que un Cubo de 5 pies. La imagen no puede crear sonido, luz, olor ni ningún otro efecto sensorial. La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla.</p>"
         }
       }
     },
@@ -200,34 +251,47 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmEldritchRestor": {
           "activities": {
             "YwxhTLYeVaKwKIRT": {
               "name": "Días: cuerpo nuevo"
             }
-          }
+          },
+          "name": "Restauración sobrenatural",
+          "description": "<p class=\"feature\">Si es destruido, el [[lookup @name lowercase]] obtiene un nuevo cuerpo en [[/r 5d10]] días, reviviendo con todos sus puntos de golpe en el Reino Lejano u otra ubicación elegida por el DM.</p>"
         },
         "mmLegendaryResis": {
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "mmMucusCloud0000": {
           "activities": {
             "JrxCVyCOsBAMVZS7": {
-              "name": "Daño: fuera del agua"
+              "name": "Daño: fuera del agua",
+              "description": {
+                "chatFlavor": "Daño: cada 10 min. a menos que la piel esté húmeda."
+              }
             }
           },
           "effects": {
             "VesaHwtQEHKpxdAB": {
-              "name": "Maldito"
+              "name": "Maldito",
+              "description": "<p>Mientras la criatura maldita esté fuera de un cuerpo de agua, recibe [[/damage 1d12 Acid average]] de daño al final de cada 10 minutos, a menos que se aplique humedad a su piel antes de que transcurran esos minutos.</p>"
             }
-          }
+          },
+          "name": "Nube de mucosidad",
+          "description": "<p class=\"feature\">Mientras está bajo el agua, el [[lookup @name lowercase]] está rodeado de mucosidad.</p><p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD 14, cada [[lookup @target.affects.type activity=clFFG8uDBSFzxIo8]] en una Emanación de [[lookup @target.template.size activity=clFFG8uDBSFzxIo8]] [[lookup @target.template.units activity=clFFG8uDBSFzxIo8]] originada en el [[lookup @name lowercase]] al final del turno del [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo queda maldito. Hasta que termine la maldición, la piel del objetivo se vuelve viscosa, el objetivo puede respirar aire y agua, y no puede recuperar puntos de golpe a menos que esté bajo el agua.</p><p class=\"feature\">Mientras la criatura maldita esté fuera de un cuerpo de agua, recibe [[/damage average activity=JrxCVyCOsBAMVZS7]] de daño al final de cada 10 minutos, a menos que se aplique humedad a su piel antes de que transcurran esos minutos.</p>"
         },
         "mmTentacle000000": {
           "name": "Tentáculo",
@@ -238,9 +302,11 @@
           },
           "effects": {
             "KxcWsIHohpNmagLJ": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape 14) por uno de los cuatro tentáculos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -248,26 +314,47 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmTentacle000000]] y usa [[/item .7gP0oX3L1RKRaBGH]] o [[/item .yiiKNaJ2svcUWqLi]] si está disponible.</p>"
         },
         "yiiKNaJ2svcUWqLi": {
           "effects": {
             "85n0EJTGfngNSLLl": {
-              "name": "Dominado"
+              "name": "Dominado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false]{Hechizado}. Mientras está Hechizado, el objetivo actúa como aliado del dominador y está bajo su control mientras esté a 60 pies o menos de él. Además, ambos pueden comunicarse telepáticamente entre sí a cualquier distancia.</p>"
             }
-          }
+          },
+          "name": "Dominar mente",
+          "description": "<p><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=zdXAMnjaOcsVmLZP]], un [[lookup @target.affects.type activity=zdXAMnjaOcsVmLZP]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=zdXAMnjaOcsVmLZP]] pies o menos.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Charmed apply=false]{Hechizado} hasta que el [[lookup @name lowercase]] muera o esté en un plano de existencia distinto al del objetivo. Mientras está Hechizado, el objetivo actúa como aliado del [[lookup @name lowercase]] y está bajo su control mientras esté a [[lookup @target.template.size activity=zdXAMnjaOcsVmLZP]] pies o menos de él. Además, el [[lookup @name lowercase]] y el objetivo pueden comunicarse telepáticamente entre sí a cualquier distancia.</p><p>El objetivo repite la salvación siempre que recibe daño, así como después de cada 24 horas que pase a al menos 1 milla del [[lookup @name lowercase]], terminando el efecto sobre sí mismo si tiene éxito.</p>"
         },
         "7gP0oX3L1RKRaBGH": {
           "activities": {
             "uI3HDQ1grN123Or3": {
               "name": "Tirada de salvación de Inteligencia"
             }
-          }
+          },
+          "name": "Consumir recuerdos",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Inteligencia:</em> CD [[lookup @save.dc.value activity=uI3HDQ1grN123Or3]], [[lookup @target.affects.labels.statblock activity=uI3HDQ1grN123Or3]] a [[lookup @range.value activity=uI3HDQ1grN123Or3]] pies o menos. [[lookup @target.affects.special activity=uI3HDQ1grN123Or3]] por el [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=uI3HDQ1grN123Or3]] de daño.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] obtiene los recuerdos del objetivo si el objetivo es un Humanoide y queda reducido a 0 puntos de golpe por esta acción.</p>"
         },
         "ko31Vae4lE8qo5Ez": {
           "activities": {
             "phsl4hTpFmdBa56h": {
               "name": "Gastar uso"
+            }
+          },
+          "name": "Latigazo",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de Tentáculo.</p>"
+        },
+        "mmProbingTelepat": {
+          "name": "Telepatía sondeadora",
+          "description": "<p class=\"feature\">Si una criatura que el [[lookup @name lowercase]] puede ver se comunica telepáticamente con el [[lookup @name lowercase]], el [[lookup @name lowercase]] conoce los mayores deseos de esa criatura.</p>"
+        },
+        "K4jKE3RzUp4lUv6z": {
+          "name": "Drenaje psíquico",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] tiene al menos una criatura Hechizada o Agarrada, usa [[/item .7gP0oX3L1RKRaBGH]] y recupera [[/healing average]].</p>",
+          "activities": {
+            "0updMLBaivqAWmNt": {
+              "name": ""
             }
           }
         }
