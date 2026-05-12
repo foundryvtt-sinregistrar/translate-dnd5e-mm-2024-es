@@ -13972,8 +13972,13 @@
         "alignment": "Neutral"
       },
       "items": {
+        "cS4HArQe973kwB9O": {
+          "name": "Vista etérea",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede ver 60 pies en el Plano Etéreo cuando se encuentra en el Plano Material.</p>"
+        },
         "1sfETIOrk3lvfWbm": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<p>El [[lookup @name lowercase]] puede moverse a través de otras criaturas y objetos como si fueran &amp;Reference[Difficult Terrain]{Terreno difícil}. Recibe [[/damage 1d10 average type=force]] de daño si termina su turno dentro de un objeto.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -13981,7 +13986,12 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .yf1Nf7oPWS4arOOL]].</p>"
+        },
+        "yf1Nf7oPWS4arOOL": {
+          "name": "Toque marchitante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "pB2kBCFQfO3vNHBI": {
           "name": "Excursión etérea",
@@ -13989,13 +13999,14 @@
             "N5QCNM4uIBjpu6sD": {
               "name": "Excursión etérea"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne]{Excursión etérea}</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros. El [[lookup @name lowercase]] es visible en el Plano Material mientras está en el Etéreo Fronterizo, y viceversa, pero no puede afectar ni verse afectado por nada que esté en el otro plano.</p>"
         },
         "88qd0Ulz7AMzouDU": {
           "name": "Excursión etérea",
           "activities": {
             "goIEUkL18XKPxbiu": {
-              "name": "Entrar en el Etéreo fronterizo"
+              "name": "Entrar en el Etéreo Fronterizo"
             }
           },
           "effects": {
@@ -14005,7 +14016,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Das un paso hacia las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en el Etéreo Fronterizo durante la duración. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada pie de movimiento cuesta 1 pie adicional. Puedes percibir el plano que has dejado, que se ve gris, y no puedes ver nada allí a más de 60 pies de distancia.</p><p>Mientras estás en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que estén en ese plano. Las criaturas que no estén en el Plano Etéreo no pueden percibirte ni interactuar contigo, salvo que un rasgo les conceda la capacidad de hacerlo.</p><p>Cuando el conjuro termina, regresas al plano que dejaste en el punto que corresponde a tu espacio en el Etéreo Fronterizo. Si apareces en un espacio ocupado, eres desplazado al espacio desocupado más cercano y recibes daño de Fuerza igual al doble del número de pies que te hayas movido.</p><p>Este conjuro termina instantáneamente si lo lanzas mientras estás en el Plano Etéreo o en un plano que no limite con él, como uno de los Planos Exteriores.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo hasta tres criaturas voluntarias, incluyéndote a ti, por cada nivel de espacio de conjuro por encima de 7. Las criaturas deben estar a 10 pies o menos de ti cuando lanzas el conjuro.</p>"
         },
         "4aPdVm2lhKxkHq7K": {
           "activities": {
@@ -14015,16 +14027,22 @@
           },
           "effects": {
             "lx2ebHyyyaaWf8s1": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el inicio del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Rostro horripilante",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=v8KiqUloIE5eocSu]], cada criatura en un cono de [[lookup @target.template.size activity=v8KiqUloIE5eocSu]] pies que pueda ver al [[lookup @name lowercase]] y que no sea un Muerto viviente.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> El objetivo es inmune al Rostro horripilante de este [[lookup @name lowercase]] durante 24 horas.</p>"
         },
         "MpslHrFN5iU1RjYt": {
           "effects": {
             "EeZIaR3X4cI5glMX": {
-              "name": "Incapacitado"
+              "name": "Incapacitado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} y pierde el control de su cuerpo.</p>"
             }
-          }
+          },
+          "name": "Posesión",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Carisma:</em> CD [[lookup @save.dc.value activity=7gmNBVjwuYTyANMe]], un [[lookup @target.affects.special activity=7gmNBVjwuYTyANMe]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=7gmNBVjwuYTyANMe]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> El objetivo queda poseído por el [[lookup @name lowercase]]; el [[lookup @name lowercase]] desaparece, y el objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} y pierde el control de su cuerpo. El [[lookup @name lowercase]] controla ahora el cuerpo, pero el objetivo conserva la conciencia. El [[lookup @name lowercase]] no puede ser objetivo de ningún ataque, conjuro u otro efecto, salvo de aquellos que tengan específicamente como objetivo a Muertos vivientes. Las estadísticas de juego del [[lookup @name lowercase]] son las mismas, salvo que usa la Velocidad del objetivo poseído, así como los modificadores de Fuerza, Destreza y Constitución del objetivo.</p><p class=\"feature\">La posesión dura hasta que el cuerpo cae a 0 puntos de golpe o hasta que el [[lookup @name lowercase]] lo abandona como acción adicional. Cuando termina la posesión, el [[lookup @name lowercase]] aparece en un espacio desocupado a 5 pies o menos del objetivo, y el objetivo es inmune a la Posesión de este fantasma durante 24 horas.</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune a la Posesión de este [[lookup @name lowercase]] durante 24 horas.</p>"
         }
       }
     },
@@ -14040,18 +14058,22 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mafdXNIx6EIRujnK]].</p>"
         },
         "mafdXNIx6EIRujnK": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "tiNmukdjtTyjqq9S": {
           "name": "Garra",
           "effects": {
             "F66nPf6crMVqKXCc": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un [[lookup @target.affects.type activity=u64Kjp19EAOJoLeo]] [[lookup @target.affects.special activity=u64Kjp19EAOJoLeo]], queda sometido al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=u64Kjp19EAOJoLeo]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -14067,18 +14089,28 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmFist0000000000]].</p>"
         },
         "mmFist0000000000": {
-          "name": "Puño"
+          "name": "Puño",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmBoulderToss000": {
+          "name": "Lanzamiento de roca",
+          "description": "<p>El [[lookup @name lowercase]] lanza una roca a un punto que pueda ver a [[lookup @range.value activity=jpC3fk7LJlhH4CDr]] pies o menos.</p><p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=jpC3fk7LJlhH4CDr]], cada criatura en una esfera de [[lookup @target.template.size activity=jpC3fk7LJlhH4CDr]] pies de radio centrada en ese punto.</p><p><em>Fallo:</em> [[/damage average]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone]{Derribado}.</p><p><em>Éxito:</em> Solo la mitad del daño.</p>"
         },
         "mmLeap0000000000": {
           "name": "Salto",
           "activities": {
             "C28C43DeD8iFtZMe": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "gastando 10 pies de movimiento"
+              }
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] salta hasta [[lookup @range.value activity=C28C43DeD8iFtZMe]] pies [[lookup @activation.condition activity=C28C43DeD8iFtZMe]].</p>"
         }
       }
     },
@@ -14094,15 +14126,27 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item .mmSharpenedBeak0]] y un ataque con [[/item .mmTalons00000000]].</p>"
+        },
+        "mmSharpenedBeak0": {
+          "name": "Pico afilado",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y una criatura a [[lookup @range.value activity=4uExdYHu8g4qxk5r]] [[lookup @range.units activity=4uExdYHu8g4qxk5r]] o menos del objetivo, a elección del [[lookup @name lowercase]], recibe [[/damage average activity=4uExdYHu8g4qxk5r]] de daño.</p>",
+          "activities": {
+            "4uExdYHu8g4qxk5r": {
+              "name": "Daño de área"
+            }
           }
         },
         "mmTalons00000000": {
           "name": "Garras",
           "effects": {
             "wBr7jR6DWg7sNVV5": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14113,7 +14157,8 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -14124,7 +14169,8 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -14135,7 +14181,8 @@
       },
       "items": {
         "mmBloodiedFury00": {
-          "name": "Furia sangrienta"
+          "name": "Furia sangrienta",
+          "description": "<p>Mientras esté &amp;Reference[Bloodied]{Malherido}, el [[lookup @name lowercase]] tiene ventaja en las tiradas de ataque.</p>"
         },
         "mmGore0000000000": {
           "name": "Cornada",
@@ -14149,9 +14196,11 @@
           },
           "effects": {
             "dgfff9ONKHAUcthM": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado} si la criatura atacante usó su rasgo de ataque en movimiento.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended average]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]] y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe [[/damage 2d6 average type=piercing]] de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14165,9 +14214,11 @@
           "name": "Mordisco",
           "effects": {
             "PzxN1RHxvVfpYZxa": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>"
         }
       }
     },
@@ -14183,10 +14234,12 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item .mmBite0000000000]] y usa [[/item .mmConstrict00000]].</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmConstrict00000": {
           "name": "Constreñir",
@@ -14197,9 +14250,11 @@
           },
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p><p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]).</p>"
         }
       }
     },
@@ -14210,7 +14265,8 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmClaw0000000000": {
           "name": "Garra",
@@ -14221,9 +14277,11 @@
           },
           "effects": {
             "LUQxsTZO5TCSCD5L": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]).</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=W1T7dZnG8GMMwyEP]], tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por una de las dos pinzas.</p>"
         }
       }
     },
