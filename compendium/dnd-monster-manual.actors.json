@@ -9113,21 +9113,28 @@
       },
       "items": {
         "mmImmutableForm0": {
-          "name": "Forma inmutable"
+          "name": "Forma inmutable",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] no puede cambiar de forma.</p>"
         },
         "mmLegendaryResis": {
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir tener éxito en su lugar.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmSiegeMonster00": {
-          "name": "Monstruo de asedio"
+          "name": "Monstruo de asedio",
+          "description": "<p>El [[lookup @name lowercase]] inflige el doble de daño a objetos y estructuras.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -9135,10 +9142,12 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques, usando [[/item Slam]] o [[/item Radiant Ray]] en cualquier combinación.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el [[lookup @name]] empuja al objetivo hasta 20 pies en línea recta alejándolo de sí mismo.</p>"
         },
         "mmRadiantRay0000": {
           "name": "Rayo radiante",
@@ -9146,28 +9155,35 @@
             "sjxEDYhKKU50h2RF": {
               "name": "Derribado"
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
         },
         "mmDivineBeam0000": {
           "activities": {
             "MM0CWfZkvWYQQt2f": {
               "name": "Salvación"
             }
-          }
+          },
+          "name": "Rayo divino",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=MM0CWfZkvWYQQt2f]], cada [[lookup @target.affects.type activity=MM0CWfZkvWYQQt2f]] en una línea de [[lookup @target.template.size activity=MM0CWfZkvWYQQt2f]] pies de largo y [[lookup @target.template.width activity=MM0CWfZkvWYQQt2f]] pies de ancho.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=MM0CWfZkvWYQQt2f]] de daño.</p><p class=\"feature\"><em>Fallo o éxito:</em> Una criatura reducida a 0 puntos de golpe por este rayo se desintegra en polvo, dejando atrás cualquier objeto mágico que llevara puesto o transportara.</p>"
         },
         "mmSmite000000000": {
           "activities": {
             "vaeaPkmXjeCBGhY9": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de [[/item Radiant Ray]].</p>",
+          "name": "Castigo"
         },
         "mmStomp000000000": {
           "activities": {
             "wnJIBmd5ciJqOdsV": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Pisotón",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta la mitad de su Velocidad sin provocar &amp;Reference[OpportunityAttacks]{ataques de oportunidad}, y puede realizar un ataque de [[/item Slam]] en cualquier punto de ese movimiento.</p>"
         }
       }
     },
@@ -9178,7 +9194,12 @@
       },
       "items": {
         "uXeL0cGWqRTReue0": {
-          "name": "Garrote"
+          "name": "Garrote",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmTraining000000": {
+          "name": "Entrenamiento",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene competencia en una habilidad a elección del DM y tiene Ventaja siempre que haga una prueba de característica usando esa habilidad.</p>"
         }
       }
     },
@@ -9189,7 +9210,8 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmConstrict00000": {
           "name": "Constreñir",
@@ -9200,9 +9222,11 @@
           },
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>El objetivo tiene la condición Agarrado. Pruebas para escapar (consulta el objeto de origen para la CD):</p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
         }
       }
     },
@@ -9213,18 +9237,22 @@
       },
       "items": {
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmAcidBreath0000": {
-          "name": "Aliento ácido"
+          "name": "Aliento ácido",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], cada [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en una línea de [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]] pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>"
         },
         "mmSlowingBreath0": {
           "name": "Aliento ralentizador",
           "effects": {
             "ztGUDHGfoUxlUY53": {
-              "name": "Mitad de velocidad | Restricciones de acción"
+              "name": "1/2 Velocidad | Restricciones de acción",
+              "description": "<p>El objetivo no puede realizar Reacciones; su Velocidad se reduce a la mitad; y solo puede realizar una acción o una acción adicional en su turno, no ambas. Este efecto dura hasta el final de su siguiente turno.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=teMMQNDDIE9XkPN3]], cada criatura en un Cono de [[lookup @target.template.size activity=teMMQNDDIE9XkPN3]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo no puede realizar Reacciones; su Velocidad se reduce a la mitad; y solo puede realizar una acción o una acción adicional en su turno, no ambas. Este efecto dura hasta el final de su siguiente turno.</p>"
         }
       }
     },
@@ -9238,9 +9266,11 @@
           "name": "Mordisco",
           "effects": {
             "6JlL9rZMoNowDipt": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final del siguiente turno del mordedor.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]].</p>"
         },
         "mmConstrict00000": {
           "name": "Constreñir",
@@ -9251,12 +9281,15 @@
           },
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin componentes de conjuro y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin puntos de golpe temporales obtenidos del conjuro, y sin Concentración ni puntos de golpe temporales necesarios para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCreateFood]{Crear comida y agua}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDream00000]{Ensueño}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Escudriñar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSleep00000]{Dormir}</em></p>"
         },
         "3ov18jCeVA8S88kM": {
           "name": "Detectar el bien y el mal",
@@ -9272,7 +9305,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Durante la duración, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Infernal o Muerto viviente a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, en ese caso, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "Z0LBB9pGvtGYmYtU": {
           "name": "Detectar magia",
@@ -9288,23 +9322,25 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Mientras dura el conjuro, percibes la presencia de efectos mágicos a 30 pies o menos de ti. Si percibes tales efectos, puedes llevar a cabo la acción Magia para ver un aura tenue alrededor de cualquier criatura u objeto visible de la zona que porte la magia; si un efecto fue creado por un conjuro, conoces la escuela mágica de ese conjuro.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "fvUMKr2MYY3v76q0": {
           "name": "Detectar pensamientos",
           "activities": {
             "dnd5eactivity000": {
-              "name": "Sondear más a fondo"
+              "name": "Profundizar"
             },
             "cNjNJvq5tlzmAjzM": {
-              "name": "Detectar pensamientos"
+              "name": "Percibir pensamientos"
             }
           },
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Activas uno de los efectos siguientes. Hasta que el conjuro termine, puedes activar cualquiera de los dos efectos como acción Mágica en tus turnos posteriores.</p><p><strong>Detectar pensamientos.</strong> Percibes la presencia de pensamientos a 30 pies o menos de ti que pertenezcan a criaturas que conozcan idiomas o sean telepáticas. No lees los pensamientos, pero sabes que hay una criatura pensante presente.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera, 1 pulgada de metal o una fina lámina de plomo.</p><p><strong>Leer pensamientos.</strong> Elige como objetivo una criatura que puedas ver a 30 pies o menos de ti, o una criatura a 30 pies o menos de ti que hayas detectado con la opción Detectar pensamientos. Averiguas qué ocupa más la mente del objetivo en ese momento. Si el objetivo no conoce ningún idioma y no es telepático, no averiguas nada.</p><p>Como acción Mágica en tu siguiente turno, puedes intentar sondear más a fondo la mente del objetivo. Si sondeas más a fondo, el objetivo realiza una tirada de salvación de Sabiduría. Si falla la salvación, disciernes sus razonamientos, emociones y algo que pesa mucho en su mente (como una preocupación, un amor o un odio). Si supera la salvación, el conjuro termina. En cualquier caso, el objetivo sabe que estás sondeando su mente, y hasta que apartes tu atención de la mente del objetivo, este puede realizar una acción en su turno para hacer una prueba de [[/check ability=int skill=arc dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros, terminando el conjuro si tiene éxito.</p>"
         },
         "sOJ29wIQbeRNa4Qt": {
           "name": "Cambiar de forma",
@@ -9317,7 +9353,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Cambias de forma y adoptas otra criatura durante la duración o hasta que realizas una acción de Magia para cambiar de forma a una forma elegible diferente. La nueva forma debe ser la de una criatura cuyo valor de desafío no sea superior a tu nivel o valor de desafío. Debes haber visto antes ese tipo de criatura, y no puede ser un Constructo ni un Muerto viviente.</p><p>Cuando cambias de forma, obtienes una cantidad de Puntos de golpe temporales igual a los Puntos de golpe de la forma. El conjuro termina antes si no te quedan Puntos de golpe temporales.</p><p>Tus estadísticas de juego son reemplazadas por el bloque de estadísticas de la forma elegida, pero conservas tu tipo de criatura, alineamiento, personalidad, puntuaciones de Inteligencia, Sabiduría y Carisma, Puntos de golpe, Dados de golpe, competencias y capacidad de comunicarte. Si tienes el rasgo Lanzamiento de conjuros, también lo conservas.</p><p>Al cambiar de forma, determinas si tu equipo cae al suelo o cambia de tamaño y forma para ajustarse a la nueva forma mientras estás en ella.</p>"
         },
         "QdAb5sLcSgIoIpg2": {
           "name": "Crear comida y agua",
@@ -9325,18 +9362,21 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas 45 libras de comida y 30 galones de agua dulce en el suelo o en recipientes dentro del alcance, ambas útiles para evitar los peligros de la malnutrición y la deshidratación. La comida es insípida pero nutritiva y tiene el aspecto de una comida que elijas, y el agua está limpia. La comida se echa a perder pasadas 24 horas si no se consume.</p>"
         },
         "2QpBQBYj5OOOROeD": {
           "name": "Ensueño",
           "effects": {
             "x52Ga7U45IJOPFxK": {
-              "name": "Estado de trance"
+              "name": "Estado de trance",
+              "description": "<p>Mientras está en trance, el mensajero está Incapacitado y tiene Velocidad 0.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Eliges como objetivo una criatura que conozcas y que esté en el mismo plano de existencia que tú. Tú o una criatura voluntaria que toques entráis en estado de trance para actuar como mensajero onírico. Mientras está en trance, el mensajero está &amp;Reference[Incapacitated apply=false] y tiene Velocidad 0.</p><p>Si el objetivo está dormido, el mensajero aparece en sus sueños y puede conversar con él mientras siga dormido, durante la duración del conjuro. El mensajero también puede modelar el entorno del sueño, creando paisajes, objetos y otras imágenes. El mensajero puede salir del trance en cualquier momento, lo que termina el conjuro de forma anticipada. Al despertar, el objetivo recuerda el sueño perfectamente.</p><p>Si el objetivo está despierto cuando lanzas el conjuro, el mensajero lo sabe y puede terminar el trance o esperar a que el objetivo se duerma, momento en el que el mensajero aparece en sus sueños.</p><p>Puedes hacer que el mensajero resulte monstruoso y aterrador para el objetivo. Si lo haces, el mensaje no puede contener más de diez palabras, y el objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, los ecos de la monstruosidad fantasmal engendran una pesadilla que dura todo el sueño del objetivo e impide que obtenga beneficio de ese descanso. Cuando el objetivo despierta, recibe 3d6 de daño Psíquico.</p><p>Si tienes una parte del cuerpo, un mechón de pelo, un recorte de uña u otra porción similar del cuerpo del objetivo, este realiza la salvación con Desventaja.</p>"
         },
         "RcwrcfGLqHMeiMAX": {
           "name": "Restablecimiento mayor",
@@ -9344,37 +9384,38 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas una criatura y eliminas mágicamente uno de los siguientes efectos de ella:</p><ul><li>1 nivel de &amp;Reference[Exhaustion]{Agotamiento}</li><li>La condición &amp;Reference[Charmed]{Hechizado} o &amp;Reference[Petrified]{Petrificado}</li><li>Una maldición, incluida la sintonía del objetivo con un objeto mágico maldito</li><li>Cualquier reducción de una de las puntuaciones de característica del objetivo</li><li>Cualquier reducción del máximo de Puntos de golpe del objetivo</li></ul>"
         },
         "sSktU9MJhyaviFo2": {
           "name": "Escudriñar",
           "activities": {
             "NeUDDgmX3BdnFGH4": {
-              "name": "De oídas y retrato"
+              "name": "De segunda mano e imagen"
             },
             "2CjCuSPwb4erFwZC": {
-              "name": "De oídas y prenda"
+              "name": "De segunda mano y prenda"
             },
             "AwH5PhQZyU2ryO7X": {
-              "name": "De oídas y parte corporal"
+              "name": "De segunda mano y parte del cuerpo"
             },
             "L9ejQXxfSH0qg8bB": {
-              "name": "De primera mano y retrato"
+              "name": "De primera mano e imagen"
             },
             "QUv35ZZBe3gVvEzK": {
               "name": "De primera mano y prenda"
             },
             "xhhjJb25roNtpn8g": {
-              "name": "De primera mano y parte corporal"
+              "name": "De primera mano y parte del cuerpo"
             },
             "7wBprDveLHpbu6Z0": {
-              "name": "Conocimiento amplio y retrato"
+              "name": "Extenso e imagen"
             },
             "QUhtomQ1kgxShABi": {
-              "name": "Conocimiento amplio y prenda"
+              "name": "Extenso y prenda"
             },
             "LwyHxV46sddf89rc": {
-              "name": "Conocimiento amplio y parte corporal"
+              "name": "Extenso y parte del cuerpo"
             },
             "aeMjBXbdsC7SxTTv": {
               "name": "Crear sensor"
@@ -9384,18 +9425,25 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Puedes ver y oír a una criatura de tu elección que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, modificada según lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él, tal como se muestra en las tablas siguientes. El objetivo no sabe contra qué está haciendo la salvación, solo que se siente intranquilo.</p><table><thead><tr><td>Tu conocimiento del objetivo es...</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>De oídas (has oído hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (has conocido al objetivo)</td><td>+0</td></tr><tr><td>Amplio (conoces bien al objetivo)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Tienes del objetivo...</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Un retrato u otra imagen</td><td>−2</td></tr><tr><td>Una prenda u otra posesión</td><td>−4</td></tr><tr><td>Una parte del cuerpo, un mechón de pelo o un trozo de uña</td><td>−10</td></tr></tbody></table><p>Con una salvación con éxito, el objetivo no se ve afectado y no puedes volver a usar este conjuro sobre él durante 24 horas.</p><p>Con una salvación fallida, el conjuro crea un sensor Invisible e intangible a 10 pies o menos del objetivo. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve con el objetivo y permanece a 10 pies o menos de él mientras dura el conjuro. Si algo puede ver el sensor, este aparece como un orbe luminoso del tamaño aproximado de tu puño.</p><p>En lugar de elegir como objetivo a una criatura, puedes elegir una ubicación que hayas visto. Cuando lo haces, el sensor aparece en esa ubicación y no se mueve.</p>"
         },
         "WZos2YJlqndVWXeQ": {
           "name": "Dormir",
           "effects": {
             "04Wa4xUzjA31kPno": {
-              "name": "Durmiendo"
+              "name": "Dormido",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[incapacitated apply=false] hasta el final de su siguiente turno, momento en el que debe repetir la salvación. Si el objetivo falla la segunda salvación, tiene la condición &amp;Reference[unconscious] durante la duración. El conjuro termina sobre un objetivo si recibe daño o si alguien a 5 pies o menos de él usa una acción para sacudirlo y apartarlo del efecto del conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Cada criatura de tu elección en una Esfera de 5 pies de radio centrada en un punto dentro del alcance debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[incapacitated apply=false] hasta el final de su siguiente turno, momento en el que debe repetir la salvación. Si el objetivo falla la segunda salvación, tiene la condición &amp;Reference[unconscious] durante la duración. El conjuro termina sobre un objetivo si recibe daño o si alguien a 5 pies o menos de él usa una acción para sacudirlo y apartarlo del efecto del conjuro.</p><p>Las criaturas que no duermen, como los elfos, o que tienen Inmunidad a la condición &amp;Reference[exhaustion] superan automáticamente las salvaciones contra este conjuro.</p>"
+        },
+        "mmShieldedMind00": {
+          "name": "Mente escudada",
+          "description": "<p class=\"feature\">Los pensamientos del [[lookup @name lowercase]] no pueden ser leídos por ningún medio, y otras criaturas solo pueden comunicarse telepáticamente con él si este se lo permite.</p>"
         }
       }
     },
@@ -9406,10 +9454,12 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmClaw0000000000": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -9420,7 +9470,8 @@
       },
       "items": {
         "rU49zZEzRmQ1fmrL": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -9431,7 +9482,8 @@
       },
       "items": {
         "mmHoldBreath0000": {
-          "name": "Contener la respiración"
+          "name": "Contener la respiración",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede contener la respiración durante 1 hora.</p>"
         },
         "mmBite0000000000": {
           "name": "Mordisco",
@@ -9442,9 +9494,11 @@
           },
           "effects": {
             "DmAM7moVZNE5wb5i": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p><p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p>"
         }
       }
     },
@@ -9456,6 +9510,10 @@
       "items": {
         "oZb08B0WnozgWHvS": {
           "name": "Armadura de cuero"
+        },
+        "mmRitualSickle00": {
+          "name": "Hoz ritual",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -9466,13 +9524,16 @@
       },
       "items": {
         "mmPactBlade00000": {
-          "name": "Hoja de pacto"
+          "name": "Hoja de pacto",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +4 al ataque con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>2/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Inmovilizar persona}</em></p>"
         },
         "mmSpiritualWeapo": {
-          "name": "Arma espiritual"
+          "name": "Arma espiritual",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Arma espiritual}</em>, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>"
         },
         "z817Et9IPt6qHawH": {
           "name": "Arma espiritual",
@@ -9480,7 +9541,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.</p><p>As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for every slot level above 2.</p>"
         },
         "7Hk3xmtV1lhTEMu6": {
           "name": "Luz",
@@ -9493,7 +9555,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve puesto ni transporte. Hasta que el conjuro termina, el objeto emite luz brillante en un radio de 20 pies y luz tenue 20 pies adicionales. La luz puede tener el color que quieras.</p><p>Cubrir el objeto con algo opaco bloquea la luz. El conjuro termina si lo lanzas de nuevo.</p>"
         },
         "XLyCWW9vPAQwvaGr": {
           "name": "Taumaturgia",
@@ -9506,7 +9569,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Manifiestas una maravilla menor dentro del alcance. Creas uno de los siguientes efectos dentro del alcance. Si lanzas este conjuro varias veces, puedes tener activos hasta tres de sus efectos de 1 minuto a la vez.</p><p><strong>Ojos alterados.</strong> Alteras el aspecto de tus ojos durante 1 minuto.</p><p><strong>Voz retumbante.</strong> Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto. Durante la duración, tienes Ventaja en pruebas [[/check ability=cha skill=itm]].</p><p><strong>Juego de fuego.</strong> Haces que llamas parpadeen, se aviven, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de golpe instantáneamente.</p><p><strong>Sonido fantasmal.</strong> Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno, el graznido de un cuervo o susurros ominosos.</p><p><strong>Temblores.</strong> Provocas temblores inofensivos en el suelo durante 1 minuto.</p>"
         },
         "uW5SgMN0N4BGrkkl": {
           "name": "Orden imperiosa",
@@ -9514,18 +9578,21 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Pronuncias una orden de una palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. Elige la orden de estas opciones:</p><p><strong>Acércate.</strong> El objetivo se mueve hacia ti por la ruta más corta y directa, terminando su turno si se mueve a 5 pies o menos de ti.</p><p><strong>Suelta.</strong> El objetivo suelta lo que esté sosteniendo y termina su turno.</p><p><strong>Huye.</strong> El objetivo gasta su turno alejándose de ti por el medio más rápido disponible.</p><p><strong>Túmbate.</strong> El objetivo queda Derribado y termina su turno.</p><p><strong>Detente.</strong> En su turno, el objetivo no se mueve y no realiza ninguna acción ni acción adicional.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes afectar a una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "usukVMEiBvOYV5GI": {
           "name": "Inmovilizar persona",
           "effects": {
             "PklwZi3SKQ3JU2M2": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>Al final de cada uno de sus turnos, el objetivo repite la salvación de [[/save ability=wis]], terminando el conjuro sobre sí mismo si tiene éxito.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige un Humanoide que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[paralyzed apply=false] mientras dure el conjuro. Al final de cada uno de sus turnos, el objetivo repite la salvación y, si tiene éxito, el conjuro termina para él.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo un Humanoide adicional por cada nivel del espacio de conjuro por encima de 2.</p>"
         }
       }
     },
@@ -9536,7 +9603,8 @@
       },
       "items": {
         "mmPactBlade00000": {
-          "name": "Hoja de pacto"
+          "name": "Hoja de pacto",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -9544,13 +9612,16 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques, usando [[/item .mmPactBlade00000]] o [[/item .mmRadiantRay0000]] en cualquier combinación.</p>"
         },
         "mmRadiantRay0000": {
-          "name": "Rayo radiante"
+          "name": "Rayo radiante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplJallarzisS]{Tormenta resplandeciente de Jallarzi}</em> (versión de nivel 7), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMassSugges]{Sugestión en masa}</em></p>"
         },
         "xGAuTAKyJ9bOtLu6": {
           "name": "Taumaturgia",
@@ -9563,26 +9634,34 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Manifiestas una maravilla menor dentro del alcance. Creas uno de los siguientes efectos dentro del alcance. Si lanzas este conjuro varias veces, puedes tener activos hasta tres de sus efectos de 1 minuto a la vez.</p><p><strong>Ojos alterados.</strong> Alteras el aspecto de tus ojos durante 1 minuto.</p><p><strong>Voz retumbante.</strong> Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto. Durante la duración, tienes Ventaja en pruebas [[/check ability=cha skill=itm]].</p><p><strong>Juego de fuego.</strong> Haces que llamas parpadeen, se aviven, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de golpe instantáneamente.</p><p><strong>Sonido fantasmal.</strong> Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno, el graznido de un cuervo o susurros ominosos.</p><p><strong>Temblores.</strong> Provocas temblores inofensivos en el suelo durante 1 minuto.</p>"
         },
         "musopFV455V6gbo6": {
           "name": "Tormenta resplandeciente de Jallarzi",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "rzddpZZZN48oTgyo": {
+              "name": "Sentidos abrumados",
+              "description": "<p>Mientras están en esta área, las criaturas tienen las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Deafened apply=false], y no pueden lanzar conjuros con componente Verbal.</p>"
             }
-          }
+          },
+          "description": "<p>Desatas una tormenta de luces destellantes y truenos furiosos en un Cilindro de 10 pies de radio y 40 pies de alto, centrado en un punto que puedas ver dentro del alcance. Mientras están en esta área, las criaturas tienen las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Deafened apply=false], y no pueden lanzar conjuros con componente Verbal.</p><p>Cuando aparece la tormenta, cada criatura que esté en ella realiza una tirada de salvación de Constitución; si falla, recibe 2d10 de daño Radiante y 2d10 de daño de Trueno, o la mitad de daño si tiene éxito. Una criatura también realiza esta salvación cuando entra en el área del conjuro por primera vez en un turno o termina su turno allí. Una criatura solo realiza esta salvación una vez por turno.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño Radiante y de Trueno aumenta en 1d10 por cada nivel de espacio de conjuro por encima de 5.</p>"
         },
         "MrU64fdXHkzu5ZsD": {
           "name": "Sugestión en masa",
           "effects": {
             "kkxX701wci61fEvH": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados le inflijáis daño. Cada objetivo Hechizado sigue la sugerencia lo mejor que puede.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Sugieres un curso de actividad —descrito en no más de 25 palabras— a doce o menos criaturas que puedas ver dentro del alcance y que puedan oírte y entenderte. La sugerencia debe sonar realizable y no implicar nada que obviamente cause daño a cualquiera de los objetivos o sus aliados. Por ejemplo, podrías decir: «Id al pueblo por ese camino y ayudad a sus habitantes a cosechar hasta el atardecer». O podrías decir: «Ahora no es momento para la violencia. Soltad las armas y bailad. Parad dentro de una hora».</p><p>Cada objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados inflijáis daño al objetivo. Cada objetivo Hechizado sigue la sugerencia lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para un objetivo cuando la completa.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> La duración es mayor con un espacio de conjuro de nivel 7 (10 días), 8 (30 días) o 9 (366 días).</p>"
         },
         "iANswpPVLKhcWa5f": {
           "name": "Coraza"
