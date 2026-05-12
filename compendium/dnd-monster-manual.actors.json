@@ -5539,7 +5539,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRadiantBurst00]].</p>"
         },
         "mmHolyWord000000": {
           "activities": {
@@ -5549,12 +5550,36 @@
           },
           "effects": {
             "8B6uU0MtIOxdOMa7": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Stunned apply=false] hasta el final del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Palabra sagrada",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=hDo31s3Eg9EW7GUZ]], cada [[lookup @target.affects.type activity=hDo31s3Eg9EW7GUZ]] en una emanación de [[lookup @target.template.size activity=hDo31s3Eg9EW7GUZ]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Stunned apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> la mitad de daño solamente.</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\"><em><strong>Lanzamiento de conjuros.</strong></em> El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Sabiduría como característica de lanzamiento de conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Golpe flamígero}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRe]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead]{Alzar a los muertos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTru]{Zona de la verdad}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "AVyJenm68B4khQ3Q": {
+              "name": ""
+            },
+            "JE7vVzvTk3gkYEMO": {
+              "name": ""
+            },
+            "JIfNefAcloK2iRVS": {
+              "name": ""
+            },
+            "AB9xVab6pWYPtFil": {
+              "name": ""
+            },
+            "SK9R30pawQvk5AL7": {
+              "name": ""
+            }
+          }
         },
         "TGtIXg4MjM5kvYR5": {
           "name": "Luz",
@@ -5567,7 +5592,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve puesto ni transporte. Hasta que el conjuro termina, el objeto emite luz brillante en un radio de 20 pies y luz tenue 20 pies adicionales. La luz puede tener el color que quieras.</p><p>Cubrir el objeto con algo opaco bloquea la luz. El conjuro termina si lo lanzas de nuevo.</p>"
         },
         "hCQCJAN81nqeK5ki": {
           "name": "Taumaturgia",
@@ -5580,13 +5606,20 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Manifiestas una maravilla menor dentro del alcance. Creas uno de los siguientes efectos dentro del alcance. Si lanzas este conjuro varias veces, puedes tener activos hasta tres de sus efectos de 1 minuto a la vez.</p><p><strong>Ojos alterados.</strong> Alteras el aspecto de tus ojos durante 1 minuto.</p><p><strong>Voz retumbante.</strong> Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto. Durante la duración, tienes Ventaja en pruebas [[/check ability=cha skill=itm]].</p><p><strong>Juego de fuego.</strong> Haces que llamas parpadeen, se aviven, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de golpe instantáneamente.</p><p><strong>Sonido fantasmal.</strong> Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno, el graznido de un cuervo o susurros ominosos.</p><p><strong>Temblores.</strong> Provocas temblores inofensivos en el suelo durante 1 minuto.</p>"
         },
         "8sObjFa2zbv9HezT": {
           "name": "Golpe flamígero",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Una columna vertical de fuego brillante desciende rugiendo desde lo alto. Cada criatura en un Cilindro de 10 pies de radio y 40 pies de alto centrado en un punto dentro del alcance hace una tirada de salvación de Destreza. Si falla, recibe 5d6 de daño de fuego y 5d6 de daño radiante; si tiene éxito, recibe la mitad de ese daño.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño de fuego o el daño radiante, a tu elección, aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 5.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": ""
             }
           }
         },
@@ -5596,7 +5629,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas una criatura y eliminas mágicamente uno de los siguientes efectos de ella:</p><ul><li>1 nivel de &amp;Reference[Exhaustion]{Agotamiento}</li><li>La condición &amp;Reference[Charmed]{Hechizado} o &amp;Reference[Petrified]{Petrificado}</li><li>Una maldición, incluida la sintonía del objetivo con un objeto mágico maldito</li><li>Cualquier reducción de una de las puntuaciones de característica del objetivo</li><li>Cualquier reducción del máximo de Puntos de golpe del objetivo</li></ul>"
         },
         "ysreE8j63wdkojB4": {
           "name": "Alzar a los muertos",
@@ -5607,46 +5641,70 @@
           },
           "effects": {
             "etY0sDrXe6DcFEzc": {
-              "name": "Malestar de resurrección (día 1)"
+              "name": "Malestar de resurrección (día 1)",
+              "description": "<p>Volver de entre los muertos es una experiencia dura. El objetivo sufre un penalizador de −4 a las pruebas de d20. Cada vez que termina un descanso largo, el penalizador se reduce en 1 hasta desaparecer.</p>"
             },
             "QUWVMgg2HidYsUxy": {
-              "name": "Malestar de resurrección (día 2)"
+              "name": "Malestar de resurrección (día 2)",
+              "description": "<p>Volver de entre los muertos es una experiencia dura. El objetivo sufre un penalizador de −3 a las pruebas de d20. Cada vez que termina un descanso largo, el penalizador se reduce en 1 hasta desaparecer.</p>"
             },
             "vyf4vVVoGkZPyAqa": {
-              "name": "Malestar de resurrección (día 4)"
+              "name": "Malestar de resurrección (día 4)",
+              "description": "<p>Volver de entre los muertos es una experiencia dura. El objetivo sufre un penalizador de −1 a las pruebas de d20. Cada vez que termina un descanso largo, el penalizador se reduce en 1 hasta desaparecer.</p>"
             },
             "0EAyGy8YaKbvgvkm": {
-              "name": "Malestar de resurrección (día 3)"
+              "name": "Malestar de resurrección (día 3)",
+              "description": "<p>Volver de entre los muertos es una experiencia dura. El objetivo sufre un penalizador de −2 a las pruebas de d20. Cada vez que termina un descanso largo, el penalizador se reduce en 1 hasta desaparecer.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Con un toque, revives a una criatura muerta si lleva muerta no más de 10 días y no era Muerta viviente cuando murió.</p><p>La criatura vuelve a la vida con 1 punto de golpe. Este conjuro también neutraliza cualquier veneno que afectara a la criatura en el momento de su muerte.</p><p>Este conjuro cierra todas las heridas mortales, pero no restaura partes del cuerpo que falten. Si a la criatura le falta alguna parte del cuerpo esencial para vivir, como la cabeza, el conjuro falla automáticamente.</p><p>Volver de entre los muertos es una experiencia dura. El objetivo sufre un penalizador de −4 a las pruebas de d20. Cada vez que termina un descanso largo, el penalizador se reduce en 1 hasta desaparecer.</p>"
         },
         "AXi3lAFYQ4nJDrdX": {
           "name": "Zona de la verdad",
           "effects": {
             "BgkyT4A5qyArRveO": {
-              "name": "No puede mentir"
+              "name": "No puede mentir",
+              "description": "<p>Si falla la salvación, una criatura no puede decir una mentira deliberada mientras esté dentro del radio. Sabes si cada criatura supera o falla su tirada de salvación.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas una zona mágica que protege contra el engaño en una Esfera de 15 pies de radio centrada en un punto dentro del alcance. Hasta que el conjuro termina, una criatura que entre en la zona por primera vez en un turno o empiece su turno allí debe hacer una tirada de salvación de Carisma. Si falla, la criatura no puede decir una mentira deliberada mientras esté dentro del radio. Tú sabes si una criatura tiene éxito o falla esta salvación.</p><p>Una criatura afectada es consciente del conjuro y puede evitar responder preguntas a las que normalmente respondería con una mentira. Esta criatura puede ser evasiva en sus respuestas siempre que se mantenga dentro de los límites de la verdad.</p>"
         },
         "I2TmSTZ774CeSheG": {
-          "name": "Auxilio divino"
+          "name": "Auxilio divino",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bendición}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWo]{Palabra de curación}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Restablecimiento menor}</em>, usando la misma característica de lanzamiento de conjuros que Lanzamiento de conjuros.</p>",
+          "activities": {
+            "V0Qrt1uTAqiU9SCm": {
+              "name": ""
+            },
+            "R4x9qJ4BYyFenPUf": {
+              "name": ""
+            },
+            "xlmEmICWCOXh1DRs": {
+              "name": ""
+            },
+            "mV8EoRveUz19SU1p": {
+              "name": ""
+            }
+          }
         },
         "ir0NiS6nPN91RPqQ": {
           "name": "Bendición",
           "effects": {
             "1dzvDffEh8wZ0oQy": {
-              "name": "Bendecido"
+              "name": "Bendecido",
+              "description": "<p>Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que termine el conjuro, suma 1d4 a la tirada de ataque o a la salvación.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Bendices hasta tres criaturas dentro del alcance. Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que termine el conjuro, suma 1d4 a la tirada de ataque o a la salvación.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "lmHO09uRagHdxtGo": {
           "name": "Disipar magia",
@@ -5654,7 +5712,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro activo de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro activo de nivel 4 o superior sobre el objetivo, haz una prueba de característica usando tu característica de lanzamiento de conjuros (CD 10 más el nivel de ese conjuro). Si tienes éxito, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel del conjuro es igual o inferior al nivel del espacio de conjuro que usas.</p>"
         },
         "WdCpLLjPs4BUZLvY": {
           "name": "Palabra de curación",
@@ -5662,13 +5721,24 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una criatura a tu elección que puedas ver dentro del alcance recupera puntos de golpe iguales a 2d4 + tu modificador de característica de lanzamiento de conjuros.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d4 por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "3pZhL6jglsVv21Yx": {
           "name": "Restablecimiento menor",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Tocas una criatura y terminas una condición que la afecte: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>"
+        },
+        "mmRadiantBurst00": {
+          "name": "Estallido radiante",
+          "description": "<p class=\"feature\"><em>Tirada de ataque cuerpo a cuerpo o a distancia:</em> [[/attack]], alcance [[lookup @item.range.reach]] pies o alcance [[lookup @item.range.value]] pies. <em>Impacto:</em> [[/damage average]] de daño.</p>",
+          "activities": {
+            "qXmeNYTcbYg9ViQa": {
+              "name": ""
             }
           }
         }
@@ -5684,18 +5754,32 @@
           "name": "Espada corta",
           "effects": {
             "gUiotlwd6du6hxyJ": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el comienzo del siguiente turno del asesino.</p>"
+            }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el comienzo del siguiente turno del asesino.</p>",
+          "activities": {
+            "42jdrHDfDRCcYeL4": {
+              "name": ""
             }
           }
         },
         "dL4668G7zXeC5zyY": {
-          "name": "Ballesta ligera"
+          "name": "Ballesta ligera",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "UYlAFnNzdcc3L81u": {
+              "name": ""
+            }
+          }
         },
         "21edXZRTQ2XOqsUl": {
           "name": "Armadura de cuero tachonado"
         },
         "mmEvasion0000000": {
-          "name": "Evasión"
+          "name": "Evasión",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] está sujeto a un efecto que le permite realizar una tirada de salvación de Destreza para recibir solo la mitad de daño, el [[lookup @name lowercase]] no recibe ningún daño si tiene éxito en la salvación y solo la mitad de daño si falla. No puede usar este rasgo si tiene la condición Incapacitado.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -5703,7 +5787,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques, usando [[/item .jLa5l9pntsTVrMKH]] o [[/item .dL4668G7zXeC5zyY]] en cualquier combinación.</p>"
         },
         "mmCunningAction0": {
           "name": "Acción astuta",
@@ -5711,7 +5796,8 @@
             "2El9isE16lx2LU0K": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Dash apply=false], &amp;Reference[Disengage apply=false] o &amp;Reference[Hide apply=false].</p>"
         }
       }
     },
@@ -5719,6 +5805,17 @@
       "name": "Arbusto despertado",
       "details": {
         "alignment": "Neutral"
+      },
+      "items": {
+        "mmRake0000000000": {
+          "name": "Zarpazo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage extended]].</p>",
+          "activities": {
+            "rAsPsMPZCfwo2NKR": {
+              "name": ""
+            }
+          }
+        }
       }
     },
     "mmAwakenedTree00": {
@@ -5728,7 +5825,8 @@
       },
       "items": {
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -5739,7 +5837,8 @@
       },
       "items": {
         "mmBeak0000000000": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -5750,10 +5849,20 @@
       },
       "items": {
         "mmFireAura000000": {
-          "name": "Aura ígnea"
+          "name": "Aura ígnea",
+          "description": "<p>Al final de cada turno del [[lookup @name lowercase]], cada [[lookup @target.affects.type activity=15VgJKVXwYBOFSqJ]] que elija el [[lookup @name lowercase]] en una emanación de [[lookup @target.template.size activity=15VgJKVXwYBOFSqJ]] pies originada en el [[lookup @name lowercase]] realiza una tirada de salvación de Destreza CD [[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]. En caso de fallo, la criatura recibe [[/damage average]] de daño. En caso de éxito, recibe la mitad de daño.</p>",
+          "activities": {
+            "15VgJKVXwYBOFSqJ": {
+              "name": "",
+              "activation": {
+                "condition": "al final de cada turno de esta criatura"
+              }
+            }
+          }
         },
         "mmIllumination00": {
-          "name": "Iluminación"
+          "name": "Iluminación",
+          "description": "<p>El [[lookup @name lowercase]] emite luz brillante en un radio de 10 pies y luz tenue 10 pies adicionales.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -5761,16 +5870,32 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmFlameBurst0000]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Sabiduría como característica de lanzamiento de conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplElementali]{Elementalismo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mano de mago}</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em></p>",
+          "activities": {
+            "8PRYq7Lvt0jdIKbN": {
+              "name": ""
+            },
+            "xwd3bwDi57IQoCYe": {
+              "name": ""
+            },
+            "JY5aPFe6TOYnCW7j": {
+              "name": ""
+            }
+          }
         },
         "j2rIQLqK06tg1Vqz": {
           "name": "Elementalismo",
           "activities": {
             "NND0Ry2h5vSfZgq5": {
-              "name": "Invocar elemento"
+              "name": "Invocar elemento",
+              "description": {
+                "chatFlavor": "Convocar fuego y agua dura 1 minuto"
+              }
             },
             "8IholW9syQX6TFOg": {
               "name": "Esculpir elemento"
@@ -5780,13 +5905,20 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Ejerces control sobre los elementos, creando uno de los siguientes efectos dentro del alcance.</p><p><strong>Invocar aire.</strong> Creas una brisa lo bastante fuerte como para ondular tela, remover polvo, agitar hojas y cerrar puertas y contraventanas abiertas, todo en un Cubo de 5 pies. Las puertas y contraventanas que alguien o algo mantenga abiertas no se ven afectadas.</p><p><strong>Invocar tierra.</strong> Creas un fino manto de polvo o arena que cubre superficies en un área cuadrada de 5 pies, o haces que una sola palabra aparezca con tu letra en un parche de tierra o arena.</p><p><strong>Invocar fuego.</strong> Creas una fina nube de ascuas inofensivas y humo coloreado y perfumado en un Cubo de 5 pies. Eliges el color y el aroma, y las ascuas pueden encender velas, antorchas o lámparas en esa área. El aroma del humo perdura durante 1 minuto.</p><p><strong>Invocar agua.</strong> Creas una pulverización de niebla fresca que humedece ligeramente a criaturas y objetos en un Cubo de 5 pies. Como alternativa, creas 1 taza de agua limpia en un recipiente abierto o sobre una superficie, y el agua se evapora en 1 minuto.</p><p><strong>Esculpir elemento.</strong> Haces que tierra, arena, fuego, humo, niebla o agua que quepa en un Cubo de 1 pie adopte una forma tosca (como la de una criatura) durante 1 hora.</p>"
         },
         "3l1WfTl63GgjMEKt": {
           "name": "Mano de mago",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Una mano espectral flotante aparece en un punto que eliges dentro del alcance. La mano dura hasta que termina la duración. La mano desaparece si llega a estar a más de 30 pies de ti o si lanzas este conjuro de nuevo.</p><p>Cuando lanzas el conjuro, puedes usar la mano para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto, o verter el contenido de un vial.</p><p>Como acción Mágica en tus turnos posteriores, puedes volver a controlar la mano de este modo. Como parte de esa acción, puedes mover la mano hasta 30 pies.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>",
+          "activities": {
+            "QdMC2s97UJKjUBoD": {
+              "name": ""
             }
           }
         },
@@ -5796,16 +5928,33 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una estela brillante surge de ti hacia un punto que elijas dentro del alcance y entonces estalla con un rugido bajo en una explosión de fuego. Cada criatura en una Esfera de 20 pies de radio centrada en ese punto hace una tirada de salvación de Destreza. Si falla, recibe 8d6 de daño de fuego; si tiene éxito, recibe la mitad.</p><p>Los objetos inflamables de la zona que no estén siendo llevados ni vestidos arden.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 3.</p>"
         },
         "mmHellishRebuke0": {
-          "name": "Reprensión infernal"
+          "name": "Reprensión infernal",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb]{Reprensión infernal}</em> en respuesta al desencadenante de ese conjuro, usando la misma característica de lanzamiento de conjuros que Lanzamiento de conjuros.</p>",
+          "activities": {
+            "mGDbinMRzIexG7bS": {
+              "name": ""
+            }
+          }
         },
         "lJ0WsCTDWAMXkc03": {
           "name": "Reprensión infernal",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>La criatura que te dañó queda momentáneamente rodeada por llamas verdes. Realiza una tirada de salvación de Destreza; recibe 2d10 de daño de fuego si falla, o la mitad de ese daño si tiene éxito.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d10 por cada nivel de espacio de conjuro por encima de 1.</p>"
+        },
+        "mmFlameBurst0000": {
+          "name": "Estallido flamígero",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "eCshxe5Bb5HAeg8X": {
+              "name": ""
             }
           }
         }
@@ -5818,10 +5967,29 @@
       },
       "items": {
         "mmFireAura000000": {
-          "name": "Aura ígnea"
+          "name": "Aura ígnea",
+          "description": "<p>Al final de cada turno del [[lookup @name lowercase]], cada [[lookup @target.affects.type activity=15VgJKVXwYBOFSqJ]] que elija el [[lookup @name lowercase]] en una emanación de [[lookup @target.template.size activity=15VgJKVXwYBOFSqJ]] pies originada en el [[lookup @name lowercase]] realiza una tirada de salvación de Destreza CD [[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]. En caso de fallo, la criatura recibe [[/damage average]] de daño. En caso de éxito, recibe la mitad de daño.</p>",
+          "activities": {
+            "15VgJKVXwYBOFSqJ": {
+              "name": "",
+              "activation": {
+                "condition": "al final de cada turno de esta criatura"
+              }
+            }
+          }
         },
         "mmIllumination00": {
-          "name": "Iluminación"
+          "name": "Iluminación",
+          "description": "<p>El [[lookup @name lowercase]] emite luz brillante en un radio de 10 pies y luz tenue 10 pies adicionales.</p>"
+        },
+        "mmBurningHammer0": {
+          "name": "Martillo ardiente",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "D6YUMMYgyoPf1jjI": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -5832,10 +6000,12 @@
       },
       "items": {
         "mmPackTactics000": {
-          "name": "Tácticas de manada"
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de la criatura y ese aliado no tiene la condición Incapacitado.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -5846,7 +6016,13 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -5857,18 +6033,29 @@
       },
       "items": {
         "mmFireAura000000": {
-          "name": "Aura ígnea"
+          "name": "Aura ígnea",
+          "description": "<p>Al final de cada turno del [[lookup @name lowercase]], cada [[lookup @target.affects.type activity=15VgJKVXwYBOFSqJ]] que elija el [[lookup @name lowercase]] en una emanación de [[lookup @target.template.size activity=15VgJKVXwYBOFSqJ]] pies originada en él realiza una tirada de salvación de Destreza CD [[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]. En caso de fallo, la criatura recibe [[/damage average]] de daño. En caso de éxito, recibe la mitad de daño.</p>",
+          "activities": {
+            "15VgJKVXwYBOFSqJ": {
+              "name": ""
+            }
+          }
         },
         "mmLegendaryResis": {
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -5876,12 +6063,24 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item .mmFlameWhip00000]] y un ataque de [[/item .mmLightningBlade]].</p>"
         },
         "mmFlameWhip00000": {
           "effects": {
             "ZjYcf64z7AHBBoj5": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+            }
+          },
+          "name": "Látigo flamígero",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Enorme o más pequeña, el [[lookup @name lowercase]] tira de él hasta 25 pies en línea recta hacia sí, y el objetivo tiene la condición &amp;Reference[Prone apply=false].</p>",
+          "activities": {
+            "sPRQe6Llftsg9xiX": {
+              "name": "",
+              "description": {
+                "chatFlavor": "Al impactar: las criaturas Enormes o más pequeñas son arrastradas 25 pies hacia la criatura atacante."
+              }
             }
           }
         },
@@ -5890,6 +6089,25 @@
           "activities": {
             "dnoRMdFzhUUku26D": {
               "name": "Gastar uso"
+            }
+          },
+          "description": "<p>El [[lookup @name lowercase]] se teletransporta [[lookup @target.affects.special activity=dnoRMdFzhUUku26D]] de sí mismo hasta [[lookup @range.value activity=dnoRMdFzhUUku26D]] pies a un espacio desocupado que el [[lookup @name lowercase]] pueda ver.</p>"
+        },
+        "mmDeathThroes000": {
+          "name": "Estertores mortales",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] explota cuando muere.</p><p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=jTq2czA8KQITUK4c]], cada criatura en una emanación de [[lookup @target.template.size activity=jTq2czA8KQITUK4c]] pies originada en el [[lookup @name lowercase]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Fallo o éxito:</em> Si el [[lookup @name lowercase]] muere fuera del Abismo, obtiene un cuerpo nuevo al instante y revive con todos sus puntos de golpe en algún lugar del Abismo.</p>",
+          "activities": {
+            "jTq2czA8KQITUK4c": {
+              "name": ""
+            }
+          }
+        },
+        "mmLightningBlade": {
+          "name": "Hoja relampagueante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo no puede realizar &amp;Reference[Reaction] hasta el comienzo del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "Pd0OXDusQbSepRl7": {
+              "name": ""
             }
           }
         }
@@ -5902,10 +6120,22 @@
       },
       "items": {
         "otGT32geRnrgVe3j": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "YOx3cikY6oPu6Ojh": {
+              "name": ""
+            }
+          }
         },
         "0qG1ZLUPB2MrHV8B": {
-          "name": "Ballesta ligera"
+          "name": "Ballesta ligera",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].&gt;</p>",
+          "activities": {
+            "UYlAFnNzdcc3L81u": {
+              "name": ""
+            }
+          }
         },
         "sD8cJZJSn1z2RKhf": {
           "name": "Armadura de cuero"
@@ -5913,16 +6143,28 @@
       }
     },
     "mmBanditCaptain0": {
-      "name": "Bandido capitán",
+      "name": "Capitán bandido",
       "details": {
         "alignment": "Neutral"
       },
       "items": {
         "w3cX0piuU875Hc2M": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "YOx3cikY6oPu6Ojh": {
+              "name": ""
+            }
+          }
         },
         "2TB9ZSIbtbi4UtSv": {
-          "name": "Pistola"
+          "name": "Pistola",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "Zyg4dqUmd4VkNdov": {
+              "name": ""
+            }
+          }
         },
         "fUmmI6ZeI46gRgam": {
           "name": "Armadura de cuero tachonado"
@@ -5933,15 +6175,20 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .w3cX0piuU875Hc2M]] y [[/item .2TB9ZSIbtbi4UtSv]] en cualquier combinación.</p>"
         },
         "mmParry000000000": {
           "name": "Parada",
           "activities": {
             "aLG3BRZL7P6OEjwd": {
-              "name": "Usar"
+              "name": "Usar",
+              "activation": {
+                "condition": "impactado por una tirada de ataque cuerpo a cuerpo mientras empuña un arma"
+              }
             }
-          }
+          },
+          "description": "<p><em>Desencadenante:</em> El [[lookup @name lowercase]] es [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Respuesta:</em> El [[lookup @name lowercase]] suma [[lookup @prof]] a su CA contra ese ataque, lo que podría hacer que falle.</p>"
         }
       }
     },
