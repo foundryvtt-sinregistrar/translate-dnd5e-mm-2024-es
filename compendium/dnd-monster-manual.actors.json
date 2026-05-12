@@ -8614,13 +8614,16 @@
       },
       "items": {
         "mmDemonicRestora": {
-          "name": "Restauración demoníaca"
+          "name": "Restauración demoníaca",
+          "description": "<p>Si el [[lookup @name lowercase]] muere fuera del Abismo, su cuerpo se disuelve en icor y obtiene al instante un cuerpo nuevo, reviviendo con todos sus puntos de golpe en algún lugar del Abismo.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmSpiderClimb000": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluidos techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "mmDrone000000000": {
           "activities": {
@@ -8630,9 +8633,16 @@
           },
           "effects": {
             "f04Z8zNXMjMn7x6U": {
-              "name": "Inconsciente"
+              "name": "Inconsciente",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] y repite la salvación al final de cada uno de sus turnos.</p>"
             }
-          }
+          },
+          "name": "Zumbido",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=zHx1Cn6jyRMmYxir]], cada [[lookup @target.affects.type activity=zHx1Cn6jyRMmYxir]] en una Emanación de [[lookup @target.template.size activity=zHx1Cn6jyRMmYxir]] pies que se origina en el [[lookup @name lowercase]] (los demonios tienen éxito automáticamente en esta salvación).</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false] y repite la salvación al final de cada uno de sus turnos. El objetivo tiene éxito automáticamente tras 10 minutos o si recibe daño, o si una criatura a 5 pies o menos de él usa una acción para vaciar un frasco de Agua bendita sobre él.</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune al Zumbido de este [[lookup @name lowercase]] durante 24 horas.</p>"
+        },
+        "mmProboscis00000": {
+          "name": "Probóscide",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura, su máximo de puntos de golpe disminuye en una cantidad igual al daño Necrótico recibido.</p>"
         }
       }
     },
@@ -8648,7 +8658,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item .mmRam00000000000]], un ataque de [[/item .mmBite0000000000]] y un ataque de [[/item .mmClaw0000000000]]. Puede reemplazar el ataque de Garra por un uso de [[/item .mmFireBreath0000]] si está disponible.</p>"
         },
         "mmBite0000000000": {
           "name": "Mordisco",
@@ -8656,21 +8667,26 @@
             "HN2sfAtHqDMjMLXF": {
               "name": "Ataque con ventaja"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=HN2sfAtHqDMjMLXF]] de daño si el [[lookup @name lowercase]] tenía Ventaja en la tirada de ataque.</p>"
         },
         "mmClaw0000000000": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmRam00000000000": {
           "name": "Embestida",
           "effects": {
             "HUmtXTzr92ZaAvf3": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
         },
         "mmFireBreath0000": {
-          "name": "Aliento de fuego"
+          "name": "Aliento de fuego",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un Cono de [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em>Mitad de daño.</p>"
         }
       }
     },
@@ -8681,7 +8697,8 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -8689,7 +8706,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza 2 ataques de [[/item Pincer]] y usa [[/item Paralyzing Tentacles]].</p>"
         },
         "mmParalyzingTent": {
           "name": "Tentáculos paralizantes",
@@ -8700,9 +8718,11 @@
           },
           "effects": {
             "5ReKSrBu11ume7GP": {
-              "name": "Envenenado y paralizado"
+              "name": "Envenenado y paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><p>Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=p157Iqz8s0M0VilW]], una [[lookup @target.affects.type activity=p157Iqz8s0M0VilW]] agarrada por el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras 1 minuto, tiene éxito automáticamente. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
         },
         "mmPincer00000000": {
           "activities": {
@@ -8712,9 +8732,16 @@
           },
           "effects": {
             "GCED8YlF6qXTgEkd": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
             }
-          }
+          },
+          "name": "Pinza",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]) por una de dos pinzas.</p>"
+        },
+        "mmSenseMagic0000": {
+          "name": "Detectar magia",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] percibe la magia a 120 pies o menos de sí mismo. Este rasgo funciona por lo demás como el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, pero no es mágico.</p>"
         }
       }
     },
@@ -8725,10 +8752,12 @@
       },
       "items": {
         "mmImmutableForm0": {
-          "name": "Forma inmutable"
+          "name": "Forma inmutable",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] no puede cambiar de forma.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -8736,15 +8765,41 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item Slam]], o realiza tres ataques de Golpe si usó Acelerar este turno.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el máximo de puntos de golpe del objetivo disminuye en una cantidad igual al daño de Ácido recibido.</p>"
         },
         "mmHasten00000000": {
           "activities": {
             "1xqzKzUEPSEDWHta": {
               "name": "Gastar uso"
+            }
+          },
+          "name": "Acelerar",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza las acciones &amp;Reference[Dash] y &amp;Reference[Disengage].</p>"
+        },
+        "mmAcidAbsorption": {
+          "name": "Absorción de ácido",
+          "description": "<p>Siempre que el [[lookup @name lowercase]] sea sometido a daño de &amp;Reference[Acid], no recibe daño y, en su lugar, recupera un número de puntos de golpe igual al daño de Ácido infligido.</p>"
+        },
+        "mmBerserk0000000": {
+          "effects": {
+            "8SBNBxgUqwEyYJcK": {
+              "name": "Berserk",
+              "description": "<p>En cada uno de sus turnos mientras está en frenesí, la criatura ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, la criatura ataca un objeto. Una vez que la criatura entra en frenesí, permanece así hasta que es destruida o deja de estar &amp;Reference[Bloodied apply=false].</p>"
+            }
+          },
+          "name": "Berserk",
+          "description": "<p>Siempre que el [[lookup @name lowercase]] comience su turno &amp;Reference[Bloodied], tira [[/r 1d6]]. Con un 6, el [[lookup @name lowercase]] entra en frenesí. En cada uno de sus turnos mientras está en frenesí, el [[lookup @name lowercase]] ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, el [[lookup @name lowercase]] ataca un objeto. Una vez que el [[lookup @name lowercase]] entra en frenesí, permanece así hasta que es destruido o deja de estar Maltrecho.</p>",
+          "activities": {
+            "CZdkvcsydgA2zwwF": {
+              "name": "Comprobación de frenesí",
+              "activation": {
+                "condition": "comienza su turno &Reference[Bloodied]"
+              }
             }
           }
         }
@@ -8762,18 +8817,30 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item Attach]] y dos ataques de [[/item Tail]].</p>"
         },
         "mmTail0000000000": {
-          "name": "Cola"
+          "name": "Cola",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "jluXgJ7dG39ONk0R": {
           "name": "Imagen múltiple",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "VUqQIaiZoIzxUdf1": {
+              "name": "Duplicado A"
+            },
+            "XcTQl9DhT9lC3bxI": {
+              "name": "Duplicado B"
+            },
+            "uMsGEsbEZ2hckOKW": {
+              "name": "Duplicado C"
             }
-          }
+          },
+          "description": "<p>Tres duplicados ilusorios de ti aparecen en tu espacio. Hasta que el conjuro termina, los duplicados se mueven contigo e imitan tus acciones, cambiando de posición para que sea imposible rastrear cuál imagen es real.</p><p>Cada vez que una criatura te impacta con una tirada de ataque durante la duración del conjuro, tira [[/r (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate destroyed]]{un d6 por cada uno} de tus duplicados restantes. Si alguno de los d6 saca un 3 o más, uno de los duplicados es impactado en lugar de ti, y el duplicado es destruido. Por lo demás, los duplicados ignoran cualquier otro daño y efecto. El conjuro termina cuando los tres duplicados han sido destruidos.</p><p>Una criatura no se ve afectada por este conjuro si tiene la condición &amp;Reference[blinded apply=false], &amp;Reference[blindsight], o &amp;Reference[truesight].</p>"
         },
         "mmMoan0000000000": {
           "activities": {
@@ -8783,9 +8850,38 @@
           },
           "effects": {
             "ozk8flGDR2kAITEI": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final del siguiente turno de la criatura atacante.</p>"
+            }
+          },
+          "name": "Gemido",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=Mng39fcFDc4I1AzY]], cada [[lookup @target.affects.type activity=Mng39fcFDc4I1AzY]] en una Emanación de [[lookup @target.template.size activity=Mng39fcFDc4I1AzY]] [[lookup @target.template.units activity=Mng39fcFDc4I1AzY]] que se origina en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> El objetivo es inmune al Gemido de este [[lookup @name lowercase]] durante 24 horas.</p>"
+        },
+        "mmLightSensitivi": {
+          "name": "Sensibilidad a la luz",
+          "description": "<p class=\"feature\">Mientras está en Luz brillante, el [[lookup @name lowercase]] tiene Desventaja en las tiradas de ataque.</p>"
+        },
+        "mmAttach00000000": {
+          "effects": {
+            "m1rBdxxAM8FGk5gI": {
+              "name": "Adherido: cegado",
+              "description": "<p>Mientras está adherido, el objetivo tiene la condición &amp;Reference[Blinded apply=false].</p>"
+            }
+          },
+          "name": "Adherirse",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, el [[lookup @name lowercase]] se adhiere a él. Mientras el [[lookup @name lowercase]] está adherido, el objetivo tiene la condición &amp;Reference[Blinded apply=false], y el [[lookup @name lowercase]] no puede realizar ataques de Adherirse contra otros objetivos. Además, el [[lookup @name lowercase]] reduce a la mitad el daño que recibe (redondeando hacia abajo), y el objetivo recibe la misma cantidad de daño.</p><p>El [[lookup @name lowercase]] puede desprenderse gastando 5 pies de movimiento. El objetivo o una criatura a [[lookup @range.value activity=6iLqAufAeEqDOlGs]] pies o menos de él puede usar una acción para intentar desprender al [[lookup @name lowercase]], consiguiéndolo si supera una prueba de Fuerza (Atletismo) CD [[lookup @check.dc.value activity=6iLqAufAeEqDOlGs]].</p>",
+          "activities": {
+            "6iLqAufAeEqDOlGs": {
+              "name": "Intento de desprender",
+              "activation": {
+                "condition": "Acción realizada por el objetivo o una criatura dentro del alcance de él"
+              }
             }
           }
+        },
+        "mmPhantasms00000": {
+          "name": "Fantasmas",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMirrorImag]{Imagen múltiple}</em>, sin requerir componentes de conjuro y usando Sabiduría como característica para lanzar conjuros. El conjuro termina inmediatamente después de que el [[lookup @name lowercase]] realice una tirada de ataque o reciba daño.</p>"
         }
       }
     },
@@ -8801,26 +8897,38 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmThunderousMace]] o [[/item .mmThundercloud00]] en cualquier combinación. Puede reemplazar un ataque por un uso de Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.NdueMCpXRc7fLDFa]]</em>.</p>"
         },
         "mmThundercloud00": {
           "effects": {
             "ZwKTwzvDAUm6FSgv": {
-              "name": "Incapacitado"
+              "name": "Incapacitado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno.</p>"
             }
-          }
+          },
+          "name": "Nube tormentosa",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno.</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Nube de oscurecimiento}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{Controlar el clima}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor]{Forma gaseosa}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTelekinesi]{Telequinesis}</em></p>"
         },
         "mmMistyStep00000": {
-          "name": "Paso brumoso"
+          "name": "Paso brumoso",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0]{Paso brumoso}</em>, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>"
         },
         "TJtpDWOIWpI3N5tk": {
           "name": "Paso brumoso",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Lanzar"
             }
           }
         },
@@ -8838,7 +8946,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Mientras dura el conjuro, percibes la presencia de efectos mágicos a 30 pies o menos de ti. Si percibes tales efectos, puedes llevar a cabo la acción Magia para ver un aura tenue alrededor de cualquier criatura u objeto visible de la zona que porte la magia; si un efecto fue creado por un conjuro, conoces la escuela mágica de ese conjuro.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "GHs3dKAxEC2DDy3O": {
           "name": "Nube de oscurecimiento",
@@ -8846,7 +8955,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas una Esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La Esfera está &amp;Reference[heavilyobscured]. Dura mientras lo haga el conjuro o hasta que un viento fuerte (como el creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em>) la disperse.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El radio de la niebla aumenta 20 pies por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "Zr0A1mgE8vqYWD8Y": {
           "name": "Luz",
@@ -8859,7 +8969,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve puesto ni transporte. Hasta que el conjuro termina, el objeto emite luz brillante en un radio de 20 pies y luz tenue 20 pies adicionales. La luz puede tener el color que quieras.</p><p>Cubrir el objeto con algo opaco bloquea la luz. El conjuro termina si lo lanzas de nuevo.</p>"
         },
         "gaL6LDFQVg4Wwhyo": {
           "name": "Controlar el clima",
@@ -8875,18 +8986,21 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tomas el control del clima en un radio de 5 millas durante la duración. Debes estar al aire libre para lanzar este conjuro, y termina antes si entras en un interior.</p><p>Cuando lanzas el conjuro, cambias las condiciones climáticas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en surtir efecto. Una vez lo hacen, puedes volver a cambiarlas. Cuando el conjuro termina, el clima vuelve gradualmente a la normalidad.</p><p>Cuando cambies las condiciones climáticas, busca una condición actual en las siguientes tablas y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla baja</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizo violento o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Gélido</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>"
         },
         "cRRXxPgI7zuiWi7z": {
           "name": "Forma gaseosa",
           "effects": {
             "QeYsfnjEj2T9A3C8": {
-              "name": "Forma gaseosa"
+              "name": "Forma gaseosa",
+              "description": "<p>El único método de movimiento del objetivo es una Velocidad de vuelo de 10 pies, y puede flotar. El objetivo puede entrar y ocupar el espacio de otra criatura. El objetivo tiene Resistencia al daño Contundente, Perforante y Cortante; tiene Inmunidad a la condición &amp;Reference[prone apply=false]; y tiene Ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. El objetivo puede pasar por aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas.</p><p>El objetivo no puede hablar ni manipular objetos, y cualquier objeto que estuviera transportando o sosteniendo no puede soltarse, usarse ni manipularse de ningún otro modo. Por último, el objetivo no puede atacar ni lanzar conjuros.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una criatura voluntaria que tocas cambia de forma, junto con todo lo que lleva puesto y transporta, en una nube brumosa durante la duración. El conjuro termina para el objetivo si este cae a 0 puntos de golpe o si usa una acción Mágica para terminar el conjuro sobre sí mismo.</p><p>Mientras está en esta forma, el único método de movimiento del objetivo es una Velocidad de vuelo de 10 pies, y puede flotar. El objetivo puede entrar y ocupar el espacio de otra criatura. El objetivo tiene Resistencia al daño Contundente, Perforante y Cortante; tiene Inmunidad a la condición &amp;Reference[prone apply=false]; y tiene Ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución. El objetivo puede pasar por aberturas estrechas, pero trata los líquidos como si fueran superficies sólidas.</p><p>El objetivo no puede hablar ni manipular objetos, y cualquier objeto que estuviera transportando o sosteniendo no puede soltarse, usarse ni manipularse de ningún otro modo. Por último, el objetivo no puede atacar ni lanzar conjuros.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una criatura adicional por cada nivel de espacio de conjuro por encima de 3.</p>"
         },
         "2QgHUABlBcMzHf5Z": {
           "name": "Telequinesis",
@@ -8894,7 +9008,12 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Obtienes la capacidad de mover o manipular criaturas u objetos con el pensamiento. Cuando lanzas el conjuro y como acción Mágica en tus turnos posteriores antes de que termine el conjuro, puedes imponer tu voluntad sobre una criatura u objeto que puedas ver dentro del alcance, causando el efecto apropiado que se indica a continuación. Puedes afectar al mismo objetivo asalto tras asalto o elegir uno nuevo en cualquier momento. Si cambias de objetivo, el objetivo anterior deja de verse afectado por el conjuro.</p><p><strong>Criatura.</strong> Puedes intentar mover una criatura Enorme o más pequeña. El objetivo debe superar una tirada de salvación de Fuerza, o lo mueves hasta 30 pies en cualquier dirección dentro del alcance del conjuro. Hasta el final de tu siguiente turno, la criatura tiene la condición &amp;Reference[Restrained], y si la elevas en el aire, queda suspendida allí. Cae al final de tu siguiente turno a menos que vuelvas a usar esta opción sobre ella y falle la salvación.</p><p><strong>Objeto.</strong> Puedes intentar mover un objeto Enorme o más pequeño. Si el objeto no está siendo llevado ni transportado, lo mueves automáticamente hasta 30 pies en cualquier dirección dentro del alcance del conjuro.</p><p>Si el objeto está siendo llevado o transportado por una criatura, esa criatura debe superar una tirada de salvación de Fuerza, o arrancas el objeto y lo mueves hasta 30 pies en cualquier dirección dentro del alcance del conjuro.</p><p>Puedes ejercer un control fino sobre objetos con tu presa telequinética, como manipular una herramienta sencilla, abrir una puerta o un contenedor, guardar o recuperar un objeto de un contenedor abierto, o verter el contenido de un vial.</p>"
+        },
+        "mmThunderousMace": {
+          "name": "Maza atronadora",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -8915,12 +9034,16 @@
           },
           "effects": {
             "9dBgxzdq0cmzyhfR": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éxito.</p>"
             },
             "ScizgnitVoBvVzPx": {
-              "name": "Petrificado"
+              "name": "Petrificado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Petrified apply=false] en lugar de la condición Apresado.</p>"
             }
-          }
+          },
+          "name": "Mordisco petrificador",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura, queda sometido al siguiente efecto.</p><p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]].</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éxito.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo tiene la condición &amp;Reference[Petrified apply=false] en lugar de la condición Apresado.</p>"
         }
       }
     },
@@ -8931,7 +9054,8 @@
       },
       "items": {
         "mmFlyby000000000": {
-          "name": "Sobrevuelo"
+          "name": "Sobrevuelo",
+          "description": "<p>El [[lookup @name lowercase]] no provoca un &amp;Reference[OpportunityAttacks]{Ataque de oportunidad} cuando sale volando del alcance de un enemigo.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -8939,17 +9063,24 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de [[/item .mmPetrifyingBite]] y dos ataques de [[/item .mmTalons00000000]].</p>"
         },
         "mmTalons00000000": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmMagicalBacklas": {
           "activities": {
             "Xo0DP0xMs25LpqJ6": {
-              "name": "Salvación"
+              "name": "Salvación",
+              "activation": {
+                "condition": "Una criatura a 120 pies o menos de la cocatriz le inflige daño."
+              }
             }
-          }
+          },
+          "name": "Rebote mágico",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> Una [[lookup @target.affects.type activity=Xo0DP0xMs25LpqJ6]] a [[lookup @range.value activity=Xo0DP0xMs25LpqJ6]] pies o menos del [[lookup @name lowercase]] le inflige daño.</p><p class=\"feature\"><em>Respuesta: tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=Xo0DP0xMs25LpqJ6]], la [[lookup @target.affects.type activity=Xo0DP0xMs25LpqJ6]] desencadenante.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p>"
         },
         "mmPetrifyingBite": {
           "activities": {
@@ -8962,12 +9093,16 @@
           },
           "effects": {
             "9dBgxzdq0cmzyhfR": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éxito.</p>"
             },
             "ScizgnitVoBvVzPx": {
-              "name": "Petrificado"
+              "name": "Petrificado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Petrified apply=false] en lugar de la condición Apresado.</p>"
             }
-          }
+          },
+          "name": "Mordisco petrificador",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura, queda sometido al siguiente efecto.</p><p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=udF9lrpAQMvL0b9J]].</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éxito.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo tiene la condición &amp;Reference[Petrified apply=false] en lugar de la condición Apresado.</p>"
         }
       }
     },
