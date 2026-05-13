@@ -31546,7 +31546,8 @@
       },
       "items": {
         "mmTunneler000000": {
-          "name": "Excavador"
+          "name": "Excavador",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede excavar a través de roca sólida a la mitad de su velocidad de excavación y deja tras de sí un túnel de 10 pies de diámetro.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -31554,10 +31555,30 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>"
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "OllBlUMXahoLf3DA": {
+          "name": "Mirada confusa",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=tvHG0MEXOUVoCLuO]], cada criatura en un cono de [[lookup @target.template.size activity=tvHG0MEXOUVoCLuO]] pies.</p><p><em>Fallo:</em> El objetivo no puede realizar &amp;Reference[Reaction]{Reacciones} hasta el inicio del siguiente turno del [[lookup @name lowercase]], y tira [[/r 1d8]] para determinar qué hace en su siguiente turno:</p><p class=\"feature-trait\"><strong>1–4.</strong> El objetivo no hace nada.</p><p class=\"feature-trait\"><strong>5–6.</strong> El objetivo no realiza ninguna acción ni acción adicional y usa todo su movimiento para moverse en una dirección aleatoria.</p><p class=\"feature-trait\"><strong>7–8.</strong> El objetivo realiza un ataque cuerpo a cuerpo contra una criatura aleatoria dentro de su alcance, o no hace nada si no puede realizar tal ataque.</p>",
+          "activities": {
+            "tvHG0MEXOUVoCLuO": {
+              "name": ""
+            },
+            "bCLK1IcQTHK4oS2q": {
+              "name": "Tirar 1d8"
+            }
+          },
+          "effects": {
+            "gzHNXahLJHrxZ6Wd": {
+              "name": "Sin reacción",
+              "description": "<p>El objetivo no puede realizar &amp;Reference[Reaction]{Reacciones} hasta el inicio del siguiente turno de la criatura atacante.</p>"
+            }
+          }
         }
       }
     },
@@ -31571,12 +31592,17 @@
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir tener éxito en su lugar.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -31584,13 +31610,16 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item Hooves]] y un ataque con [[/item Radiant Horn]].</p>"
         },
         "mmHooves00000000": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detectar el bien y el mal}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]{Saber druídico}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calmar emociones}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{Disipar el bien y el mal}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]{Enmarañar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou]{Pasar sin rastro}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWordofReca]{Palabra de regreso}</em></p>"
         },
         "xsmcD9YZKCIEZ3kr": {
           "name": "Detectar el bien y el mal",
@@ -31606,7 +31635,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Durante la duración, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Infernal o Muerto viviente a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, en ese caso, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "kYsTzM5cuWinvQqm": {
           "name": "Saber druídico",
@@ -31619,15 +31649,25 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance.</p><p><strong>Sensor meteorológico.</strong> Creas un efecto sensorial Diminuto e inofensivo que predice qué tiempo hará en tu ubicación durante las próximas 24 horas. El efecto puede manifestarse como un orbe dorado para cielos despejados, una nube para lluvia, copos de nieve cayendo para nieve, etc. Este efecto persiste durante 1 asalto.</p><p><strong>Floración.</strong> Haces que una flor florezca al instante, que una vaina de semillas se abra o que brote un capullo de hoja.</p><p><strong>Efecto sensorial.</strong> Creas un efecto sensorial inofensivo, como hojas cayendo, hadas espectrales danzantes, una brisa suave, el sonido de un animal o un tenue olor a mofeta. El efecto debe caber en un cubo de 5 pies.</p><p><strong>Juego de fuego.</strong> Enciendes o apagas una vela, una antorcha o una hoguera.</p>"
         },
         "DKRD4BpOE7xCo1AQ": {
           "name": "Calmar emociones",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "xwyUvd93d4A5LHHH": {
+              "name": "Calmado",
+              "description": "<p>La criatura tiene Inmunidad a las condiciones Encantado y Asustado hasta que termine el conjuro. Si ya estaba Encantada o Asustada, esas condiciones quedan suprimidas durante la duración.</p>"
+            },
+            "cb3KFq1j9UkOUV2l": {
+              "name": "Indiferencia",
+              "description": "<p>La criatura se vuelve Indiferente hacia criaturas de tu elección contra las que sea Hostil. Esta indiferencia termina si el objetivo recibe daño o presencia cómo sus aliados reciben daño. Cuando el conjuro termina, la actitud de la criatura vuelve a la normalidad.</p>"
             }
-          }
+          },
+          "description": "<p>Cada Humanoide en una Esfera de 20 pies de radio centrada en un punto que elijas dentro del alcance debe superar una tirada de salvación de Carisma o verse afectado por uno de los siguientes efectos (elige por cada criatura):</p><ul><li>La criatura tiene Inmunidad a las condiciones Encantado y Asustado hasta que termine el conjuro. Si ya estaba Encantada o Asustada, esas condiciones quedan suprimidas durante la duración.</li><li>La criatura se vuelve Indiferente hacia criaturas de tu elección contra las que sea Hostil. Esta indiferencia termina si el objetivo recibe daño o presencia cómo sus aliados reciben daño. Cuando el conjuro termina, la actitud de la criatura vuelve a la normalidad.</li></ul>"
         },
         "liK9CYrnL3t4Ax8t": {
           "name": "Disipar el bien y el mal",
@@ -31644,34 +31684,40 @@
           },
           "effects": {
             "RMeb9TUrFdhXMTzz": {
-              "name": "Disipar el bien y el mal"
+              "name": "Disipar el bien y el mal",
+              "description": "<p>Durante la duración, Celestiales, Elementales, Feéricos, Infernal, y Muertos vivientes tienen Desventaja en las tiradas de ataque contra ti. Puedes terminar el conjuro antes de tiempo usando una de las siguientes funciones especiales: <strong>Romper encantamiento</strong> o <strong>Expulsión</strong>.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Durante la duración, Celestiales, Elementales, Feéricos, Infernal, y Muertos vivientes tienen Desventaja en las tiradas de ataque contra ti. Puedes terminar el conjuro antes de tiempo usando una de las siguientes funciones especiales.</p><p><strong>Romper encantamiento.</strong> Como acción Mágica, tocas una criatura que esté poseída o tenga la condición &amp;Reference[Charmed]{Encantado} o &amp;Reference[Frightened]{Asustado} por una o más criaturas de los tipos anteriores. El objetivo deja de estar poseído, Encantado o Asustado por esas criaturas.</p><p><strong>Expulsión.</strong> Como acción Mágica, eliges como objetivo una criatura que puedas ver a 5 pies o menos de ti y que tenga uno de los tipos de criatura anteriores. El objetivo debe superar una tirada de salvación de Carisma o ser enviado de vuelta a su plano natal si no está ya allí. Si no están en su plano natal, los Muertos vivientes son enviados al Shadowfell y los Feéricos al Feywild.</p>"
         },
         "wMKtTgo83ZrHpSdD": {
           "name": "Enmarañar",
           "effects": {
             "wn7K2m4XhXhItgPT": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>Una criatura Apresada puede usar una acción para hacer una prueba [[/check ability=str skill=ath]] contra tu CD de salvación de conjuros. Si tiene éxito, se libera de las plantas aferradoras y deja de estar Apresada por ellas.</p>"
             },
             "dnd5espellchange": {
-              "name": "Cambios de conjuro"
+              "name": "Cambios del conjuro"
             }
-          }
+          },
+          "description": "<p>Plantas aferradoras brotan del suelo en un cuadrado de 20 pies dentro del alcance. Mientras dure el conjuro, estas plantas convierten el suelo del área en &amp;Reference[difficultterrain]. Desaparecen cuando el conjuro termina.</p><p>Cada criatura (excepto tú) que esté en el área cuando lanzas el conjuro debe superar una tirada de salvación de Fuerza o tener la condición &amp;Reference[restrained apply=false] hasta que el conjuro termine. Una criatura Apresada puede usar una acción para hacer una prueba [[/check ability=str skill=ath dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros. Si tiene éxito, se libera de las plantas aferradoras y deja de estar Apresada por ellas.</p>"
         },
         "KBC4PegvxoFmk1SU": {
           "name": "Pasar sin rastro",
           "effects": {
             "MDdoug4Lfu8klZRO": {
-              "name": "Oculto"
+              "name": "Oculto",
+              "description": "<p>Mientras estén en el aura, tú y cada criatura que elijas tenéis un bonificador +10 a las pruebas de [[/check ability=dex skill=ste]] y no dejáis huellas.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Irradias un aura de ocultación en una Emanación de 30 pies durante la duración. Mientras estén en el aura, tú y cada criatura que elijas tenéis un bonificador +10 a las pruebas de [[/check ability=dex skill=ste]] y no dejáis huellas.</p>"
         },
         "tqXlS6FGdENkOvOt": {
           "name": "Palabra de regreso",
@@ -31687,14 +31733,17 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>You and up to five willing creatures a 5 pies of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, el conjuro has no effect.</p><p>You must designate a location, such as a temple, as a sanctuary by casting this spell there.</p>"
         },
         "mmChargingHorn00": {
           "activities": {
             "7p8mgAgWVbmb8gpV": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Cuerno a la carga",
+          "description": "<p>El [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad sin provocar &amp;Reference[Opportunity Attacks]{Ataques de oportunidad}, y realiza un ataque con [[/item Radiant Horn]].</p>"
         },
         "LyYGPP2oL1c9vzvX": {
           "name": "Curar heridas",
@@ -31702,13 +31751,46 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Una criatura que toques recupera una cantidad de puntos de golpe igual a 2d8 + tu modificador de característica para lanzar conjuros.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> La curación aumenta en 2d8 por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "SHF3PcSeKLaM8UfY": {
           "name": "Restablecimiento menor",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Tocas una criatura y terminas una condición que la afecte: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed] o &amp;Reference[poisoned].</p>"
+        },
+        "mmRadiantHorn000": {
+          "name": "Cuerno radiante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmShimmeringShie": {
+          "name": "Escudo reluciente",
+          "description": "<p>El [[lookup @name lowercase]] se elige a sí mismo o elige a un [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] que pueda ver a [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] pies o menos de sí. El objetivo gana [[/healing average]] puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "sl8NoPhB0e5z6jmK": {
+              "name": "Curación temporal"
+            }
+          },
+          "effects": {
+            "sGQwUaOCcVnE2PA7": {
+              "name": "Escudado",
+              "description": "<p>La CA del objetivo aumenta en 2 hasta el final del siguiente turno de quien otorga el beneficio.</p>"
+            }
+          }
+        },
+        "lWC2jp0sRaJILIwH": {
+          "name": "Bendición del unicornio",
+          "description": "<p>El [[lookup @name]] toca a otra criatura con su cuerno y lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Curar heridas}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Restablecimiento menor}</em> sobre esa criatura, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>",
+          "activities": {
+            "OghPbiZjhgIJ5llC": {
+              "name": ""
+            },
+            "lruyGaBCUcPkdyAC": {
+              "name": ""
             }
           }
         }
@@ -31724,9 +31806,13 @@
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir tener éxito en su lugar.</p>"
         },
         "mmMistyEscape000": {
           "activities": {
@@ -31736,45 +31822,68 @@
           },
           "effects": {
             "SGrTBpl938UIe4e3": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>Una vez en su lugar de descanso, vuelve a su forma de vampiro y tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta que recupere cualquier punto de golpe; recupera 1 punto de golpe después de pasar 1 hora allí.</p>"
             }
-          }
+          },
+          "name": "Escape brumoso",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] cae a 0 puntos de golpe fuera de su lugar de descanso, el [[lookup @name lowercase]] usa Cambiar de forma para convertirse en niebla (no requiere acción). Si no puede usar Cambiar de forma, es destruido.</p><p class=\"feature\">Mientras tiene 0 puntos de golpe en forma de niebla, no puede volver a su forma de vampiro y debe llegar a su lugar de descanso en 2 horas o será destruido. Una vez en su lugar de descanso, vuelve a su forma de vampiro y tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta que recupere cualquier punto de golpe; recupera 1 punto de golpe después de pasar 1 hora allí.</p>"
         },
         "mmSpiderClimb000": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluidos techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "mmMultiattack000": {
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "name": "Ataque múltiple (solo forma de vampiro)",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmGraveStrike000]]{Golpe sepulcral} y usa [[/item .mmBite0000000000]]{Mordisco}.</p>"
         },
         "mmGraveStrike000": {
           "activities": {
             "eUp578Oy5y1HidZ9": {
               "name": "Prueba para escapar"
+            },
+            "cyu0AKgdlXdB7Mys": {
+              "name": "",
+              "description": {
+                "chatFlavor": "Solo forma de vampiro"
+              }
             }
           },
           "effects": {
             "BCbp3JZoHEGQ3Nzu": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD) por una de las dos manos.</p>"
             }
-          }
+          },
+          "name": "Golpe sepulcral (solo forma de vampiro)",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por una de las dos manos.</p>"
         },
         "7UhygzsYYtKfVJJ3": {
           "name": "Hechizar persona",
           "effects": {
             "78JcD7wFiSCOfmns": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} hasta que el conjuro termine o hasta que tú o tus aliados le hagáis daño. La criatura Hechizada es amistosa contigo. Cuando el conjuro termina, el objetivo sabe que fue Hechizado por ti.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Un Humanoide que puedas ver dentro del alcance realiza una tirada de salvación de Sabiduría. La realiza con Ventaja si tú o tus aliados estáis luchando contra él. Si falla la salvación, el objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} hasta que el conjuro termine o hasta que tú o tus aliados le hagáis daño. La criatura Hechizada es amistosa contigo. Cuando el conjuro termina, el objetivo sabe que fue Hechizado por ti.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "mmShapeshift0000": {
-          "name": "Cambiar de forma"
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] no está bajo la luz del sol ni en agua corriente, cambia de forma a un @UUID[Compendium.dnd-monster-manual.actors.Actor.mmBat00000000000]{murciélago} Diminuto (velocidad 5 pies, velocidad de vuelo 30 pies) o a una nube de niebla Mediana (velocidad 5 pies, velocidad de vuelo 20 pies [flotar]), o vuelve a su forma de vampiro. Todo lo que lleva puesto se transforma con él.</p><p class=\"feature\">Mientras está en forma de murciélago, el [[lookup @name lowercase]] no puede hablar. Sus estadísticas de juego, salvo su tamaño y velocidad, no cambian.</p><p class=\"feature\">Mientras está en forma de niebla, el [[lookup @name lowercase]] no puede realizar acciones, hablar ni manipular objetos. No pesa y puede entrar en el espacio de un enemigo y detenerse allí. Si el aire puede pasar por un espacio, la niebla también puede hacerlo, pero no puede atravesar líquidos. Tiene Resistencia a todo el daño, excepto al daño que recibe de la luz del sol.</p>",
+          "activities": {
+            "b2dx1XJb3K6MU5tB": {
+              "name": "Transformarse en murciélago"
+            }
+          }
         },
         "IzS0oSSgTDp0oltT": {
           "name": "Orden imperiosa",
@@ -31782,23 +31891,32 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Pronuncias una orden de una palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. Elige la orden de estas opciones:</p><p><strong>Acércate.</strong> El objetivo se mueve hacia ti por la ruta más corta y directa, terminando su turno si se mueve a 5 pies o menos de ti.</p><p><strong>Suelta.</strong> El objetivo suelta lo que esté sosteniendo y termina su turno.</p><p><strong>Huye.</strong> El objetivo gasta su turno alejándose de ti por el medio más rápido disponible.</p><p><strong>Túmbate.</strong> El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado} y termina su turno.</p><p><strong>Detente.</strong> En su turno, el objetivo no se mueve y no realiza ninguna acción ni acción adicional.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes afectar a una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "4jEKnNBcbZnPmifL": {
           "activities": {
             "uCN3OgNKbq0iI81F": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Golpe inmortal",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/item .mmGraveStrike000]]{Golpe sepulcral}.</p>"
         },
         "mmVampireWeaknes": {
           "name": "Debilidad vampírica",
           "activities": {
             "Ss5LwXo6bHOciPNQ": {
-              "name": "Daño: agua corriente"
+              "name": "Daño: agua corriente",
+              "description": {
+                "chatFlavor": "Daño por agua corriente"
+              }
             },
             "Q18pvRsbOyRbHiVK": {
-              "name": "Daño: luz del sol"
+              "name": "Daño: luz del sol",
+              "description": {
+                "chatFlavor": "Daño por luz del sol"
+              }
             },
             "HsKPQH0SsWtL4znC": {
               "name": "Estaca en el corazón"
@@ -31806,7 +31924,39 @@
           },
           "effects": {
             "v2EdEMrtcddO1p8U": {
-              "name": "Desventaja en ataques y pruebas"
+              "name": "Desventaja en ataques y pruebas",
+              "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</span></p>"
+            }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene las siguientes debilidades:</p><p class=\"feature-trait\"><strong>Prohibición.</strong> El [[lookup @name lowercase]] no puede entrar en una residencia sin invitación de uno de sus ocupantes.</p><p class=\"feature-trait\"><strong>Agua corriente.</strong> El [[lookup @name lowercase]] recibe 20 de daño de Ácido si termina su turno en agua corriente.</p><p class=\"feature-trait\"><strong>Estaca en el corazón.</strong> Si un arma que inflige daño Perforante se clava en el corazón del [[lookup @name lowercase]] mientras el [[lookup @name lowercase]] tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} en su lugar de descanso, el [[lookup @name lowercase]] tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta que el arma sea retirada.</p><p class=\"feature-trait\"><strong>Luz del sol.</strong> El [[lookup @name lowercase]] recibe 20 de daño Radiante si empieza su turno bajo la luz del sol. Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco (solo forma de murciélago o vampiro)",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=ngPzlEI5pVSdBv86]], un [[lookup @target.affects.type activity=ngPzlEI5pVSdBv86]] a [[lookup @range.value activity=ngPzlEI5pVSdBv86]] pies o menos [[lookup @target.affects.special activity=ngPzlEI5pVSdBv86]].</p><p><em>Fallo:</em> [[/damage average]] de daño. El máximo de puntos de golpe del objetivo se reduce en una cantidad igual al daño Necrótico recibido, y el [[lookup @name lowercase]] recupera puntos de golpe iguales a esa cantidad. Un Humanoide reducido a 0 puntos de golpe por este daño y luego enterrado se alza al siguiente ocaso como un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmVampireSpawn00]{Engendro vampírico}</strong> bajo el control del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "ngPzlEI5pVSdBv86": {
+              "name": ""
+            },
+            "oLqtEY8JoKIopB6u": {
+              "name": "Se alza engendro vampírico"
+            }
+          }
+        },
+        "mmCharm000000000": {
+          "name": "Hechizar",
+          "description": "<p>El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.cha.dc]]), y la duración es de [[lookup @duration.value activity=fcRXSTOlFJShCl52]] horas. El objetivo &amp;Reference[Charmed apply=false]{Hechizado} es un receptor voluntario del [[/item .mmBite0000000000]]{Mordisco} del [[lookup @name lowercase]], cuyo daño no termina el conjuro. Cuando el conjuro termina, el objetivo no sabe que fue Hechizado por el [[lookup @name lowercase]].</p>",
+          "activities": {
+            "fcRXSTOlFJShCl52": {
+              "name": ""
+            }
+          }
+        },
+        "mmBeguile0000000": {
+          "name": "Embelesar",
+          "description": "<p>El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.cha.dc]]). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "activities": {
+            "M0FuOWsRw7TefgiH": {
+              "name": ""
             }
           }
         }
@@ -31824,12 +31974,21 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmUmbralDagger00]].</p>"
         },
         "mmUmbralDagger00": {
           "effects": {
             "dsK5sPtkUMySmyvw": {
-              "name": "Envenenado y paralizado"
+              "name": "Envenenado y paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante 1 hora. Mientras tiene la condición Envenenado, el objetivo también tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado}.</p>"
+            }
+          },
+          "name": "Daga umbría",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si este ataque reduce al objetivo a 0 puntos de golpe, el objetivo queda Estabilizado pero tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante 1 hora. Mientras tiene la condición Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado}.</p>",
+          "activities": {
+            "VWOxHrZXIWO7ZZeW": {
+              "name": ""
             }
           }
         },
@@ -31838,12 +31997,18 @@
             "dlHNkpwbTgwm1UwG": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Agilidad inmortal",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Dash]{Correr} o &amp;Reference[Disengage]{Retirarse}.</p>"
+        },
+        "mmVampiricConnec": {
+          "name": "Conexión vampírica",
+          "description": "<p class=\"feature\">Mientras el [[lookup @name lowercase]] y su amo vampiro estén en el mismo plano de existencia, el vampiro puede comunicarse telepáticamente con el [[lookup @name lowercase]], y el vampiro puede percibir a través de los sentidos del [[lookup @name lowercase]].</p>"
         }
       }
     },
     "mmVampireNightbr": {
-      "name": "Vampire portador de la noche",
+      "name": "Vampiro portador de la noche",
       "details": {
         "alignment": "Neutral malvado"
       },
@@ -31854,10 +32019,17 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque con [[/item .mmBite0000000000]] y un ataque con [[/item .mmShadowStrike00]].</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. El máximo de puntos de golpe del objetivo se reduce en una cantidad igual al daño Necrótico recibido, y el [[lookup @name lowercase]] recupera puntos de golpe iguales a esa cantidad.</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         },
         "mmShadowStealth0": {
           "name": "Sigilo sombrío",
@@ -31868,7 +32040,27 @@
           },
           "effects": {
             "siHMgi75fxHCESex": {
-              "name": "Esconderse"
+              "name": "Esconderse",
+              "description": "<p>Realizas la acción &amp;Reference[Hide]{Esconderse}.</p>"
+            }
+          },
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] realiza la acción &amp;Reference[Hide]{Esconderse}.</p>"
+        },
+        "mmSunlightHypers": {
+          "name": "Hipersensibilidad a la luz solar",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] recibe [[/damage]] de daño si empieza su turno bajo la luz del sol. Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</p>",
+          "activities": {
+            "rufjkuIgCP6hfvX5": {
+              "name": ""
+            }
+          }
+        },
+        "mmShadowStrike00": {
+          "name": "Golpe sombrío",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "fLBgvKxuzYwewEiE": {
+              "name": ""
             }
           }
         }
@@ -31881,7 +32073,8 @@
       },
       "items": {
         "mmSpiderClimb000": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluidos techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -31889,39 +32082,59 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmClaw0000000000]] y usa [[/item .mmBite0000000000]].</p>"
         },
         "mmClaw0000000000": {
           "name": "Garra",
           "activities": {
             "f3Xl0H0C7GX0jnje": {
               "name": "Prueba para escapar"
+            },
+            "W1T7dZnG8GMMwyEP": {
+              "name": ""
             }
           },
           "effects": {
             "SVSXgb9yjhotXMza": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD) por una de las dos garras.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por una de las dos garras.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=7mBlINHfcabm0DAr]], una criatura a [[lookup @range.value activity=7mBlINHfcabm0DAr]] pies o menos que esté dispuesta o que tenga la condición Agarrado, Incapacitado o Apresado.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño. El máximo de puntos de golpe del objetivo se reduce en una cantidad igual al daño Necrótico recibido, y el vampiro recupera puntos de golpe iguales a esa cantidad.</p>",
+          "activities": {
+            "7mBlINHfcabm0DAr": {
+              "name": ""
+            }
+          }
         },
         "mmDeathlessAgili": {
           "activities": {
             "dlHNkpwbTgwm1UwG": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Agilidad inmortal",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Dash]{Correr} o &amp;Reference[Disengage]{Retirarse}.</p>"
         },
         "mmVampireWeaknes": {
           "name": "Debilidad vampírica",
           "activities": {
             "Ss5LwXo6bHOciPNQ": {
-              "name": "Daño: agua corriente"
+              "name": "Daño: agua corriente",
+              "description": {
+                "chatFlavor": "Daño por agua corriente"
+              }
             },
             "Q18pvRsbOyRbHiVK": {
-              "name": "Daño: luz del sol"
+              "name": "Daño: luz del sol",
+              "description": {
+                "chatFlavor": "Daño por luz del sol"
+              }
             },
             "HsKPQH0SsWtL4znC": {
               "name": "Estaca en el corazón"
@@ -31929,14 +32142,16 @@
           },
           "effects": {
             "v2EdEMrtcddO1p8U": {
-              "name": "Desventaja en ataques y pruebas"
+              "name": "Desventaja en ataques y pruebas",
+              "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</span></p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene las siguientes debilidades:</p><p class=\"feature-trait\"><strong>Prohibición.</strong> El [[lookup @name lowercase]] no puede entrar en una residencia sin invitación de uno de sus ocupantes.</p><p class=\"feature-trait\"><strong>Agua corriente.</strong> El [[lookup @name lowercase]] recibe 20 de daño de Ácido si termina su turno en agua corriente.</p><p class=\"feature-trait\"><strong>Estaca en el corazón.</strong> El [[lookup @name lowercase]] es destruido si un arma que inflige daño Perforante se clava en el corazón del [[lookup @name lowercase]] mientras el [[lookup @name lowercase]] tiene la condición Incapacitado.</p><p class=\"feature-trait\"><strong>Luz del sol.</strong> El [[lookup @name lowercase]] recibe 20 de daño Radiante si empieza su turno bajo la luz del sol. Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</p>"
         }
       }
     },
     "mmVampireUmbralL": {
-      "name": "Vampiro señor de las sombras",
+      "name": "Vampiro señor umbral",
       "details": {
         "alignment": "Legal malvado"
       },
@@ -31945,9 +32160,13 @@
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir tener éxito en su lugar.</p>"
         },
         "mmShadowEscape00": {
           "activities": {
@@ -31957,9 +32176,12 @@
           },
           "effects": {
             "2Z8YFIhjL2U2xghe": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>La criatura tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} durante 1 hora, tras la cual recupera 1 punto de golpe.</p>"
             }
-          }
+          },
+          "name": "Escape sombrío",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] cae a 0 puntos de golpe fuera de su lugar de descanso, se teletransporta a su lugar de descanso salvo que esté en agua corriente o bajo la luz del sol. Si no puede teletransportarse, es destruido. Una vez dentro de su lugar de descanso, tiene la condición &amp;Reference[Paralyzed]{Paralizado} durante 1 hora, tras la cual recupera 1 punto de golpe.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -31967,23 +32189,50 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmGraveStrike000]] o [[/item .mmSickeningRay00]] en cualquier combinación.</p>"
         },
         "mmSickeningRay00": {
           "effects": {
             "pxIeCviylVJmU9Ud": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno de la criatura atacante.</p>"
+            }
+          },
+          "name": "Rayo nauseabundo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "NOYyxoKhp4QfkhoH": {
+              "name": ""
             }
           }
         },
         "mmHungerOfHadar0": {
-          "name": "Hambre de Hadar"
+          "name": "Hambre de Hadar",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHungerofHa]{Hambre de Hadar}</em> (versión de nivel 5), sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.cha.dc]]).</p>",
+          "activities": {
+            "y4UdXqeLF6qZ4dK9": {
+              "name": ""
+            }
+          }
         },
         "NhHw43UmTDY3KiJ3": {
           "name": "Hambre de Hadar",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Abres un portal al Reino Lejano, una región infestada de horrores innombrables. Una esfera de 20 pies de radio de &amp;Reference[Darkness]{Oscuridad} aparece centrada en un punto dentro del alcance y dura hasta que termine la duración. La esfera es &amp;Reference[DifficultTerrain]{Terreno difícil}, y está llena de susurros extraños y sonidos de succión que pueden oírse hasta a 30 pies. Ninguna luz, mágica o no, puede iluminar el área, y las criaturas completamente dentro de ella tienen la condición &amp;Reference[Blinded]{Cegado}.</p><p>Cualquier criatura que empiece su turno en el área recibe 2d6 de daño de Frío. Cualquier criatura que termine su turno allí debe superar una tirada de salvación de Destreza o recibir 2d6 de daño de Ácido de tentáculos de otro mundo.</p><p><strong>Usando un espacio de conjuro de nivel superior. </strong>El daño de Frío o Ácido (a tu elección) aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 3.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Abrir portal"
+            },
+            "G6bH5mBR3kkEYjYe": {
+              "name": "Daño al inicio del turno"
+            },
+            "FGDyvqQz5JQQc5mf": {
+              "name": "Salvación al final del turno"
             }
           }
         },
@@ -31992,7 +32241,9 @@
             "zw4GduIbxRyUVb1Y": {
               "name": "Salvación"
             }
-          }
+          },
+          "name": "Drenaje sanguino",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=zw4GduIbxRyUVb1Y]], un [[lookup @target.affects.type activity=zw4GduIbxRyUVb1Y]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=zw4GduIbxRyUVb1Y]] [[lookup @range.units activity=zw4GduIbxRyUVb1Y]] o menos. [[lookup @target.affects.special activity=zw4GduIbxRyUVb1Y]].</p><p><em>Fallo:</em> [[/damage average]] de daño. El máximo de puntos de golpe del objetivo se reduce en una cantidad igual al daño recibido, y el [[lookup @name lowercase]] recupera puntos de golpe iguales a esa cantidad.</p>"
         },
         "OTdgoEGx0Lbx0NxK": {
           "name": "Orden imperiosa",
@@ -32000,23 +32251,32 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Pronuncias una orden de una palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. Elige la orden de estas opciones:</p><p><strong>Acércate.</strong> El objetivo se mueve hacia ti por la ruta más corta y directa, terminando su turno si se mueve a 5 pies o menos de ti.</p><p><strong>Suelta.</strong> El objetivo suelta lo que esté sosteniendo y termina su turno.</p><p><strong>Huye.</strong> El objetivo gasta su turno alejándose de ti por el medio más rápido disponible.</p><p><strong>Túmbate.</strong> El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado} y termina su turno.</p><p><strong>Detente.</strong> En su turno, el objetivo no se mueve y no realiza ninguna acción ni acción adicional.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes afectar a una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "mmUmbralStrike00": {
           "activities": {
             "c8Rc62912YMDJCdI": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Golpe umbral",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/item .mmGraveStrike000]] o [[/item .mmSickeningRay00]].</p>"
         },
         "mmVampireWeaknes": {
           "name": "Debilidad vampírica",
           "activities": {
             "Ss5LwXo6bHOciPNQ": {
-              "name": "Daño: agua corriente"
+              "name": "Daño: agua corriente",
+              "description": {
+                "chatFlavor": "Daño por agua corriente"
+              }
             },
             "Q18pvRsbOyRbHiVK": {
-              "name": "Daño: luz del sol"
+              "name": "Daño: luz del sol",
+              "description": {
+                "chatFlavor": "Daño por luz del sol"
+              }
             },
             "HsKPQH0SsWtL4znC": {
               "name": "Estaca en el corazón"
@@ -32024,7 +32284,27 @@
           },
           "effects": {
             "v2EdEMrtcddO1p8U": {
-              "name": "Desventaja en ataques y pruebas"
+              "name": "Desventaja en ataques y pruebas",
+              "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</span></p>"
+            }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene las siguientes debilidades:</p><p class=\"feature-trait\"><strong>Prohibición.</strong> El [[lookup @name lowercase]] no puede entrar en una residencia sin invitación de uno de sus ocupantes.</p><p class=\"feature-trait\"><strong>Agua corriente.</strong> El [[lookup @name lowercase]] recibe 20 de daño de Ácido si termina su turno en agua corriente.</p><p class=\"feature-trait\"><strong>Estaca en el corazón.</strong> Si un arma que inflige daño Perforante se clava en el corazón del [[lookup @name lowercase]] mientras el [[lookup @name lowercase]] tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} en su lugar de descanso, el [[lookup @name lowercase]] tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta que el arma sea retirada.</p><p class=\"feature-trait\"><strong>Luz del sol.</strong> El [[lookup @name lowercase]] recibe 20 de daño Radiante si empieza su turno bajo la luz del sol. Mientras está bajo la luz del sol, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</p>"
+        },
+        "mmGraveStrike000": {
+          "name": "Golpe sepulcral",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "cyu0AKgdlXdB7Mys": {
+              "name": ""
+            }
+          }
+        },
+        "mmBeguile0000000": {
+          "name": "Embelesar",
+          "description": "<p>El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.cha.dc]]). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "activities": {
+            "M0FuOWsRw7TefgiH": {
+              "name": ""
             }
           }
         }
@@ -32037,7 +32317,13 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -32051,22 +32337,39 @@
           "activities": {
             "7voODpkc7vuuouqM": {
               "name": "Daño: agarrado"
+            },
+            "4Bwjc0jC0maNQAXR": {
+              "name": ""
             }
           },
           "effects": {
             "34pNktSSN7SVVlBY": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check skill=ath/acr format=long]], consulta el objeto de origen para la CD).</p>"
             }
-          }
+          },
+          "name": "Enredadera constrictora",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]). Hasta que termine el agarre, el objetivo recibe [[/damage average activity=7voODpkc7vuuouqM]] de daño al inicio de cada uno de sus turnos, y el [[lookup @name lowercase]] no puede realizar ataques de Enredadera constrictora.</p>"
         },
         "rxjB2wfV55BfBp6I": {
           "name": "Enmarañar",
           "effects": {
             "wn7K2m4XhXhItgPT": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>Una criatura Apresada puede usar una acción para hacer una prueba [[/check ability=str skill=ath]] contra tu CD de salvación de conjuros. Si tiene éxito, se libera de las plantas aferradoras y deja de estar Apresada por ellas.</p>"
             },
             "dnd5espellchange": {
-              "name": "Cambios de conjuro"
+              "name": "Cambios del conjuro"
+            }
+          },
+          "description": "<p>Plantas aferradoras brotan del suelo en un cuadrado de 20 pies dentro del alcance. Mientras dure el conjuro, estas plantas convierten el suelo del área en &amp;Reference[difficultterrain]. Desaparecen cuando el conjuro termina.</p><p>Cada criatura (excepto tú) que esté en el área cuando lanzas el conjuro debe superar una tirada de salvación de Fuerza o tener la condición &amp;Reference[restrained apply=false] hasta que el conjuro termine. Una criatura Apresada puede usar una acción para hacer una prueba [[/check ability=str skill=ath dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros. Si tiene éxito, se libera de las plantas aferradoras y deja de estar Apresada por ellas.</p>"
+        },
+        "mmEntanglingPlan": {
+          "name": "Plantas enmarañadoras",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]{Enmarañar}</em>, usando Constitución como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.con.dc]]).</p>",
+          "activities": {
+            "c2KEtFvWAAI0VLzi": {
+              "name": ""
             }
           }
         }
@@ -32083,6 +32386,16 @@
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
+            }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmRottingTouch00]].</p>"
+        },
+        "mmRottingTouch00": {
+          "name": "Toque putrefacto",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "bIkOhgNITiwpcoBf": {
+              "name": ""
             }
           }
         }
