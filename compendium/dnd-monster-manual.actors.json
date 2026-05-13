@@ -14292,7 +14292,8 @@
       },
       "items": {
         "mmHoldBreath0000": {
-          "name": "Contener la respiración"
+          "name": "Contener la respiración",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede aguantar la respiración durante 1 hora.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -14300,7 +14301,8 @@
             "E7gTuFDAHBJEv9K7": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item .mmBite0000000000]] y un ataque de [[/item .mmTail0000000000]].</p>"
         },
         "mmBite0000000000": {
           "name": "Mordisco",
@@ -14311,17 +14313,21 @@
           },
           "effects": {
             "sBCqplORWr2DwgKU": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado}.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=xWlMeXFjELfSUWX9]], tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} y no puede ser objetivo de la Cola del [[lookup @name lowercase]].</p>"
         },
         "mmTail0000000000": {
           "name": "Cola",
           "effects": {
             "uAvQlHXKSwnCjRtt": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14337,10 +14343,12 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item Rend]].</p>"
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -14359,9 +14367,11 @@
           },
           "effects": {
             "HUmtXTzr92ZaAvf3": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Enorme o más pequeña y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe [[/damage average activity=i9cI4yuGrjw1or1q]] de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14372,10 +14382,12 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmIllumination00": {
-          "name": "Iluminación"
+          "name": "Iluminación",
+          "description": "<p>El [[lookup @name lowercase]] emite luz brillante en un radio de 10 pies y luz tenue 10 pies adicionales.</p>"
         }
       }
     },
@@ -14386,10 +14398,12 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmStandingLeap00": {
-          "name": "Salto sin carrerilla"
+          "name": "Salto sin carrerilla",
+          "description": "<p class=\"feature\">El salto de longitud del [[lookup @name lowercase]] es de hasta 20 pies y su salto de altura es de hasta 10 pies, con o sin carrerilla.</p>"
         },
         "mmBite0000000000": {
           "name": "Mordisco",
@@ -14400,25 +14414,33 @@
           },
           "effects": {
             "PCME8GwPLyFitNxH": {
-              "name": "Agarrado"
+              "name": "Agarrado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]).</p>"
         },
         "mmSwallow0000000": {
           "name": "Engullir",
           "activities": {
             "zrWNjO9mkbN28spL": {
               "name": "Daño: engullido"
+            },
+            "IPD9mDjKJEXc2uMQ": {
+              "name": "Engullido"
             }
           },
           "effects": {
             "VOHv1LyO3hHolZXo": {
-              "name": "Cegado, apresado y cobertura total"
+              "name": "Cegado, apresado y cobertura total",
+              "description": "<p>Mientras está engullida, una criatura tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y tiene &amp;Reference[Total Cover apply=false]{Cobertura total} contra ataques.</p>"
             },
             "aS5FyMP72vn3OKf1": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>Si eres regurgitado, caes en un espacio a 10 pies o menos y quedas &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] engulle a un objetivo [[lookup @target.affects.special activity=IPD9mDjKJEXc2uMQ]] al que esté agarrando. Mientras está engullido, el objetivo ya no está Agarrado, pero tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y tiene &amp;Reference[Total Cover]{Cobertura total} contra ataques y otros efectos procedentes del exterior de la rana.</p><p>Mientras engulle al objetivo, el [[lookup @name lowercase]] no puede usar Mordisco, y si el [[lookup @name lowercase]] muere, el objetivo engullido deja de estar Apresado y puede escapar del cadáver usando 5 pies de movimiento, saliendo con la condición &amp;Reference[Prone apply=false]{Derribado}.</p><p>Al final del siguiente turno del [[lookup @name lowercase]], el objetivo engullido recibe [[/damage 2d4 acid average]] de daño. Si ese daño no lo mata, el [[lookup @name lowercase]] lo regurgita, haciendo que salga &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14437,9 +14459,11 @@
           },
           "effects": {
             "HUmtXTzr92ZaAvf3": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=z58sUDUmqxECJgT3]] y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe [[/damage 2d4 bludgeoning average]] de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -14450,7 +14474,8 @@
       },
       "items": {
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmRampage0000000": {
           "name": "Furia rampante",
@@ -14458,7 +14483,8 @@
             "BnHr5C9OxhQv8tBC": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Inmediatamente después de infligir daño a una criatura que ya esté &amp;Reference[Bloodied]{Malherida}, el [[lookup @name lowercase]] se mueve hasta la mitad de su Velocidad y realiza un ataque de [[/item .mmBite0000000000]].</p>"
         }
       }
     },
@@ -14469,10 +14495,12 @@
       },
       "items": {
         "mmSpiderClimb000": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluso por techos, sin tener que hacer una prueba de característica.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -14483,7 +14511,8 @@
       },
       "items": {
         "mmWaterBreathing": {
-          "name": "Respirar bajo el agua"
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua. Puede aguantar la respiración durante 1 hora fuera del agua.</p>"
         },
         "mmTentacles00000": {
           "name": "Tentáculos",
@@ -14494,16 +14523,20 @@
           },
           "effects": {
             "GyZrmzBP0NB8oRZI": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado}.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por los ocho tentáculos. Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado}.</p>"
         },
         "mmInkCloud000000": {
           "activities": {
             "1MiIPcVuCpfgBIkS": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Nube de tinta",
+          "description": "<p><em>Desencadenante</em>: El [[lookup @name lowercase]] recibe daño mientras está bajo el agua. <em>Respuesta</em>: El [[lookup @name lowercase]] libera tinta que llena un Cubo de [[lookup @target.template.size activity=1MiIPcVuCpfgBIkS]] pies centrado en sí mismo, y el [[lookup @name lowercase]] se mueve hasta su velocidad de nado. El Cubo queda muy oscurecido durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.</p>"
         }
       }
     },
@@ -14514,13 +14547,16 @@
       },
       "items": {
         "mmFlyby000000000": {
-          "name": "Sobrevuelo"
+          "name": "Sobrevuelo",
+          "description": "<p>El [[lookup @name lowercase]] no provoca un &amp;Reference[OpportunityAttacks]{Ataque de oportunidad} cuando vuela fuera del alcance de un enemigo.</p>"
         },
         "mmTalons00000000": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes de conjuro y usando Sabiduría como característica para lanzar conjuros:</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detectar el bien y el mal}, @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplClairvoyan]{Clarividencia}</em></p>"
         },
         "0RWcAlp0LmNrnko3": {
           "name": "Detectar el bien y el mal",
@@ -14536,7 +14572,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Mientras dura el conjuro, percibes la ubicación de cualquier Aberración, Celestial, Elemental, Feérico, Infernal o Muerto viviente a 30 pies o menos de ti. También percibes si el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Consagrar}</em> está activo allí y, en tal caso, dónde.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "JzMBiy422W8ODen0": {
           "name": "Detectar magia",
@@ -14552,7 +14589,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Mientras dura el conjuro, percibes la presencia de efectos mágicos a 30 pies o menos de ti. Si percibes tales efectos, puedes llevar a cabo la acción Mágica para ver un aura tenue alrededor de cualquier criatura u objeto visible de la zona que porte la magia; si un efecto fue creado por un conjuro, conoces la escuela mágica de ese conjuro.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "8M451QIEc6AvBiCw": {
           "name": "Clarividencia",
@@ -14560,7 +14598,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas un sensor Invisible dentro del alcance en una ubicación familiar para ti (un lugar que hayas visitado o visto antes) o en una ubicación evidente que no te sea familiar (como detrás de una puerta, al doblar una esquina o en una arboleda). El sensor intangible e invulnerable permanece en su sitio durante la duración.</p><p>Cuando lanzas el conjuro, eliges vista u oído. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción adicional, puedes alternar entre ver y oír.</p><p>Una criatura que vea el sensor (como una criatura beneficiada por <em>Ver invisibilidad</em> o &amp;Reference[truesight]{visión verdadera}) ve un orbe luminoso del tamaño aproximado de tu puño.</p>"
         }
       }
     },
