@@ -22500,13 +22500,24 @@
       },
       "items": {
         "mmDisintegration": {
-          "name": "Desintegración"
+          "name": "Desintegración",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] muere, se desintegra en polvo, dejando atrás todo lo que llevara puesto o transportara.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
+            }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item Clockwork Spear]].</p>"
+        },
+        "mmClockworkSpear": {
+          "name": "Lanza mecánica",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p><p><em>Impacto o fallo:</em> La lanza regresa mágicamente a la mano del [[lookup @name lowercase]] inmediatamente después de un ataque a distancia.</p>",
+          "activities": {
+            "g0B8H0K3QvZIUVLD": {
+              "name": ""
             }
           }
         }
@@ -22522,12 +22533,23 @@
           "name": "Estallido de muerte",
           "effects": {
             "tmWbjiIrQS74HrkR": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta el final de su siguiente turno.</p>"
+            }
+          },
+          "description": "<p>El [[lookup @name lowercase]] explota [[lookup @activation.condition activity=1SfqWSp7RSyHgG4b]].</p><p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=1SfqWSp7RSyHgG4b]], cada [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] en una Emanación de [[lookup @target.template.size activity=1SfqWSp7RSyHgG4b]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta el final de su siguiente turno.</p>",
+          "activities": {
+            "1SfqWSp7RSyHgG4b": {
+              "name": "",
+              "activation": {
+                "condition": "cuando muere"
+              }
             }
           }
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmMudBreath00000": {
           "activities": {
@@ -22537,9 +22559,12 @@
           },
           "effects": {
             "bmvasmtHPh1gmm77": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta el final del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Aliento de barro",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=i727Jd3IBfZezMPy]], [[lookup @target.affects.labels.statblock activity=i727Jd3IBfZezMPy]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=i727Jd3IBfZezMPy]] pies o menos.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta el final del siguiente turno del [[lookup @name lowercase]].</p>"
         }
       }
     },
@@ -22550,7 +22575,17 @@
       },
       "items": {
         "mmHooves00000000": {
-          "name": "Pezuñas"
+          "name": "Pezuñas",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmBeastOfBurden0": {
+          "name": "Bestia de carga",
+          "description": "<p>El [[lookup @name lowercase]] cuenta como una talla mayor para determinar su capacidad de carga.</p>",
+          "effects": {
+            "VW9jjwa34EHjrXBB": {
+              "name": "Bestia de carga"
+            }
+          }
         }
       }
     },
@@ -22566,19 +22601,26 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>La momia realiza dos ataques con [[/item .mmRottingFist000]] y usa [[/item .mmDreadfulGlare0]].</p>"
         },
         "mmRottingFist000": {
           "activities": {
             "hLg8cNrrgDdIsYXj": {
               "name": "Reducción de PG máximos"
+            },
+            "8A7HEjh4kbkf9WwX": {
+              "name": ""
             }
           },
           "effects": {
             "t7Anyyhyg6fmTdXw": {
-              "name": "Maldito"
+              "name": "Maldito",
+              "description": "<p>Si el objetivo es una criatura, queda maldito. Mientras esté maldito, el objetivo no puede recuperar puntos de golpe, su máximo de puntos de golpe no vuelve a la normalidad al terminar un descanso largo, y su máximo de puntos de golpe disminuye en [[/r 3d6#Reducción de PG máximos]]{10 (3d6)} cada 24 horas que transcurran. Una criatura muere y se convierte en polvo si queda reducida a 0 puntos de golpe por este ataque.</p>"
             }
-          }
+          },
+          "name": "Puño putrefacto",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura, queda maldito. Mientras esté maldito, el objetivo no puede recuperar puntos de golpe, su máximo de puntos de golpe no vuelve a la normalidad al terminar un descanso largo, y su máximo de puntos de golpe disminuye en [[/r 3d6#Reducción de PG máximos]]{10 (3d6)} cada 24 horas que transcurran. Una criatura muere y se convierte en polvo si queda reducida a 0 puntos de golpe por este ataque.</p>"
         },
         "mmDreadfulGlare0": {
           "activities": {
@@ -22588,9 +22630,12 @@
           },
           "effects": {
             "hRSvOovTSlu4Dw8c": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final del siguiente turno de la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Mirada espantosa",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], un [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=8LmlZfevSQkOxGSN]] pies o menos.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> El objetivo es inmune a la Mirada espantosa de esta [[lookup @name lowercase]] durante 24 horas.</p>"
         }
       }
     },
@@ -22604,27 +22649,39 @@
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir tener éxito en su lugar.</p>"
         },
         "mmUndeadRestorat": {
-          "name": "Restauración de no muerto"
+          "name": "Restauración de no muerto",
+          "description": "<p>Si es destruido, el [[lookup @name lowercase]] obtiene un nuevo cuerpo en 24 horas si su corazón está intacto, reviviendo con todos sus puntos de golpe. El nuevo cuerpo aparece en un espacio desocupado dentro de la guarida del [[lookup @name lowercase]]. El corazón es un objeto Diminuto que tiene CA 17, PG 10 e Inmunidad a todo el daño excepto Fuego.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmRottingFist000": {
           "activities": {
             "hLg8cNrrgDdIsYXj": {
               "name": "Reducción de PG máximos"
+            },
+            "8A7HEjh4kbkf9WwX": {
+              "name": ""
             }
           },
           "effects": {
             "B1S4dZd1Lz0jokIo": {
-              "name": "Maldito"
+              "name": "Maldito",
+              "description": "<p>Si el objetivo es una criatura, queda maldito. Mientras esté maldito, el objetivo no puede recuperar puntos de golpe, su máximo de puntos de golpe no vuelve a la normalidad al terminar un descanso largo, y su máximo de puntos de golpe disminuye en [[/r 3d6#Reducción de PG máximos]]{10 (3d6)} cada 24 horas que transcurran. Una criatura muere y se convierte en polvo si queda reducida a 0 puntos de golpe por este ataque.</p>"
             }
-          }
+          },
+          "name": "Puño putrefacto",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura, queda maldito. Mientras esté maldito, el objetivo no puede recuperar puntos de golpe, su máximo de puntos de golpe no vuelve a la normalidad al terminar un descanso largo, y su máximo de puntos de golpe disminuye en [[/r 3d6#Reducción de PG máximos]]{10 (3d6)} cada 24 horas que transcurran. Una criatura muere y se convierte en polvo si queda reducida a 0 puntos de golpe por este ataque.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -22632,10 +22689,29 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item .mmRottingFist000]] o [[/item .d6GVHcFrHv83C7eS]], y usa [[/item .mmDreadfulGlare0]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +9 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Disipar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimateDea]{Animar a los muertos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHarm000000]{Dañar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInsectPlag]{Plaga de insectos}</em> (versión de nivel 7)</p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "2L5xIB4F7pzLxodZ": {
+              "name": ""
+            },
+            "r1CShKUHpGLk6S15": {
+              "name": ""
+            },
+            "UuaXl5nquzkuZass": {
+              "name": ""
+            },
+            "h8Z0JRmWxCy0fyYu": {
+              "name": ""
+            }
+          }
         },
         "MNMv0vuxNlTLXjTJ": {
           "name": "Disipar magia",
@@ -22643,7 +22719,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Cualquier conjuro activo de nivel 3 o inferior sobre el objetivo termina. Por cada conjuro activo de nivel 4 o superior sobre el objetivo, haz una prueba de característica usando tu característica de lanzamiento de conjuros (CD 10 más el nivel de ese conjuro). Si tienes éxito, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Terminas automáticamente un conjuro sobre el objetivo si el nivel del conjuro es igual o inferior al nivel del espacio de conjuro que usas.</p>"
         },
         "qJROiSCEROFUzokI": {
           "name": "Taumaturgia",
@@ -22656,7 +22733,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Manifiestas una maravilla menor dentro del alcance. Creas uno de los siguientes efectos dentro del alcance. Si lanzas este conjuro varias veces, puedes tener activos hasta tres de sus efectos de 1 minuto a la vez.</p><p><strong>Ojos alterados.</strong> Alteras el aspecto de tus ojos durante 1 minuto.</p><p><strong>Voz retumbante.</strong> Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto. Durante la duración, tienes Ventaja en pruebas [[/check ability=cha skill=itm]].</p><p><strong>Juego de fuego.</strong> Haces que llamas parpadeen, se aviven, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de golpe instantáneamente.</p><p><strong>Sonido fantasmal.</strong> Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno, el graznido de un cuervo o susurros ominosos.</p><p><strong>Temblores.</strong> Provocas temblores inofensivos en el suelo durante 1 minuto.</p>"
         },
         "TR4icqSOLRCzde5j": {
           "name": "Animar a los muertos",
@@ -22664,13 +22742,20 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige un montón de huesos o el cadáver de un Humanoide Mediano o Pequeño dentro del alcance. El objetivo se convierte en una criatura Muerto viviente: un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobSkeleton00]{Esqueleto}</strong> si elegiste huesos, o un <strong>@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobZombie0000]{Zombi}</strong> si elegiste un cadáver.</p><p>En cada uno de tus turnos, puedes usar una acción Adicional para ordenar mentalmente a cualquier criatura que hayas creado con este conjuro si está a 60 pies o menos de ti. Si controlas varias criaturas, puedes ordenar a cualquiera de ellas al mismo tiempo, dando la misma orden a cada una. Decides qué acción hará la criatura y dónde se moverá en su siguiente turno, o puedes dar una orden general, como vigilar una sala o un corredor. Si no das órdenes, la criatura realiza la acción Esquivar y solo se mueve para evitar daño. Una vez dada una orden, la criatura sigue cumpliéndola hasta completar la tarea.</p><p>La criatura está bajo tu control durante 24 horas, tras las cuales deja de obedecer cualquier orden que le hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzar este conjuro sobre ella de nuevo antes de que termine el periodo actual de 24 horas.</p>"
         },
         "4K4UcgI4iS2ecAzk": {
           "name": "Dañar",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Desatas magia virulenta sobre una criatura que puedas ver dentro del alcance. El objetivo realiza una tirada de salvación de Constitución. Si falla la salvación, recibe 14d6 de daño Necrótico, y su máximo de puntos de golpe se reduce en una cantidad igual al daño Necrótico recibido. Si supera la salvación, recibe la mitad de ese daño solamente. Esta reducción dura hasta que el objetivo termine un descanso largo. El objetivo muere si su máximo de puntos de golpe queda reducido a 0.</p>",
+          "activities": {
+            "m8KSieDGOHcM2hVw": {
+              "name": ""
             }
           }
         },
@@ -22680,7 +22765,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Langostas en enjambre llenan una Esfera de 20 pies de radio centrada en un punto que eliges dentro del alcance. La Esfera permanece durante la duración, y su área está &amp;Reference[LightlyObscured]{Ligeramente oscurecida} y es &amp;Reference[DifficultTerrain]{Terreno difícil}.</p><p>Cuando aparece el enjambre, cada criatura en él realiza una tirada de salvación de Constitución; recibe 4d10 de daño Perforante si falla la salvación, o la mitad de ese daño si la supera. Una criatura también realiza esta salvación cuando entra en el área del conjuro por primera vez en un turno o termina allí su turno. Una criatura solo realiza esta salvación una vez por turno.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño aumenta en 1d10 por cada nivel de espacio de conjuro por encima de 5.</p>"
         },
         "kKIr4N3Az41AIdle": {
           "name": "Mirada fulminante",
@@ -22688,7 +22774,8 @@
             "sKVNu6ILpA3FSFFE": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa [[/item .mmDreadfulGlare0]].</p>"
         },
         "Hp6Uq0ZvymMIEGys": {
           "activities": {
@@ -22698,16 +22785,24 @@
           },
           "effects": {
             "MMp7IK5bYYPYtSdL": {
-              "name": "Cegado"
+              "name": "Cegado",
+              "description": "<p>La criatura tiene la condición &amp;Reference[Blinded apply=false]{Cegado} mientras esté en el área de arena arremolinada.</p>"
+            },
+            "Xy0tzgObrMRF2lHm": {
+              "name": "+2 CA"
             }
-          }
+          },
+          "name": "Torbellino de arena",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> El [[lookup @name lowercase]] es impactado por una tirada de ataque. <em>Respuesta:</em> El [[lookup @name lowercase]] suma 2 a su CA contra el ataque, lo que puede hacer que falle, y el [[lookup @name lowercase]] se teletransporta hasta [[lookup @range.value activity=EsBmMUQMO4b0g6Yw]] pies a un espacio desocupado que pueda ver. Hasta el final del siguiente turno del [[lookup @name lowercase]], la zona que abandona y la zona a la que llega están muy oscurecidas por arena arremolinada, y las criaturas que no sean el [[lookup @name lowercase]] tienen la condición &amp;Reference[Blinded apply=false]{Cegado} mientras estén en esas zonas.</p>"
         },
         "SSc4GeA0NJxba8O4": {
           "activities": {
             "9RQr4xjb1zKIXBxn": {
               "name": "Orden imperiosa"
             }
-          }
+          },
+          "name": "Orden temible",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em> (versión de nivel 2), usando la misma característica para lanzar conjuros que Lanzamiento de conjuros. El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
         },
         "KOWKJe3vIwDbWY0Y": {
           "name": "Orden imperiosa",
@@ -22715,14 +22810,17 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Pronuncias una orden de una palabra a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. Elige la orden de estas opciones:</p><p><strong>Acércate.</strong> El objetivo se mueve hacia ti por la ruta más corta y directa, terminando su turno si se mueve a 5 pies o menos de ti.</p><p><strong>Suelta.</strong> El objetivo suelta lo que esté sosteniendo y termina su turno.</p><p><strong>Huye.</strong> El objetivo gasta su turno alejándose de ti por el medio más rápido disponible.</p><p><strong>Túmbate.</strong> El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado} y termina su turno.</p><p><strong>Detente.</strong> En su turno, el objetivo no se mueve y no realiza ninguna acción ni acción adicional.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes afectar a una criatura adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "xhuz3Gwz1C5hyZLl": {
           "activities": {
             "XjVWtnpvFEbr67UU": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Golpe necrótico",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque con [[/item .mmRottingFist000]] o [[/item .d6GVHcFrHv83C7eS]].</p>"
         },
         "mmDreadfulGlare0": {
           "activities": {
@@ -22732,7 +22830,19 @@
           },
           "effects": {
             "hRSvOovTSlu4Dw8c": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el siguiente turno de la criatura atacante.</p>"
+            }
+          },
+          "name": "Mirada espantosa",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=8LmlZfevSQkOxGSN]], un [[lookup @target.affects.type activity=8LmlZfevSQkOxGSN]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=8LmlZfevSQkOxGSN]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final del siguiente turno del [[lookup @name lowercase]].</p>"
+        },
+        "d6GVHcFrHv83C7eS": {
+          "name": "Canalizar energía negativa",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "eURk5CrGOxmhQFbC": {
+              "name": ""
             }
           }
         }
@@ -22745,10 +22855,17 @@
       },
       "items": {
         "mmSunSickness000": {
-          "name": "Malestar solar"
+          "name": "Malestar solar",
+          "description": "<p class=\"feature\">Mientras esté bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20. El [[lookup @name lowercase]] muere si pasa más de 1 hora bajo la luz del sol.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
         },
         "mmPacifyingSpore": {
           "activities": {
@@ -22758,9 +22875,12 @@
           },
           "effects": {
             "pYhpTUwNUgDPGu4J": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras 1 minuto, tiene éxito automáticamente.</p>"
             }
-          }
+          },
+          "name": "Esporas pacificadoras",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=6c9CieCQWV7XsKLy]], un [[lookup @target.affects.type activity=6c9CieCQWV7XsKLy]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=6c9CieCQWV7XsKLy]] [[lookup @range.units activity=6c9CieCQWV7XsKLy]] o menos.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras [[lookup @duration.value activity=6c9CieCQWV7XsKLy]] [[lookup @duration.units activity=6c9CieCQWV7XsKLy]], tiene éxito automáticamente.</p>"
         },
         "mmRapportSpores0": {
           "name": "Esporas de comunicación",
@@ -22773,7 +22893,8 @@
             "VLxWjtYOvhuar3vJ": {
               "name": "Telepatía 30 pies"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] expulsa esporas en una Emanación de [[lookup @target.template.size activity=WohqBNidY6nmDuum]] [[lookup @target.template.units activity=WohqBNidY6nmDuum]] originada en sí mismo. Las criaturas en esa área con una puntuación de Inteligencia de 2 o más que no sean Constructos, Elementales ni Muertos vivientes obtienen telepatía con un alcance de 30 pies durante [[lookup @duration.value activity=WohqBNidY6nmDuum]] [[lookup @duration.units activity=WohqBNidY6nmDuum]].</p>"
         }
       }
     },
@@ -22784,7 +22905,8 @@
       },
       "items": {
         "mmSunSickness000": {
-          "name": "Malestar solar"
+          "name": "Malestar solar",
+          "description": "<p class=\"feature\">Mientras esté bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20. El [[lookup @name lowercase]] muere si pasa más de 1 hora bajo la luz del sol.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -22792,10 +22914,17 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de Golpe y usa Esporas pacificadoras.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
         },
         "mmPacifyingSpore": {
           "activities": {
@@ -22805,9 +22934,12 @@
           },
           "effects": {
             "pYhpTUwNUgDPGu4J": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras 1 minuto, tiene éxito automáticamente.</p>"
             }
-          }
+          },
+          "name": "Esporas pacificadoras",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=6c9CieCQWV7XsKLy]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=6c9CieCQWV7XsKLy]] pies o menos.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras [[lookup @duration.value activity=6c9CieCQWV7XsKLy]] minuto, tiene éxito automáticamente.</p>"
         },
         "mmRapportSpores0": {
           "name": "Esporas de comunicación",
@@ -22819,6 +22951,16 @@
           "effects": {
             "615GgZWnB7ezBCPv": {
               "name": "Telepatía 30 pies"
+            }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] expulsa esporas en una Emanación de [[lookup @target.template.size activity=WohqBNidY6nmDuum]] pies originada en sí mismo. Las criaturas en esa área con una puntuación de Inteligencia de 2 o más que no sean Constructos, Elementales ni Muertos vivientes obtienen telepatía con un alcance de 30 pies durante [[lookup @duration.value activity=WohqBNidY6nmDuum]] [[lookup @duration.units activity=WohqBNidY6nmDuum]].</p>"
+        },
+        "wxSefPWNWmxhcdBb": {
+          "name": "Esporas animadoras",
+          "description": "<p>El [[lookup @name]] libera esporas sobre el cadáver Mediano o Pequeño de una criatura a [[lookup @range.value activity=ruh9QGSrxWb57Iuf]] pies o menos que no fuera un Constructo ni un Muerto viviente. En 24 horas, el cadáver se alza como un <strong>Micónido siervo espora</strong>. El cadáver permanece animado durante [[/r 1d4 + 1]] semanas o hasta ser destruido, y no puede volver a animarse de esta forma.</p>",
+          "activities": {
+            "ruh9QGSrxWb57Iuf": {
+              "name": ""
             }
           }
         }
@@ -22831,7 +22973,13 @@
       },
       "items": {
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -22842,10 +22990,17 @@
       },
       "items": {
         "mmSunSickness000": {
-          "name": "Malestar solar"
+          "name": "Malestar solar",
+          "description": "<p class=\"feature\">Mientras esté bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20. El [[lookup @name lowercase]] muere si pasa más de 1 hora bajo la luz del sol.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
         },
         "mmRapportSpores0": {
           "name": "Esporas de comunicación",
@@ -22858,7 +23013,8 @@
             "615GgZWnB7ezBCPv": {
               "name": "Telepatía 30 pies"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] expulsa esporas en una Emanación de [[lookup @target.template.size activity=WohqBNidY6nmDuum]] pies originada en sí mismo. Las criaturas en esa área con una puntuación de Inteligencia de 2 o más que no sean Constructos, Elementales ni Muertos vivientes obtienen telepatía con un alcance de 30 pies durante [[lookup @duration.value activity=WohqBNidY6nmDuum]] [[lookup @duration.units activity=WohqBNidY6nmDuum]].</p>"
         }
       }
     },
@@ -22869,10 +23025,12 @@
       },
       "items": {
         "mmDemonicRestora": {
-          "name": "Restauración demoníaca"
+          "name": "Restauración demoníaca",
+          "description": "<p>Si el [[lookup @name lowercase]] muere fuera del Abismo, su cuerpo se disuelve en icor y obtiene un nuevo cuerpo al instante, reviviendo con todos sus puntos de golpe en algún lugar del Abismo.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -22880,7 +23038,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>"
         },
         "mmTeleport000000": {
           "name": "Teletransporte",
@@ -22888,10 +23047,17 @@
             "dnoRMdFzhUUku26D": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se teletransporta hasta [[lookup @range.value activity=dnoRMdFzhUUku26D]] pies a un espacio desocupado que pueda ver.</p>"
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmHorrorNimbus00": {
           "activities": {
@@ -22901,16 +23067,21 @@
           },
           "effects": {
             "ahNNQZ2FHPsRpYbH": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} durante 1 minuto, hasta que reciba daño o hasta que termine su turno sin línea de visión a la criatura atacante.</p>"
             }
-          }
+          },
+          "name": "Nimbo de horror",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=GP5MnIyXCVZ4ZMTQ]], cada [[lookup @target.affects.type activity=GP5MnIyXCVZ4ZMTQ]] en una Emanación de [[lookup @target.template.size activity=GP5MnIyXCVZ4ZMTQ]] <span style=\"font-family:'Roboto Condensed', sans-serif\">pies</span> originada en el [[lookup @name lowercase]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} durante [[lookup @duration.value activity=GP5MnIyXCVZ4ZMTQ]] [[lookup @duration.units activity=GP5MnIyXCVZ4ZMTQ]], hasta que reciba daño o hasta que termine su turno sin línea de visión al [[lookup @name lowercase]].</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune al Nimbo de horror de este [[lookup @name lowercase]] durante 24 horas.</p>"
         },
         "mmPursuit0000000": {
           "activities": {
             "blUXkjLhs9kD2ofo": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Persecución",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> Otra criatura que el [[lookup @name lowercase]] pueda ver termina su movimiento a [[lookup @range.value activity=blUXkjLhs9kD2ofo]] pies o menos del [[lookup @name lowercase]]. <em>Respuesta:</em> El [[lookup @name lowercase]] usa Teletransporte, pero su espacio de destino debe estar [[lookup @target.affects.special activity=blUXkjLhs9kD2ofo]].</p>"
         }
       }
     },
