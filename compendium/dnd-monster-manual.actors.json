@@ -15959,10 +15959,17 @@
       },
       "items": {
         "vTZW4dSRGXTDWvRd": {
-          "name": "Lanza"
+          "name": "Lanza",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "HiR3FA2Uc0oOAHU9": {
+              "name": ""
+            }
+          }
         },
         "eRJSN5Dx2heS3x6S": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Obtienes el beneficio a la Clase de Armadura de un Escudo solo si tienes entrenamiento con él.</p>"
         },
         "cvN4WB1RPKCP6I7V": {
           "name": "Armadura de cuero tachonado"
@@ -15973,7 +15980,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .vTZW4dSRGXTDWvRd]]. Puede reemplazar un ataque por un uso de [[/item .mmShieldBash0000]].</p>"
         },
         "mmShieldBash0000": {
           "activities": {
@@ -15983,17 +15991,24 @@
           },
           "effects": {
             "tlJPRZtTipMsmBRa": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "name": "Golpe con escudo",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=eIErvLccVVCXiCSl]], un [[lookup @target.affects.type activity=eIErvLccVVCXiCSl]] dentro de [[lookup @range.value activity=eIErvLccVVCXiCSl]] [[lookup @range.units activity=eIErvLccVVCXiCSl]] que el [[lookup @name lowercase]] pueda ver.</p><p><em>Fallo:</em> [[/damage average]] de daño. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         },
         "W6beI0RFZfwSg7oY": {
           "name": "Parada",
           "activities": {
             "aLG3BRZL7P6OEjwd": {
-              "name": "Usar"
+              "name": "Usar",
+              "activation": {
+                "condition": "alcanzado por una tirada de ataque cuerpo a cuerpo mientras sostiene un arma"
+              }
             }
-          }
+          },
+          "description": "<p><em>Desencadenante:</em> El [[lookup @name lowercase]] es [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Respuesta:</em> El [[lookup @name lowercase]] añade [[lookup @prof]] a su CA contra ese ataque, lo que podría hacer que falle.</p>"
         }
       }
     },
@@ -16009,12 +16024,32 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmAbyssalStrike0]].</p>"
+        },
+        "mmAbyssalStrike0": {
+          "name": "Golpe abisal",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "MVTV7FjO0vydq0oY": {
+              "name": ""
+            }
           }
         },
         "mmHungerOfYeenog": {
           "activities": {
             "sIJYYjLHqCAPxOLm": {
               "name": "Salvación"
+            },
+            "DXSz02tEbmOq9fOu": {
+              "name": "PG temporales"
+            }
+          },
+          "name": "Hambre de Yeenoghu",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] conjura una [[lookup @target.template.type activity=sIJYYjLHqCAPxOLm]] de [[lookup @target.template.size activity=sIJYYjLHqCAPxOLm]] [[lookup @target.template.units activity=sIJYYjLHqCAPxOLm]] de Oscuridad mágica, originada en un punto que pueda ver dentro de [[lookup @range.value activity=sIJYYjLHqCAPxOLm]] [[lookup @range.units activity=sIJYYjLHqCAPxOLm]], que dura [[lookup @duration.value activity=sIJYYjLHqCAPxOLm]] [[lookup @duration.units activity=sIJYYjLHqCAPxOLm]] o hasta que termine la &amp;Reference[Concentration]{Concentración} del [[lookup @name lowercase]] sobre ella. Esta área es &amp;Reference[DifficultTerrain]{terreno difícil}.</p><p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=sIJYYjLHqCAPxOLm]], cualquier [[lookup @target.affects.type activity=sIJYYjLHqCAPxOLm]] que empiece su turno en esta área o entre en ella por primera vez en un turno.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el [[lookup @name lowercase]] o una criatura de su elección que pueda ver obtiene [[/healing activity=DXSz02tEbmOq9fOu]] puntos de golpe temporales.</p><p class=\"feature\"><em>Éxito:</em> Mitad de daño.</p>",
+          "effects": {
+            "NOYXGy3Pfv1PFpKB": {
+              "name": "Concentrando"
             }
           }
         },
@@ -16024,7 +16059,8 @@
             "BnHr5C9OxhQv8tBC": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Inmediatamente después de infligir daño a una criatura que ya esté &amp;Reference[Bloodied]{Ensangrentada}, el [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/item .mmAbyssalStrike0]].</p>"
         }
       }
     },
@@ -16040,15 +16076,27 @@
             "SRQrt2M0XW89ddYG": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item .mmBite0000000000]] y dos ataques con [[/item .mmBoneFlail00000]].</p>"
         },
         "mmBite0000000000": {
           "name": "Mordisco",
           "effects": {
             "29ZkOAPnfMiHWv1O": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno de la criatura atacante.</p>"
+            }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]<span style=\"font-family:'Roboto Condensed', sans-serif\">, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</span></p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
             }
           }
+        },
+        "mmBoneFlail00000": {
+          "name": "Mangual de hueso",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmRampage0000000": {
           "name": "Furia rampante",
@@ -16056,7 +16104,8 @@
             "BnHr5C9OxhQv8tBC": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Inmediatamente después de infligir daño a una criatura que ya esté &amp;Reference[Bloodied]{Ensangrentada}, el [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/item .mmBite0000000000]].</p>"
         }
       }
     },
@@ -16072,6 +16121,25 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmBoneWhip000000]] o [[/item .mmBoneJavelin000]] en cualquier combinación, y usa [[/item .mmInciteRampage0]] si está disponible.</p>"
+        },
+        "mmBoneWhip000000": {
+          "name": "Látigo de hueso",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "pZ7SURN823SGCTYJ": {
+              "name": ""
+            }
+          }
+        },
+        "mmBoneJavelin000": {
+          "name": "Jabalina de hueso",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "jAz8DDAkQtk76k0D": {
+              "name": ""
+            }
           }
         },
         "mmRampage0000000": {
@@ -16080,14 +16148,17 @@
             "BnHr5C9OxhQv8tBC": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Inmediatamente después de infligir daño a una criatura que ya esté &amp;Reference[Bloodied]{Ensangrentada}, el [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/item .mmBoneWhip000000]].</p>"
         },
         "mmInciteRampage0": {
           "activities": {
             "KFhSwaFqmCUTBUTF": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "name": "Incitar furia rampante",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] elige como objetivo a otro [[lookup @target.affects.type activity=KFhSwaFqmCUTBUTF]] que pueda ver a [[lookup @range.value activity=KFhSwaFqmCUTBUTF]] pies o menos de sí mismo [[lookup @target.affects.special activity=KFhSwaFqmCUTBUTF]]. El objetivo puede usar una &amp;Reference[Reaction]{Reacción} para realizar un ataque cuerpo a cuerpo.</p>"
         }
       }
     },
@@ -16098,7 +16169,17 @@
       },
       "items": {
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmBoneBow0000000": {
+          "name": "Arco de hueso",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "dNpSG72dgLo9KbJf": {
+              "name": ""
+            }
+          }
         },
         "zIj6vTQpc22VkuAs": {
           "name": "Furia rampante",
@@ -16106,7 +16187,8 @@
             "BnHr5C9OxhQv8tBC": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Inmediatamente después de infligir daño a una criatura que ya esté &amp;Reference[Bloodied]{Ensangrentada}, el [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque con [[/Item Rend]].</p>"
         }
       }
     },
@@ -16121,8 +16203,12 @@
           "activities": {
             "kJRbpcMr4MaYs4JL": {
               "name": "Ataque en movimiento"
+            },
+            "z58sUDUmqxECJgT3": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=kJRbpcMr4MaYs4JL]] de daño si la cabra se movió 20+ pies en línea recta hacia el objetivo inmediatamente antes del impacto.</p>"
         }
       }
     },
@@ -16137,22 +16223,31 @@
           "activities": {
             "Hrmzb66QMA8iWGzN": {
               "name": "Ataque con ventaja"
+            },
+            "YOx3cikY6oPu6Ojh": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más [[/damage 1d4 slashing average]] de daño si la tirada de ataque tenía Ventaja.</p>"
         },
         "XbNHC5OBGT6VQF40": {
           "name": "Arco corto",
           "activities": {
             "txsTyS6AEG7lkbcF": {
               "name": "Ataque con ventaja"
+            },
+            "XTpNEcni4iwfmaeA": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más [[/damage 1d4 piercing average]] de daño si la tirada de ataque tenía Ventaja.</p>"
         },
         "JD069zlOByXNYHyx": {
           "name": "Camisa de malla"
         },
         "hdOImQziS8ffNnk5": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Obtienes el beneficio a la Clase de Armadura de un Escudo solo si tienes entrenamiento con él.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -16160,7 +16255,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .8gwXLDcYj3mk6Kr3]] o [[/item .XbNHC5OBGT6VQF40]] en cualquier combinación.</p>"
         },
         "mmNimbleEscape00": {
           "name": "Huida ágil",
@@ -16171,16 +16267,22 @@
           },
           "effects": {
             "7U7Pe61lsMZgN7qh": {
-              "name": "Aplicar acción de esconderse al objetivo"
+              "name": "Aplicar acción de Esconderse al objetivo"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Disengage]{Retirarse} o &amp;Reference[Hide]{Esconderse}.</p>"
         },
         "mmRedirectAttack": {
           "activities": {
             "pIlCmuPw8YUqAISY": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "Una criatura que el goblin pueda ver realiza una tirada de ataque contra él."
+              }
             }
-          }
+          },
+          "name": "Redirigir ataque",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> Una criatura que el [[lookup @name lowercase]] pueda ver realiza una tirada de ataque contra él.</p><p class=\"feature\"><em>Respuesta:</em> El [[lookup @name lowercase]] elige [[lookup @target.affects.special activity=pIlCmuPw8YUqAISY]] a [[lookup @range.value activity=pIlCmuPw8YUqAISY]] pies o menos de sí mismo. El [[lookup @name lowercase]] y ese [[lookup @target.affects.type activity=pIlCmuPw8YUqAISY]] intercambian posiciones, y el [[lookup @target.affects.type activity=pIlCmuPw8YUqAISY]] pasa a ser el objetivo del ataque en su lugar.</p>"
         }
       }
     },
@@ -16196,17 +16298,47 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmHexStick000000]]. Puede reemplazar un ataque por un uso de [[/item .mmSpellcasting00]].</p>"
+        },
+        "mmHexStick000000": {
+          "name": "Vara de maleficio",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "EhnkbECJXLTqHzAS": {
+              "name": ""
+            }
           }
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, usando Inteligencia como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión menor}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD]{Ceguera/sordera}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego feérico}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGrease0000]{Grasa}</em></p>",
+          "activities": {
+            "yPDqjabX8D4A6y8m": {
+              "name": ""
+            },
+            "MwOGSi28Gd8g3sNB": {
+              "name": ""
+            },
+            "CDjmDPsyrBittyCO": {
+              "name": ""
+            },
+            "8SmG97F0DuxX3VN3": {
+              "name": ""
+            }
+          }
         },
         "mmJinx0000000000": {
           "activities": {
             "02KFzL9fElzyHOIT": {
-              "name": "Salvación"
+              "name": "Salvación",
+              "activation": {
+                "condition": "Una criatura que el goblin pueda ver lo alcanza con una tirada de ataque."
+              }
             }
-          }
+          },
+          "name": "Gafe",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> Una criatura que el [[lookup @name lowercase]] pueda ver lo alcanza con una tirada de ataque.</p><p class=\"feature\"><em>Respuesta—Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=02KFzL9fElzyHOIT]], la criatura desencadenante.</p><p class=\"feature\"><em>Fallo:</em> El ataque falla en su lugar.</p>"
         },
         "UgFTOqnaFc3x9BNa": {
           "name": "Ilusión menor",
@@ -16219,26 +16351,38 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas un sonido o una imagen de un objeto dentro del alcance que dura hasta que termina la duración. Consulta las descripciones siguientes para los efectos de cada opción. La ilusión termina si lanzas este conjuro de nuevo.</p><p>Si una criatura realiza una acción de Estudiar para examinar el sonido o la imagen, puede determinar que es una ilusión con una prueba de [[/check ability=int skill=inv dc=@attributes.spell.dc]] con éxito contra tu CD de salvación de conjuros. Si una criatura discierne la ilusión tal como es, la ilusión se vuelve tenue para ella.</p><p><strong>Sonido.</strong> Si creas un sonido, su volumen puede ir desde un susurro hasta un grito. Puede ser tu voz, la voz de otra persona, el rugido de un león, el redoble de tambores o cualquier otro sonido que elijas. El sonido continúa sin interrupción durante la duración, o puedes hacer sonidos discretos en diferentes momentos antes de que el conjuro termine.</p><p><strong>Imagen.</strong> Si creas la imagen de un objeto —como una silla, huellas embarradas o un cofre pequeño—, no debe ser mayor que un Cubo de 5 pies. La imagen no puede crear sonido, luz, olor ni ningún otro efecto sensorial. La interacción física con la imagen revela que es una ilusión, ya que las cosas pueden atravesarla.</p>"
         },
         "D1EPwH1jDjMiesWX": {
-          "name": "Sordera/ceguera",
+          "name": "Ceguera/sordera",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "MIYqFloILx3luzwc": {
+              "name": "Ceguera",
+              "description": "<p>Al final de cada uno de sus turnos, el objetivo repite la salvación de [[/save ability=con]], terminando el conjuro sobre sí mismo si tiene éxito.</p>"
+            },
+            "XY351duUwtwqIGHC": {
+              "name": "Sordera",
+              "description": "<p>Al final de cada uno de sus turnos, el objetivo repite la salvación de [[/save ability=con]], terminando el conjuro sobre sí mismo si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<p>Una criatura que puedas ver dentro del alcance debe superar una tirada de salvación de Constitución; de lo contrario, tiene la condición &amp;Reference[Blinded apply=false]{Cegado} o &amp;Reference[Deafened apply=false]{Ensordecido} (a tu elección) mientras dure el conjuro. Al final de cada uno de sus turnos, el objetivo repite la salvación, terminando el conjuro sobre sí mismo si tiene éxito.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo a una criatura adicional por cada nivel de espacio de conjuro por encima de 2.</p>"
         },
         "aSWX8O4Uniiymoaj": {
           "name": "Fuego feérico",
           "effects": {
             "Y2i0OvwOixxag0ed": {
-              "name": "Contorneado"
+              "name": "Perfilado",
+              "description": "<p>Mientras dura el conjuro, los objetos y criaturas afectados emiten &amp;Reference[dimlight]{luz tenue} en un radio de 10 pies y no pueden beneficiarse de la condición Invisible.</p><p>Las tiradas de ataque contra una criatura u objeto afectados tienen Ventaja si el atacante puede verlos.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Los objetos en un Cubo de 20 pies dentro del alcance quedan perfilados con luz azul, verde o violeta (a tu elección). Cada criatura en el Cubo también queda perfilada si falla una tirada de salvación de Destreza. Mientras dura el conjuro, los objetos y criaturas afectados emiten &amp;Reference[dimlight]{luz tenue} en un radio de 10 pies y no pueden beneficiarse de la condición Invisible.</p><p>Las tiradas de ataque contra una criatura u objeto afectados tienen Ventaja si el atacante puede verlos.</p>"
         },
         "OFygzPkhkDsiwMvb": {
           "name": "Grasa",
@@ -16246,7 +16390,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Grasa no inflamable cubre el suelo en un cuadrado de 10 pies centrado en un punto dentro del alcance y lo convierte en &amp;Reference[difficultterrain]{terreno difícil} mientras dura el conjuro.</p><p>Cuando aparece la grasa, cada criatura que esté de pie en su área debe superar una tirada de salvación de Destreza o tener la condición &amp;Reference[prone]{Derribado}. Una criatura que entre en el área o termine su turno allí también debe superar esa salvación o caer Derribada.</p>"
         }
       }
     },
@@ -16257,7 +16402,13 @@
       },
       "items": {
         "HO8Jp6OfS7g4Yp6a": {
-          "name": "Daga"
+          "name": "Daga",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "3SJSAL3pv9gKkAM9": {
+              "name": ""
+            }
+          }
         },
         "mmNimbleEscape00": {
           "name": "Huida ágil",
@@ -16268,9 +16419,10 @@
           },
           "effects": {
             "7U7Pe61lsMZgN7qh": {
-              "name": "Aplicar acción de esconderse al objetivo"
+              "name": "Aplicar acción de Esconderse al objetivo"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Disengage]{Retirarse} o &amp;Reference[Hide]{Esconderse}.</p>"
         }
       }
     },
@@ -16285,22 +16437,31 @@
           "activities": {
             "U2GucmlwJ3rhKAz6": {
               "name": "Ataque con ventaja"
+            },
+            "YOx3cikY6oPu6Ojh": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más [[/damage 1d4 slashing average]] de daño si la tirada de ataque tenía Ventaja.</p>"
         },
         "wKUi0YkXW5KapyxP": {
           "name": "Arco corto",
           "activities": {
             "emYvANeuJFZF7Zh7": {
               "name": "Ataque con ventaja"
+            },
+            "XTpNEcni4iwfmaeA": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más [[/damage 1d4 piercing average]] de daño si la tirada de ataque tenía Ventaja.</p>"
         },
         "mW9S8ntOw3ORgPwd": {
           "name": "Armadura de cuero"
         },
         "4VduzMc1QjJxGesu": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Obtienes el beneficio a la Clase de Armadura de un Escudo solo si tienes entrenamiento con él.</p>"
         },
         "mmNimbleEscape00": {
           "name": "Huida ágil",
@@ -16311,9 +16472,10 @@
           },
           "effects": {
             "7U7Pe61lsMZgN7qh": {
-              "name": "Aplicar acción de esconderse al objetivo"
+              "name": "Aplicar acción de Esconderse al objetivo"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza la acción &amp;Reference[Disengage]{Retirarse} o &amp;Reference[Hide]{Esconderse}.</p>"
         }
       }
     },
