@@ -33915,6 +33915,7 @@
       "items": {
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]]. Puede reemplazar dos ataques por un uso de [[/item .mmSleepBreath000]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -33922,13 +33923,21 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmFireBreath0000": {
-          "name": "Aliento de fuego"
+          "name": "Aliento de fuego",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en una línea de [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]] pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "bDqgmtLG3zcVuqdi": {
+              "name": ""
+            }
+          }
         },
         "mmSleepBreath000": {
           "name": "Aliento somnífero",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], cada [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] en un cono de [[lookup @target.template.size activity=6ce9oevQRWomSVSF]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minuto. Este efecto termina para el objetivo si recibe daño o si una criatura a 5 pies o menos de él realiza una acción para despertarlo.</p>",
           "activities": {
             "6ce9oevQRWomSVSF": {
               "name": "1.ª salvación"
@@ -33939,10 +33948,12 @@
           },
           "effects": {
             "9t5G87DeDyAF22dr": {
-              "name": "Incapacitado"
+              "name": "Incapacitado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la salvación.</p>"
             },
             "eiPsvHBjVi4pRHqJ": {
-              "name": "Inconsciente"
+              "name": "Inconsciente",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante la duración; consulta el objeto de origen para la duración exacta.</p>"
             }
           }
         }
@@ -33955,10 +33966,12 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de [[/item .mmRepulsionBreat]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -33966,13 +33979,21 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmLightningBreat": {
-          "name": "Aliento relampagueante"
+          "name": "Aliento relampagueante",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en una [[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]] de [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]] pies de largo y [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "LpjgVwftzGNMgTUJ": {
+              "name": ""
+            }
+          }
         },
         "mmRepulsionBreat": {
           "name": "Aliento repulsor",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]], cada [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] en un cono de [[lookup @target.template.size activity=zuf9EEVj4nI1joaH]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo es empujado hasta 40 pies en línea recta alejándose del [[lookup @name lowercase]] y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
           "activities": {
             "zuf9EEVj4nI1joaH": {
               "name": "Salvación"
@@ -33980,7 +34001,8 @@
           },
           "effects": {
             "HG9R2hTEqJ0G5urK": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
           }
         }
@@ -33994,6 +34016,7 @@
       "items": {
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de [[/item .mmSlowingBreath0]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34001,16 +34024,30 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmAcidBreath0000": {
-          "name": "Aliento ácido"
+          "name": "Aliento ácido",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], cada [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en una línea de [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]] pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>",
+          "activities": {
+            "qNI6W02jCUQbPpYE": {
+              "name": ""
+            }
+          }
         },
         "mmSlowingBreath0": {
           "name": "Aliento ralentizador",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=teMMQNDDIE9XkPN3]], cada criatura en un cono de [[lookup @target.template.size activity=teMMQNDDIE9XkPN3]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo no puede realizar reacciones; su Velocidad se reduce a la mitad; y en su turno puede realizar una acción o una acción adicional, pero no ambas. Este efecto dura hasta el final de su siguiente turno.</p>",
+          "activities": {
+            "teMMQNDDIE9XkPN3": {
+              "name": ""
+            }
+          },
           "effects": {
             "ztGUDHGfoUxlUY53": {
-              "name": "Mitad de velocidad | Restricciones de acción"
+              "name": "1/2 velocidad | restricciones de acciones",
+              "description": "<p>El objetivo no puede realizar reacciones; su Velocidad se reduce a la mitad; y en su turno puede realizar una acción o una acción adicional, pero no ambas. Este efecto dura hasta el final de su siguiente turno.</p>"
             }
           }
         }
@@ -34024,6 +34061,7 @@
       "items": {
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de [[/item .mmWeakeningBreat]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34031,16 +34069,30 @@
           }
         },
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmFireBreath0000": {
-          "name": "Aliento de fuego"
+          "name": "Aliento de fuego",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un cono de [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "bDqgmtLG3zcVuqdi": {
+              "name": ""
+            }
+          }
         },
         "mmWeakeningBreat": {
           "name": "Aliento debilitador",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=EGZ4bS4HpJkfNG9s]], cada criatura que no esté actualmente afectada por este aliento en un cono de [[lookup @target.template.size activity=EGZ4bS4HpJkfNG9s]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene Desventaja en las pruebas de D20 basadas en Fuerza y resta 3 ([[/r 1d6]]) a sus tiradas de daño. Repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después de [[lookup @duration.value activity=EGZ4bS4HpJkfNG9s]] minuto, tiene éxito automáticamente.</p>",
           "activities": {
             "EGZ4bS4HpJkfNG9s": {
               "name": "Salvación"
@@ -34048,7 +34100,8 @@
           },
           "effects": {
             "wpkp78XzdLs9q2C3": {
-              "name": "Debilitado"
+              "name": "Debilitado",
+              "description": "<p>El objetivo tiene Desventaja en las pruebas de D20 basadas en Fuerza y resta 2 (1d4) a sus tiradas de daño. Repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después de 1 minuto, tiene éxito automáticamente.</p>"
             }
           }
         }
@@ -34061,10 +34114,12 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34072,10 +34127,17 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmPoisonBreath00": {
           "name": "Aliento venenoso",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un [[lookup @target.template.type activity=lnabW9bM51HoluPp]] de [[lookup @target.template.size activity=lnabW9bM51HoluPp]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> mitad de daño.</p>",
           "activities": {
             "lnabW9bM51HoluPp": {
               "name": "Salvación"
@@ -34092,6 +34154,7 @@
       "items": {
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34099,10 +34162,22 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmFireBreath0000": {
-          "name": "Aliento de fuego"
+          "name": "Aliento de fuego",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un cono de [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "bDqgmtLG3zcVuqdi": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -34112,8 +34187,23 @@
         "alignment": "Sin alineamiento"
       },
       "items": {
+        "mmHeatAura000000": {
+          "name": "Aura de calor",
+          "description": "<p class=\"feature\">Al final de cada uno de los turnos del [[lookup @name lowercase]], cada [[lookup @target.affects.type activity=LDcQJj3oXyPCuCaT]] en una Emanación de [[lookup @target.template.size activity=LDcQJj3oXyPCuCaT]] pies originada en el [[lookup @name lowercase]] recibe [[/damage average]] de daño.</p>",
+          "activities": {
+            "LDcQJj3oXyPCuCaT": {
+              "name": ""
+            }
+          }
+        },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -34125,6 +34215,7 @@
       "items": {
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de [[/item .mmParalyzingBrea]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34132,13 +34223,21 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmColdBreath0000": {
-          "name": "Aliento frío"
+          "name": "Aliento frío",
+          "description": "<p><em>Tirada de salvación de Constitución: </em>CD [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], cada [[lookup @target.affects.type activity=8P7hmd3Nron4RAIv]] en un cono de [[lookup @target.template.size activity=8P7hmd3Nron4RAIv]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "8P7hmd3Nron4RAIv": {
+              "name": ""
+            }
+          }
         },
         "mmParalyzingBrea": {
           "name": "Aliento paralizante",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=r4MGqEq5U9aaseBh]], cada [[lookup @target.affects.type activity=r4MGqEq5U9aaseBh]] en un cono de [[lookup @target.template.size activity=r4MGqEq5U9aaseBh]] pies.</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, cuando repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado}, y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después de 1 minuto, tiene éxito automáticamente.</p>",
           "activities": {
             "r4MGqEq5U9aaseBh": {
               "name": "Salvación"
@@ -34146,10 +34245,12 @@
           },
           "effects": {
             "MML0hjuixzKZ61FT": {
-              "name": "Incapacitado"
+              "name": "Incapacitado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, cuando repite la salvación.</p>"
             },
             "qHhQi1VSyVic0Z22": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado}, y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después de 1 minuto, tiene éxito automáticamente.</p>"
             }
           }
         }
@@ -34162,10 +34263,12 @@
       },
       "items": {
         "mmIceWalk0000000": {
-          "name": "Caminar sobre hielo"
+          "name": "Caminar sobre hielo",
+          "description": "<p>El [[lookup @name lowercase]] puede moverse por superficies heladas y trepar por ellas sin necesidad de hacer una prueba de característica. Además, el &amp;Reference[Difficult Terrain]{Terreno difícil} compuesto de hielo o nieve no le cuesta movimiento adicional.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
@@ -34173,10 +34276,22 @@
           }
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmColdBreath0000": {
-          "name": "Aliento frío"
+          "name": "Aliento frío",
+          "description": "<p><em>Tirada de salvación de Constitución: </em>CD [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], cada [[lookup @target.affects.type activity=8P7hmd3Nron4RAIv]] en un cono de [[lookup @target.template.size activity=8P7hmd3Nron4RAIv]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> mitad de daño.</p>",
+          "activities": {
+            "8P7hmd3Nron4RAIv": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -34187,10 +34302,12 @@
       },
       "items": {
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmBite0000000000]], y puede usar Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.a3zjo8tpvS7C536i]]</em> si está disponible.</p>",
           "activities": {
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
@@ -34198,34 +34315,62 @@
           }
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         },
         "mmConstrict00000": {
           "name": "Constreñir",
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño. El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]), y tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que termine el agarre.</p><p><em>Éxito</em>: solo la mitad de daño.</p>",
           "activities": {
+            "IgOMjRxAt7UISkJq": {
+              "name": ""
+            },
             "WlPyop72n5FEVubV": {
               "name": "Prueba para escapar"
             }
           },
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
           }
         },
         "mmPoisonSpray000": {
           "name": "Rociada venenosa",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Ab1fnEh4JGShDFte]], cada [[lookup @target.affects.type activity=Ab1fnEh4JGShDFte]] en un [[lookup @target.template.type activity=Ab1fnEh4JGShDFte]] de [[lookup @target.template.size activity=Ab1fnEh4JGShDFte]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final del siguiente turno del [[lookup @name lowercase]]. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Blinded apply=false]{Cegado}.</p><p class=\"feature\"><em>Éxito:</em> solo la mitad de daño.</p>",
           "activities": {
             "Ab1fnEh4JGShDFte": {
               "name": "Salvación"
             }
+          },
+          "effects": {
+            "u9p2bYnqwJzH5h6D": {
+              "name": "Envenenado y cegado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final del siguiente turno de la criatura atacante. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Blinded apply=false]{Cegado}.</p>"
+            }
           }
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros (solo forma yuan-ti)"
+          "name": "Lanzamiento de conjuros (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Amistad animal}</em> (solo serpientes)</p><p class=\"feature-trait\"><strong>3/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugestión}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "a3zjo8tpvS7C536i": {
+              "name": ""
+            }
+          }
         },
         "mmShapeshift0000": {
           "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una serpiente Grande o vuelve a su forma verdadera. Las estadísticas de juego del [[lookup @name lowercase]] son las mismas en cada forma, salvo donde se indique. Cualquier equipo que lleve puesto o transporte no se transforma.</p>",
           "activities": {
             "EU2q25V5hIaM1ZlR": {
               "name": "Gastar uso"
@@ -34233,10 +34378,12 @@
           }
         },
         "D03jBqxMOEXwgkAo": {
-          "name": "Encantar animal",
+          "name": "Amistad animal",
+          "description": "<p>Elige como objetivo una Bestia que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una Bestia adicional por cada nivel de espacio de conjuro por encima de 1.</p>",
           "effects": {
             "55NWwccKvMKQPL4h": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</span></p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
@@ -34245,9 +34392,11 @@
         },
         "L4Q37PtK9qNGe3dB": {
           "name": "Sugestión",
+          "description": "<p>Sugieres una actividad, descrita en no más de 25 palabras, a una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. La sugestión debe sonar factible y no implicar nada que obviamente infligiría daño al objetivo o a sus aliados. Por ejemplo, podrías decir: «Trae la llave de la cámara del tesoro del culto y dámela». O podrías decir: «Deja de luchar, sal pacíficamente de esta biblioteca y no vuelvas».</p><p>El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración o hasta que tú o tus aliados le inflijáis daño. El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>",
           "effects": {
             "aXT1HK2a1XbyabMK": {
-              "name": "Sugestión persistente"
+              "name": "Siguiendo la sugestión",
+              "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
