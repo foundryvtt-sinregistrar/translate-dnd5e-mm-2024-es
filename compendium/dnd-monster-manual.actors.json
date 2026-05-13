@@ -29863,15 +29863,30 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmStoneClub00000]] o [[/item .mmBoulder0000000]] en cualquier combinación.</p>"
         },
         "mmStoneClub00000": {
-          "name": "Garrote de piedra"
+          "name": "Garrote de piedra",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "kl4hjoHrHh7nArDI": {
+              "name": ""
+            }
+          }
         },
         "mmBoulder0000000": {
           "effects": {
             "wKWWzb7MJy7OauVf": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone]{Derribado}.</p>"
+            }
+          },
+          "name": "Peñasco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
+          "activities": {
+            "7ut7fKOPklypkFWa": {
+              "name": ""
             }
           }
         },
@@ -29879,8 +29894,16 @@
           "activities": {
             "x0MjUmnv2OPAbm6y": {
               "name": "Salvación"
+            },
+            "9T8cNbSBVACrrmRI": {
+              "name": "Reducir daño",
+              "activation": {
+                "condition": "impactado por una tirada de ataque a distancia y recibe daño Contundente, Perforante o Cortante de ella"
+              }
             }
-          }
+          },
+          "name": "Desviar proyectil",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> El [[lookup @name lowercase]] es [[lookup @activation.condition activity=9T8cNbSBVACrrmRI]].</p><p class=\"feature\"><em>Respuesta:</em> El [[lookup @name lowercase]] reduce el daño que recibe del ataque en [[/healing average]], y si ese daño se reduce a 0, el [[lookup @name lowercase]] puede redirigir parte de la fuerza del ataque.</p><p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=x0MjUmnv2OPAbm6y]], un [[lookup @target.affects.type activity=x0MjUmnv2OPAbm6y]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=x0MjUmnv2OPAbm6y]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p>"
         }
       }
     },
@@ -29891,10 +29914,12 @@
       },
       "items": {
         "mmImmutableForm0": {
-          "name": "Forma inmutable"
+          "name": "Forma inmutable",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] no puede cambiar de forma.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -29902,19 +29927,46 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item Slam]] o [[/item Force Bolt]] en cualquier combinación.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
         },
         "mmSlow0000000000": {
-          "name": "Ralentizar"
+          "name": "Ralentizar",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza el conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Ralentizar}</em>, sin requerir componentes de conjuro y usando Constitución como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]).</p>",
+          "activities": {
+            "NJu26YkznURRXRCV": {
+              "name": ""
+            }
+          }
         },
         "rHwlDG85kUcrUFdg": {
           "name": "Ralentizar",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "z1lkguBohjqXRSHm": {
+              "name": "Ralentizado",
+              "description": "<p>La Velocidad de un objetivo afectado se reduce a la mitad, recibe un penalizador de −2 a la CA y a las tiradas de salvación de Destreza, y no puede realizar Reacciones. En sus turnos, puede realizar una acción o una acción adicional, no ambas, y solo puede hacer un ataque si lleva a cabo la acción Atacar. Si lanza un conjuro con componente somático, hay una probabilidad de [[/r 1d100cs&gt;25#Éxito de lanzamiento ralentizado]]{25 por ciento} de que el conjuro falle debido a que el objetivo realiza los gestos del conjuro demasiado despacio.</p><p>Un objetivo afectado repite la salvación [[/save ability=wis]] al final de cada uno de sus turnos, terminando el conjuro sobre sí mismo si tiene éxito.</p>"
+            }
+          },
+          "description": "<p>Alteras el tiempo alrededor de hasta seis criaturas de tu elección en un Cubo de 40 pies dentro del alcance. Cada objetivo debe superar una tirada de salvación de Sabiduría o quedar afectado por este conjuro durante la duración.</p><p>La Velocidad de un objetivo afectado se reduce a la mitad, recibe un penalizador de −2 a la CA y a las tiradas de salvación de Destreza, y no puede realizar Reacciones. En sus turnos, puede realizar una acción o una acción adicional, no ambas, y solo puede hacer un ataque si lleva a cabo la acción Atacar. Si lanza un conjuro con componente somático, hay una probabilidad de [[/r 1d100cs&lt;=25#Éxito de lanzamiento ralentizado]]{25 por ciento} de que el conjuro falle debido a que el objetivo realiza los gestos del conjuro demasiado despacio.</p><p>Un objetivo afectado repite la salvación al final de cada uno de sus turnos, terminando el conjuro sobre sí mismo si tiene éxito.</p><section id=\"secret-2RobIVhv3tn7gmU7\" class=\"secret\"><p><strong>Nota de Foundry</strong></p><p>La tirada integrada anterior devolverá 1 si tiene éxito o 0 si falla.</p></section>"
+        },
+        "mmForceBolt00000": {
+          "name": "Descarga de fuerza",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "S5O0aUU1pU4syS7J": {
+              "name": ""
             }
           }
         }
@@ -29927,7 +29979,8 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -29935,17 +29988,32 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmStormSword0000]] o [[/item .mmThunderbolt000]] en cualquier combinación.</p>"
         },
         "mmLightningStorm": {
           "activities": {
             "YVri6iuieFUUiO1d": {
               "name": "Salvación"
             }
-          }
+          },
+          "name": "Tormenta de relámpagos",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=YVri6iuieFUUiO1d]], cada criatura en un Cilindro de [[lookup @target.template.size activity=YVri6iuieFUUiO1d]] pies de radio y [[lookup @target.template.height activity=YVri6iuieFUUiO1d]] pies de altura, originado en un punto que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=YVri6iuieFUUiO1d]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> mitad de daño.</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]{Luz}</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{Controlar el clima}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "8OxWWy4xx5jb9MMq": {
+              "name": ""
+            },
+            "ru627ohqJBU8D3QG": {
+              "name": ""
+            }
+          }
         },
         "a7WqdxaUOqFULucH": {
           "name": "Detectar magia",
@@ -29961,7 +30029,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Mientras dura el conjuro, percibes la presencia de efectos mágicos a 30 pies o menos de ti. Si percibes tales efectos, puedes llevar a cabo la acción Magia para ver un aura tenue alrededor de cualquier criatura u objeto visible de la zona que porte la magia; si un efecto fue creado por un conjuro, conoces la escuela mágica de ese conjuro.</p><p>El conjuro queda bloqueado por 1 pie de piedra, tierra o madera; 1 pulgada de metal; o una lámina fina de plomo.</p>"
         },
         "FuybodXmPwcWpHYX": {
           "name": "Luz",
@@ -29974,7 +30043,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas un objeto Grande o más pequeño que nadie lleve puesto ni transporte. Hasta que el conjuro termina, el objeto emite luz brillante en un radio de 20 pies y luz tenue 20 pies adicionales. La luz puede tener el color que quieras.</p><p>Cubrir el objeto con algo opaco bloquea la luz. El conjuro termina si lo lanzas de nuevo.</p>"
         },
         "P1YPgugYe3pgj9DW": {
           "name": "Controlar el clima",
@@ -29989,6 +30059,31 @@
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Tomas el control del clima en un radio de 5 millas durante la duración. Debes estar al aire libre para lanzar este conjuro, y termina antes si entras en un interior.</p><p>Cuando lanzas el conjuro, cambias las condiciones climáticas actuales, que determina el DM. Puedes cambiar la precipitación, la temperatura y el viento. Las nuevas condiciones tardan 1d4 × 10 minutos en surtir efecto. Cuando lo hacen, puedes volver a cambiar las condiciones. Cuando el conjuro termina, el clima vuelve gradualmente a la normalidad.</p><p>Cuando cambies las condiciones climáticas, busca una condición actual en las tablas siguientes y cambia su etapa en uno, hacia arriba o hacia abajo. Al cambiar el viento, puedes cambiar su dirección.</p><details><summary><strong>Precipitación</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Despejado</td></tr><tr><td>2</td><td>Nubes ligeras</td></tr><tr><td>3</td><td>Cubierto o niebla a ras de suelo</td></tr><tr><td>4</td><td>Lluvia, granizo o nieve</td></tr><tr><td>5</td><td>Lluvia torrencial, granizada intensa o ventisca</td></tr></tbody></table></details><details><summary><strong>Temperatura</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Ola de calor</td></tr><tr><td>2</td><td>Caluroso</td></tr><tr><td>3</td><td>Templado</td></tr><tr><td>4</td><td>Fresco</td></tr><tr><td>5</td><td>Frío</td></tr><tr><td>6</td><td>Helado</td></tr></tbody></table></details><details><summary><strong>Viento</strong></summary><table><thead><tr><td>Etapa</td><td>Condición</td></tr></thead><tbody><tr><td>1</td><td>Calma</td></tr><tr><td>2</td><td>Viento moderado</td></tr><tr><td>3</td><td>Viento fuerte</td></tr><tr><td>4</td><td>Vendaval</td></tr><tr><td>5</td><td>Tormenta</td></tr></tbody></table></details>"
+        },
+        "mmStormSword0000": {
+          "name": "Espada de tormenta",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "WQ4iyI5JLgewSPuk": {
+              "name": ""
+            }
+          }
+        },
+        "mmThunderbolt000": {
+          "name": "Rayo atronador",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Deafened apply=false]{Ensordecido} hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "8jqOskiu8rme8GbX": {
+              "name": ""
+            }
+          },
+          "effects": {
+            "R2yhnEJ7lKT4VSvK": {
+              "name": "Cegado y ensordecido",
+              "description": "<p>El objetivo tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Deafened apply=false]{Ensordecido} hasta el inicio del siguiente turno de la criatura atacante.</p>"
             }
           }
         }
@@ -30005,7 +30100,9 @@
             "Owl7RGIwLt3N0Vaj": {
               "name": "Íncubo"
             }
-          }
+          },
+          "name": "Forma de íncubo",
+          "description": "<p class=\"feature\">Cuando el [[lookup @name lowercase]] termina un descanso largo, puede cambiar de forma a un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmIncubus0000000]{Íncubo}</strong>, usando ese bloque de estadísticas en lugar de este.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -30013,14 +30110,20 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item .mmFiendishTouch0]] y usa [[/item .mmCharm000000000]] o [[/item .mmDrainingKiss00]].</p>"
         },
         "mmDrainingKiss00": {
           "activities": {
             "kFyuof0SS3nohP0f": {
-              "name": "Salvación"
+              "name": "Salvación",
+              "description": {
+                "chatFlavor": "Fallo o éxito: el máximo de PG del objetivo disminuye en una cantidad igual al daño recibido."
+              }
             }
-          }
+          },
+          "name": "Beso drenador",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=kFyuof0SS3nohP0f]], un [[lookup @target.affects.type activity=kFyuof0SS3nohP0f]] Hechizado por el [[lookup @name lowercase]] a [[lookup @range.value activity=kFyuof0SS3nohP0f]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> mitad de daño.</p><p class=\"feature\"><em>Fallo o éxito:</em> El máximo de puntos de golpe del objetivo disminuye en una cantidad igual al daño recibido.</p>"
         },
         "mmShapeshift0000": {
           "name": "Cambiar de forma",
@@ -30028,16 +30131,37 @@
             "EU2q25V5hIaM1ZlR": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a un Humanoide Mediano o Pequeño, o vuelve a su forma verdadera. Sus estadísticas de juego son las mismas en cada forma, salvo que su Velocidad de vuelo solo está disponible en su forma verdadera. Cualquier equipo que vista o transporte no se transforma.</p>"
         },
         "ngMn9mjUa63VWbHY": {
           "name": "Dominar persona",
           "effects": {
             "Edq07kTLIVkuDjtn": {
-              "name": "Dominado"
+              "name": "Dominado",
+              "description": "<p>Siempre que el objetivo &amp;Reference[charmed apply=false] reciba daño, repite la tirada de salvación [[/save ability=wis]], terminando el conjuro sobre sí mismo con un éxito.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Un Humanoide que puedas ver dentro del alcance debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo tiene ventaja en la salvación si tú o tus aliados estáis luchando contra él. Siempre que el objetivo reciba daño, repite la salvación, terminando el conjuro sobre sí mismo con un éxito.</p><p>Tienes un vínculo telepático con el objetivo Hechizado mientras ambos estéis en el mismo plano de existencia. En tu turno, puedes usar este vínculo para dar órdenes al objetivo (no requiere acción), como «Ataca a esa criatura», «Muévete hasta allí» o «Trae ese objeto». El objetivo hace todo lo posible por obedecer en su turno. Si completa una orden y no recibe más instrucciones de ti, actúa y se mueve como prefiera, concentrándose en protegerse.</p><p>Puedes ordenar al objetivo que realice una Reacción, pero debes gastar tu propia Reacción para hacerlo.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Tu Concentración puede durar más con un espacio de conjuro de nivel 6 (hasta 10 minutos), 7 (hasta 1 hora) u 8+ (hasta 8 horas).</p>"
+        },
+        "mmFiendishTouch0": {
+          "name": "Toque infernal",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "x3tWUbetPLpqYAen": {
+              "name": ""
+            }
+          }
+        },
+        "mmCharm000000000": {
+          "name": "Hechizar",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominar persona}</em> (versión de nivel 8), sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]).</p>",
+          "activities": {
+            "o1l4tzAnLGufXAfu": {
+              "name": ""
             }
           }
         }
@@ -30050,15 +30174,23 @@
       },
       "items": {
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para un murciélago Diminuto. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmBites000000000": {
           "name": "Mordiscos",
           "activities": {
             "3Yo83eZUNwX51AcE": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
+            },
+            "nrOPHKjj59hG1On3": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=3Yo83eZUNwX51AcE]] si [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>"
         }
       }
     },
@@ -30069,19 +30201,29 @@
       },
       "items": {
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para una criatura Diminuta. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmSwarmOfGraspin": {
           "activities": {
             "hzeHzcSKHC4AvIJQ": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
+            },
+            "rO8NirkWF6w9GXTc": {
+              "name": ""
             }
           },
           "effects": {
             "WJe5ci1Tiu0hQCb8": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
-          }
+          },
+          "name": "Enjambre de manos apresadoras",
+          "description": "<p class=\"feature\">[[/attack extended activity=rO8NirkWF6w9GXTc]]. [[/damage average extended activity=rO8NirkWF6w9GXTc]], o [[/damage average activity=hzeHzcSKHC4AvIJQ]] de daño si [[lookup @activation.condition activity=hzeHzcSKHC4AvIJQ]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         }
       }
     },
@@ -30094,20 +30236,36 @@
         "mmFetidAura00000": {
           "effects": {
             "osCPSzW0IxYlG7t0": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p><p>Mientras está Envenenado, el objetivo puede realizar una acción o una acción adicional en su turno, no ambas, y no puede realizar Reacciones.</p>"
+            }
+          },
+          "name": "Aura fétida",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=viDmXaiaC23yBh98]], cualquier criatura que comience su turno en una Emanación de [[lookup @target.template.size activity=viDmXaiaC23yBh98]] pies originada en el enjambre.</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno. Mientras está Envenenado, el objetivo puede realizar una acción o una acción adicional en su turno, no ambas, y no puede realizar Reacciones.</p>",
+          "activities": {
+            "viDmXaiaC23yBh98": {
+              "name": ""
             }
           }
         },
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para una criatura Pequeña. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
           "activities": {
             "TRT4xEXKS5u8IGao": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
+            },
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=TRT4xEXKS5u8IGao]] de daño si [[lookup @activation.condition activity=TRT4xEXKS5u8IGao]].</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -30115,7 +30273,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmRend0000000000]].</p>"
         }
       }
     },
@@ -30126,18 +30285,27 @@
       },
       "items": {
         "mmSpiderClimb000": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluso por techos, sin necesidad de hacer una prueba de característica.</p>"
         },
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para un insecto Diminuto. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmBites000000000": {
           "name": "Mordiscos",
           "activities": {
             "3Yo83eZUNwX51AcE": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
+            },
+            "nrOPHKjj59hG1On3": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=3Yo83eZUNwX51AcE]] si [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>"
         }
       }
     },
@@ -30148,15 +30316,20 @@
       },
       "items": {
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para una criatura Mediana. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmBites000000000": {
           "name": "Mordiscos",
           "activities": {
             "3Yo83eZUNwX51AcE": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=3Yo83eZUNwX51AcE]] si [[lookup @activation.condition activity=3Yo83eZUNwX51AcE]]</p>"
         }
       }
     },
@@ -30167,7 +30340,8 @@
       },
       "items": {
         "mmSwarm000000000": {
-          "name": "Enjambre"
+          "name": "Enjambre",
+          "description": "<p>El enjambre puede ocupar el espacio de otra criatura y viceversa, y puede moverse a través de cualquier abertura lo bastante grande para una criatura Mediana. El enjambre no puede recuperar puntos de golpe ni ganar puntos de golpe temporales.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -30175,12 +30349,27 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmVileSlime00000]].</p>"
         },
         "mmVileSlime00000": {
           "activities": {
             "20pphWmNDQZRzF69": {
-              "name": "Ataque ensangrentado"
+              "name": "Ataque maltrecho",
+              "activation": {
+                "condition": "el enjambre está &Reference[Bloodied]{Maltrecho}"
+              }
+            }
+          },
+          "name": "Baba vil",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=20pphWmNDQZRzF69]] si [[lookup @activation.condition activity=20pphWmNDQZRzF69]]</p>"
+        },
+        "mmHellishRestora": {
+          "name": "Restauración infernal",
+          "description": "<p class=\"feature\">Si el [[lookup @name lowercase]] muere en los Nueve Infiernos, revive con todos sus puntos de golpe en [[/r 1d10]] días, a menos que lo mate una criatura bajo los efectos de un conjuro de <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBless00000]{Bendición}</em> o que sus restos sean rociados con agua bendita.</p>",
+          "activities": {
+            "aIkY2fb7N8SFgV2z": {
+              "name": "Revivir: días"
             }
           }
         }
