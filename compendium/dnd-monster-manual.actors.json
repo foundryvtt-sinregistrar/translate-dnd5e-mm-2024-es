@@ -34412,10 +34412,17 @@
       },
       "items": {
         "BinQSA0r0niYeCKn": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "YOx3cikY6oPu6Ojh": {
+              "name": ""
+            }
+          }
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -34423,30 +34430,53 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .BinQSA0r0niYeCKn]].</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Amistad animal}</em> (solo serpientes)</p><p class=\"feature-trait\"><strong>2/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugestión}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "rUjG6dYVYym6E2s2": {
+              "name": ""
+            }
+          }
         },
         "1spMbJrirMzS8i7R": {
-          "name": "Encantar animal",
+          "name": "Amistad animal",
           "effects": {
             "55NWwccKvMKQPL4h": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</span></p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige como objetivo una Bestia que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una Bestia adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "EattuIPCqTPMNoPy": {
           "name": "Sugestión",
           "effects": {
             "aXT1HK2a1XbyabMK": {
-              "name": "Sugestión persistente"
+              "name": "Siguiendo la sugestión",
+              "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Sugieres una actividad, descrita en no más de 25 palabras, a una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. La sugestión debe sonar factible y no implicar nada que obviamente infligiría daño al objetivo o a sus aliados. Por ejemplo, podrías decir: «Trae la llave de la cámara del tesoro del culto y dámela». O podrías decir: «Deja de luchar, sal pacíficamente de esta biblioteca y no vuelvas».</p><p>El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración o hasta que tú o tus aliados le inflijáis daño. El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
+        },
+        "mmPoisonRay00000": {
+          "name": "Rayo venenoso",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "uv0fdmzTYDH7Uvg3": {
+              "name": ""
             }
           }
         }
@@ -34459,7 +34489,8 @@
       },
       "items": {
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -34467,13 +34498,29 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmBite0000000000]] o [[/item .mmPoisonRay00000]]{Rayo venenoso} en cualquier combinación, y puede usar Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.AKHk1UYi7K8g8ct4]]</em> si está disponible.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros (solo forma yuan-ti)"
+          "name": "Lanzamiento de conjuros (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Amistad animal}</em> (solo serpientes)</p><p class=\"feature-trait\"><strong>2/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugestión}</em></p>",
+          "activities": {
+            "oZxP2JfchvuKNhpF": {
+              "name": ""
+            },
+            "AKHk1UYi7K8g8ct4": {
+              "name": ""
+            }
+          }
         },
         "mmShapeshift0000": {
           "name": "Cambiar de forma",
@@ -34481,27 +34528,41 @@
             "EU2q25V5hIaM1ZlR": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] cambia de forma a una serpiente Mediana o vuelve a su forma verdadera. Si muere, permanece en su forma actual. Las estadísticas de juego del [[lookup @name lowercase]] son las mismas en cada forma, salvo donde se indique. Cualquier equipo que lleve puesto o transporte no se transforma.</p>"
         },
         "l8GMJ6k59lHUroQN": {
-          "name": "Encantar animal",
+          "name": "Amistad animal",
           "effects": {
             "55NWwccKvMKQPL4h": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</span></p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige como objetivo una Bestia que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una Bestia adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "cRM3TVqlrzguUKjP": {
           "name": "Sugestión",
           "effects": {
             "aXT1HK2a1XbyabMK": {
-              "name": "Sugestión persistente"
+              "name": "Siguiendo la sugestión",
+              "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Sugieres una actividad, descrita en no más de 25 palabras, a una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. La sugestión debe sonar factible y no implicar nada que obviamente infligiría daño al objetivo o a sus aliados. Por ejemplo, podrías decir: «Trae la llave de la cámara del tesoro del culto y dámela». O podrías decir: «Deja de luchar, sal pacíficamente de esta biblioteca y no vuelvas».</p><p>El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración o hasta que tú o tus aliados le inflijáis daño. El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
+        },
+        "mmPoisonRay00000": {
+          "name": "Rayo venenoso (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "uv0fdmzTYDH7Uvg3": {
+              "name": ""
             }
           }
         }
@@ -34514,7 +34575,8 @@
       },
       "items": {
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -34522,13 +34584,29 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmBite0000000000]], y puede usar Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.WFDOw6zglHnWrWdH]]</em> si está disponible.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros (solo forma yuan-ti)"
+          "name": "Lanzamiento de conjuros (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Amistad animal}</em> (solo serpientes)</p><p class=\"feature-trait\"><strong>2/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugestión}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "WFDOw6zglHnWrWdH": {
+              "name": ""
+            }
+          }
         },
         "mmShapeshift0000": {
           "name": "Cambiar de forma",
@@ -34536,29 +34614,34 @@
             "EU2q25V5hIaM1ZlR": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] cambia de forma a una serpiente Mediana o vuelve a su forma verdadera. Si muere, permanece en su forma actual. Las estadísticas de juego del [[lookup @name lowercase]] son las mismas en cada forma, salvo donde se indique. Cualquier equipo que lleve puesto o transporte no se transforma.</p>"
         },
         "XqCRS6FjoLhJUdCo": {
-          "name": "Encantar animal",
+          "name": "Amistad animal",
           "effects": {
             "55NWwccKvMKQPL4h": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</span></p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige como objetivo una Bestia que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una Bestia adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "NNzPSGaA4SpqdsLN": {
           "name": "Sugestión",
           "effects": {
             "aXT1HK2a1XbyabMK": {
-              "name": "Sugestión persistente"
+              "name": "Siguiendo la sugestión",
+              "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Sugieres una actividad, descrita en no más de 25 palabras, a una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. La sugestión debe sonar factible y no implicar nada que obviamente infligiría daño al objetivo o a sus aliados. Por ejemplo, podrías decir: «Trae la llave de la cámara del tesoro del culto y dámela». O podrías decir: «Deja de luchar, sal pacíficamente de esta biblioteca y no vuelvas».</p><p>El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración o hasta que tú o tus aliados le inflijáis daño. El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
         }
       }
     },
@@ -34569,7 +34652,8 @@
       },
       "items": {
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -34577,23 +34661,38 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmPoisonBurst000]]{Estallido venenoso}, y puede usar Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.U5Fbd5lSNBO7B00g]]</em> si está disponible.</p>"
         },
         "mmConstrict00000": {
           "name": "Constreñir",
           "activities": {
             "WlPyop72n5FEVubV": {
               "name": "Prueba para escapar"
+            },
+            "IgOMjRxAt7UISkJq": {
+              "name": ""
             }
           },
           "effects": {
             "Hd0Gy3wJtPfObERq": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
             }
-          }
+          },
+          "description": "<p><em>Tirada de salvación de Fuerza:</em><span class=\"Heading-4\"> </span>CD [[lookup @save.dc.value activity=IgOMjRxAt7UISkJq]], una criatura [[lookup @target.affects.special activity=IgOMjRxAt7UISkJq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=IgOMjRxAt7UISkJq]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño. El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]), y tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que termine el agarre.</p>"
         },
         "mmSpellcasting00": {
-          "name": "Lanzamiento de conjuros (solo forma yuan-ti)"
+          "name": "Lanzamiento de conjuros (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]{Amistad animal}</em> (solo serpientes)</p><p class=\"feature-trait\"><strong>2/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Sugestión}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "U5Fbd5lSNBO7B00g": {
+              "name": ""
+            }
+          }
         },
         "mmShapeshift0000": {
           "name": "Cambiar de forma",
@@ -34601,27 +34700,41 @@
             "EU2q25V5hIaM1ZlR": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] cambia de forma a una serpiente Mediana o vuelve a su forma verdadera. Si muere, permanece en su forma actual. Las estadísticas de juego del [[lookup @name lowercase]] son las mismas en cada forma, salvo donde se indique. Cualquier equipo que lleve puesto o transporte no se transforma.</p>"
         },
         "bE9t7nW7vwXeBirE": {
-          "name": "Encantar animal",
+          "name": "Amistad animal",
           "effects": {
             "55NWwccKvMKQPL4h": {
-              "name": "Hechizado"
+              "name": "Hechizado",
+              "description": "<p><span style=\"font-family:Signika, sans-serif\">El objetivo tiene la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</span></p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Elige como objetivo una Bestia que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración. Si tú o uno de tus aliados inflige daño al objetivo, el conjuro termina.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo una Bestia adicional por cada nivel de espacio de conjuro por encima de 1.</p>"
         },
         "tyinbRFXzPtoqy6v": {
           "name": "Sugestión",
           "effects": {
             "aXT1HK2a1XbyabMK": {
-              "name": "Sugestión persistente"
+              "name": "Siguiendo la sugestión",
+              "description": "<p>El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Sugieres una actividad, descrita en no más de 25 palabras, a una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. La sugestión debe sonar factible y no implicar nada que obviamente infligiría daño al objetivo o a sus aliados. Por ejemplo, podrías decir: «Trae la llave de la cámara del tesoro del culto y dámela». O podrías decir: «Deja de luchar, sal pacíficamente de esta biblioteca y no vuelvas».</p><p>El objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} durante la duración o hasta que tú o tus aliados le inflijáis daño. El objetivo Hechizado sigue la sugestión lo mejor que puede. La actividad sugerida puede continuar durante toda la duración, pero si puede completarse en menos tiempo, el conjuro termina para el objetivo cuando la complete.</p>"
+        },
+        "mmPoisonBurst000": {
+          "name": "Estallido venenoso (solo forma yuan-ti)",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "am9XxYZtSyBqs4RM": {
+              "name": ""
             }
           }
         }
@@ -34634,10 +34747,12 @@
       },
       "items": {
         "mmUndeadFortitud": {
-          "name": "Fortaleza de no muerto"
+          "name": "Fortaleza de no muerto",
+          "description": "<p class=\"feature\">Si el daño reduce al [[lookup @name lowercase]] a 0 puntos de golpe, este realiza una tirada de salvación de Constitución (CD 5 más el daño recibido), salvo que el daño sea Radiante o proceda de un impacto crítico. Si supera la salvación, el [[lookup @name lowercase]] queda a 1 punto de golpe en su lugar.</p>"
         },
         "mmSlam0000000000": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     }
