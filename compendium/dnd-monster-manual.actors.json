@@ -27616,7 +27616,13 @@
       },
       "items": {
         "mmSting000000000": {
-          "name": "Aguijón"
+          "name": "Aguijón",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "ExJB3aZAPF3shVJA": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -27627,10 +27633,22 @@
       },
       "items": {
         "jdOlqVzYs89JuqTB": {
-          "name": "Espada corta"
+          "name": "Espada corta",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "42jdrHDfDRCcYeL4": {
+              "name": ""
+            }
+          }
         },
         "qhM3PIWgXdyRCeul": {
-          "name": "Arco largo"
+          "name": "Arco largo",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "b04WToYLVtgE03Dm": {
+              "name": ""
+            }
+          }
         },
         "4jODBvKGc3yYlOW2": {
           "name": "Armadura de cuero"
@@ -27639,9 +27657,10 @@
           "name": "Ataque múltiple",
           "activities": {
             "Ms63W7e3Mv2Margn": {
-              "name": "Gastar uso"
+              "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .jdOlqVzYs89JuqTB]] y [[/item .qhM3PIWgXdyRCeul]] en cualquier combinación.</p>"
         }
       }
     },
@@ -27656,16 +27675,24 @@
           "activities": {
             "y63kr6v2nVdqP0O4": {
               "name": "Ataque con ventaja"
+            },
+            "42jdrHDfDRCcYeL4": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más 10 (3d6) de daño perforante si el ataque se realizó con ventaja.</p>"
         },
         "5hkcwWhPWB1jJtji": {
           "name": "Arco largo",
           "activities": {
             "WdhxgAl2XEOklmLy": {
               "name": "Ataque con ventaja"
+            },
+            "b04WToYLVtgE03Dm": {
+              "name": ""
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], más 10 (3d6) de daño perforante si el ataque se realizó con ventaja.</p>"
         },
         "JyPaXQ8YqaEZslPS": {
           "name": "Armadura de cuero tachonado"
@@ -27674,9 +27701,10 @@
           "name": "Ataque múltiple",
           "activities": {
             "Ms63W7e3Mv2Margn": {
-              "name": "Gastar uso"
+              "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .lPlB7NmujNipH61R]] o [[/item .5hkcwWhPWB1jJtji]] en cualquier combinación.</p>"
         },
         "mmAim00000000000": {
           "activities": {
@@ -27688,14 +27716,21 @@
             "q1pgdiSxo8QMvvxC": {
               "name": "Apuntando: ventaja en ataque"
             }
-          }
+          },
+          "name": "Apuntar",
+          "description": "<p>El [[lookup @name lowercase]] tiene ventaja en la próxima tirada de ataque que haga durante el turno actual.</p>"
         },
         "mmUncannyDodge00": {
           "activities": {
             "NzfYZzkrG4qJ13to": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "impactado por una tirada de ataque"
+              }
             }
-          }
+          },
+          "name": "Esquiva asombrosa",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> El [[lookup @name lowercase]] es [[lookup @activation.condition activity=NzfYZzkrG4qJ13to]]. <em>Respuesta:</em> El [[lookup @name lowercase]] reduce a la mitad el daño (redondeado hacia abajo) que recibe de ese ataque.</p>"
         }
       }
     },
@@ -27706,10 +27741,32 @@
       },
       "items": {
         "mmAmphibious0000": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>La [[lookup @name lowercase]] puede respirar aire y agua.</p>"
         },
         "mmCovenMagic0000": {
-          "name": "Magia del aquelarre"
+          "name": "Magia del aquelarre",
+          "description": "<p class=\"feature\">Mientras esté a 30 pies o menos de al menos dos aliadas sagas, la [[lookup @name lowercase]] puede lanzar uno de los siguientes conjuros, sin requerir componentes materiales, usando el tiempo de lanzamiento normal del conjuro y usando Inteligencia como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.int.dc]]): <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAugury0000]{Augurio}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFindFamili]{Encontrar familiar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00]{Identificar}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLocateObje]{Localizar objeto}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Escudriñar}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ]{Sirviente invisible}</em>. La [[lookup @name lowercase]] debe terminar un descanso largo antes de usar este rasgo para lanzar de nuevo ese conjuro.</p>",
+          "activities": {
+            "8ju3sHk7cBC4KmcD": {
+              "name": ""
+            },
+            "tFMa0R3ASrW58hwK": {
+              "name": ""
+            },
+            "vT617J2KBufcrx7f": {
+              "name": ""
+            },
+            "N6ny9K2f4ckcSvXq": {
+              "name": ""
+            },
+            "1LYa3YdeNryXGv4z": {
+              "name": ""
+            },
+            "IsLR26jWhhHrcdgh": {
+              "name": ""
+            }
+          }
         },
         "KBCnYF6BOwsvdFXq": {
           "name": "Augurio",
@@ -27717,7 +27774,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Recibes un presagio de una entidad sobrenatural acerca de los resultados de un curso de acción que planeas emprender en los próximos 30 minutos. El DM elige el presagio de la tabla Presagios.</p><table><thead><tr><td>Presagio</td><td>Para resultados que serán...</td></tr></thead><tbody><tr><td>Ventura</td><td>Buenos</td></tr><tr><td>Desventura</td><td>Malos</td></tr><tr><td>Ventura y desventura</td><td>Buenos y malos</td></tr><tr><td>Indiferencia</td><td>Ni buenos ni malos</td></tr></tbody></table><p>El conjuro no tiene en cuenta circunstancias, como otros conjuros, que podrían cambiar los resultados.</p><p>Si lanzas el conjuro más de una vez antes de terminar un descanso largo, hay una probabilidad acumulativa del 25 por ciento por cada lanzamiento después del primero de que no recibas respuesta.</p>"
         },
         "6jQZZ1nlbvBOQtYl": {
           "name": "Encontrar familiar",
@@ -27725,7 +27783,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Obtienes el servicio de un familiar, un espíritu que adopta una forma animal que eliges: <strong>murciélago</strong>, <strong>gato</strong>, <strong>rana</strong>, <strong>halcón</strong>, <strong>lagarto</strong>, <strong>pulpo</strong>, <strong>búho</strong>, <strong>rata</strong>, <strong>cuervo</strong>, <strong>araña</strong>, <strong>comadreja</strong> u otra Bestia con valor de desafío 0. Aparece en un espacio desocupado dentro del alcance y usa las estadísticas de la forma elegida (consulta el apéndice B), aunque es un celestial, feérico o infernal (a tu elección) en lugar de una Bestia. Tu familiar actúa de forma independiente, pero obedece tus órdenes.</p><p><strong>Conexión telepática.</strong> Mientras tu familiar esté a 100 pies o menos de ti, puedes comunicarte telepáticamente con él. Además, como acción adicional, puedes ver a través de sus ojos y oír lo que oye hasta el comienzo de tu siguiente turno, obteniendo los beneficios de cualquier sentido especial que posea.</p><p>Por último, cuando lanzas un conjuro con alcance de toque, tu familiar puede entregar el toque. Tu familiar debe estar a 100 pies o menos de ti, y debe usar una reacción para entregar el toque cuando lanzas el conjuro.</p><p><strong>Combate.</strong> El familiar es aliado tuyo y de tus aliados. Tira su propia iniciativa y actúa en su propio turno. Un familiar no puede atacar, pero puede realizar otras acciones con normalidad.</p><p><strong>Desaparición del familiar.</strong> Cuando el familiar baja a 0 puntos de golpe, desaparece. Reaparece después de que vuelvas a lanzar este conjuro. Como acción mágica, puedes despedir temporalmente al familiar a una dimensión de bolsillo. También puedes despedirlo para siempre. Como acción mágica mientras está despedido temporalmente, puedes hacer que reaparezca en un espacio desocupado a 30 pies o menos de ti. Siempre que el familiar baje a 0 puntos de golpe o desaparezca en la dimensión de bolsillo, deja en su espacio todo lo que llevara puesto o transportara.</p><p><strong>Un solo familiar.</strong> No puedes tener más de un familiar a la vez. Si lanzas este conjuro mientras tienes un familiar, haces que adopte una nueva forma válida.</p>"
         },
         "WyHL8BgJUYrQT6hV": {
           "name": "Identificar",
@@ -27733,7 +27792,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Tocas un objeto durante todo el lanzamiento del conjuro. Si el objeto es un objeto mágico u otro objeto sobrenatural, aprendes sus propiedades y cómo usarlo, si requiere sintonización y cuántas cargas tiene, si las tiene. También sabes si algún conjuro activo está afectando al objeto y cuáles son. Si el objeto fue creado por un conjuro, aprendes el nombre de ese conjuro.</p><p>Si en vez de eso tocas una criatura durante todo el lanzamiento, aprendes qué conjuros activos, si los hay, la están afectando actualmente.</p>"
         },
         "3AiNvzLZE9VHnK9H": {
           "name": "Localizar objeto",
@@ -27746,7 +27806,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Describe o nombra un objeto que te resulte familiar. Percibes la dirección hacia la ubicación del objeto si se encuentra a 1000 pies o menos de ti. Si el objeto está en movimiento, conoces la dirección de su movimiento.</p><p>El conjuro puede localizar un objeto concreto que conozcas si lo has visto de cerca —a 30 pies o menos— al menos una vez. Como alternativa, puede localizar el objeto más cercano de un tipo concreto, como cierto tipo de ropa, joya, mueble, herramienta o arma.</p><p>Este conjuro no puede localizar un objeto si cualquier grosor de plomo bloquea una trayectoria directa entre tú y el objeto.</p>"
         },
         "hmnIRrpaFhjOgdUE": {
           "name": "Escudriñar",
@@ -27786,7 +27847,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Puedes ver y oír a una criatura de tu elección que esté en el mismo plano de existencia que tú. El objetivo hace una tirada de salvación de Sabiduría, modificada según lo bien que conozcas al objetivo y el tipo de conexión física que tengas con él, tal como se muestra en las tablas siguientes. El objetivo no sabe contra qué está haciendo la salvación, solo que se siente intranquilo.</p><table><thead><tr><td>Tu conocimiento del objetivo es...</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>De oídas (has oído hablar del objetivo)</td><td>+5</td></tr><tr><td>De primera mano (has conocido al objetivo)</td><td>+0</td></tr><tr><td>Amplio (conoces bien al objetivo)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Tienes del objetivo...</td><td>Modificador a la salvación</td></tr></thead><tbody><tr><td>Un retrato u otra imagen</td><td>−2</td></tr><tr><td>Una prenda u otra posesión</td><td>−4</td></tr><tr><td>Una parte del cuerpo, un mechón de pelo o un trozo de uña</td><td>−10</td></tr></tbody></table><p>Con una salvación con éxito, el objetivo no se ve afectado y no puedes volver a usar este conjuro sobre él durante 24 horas.</p><p>Con una salvación fallida, el conjuro crea un sensor Invisible e intangible a 10 pies o menos del objetivo. Puedes ver y oír a través del sensor como si estuvieras allí. El sensor se mueve con el objetivo y permanece a 10 pies o menos de él mientras dura el conjuro. Si algo puede ver el sensor, este aparece como un orbe luminoso del tamaño aproximado de tu puño.</p><p>En lugar de elegir como objetivo a una criatura, puedes elegir una ubicación que hayas visto. Cuando lo haces, el sensor aparece en esa ubicación y no se mueve.</p>"
         },
         "GPfGPa68QrAt1JIl": {
           "name": "Sirviente invisible",
@@ -27794,24 +27856,36 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Este conjuro crea una fuerza invisible, sin mente y sin forma, de tamaño Mediano, que realiza tareas sencillas a tus órdenes hasta que el conjuro termina. El sirviente aparece en un espacio desocupado sobre el suelo dentro del alcance. Tiene CA 10, 1 punto de golpe y Fuerza 2, y no puede atacar. Si baja a 0 puntos de golpe, el conjuro termina.</p><p>Una vez en cada uno de tus turnos, como acción adicional, puedes ordenar mentalmente al sirviente que se mueva hasta 15 pies e interactúe con un objeto. El sirviente puede realizar tareas sencillas que podría hacer un humano, como traer cosas, limpiar, remendar, doblar ropa, encender fuegos, servir comida y verter bebidas. Una vez dada la orden, el sirviente realiza la tarea lo mejor que puede hasta completarla, y luego espera tu siguiente orden.</p><p>Si ordenas al sirviente que realice una tarea que lo alejaría más de 60 pies de ti, el conjuro termina.</p>"
         },
         "mmVileAppearance": {
           "effects": {
             "CiH2KTuvmdGmuz20": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo de su siguiente turno.</p>"
+            }
+          },
+          "name": "Aspecto vil",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=FR0ETDHBas1Z5LfF]], cualquier [[lookup @target.affects.special activity=FR0ETDHBas1Z5LfF]] que empiece su turno a [[lookup @range.value activity=FR0ETDHBas1Z5LfF]] pies o menos de la [[lookup @name lowercase]] y pueda ver la verdadera forma de la [[lookup @name lowercase]].</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo de su siguiente turno.</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune al Aspecto Horrible de esta [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "FR0ETDHBas1Z5LfF": {
+              "name": ""
             }
           }
         },
         "mmClaw0000000000": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         },
         "mmDeathGlare0000": {
           "activities": {
             "3uA75vqvubgY300I": {
               "name": "Salvación"
             }
-          }
+          },
+          "name": "Mirada mortal",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=3uA75vqvubgY300I]], [[lookup @target.affects.special activity=3uA75vqvubgY300I]] que la [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=3uA75vqvubgY300I]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> Si el objetivo tiene 20 puntos de golpe o menos, queda reducido a 0 puntos de golpe. De lo contrario, el objetivo recibe [[/damage average]] de daño.</p>"
         },
         "xFcYJfM0OoEYYQns": {
           "name": "Disfrazarse",
@@ -27822,10 +27896,21 @@
           },
           "effects": {
             "SrIb7dbaZs5F4zi9": {
-              "name": "Disfrazado"
+              "name": "Disfrazado",
+              "description": "<p>Para discernir que estás disfrazado, una criatura debe realizar la acción Estudiar para inspeccionar tu apariencia y superar una prueba [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Haces que tú mismo —incluida tu ropa, armadura, armas y otras pertenencias que lleves encima— parezcas diferente hasta que el conjuro termina. Puedes parecer 1 pie más bajo o más alto y parecer más pesado o más ligero. Debes adoptar una forma con la misma disposición básica de miembros que tienes. Por lo demás, el alcance de la ilusión depende de ti.</p><p>Los cambios producidos por este conjuro no resisten la inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a tu atuendo, los objetos atraviesan el sombrero, y cualquiera que lo toque no sentiría nada o sentiría tu cabeza y pelo. Para discernir que estás disfrazado, una criatura debe realizar la acción Estudiar para inspeccionar tu apariencia y superar una prueba [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros.</p>"
+        },
+        "mmIllusoryAppear": {
+          "name": "Apariencia ilusoria",
+          "description": "<p class=\"feature\">La [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disfrazarse}</em>, usando Constitución como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]). La duración del conjuro es de [[lookup @duration.value activity=qY8e7Xm7QYQDXqsd]] [[lookup @duration.units activity=qY8e7Xm7QYQDXqsd]].</p>",
+          "activities": {
+            "qY8e7Xm7QYQDXqsd": {
+              "name": ""
             }
           }
         }
@@ -27838,7 +27923,20 @@
       },
       "items": {
         "mmWaterBreathing": {
-          "name": "Respirar bajo el agua"
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua.</p>"
+        },
+        "mmBubbleDash0000": {
+          "name": "Carrera burbujeante",
+          "description": "<p>Mientras está bajo el agua, el [[lookup @name lowercase]] se mueve hasta su velocidad nadando sin provocar &amp;Reference[Opportunity Attacks]{ataques de oportunidad}.</p>",
+          "activities": {
+            "ftrbPqT29lnHwzHG": {
+              "name": "",
+              "activation": {
+                "condition": "mientras está bajo el agua"
+              }
+            }
+          }
         }
       }
     },
@@ -27849,12 +27947,42 @@
       },
       "items": {
         "mmAmorphous00000": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La [[lookup @name lowercase]] puede moverse por un espacio de apenas 1 pulgada de ancho sin gastar movimiento adicional para hacerlo.</p>"
         },
         "mmDrainingSwipe0": {
           "activities": {
             "uwBYwkQjnw2cneUA": {
               "name": "La sombra se alza"
+            },
+            "pZ84SpChkTN52eO6": {
+              "name": "",
+              "description": {
+                "chatFlavor": "Al impactar: la puntuación de FUE del objetivo disminuye"
+              }
+            },
+            "beBWDXe2W3AZYlS3": {
+              "name": "Puntuación de FUE -1d4"
+            }
+          },
+          "name": "Zarpazo drenante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y la puntuación de Fuerza del objetivo disminuye en [[/r 1d4]]. El objetivo muere si esto reduce esa puntuación a 0. Si un Humanoide muere por este ataque, una <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmShadow00000000]{Sombra}</strong> se alza del cadáver [[/r 1d4]] horas después.</p><section class=\"secret\" id=\"secret-qqwbOYJqDuTP2N5e\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo también proporciona un <strong>efecto activo (AE)</strong> para modificar la <strong>puntuación de Fuerza</strong> del objetivo. Cuando el objetivo tire su d4 para determinar la pérdida, puedes aplicar el AE correspondiente a la hoja del objetivo.</p></section>",
+          "effects": {
+            "6AjyMN83LppkkgC3": {
+              "name": "Impacto: puntuación de FUE -1",
+              "description": "<p>La puntuación de Fuerza del objetivo disminuye en -1.</p>"
+            },
+            "erWoeO2hwGnu4yuR": {
+              "name": "Impacto: puntuación de FUE -2",
+              "description": "<p>La puntuación de Fuerza del objetivo disminuye en -2.</p>"
+            },
+            "JN2y9I5bw1HrU0Og": {
+              "name": "Impacto: puntuación de FUE -3",
+              "description": "<p>La puntuación de Fuerza del objetivo disminuye en -3.</p>"
+            },
+            "nXy1JjamI8lCQT16": {
+              "name": "Impacto: puntuación de FUE -4",
+              "description": "<p>La puntuación de Fuerza del objetivo disminuye en -4.</p>"
             }
           }
         },
@@ -27867,9 +27995,15 @@
           },
           "effects": {
             "siHMgi75fxHCESex": {
-              "name": "Esconderse"
+              "name": "Esconderse",
+              "description": "<p>Llevas a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, la [[lookup @name lowercase]] lleva a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
+        },
+        "mmSunlightWeakne": {
+          "name": "Debilidad a la luz solar",
+          "description": "<p class=\"feature\">Mientras está bajo la luz del sol, la [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20.</p>"
         }
       }
     },
@@ -27880,10 +28014,12 @@
       },
       "items": {
         "mmDemonicRestora": {
-          "name": "Restauración demoníaca"
+          "name": "Restauración demoníaca",
+          "description": "<p>Si el [[lookup @name lowercase]] muere fuera del Abismo, su cuerpo se disuelve en icor y obtiene un cuerpo nuevo al instante, reviviendo con todos sus puntos de golpe en algún lugar del Abismo.</p>"
         },
         "mmIncorporealMov": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<p>El [[lookup @name lowercase]] puede moverse a través de otras criaturas y objetos como si fueran &amp;Reference[Difficult Terrain]{terreno difícil}. Recibe [[/damage 1d10 average type=force]] de daño si termina su turno dentro de un objeto.</p>"
         },
         "mmShadowStealth0": {
           "name": "Sigilo sombrío",
@@ -27894,7 +28030,22 @@
           },
           "effects": {
             "siHMgi75fxHCESex": {
-              "name": "Esconderse"
+              "name": "Esconderse",
+              "description": "<p>Llevas a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
+            }
+          },
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] lleva a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
+        },
+        "mmLightSensitivi": {
+          "name": "Sensibilidad a la luz",
+          "description": "<p class=\"feature\">Mientras está en luz brillante, el [[lookup @name lowercase]] tiene Desventaja en las tiradas de ataque.</p>"
+        },
+        "mmUmbralClaw0000": {
+          "name": "Garra umbría",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "N4IkWpUVS9uVDjnG": {
+              "name": ""
             }
           }
         }
@@ -27910,12 +28061,17 @@
           "name": "Resistencia legendaria",
           "activities": {
             "nLPRJi7ipeAet7ir": {
-              "name": "Gastar uso"
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "falla una tirada de salvación"
+              }
             }
-          }
+          },
+          "description": "<p>Si el [[lookup @name lowercase]] falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "mmSunlightSensit": {
-          "name": "Sensibilidad a la luz del sol"
+          "name": "Sensibilidad a la luz del sol",
+          "description": "<p>Mientras está bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de característica y las tiradas de ataque.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -27923,10 +28079,17 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmRend0000000000]].</p>"
         },
         "mmRend0000000000": {
-          "name": "Desgarrar"
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
         },
         "mmShadowStealth0": {
           "name": "Sigilo sombrío",
@@ -27937,9 +28100,11 @@
           },
           "effects": {
             "siHMgi75fxHCESex": {
-              "name": "Esconderse"
+              "name": "Esconderse",
+              "description": "<p>Llevas a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
             }
-          }
+          },
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] lleva a cabo la acción &amp;Reference[Hide]{Esconderse}.</p>"
         },
         "mmShadowBreath00": {
           "activities": {
@@ -27949,7 +28114,9 @@
             "2KYLIEvj53EC6nLq": {
               "name": "La sombra se alza"
             }
-          }
+          },
+          "name": "Aliento sombrío",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=hvGQg4CsoCNgrjGy]], cada criatura en un [[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]] de [[lookup @target.template.size activity=hvGQg4CsoCNgrjGy]] [[lookup @target.template.units activity=hvGQg4CsoCNgrjGy]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> Mitad de daño.</p><p class=\"feature\"><em>Fallo o éxito:</em> Un Humanoide reducido a 0 puntos de golpe por este daño muere, y una <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmShadow00000000]{Sombra}</strong> se alza de su cadáver. La sombra está bajo el control del [[lookup @name lowercase]] y comparte el orden de Iniciativa del [[lookup @name lowercase]], pero actúa inmediatamente después del [[lookup @name lowercase]].</p>"
         },
         "mmPounce00000000": {
           "name": "Abalanzarse",
@@ -27957,12 +28124,24 @@
             "IzdTKthBAsB8MBfB": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad y realiza un ataque de [[/item Rend]].</p>"
         },
         "mmVeilOfShadow00": {
           "activities": {
             "ODogaJU4TRqxPSNo": {
               "name": "Daño"
+            }
+          },
+          "name": "Velo de sombra",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa Sigilo sombrío, y [[lookup @target.affects.labels.statblock activity=ODogaJU4TRqxPSNo]] de su elección que pueda ver a [[lookup @range.value activity=ODogaJU4TRqxPSNo]] [[lookup @range.units activity=ODogaJU4TRqxPSNo]] o menos de él recibe [[/damage average]] de daño. El [[lookup @name lowercase]] no puede volver a llevar a cabo esta acción hasta el comienzo de su siguiente turno.</p>"
+        },
+        "mmLivingShadow00": {
+          "name": "Sombra viviente",
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] tiene Resistencia al daño que no sea de Fuerza, Psíquico ni Radiante.</p><section class=\"secret\" id=\"secret-mDlPy4LM9OwpRBJk\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo proporciona un efecto activo para gestionar las <strong>resistencias al daño</strong> en la pestaña de efectos de la hoja de personaje.</p></section>",
+          "effects": {
+            "vWSmU9Sd32bvyapm": {
+              "name": "Sombra viviente"
             }
           }
         }
@@ -27980,7 +28159,8 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>La [[lookup @name lowercase]] realiza tres ataques con [[/item .mmChargedTendril]]. Puede reemplazar un ataque por un uso de [[/item .mmEngulf00000000]].</p>"
         },
         "mmEngulf00000000": {
           "name": "Engullir",
@@ -27990,6 +28170,29 @@
             },
             "Ps27Q3biyThByJeQ": {
               "name": "Prueba para escapar"
+            },
+            "Exfa4q7O4SvXjGt7": {
+              "name": "Engullido: daño"
+            }
+          },
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=5o0Bh8PQaojx5XMx]], una [[lookup @target.affects.special activity=5o0Bh8PQaojx5XMx]] a 5 pies o menos.</p><p class=\"feature\"><em>Fallo:</em> El objetivo es arrastrado al espacio de la [[lookup @name lowercase]] y tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]). Hasta que termine el agarre, el objetivo tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y recibe [[/damage average activity=Exfa4q7O4SvXjGt7]] de daño al comienzo de cada uno de sus turnos. Cuando la [[lookup @name lowercase]] se mueve, el objetivo Agarrado se mueve con ella, sin costarle movimiento adicional. La [[lookup @name lowercase]] solo puede tener una criatura Agarrada por esta acción a la vez.</p>",
+          "effects": {
+            "vsa7d6xWOAvWdOWM": {
+              "name": "Agarrado, cegado y apresado",
+              "description": "<p>Hasta que termine el agarre, el objetivo tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y recibe [[/damage average 3d6 type=lightning]] de daño al comienzo de cada uno de sus turnos.</p>"
+            }
+          }
+        },
+        "mmLightningAbsor": {
+          "name": "Absorción de relámpago",
+          "description": "<p class=\"feature\">Siempre que la [[lookup @name lowercase]] sea sometida a daño de Relámpago, recupera una cantidad de puntos de golpe igual al daño de Relámpago infligido.</p>"
+        },
+        "mmChargedTendril": {
+          "name": "Zarcillo cargado",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, la [[lookup @name lowercase]] tira del objetivo 5 pies en línea recta hacia sí misma.</p>",
+          "activities": {
+            "l6jh00E0M7go9od0": {
+              "name": ""
             }
           }
         }
@@ -28002,7 +28205,16 @@
       },
       "items": {
         "mmRegeneration00": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<p>El [[lookup @name lowercase]] recupera [[lookup @healing.formula activity=5cGvjZJIJVicjJ3d]] puntos de golpe al comienzo de cada uno de sus turnos si tiene al menos 1 punto de golpe.</p>",
+          "activities": {
+            "5cGvjZJIJVicjJ3d": {
+              "name": "",
+              "activation": {
+                "condition": "empieza su turno con al menos 1 punto de golpe"
+              }
+            }
+          }
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -28010,13 +28222,43 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Usar"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item Fist]].</p>"
         },
         "mmFist0000000000": {
-          "name": "Puño"
+          "name": "Puño",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "PklEq9HUdtd7Vghz": {
+              "name": ""
+            }
+          }
         },
         "mmProtection0000": {
-          "name": "Protección"
+          "name": "Protección",
+          "description": "<p class=\"feature\"><em>Desencadenante:</em> Una tirada de ataque impacta a quien lleva el amuleto del [[lookup @name lowercase]] mientras esa criatura está a 5 pies o menos del [[lookup @name lowercase]].</p><p class=\"feature\"><em>Respuesta:</em> Quien lleva el amuleto obtiene un bonificador de +5 a la CA, incluso contra el ataque desencadenante y quizá haciendo que falle, hasta el comienzo del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "Kn1kqSgaVYydj1jF": {
+              "name": "",
+              "activation": {
+                "condition": "Una tirada de ataque impacta a quien lleva el amuleto del guardián mientras esa criatura está a 5 pies o menos del guardián"
+              }
+            }
+          },
+          "effects": {
+            "4neflArm7JowxOTM": {
+              "name": "Protegido",
+              "description": "<p>Quien lleva el amuleto obtiene un bonificador de +5 a la CA, incluso contra el ataque desencadenante y quizá haciendo que falle, hasta el comienzo del siguiente turno de quien otorga el efecto.</p>"
+            }
+          }
+        },
+        "mmBound000000000": {
+          "name": "Vinculado",
+          "description": "<p>El [[lookup @name lowercase]] está vinculado mágicamente a un amuleto. Mientras el [[lookup @name lowercase]] y su amuleto estén en el mismo plano de existencia, quien lleve el amuleto puede llamar telepáticamente al [[lookup @name lowercase]] para que viaje hasta él, y el [[lookup @name lowercase]] conoce la distancia y la dirección hasta el amuleto. Si el [[lookup @name lowercase]] está a 60 pies o menos de quien lleva el amuleto, la mitad de cualquier daño que reciba quien lo lleva (redondeada hacia arriba) se transfiere al [[lookup @name lowercase]].</p>"
+        },
+        "mmSpellStoring00": {
+          "name": "Almacenamiento de conjuros",
+          "description": "<p class=\"feature\">Un lanzador de conjuros que lleve el amuleto del [[lookup @name lowercase]] puede hacer que el [[lookup @name lowercase]] almacene un conjuro de nivel 4 o inferior. Para hacerlo, quien lleva el amuleto debe lanzar el conjuro sobre el [[lookup @name lowercase]] mientras esté a 5 pies o menos de él. El conjuro no tiene efecto, pero queda almacenado dentro del [[lookup @name lowercase]]. Cualquier conjuro almacenado previamente se pierde cuando se almacena un conjuro nuevo. El [[lookup @name lowercase]] puede lanzar el conjuro almacenado con cualquier parámetro establecido por el lanzador original, sin requerir componentes de conjuro y usando la característica para lanzar conjuros del lanzador. Después, el conjuro almacenado se pierde.</p>"
         }
       }
     },
