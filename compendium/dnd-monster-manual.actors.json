@@ -18327,19 +18327,33 @@
       },
       "items": {
         "ZVPzldPQh1kkz2q3": {
-          "name": "Espada larga"
+          "name": "Espada larga",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "BFZXotvvF4YaAKeT": {
+              "name": ""
+            }
+          }
         },
         "SU2FqPW4L3nfnRif": {
-          "name": "Arco largo"
+          "name": "Arco largo",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "b04WToYLVtgE03Dm": {
+              "name": ""
+            }
+          }
         },
         "pgFPbOTCOquPqY3X": {
           "name": "Armadura de semiplacas"
         },
         "Se5TjgrSbsm0PdJo": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Obtienes el beneficio a la Clase de Armadura de un escudo solo si tienes entrenamiento con él.</p>"
         },
         "mmPackTactics000": {
-          "name": "Tácticas de manada"
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos un aliado del [[lookup @name lowercase]] está a 5 pies o menos de esa criatura y ese aliado no tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado}.</p>"
         }
       }
     },
@@ -18353,12 +18367,27 @@
           "name": "Mordisco",
           "effects": {
             "V1AmhFqcodun54W7": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final del siguiente turno del mordedor. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente}, que termina antes si el objetivo recibe cualquier daño.</p>"
             },
             "1xPlmvipGrfrNiPY": {
-              "name": "Inconsciente"
+              "name": "Inconsciente",
+              "description": "<p>Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente}, que termina antes si el objetivo recibe cualquier daño.</p>"
+            }
+          },
+          "description": "<p>[[/attack extended]]. <em>Impacto:</em> [[/damage]] de daño, y el objetivo queda sometido al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=zINRP55nQzeLTh4x]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final del siguiente turno del homúnculo.</p><p><em>Fallo por 5 o más:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante 1 minuto. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente}, que termina antes si el objetivo recibe cualquier daño.</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            },
+            "zINRP55nQzeLTh4x": {
+              "name": ""
             }
           }
+        },
+        "mmTelepathicBond": {
+          "name": "Vínculo telepático",
+          "description": "<p class=\"feature\">Mientras el [[lookup @name lowercase]] esté en el mismo plano de existencia que su amo, ambos pueden comunicarse telepáticamente entre sí.</p>"
         }
       }
     },
@@ -18374,6 +18403,16 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmHook0000000000]].</p>"
+        },
+        "mmHook0000000000": {
+          "name": "Gancho",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, el [[lookup @name lowercase]] mueve al objetivo 5 pies en línea recta hacia sí mismo o alejándolo de sí.</p>",
+          "activities": {
+            "HP0PRe5sNXTOzaD1": {
+              "name": ""
+            }
           }
         }
       }
@@ -18385,10 +18424,12 @@
       },
       "items": {
         "mmDiabolicalRest": {
-          "name": "Restauración diabólica"
+          "name": "Restauración diabólica",
+          "description": "<p>Si el [[lookup @name lowercase]] muere fuera de los Nueve Infiernos, su cuerpo desaparece en una humareda sulfúrea y obtiene un nuevo cuerpo al instante, reviviendo con todos sus puntos de golpe en algún lugar de los Nueve Infiernos.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -18396,15 +18437,39 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques, usando [[/item .mmSearingFork000]] o [[/item .mmHurlFlame00000]] en cualquier combinación. Puede reemplazar un ataque por un uso de [[/item .mmInfernalTail00]].</p>"
         },
         "mmHurlFlame00000": {
-          "name": "Lanzar llama"
+          "name": "Lanzar llama",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un objeto inflamable que nadie lleva puesto ni transporta, empieza a arder.</p>",
+          "activities": {
+            "8smms17uUvt02XEm": {
+              "name": ""
+            }
+          }
         },
         "mmInfernalTail00": {
           "activities": {
             "tJYeyUk3iPYJq9xM": {
               "name": "Salvación"
+            },
+            "zZfCQ0IeJZCjPLzE": {
+              "name": "Objetivo: pérdida de PG"
+            },
+            "Y1gjsHGtpvAX7J6J": {
+              "name": "Prueba para restañar la herida"
+            }
+          },
+          "name": "Cola infernal",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=tJYeyUk3iPYJq9xM]], un [[lookup @target.affects.type activity=tJYeyUk3iPYJq9xM]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=tJYeyUk3iPYJq9xM]] [[lookup @range.units activity=tJYeyUk3iPYJq9xM]] o menos.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average activity=tJYeyUk3iPYJq9xM]] de daño, y el objetivo recibe una herida infernal si no tiene ya una. Mientras está herido, el objetivo pierde [[/damage average activity=zZfCQ0IeJZCjPLzE]] puntos de golpe al inicio de cada uno de sus turnos. La herida se cierra después de [[lookup @duration.value activity=tJYeyUk3iPYJq9xM]] [[lookup @duration.units activity=tJYeyUk3iPYJq9xM]], después de que un conjuro restaure puntos de golpe al objetivo, o después de que el objetivo o una criatura a 5 pies o menos de él use una acción para restañar la herida, lográndolo con una [[/check dc=17 ability=wis skill=med format=long]].</p>"
+        },
+        "mmSearingFork000": {
+          "name": "Horca abrasadora",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "LL3qb6UYJsLkc4HX": {
+              "name": ""
             }
           }
         }
@@ -18417,10 +18482,17 @@
       },
       "items": {
         "mmWaterBreathing": {
-          "name": "Respirar bajo el agua"
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> [[/attack]] ([[lookup @activation.condition activity=xWlMeXFjELfSUWX9]]), alcance [[lookup @range.value activity=xWlMeXFjELfSUWX9]] [[lookup @range.units activity=xWlMeXFjELfSUWX9]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
         }
       }
     },
@@ -18431,7 +18503,8 @@
       },
       "items": {
         "mmHoldBreath0000": {
-          "name": "Contener la respiración"
+          "name": "Contener la respiración",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede contener la respiración durante 1 hora.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -18439,10 +18512,20 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">La </span>[[lookup @name lowercase]] <span style=\"font-family:'Roboto Condensed', sans-serif\">realiza tantos ataques de </span> [[/item .mmBite0000000000]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> como cabezas tenga.</span></p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmMultipleHeads0": {
+          "name": "Múltiples cabezas",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene cinco cabezas. Siempre que el [[lookup @name lowercase]] recibe 25 puntos de daño o más en un solo turno, una de sus cabezas muere. El [[lookup @name lowercase]] muere si todas sus cabezas están muertas. Al final de cada uno de sus turnos, si tiene al menos una cabeza viva, el [[lookup @name lowercase]] hace crecer dos cabezas por cada una de sus cabezas que haya muerto desde su último turno, salvo que haya recibido daño de Fuego desde su último turno. El [[lookup @name lowercase]] recupera 20 puntos de golpe cuando le crecen nuevas cabezas.</p>"
+        },
+        "mmReactiveHeads0": {
+          "name": "Cabezas reactivas",
+          "description": "<p class=\"feature\">Por cada cabeza que el [[lookup @name lowercase]] tenga además de una, obtiene una &amp;Reference[Reaction]{Reacción} adicional que solo puede usar para &amp;Reference[OpportunityAttacks]{ataques de oportunidad}.</p>"
         }
       }
     },
@@ -18453,10 +18536,12 @@
       },
       "items": {
         "mmPackTactics000": {
-          "name": "Tácticas de manada"
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos un aliado del [[lookup @name lowercase]] está a 5 pies o menos de esa criatura y ese aliado no tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado}.</p>"
         },
         "mmBite0000000000": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
         }
       }
     },
@@ -18467,10 +18552,12 @@
       },
       "items": {
         "mmDiabolicalRest": {
-          "name": "Restauración diabólica"
+          "name": "Restauración diabólica",
+          "description": "<p>Si el [[lookup @name lowercase]] muere fuera de los Nueve Infiernos, su cuerpo desaparece en una humareda sulfúrea y obtiene un nuevo cuerpo al instante, reviviendo con todos sus puntos de golpe en algún lugar de los Nueve Infiernos.</p>"
         },
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmMultiattack000": {
           "name": "Ataque múltiple",
@@ -18478,16 +18565,62 @@
             "Ms63W7e3Mv2Margn": {
               "name": "Gastar uso"
             }
-          }
+          },
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmIceSpear000000]]. Puede reemplazar un ataque por un ataque de [[/item .mmTail0000000000]].</p>"
         },
         "mmTail0000000000": {
-          "name": "Cola"
+          "name": "Cola",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. </p>",
+          "activities": {
+            "LLodCm31qWyIpHyK": {
+              "name": ""
+            }
+          }
         },
         "QQwZ5SZ1p1qFIToL": {
           "name": "Muro de hielo",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            }
+          },
+          "description": "<p>Creas un muro de hielo sobre una superficie sólida dentro del alcance. Puedes darle forma de cúpula hemisférica o de globo con un radio de hasta 10 pies, o puedes darle forma de superficie plana compuesta por diez paneles cuadrados de 10 pies. Cada panel debe estar contiguo a otro panel. En cualquier forma, el muro tiene 1 pie de grosor y dura mientras dure el conjuro.</p><p>Si el muro atraviesa el espacio de una criatura cuando aparece, la criatura es empujada a un lado del muro (tú eliges cuál) y realiza una tirada de salvación de Destreza; recibe 10d6 de daño de Frío si falla la salvación, o la mitad de ese daño si la supera.</p><p>El muro es un objeto que puede ser dañado y, por tanto, abierto. Tiene CA 12 y 30 puntos de golpe por sección de 10 pies, e Inmunidad al daño de Frío, Veneno y Psíquico y Vulnerabilidad al daño de Fuego. Reducir una sección de muro de 10 pies a 0 puntos de golpe la destruye y deja tras de sí una lámina de aire gélido en el espacio que ocupaba el muro.</p><p>Una criatura que atraviese la lámina de aire gélido por primera vez en un turno realiza una tirada de salvación de Constitución; recibe 5d6 de daño de Frío si falla la salvación, o la mitad de ese daño si la supera.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El daño que inflige el muro cuando aparece aumenta en 2d6, y el daño por atravesar la lámina de aire gélido aumenta en 1d6 por cada nivel de espacio de conjuro por encima de 6.</p>",
+          "activities": {
+            "c4ttlpiIpyf3dFdf": {
+              "name": "Crear globo"
+            },
+            "zjpb29Tww0iuv1P3": {
+              "name": "Crear paneles"
+            },
+            "D8Q85bjeZgiFky5j": {
+              "name": "Aire gélido",
+              "activation": {
+                "condition": "la criatura atraviesa el muro por primera vez en un turno"
+              }
+            }
+          }
+        },
+        "mmIceWall0000000": {
+          "name": "Muro de hielo",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofIce0]{Muro de hielo}</em> (versión de nivel 8), sin requerir componentes de conjuro y usando Inteligencia como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.int.dc]]).</p>",
+          "activities": {
+            "EAYOqr0SbvmvajZ4": {
+              "name": ""
+            }
+          }
+        },
+        "mmIceSpear000000": {
+          "name": "Lanza de hielo",
+          "description": "<p class=\"feature\">[[/attack extended]].</p><p class=\"feature\"><em>Impacto:</em> [[/damage average]] de daño. Hasta el final de su siguiente turno, el objetivo no puede llevar a cabo una &amp;Reference[Bonus Action]{acción adicional} ni una &amp;Reference[Reaction]{reacción}, su Velocidad se reduce en 10 pies, y en su turno puede moverse o llevar a cabo una acción, pero no ambas cosas.</p><p class=\"feature\"><em>Impacto o fallo:</em> La lanza regresa mágicamente a la mano del [[lookup @name lowercase]] inmediatamente después de un ataque a distancia.</p>",
+          "activities": {
+            "Iwlro2vXHOQQgIWg": {
+              "name": ""
+            }
+          },
+          "effects": {
+            "273sG6C6R7qUcL2v": {
+              "name": "Velocidad -10",
+              "description": "<p>Hasta el final de su siguiente turno, la velocidad del objetivo se reduce en 10 pies.</p>"
             }
           }
         }
@@ -18500,20 +18633,40 @@
       },
       "items": {
         "mmDeathBurst0000": {
-          "name": "Estallido de muerte"
+          "name": "Estallido de muerte",
+          "description": "<p>El [[lookup @name lowercase]] explota [[lookup @activation.condition activity=1SfqWSp7RSyHgG4b]].</p><p><em>Tirada de salvación de Constitución: </em>CD [[lookup @save.dc.value activity=1SfqWSp7RSyHgG4b]], cada [[lookup @target.affects.type activity=1SfqWSp7RSyHgG4b]] en una Emanación de [[lookup @target.template.size activity=1SfqWSp7RSyHgG4b]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad de daño.</p>",
+          "activities": {
+            "1SfqWSp7RSyHgG4b": {
+              "name": ""
+            }
+          }
         },
         "mmClaw0000000000": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "W1T7dZnG8GMMwyEP": {
+              "name": ""
+            }
+          }
         },
         "mmFrostBreath000": {
           "activities": {
             "ChLJgxjftTSMSRHe": {
               "name": "Salvación"
             }
-          }
+          },
+          "name": "Aliento de escarcha",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=ChLJgxjftTSMSRHe]], cada [[lookup @target.affects.type activity=ChLJgxjftTSMSRHe]] en un cono de [[lookup @target.template.size activity=ChLJgxjftTSMSRHe]] pies.</p><p><em>Fallo:</em> [[/damage average]] de daño.</p><p><em>Éxito: </em>Mitad de daño.</p>"
         },
         "mmFogCloud000000": {
-          "name": "Nube de oscurecimiento"
+          "name": "Nube de oscurecimiento",
+          "description": "<p>El mephit lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros.</p>",
+          "activities": {
+            "sKdIh2G1RS2oqp8t": {
+              "name": ""
+            }
+          }
         },
         "pH1Rf3FfwlD3EELa": {
           "name": "Nube de oscurecimiento",
@@ -18521,7 +18674,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
             }
-          }
+          },
+          "description": "<p>Creas una Esfera de niebla de 20 pies de radio centrada en un punto dentro del alcance. La Esfera está &amp;Reference[heavilyobscured]{muy oscurecida}. Dura hasta que termina el conjuro o hasta que un viento fuerte (como uno creado por <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Ráfaga de viento}</em>) la disperse.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> El radio de la niebla aumenta en 20 pies por cada nivel de espacio de conjuro por encima de 1.</p>"
         }
       }
     },
@@ -18532,24 +18686,59 @@
       },
       "items": {
         "mmMagicResistanc": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mmSting000000000": {
-          "name": "Aguijón"
+          "name": "Aguijón",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "ExJB3aZAPF3shVJA": {
+              "name": ""
+            }
+          }
         },
         "mmInvisibility00": {
-          "name": "Invisibilidad"
+          "name": "Invisibilidad",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili]{Invisibilidad}</em> sobre sí mismo, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros.</p>",
+          "activities": {
+            "6BqYzqlxZTtqyPmH": {
+              "name": ""
+            }
+          }
         },
         "BGYUyh36nOQKX4Pr": {
           "name": "Invisibilidad",
           "effects": {
             "dnd5espellchange": {
               "name": "Cambios de conjuro"
+            },
+            "9svfDetqjhsFP3ey": {
+              "name": "Invisible",
+              "description": "<p>El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p>"
             }
-          }
+          },
+          "description": "<p>Una criatura a la que tocas tiene la condición &amp;Reference[invisible apply=false]{Invisible} hasta que termina el conjuro. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ataque, inflija daño o lance un conjuro.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo a una criatura adicional por cada nivel de espacio de conjuro por encima de 2.</p>"
         },
         "mmShapeshift0000": {
-          "name": "Cambiar de forma"
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma para asemejarse a una rata (Velocidad 20 pies), un cuervo (20 pies, Vuelo 60 pies) o una araña (20 pies, Trepar 20 pies), o vuelve a su forma verdadera. Sus estadísticas de juego son las mismas en cada forma, salvo por su Velocidad. Cualquier equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "1NgisnJiktSY2OEe": {
+              "name": "Cambiar forma"
+            }
+          },
+          "effects": {
+            "M2l3YjxgkH54n81W": {
+              "name": "Forma de rata"
+            },
+            "XPf2vHAzEy8jMwEX": {
+              "name": "Forma de cuervo"
+            },
+            "bwSU3aYTK7H9TDls": {
+              "name": "Forma de araña"
+            }
+          }
         }
       }
     },
