@@ -2550,6 +2550,15 @@
     "mmGigglingMagic0": {
       "name": "Magia risueña"
     },
+    "mmGlare000000000": {
+      "name": "Mirada",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa [[/item .mmEyeRays0000000]].</p>",
+      "activities": {
+        "sKVNu6ILpA3FSFFE": {
+          "name": "Gastar uso"
+        }
+      }
+    },
     "mmGnash000000000": {
       "activities": {
         "CNoawEWxNhs5HRIk": {
@@ -2558,6 +2567,24 @@
       },
       "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=CNoawEWxNhs5HRIk]], [[lookup @target.affects.labels.statblock activity=CNoawEWxNhs5HRIk]] Agarrado por el [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=CNoawEWxNhs5HRIk]] de daño.</p>",
       "name": "Triturar"
+    },
+    "mmGore0000000000": {
+      "name": "Cornada",
+      "description": "<p>[[/attack extended]]. [[/damage extended average]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=iBenqFiBu40bUxkH]] y el [[lookup @name lowercase]] se movió {NN}+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe [[/damage 2d8 average type=piercing]] de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
+      "activities": {
+        "OeVR19Hp2kvxSNZv": {
+          "name": "Ataque"
+        },
+        "iBenqFiBu40bUxkH": {
+          "name": "Ataque en movimiento"
+        }
+      },
+      "effects": {
+        "dgfff9ONKHAUcthM": {
+          "name": "Derribado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado} si la criatura atacante usó su rasgo de ataque en movimiento.</p>"
+        }
+      }
     },
     "mmGouge000000000": {
       "activities": {
@@ -2621,6 +2648,33 @@
         }
       },
       "name": "Raíz apresadora"
+    },
+    "mmGraveStrike000": {
+      "name": "Golpe sepulcral",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+      "activities": {
+        "cyu0AKgdlXdB7Mys": {
+          "name": "",
+          "description": {
+            "chatFlavor": "Solo forma de vampiro"
+          }
+        }
+      }
+    },
+    "mmGravedustFligh": {
+      "name": "Vuelo de polvo sepulcral",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] vuela hasta su Velocidad de vuelo y desprende polvo sepulcral. Cada [[lookup @target.affects.type activity=jjHZ0sa9Ihw0qnC5]] a [[lookup @target.template.size activity=jjHZ0sa9Ihw0qnC5]] pies o menos del [[lookup @name lowercase]] mientras se mueve es objetivo una vez del siguiente efecto. <em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=jjHZ0sa9Ihw0qnC5]]. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Blinded apply=false]{Cegado} hasta el final del siguiente turno del [[lookup @name lowercase]]. <em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a llevar a cabo esta acción hasta el comienzo de su siguiente turno.</p>",
+      "activities": {
+        "jjHZ0sa9Ihw0qnC5": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "j48yvRFstRgyvy4r": {
+          "name": "Cegado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Blinded apply=false]{Cegado} hasta el final del siguiente turno del demiliche.</p>"
+        }
+      }
     },
     "mmGreatBow000000": {
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y la velocidad del objetivo se reduce en 10 pies hasta el final de su siguiente turno.</p>",
@@ -2744,6 +2798,15 @@
       },
       "name": "Mirada inquietante"
     },
+    "mmHealingWord000": {
+      "name": "Palabra sanadora",
+      "description": "<p>El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor]{Palabra sanadora}</em>, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>",
+      "activities": {
+        "GbWVNe1ZFnZvieww": {
+          "name": ""
+        }
+      }
+    },
     "mmHeartSight0000": {
       "activities": {
         "NqVrZShDV1L3zBA3": {
@@ -2764,6 +2827,15 @@
     },
     "mmHeatedBlade000": {
       "name": "Hoja candente"
+    },
+    "mmHellfireOrb000": {
+      "name": "Orbe de fuego infernal",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=q3tW0wl3eLe2rDU9]], cada [[lookup @target.affects.type activity=q3tW0wl3eLe2rDU9]] en una esfera de [[lookup @target.template.size activity=q3tW0wl3eLe2rDU9]] pies de radio centrada en un punto que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=q3tW0wl3eLe2rDU9]] pies o menos. <em>Fallo:</em> [[/damage average]] de daño. <em>Éxito:</em> Mitad de daño.</p>",
+      "activities": {
+        "q3tW0wl3eLe2rDU9": {
+          "name": "Salvación"
+        }
+      }
     },
     "mmHellfireSpellc": {
       "activities": {
@@ -2841,6 +2913,51 @@
     "mmHooves00000000": {
       "name": "Pezuñas"
     },
+    "mmHorrificNecros": {
+      "name": "Necrosis horrenda",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>",
+      "activities": {
+        "EqIIW9uwkklObUfQ": {
+          "name": ""
+        }
+      },
+      "effects": {
+        "xL7wJXOwVuR4MFdD": {
+          "name": "Asustado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>"
+        }
+      }
+    },
+    "mmHorrificVisage": {
+      "name": "Aspecto horrible",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=v8KiqUloIE5eocSu]], cada criatura en un cono de [[lookup @target.template.size activity=v8KiqUloIE5eocSu]] pies que pueda ver al [[lookup @name lowercase]] y no sea Muerto viviente. <em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno del [[lookup @name lowercase]]. <em>Éxito:</em> El objetivo es inmune al Aspecto horrible de este [[lookup @name lowercase]] durante 24 horas.</p>",
+      "activities": {
+        "v8KiqUloIE5eocSu": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "lx2ebHyyyaaWf8s1": {
+          "name": "Asustado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno de la criatura atacante.</p>"
+        }
+      }
+    },
+    "mmHorrify0000000": {
+      "name": "Horrorizar",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=HLddTFpf4viIdEOL]], [[lookup @target.affects.labels.statblock activity=HLddTFpf4viIdEOL]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=HLddTFpf4viIdEOL]] [[lookup @range.units activity=HLddTFpf4viIdEOL]] o menos y que pueda ver al [[lookup @name lowercase]]. <em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno del [[lookup @name lowercase]]. <em>Éxito:</em> El objetivo es inmune al Aspecto horrible de este [[lookup @name lowercase]] durante 24 horas.</p>",
+      "activities": {
+        "HLddTFpf4viIdEOL": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "rttbSuOfCKb1TjGs": {
+          "name": "Asustado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno de la criatura atacante.</p>"
+        }
+      }
+    },
     "mmHorrorNimbus00": {
       "activities": {
         "GP5MnIyXCVZ4ZMTQ": {
@@ -2855,6 +2972,21 @@
         }
       },
       "name": "Nimbo de horror"
+    },
+    "mmHowl0000000000": {
+      "name": "Aullido",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=GzcwPXLq5lrc8kSK]], cada [[lookup @target.affects.type activity=GzcwPXLq5lrc8kSK]] en una emanación de [[lookup @target.template.size activity=GzcwPXLq5lrc8kSK]] [[lookup @target.template.units activity=GzcwPXLq5lrc8kSK]] originada en el [[lookup @name lowercase]]. <em>Fallo:</em> [[/damage average]] de daño. <em>Fallo o éxito:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno del [[lookup @name lowercase]].</p>",
+      "activities": {
+        "GzcwPXLq5lrc8kSK": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "DijkcmkYrf1x6rBR": {
+          "name": "Asustado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el comienzo del siguiente turno de la criatura atacante.</p>"
+        }
+      }
     },
     "mmHungerOfHadar0": {
       "activities": {
@@ -3143,6 +3275,15 @@
       "description": "<p class=\"feature\">La distancia de salto del [[lookup @name lowercase]] se determina usando su Destreza en lugar de su Fuerza.</p>",
       "name": "Saltador"
     },
+    "mmLash0000000000": {
+      "name": "Latigazo",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de Tentáculo.</p>",
+      "activities": {
+        "phsl4hTpFmdBa56h": {
+          "name": "Gastar uso"
+        }
+      }
+    },
     "mmLashingGoop000": {
       "activities": {
         "GQiWA9Iq679pdF5N": {
@@ -3160,6 +3301,15 @@
     },
     "mmLifeDrain00000": {
       "name": "Drenar vida"
+    },
+    "mmLifeSuppressio": {
+      "name": "Supresión de vida",
+      "description": "<p class=\"feature\">Las criaturas a [[lookup @target.template.size activity=n7LC7M3BMXe8n2Ro]] pies o menos del [[lookup @name lowercase]] no pueden recuperar puntos de golpe.</p>",
+      "activities": {
+        "n7LC7M3BMXe8n2Ro": {
+          "name": "Gastar uso"
+        }
+      }
     },
     "mmLifedrainingRo": {
       "activities": {
@@ -3301,6 +3451,15 @@
       },
       "name": "Presencia señorial"
     },
+    "mmLunge000000000": {
+      "name": "Acometida",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta la mitad de su Velocidad y realiza un ataque de Hoja pavorosa.</p>",
+      "activities": {
+        "5fiDXMcMGPJTL24e": {
+          "name": "Gastar uso"
+        }
+      }
+    },
     "mmLuringSong0000": {
       "activities": {
         "dxxqZP7Vo01te3QB": {
@@ -3369,6 +3528,45 @@
       },
       "description": "<p class=\"feature\"><em><strong>Magia maliciosa.</strong></em> El [[lookup @name lowercase]] usa Lanzamiento de conjuros para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]{Puerta dimensional}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Patrón hipnótico}</em>. El [[lookup @name lowercase]] no puede realizar esta acción de nuevo hasta el comienzo de su siguiente turno.</p>",
       "name": "Magia maliciosa"
+    },
+    "mmManeuver000000": {
+      "name": "Maniobra",
+      "description": "<p class=\"feature-trait\">Un [[lookup @target.affects.type activity=WMz2y2H5SLCDAxCF]] que pueda ver u oír al [[lookup @name lowercase]] puede realizar una Reacción para moverse hasta la mitad de la Velocidad del [[lookup @target.affects.type activity=WMz2y2H5SLCDAxCF]] sin provocar &amp;Reference[OpportunityAttacks]{ataques de oportunidad}.</p>",
+      "activities": {
+        "WMz2y2H5SLCDAxCF": {
+          "name": "Gastar uso"
+        }
+      }
+    },
+    "mmMarkedAsPrey00": {
+      "name": "Marcado como presa",
+      "description": "<p class=\"feature-trait\">El [[lookup @name lowercase]] tiene Ventaja en las tiradas de ataque contra el objetivo hasta el comienzo del siguiente turno del [[lookup @name lowercase]].</p>",
+      "activities": {
+        "4nl8WwujzNoDtzyk": {
+          "name": "Gastar uso"
+        }
+      },
+      "effects": {
+        "hIdGsJ2WFm4Ckb7j": {
+          "name": "Presa: ventaja en ataque",
+          "description": "<p>La criatura atacante tiene Ventaja en las tiradas de ataque contra el objetivo hasta el comienzo del siguiente turno de la criatura atacante.</p>"
+        }
+      }
+    },
+    "mmMarshalUndead0": {
+      "name": "Comandar muertos vivientes",
+      "description": "<p class=\"feature\">[[lookup @target.affects.special activity=WbzFmVAOPQ7eL6IW]] criaturas elegidas por el [[lookup @name lowercase]] (excluyéndose a sí mismo) en una emanación de [[lookup @target.template.size activity=WbzFmVAOPQ7eL6IW]] pies originada en él tienen Ventaja en las tiradas de ataque y las tiradas de salvación. No puede usar este rasgo si tiene la condición Incapacitado.</p>",
+      "activities": {
+        "WbzFmVAOPQ7eL6IW": {
+          "name": "Gastar uso"
+        }
+      },
+      "effects": {
+        "PAQc8dHa03txR5ES": {
+          "name": "Ventaja: ataques y salvaciones",
+          "description": "<p>La criatura tiene Ventaja en las tiradas de ataque y las tiradas de salvación. No puede usar este rasgo si tiene la condición Incapacitado.</p>"
+        }
+      }
     },
     "mmMercurialAxe00": {
       "activities": {
@@ -3481,6 +3679,21 @@
       },
       "name": "Rugido desgarrador de mentes"
     },
+    "mmMired000000000": {
+      "name": "Enfangado",
+      "description": "<p class=\"feature-trait\">El objetivo recibe [[/damage average]] de daño, y queda mágicamente aturdido hasta el final de su siguiente turno. Mientras está aturdido de este modo, el objetivo resta [[/r 1d4]] a sus tiradas de salvación.</p>",
+      "activities": {
+        "OY2RmTmJ1UeavRbV": {
+          "name": "Daño"
+        }
+      },
+      "effects": {
+        "S5gMXUiIHlXUrcOE": {
+          "name": "Aturdido",
+          "description": "<p>El objetivo queda mágicamente aturdido hasta el final de su siguiente turno. Mientras está aturdido de este modo, el objetivo resta [[/r 1d4]] a sus tiradas de salvación.</p>"
+        }
+      }
+    },
     "mmMistyEscape000": {
       "activities": {
         "OJoFvF9VhZ0OuwfH": {
@@ -3565,6 +3778,15 @@
       },
       "name": "Aliento de barro"
     },
+    "mmMultiattack000": {
+      "name": "Ataque múltiple",
+      "description": "<p>El [[lookup @name lowercase]] realiza {count} ataques con [[/item]] y usa [[/item]].</p>",
+      "activities": {
+        "Ms63W7e3Mv2Margn": {
+          "name": "Usar"
+        }
+      }
+    },
     "mmMultipleHeads0": {
       "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene cinco cabezas. Siempre que el [[lookup @name lowercase]] recibe 25 puntos de daño o más en un solo turno, una de sus cabezas muere. El [[lookup @name lowercase]] muere si todas sus cabezas están muertas. Al final de cada uno de sus turnos, si tiene al menos una cabeza viva, el [[lookup @name lowercase]] hace crecer dos cabezas por cada una de sus cabezas que haya muerto desde su último turno, salvo que haya recibido daño de Fuego desde su último turno. El [[lookup @name lowercase]] recupera 20 puntos de golpe cuando le crecen nuevas cabezas.</p>",
       "name": "Múltiples cabezas"
@@ -3596,6 +3818,15 @@
       },
       "name": "Garra mutante"
     },
+    "mmNecrosis000000": {
+      "name": "Necrosis",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de Estallido necrótico.</p>",
+      "activities": {
+        "LqOrtQbYzDclGAza": {
+          "name": "Gastar uso"
+        }
+      }
+    },
     "mmNecroticBow000": {
       "activities": {
         "BlfhtejqUaKF5pUy": {
@@ -3605,6 +3836,24 @@
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
       "name": "Arco necrótico"
     },
+    "mmNecroticBreath": {
+      "name": "Aliento necrótico",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=3LncbUYMp4rOrQ3U]], cada [[lookup @target.affects.type activity=3LncbUYMp4rOrQ3U]] en un cono de [[lookup @target.template.size activity=3LncbUYMp4rOrQ3U]] pies. <em>Fallo:</em> [[/damage average]] de daño. <em>Éxito:</em> Mitad de daño.</p>",
+      "activities": {
+        "3LncbUYMp4rOrQ3U": {
+          "name": "Salvación"
+        }
+      }
+    },
+    "mmNecroticBurst0": {
+      "name": "Estallido necrótico",
+      "description": "<p class=\"feature\"><em>Tirada de ataque cuerpo a cuerpo o a distancia:</em> [[/attack]], alcance [[lookup @item.range.reach]] pies o alcance [[lookup @item.range.value]] pies. <em>Impacto:</em> [[/damage average]] de daño.</p>",
+      "activities": {
+        "aeOpvQAZSBAD5x0h": {
+          "name": ""
+        }
+      }
+    },
     "mmNecroticRay000": {
       "activities": {
         "3Nx1sgEZtJ1OZjvT": {
@@ -3613,6 +3862,15 @@
       },
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
       "name": "Rayo necrótico"
+    },
+    "mmNecroticStrike": {
+      "name": "Golpe necrótico",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza un ataque de Puño putrefacto o Canalizar energía negativa.</p>",
+      "activities": {
+        "XjVWtnpvFEbr67UU": {
+          "name": "Gastar uso"
+        }
+      }
     },
     "mmNecroticSword0": {
       "activities": {
@@ -3631,6 +3889,22 @@
       },
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
       "name": "Espada aguja"
+    },
+    "mmNeedles0000000": {
+      "name": "Agujas",
+      "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+    },
+    "mmNegativeEnergy": {
+      "name": "Cono de energía negativa",
+      "description": "<p class=\"feature\">El ojo central del [[lookup @name lowercase]] emite una onda mágica imperceptible de energía negativa en un [[lookup @target.template.type activity=TLqcxF6OYH0LweRo]] de [[lookup @target.template.size activity=TLqcxF6OYH0LweRo]] [[lookup @target.template.units activity=TLqcxF6OYH0LweRo]]. Los [[lookup @target.affects.type activity=TLqcxF6OYH0LweRo]]s en esa área no pueden recuperar puntos de golpe hasta el comienzo del siguiente turno del [[lookup @name lowercase]]. Un cadáver Humanoide intacto que esté allí se alza instantáneamente como un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000]{Zombi}</strong> bajo el control del [[lookup @name lowercase]] y tiene su turno inmediatamente después del [[lookup @name lowercase]] en el mismo recuento de iniciativa.</p>",
+      "activities": {
+        "TLqcxF6OYH0LweRo": {
+          "name": "Gastar uso"
+        },
+        "wctTMS9GIxCeMaD2": {
+          "name": "Crear zombi"
+        }
+      }
     },
     "mmNightmare00000": {
       "activities": {
@@ -3740,6 +4014,15 @@
     },
     "mmPackTactics000": {
       "name": "Tácticas de manada"
+    },
+    "mmPactAxe0000000": {
+      "name": "Hacha de pacto",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+      "activities": {
+        "xpEI5zEn9aXDOpfo": {
+          "name": ""
+        }
+      }
     },
     "mmPactBlade00000": {
       "name": "Hoja de pacto"
