@@ -7,5 +7,806 @@
     }
   },
   "folders": {},
-  "entries": {}
+  "entries": {
+    "mmAbolethSchemes": {
+      "name": "Planes de aboleth",
+      "results": {
+        "qHOo4M3sBjxuSZUW": {
+          "text": "Llevar a cabo planes incomprensibles que lo llevan a actuar de formas aparentemente aleatorias."
+        },
+        "MON8Eod1S6DThXrv": {
+          "text": "Aprender más sobre el mundo secuestrando gente y consumiendo sus mentes."
+        },
+        "YWwwhuKFq4DYGTpd": {
+          "text": "Manipular a inocentes para que lo adoren como a un dios usando su telepatía desde la clandestinidad."
+        },
+        "Bc4k9awuIvFBbsJ9": {
+          "text": "Abrir un portal al pasado o al futuro remotos, liberando una invasión procedente de otra época."
+        },
+        "PLoLBcSzPwDxkwgE": {
+          "text": "Despertar a una tortuga dragón, un kraken u otro monstruo marino para inundar una ciudad costera."
+        },
+        "Sb1fy7GjU0X22qVv": {
+          "text": "Engañar a cazatesoros para que recuperen reliquias de su imperio caído hace mucho tiempo."
+        }
+      }
+    },
+    "mmAirElementalCo": {
+      "name": "Composiciones de elemental de aire",
+      "results": {
+        "fMiPKmLqRLjP5F4t": {
+          "text": "Nubes cúmulos o cirros."
+        },
+        "RFnDpvRVmzjzdToU": {
+          "text": "Una mezcla de gases de colores intensos."
+        },
+        "eraTZjdnL1uFdm0F": {
+          "text": "Un miasma acre y de aspecto ácido."
+        },
+        "E8X3VVRU23g35TG2": {
+          "text": "Racimos de nubes cambiantes que se asemejan a animales y formas sencillas."
+        },
+        "6pnXSn5H9LwbpuBj": {
+          "text": "Rasgos siniestros oscurecidos en una masa brumosa."
+        },
+        "lrICXC0fBz8Fedlg": {
+          "text": "Nubes de tormenta arremolinadas."
+        }
+      }
+    },
+    "mmAnimatedObject": {
+      "name": "Catalizadores de objeto animado",
+      "results": {
+        "acJgzhHHoqefwwk5": {
+          "text": "Un Celestial o Infernal que usa el objeto para proteger o atormentar a un mortal."
+        },
+        "ADaDD8qHY3jPr8eM": {
+          "text": "Una combinación de magia y tecnología, como alquimia o ciencia alienígena."
+        },
+        "gjgFcvAnJ9ZzINDC": {
+          "text": "La esencia de alguien transformado por un embaucador sobrenatural."
+        },
+        "1HJrVrbDBg0GvgEI": {
+          "text": "Hadas como parte de sus juegos o ardides."
+        },
+        "xU1bAMGOw0jj9NFf": {
+          "text": "Un usuario de magia que necesita un guardián o sirviente."
+        },
+        "ystEWN4dQPoovlhO": {
+          "text": "La casualidad, cuando el objeto adquiere una apariencia de vida tras cien años de uso."
+        },
+        "G5nigW46VXX9tJIr": {
+          "text": "La canción de un instrumento mágico."
+        },
+        "yLEKc6l82p0Z54dX": {
+          "text": "Un espíritu que posee el objeto."
+        },
+        "cnri4p7NOw7MIyHH": {
+          "text": "Magia salvaje, un conjuro que salió mal o un Artefacto caótico."
+        },
+        "WcGmq4Hq4Fk83Era": {
+          "text": "La voluntad de un poderoso ser psíquico."
+        }
+      }
+    },
+    "mmAnkhegTunnelDi": {
+      "name": "Descubrimientos en túneles de ankheg",
+      "results": {
+        "4z6OSG4ObsMZgr6k": {
+          "text": "Otro túnel, natural o excavado en piedra trabajada, que se adentra en la Infraoscuridad."
+        },
+        "MhENiB31JkohqIio": {
+          "text": "Una ruina o tumba enterrada que el túnel ha dejado al descubierto."
+        },
+        "nio2isPyFiuc3Sfh": {
+          "text": "Un grupo de 1d4 huevos frescos de ankheg que pueden romperse y usarse como viales de Ácido."
+        },
+        "3bIQGaKF15ePa2r7": {
+          "text": "Un ankheg muerto e indicios de un depredador subterráneo más mortífero."
+        },
+        "PlUGvSzRoOvlw82n": {
+          "text": "Un trozo de caparazón de ankheg utilizable como Escudo."
+        },
+        "Mvnz383JFi2P5Ggc": {
+          "text": "Una bolsa con 2d6 po cerca de un charco de ácido."
+        },
+        "Sq1cSav44z8BrMOk": {
+          "text": "Un animal de granja o del bosque extraviado."
+        },
+        "jWSuSuB3yb8if8Pp": {
+          "text": "Un espantapájaros brutalmente despedazado."
+        }
+      }
+    },
+    "mmArchhagAnathem": {
+      "name": "Anatemas de archisaga",
+      "results": {
+        "3zK7rX5PXirmsDa9": {
+          "text": "Los huesos del primer amor de la archisaga."
+        },
+        "uLFE9rCN1KCl0QCG": {
+          "text": "Una lágrima de diablo."
+        },
+        "JyhRthzSQ4c0z9hP": {
+          "text": "Un huevo con un castillo en miniatura en su interior."
+        },
+        "1496ySJPknths6xD": {
+          "text": "Una flor que solo florece cuando el tiempo se detiene."
+        },
+        "kZfaE4NSb6ruUpT5": {
+          "text": "Un regalo de la gemela de la saga."
+        },
+        "0XPAf0gRhSbTCc3U": {
+          "text": "El peor juego de palabras del multiverso."
+        },
+        "vsfZiHIfG3brm2Gg": {
+          "text": "Uno de los dientes perdidos de la saga."
+        },
+        "KyKLfuLl6KkxRM1y": {
+          "text": "Nieve de la cima del Monte Celestia."
+        },
+        "foIrPsiOYlXVyNO5": {
+          "text": "Una estrella arrancada del cielo."
+        },
+        "7XHxDXGLswyX3JoZ": {
+          "text": "Un hilo de las vestiduras de la Dama del Dolor."
+        }
+      }
+    },
+    "mmAssassinModusO": {
+      "name": "Modus operandi de asesino",
+      "results": {
+        "RFjJMb5uGR7BXSc3": {
+          "text": "Colocan a sus víctimas en composiciones artísticas."
+        },
+        "nQra2oYCY0Lod7vt": {
+          "text": "Se ocultan dentro de objetos grandes, como armaduras o muebles huecos."
+        },
+        "N95t1eSrDkFGrTxo": {
+          "text": "Dejan tras de sí un objeto distintivo, como una tarjeta de visita, una flor, una concha o un diente."
+        },
+        "n5OlIVHDoBRLJbzp": {
+          "text": "Se hacen pasar por celebridades, personas santas o sirvientes."
+        },
+        "a4ITSHQRFuICUYZw": {
+          "text": "Toman trofeos de sus víctimas."
+        },
+        "WOVhnLftcZgoBz41": {
+          "text": "Usan veneno con un color u olor distintivo."
+        }
+      }
+    },
+    "mmBanditMotivati": {
+      "name": "Motivaciones de bandidos",
+      "results": {
+        "P6HS64jiV1fDBJxh": {
+          "text": "Solo lucha contra opresores."
+        },
+        "DQeWlsD3jSXWbmzI": {
+          "text": "Es un exsoldado descartado por su nación que ahora toma lo que se le prometió."
+        },
+        "IH0BStje8oocjh7M": {
+          "text": "Forma parte de una banda que ve a quienes no son miembros como enemigos."
+        },
+        "uuI2anAewavmx8Ls": {
+          "text": "Sirve con dudas a un líder villano."
+        },
+        "VYJeyMFZbVkCUqsZ": {
+          "text": "Trabaja en secreto para un gobierno o gobernante regional con el fin de sembrar el caos."
+        },
+        "JHScVrRWr1yW7rtJ": {
+          "text": "Toma lo que necesita para sobrevivir."
+        }
+      }
+    },
+    "mmBansheeSorrows": {
+      "name": "Penas de banshee",
+      "results": {
+        "xAWwE18CFDZjRen1": {
+          "text": "Aparece antes de la muerte de un miembro de la familia."
+        },
+        "NB5Ek6cQVdko92a8": {
+          "text": "Embrujece el lugar donde fue ejecutada."
+        },
+        "MlbwbDNrkQuWBFOd": {
+          "text": "Lamenta un amor perdido y embrujece su tumba."
+        },
+        "qYGMqtsGfIo7K0gO": {
+          "text": "Presagia un desastre o una tragedia."
+        },
+        "9l8cGmzi5LNJkGes": {
+          "text": "Busca la devolución de un tesoro robado."
+        },
+        "0voY6bd18YxzEpJc": {
+          "text": "Mata a quienes son más hermosos de lo que ella fue en vida."
+        }
+      }
+    },
+    "mmBlackPuddingSo": {
+      "name": "Orígenes del pudín negro",
+      "results": {
+        "N2g205i4v4xQTZ8g": {
+          "text": "La saliva ácida de un dragón negro anciano."
+        },
+        "JhJk4p1HLhDqii0m": {
+          "text": "La sangre o las emociones extremas de una deidad corrupta."
+        },
+        "q0dsQ2iZuHDGIL19": {
+          "text": "Entropía cósmica o fuerzas planares ruinosas."
+        },
+        "l3JipyYaUP4EHhj5": {
+          "text": "Una maldición que transformó a un tirano olvidado."
+        },
+        "27oy8zFpQSEaph27": {
+          "text": "Magia prohibida o industrializada."
+        },
+        "DZetKNmye6mpUnUp": {
+          "text": "Material necrótico animado por espíritus sin rumbo."
+        }
+      }
+    },
+    "mmBlightSeedCrea": {
+      "name": "Criatura semilla de plaga"
+    },
+    "mmBlobOfAnnihila": {
+      "name": "Contenido de la masa de aniquilación",
+      "results": {
+        "5SJCp0NyJ00hq7gB": {
+          "text": "Un Amuleto de los planos."
+        },
+        "JuL41h425HwhtBLl": {
+          "text": "Un Artefacto a elección del DM."
+        },
+        "4vAxCUMppYg2ty3n": {
+          "text": "Los cadáveres de dos dioses que estaban enzarzados en batalla cuando la masa los consumió."
+        },
+        "RgG1B5PmZ7quv6P5": {
+          "text": "Un Cubo portal."
+        },
+        "Xs4NL6Hot4DG5Y3L": {
+          "text": "Una Baraja de muchas cosas."
+        },
+        "5uue66o6g86fMYLh": {
+          "text": "Una llave mágica que abre una puerta en Sigil que ninguna otra llave ni conjuro puede abrir."
+        },
+        "f80UK8HiMZn5woEl": {
+          "text": "El cadáver preservado de un empíreo."
+        },
+        "oaHOaQcKzaRaGeil": {
+          "text": "Los restos de medio kraken."
+        },
+        "8vQkEERHrB4Dh2gV": {
+          "text": "El cráneo de un dios de la muerte."
+        },
+        "0ONjvijnYvcqSJ2u": {
+          "text": "Una tarasca que acaba de morir."
+        }
+      }
+    },
+    "mmBoneDevilObjec": {
+      "name": "Objetivos del diablo óseo",
+      "results": {
+        "ikaUwDHt1XLAqvsm": {
+          "text": "Capturar un alma que escapó de los Nueve Infiernos."
+        },
+        "mv1qIs0oDeiQ8Ju7": {
+          "text": "Transmitir un mensaje o dar ejemplo con alguien en nombre de un archidiablo."
+        },
+        "lifOpuj5JH2oltNh": {
+          "text": "Encontrar a alguien que rompió un trato con un diablo."
+        },
+        "FE7Vw7YYVumbIxRD": {
+          "text": "Matar a alguien o robar algo como parte de su pacto con un usuario de magia malvado."
+        }
+      }
+    },
+    "mmCambionOrigins": {
+      "name": "Orígenes de cambion",
+      "results": {
+        "R93N7gpegAty8Z1m": {
+          "text": "Ser poseído por un ser infernal."
+        },
+        "CmAN4RpmUVueNqIM": {
+          "text": "Ser resucitado por un usuario de magia malvado."
+        },
+        "tg0hyxxYiprtMHCq": {
+          "text": "Exposición prolongada a un Plano Inferior."
+        },
+        "AJmZ5w1dw1yodaED": {
+          "text": "Hacer un trato con un Infernal."
+        },
+        "fxk4ydP99xhMDBM6": {
+          "text": "Sufrir la maldición de un dios."
+        },
+        "Qhq2593K838CdN9M": {
+          "text": "Participar en rituales infernales."
+        }
+      }
+    },
+    "mmChainDevilMask": {
+      "name": "Máscaras del diablo de las cadenas",
+      "results": {
+        "HatopZ0I2USRyeq9": {
+          "text": "El cadáver de un ser querido."
+        },
+        "mgPnQdBkP0nQAvn4": {
+          "text": "Una deidad desaprobadora."
+        },
+        "klzIiqfDGjTNRxJ6": {
+          "text": "Un instructor o superior severo."
+        },
+        "sYpHhxUueDRUGp0i": {
+          "text": "El observador en su momento más bajo de la vida."
+        }
+      }
+    },
+    "mmClayGolemOrder": {
+      "name": "Órdenes de gólem de arcilla",
+      "results": {
+        "fNNTzloL2LxNmiZW": {
+          "text": "Bloquear el paso de cualquiera que entre en un lugar con un arma desenvainada."
+        },
+        "h7HCEPFRESvH3Lbn": {
+          "text": "Defender a cualquier miembro de la familia o comunidad de su creador que se vea amenazado ante su vista."
+        },
+        "9jTNMQ7lv5xLmBGb": {
+          "text": "Impedir que cualquier Infernal cruce un puente."
+        },
+        "YxtPrTqRyW8s30lq": {
+          "text": "Expulsar a cualquiera que entre en el taller de su creador."
+        }
+      }
+    },
+    "mmCultSymbols000": {
+      "name": "Símbolos de culto",
+      "results": {
+        "eQczyapVgw7ghsTk": {
+          "text": "<strong>El símbolo es</strong> un signo alquímico"
+        },
+        "4oIX4xma6hijPwE6": {
+          "text": "<strong>El símbolo es</strong> un animal"
+        },
+        "fcyw9aY2fTv8mrTm": {
+          "text": "<strong>El símbolo es</strong> un cuerpo celeste"
+        },
+        "gqSsMfDy9DztmaSz": {
+          "text": "<strong>El símbolo es</strong> el icono de una deidad"
+        },
+        "5zaCTpcKidkYorWk": {
+          "text": "<strong>El símbolo es</strong> un elemento"
+        },
+        "2xAo3aoUEkwxwC3z": {
+          "text": "<strong>El símbolo es</strong> un ojo"
+        },
+        "TFv0puJU2TvwU1OQ": {
+          "text": "<strong>El símbolo es</strong> una forma geométrica"
+        },
+        "M8I7xAjYvyqpA0Wc": {
+          "text": "<strong>El símbolo es</strong> una letra o número"
+        },
+        "gjZxheaidEWJUl9D": {
+          "text": "<strong>El símbolo es</strong> parte de un monstruo"
+        },
+        "nJYYkFvrhChec7AR": {
+          "text": "<strong>El símbolo es</strong> una calavera"
+        }
+      }
+    },
+    "mmCultSymbolsDep": {
+      "name": "Símbolos de culto - Representaciones",
+      "results": {
+        "t3VojlQ9SYzOjIMv": {
+          "text": "<strong>Representado como</strong> un calendario o mapa"
+        },
+        "Ylv022xuwXYJrWuR": {
+          "text": "<strong>Representado como</strong> un blasón o como heráldica"
+        },
+        "tylGJqzFMxCXO73y": {
+          "text": "<strong>Representado como</strong> un diagrama elaborado"
+        },
+        "HbZIvVuVExJA3yIe": {
+          "text": "<strong>Representado como</strong> una imagen metafórica"
+        },
+        "lN5FL7K5EX5PXhtn": {
+          "text": "<strong>Representado como</strong> un ser místico"
+        },
+        "Zn4AbkPDI5QeQtRO": {
+          "text": "<strong>Representado como</strong> parte de una ecuación"
+        },
+        "2j1BqinU8Kikszlh": {
+          "text": "<strong>Representado como</strong> un patrón repetido"
+        },
+        "9ohj5XnC7WrKWkba": {
+          "text": "<strong>Representado como</strong> una serie de arañazos"
+        },
+        "uOyVZ4gOm4nevqc6": {
+          "text": "<strong>Representado como</strong> un pictograma sencillo"
+        },
+        "xwLKWhviEaJF0bJU": {
+          "text": "<strong>Representado como</strong> un arma o herramienta"
+        }
+      }
+    },
+    "mmCultistAgendas": {
+      "name": "Agendas de sectarios",
+      "results": {
+        "UwUlUq22vqaHpJYD": {
+          "text": "Provocar el fin de un orden dominante, una era o el mundo."
+        },
+        "kckXc48lcginZV84": {
+          "text": "Expandir su fe mediante control mental o coacción sobrenatural."
+        },
+        "xmkSIL75zYlZg1Ms": {
+          "text": "Quemar las cómodas mentiras de la realidad, revelando verdades olvidadas o terribles."
+        },
+        "DeMekjWF01X9Vos6": {
+          "text": "Provocar cambios globales, como hundir la tierra o despertar volcanes."
+        },
+        "E0ieDl2Q0wzVbIHe": {
+          "text": "Rehacer la vida a escala masiva, alterando los cuerpos de otras criaturas o seres espirituales."
+        },
+        "I1S7y6w3I0ybD6lN": {
+          "text": "Invocar a su deidad o a su heraldo, arma o reino en su mundo."
+        }
+      }
+    },
+    "mmDeathDogMalady": {
+      "name": "Síntomas de la enfermedad del perro de la muerte",
+      "results": {
+        "DochhAnVHJtNR1xw": {
+          "text": "Que aparezcan marcas de mandíbulas caninas en el cuerpo de la víctima, como si siguieran despedazándola."
+        },
+        "4QlZg4PKY3B2kChI": {
+          "text": "Que el cuerpo de la víctima se marchite, como si estuviera constantemente expuesto al calor del desierto."
+        },
+        "IK42eVByiHDohfE2": {
+          "text": "Que la víctima se distraiga con aullidos lejanos o susurros vagos que solo ella puede oír."
+        },
+        "vGQr4b0nBFwFd75t": {
+          "text": "Que la carne de la víctima se pudra como un cadáver."
+        },
+        "EcUHfdPT4ptOg2Z1": {
+          "text": "Que la víctima sienta picor, como si tuviera pulgas o arena bajo la piel."
+        },
+        "FGs8O5pWTFQVX0n5": {
+          "text": "Que símbolos perversos aparezcan gradualmente y se extiendan por el cuerpo de la víctima."
+        }
+      }
+    },
+    "mmDemonicUnderta": {
+      "name": "Empresas demoníacas",
+      "results": {
+        "eBcobfsU7Xs0A7rW": {
+          "text": "Abrir una cámara acorazada por la fuerza y robar lo que haya dentro."
+        },
+        "txZrC4Ta8ECfddRx": {
+          "text": "Profanar un lugar con símbolos blasfemos y vísceras demoníacas."
+        },
+        "wWhggL3Il61UlaR6": {
+          "text": "Traer o proporcionar de otro modo materiales para un ritual profano."
+        },
+        "pQfPFlx4ABBDfhoY": {
+          "text": "Vigilar un lugar y matar a cualquiera que se acerque."
+        },
+        "Da4oTMsvGs1uUWA4": {
+          "text": "Dar caza a un enemigo, destruyendo todo lo que bloquee el camino del demonio."
+        },
+        "jES0Oyx0pGhVMnV7": {
+          "text": "Intimidar a alguien para que obedezca órdenes."
+        }
+      }
+    },
+    "mmDevaMessages00": {
+      "name": "Mensajes de deva",
+      "results": {
+        "rg6mTit0sPc1KeaL": {
+          "text": "El cadáver de un héroe que necesita redención."
+        },
+        "02Ab4xOQqsjqE6h4": {
+          "text": "La cura para una plaga en una tierra lejana."
+        },
+        "Nd5H06BzGz9PDAeX": {
+          "text": "Un cofre sagrado que no debe abrirse."
+        },
+        "EMaxq2gMDxa8Qmqx": {
+          "text": "Un arma mágica que solo puede usar un verdadero héroe."
+        },
+        "jhXBQqc4zP0LKPT6": {
+          "text": "Un plantón que se marchita si se expone a la ira."
+        },
+        "hamgak54F7PbWWCM": {
+          "text": "Alguien de otro mundo con un propósito profetizado pero sin recuerdos."
+        }
+      }
+    },
+    "mmDoppelgangerDe": {
+      "name": "Engaños de doppelganger",
+      "results": {
+        "Fk7ie0AKIqnueZT3": {
+          "text": "Causar caos en el templo de una deidad que lo maldijo a vivir sin una forma verdadera."
+        },
+        "9ZyqNuKTuDVKhj1U": {
+          "text": "Ocultar pruebas de una vasta conspiración."
+        },
+        "6lzIhw9rphPjKDsW": {
+          "text": "Controlar una comunidad mediante el miedo haciéndose pasar por un coco legendario."
+        },
+        "xSaolngUQ3vi6y92": {
+          "text": "Reemplazar a un noble para disfrutar de un estilo de vida decadente."
+        },
+        "dDnReUi6TT0Cq6Yi": {
+          "text": "Espiar a magos para aprender a completar su propia creación mágica fallida."
+        },
+        "CvndeaNbVYJM7jtU": {
+          "text": "Ocupar un puesto influyente, actuando como agente durmiente de una invasión de doppelgangers."
+        }
+      }
+    },
+    "mmDracolichSoulG": {
+      "name": "Receptáculos de gema del alma de dracolich",
+      "results": {
+        "1KvZPV1zkOhfKJt8": {
+          "text": "El tesoro acumulado de otro dragón."
+        },
+        "nKDv3drNw0BcVkrn": {
+          "text": "El cuerpo de un sirviente o de un antepasado."
+        },
+        "Wo2cgr06NaKnEWi0": {
+          "text": "El núcleo del tesoro acumulado fundido de un dracolich."
+        },
+        "iORjAgIFKIqZeGg5": {
+          "text": "Un huevo de dragón corrompido."
+        },
+        "xLhWgpnJyz6OXAkh": {
+          "text": "Un cuerno de dragón que un héroe tomó como trofeo."
+        },
+        "WM1TMuveZm7j4N4J": {
+          "text": "El tesoro real o religioso de una nación."
+        },
+        "kN4f0Mia7r4M9nl7": {
+          "text": "Un objeto mágico poderoso."
+        },
+        "730KUsXPkfRtAMeH": {
+          "text": "Una fuente de maravillas mágicas, como un árbol gigante o una poza mística."
+        },
+        "9pM6mrG2Xfol7AEA": {
+          "text": "La cámara acorazada de un archidiablo, un dios perverso u otro villano extraplanar."
+        },
+        "8mBZsvq9S94y6aYy": {
+          "text": "El arma que mató al dracolich."
+        }
+      }
+    },
+    "mmDriderMetamorp": {
+      "name": "Metamorfosis de drider",
+      "results": {
+        "rYUbVKbxr8w0G9qq": {
+          "text": "Una bendición de una deidad de asesinos, parajes peligrosos o la Infraoscuridad."
+        },
+        "yLzNv4NA0TjjXrGQ": {
+          "text": "Una maldición de una saga poderosa, una bruja vengativa o un Artefacto extraño."
+        },
+        "u8yuUpG7wKHa4R3N": {
+          "text": "Un experimento de un aboleth, un azotamentes u otro usuario de magia modeladora de vida."
+        },
+        "vPtDMzytT38lWEQ6": {
+          "text": "Un medio mágico para escapar de un desastre o de un destino peor."
+        },
+        "OrpHy0fZiSxP6a46": {
+          "text": "Una mutación tras la exposición a energías planares caóticas o radiaciones extrañas de la Infraoscuridad."
+        },
+        "Z2YwJ994Y3w6RNKH": {
+          "text": "Un castigo de un dios rencoroso, como Lolth o la Reina del Aire y la Oscuridad."
+        }
+      }
+    },
+    "mmDruidTradition": {
+      "name": "Tradiciones druídicas",
+      "results": {
+        "Jc5DwjoMK5miFwtH": {
+          "text": "Un vengador que ataca a civilizaciones destructivas y a quienes abusan de la naturaleza."
+        },
+        "DplgjRh8Ki4xNzvk": {
+          "text": "Un guía que ayuda a viajeros a orientarse por los reinos de las Bestias, las Hadas o las Plantas."
+        },
+        "bxJbPidfslSIDu4q": {
+          "text": "Un ermitaño que trabaja en solitario para proteger las tierras, mares o cielos que llama hogar."
+        },
+        "FrLpbDSxgzSAJqH7": {
+          "text": "Un reparador que viaja por el mundo sanando desastres naturales, mágicos o manufacturados."
+        },
+        "EXJ1L6P9qDBZFBNX": {
+          "text": "Parte de una organización laxa que observa rituales ancestrales y guarda secretos naturales."
+        },
+        "lG6KV8I4cMdA9kQn": {
+          "text": "Un guardián que vigila los cimientos de la realidad y protege contra amenazas extraplanares."
+        }
+      }
+    },
+    "mmDryadSanctuari": {
+      "name": "Santuarios de dríades",
+      "results": {
+        "tKmmFGZQdT2EaDsS": {
+          "text": "Una colonia clonal de varios acres: un conjunto de árboles idénticos e interconectados."
+        },
+        "zKONKFuX7wQwwmoW": {
+          "text": "Un árbol semejante a una fortaleza, como un baobab o una secuoya."
+        },
+        "YDthkGHEM9ASykl1": {
+          "text": "Una cerradura viviente: una planta que sella un mal bajo tierra o bloquea el paso a una mazmorra."
+        },
+        "Ivccc3ktzBVHekED": {
+          "text": "Un árbol solitario que se alza en lo alto de una montaña azotada por el viento o en medio de un bosque petrificado."
+        },
+        "bJ1tnRjW4g7pxUdj": {
+          "text": "Una planta con frutos mágicos o semillas extraordinarias."
+        },
+        "WFUlHcdGSFMxn7Q6": {
+          "text": "Un montículo reptante o ent en el que la dríade vive o alrededor del cual vive como simbionte feérico."
+        }
+      }
+    },
+    "mmEarthElemental": {
+      "name": "Composiciones de elemental de tierra",
+      "results": {
+        "0uGe9G95bIpq87Ao": {
+          "text": "Formaciones minerales coloridas."
+        },
+        "RiAeouWJ8wtVdF0q": {
+          "text": "Magma enfriado en montones fundidos."
+        },
+        "bMGcJ63zZXE3QVk3": {
+          "text": "Hierba, musgo o raíces de plantas."
+        },
+        "GYD8sBKjc9OGStPX": {
+          "text": "Montones de turba o materia en descomposición."
+        },
+        "cijuX3qrfXzVcCq2": {
+          "text": "Montículos de arena salpicados de conchas."
+        },
+        "6njEtprbQ5HPTIbK": {
+          "text": "Escombros o fragmentos de una estructura en ruinas."
+        },
+        "RiyP9Ho0M1xL2qnn": {
+          "text": "Estrías o bandas de color llamativas."
+        },
+        "kzymEsKqIQSzwT3y": {
+          "text": "Vetas de hierro u otro mineral."
+        }
+      }
+    },
+    "mmElementalAlter": {
+      "name": "Alteraciones elementales",
+      "results": {
+        "t835RWtRZvoMhTLy": {
+          "text": "Aumento o descenso drástico de la temperatura."
+        },
+        "6ERWNnxqdP3hEohR": {
+          "text": "Arrecife de coral gigantesco o bosque fúngico."
+        },
+        "fgB5AAyvUT1m2lrS": {
+          "text": "Tormenta o remolino interminable."
+        },
+        "Xhs0MXKTdyAEJ2HS": {
+          "text": "Paso a la Infraoscuridad o portal a un Plano Elemental."
+        },
+        "M34YzuM8lr62C9ba": {
+          "text": "Población animal primigenia o previamente extinta."
+        },
+        "4uIDFZY254cLXBfw": {
+          "text": "Selva tropical de crecimiento rápido."
+        },
+        "hNQNR7vWaJwqtHUt": {
+          "text": "Río donde antes no había ninguno."
+        },
+        "uI6jaj6347h5siw8": {
+          "text": "Serie de formaciones rocosas espectaculares."
+        }
+      }
+    },
+    "mmEmpyreanInflue": {
+      "name": "Influencias empíreas",
+      "results": {
+        "p0BnIzXCVWxZdv0q": {
+          "text": "Equilibradas, naturalistas o sugerentes de ojos vigilantes."
+        },
+        "kP77JLLKwc1bMCmv": {
+          "text": "Coloridas, sombrías o fluidas, o que varían según quien las mira."
+        },
+        "HAVmjeW2bxNJTOqi": {
+          "text": "Reconfortantes y suaves, o que recuerdan a los observadores recuerdos agradables."
+        },
+        "W6SuEPaj7D0zsjoC": {
+          "text": "Partes desconectadas, pensamientos visibles o formas errantes."
+        },
+        "5RtuhBpZPxHV3FPg": {
+          "text": "Mecánicas, estoicas, simétricas o sugerentes de juicio."
+        },
+        "UtbJFZw3uQQsUmad": {
+          "text": "Mórbidas, amenazantes o monstruosas, o que encarnan los miedos del observador."
+        }
+      }
+    },
+    "mmEttinInteracti": {
+      "name": "Interacciones de ettin",
+      "results": {
+        "CrS7ZejzBgGq0kAX": {
+          "text": "Se animan mutuamente preparándose para un conflicto o desafío."
+        },
+        "fS9fba5sXCAhVn61": {
+          "text": "Discuten sobre planes para la batalla, la cena o cómo pasar el día."
+        },
+        "E7TV16oWGZFwrF3w": {
+          "text": "Se critican mutuamente mientras realizan tareas separadas."
+        },
+        "dYXOnob7CLVyzCni": {
+          "text": "Están enfrascados en un concurso de miradas."
+        },
+        "0swq0I52VXZN9a1V": {
+          "text": "Mantienen una conversación educada como si se acabaran de conocer."
+        },
+        "TyDdd1RyAr1q6bEq": {
+          "text": "Se ignoran mutuamente de forma teatral."
+        },
+        "CmRGuJC6wzM6DPfZ": {
+          "text": "Hablan por encima de una trama cada vez más enrevesada."
+        },
+        "Da6gNfoDkWU7C4KG": {
+          "text": "Intentan mantenerse despiertos el uno al otro."
+        }
+      }
+    },
+    "mmFireElementalC": {
+      "name": "Composiciones de elemental de fuego",
+      "results": {
+        "ZUAQEqjpkB0V8VDy": {
+          "text": "Gases coloridos y sobrecalentados."
+        },
+        "gFQuNvAW1CpFB8eU": {
+          "text": "Una columna de llama diabólica o divina."
+        },
+        "DtRNirvI03cC8u84": {
+          "text": "Formas crepitantes que parecen animales, infernales, esqueletos, duendes u otros seres."
+        },
+        "XzM6h5LVx70Qpocf": {
+          "text": "Llamas predominantemente blancas, azules o de un color más inusual."
+        },
+        "av3troXemZCZ4eTl": {
+          "text": "La forma de un humanoide sereno o atormentado."
+        },
+        "RojbNcb8FeK0Sk7N": {
+          "text": "Humo que forma figuras o símbolos inquietantes."
+        },
+        "W9kQuOS9gQmlV53R": {
+          "text": "Hollín que huele a cedro, clavo, incienso o carne quemada."
+        },
+        "EHuYXEMdKEqi3w3c": {
+          "text": "Remolinos de cenizas y restos ardientes."
+        }
+      }
+    },
+    "mmFlameskullDeta": {
+      "name": "Detalles de cráneo flamígero",
+      "results": {
+        "L2j8OeuJZRfHLROG": {
+          "text": "Diagramas arcanos grabados en él."
+        },
+        "8k1GqUlyN19pkqaH": {
+          "text": "Llamas que parecen rasgos dramáticos, cuernos o pelo."
+        },
+        "WanSOct44HJDbdjl": {
+          "text": "Fragmentos fracturados que vuelan al unísono."
+        },
+        "RKhuXxCikQmBI7BO": {
+          "text": "Una placa de hierro atornillada sobre su boca."
+        },
+        "QLBdWi0iuqZaCOiJ": {
+          "text": "Traumatismo craneal letal."
+        },
+        "haG2lCcntA5gInaK": {
+          "text": "Dientes animales desparejados."
+        }
+      }
+    }
+  }
 }
