@@ -1,10 +1,10 @@
 /**
- * phb2024ActorDetails
+ * mm2024ActorDetails
  * - Aplica traducción al bloque system.details del Actor
  * - Pensado para mapping:
- *   "details": { "path": "system.details", "converter": "phb2024ActorDetails" }
+ *   "details": { "path": "system.details", "converter": "mm2024ActorDetails" }
  */
-export function phb2024ActorDetails(source, translation) {
+export function mm2024ActorDetails(source, translation) {
     if (!source || typeof source !== "object" || !translation || typeof translation !== "object") {
         return source;
     }

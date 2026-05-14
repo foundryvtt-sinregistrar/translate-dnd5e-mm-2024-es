@@ -1,4 +1,4 @@
-export function phb2024AdvancementById(source, translation) {
+export function mm2024AdvancementById(source, translation) {
   if (!Array.isArray(source) || !translation || typeof translation !== "object") return source;
 
   const out = source.map(a => foundry.utils.deepClone(a));

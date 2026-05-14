@@ -1,4 +1,4 @@
-export function phb2024MergeEffects(source, translation) {
+export function mm2024MergeEffects(source, translation) {
   if (!Array.isArray(source) || !translation) return source;
 
   const byId = {};
