@@ -807,6 +807,820 @@
           "text": "Dientes animales desparejados."
         }
       }
+    },
+    "mmFleshGolemChar": {
+      "name": "Características de gólem de carne",
+      "results": {
+        "pxYsMhfHF0uEBqJl": {
+          "text": "Partes animales entre sus piezas humanoides."
+        },
+        "wmrhasU260AjB73I": {
+          "text": "Un disfraz de maquillaje y ropa gruesa."
+        },
+        "zeyvhIiHbrKbXJCe": {
+          "text": "Partes ausentes e interiores expuestos."
+        },
+        "LKoJB4QWtoOC4NpH": {
+          "text": "Partes que cumplen funciones imprevistas, como un cuerpo compuesto por docenas de manos."
+        },
+        "mPAVCsLp5gLKoK7l": {
+          "text": "Rasgos perfectos realzados por hermosas suturas."
+        },
+        "0NraGWSZQwEu1bbA": {
+          "text": "Mecanismos, fuelles y motores visibles."
+        }
+      }
+    },
+    "mmFlumphAssistan": {
+      "name": "Ayuda de flumph",
+      "results": {
+        "M4nFuJCRrFBvHbNB": {
+          "text": "Cocinar una comida con manjares de la Infraoscuridad."
+        },
+        "UmfZqmwzefJvlOhw": {
+          "text": "Interpretar una canción psíquica o un «poema de olores»."
+        },
+        "apOPDSi6G9jm85iz": {
+          "text": "Recuperar y cuidar a aventureros caídos."
+        },
+        "DgTMou45FD8RIxMW": {
+          "text": "Revelar la ubicación de objetos mágicos útiles."
+        },
+        "bAX4MaTDAyr5y1WJ": {
+          "text": "Servir de guía hasta la guarida oculta de un enemigo."
+        },
+        "Sm5mCCBg6EpB4a35": {
+          "text": "Compartir ánimo y elogios en exceso."
+        }
+      }
+    },
+    "mmFlumphColorsAn": {
+      "name": "Colores y emociones de flumph",
+      "results": {
+        "9p8Pf9anyTSvImRT": {
+          "text": "<strong>Color:</strong> Azul oscuro <strong>Emoción:</strong> Tristeza"
+        },
+        "Ekkl24GHYgQetWpb": {
+          "text": "<strong>Color:</strong> Azul claro <strong>Emoción:</strong> Felicidad"
+        },
+        "9AoJUhM5YIsiTlD4": {
+          "text": "<strong>Color:</strong> Verde <strong>Emoción:</strong> Curiosidad"
+        },
+        "1UqJnceyMVFejl3k": {
+          "text": "<strong>Color:</strong> Magenta <strong>Emoción:</strong> Desconocida*"
+        },
+        "dOxULJYWr5pU6aZB": {
+          "text": "<strong>Color:</strong> Naranja <strong>Emoción:</strong> Confusión"
+        },
+        "15ZecgYVuqskC5l3": {
+          "text": "<strong>Color:</strong> Rosa <strong>Emoción:</strong> Diversión"
+        },
+        "Y5Paey5LhI7CqLXu": {
+          "text": "<strong>Color:</strong> Púrpura <strong>Emoción:</strong> Miedo"
+        },
+        "jfz28rPJcPVsuNTT": {
+          "text": "<strong>Color:</strong> Rojo <strong>Emoción:</strong> Ira"
+        },
+        "rPN4Zr8Lh5inTfa5": {
+          "text": "<strong>Color:</strong> Verde azulado <strong>Emoción:</strong> Serenidad"
+        },
+        "K4i4jXAypmNuOVsw": {
+          "text": "<strong>Color:</strong> Amarillo <strong>Emoción:</strong> Entusiasmo"
+        }
+      }
+    },
+    "mmFomorianWarpin": {
+      "name": "Deformaciones fomorianas",
+      "results": {
+        "24OZcBJSJA6Q6zK6": {
+          "text": "Pústulas coloridas y errantes."
+        },
+        "3f3pFxKBJTFjHvuW": {
+          "text": "Sudoración excesiva de fluidos con tonos de arcoíris."
+        },
+        "rUcMJZ6QLUoem1Zl": {
+          "text": "Mechones de pelo que se retuercen."
+        },
+        "kxOOdq5G1SlZNEB7": {
+          "text": "Venas que se abultan y se agitan bajo la piel."
+        }
+      }
+    },
+    "mmForagerAnimalL": {
+      "name": "Apariencias de señor animal recolector",
+      "results": {
+        "WOsfmffUgQr8Bsxt": {
+          "text": "Oso"
+        },
+        "pK8k6JEjlpN9lrw0": {
+          "text": "Abeja"
+        },
+        "Sc0e3tLlbwBnJmUP": {
+          "text": "Bisonte"
+        },
+        "9IKATqDf1qnGeduN": {
+          "text": "Capibara"
+        },
+        "ieVuDhCYp1sUnZoJ": {
+          "text": "Carpa"
+        },
+        "5eSZEt0mXr469RYf": {
+          "text": "Conejo"
+        },
+        "BhX8vOuupHOpKxYr": {
+          "text": "Gallo"
+        },
+        "tkM1mN6JI7rdZ5GF": {
+          "text": "Perezoso"
+        },
+        "CPIM4fTB2UQMlkkI": {
+          "text": "Ciervo"
+        },
+        "5MZjy6v6K3uO5Ih5": {
+          "text": "Buitre"
+        }
+      }
+    },
+    "mmGargoyleCamouf": {
+      "name": "Camuflaje de gárgola",
+      "results": {
+        "Ubrzr6YNB9yAds1R": {
+          "text": "Nudos y corteza en un árbol gigante."
+        },
+        "FjgdmlpMDfDFCiLh": {
+          "text": "Monumentos en un cementerio o memorial."
+        },
+        "qb8auFe1ur7C5mbD": {
+          "text": "Salientes en un acantilado o formación rocosa."
+        },
+        "Z3nCF60zrUlSJbjW": {
+          "text": "Relieves en una puerta o muro esculpidos."
+        },
+        "j0FMnithyBeBQG6C": {
+          "text": "Las víctimas petrificadas de un basilisco o una medusa."
+        },
+        "hQjQPV8BhULv29Ei": {
+          "text": "Escombros en una ruina o chatarrería."
+        },
+        "bchWZJUVbYbRTjV0": {
+          "text": "Estatuaria en un castillo, mansión o templo."
+        },
+        "sTf2Jh7zDFbbKVZa": {
+          "text": "Estalactitas o carámbanos en el techo de una caverna."
+        }
+      }
+    },
+    "mmGargoyleSculpt": {
+      "name": "Esculturas de gárgola",
+      "results": {
+        "ylPTkeQBO5zu0giK": {
+          "text": "Querubínica, con rasgos que sonríen perpetuamente."
+        },
+        "uD9mqY0abfnw5Ail": {
+          "text": "Toscamente tallada o formada de manera natural."
+        },
+        "llGoUDmdhkqyZQ0q": {
+          "text": "Dañada o afeada por piezas desparejadas."
+        },
+        "za5ClXnbIGzNhWeP": {
+          "text": "Dracónica, con escamas de piedra pulida."
+        },
+        "yUZ3zx7Yyb3vKRy9": {
+          "text": "Góticamente infernal, con cuernos y cola."
+        },
+        "L4Ts0nRAIHyPnxPd": {
+          "text": "Útil, como un podio ornamentado o un pilar."
+        }
+      }
+    },
+    "mmGelatinousCube": {
+      "name": "Restos en cubo gelatinoso",
+      "results": {
+        "GhMvBkgo2tRo61aN": {
+          "text": "Cofre o mímico atrapado recientemente."
+        },
+        "3aCF7TJmE1i9tyYf": {
+          "text": "Conjunto de burbujas o rocas que parecen ojos."
+        },
+        "oqxyKvwzSAxqtp2e": {
+          "text": "Llave de una puerta o cofre cercano."
+        },
+        "IxVpwn0yuGxfdk0Q": {
+          "text": "Arma notable que necesita reparación."
+        },
+        "tMCTssJ8dVbjTAaY": {
+          "text": "Esqueleto perteneciente a un aventurero famoso."
+        },
+        "BYDZ2ovjp06IO4fW": {
+          "text": "Tablilla con un mensaje misterioso."
+        }
+      }
+    },
+    "mmGibberingMouth": {
+      "name": "Orígenes de bocón balbuceante",
+      "results": {
+        "w7lQvigqgquoXuZ6": {
+          "text": "Otra criatura deformada por magia peligrosa."
+        },
+        "GSzUwqcm3hHpAwhi": {
+          "text": "El apéndice autónomo de una deidad caótica, una entidad del Reino Lejano o un horror engendro estelar."
+        },
+        "S3eKzR4TUIohHkaW": {
+          "text": "El experimento de un manipulador aberrante."
+        },
+        "UjLRYMXAyEynCQZc": {
+          "text": "Parte del ciclo vital de alguna otra Aberración."
+        },
+        "Iv2ovRnmC6lsX4Mk": {
+          "text": "Un cambiaformas que perdió el control de sus poderes."
+        },
+        "5N9PiXCtkE2wNa0Y": {
+          "text": "Alguien maldito por un culto o una deidad vengativa."
+        }
+      }
+    },
+    "mmGithConflicts0": {
+      "name": "Conflictos gith",
+      "results": {
+        "MwEJtGwpPVaQMRP9": {
+          "text": "Recibe el encargo de entregar un mensaje o paquete misterioso a Vlaakith, la Reina Liche, o de parte de ella."
+        },
+        "dsmYYRy5UthDSQTp": {
+          "text": "Un devorador de intelectos disfrazado lo anima a buscar a un líder gith escurridizo."
+        },
+        "PqnIBTVIjk8xBv8j": {
+          "text": "Se le suplica que ayude a githzerai que huyen de los githyanki que destruyeron su santuario."
+        },
+        "eMk1GeuArT1jdiWr": {
+          "text": "Se le confía renovar o sabotear la alianza de los githyanki con los dragones rojos."
+        },
+        "y3zecRzdm6IdEdOD": {
+          "text": "Es invitado a cazar illitas junto a githyanki."
+        },
+        "lFthEGsOATFObmGs": {
+          "text": "Se le presiona para descubrir a un espía gith en una comunidad planar o en una nave spelljammer."
+        },
+        "O1IYIWVFH26UG2Sf": {
+          "text": "Es enviado en una misión para descubrir la última ubicación conocida del héroe Gith o de Zerthimon."
+        },
+        "FSEpRTi5AKcJOlbd": {
+          "text": "Recibe la tarea de devolver la espada de un caballero githyanki caído al pueblo de ese caballero."
+        }
+      }
+    },
+    "mmGladiatorTheat": {
+      "name": "Teatralidad de gladiador",
+      "results": {
+        "WRFD4BElImEIepw7": {
+          "text": "Dedica su victoria inminente a una deidad, gobernante, noble amado o miembro del público."
+        },
+        "e9AikE6sF1DSmfVL": {
+          "text": "Viste una máscara y una capa con temática monstruosa."
+        },
+        "qJt2DBt4EryymAFM": {
+          "text": "Juzga si su enemigo lucha con honor."
+        },
+        "oOHhIgOFdchzhY5w": {
+          "text": "Dirige al público en una canción temática entusiasta."
+        },
+        "tISy1GZ3b2mndZaO": {
+          "text": "Busca reclamar un trofeo de un enemigo."
+        },
+        "AyTZ6e3wKv7Wf5Kh": {
+          "text": "Acepta consejos del público, de presagios o de una mascota."
+        }
+      }
+    },
+    "mmGorgonCommandK": {
+      "name": "Claves de mando de gorgona",
+      "results": {
+        "Obzt90Aqf5HuPBEy": {
+          "text": "Lanzar un conjuro concreto en presencia de la gorgona."
+        },
+        "IJk6nDSCyvM5kaJ4": {
+          "text": "Dar la espalda a la gorgona o actuar de otra forma como si no vieran al monstruo."
+        },
+        "xCU35PDA5OTceZ4r": {
+          "text": "Ofrecerle un trago de sangre, agua o vino."
+        },
+        "q4oJHTa0UlDQ413M": {
+          "text": "Recitar una rima específica o cantar una canción concreta."
+        },
+        "usvJQ0BaCWfuEiJV": {
+          "text": "Decir al revés el nombre de su creador."
+        },
+        "TKIMgdem6AWQOAJJ": {
+          "text": "Llevar una máscara, quizá con forma de toro o de un animal significativo para el creador de la gorgona."
+        }
+      }
+    },
+    "mmGreenHagBargai": {
+      "name": "Tratos de saga verde",
+      "results": {
+        "UWgSXlZTZY22NfhV": {
+          "text": "Los recuerdos de un negociador sobre un ser querido."
+        },
+        "9gyqOh5ExVHMKeNx": {
+          "text": "El caldero de una saga rival."
+        },
+        "F1Dx4bgrIDq63ZNS": {
+          "text": "Un favor que se cobrará cuando la saga lo desee."
+        },
+        "vFTjr3VQcCsVZQz1": {
+          "text": "Una flor de un jardín oculto del Parajes Feéricos."
+        },
+        "VqOogGCpDgzlT6zo": {
+          "text": "Un regalo entregado libremente por un yugoloth."
+        },
+        "0w1gCHVHwJgkMlnQ": {
+          "text": "Un vial lleno de lágrimas de un gobernante."
+        }
+      }
+    },
+    "mmGrellExplorati": {
+      "name": "Exploraciones grell",
+      "results": {
+        "FxqNw31QOQGLnn0G": {
+          "text": "Virus avanzados, cada uno clon de todos los demás grell. Existen solo para alimentarse y propagarse."
+        },
+        "Zc6X63YOq7fFQdhp": {
+          "text": "Las larvas de otra criatura, y requieren entornos cargados de electricidad para reproducirse."
+        },
+        "cdQ7wfujdlPq9MFr": {
+          "text": "Buscan escapar de alguna catástrofe o terror que acecha en las profundidades."
+        },
+        "yuFbsQDzBM0uEz56": {
+          "text": "Están conectados sobrenaturalmente a voraces seres alienígenas y sirven como sus apéndices alimentarios."
+        },
+        "YhhS7AEOOuErCSsD": {
+          "text": "Vestigios de un mal antiguo que regresará si los grell consumen colectivamente suficientes criaturas."
+        },
+        "4LuNZjvEpZWPULCn": {
+          "text": "Carecen de alma, pero están convencidos de que pueden obtenerla comiendo a ciertos seres."
+        }
+      }
+    },
+    "mmGriffonTales00": {
+      "name": "Leyendas de grifo",
+      "results": {
+        "ZPGCAgogfW216fRT": {
+          "text": "Atacan a cualquier cosa que vuele cerca de sus guaridas."
+        },
+        "QUx8xq6WxuFoT7kJ": {
+          "text": "Maldicen a quienes los matan. Quienes matan a un grifo se ganan la enemistad de todos los animales."
+        },
+        "GOCyRVQenfaITJoq": {
+          "text": "Ponen huevos con propiedades curativas notables."
+        },
+        "EcdvetlFU9hvl865": {
+          "text": "Prefieren el sabor de los caballos por encima del de cualquier otra presa."
+        },
+        "ib346QUfqMdBNUuG": {
+          "text": "Sirven a la primera criatura que ven al nacer."
+        },
+        "f6idHg0ig82SuNSF": {
+          "text": "No atacan a quienes tienen sangre real."
+        }
+      }
+    },
+    "mmGrimlockTasks0": {
+      "name": "Tareas de grimlock",
+      "results": {
+        "tQQQRm9Bp9UXpXAB": {
+          "text": "Excavar cavernas para que sirvan como puestos avanzados illitas."
+        },
+        "qcvmbYhlzWlHfH0H": {
+          "text": "Ocultar la amenaza de los azotamentes bajo viviendas falsas y deliberadamente rudimentarias."
+        },
+        "bz94UrSVb2ffqrTG": {
+          "text": "Fingir ser serviciales y atraer a viajeros hacia una falsa sensación de seguridad."
+        },
+        "tZ0ZcZMq9eUZeViV": {
+          "text": "Asaltar comunidades de la superficie y tentar a otras criaturas para que los persigan hasta trampas illitas."
+        }
+      }
+    },
+    "mmGuardianNagaLo": {
+      "name": "Saber de naga guardián",
+      "results": {
+        "v0PIATNlSroq8GPk": {
+          "text": "Las últimas palabras de un sabio o líder antiguo."
+        },
+        "lDTWcFCbPtpcBP9t": {
+          "text": "La ubicación de una ciudad o continente ocultos."
+        },
+        "X47KcgvgLzMjaogg": {
+          "text": "Una palabra mágica, contraseña o respuesta a un acertijo."
+        },
+        "nW5XyFxnA4t0ApqN": {
+          "text": "Los nombres de todos los que le han contado historias."
+        },
+        "xxNRickr7WlwWY9t": {
+          "text": "Un ritual o conjuro olvidado por todos los demás."
+        },
+        "6Zx5CTaZVMC8Ey9F": {
+          "text": "Recetas con ingredientes regionales."
+        },
+        "IVwufkpbp4JsB3pl": {
+          "text": "Historias de dioses olvidados y espíritus locales."
+        },
+        "ZIj8wsSz67qESkJf": {
+          "text": "Las vulnerabilidades de un monstruo legendario."
+        }
+      }
+    },
+    "mmHelmedHorrorDi": {
+      "name": "Directrices de horror acorazado",
+      "results": {
+        "e4QUCZrL09S2mGt9": {
+          "text": "Transportar por el aire el palanquín de su amo."
+        },
+        "KvShIx0kDHfuIBvD": {
+          "text": "Defender un tesoro notable o una pieza de armadura incorporando ese objeto a su propio ser."
+        },
+        "3x2LkSmqje0RqUAw": {
+          "text": "Imitar a un héroe muerto o encarcelado usando su armadura y sus armas."
+        },
+        "k4oBKTjVFrinVQER": {
+          "text": "Trabajar como obrero o sirviente."
+        },
+        "nu58Gf45EKRzgTMn": {
+          "text": "Servir en una legión formada a partir de las armaduras de los antiguos defensores de una tierra."
+        },
+        "vfx7pv0gwGzX0Bd4": {
+          "text": "Montar guardia en una galería de armaduras ordinarias."
+        }
+      }
+    },
+    "mmHippogriffDest": {
+      "name": "Destinos de hipogrifo",
+      "results": {
+        "w9gCj1tmvg28KFVE": {
+          "text": "Luna, estrella u otro astro que cuelga bajo."
+        },
+        "MHFA0b9dqtCAYM4o": {
+          "text": "Jardín mágico en una isla flotante."
+        },
+        "CO22vvJqGqdw8Ztv": {
+          "text": "Cima montañosa con vistas a un geoglifo gigante."
+        },
+        "jZE07Z5FHECzaRZU": {
+          "text": "Nido lleno de huevos de hipogrifo en lo alto de una aguja."
+        },
+        "nliYMZlInuDWwI95": {
+          "text": "Portal al Parajes Feéricos o a un Plano Superior."
+        },
+        "5u0Rk0eqOWxVChAi": {
+          "text": "Ruina perdida oculta por nubes o niebla."
+        }
+      }
+    },
+    "mmHobgoblinStrat": {
+      "name": "Estrategias de hobgoblin",
+      "results": {
+        "0sgbgJ9EUWNzt2rE": {
+          "text": "Construir una nave para llevar ejércitos hobgoblin a nuevas conquistas."
+        },
+        "DZDbMOYHGziJjc5j": {
+          "text": "Capturar monstruos y entrenarlos para luchar."
+        },
+        "3n7OkKId2ME2tlGX": {
+          "text": "Hundir una región en la Infraoscuridad para cribar riquezas entre las ruinas."
+        },
+        "pRmYl8r8oha8b6fH": {
+          "text": "Construir una máquina gigante para extraer recursos."
+        },
+        "lhHwdc42SbVkriuR": {
+          "text": "Convencer a diablos, dragones u hobgoblins de Aqueronte para que invadan una tierra enemiga."
+        },
+        "KkHiLc2lQ2YZVEkj": {
+          "text": "Ayudar a mercaderes cortos de miras a socavar un gobierno o expoliar el entorno."
+        }
+      }
+    },
+    "mmHomunculusFeat": {
+      "name": "Rasgos de homúnculo",
+      "results": {
+        "j6RywSt9hN2KelxM": {
+          "text": "Murcielaguesco, con alas andrajosas."
+        },
+        "tx2UwcxxC3T4indI": {
+          "text": "Hecho de metal blando y engranajes delicados."
+        },
+        "oXU9qnh2slvoqVen": {
+          "text": "Marcado con el símbolo de su creador."
+        },
+        "lsFvr01uM3inpSHW": {
+          "text": "Similar a los de un humanoide alado."
+        },
+        "oPgadW6ijkQ1jFHs": {
+          "text": "Brotan flores y hojas de él."
+        },
+        "rSP4CSFA9wFqdjaQ": {
+          "text": "Sugiere la apariencia de su creador."
+        },
+        "dvMtYWU4PvRPaDHL": {
+          "text": "Subdesarrollado y carnoso, con ojos pequeños y brillantes."
+        },
+        "ucW7sKYdQuvAKMft": {
+          "text": "Tejido y remendado, como un juguete muy querido."
+        }
+      }
+    },
+    "mmHunterAnimalLo": {
+      "name": "Apariencias de señor animal cazador",
+      "results": {
+        "Me1PD9HUSDD3PrTA": {
+          "text": "Caimán"
+        },
+        "Ji6eyn9sgTMStip3": {
+          "text": "Tejón"
+        },
+        "FaPptSiiDR0nOJJs": {
+          "text": "Murciélago"
+        },
+        "6xvQgghdKhEnyGDO": {
+          "text": "Gato"
+        },
+        "7NUVt3b4K7xmsGkm": {
+          "text": "Halcón"
+        },
+        "SMqmIRr8uKHwBuHv": {
+          "text": "Mangosta"
+        },
+        "pP70uan3bNVd5jfo": {
+          "text": "Mantis religiosa"
+        },
+        "J3SOAGHGILc55G53": {
+          "text": "Tiburón"
+        },
+        "ifq6KgTEVRKkxIv5": {
+          "text": "Serpiente"
+        },
+        "Ib2BdSa5MaIooEZ4": {
+          "text": "Lobo"
+        }
+      }
+    },
+    "mmHydraLairs0000": {
+      "name": "Guaridas de hidra",
+      "results": {
+        "tml2nZDfAKNDVAR1": {
+          "text": "Asegurarse de que nadie reclame el arma de un héroe caído."
+        },
+        "PvuFKVu2G0vhwEhx": {
+          "text": "Defender el hogar de un oráculo sabio pero siniestro."
+        },
+        "chdeycIuBMwCzxXS": {
+          "text": "Custodiar una hierba mágica que florece una vez al año."
+        },
+        "ooBPe5sK6SlYZ2yb": {
+          "text": "Proteger una fuente de veneno que contamina un río."
+        }
+      }
+    },
+    "mmIncubusNightma": {
+      "name": "Pesadillas de íncubo",
+      "results": {
+        "jV3OuGruNiBNV0pP": {
+          "text": "Un familiar o figura de autoridad enfadado."
+        },
+        "Kxs9xm381uTxjqqT": {
+          "text": "Ser perseguido por tierras salvajes."
+        },
+        "TsHxN9YWmXAITN2j": {
+          "text": "Ser devorado por animales o monstruos."
+        },
+        "TS6ab78PS1b2K2rE": {
+          "text": "Caer, ahogarse o asfixiarse."
+        },
+        "H0FEwutKcvoKLGyE": {
+          "text": "Una vergüenza pública ruinosa."
+        },
+        "I4WLZIBdDepXHwhf": {
+          "text": "Un intruso sombrío o una silueta monstruosa."
+        },
+        "voXtAlQjLCxnpiOC": {
+          "text": "Un suceso traumático del pasado."
+        },
+        "kEORPW2ykhHtBdzm": {
+          "text": "Un visitante con un mensaje inquietante o enigmático."
+        }
+      }
+    },
+    "mmIronGolemOrder": {
+      "name": "Órdenes de gólem de hierro",
+      "results": {
+        "E01Ee4RZPlxNVLLp": {
+          "text": "Bloquear una puerta que nunca se ha abierto, moviéndose solo cuando se cumpla una profecía."
+        },
+        "YSKHSygmoX9Fkrws": {
+          "text": "Exhalar gas venenoso siempre que pueda, deteniéndose solo cuando alguien pronuncie una contraseña."
+        },
+        "g1GcAyHAbIhNb4OF": {
+          "text": "Hacerse pasar por estatua hasta la hora de mayor necesidad de una comunidad."
+        },
+        "NyO13gKflaUdgN6d": {
+          "text": "Permanecer sobre el lugar de reposo de un poderoso objeto mágico."
+        }
+      }
+    },
+    "mmJackalwereTric": {
+      "name": "Trucos de chacalántropo",
+      "results": {
+        "EosCwwvqiVfVRQdN": {
+          "text": "Guiarlos hacia tierras salvajes y luego abandonarlos."
+        },
+        "CKjYzZVrK7qQg1JZ": {
+          "text": "Trazar un atajo a través de la guarida de un monstruo."
+        },
+        "6YXKL9hshbUwWGBo": {
+          "text": "Dormirlos y luego robarles monturas o suministros."
+        },
+        "TyNCBhTOlEEKn61p": {
+          "text": "Compartir la ubicación de un tesoro oculto que resulta ser luz solar sobre arena o agua."
+        }
+      }
+    },
+    "mmKrakenAttacks0": {
+      "name": "Ataques de kraken",
+      "results": {
+        "kEWNIaRpvwQDVegX": {
+          "text": "Secuestra la embarcación de un líder u otro miembro importante de la comunidad."
+        },
+        "MJSO5CEF9wEAA64G": {
+          "text": "Ataca una comunidad desde abajo usando ruinas inundadas, acuíferos ocultos o alcantarillas."
+        },
+        "uz4Nk0vNSGLCOhYS": {
+          "text": "Rompe un faro o torre costera, y se lleva la estructura y a sus ocupantes a una isla secreta."
+        },
+        "cRhTZalLWZmFwxvl": {
+          "text": "Invoca relámpagos sobre cualquier barco que entre en su territorio acuático."
+        },
+        "zNLySZDqg6PNNCYI": {
+          "text": "Arrastra barcos hasta un sargazo del que no se puede escapar."
+        },
+        "E5FJz9dmUQsB2O2s": {
+          "text": "Represa un río o corta el acceso marítimo de una ciudad."
+        },
+        "KjisW4oRlcuPZDPs": {
+          "text": "Devora toda la vida marina cerca de una comunidad pesquera, amenazándola con la ruina."
+        },
+        "c85rzKb18Rc3gDqw": {
+          "text": "Orquesta una invasión desde el mar por parte de sirénidos, sahuagin o gigantes de las tormentas."
+        }
+      }
+    },
+    "mmKuotoaFeatures": {
+      "name": "Rasgos de deidad kuo-toa: cuerpo",
+      "results": {
+        "xGFMgEXON74osLDB": {
+          "text": "Cangrejo ermitaño"
+        },
+        "6fwox7T9xYgbp5vV": {
+          "text": "Medusa marina"
+        },
+        "fngMi7aYQsmWvjhT": {
+          "text": "Kuo-toa"
+        },
+        "WDbLsd4rn725sH4s": {
+          "text": "Camarón mantis"
+        },
+        "mST2a0DmcFypiL8Z": {
+          "text": "Sirénido"
+        },
+        "b1A26hG71kAoUhZy": {
+          "text": "Plesiosaurio"
+        },
+        "4k3S6PPvIiqtW3yt": {
+          "text": "Pepino de mar"
+        },
+        "PN0v1VU5CX9cI5Id": {
+          "text": "Mascarón de proa"
+        },
+        "XYpp2qWpKUWbt3nX": {
+          "text": "Calamar"
+        },
+        "aqMezrkwI0JNT8q0": {
+          "text": "Ballena"
+        }
+      }
+    },
+    "mmKuotoaDeityFea": {
+      "name": "Rasgos de deidad kuo-toa: cabeza",
+      "results": {
+        "zzx5nmys2J8nppth": {
+          "text": "Percebe"
+        },
+        "edhVuU8gc3t6ag2z": {
+          "text": "Pinza de cangrejo"
+        },
+        "ow809Ecp9wJv9KCW": {
+          "text": "Mixino"
+        },
+        "UfWEuVYqums0unfU": {
+          "text": "Morena"
+        },
+        "gtXFIbq6FujvvcTT": {
+          "text": "Anémona de mar"
+        },
+        "ow41pljvilQZRDa9": {
+          "text": "Tiburón"
+        },
+        "HMbyRym7Y1qutnHN": {
+          "text": "Pez luna"
+        },
+        "cZqiJtP3Cc7Jqv8D": {
+          "text": "Tentáculo"
+        },
+        "gW6tJ4o9JUosbCZZ": {
+          "text": "Cofre del tesoro"
+        },
+        "pYTLfSxDWy2qChj5": {
+          "text": "Pez víbora"
+        }
+      }
+    },
+    "mmKuotoaRitualSi": {
+      "name": "Lugares rituales kuo-toa",
+      "results": {
+        "5e1QXiM0LhinQwgx": {
+          "text": "Una arena salpicada de armas hechas con caparazones de crustáceos."
+        },
+        "CzHpn7gNLIOUHI9K": {
+          "text": "Una galería de chuuls hibernando."
+        },
+        "NNe2VusEe213LhEs": {
+          "text": "Un jardín de mejillones y criaturas de pozas de marea que susurran secretos."
+        },
+        "LevZJTvlz8E52jm0": {
+          "text": "Un santuario oculto con una representación de retales de una nueva deidad kuo-toa."
+        },
+        "ZNAXeL1w7JhcuwkD": {
+          "text": "La cámara lujosa de un animal o monstruo del que se dice que es profético, trae suerte o sabe leer."
+        },
+        "6qDuYJmG0qQAs6MM": {
+          "text": "Un estanque lleno de medusas, anguilas o huevas de pez que brillan formando patrones organizados."
+        },
+        "oXdqjdVfktrThpTn": {
+          "text": "Una cámara de castigo expuesta a la luz de la superficie."
+        },
+        "rE3NCWf6koye8Qo0": {
+          "text": "Una estatua imponente de una deidad kuo-toa."
+        }
+      }
+    },
+    "mmLamiaPacts0000": {
+      "name": "Pactos de lamia",
+      "results": {
+        "YqjbOPStg1enbVYb": {
+          "text": "Llevarle una posesión de un gobernante o noble."
+        },
+        "uCZYuhuwooUyQMjF": {
+          "text": "Crear un mapa de una mazmorra o ruina."
+        },
+        "NAHA005WuGgtgRay": {
+          "text": "Escoltarla a través de la puerta de una comunidad cercana."
+        },
+        "70CDNEEwsrKaepss": {
+          "text": "Colocar un ídolo extraño en un lugar u hogar específico."
+        },
+        "jbVLXhKuWekLAM7y": {
+          "text": "Eliminar la maldición de un objeto mágico y luego devolverlo."
+        },
+        "vnbw345Ozg3Ydqdw": {
+          "text": "Matar a un monstruo y recuperar un órgano concreto."
+        }
+      }
+    },
+    "mmLichSpiritJars": {
+      "name": "Recipientes de espíritu de liche",
+      "results": {
+        "EoCR8BVIg9jiwZQn": {
+          "text": "Una botella o caja de rompecabezas inscrita con sigilos."
+        },
+        "pBr0smCt07Ddu2P9": {
+          "text": "Un contrato doblado en forma de figura de papel."
+        },
+        "qhnF6w5vQZYTNLe4": {
+          "text": "El primer objeto mágico que creó el liche."
+        },
+        "sByUDCfoElYaimVK": {
+          "text": "Una figurilla hueca de una deidad o monstruo."
+        },
+        "EofKb0hySayY55ut": {
+          "text": "Un reloj de arena con su arena flotando en estasis."
+        },
+        "t9UOWuPT9kgy5J0k": {
+          "text": "Un guardapelo o anillo de sello con un blasón nobiliario."
+        },
+        "qfWaLtfSCdRUmsyk": {
+          "text": "Un huevo grabado con runas."
+        },
+        "tjZ65tzFxn3WMmWY": {
+          "text": "El cráneo del mentor del liche."
+        }
+      }
     }
   }
 }
