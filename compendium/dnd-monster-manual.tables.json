@@ -1621,6 +1621,820 @@
           "text": "El cráneo del mentor del liche."
         }
       }
+    },
+    "mmMageRoles00000": {
+      "name": "Roles de mago",
+      "results": {
+        "5VrUJXj7jGJOp4LX": {
+          "text": "Astrónomo que extrae magia de las estrellas."
+        },
+        "P3qsL1FtB0ojfX5G": {
+          "text": "Autor que escribe sobre lo oculto."
+        },
+        "P9nCWbVyhqiZ3HEt": {
+          "text": "Ingeniero mágico que crea maravillas."
+        },
+        "zGJ8mDaYHwdZvRhh": {
+          "text": "Oráculo que interpreta presagios."
+        },
+        "VcrmrTD2inKyfgDO": {
+          "text": "Prodigio con una notable herencia mágica."
+        },
+        "Xzhe3XULcl8gUcmI": {
+          "text": "Psión cuyos poderes se manifiestan como conjuros."
+        },
+        "rAA5bLETx9It7Kum": {
+          "text": "Erudito que investiga conocimientos antiguos."
+        },
+        "bOi3xdnTPmSQSbmF": {
+          "text": "Adivino que aconseja a gobernantes."
+        },
+        "BjwL88ARDEB13mJV": {
+          "text": "Mago de guerra que ayuda a soldados en batalla."
+        },
+        "S0ACnpu7KRmeyBlm": {
+          "text": "Bruja que comparte sabiduría secreta."
+        }
+      }
+    },
+    "mmManticoreNegot": {
+      "name": "Negociaciones con mantícora",
+      "results": {
+        "MlworDEZIR4hELYp": {
+          "text": "Atacar a un enemigo concreto."
+        },
+        "wnjvn145qNIpGNcj": {
+          "text": "Crear una distracción."
+        },
+        "8XYDrfwlnc0I8GBR": {
+          "text": "Entregar un cautivo o un cadáver."
+        },
+        "9PQT8940G65ARH3q": {
+          "text": "Permitir que un grupo atraviese su territorio sin sufrir daño."
+        },
+        "vgJB9mv6POgpmeyR": {
+          "text": "Permitir que alguien finja matarla en combate."
+        },
+        "jDayvoNLrtIklyYS": {
+          "text": "Asustar o amenazar a alguien."
+        },
+        "O6tbE9LUxtGJ4RWj": {
+          "text": "Servir de montura a una criatura hasta que se ponga el sol."
+        },
+        "daZPTCefQ9vNgYm9": {
+          "text": "Intentar localizar algo desde su posición elevada en el cielo."
+        }
+      }
+    },
+    "mmMedusaFates000": {
+      "name": "Destinos de medusa",
+      "results": {
+        "XSrvP4BJiu1HwvIk": {
+          "text": "Nació medusa y vive sin saber qué maldición o circunstancias afligieron a su ancestro."
+        },
+        "A7vpVmwwGaLbaTLH": {
+          "text": "Creada por un dios y encargada de custodiar un tesoro o secreto."
+        },
+        "cnlKENPo6jqTKGAZ": {
+          "text": "Cultista que hizo un pacto infernal y disfrutó de recompensas que ya se han desvanecido."
+        },
+        "P5wfJ1E9SD2UTV9o": {
+          "text": "Exploradora transformada y obligada a defender una ruina maldita."
+        },
+        "etTXPIrRmXCpLzBC": {
+          "text": "Noble vanidosa cuyo intento mágico de obtener belleza eterna salió mal."
+        },
+        "zwH1NcZKdk6dnIqR": {
+          "text": "Víctima de la mordedura de una serpiente mágica o de un dios reptiliano disfrazado."
+        }
+      }
+    },
+    "mmMezzolothPayme": {
+      "name": "Pagos de mezzoloth",
+      "results": {
+        "byqijkYbLUTfFWkZ": {
+          "text": "Acceso a un portal planar."
+        },
+        "XPUQDb0XTkeUjVli": {
+          "text": "Información valiosa para su verdadero amo."
+        },
+        "XvkEYInxdn3v6lIY": {
+          "text": "Una guarida donde pueda llevar a otros de su especie."
+        },
+        "afJcGj3G7AhFry7a": {
+          "text": "Armas o armaduras mágicas."
+        },
+        "eZzgQwfAygavQfu5": {
+          "text": "El derecho a saquear lugares sagrados en los sitios que conquiste."
+        },
+        "wX5KrzzJtig4qXoQ": {
+          "text": "Almas, ya sea como larvas o como espíritus capturados."
+        }
+      }
+    },
+    "mmMindFlayerMach": {
+      "name": "Maquinaciones de azotamentes",
+      "results": {
+        "kNZYIG7DgL0S2qZ5": {
+          "text": "Oscurecer el sol para que sus siervos de la Infraoscuridad puedan invadir la superficie."
+        },
+        "D2xSvFiUklHGjgTX": {
+          "text": "Crear una nueva fusión monstruosa entre azotamentes y un monstruo legendario."
+        },
+        "v9G1VjailBZUXbCZ": {
+          "text": "Forjar una red psiónica que una colonias illitas."
+        },
+        "gWVuva08ZXRJVwUU": {
+          "text": "Reemplazar a líderes mundiales por devoradores de intelecto."
+        },
+        "sHeuZyy16odmFIwU": {
+          "text": "Restaurar una nave para viajar por el Espacio Salvaje."
+        },
+        "7wS4fOFVnxXWBU4R": {
+          "text": "Sacrificar la energía mental de la población de un planeta para tomar el control de un bastión githyanki."
+        }
+      }
+    },
+    "mmMinotaurMazes0": {
+      "name": "Laberintos de minotauro",
+      "results": {
+        "PEaB4HIGK7tvH1Gm": {
+          "text": "Una mina o alcantarilla de varios niveles."
+        },
+        "YsFLYI11LY9AZIDm": {
+          "text": "Varios laberintos conectados por portales mágicos."
+        },
+        "1S0bEuHPa9eED5WO": {
+          "text": "Un pantano venenoso con senderos laberínticos."
+        },
+        "TKKagNWsoFF9GB8P": {
+          "text": "Las ruinas de un palacio o templo enterrado."
+        }
+      }
+    },
+    "mmModronOperatio": {
+      "name": "Operaciones de modrones",
+      "results": {
+        "mZxjU3pX87MEEeRw": {
+          "text": "Crear un puesto avanzado mecánico para vigilar el equilibrio de fuerzas planares oscuras."
+        },
+        "MsCU7rTMrwUK7jbO": {
+          "text": "Asegurar que ningún bando obtenga ventaja en un conflicto entre el bien y el mal."
+        },
+        "q8mNTdfOml24LFvB": {
+          "text": "Excavar un portal a otro plano."
+        },
+        "wvv1AGeHN0TdTj23": {
+          "text": "Encontrar un contingente perdido de modrones."
+        },
+        "OJx0HOf9Z93hYjQq": {
+          "text": "Reactivar un dispositivo modron titánico pero perdido."
+        },
+        "r8iYLae4vI5sCjGw": {
+          "text": "Eliminar un bosque, una montaña o una ciudad antes de la llegada de una procesión de modrones."
+        },
+        "WDljZyhUbt6XmJaP": {
+          "text": "Sellar una grieta planar o una zona de magia salvaje."
+        },
+        "ElMu2YUZzEFiFO5e": {
+          "text": "Hacer la guerra a demonios, slaads o feéricos caóticos."
+        }
+      }
+    },
+    "mmMummyLordPlots": {
+      "name": "Planes de señor momia",
+      "results": {
+        "Xi4fkOv0bW1MDtKe": {
+          "text": "Abrir un portal al pasado, cuando su poder estaba en su apogeo."
+        },
+        "W6fwl5dBhiTCI0G1": {
+          "text": "Realizar un ritual que solo puede intentarse una vez cada ochocientos años."
+        },
+        "vP2wTpfDOBBOrbX5": {
+          "text": "Recuperar y resucitar el cadáver de un ser amado."
+        },
+        "giqMaFUoXRFSQwG3": {
+          "text": "Reconquistar las tierras que una vez componían su imperio."
+        },
+        "pnr0UicR4frGgi5V": {
+          "text": "Recuperar los fragmentos de su corazón perdido."
+        },
+        "EXxJ19Fj4QnxLlrn": {
+          "text": "Reemplazar a su descendiente como gobernante de un reino."
+        },
+        "PIHGyFsY6YB5IMnA": {
+          "text": "Sacrificar mil almas a su dios a cambio de una vida verdadera."
+        },
+        "EkrI3aTPYhlN9v1H": {
+          "text": "Transformar a todo un pueblo en sirvientes muertos vivientes."
+        }
+      }
+    },
+    "mmMummyResurrect": {
+      "name": "Resurrecciones de momia",
+      "results": {
+        "2irmR1PTY67Vihx7": {
+          "text": "Defender un lugar sagrado que fue creada para proteger."
+        },
+        "tye5XYoZJ8jV3Vye": {
+          "text": "Obedecer la llamada de un señor momia."
+        },
+        "YemMemtYJvAaeqqH": {
+          "text": "Oponerse a un enemigo que ha vuelto a la vida."
+        },
+        "qspns5HV0atbshPq": {
+          "text": "Proteger a sus descendientes de una amenaza ancestral."
+        },
+        "wwI4xMo6EMJGUIVs": {
+          "text": "Castigar a la descendencia de quienes la maldijeron."
+        },
+        "T3lz2R0yGypBcM4w": {
+          "text": "Recuperar tesoros robados de su cripta."
+        },
+        "Ugagk1p77wVM4qU3": {
+          "text": "Servir a quien pronuncie la oración inscrita en su tumba."
+        },
+        "HzhCzkZHffzm4EKU": {
+          "text": "Matar a cualquiera que pose la mirada sobre ella."
+        }
+      }
+    },
+    "mmNightmareRider": {
+      "name": "Jinetes de pesadilla",
+      "results": {
+        "COFwLfP5LT5B6xZz": {
+          "text": "El campeón o mensajero de una deidad malvada."
+        },
+        "4ge2NlZngtLi9Fhg": {
+          "text": "Un grupo de diablillos o quasits que cabalgan por diversión."
+        },
+        "gBJB8SZSrRrJNfqb": {
+          "text": "Un alma inocente atrapada sobre el infernal salvaje."
+        },
+        "Gzqh7fpYOprVRmRX": {
+          "text": "Un mago, cultista o liche que busca saberes."
+        },
+        "33wBtt46n1O347mM": {
+          "text": "Una saga nocturna que conduce larvas entre planos."
+        },
+        "eZDg31Uk7Lmj0SeA": {
+          "text": "Un caballero perverso, como un caballero de la muerte, una erinia, un íncubo o un vampiro."
+        }
+      }
+    },
+    "mmOchreJellyLeft": {
+      "name": "Restos de gelatina ocre",
+      "results": {
+        "q3yR3PCheZFearq0": {
+          "text": "Un hueso grabado con una palabra o un símbolo inquietante."
+        },
+        "Zgc08lfr8KVodR9L": {
+          "text": "Cuernos rotos de dracónido o tiefling."
+        },
+        "LkDPSJK8CA7zxFLv": {
+          "text": "Una prótesis ornamentada."
+        },
+        "IlrDlU5zq6iyywDU": {
+          "text": "El esqueleto de la mascota de un explorador, quizá un perro pequeño, un mono o un loro."
+        },
+        "UMTVAKtDkPXeaqS9": {
+          "text": "Un cráneo con dientes de oro por valor de 1d4 po."
+        },
+        "QLuS9S7NnWskLls6": {
+          "text": "Una armadura metálica impecable."
+        }
+      }
+    },
+    "mmOniTroubles000": {
+      "name": "Problemas causados por oni",
+      "results": {
+        "LMXkFPRJH0YxK8t9": {
+          "text": "Hechiza a personas para que hagan bromas crueles."
+        },
+        "4iHVUSWj3Age2Ure": {
+          "text": "Reclama un puente, puerta, santuario o sendero e intenta comerse a cualquiera que se acerque."
+        },
+        "l7wnYDlyKLX9yqZY": {
+          "text": "Atrae a otros monstruos al asentamiento."
+        },
+        "6aEDzbmMD6ODhDR7": {
+          "text": "Toca tambores que mantienen despierto a todo el mundo."
+        }
+      }
+    },
+    "mmOtyughLures000": {
+      "name": "Cebos de otyugh",
+      "results": {
+        "8xGwp1pLs1GBt5yz": {
+          "text": "Disfraza sus tentáculos con marionetas de basura."
+        },
+        "sD4jzGQbIcwbUgip": {
+          "text": "Canta una canción tentadora en otyugh."
+        },
+        "fBI9ZU0KnCmDq4Ql": {
+          "text": "Transmite telepáticamente un mensaje como «¡Cosas buenas felices aquí!» o «¡Ayuda ahora! ¿Soy demasiado delicioso?»."
+        },
+        "UALQk9p3WitnpvMk": {
+          "text": "Transmite telepáticamente la imagen de una gran gema, un arma torcida o un pastel empapado."
+        }
+      }
+    },
+    "mmOwlbearDenFeat": {
+      "name": "Rasgos de cubil de oso lechuza",
+      "results": {
+        "MI8sYutrTB6iytoZ": {
+          "text": "Indicios de ocupantes anteriores, como bandidos, lobos o dragones."
+        },
+        "bSiYOUCrvAt3zhEt": {
+          "text": "Montones de egagrópilas regurgitadas salpicadas de monedas u otros tesoros."
+        },
+        "tiFGcNsTVO3UkobM": {
+          "text": "Un nido con 1d6 huevos de oso lechuza."
+        },
+        "L1sRrKRRFMR7KlDh": {
+          "text": "Pasadizos a través de la tierra o árboles huecos."
+        }
+      }
+    },
+    "mmPegasusOfferin": {
+      "name": "Ofrendas de pegaso",
+      "results": {
+        "Qw8bPyztZrigLlIz": {
+          "text": "Porta el equipo de un héroe al que el pegaso ayudó."
+        },
+        "S8Hutt56yTCqZfKv": {
+          "text": "Ofrece fruta mágica o agua de manantial sagrado."
+        },
+        "VOyHsmnYSSAuIFmV": {
+          "text": "Canta una canción en celestial, druídico o silvano."
+        },
+        "7tGdacXmgydUAop3": {
+          "text": "Viste las prendas de una antigua orden heroica."
+        }
+      }
+    },
+    "mmPerytonSuperst": {
+      "name": "Supersticiones sobre perytons",
+      "results": {
+        "QzCGc12JMLxhdZk2": {
+          "text": "Los corazones conceden un deseo maligno."
+        },
+        "oyzR4Y16GGXCX5HS": {
+          "text": "Vuelve a su forma original."
+        },
+        "CeDoF1KxMEhHHeOQ": {
+          "text": "Un nuevo peryton nace de cada corazón."
+        },
+        "BvlCzxW9v5zY0PPf": {
+          "text": "Se abre un portal a los Planos Inferiores."
+        }
+      }
+    },
+    "mmPetrifiedBasil": {
+      "name": "Víctimas petrificadas de basilisco",
+      "results": {
+        "gYDJRjpnvcNr2bNL": {
+          "text": "Un aventurero con una llave ornamentada colgada del cuello."
+        },
+        "5DE7bxasd535w2RW": {
+          "text": "Animales como murciélagos, osos, ciervos o cabras."
+        },
+        "9BhtuIl5HbCebcP0": {
+          "text": "Un escalador aferrado a una estalactita."
+        },
+        "FCVb5VpOsmeunZU9": {
+          "text": "El propio basilisco usando un gran espejo o una superficie brillante."
+        },
+        "wSo6g1NCQse26QvA": {
+          "text": "Un mímico disfrazado de cofre lleno de tesoro."
+        },
+        "FkTlrAgiXqFX21pX": {
+          "text": "Un monstruo como una mole sombría o un troglodita."
+        },
+        "odXjvWjV2YMRRL6U": {
+          "text": "Alguien sorprendido en una pose cómica o poniendo una cara lamentable."
+        },
+        "C0P9JTbzme5ta0RG": {
+          "text": "Una víctima usada ahora como nido por insectos u otra sabandija."
+        }
+      }
+    },
+    "mmPirateFlagsAcc": {
+      "name": "Banderas piratas - Accesorio",
+      "results": {
+        "9zq8SYPIF5sXucPe": {
+          "text": "Un sombrero de capitán"
+        },
+        "BvZXlxAPUT5iCCDr": {
+          "text": "Tibias cruzadas"
+        },
+        "yF82xcYZ0tt20DTd": {
+          "text": "Hojas cruzadas"
+        },
+        "ZYPZwKaM4oJP7a3k": {
+          "text": "Un parche en el ojo"
+        },
+        "OIzDDbRIAaiSz9pG": {
+          "text": "Rayos"
+        },
+        "6MtoiAlyIjfnkdbe": {
+          "text": "Una jarra de cerveza"
+        },
+        "MOMHr1rUPtD5gGuf": {
+          "text": "Un tatuaje"
+        },
+        "YvrvmWlHhfPlQcru": {
+          "text": "Un cofre del tesoro"
+        }
+      }
+    },
+    "mmPirateFlags000": {
+      "name": "Banderas piratas - Motivo principal",
+      "results": {
+        "H4TxEPozPtugtaIm": {
+          "text": "Bucanero"
+        },
+        "gHi5CbHQ8hvCcaoV": {
+          "text": "Dragón"
+        },
+        "mKn4ibQzfcLVnsgQ": {
+          "text": "Infernal"
+        },
+        "NhIF4ldk29OKJe04": {
+          "text": "Cabra"
+        },
+        "AGRbVNTMWeswXZX9": {
+          "text": "Kraken"
+        },
+        "kqAnHKZh4VfITXyJ": {
+          "text": "Tritones"
+        },
+        "9qcnD8AyK6torWTW": {
+          "text": "Calavera"
+        },
+        "S4Dc3FsuCpE39IW7": {
+          "text": "Ballena"
+        }
+      }
+    },
+    "mmPlanetarQuests": {
+      "name": "Misiones de planetar",
+      "results": {
+        "qo7h8EawowoSaiAW": {
+          "text": "Convencer a un villano de reunirse con el ángel."
+        },
+        "2mPfPAZMJmcsphzb": {
+          "text": "Encontrar a un ser querido que un villano cree muerto."
+        },
+        "pYOgUORU3Qbs1Fc5": {
+          "text": "Sanar al ser querido de un gobernante malvado."
+        },
+        "4MbSrUVx6MQVHySz": {
+          "text": "Inspirar a los defensores de un lugar sagrado asediado."
+        },
+        "j1QwZNrJh4SoA48L": {
+          "text": "Recuperar y destruir un artefacto maligno."
+        },
+        "ZVE4gqiO09WJO9Po": {
+          "text": "Revelar el nombre verdadero de un diablo para desterrarlo."
+        }
+      }
+    },
+    "mmPoltergeistAct": {
+      "name": "Actividades de poltergeist",
+      "results": {
+        "CR88SpTVMYizFkx6": {
+          "text": "Devuelve una y otra vez un objeto desechado."
+        },
+        "ZiV9BxkSwXbwE9Rq": {
+          "text": "Deja huellas en superficies verticales."
+        },
+        "rMcT0Q4lEiYceOWt": {
+          "text": "Hace ruidos como si alguien estuviera atrapado en una pared."
+        },
+        "oWNgHdBwG72hJ6Mr": {
+          "text": "Ordena el contenido de una mochila por el suelo."
+        },
+        "yNQikoHhkiHurTUX": {
+          "text": "Maneja de forma juguetona un cadáver o una muñeca."
+        },
+        "0WFbiF7jf7U0qpK0": {
+          "text": "Quita la ropa de cama mientras alguien duerme."
+        },
+        "qPhcYcDKG99Tnxf1": {
+          "text": "Clava cuchillos o armas en el techo."
+        },
+        "CgoSN07mubEGUqWF": {
+          "text": "Apila de forma inquietante libros, muebles o utensilios."
+        }
+      }
+    },
+    "mmPriestRoles000": {
+      "name": "Roles de sacerdote",
+      "results": {
+        "X9R2TNKJVhxfJF1m": {
+          "text": "Asceta que mantiene a raya a espíritus malignos."
+        },
+        "cduapbY8Uz0vcDDt": {
+          "text": "Anciano que habla por los muertos."
+        },
+        "ZkDYmADBJGxB7WGh": {
+          "text": "Exorcista que caza espíritus malignos."
+        },
+        "Mch5Ejq5TDqood1t": {
+          "text": "Seguidor de un dios del que nadie ha oído hablar."
+        },
+        "vsxMzXIof8gZjVbh": {
+          "text": "Mediador y maestro de costumbres tradicionales."
+        },
+        "xwYuf9toAPQEcjrR": {
+          "text": "Filósofo devoto de un concepto, visión multiversal o plano de existencia."
+        },
+        "AE0lPEXsZFQsDx1e": {
+          "text": "Reencarnación de un antiguo líder religioso."
+        },
+        "UJyPanyW4ZN2Nhgw": {
+          "text": "Ritualista que usa tinturas y representaciones para acceder a lo divino."
+        },
+        "dwYbTx2IFep7sBmx": {
+          "text": "Chamán cuyas medicinas alivian muchos males."
+        },
+        "0X9LzKAsOZ7DNcgc": {
+          "text": "Fanático que libra la guerra por una causa divina."
+        }
+      }
+    },
+    "mmPseudodragonTr": {
+      "name": "Caprichos de pseudodragón",
+      "results": {
+        "GGmRmiYuBOPA46As": {
+          "text": "Accesorios llamativos que pueda llevar puestos."
+        },
+        "NW0eJVPqQ8IM20cS": {
+          "text": "Recuerdos de un amigo o amo perdido."
+        },
+        "GyMn3syS7t4koiQ5": {
+          "text": "Delicadezas extravagantes, como tortillas de huevo de pico de hacha o queso de leche de mamut."
+        },
+        "lo3q7jK8FOOMcwte": {
+          "text": "Las posesiones de un hermano, rival o amo."
+        },
+        "3k5bVw27ov76faYZ": {
+          "text": "Regalos brillantes, desde gemas hasta conchas de abulón."
+        },
+        "74Jy4msjX9MBkuQw": {
+          "text": "Camas mullidas y juguetes de peluche."
+        },
+        "JR2BSRI0kZ0odhoB": {
+          "text": "El postre característico de un cocinero concreto."
+        },
+        "y3OYnTcNPR0Uk2s7": {
+          "text": "Tratamientos de belleza que llevan mucho tiempo."
+        },
+        "qcyAKQQLfLufHG1E": {
+          "text": "Escuchar un cuento para dormir o una canción favorita."
+        },
+        "xsV73bWhntV3Fdqc": {
+          "text": "Trofeos y títulos que suenen importantes."
+        }
+      }
+    },
+    "mmRocNestRemnant": {
+      "name": "Restos de nido de roc",
+      "results": {
+        "w2fXn5wtvPObVf0k": {
+          "text": "La litera funeraria de un héroe perdido."
+        },
+        "2N5YciiuKkmxdPTe": {
+          "text": "Un carromato de caravana lleno de mercancías."
+        },
+        "h2YPT8ONS5qBj7ri": {
+          "text": "Un elefante vivo."
+        },
+        "2E5DPhugEzWfnRy1": {
+          "text": "[[/r 1d4#Huevos]]{1d4 huevos} más grandes que humanos adultos"
+        },
+        "1ynblsmb6tA3I1C5": {
+          "text": "Alguien abandonado en el nido."
+        },
+        "36GZGaiuBKbNh4X5": {
+          "text": "Una estatua de un caballero montado en un corcel encabritado."
+        }
+      }
+    },
+    "mmRoperHazards00": {
+      "name": "Peligros de roper",
+      "results": {
+        "1bVnqxQFGG89z3IN": {
+          "text": "Zonas que activan trampas."
+        },
+        "p9MY0ZAzBAANvAdl": {
+          "text": "Cavernas llenas de humo o gas."
+        },
+        "gqz6Ke89ZhH23TJH": {
+          "text": "Zonas de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#dead-magic-zone]{magia muerta}* o @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#wild-magic-zone]{magia salvaje}*."
+        },
+        "fMxNBq2WqaZkKB1Q": {
+          "text": "La guarida de una criatura a la que intenta hacer salir."
+        },
+        "2ejJVQzpSlsBVdqt": {
+          "text": "Un nido de ratas, insectos u otra sabandija."
+        },
+        "qn9vHH3oQr5lpOtq": {
+          "text": "Manchas de @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{moho marrón}* o @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{cieno verde}*."
+        },
+        "iJds0Bck9qelo5iA": {
+          "text": "Pozas de magma o agua hirviendo."
+        },
+        "iyh2FDUtDy9ByXcj": {
+          "text": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{Vid afilada}* u otras plantas peligrosas similares."
+        }
+      }
+    },
+    "mmSageAnimalLord": {
+      "name": "Apariencias de señor de los animales sabio",
+      "results": {
+        "esPBZeKHqn8cpOln": {
+          "text": "Coyote"
+        },
+        "TtGWKQMvxF5HPKtZ": {
+          "text": "Cuervo"
+        },
+        "M0QSajCOUKjJi9eB": {
+          "text": "Elefante"
+        },
+        "TsKHqbJTgmWEzLtK": {
+          "text": "Lagarto"
+        },
+        "pCMQUTBJUWhMPacF": {
+          "text": "Ratón"
+        },
+        "kHOs5cPdiZSA1usf": {
+          "text": "Búho"
+        },
+        "Z83JBGLtZIqjnrQr": {
+          "text": "Salmón"
+        },
+        "50Dk7j8Nf46WNhnl": {
+          "text": "Araña"
+        },
+        "5oKiLKUtpaJmRTzz": {
+          "text": "Tortuga"
+        },
+        "quhMMYvpi5aw5VCT": {
+          "text": "Ballena"
+        }
+      }
+    },
+    "mmScarecrowFrame": {
+      "name": "Armazones de espantapájaros",
+      "results": {
+        "kuzC3wY7tU7otPy3": {
+          "text": "Pieles, huesos, cuernos y garras de animales."
+        },
+        "g1EhrrY9hdQ4reHW": {
+          "text": "Colmenas o nidos de avispas sobre un armazón de mimbre."
+        },
+        "s6k4vLc62GQFcGXy": {
+          "text": "Una calabaza tallada sobre un cuerpo de gruesas enredaderas."
+        },
+        "56tTTNVVexcJOHya": {
+          "text": "Redes, restos flotantes, rezones y aparejos de pesca."
+        },
+        "PNyPKjvZ0UJSRACr": {
+          "text": "Partes de maniquíes o animales de peluche de gran tamaño."
+        },
+        "BhZ3Y2VK6x2OucDX": {
+          "text": "Armaduras oxidadas e instrumentos de tortura."
+        },
+        "K696TyDkwHdVa76o": {
+          "text": "Una cabeza de arpillera sobre ropa rellena de paja."
+        },
+        "FQjTdlIjKaUobZtM": {
+          "text": "Ropa de boda que nunca llegó a usarse."
+        }
+      }
+    },
+    "mmSeaHagDisguise": {
+      "name": "Disfraces de saga marina",
+      "results": {
+        "paAAjClySIiGzbTa": {
+          "text": "Cautiva que afirma que los aldeanos cercanos la ataron y la abandonaron para ahogarse."
+        },
+        "mTjLHHQX7hcYdj9R": {
+          "text": "Náufraga que comparte con sus posibles rescatadores la ubicación de un objeto maldito."
+        },
+        "zJmv5jsedph0a6Ou": {
+          "text": "Sanadora que hace pasar venenos por medicinas."
+        },
+        "hYNIre3dF4pA6KrD": {
+          "text": "Profetisa fatalista que siembra el pánico."
+        },
+        "2OBryEgjS8gIsKOu": {
+          "text": "Capitana de barco que entrega pasajeros al monstruo marino mascota de la saga."
+        },
+        "ZqNZnJDUec3VU8nq": {
+          "text": "Marinera herida que afirma que su barco fue destruido por sirénidos u otros pueblos pacíficos."
+        }
+      }
+    },
+    "mmShadowShapes00": {
+      "name": "Formas de sombra",
+      "results": {
+        "iXjuzrYW6uGGtS28": {
+          "text": "Un acechador deforme que merodea por los bosques."
+        },
+        "6wcLN33MkD6b3Ehu": {
+          "text": "Un infernal que mora cerca de un lugar de rituales perversos."
+        },
+        "ZoakeLqvDu5GfIdi": {
+          "text": "Manos aferradoras que embrujan la casa de un avaro."
+        },
+        "nvZvlsbg2WrMIg4Z": {
+          "text": "Un personaje sombrío de cuento que sigue a quienes pronuncian su nombre."
+        },
+        "pkMYBK2pph6EWEQs": {
+          "text": "Su objetivo, actuando en una pantomima inquietante."
+        },
+        "bi8WWjkFSgbAxnky": {
+          "text": "Un sacerdote ominoso que embruja un lugar profanado."
+        }
+      }
+    },
+    "mmShamblingMound": {
+      "name": "Cultivo de montículo tambaleante",
+      "results": {
+        "AomhX5lCXs6HXRR3": {
+          "text": "Cubierto de flores vibrantes alienígenas o del Feywild."
+        },
+        "q4jz9dwDvQPApG1I": {
+          "text": "Transporta un menhir grabado con runas en el torso."
+        },
+        "P2T2TalWx97b0gTs": {
+          "text": "Infestado de sabandijas u hongos."
+        },
+        "cjGPVReDnf8PYbLn": {
+          "text": "Formado por enredaderas nudosas que enredan esqueletos."
+        },
+        "gDpWgCQyArXUZssl": {
+          "text": "Mutado y rezumando contaminación luminiscente."
+        },
+        "L2TG6iiFNke5WIfJ": {
+          "text": "Los restos de un árbol antiguo o de un ent."
+        }
+      }
+    },
+    "mmSkeletonPantom": {
+      "name": "Pantomimas de esqueleto",
+      "results": {
+        "FyFpsLsRx0wm6q7j": {
+          "text": "Entrega bandejas de comida o correspondencia antiquísima a la cripta de su amo muerto."
+        },
+        "8Is2VfOt9nOmP41O": {
+          "text": "Entrena sin fin en combate con otros esqueletos, aunque quede cortado en astillas animadas."
+        },
+        "Ac1TtjeYGtIjy8QA": {
+          "text": "Imita las formas en que se entretenía en vida, como actuar, bailar o leer."
+        },
+        "8VHT1NUKW3VqvwOK": {
+          "text": "Realiza una tarea familiar, como limpiar, cocinar, excavar o rezar."
+        },
+        "3eMsliR4wExfUMG7": {
+          "text": "Repite los últimos momentos de su vida."
+        },
+        "tfALAOKNarljGG5Q": {
+          "text": "Monta guardia en el puesto que protegía en vida."
+        }
+      }
+    },
+    "mmSpecterHaunts0": {
+      "name": "Lugares embrujados por espectros",
+      "results": {
+        "NfOOKjOQeTlwFqTU": {
+          "text": "Una comunidad afligida por maldiciones, rencores, plagas o tragedias."
+        },
+        "Y9mvGTMXFZU3DQjK": {
+          "text": "Un artefacto maligno o un dispositivo mágico letal."
+        },
+        "N7Z5f7eFsbX5kMEb": {
+          "text": "El lugar donde murió o está enterrado un villano."
+        },
+        "jHPLlubrKVXb8Lc9": {
+          "text": "La guarida de un infernal o un muerto viviente."
+        },
+        "LRmsvPTJS8d1xvra": {
+          "text": "Un portal a los Planos Inferiores, el Plano Negativo o el Shadowfell."
+        },
+        "3Nq2yrTA4YtTtREI": {
+          "text": "El santuario de un nigromante o culto de la muerte."
+        },
+        "p67aCui0c8ghpiGr": {
+          "text": "Un monumento apartado que ata almas perversas."
+        },
+        "9dCdjbYTuvvQN4Ph": {
+          "text": "El lugar de un desastre o una muerte masiva."
+        }
+      }
     }
   }
 }
