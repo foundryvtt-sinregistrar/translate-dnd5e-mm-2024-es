@@ -5495,6 +5495,21 @@
       "description": "<p class=\"feature\">Mientras esté bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20. El [[lookup @name lowercase]] muere si pasa más de 1 hora bajo la luz del sol.</p>",
       "name": "Malestar solar"
     },
+    "mmSunlight000000": {
+      "name": "Luz solar",
+      "description": "<p class=\"feature-trait\">El [[lookup @name lowercase]] recibe [[/damage]] de daño si empieza su turno bajo la luz solar. Mientras esté bajo la luz solar, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</p>",
+      "activities": {
+        "U84Js8K5FLJKufD5": {
+          "name": ""
+        }
+      },
+      "effects": {
+        "IiYvEjdmQXB3jdCj": {
+          "name": "Desventaja: ataques y pruebas",
+          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">Mientras esté bajo la luz solar, tiene Desventaja en las tiradas de ataque y las pruebas de característica.</span></p>"
+        }
+      }
+    },
     "mmSunlightHypers": {
       "activities": {
         "rufjkuIgCP6hfvX5": {
@@ -5510,6 +5525,15 @@
     "mmSunlightWeakne": {
       "description": "<p class=\"feature\">Mientras está bajo la luz del sol, la [[lookup @name lowercase]] tiene Desventaja en las pruebas de d20.</p>",
       "name": "Debilidad a la luz solar"
+    },
+    "mmSuperiorInvisi": {
+      "name": "Invisibilidad superior",
+      "description": "<p class=\"feature\">El dragón lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]{Invisibilidad mayor}</em> sobre sí mismo, sin requerir componentes de conjuro y usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>",
+      "activities": {
+        "xiYcd3eEV7Txjie9": {
+          "name": ""
+        }
+      }
     },
     "mmSurge000000000": {
       "activities": {
@@ -5723,6 +5747,36 @@
         }
       },
       "name": "Mirada aterradora"
+    },
+    "mmTerrifyingPres": {
+      "name": "Presencia aterradora",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=SVb8yS9ewkeZpP2R]], cada [[lookup @target.affects.type activity=SVb8yS9ewkeZpP2R]] en una Emanación de [[lookup @target.template.size activity=SVb8yS9ewkeZpP2R]] pies originada en el [[lookup @name lowercase]]. <em>Fallo:</em> Mitad de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno. <em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a llevar a cabo esta acción hasta el comienzo de su siguiente turno.</p>",
+      "activities": {
+        "SVb8yS9ewkeZpP2R": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "qSjE5JhBhGvLBnhx": {
+          "name": "Asustado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>"
+        }
+      }
+    },
+    "mmThirdRoar00000": {
+      "name": "Tercer rugido",
+      "description": "<p class=\"feature-trait\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=ZRjg6wwKf090U1zB]], cada [[lookup @target.affects.type activity=ZRjg6wwKf090U1zB]] en una Emanación de [[lookup @target.template.size activity=ZRjg6wwKf090U1zB]] [[lookup @target.template.units activity=ZRjg6wwKf090U1zB]] originada en el [[lookup @name lowercase]]. <em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}. <em>Éxito:</em> solo [[lookup @damage.onSave capitalize activity=ZRjg6wwKf090U1zB]] de daño.</p>",
+      "activities": {
+        "ZRjg6wwKf090U1zB": {
+          "name": "Salvación"
+        }
+      },
+      "effects": {
+        "WUw5xzKBfus0HHZR": {
+          "name": "Derribado",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+        }
+      }
     },
     "mmThornBurst0000": {
       "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
@@ -6029,6 +6083,18 @@
     "mmUndeadRestorat": {
       "name": "Restauración de no muerto"
     },
+    "mmUnicornsBlessi": {
+      "name": "Bendición del unicornio",
+      "description": "<p>El [[lookup @name]] toca a otra criatura con su cuerno y lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds]{Curar heridas}</em> o <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest]{Restauración menor}</em> sobre esa criatura, usando la misma característica para lanzar conjuros que Lanzamiento de conjuros.</p>",
+      "activities": {
+        "OghPbiZjhgIJ5llC": {
+          "name": ""
+        },
+        "lruyGaBCUcPkdyAC": {
+          "name": ""
+        }
+      }
+    },
     "mmUnnervingGaze0": {
       "activities": {
         "btp6NZvx465nxWTF": {
@@ -6119,6 +6185,10 @@
       },
       "name": "Aspecto vil"
     },
+    "mmVileSlime00000": {
+      "name": "Baba vil",
+      "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+    },
     "mmVineLash000000": {
       "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
       "name": "Latigazo de enredadera"
@@ -6147,6 +6217,20 @@
         }
       },
       "name": "Vórtice"
+    },
+    "mmVowofRevenge00": {
+      "name": "Juramento de venganza",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] maldice a un [[lookup @target.affects.type activity=NBJRR41fIGp8FYJh]] que pueda ver a [[lookup @range.value activity=NBJRR41fIGp8FYJh]] pies o menos. El [[lookup @name lowercase]] conoce la distancia y la dirección hasta el objetivo maldito, aunque esté en un plano de existencia distinto. La maldición termina sobre el objetivo si el [[lookup @name lowercase]] usa esta acción adicional sobre una criatura distinta.</p>",
+      "activities": {
+        "NBJRR41fIGp8FYJh": {
+          "name": "Maldecir objetivo"
+        }
+      },
+      "effects": {
+        "qhxGUlnO8pb3UVtS": {
+          "name": "Maldito"
+        }
+      }
     },
     "mmWarCry00000000": {
       "activities": {
@@ -6351,6 +6435,28 @@
       },
       "name": "Torbellino"
     },
+    "mmWhirlwindOfSan": {
+      "name": "Torbellino de arena",
+      "description": "<p class=\"feature\"><em>Desencadenante:</em> El [[lookup @name lowercase]] es impactado por una tirada de ataque. <em>Respuesta:</em> El [[lookup @name lowercase]] suma 2 a su CA contra el ataque, lo que puede hacer que el ataque falle, y el [[lookup @name lowercase]] se teletransporta hasta [[lookup @range.value activity=EsBmMUQMO4b0g6Yw]] [[lookup @range.units activity=EsBmMUQMO4b0g6Yw]]. [[lookup @target.affects.special activity=EsBmMUQMO4b0g6Yw]]. Cada criatura a su elección que pueda ver a [[lookup @target.template.size activity=EsBmMUQMO4b0g6Yw]] [[lookup @target.template.units activity=EsBmMUQMO4b0g6Yw]] o menos de su espacio de destino tiene la condición &amp;Reference[Blinded apply=false]{Cegado} hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
+      "activities": {
+        "EsBmMUQMO4b0g6Yw": {
+          "name": "Gastar uso",
+          "activation": {
+            "condition": "el usuario es impactado por una tirada de ataque"
+          }
+        }
+      },
+      "effects": {
+        "Xy0tzgObrMRF2lHm": {
+          "name": "+2 CA",
+          "description": "<p>La criatura suma 2 a su CA contra el ataque, lo que puede hacer que el ataque falle.</p>"
+        },
+        "MMp7IK5bYYPYtSdL": {
+          "name": "Cegado",
+          "description": "<p>Cada criatura a elección del usuario que este pueda ver a 5 pies o menos de su espacio de destino tiene la condición &amp;Reference[Blinded apply=long]{Cegado} hasta el final del siguiente turno del usuario.</p>"
+        }
+      }
+    },
     "mmWindJavelin000": {
       "activities": {
         "aSQhFaATcOI4gZTz": {
@@ -6398,6 +6504,30 @@
       },
       "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
       "name": "Espada marchitadora"
+    },
+    "mmWitheringTouch": {
+      "name": "Toque marchitador",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+      "activities": {
+        "IbPE7bNI8RotVtpv": {
+          "name": ""
+        }
+      }
+    },
+    "mmWorldshakingMo": {
+      "name": "Movimiento que sacude el mundo",
+      "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta su Velocidad. Al final de este movimiento, el [[lookup @name lowercase]] crea una onda de choque instantánea en una Emanación de [[lookup @target.template.size activity=g4W0ovZxBeUrZKb8]] [[lookup @target.template.units activity=g4W0ovZxBeUrZKb8]] originada en sí mismo. Las criaturas en esa zona pierden &amp;Reference[Concentration]{Concentración} y, si son Medianas o más pequeñas, tienen la condición &amp;Reference[Prone apply=false]{Derribado}. El [[lookup @name lowercase]] no puede volver a llevar a cabo esta acción hasta el comienzo de su siguiente turno.</p>",
+      "activities": {
+        "g4W0ovZxBeUrZKb8": {
+          "name": "Gastar uso"
+        }
+      },
+      "effects": {
+        "ERWPInrx4mXsqrwL": {
+          "name": "Derribado",
+          "description": "<p>Las criaturas en esa zona pierden &amp;Reference[Concentration]{Concentración} y, si son Medianas o más pequeñas, tienen la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+        }
+      }
     }
   }
 }
