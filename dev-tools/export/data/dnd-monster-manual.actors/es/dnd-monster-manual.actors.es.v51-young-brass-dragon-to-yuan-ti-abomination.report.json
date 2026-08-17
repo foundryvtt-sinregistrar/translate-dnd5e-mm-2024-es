@@ -1,0 +1,48 @@
+{
+  "version": "v51",
+  "base": "dnd-monster-manual.actors.es.v50-winter-wolf-to-young-blue-dragon.json",
+  "output": "dnd-monster-manual.actors.es.v51-young-brass-dragon-to-yuan-ti-abomination.json",
+  "patch": "dnd-monster-manual.actors.es.v51-young-brass-dragon-to-yuan-ti-abomination.patch.json",
+  "range": {
+    "from": "mmYoungBrassDrag",
+    "to": "mmYuantiAbominat",
+    "count": 10
+  },
+  "updated_entries": [
+    "mmYoungBrassDrag",
+    "mmYoungBronzeDra",
+    "mmYoungCopperDra",
+    "mmYoungGoldDrago",
+    "mmYoungGreenDrag",
+    "mmYoungRedDragon",
+    "mmYoungRemorhaz0",
+    "mmYoungSilverDra",
+    "mmYoungWhiteDrag",
+    "mmYuantiAbominat"
+  ],
+  "total_entries": 504,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholder_count": 0,
+  "missing_items_from_en_source": [],
+  "missing_descriptions_from_en_source": [],
+  "notes": [
+    "Continúa la cadena acumulativa v50 -> v51.",
+    "Se preservan IDs, macros @UUID, [[/attack]], [[/damage]], [[lookup ...]] y claves internas &Reference[...].",
+    "Se completan los alientos de dragones jóvenes y las acciones/conjuros de la abominación yuan-ti.",
+    "Las descripciones genéricas tipo [[/attack extended]]. [[/damage average extended]]. se conservan intactas por ser macros funcionales sin texto narrativo traducible."
+  ],
+  "accepted_generic_macro_descriptions": [
+    "mmYoungBrassDrag.mmRend0000000000:Rend",
+    "mmYoungBronzeDra.mmRend0000000000:Rend",
+    "mmYoungCopperDra.mmRend0000000000:Rend",
+    "mmYoungGoldDrago.mmRend0000000000:Rend",
+    "mmYoungGreenDrag.mmRend0000000000:Rend",
+    "mmYoungRedDragon.mmRend0000000000:Rend",
+    "mmYoungRemorhaz0.mmBite0000000000:Bite",
+    "mmYoungSilverDra.mmRend0000000000:Rend",
+    "mmYoungWhiteDrag.mmRend0000000000:Rend",
+    "mmYuantiAbominat.mmBite0000000000:Bite"
+  ],
+  "identical_english_descriptions_in_updated_range": []
+}

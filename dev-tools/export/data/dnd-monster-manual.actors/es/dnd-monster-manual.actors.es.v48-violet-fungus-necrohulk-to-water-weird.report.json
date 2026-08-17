@@ -1,0 +1,40 @@
+{
+  "version": "v48",
+  "range": {
+    "from": "mmVioletFungusNe",
+    "to": "mmWaterWeird0000"
+  },
+  "updated_entries": [
+    "mmVioletFungusNe",
+    "mmVrock000000000",
+    "mmVulture0000000",
+    "mmWarhorse000000",
+    "mmWarhorseSkelet",
+    "mmWarriorCommand",
+    "mmWarriorInfantr",
+    "mmWarriorVeteran",
+    "mmWaterElemental",
+    "mmWaterWeird0000"
+  ],
+  "entry_count_total": 504,
+  "updated_count": 10,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholder_count": 0,
+  "missing_items_in_updated_range": [],
+  "missing_descriptions_in_updated_range": [],
+  "identical_english_descriptions_in_updated_range": [
+    "mmVioletFungusNe.mmRottingSlam000:Rotting Slam",
+    "mmVrock000000000.mmShred000000000:Shred",
+    "mmVulture0000000.mmBeak0000000000:Beak",
+    "mmWarriorInfantr.ol6ha2oiuhrynqx0:Spear",
+    "mmWarriorVeteran.KkRkIIhD17sL5x30:Greatsword",
+    "mmWarriorVeteran.0nNkeR6HNC1e2uQ3:Heavy Crossbow"
+  ],
+  "notes": [
+    "Continúa desde v47.",
+    "Completa el tramo Violet Fungus Necrohulk → Water Weird.",
+    "Añade/revisa objetos embebidos faltantes como Rotting Slam, Absorb Body, Shred, Water Form, Water Bound e Invisible in Water.",
+    "Preserva macros Foundry/Babele, UUID, lookup, inline rolls y claves internas de &Reference."
+  ]
+}

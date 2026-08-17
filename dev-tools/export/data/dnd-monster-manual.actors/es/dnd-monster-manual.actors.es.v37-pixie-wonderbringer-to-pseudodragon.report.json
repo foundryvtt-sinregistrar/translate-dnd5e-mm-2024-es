@@ -1,0 +1,31 @@
+{
+  "version": "v37",
+  "source": "dnd-monster-manual.actors.es.v36-performer-maestro-to-pixie.json",
+  "output": "dnd-monster-manual.actors.es.v37-pixie-wonderbringer-to-pseudodragon.json",
+  "patch": "dnd-monster-manual.actors.es.v37-pixie-wonderbringer-to-pseudodragon.patch.json",
+  "range": {
+    "from": "mmPixieWonderbri",
+    "to": "mmPseudodragon00"
+  },
+  "entries_updated": [
+    "mmPixieWonderbri",
+    "mmPlanetar000000",
+    "mmPlesiosaurus00",
+    "mmPolarBear00000",
+    "mmPoltergeist000",
+    "mmPony0000000000",
+    "mmPriest00000000",
+    "mmPriestAcolyte0",
+    "mmPrimevalOwlbea",
+    "mmPseudodragon00"
+  ],
+  "total_entries": 504,
+  "mapping_preserved": true,
+  "json_parse_ok": true,
+  "missing_descriptions_from_en_source": [],
+  "protected_placeholders_found": [],
+  "notes": [
+    "Continues accumulated actors translation from v36.",
+    "Preserves Foundry/Babele entry IDs, embedded item IDs, UUID links, inline rolls, lookup macros, references, and HTML formatting."
+  ]
+}

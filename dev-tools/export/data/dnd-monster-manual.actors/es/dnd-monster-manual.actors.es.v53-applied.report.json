@@ -1,0 +1,18 @@
+{
+  "version": "v53-applied",
+  "input": "dnd-monster-manual.actors.json",
+  "patch": "dnd-monster-manual.actors.es.v53-final-qa-fixes.patch.json",
+  "output": "dnd-monster-manual.actors.es.v53-applied.json",
+  "json_parse_ok": true,
+  "entries_count": 504,
+  "expected_entries_count": 504,
+  "entries_missing_vs_v53_full": [],
+  "entries_extra_vs_v53_full": [],
+  "mapping_preserved": true,
+  "label": "Monstruos",
+  "flesh_golem_berserk_erroneous_present": false,
+  "flesh_golem_berserk_correct_present": true,
+  "identical_to_prebuilt_v53_full_canonical": true,
+  "sha256_output": "e70a8478ebc16d57864509a762e6fc70cc87e52d56f334a7f68a291779ad0a9f",
+  "sha256_full_v53": "b38eb7ed841d3b1d52e46d78e0e3c2747f884da0fdf6bcfda13e8fa4b28d935b"
+}

@@ -1,0 +1,46 @@
+{
+  "version": "v31",
+  "source_base": "dnd-monster-manual.actors.es.v30-lich-to-mammoth.json",
+  "output": "dnd-monster-manual.actors.es.v31-manes-to-merrow.json",
+  "patch": "dnd-monster-manual.actors.es.v31-manes-to-merrow.patch.json",
+  "range": {
+    "from": "mmManes000000000",
+    "to": "mmMerrow00000000"
+  },
+  "entries_total": 504,
+  "entries_reviewed": [
+    "mmManes000000000",
+    "mmManesVaporspaw",
+    "mmManticore00000",
+    "mmMarid000000000",
+    "mmMarilith000000",
+    "mmMastiff0000000",
+    "mmMedusa00000000",
+    "mmMerfolkSkirmis",
+    "mmMerfolkWaveben",
+    "mmMerrow00000000"
+  ],
+  "entry_names": {
+    "mmManes000000000": "Mane",
+    "mmManesVaporspaw": "Mane engendro vaporoso",
+    "mmManticore00000": "Mantícora",
+    "mmMarid000000000": "Marid",
+    "mmMarilith000000": "Marilith",
+    "mmMastiff0000000": "Mastín",
+    "mmMedusa00000000": "Medusa",
+    "mmMerfolkSkirmis": "Sirénido experto en escaramuzas",
+    "mmMerfolkWaveben": "Sirénido dominaolas",
+    "mmMerrow00000000": "Merrow"
+  },
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholders_found": [],
+  "pending_descriptions_in_range": [],
+  "untranslated_manual_gaps": [],
+  "notes": [
+    "Generated cumulatively from v30.",
+    "Source item ids were preserved.",
+    "Repeated spell and feature descriptions were reused from prior translated entries when exact source text matched.",
+    "Manual translations were added for unique actor features and water-themed spells/actions in this block."
+  ]
+}

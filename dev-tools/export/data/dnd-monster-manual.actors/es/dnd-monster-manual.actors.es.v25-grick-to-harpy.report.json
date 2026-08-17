@@ -1,0 +1,37 @@
+{
+  "version": "v25",
+  "base_file": "dnd-monster-manual.actors.es.v24-gold-dragon-wyrmling-to-grell.json",
+  "output_file": "dnd-monster-manual.actors.es.v25-grick-to-harpy.json",
+  "patch_file": "dnd-monster-manual.actors.es.v25-grick-to-harpy.patch.json",
+  "range": {
+    "from": "mmGrick000000000",
+    "to": "mmHarpy000000000"
+  },
+  "updated_entry_count": 10,
+  "updated_entries": [
+    "mmGrick000000000",
+    "mmGrickAncient00",
+    "mmGriffon0000000",
+    "mmGrimlock000000",
+    "mmGuard000000000",
+    "mmGuardCaptain00",
+    "mmGuardianNaga00",
+    "mmGulthiasBlight",
+    "mmHalfdragon0000",
+    "mmHarpy000000000"
+  ],
+  "total_entries": 504,
+  "mapping_preserved": true,
+  "json_valid": true,
+  "placeholders_found": false,
+  "missing_item_patches": {},
+  "missing_descriptions": [],
+  "warnings": [],
+  "errors": [],
+  "expected_internal_terms": [
+    "Grappled",
+    "Charmed",
+    "Incapacitated",
+    "Blinded appear only as preserved &Reference keys or IDs when present"
+  ]
+}

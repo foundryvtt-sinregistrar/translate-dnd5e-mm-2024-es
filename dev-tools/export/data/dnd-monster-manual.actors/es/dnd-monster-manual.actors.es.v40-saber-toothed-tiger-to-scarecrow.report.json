@@ -1,0 +1,28 @@
+{
+  "version": "v40",
+  "base": "dnd-monster-manual.actors.es.v39-red-dragon-wyrmling-to-rust-monster.json",
+  "output": "dnd-monster-manual.actors.es.v40-saber-toothed-tiger-to-scarecrow.json",
+  "patch": "dnd-monster-manual.actors.es.v40-saber-toothed-tiger-to-scarecrow.patch.json",
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "range": {
+    "from": "mmSabertoothedTi",
+    "to": "mmScarecrow00000"
+  },
+  "reviewed_entries": [
+    "mmSabertoothedTi",
+    "mmSahuaginBaron0",
+    "mmSahuaginPriest",
+    "mmSahuaginWarrio",
+    "mmSalamander0000",
+    "mmSalamanderFire",
+    "mmSalamanderInfe",
+    "mmSatyr000000000",
+    "mmSatyrRevelmast",
+    "mmScarecrow00000"
+  ],
+  "json_valid": true,
+  "mapping_preserved": true,
+  "protected_placeholders_found": false,
+  "missing_descriptions_for_reviewed_en_items": []
+}

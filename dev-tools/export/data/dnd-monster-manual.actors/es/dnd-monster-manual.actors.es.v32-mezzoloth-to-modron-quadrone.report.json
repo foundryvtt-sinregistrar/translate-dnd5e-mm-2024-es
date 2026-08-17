@@ -1,0 +1,40 @@
+{
+  "version": "v32",
+  "source": "dnd-monster-manual.actors.es.v31-manes-to-merrow.json",
+  "output": "dnd-monster-manual.actors.es.v32-mezzoloth-to-modron-quadrone.json",
+  "patch": "dnd-monster-manual.actors.es.v32-mezzoloth-to-modron-quadrone.patch.json",
+  "entries_total": 504,
+  "entries_updated": [
+    "mmMezzoloth00000",
+    "mmMimic000000000",
+    "mmMindFlayer0000",
+    "mmMindFlayerArca",
+    "mmMinotaurOfBaph",
+    "mmMinotaurSkelet",
+    "mmModronDuodrone",
+    "mmModronMonodron",
+    "mmModronPentadro",
+    "mmModronQuadrone"
+  ],
+  "range": {
+    "from": "mmMezzoloth00000",
+    "to": "mmModronQuadrone"
+  },
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "missing_items_from_en_source": [],
+  "pending_descriptions_with_en_source": [],
+  "protected_placeholders_present": false,
+  "updated_entry_names": {
+    "mmMezzoloth00000": "Mezzoloth",
+    "mmMimic000000000": "Mimeto",
+    "mmMindFlayer0000": "Azotamentes",
+    "mmMindFlayerArca": "Azotamentes arcanista",
+    "mmMinotaurOfBaph": "Minotauro de Bafomet",
+    "mmMinotaurSkelet": "Minotauro esqueleto",
+    "mmModronDuodrone": "Modrón duodrón",
+    "mmModronMonodron": "Modrón monodrón",
+    "mmModronPentadro": "Modrón pentadrón",
+    "mmModronQuadrone": "Modrón cuadrón"
+  }
+}

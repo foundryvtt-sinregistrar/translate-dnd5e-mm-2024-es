@@ -1,0 +1,36 @@
+{
+  "version": "v26",
+  "base_file": "dnd-monster-manual.actors.es.v25-grick-to-harpy.json",
+  "output_file": "dnd-monster-manual.actors.es.v26-haunting-revenant-to-hobgoblin-warlord.json",
+  "patch_file": "dnd-monster-manual.actors.es.v26-haunting-revenant-to-hobgoblin-warlord.patch.json",
+  "range": {
+    "from": "mmHauntingRevena",
+    "to": "mmHobgoblinWarlo"
+  },
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "reviewed_entry_ids": [
+    "mmHauntingRevena",
+    "mmHawk0000000000",
+    "mmHellHound00000",
+    "mmHelmedHorror00",
+    "mmHezrou00000000",
+    "mmHillGiant00000",
+    "mmHippogriff0000",
+    "mmHippopotamus00",
+    "mmHobgoblinCapta",
+    "mmHobgoblinWarlo"
+  ],
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "missing_source_items_in_range": [],
+  "source_items_with_description_missing_translation": [],
+  "protected_placeholder_count": 0,
+  "checks": {
+    "no_missing_source_items_in_range": true,
+    "no_missing_descriptions_for_source_described_items": true,
+    "no_protected_placeholders": true,
+    "uuid_macros_preserved_sample": true,
+    "reference_macros_present": true
+  }
+}

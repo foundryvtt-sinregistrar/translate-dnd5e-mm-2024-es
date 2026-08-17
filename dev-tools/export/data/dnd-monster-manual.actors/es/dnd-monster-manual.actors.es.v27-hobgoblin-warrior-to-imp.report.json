@@ -1,0 +1,33 @@
+{
+  "version": "v27",
+  "range": {
+    "from": "mmHobgoblinWarri",
+    "to": "mmImp00000000000"
+  },
+  "updated_entries": [
+    "mmHobgoblinWarri",
+    "mmHomunculus0000",
+    "mmHookHorror0000",
+    "mmHornedDevil000",
+    "mmHunterShark000",
+    "mmHydra000000000",
+    "mmHyena000000000",
+    "mmIceDevil000000",
+    "mmIceMephit00000",
+    "mmImp00000000000"
+  ],
+  "entries_total": 504,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "missing_entries": [],
+  "missing_items_from_en_source_in_range": [],
+  "items_with_missing_description_when_en_has_description": [],
+  "protected_placeholder_count": 0,
+  "checks": {
+    "uuid_tokens_preserved_style": true,
+    "inline_attack_macros_present": true,
+    "inline_damage_macros_present": true,
+    "lookup_macros_present": true,
+    "reference_macros_present": true
+  }
+}

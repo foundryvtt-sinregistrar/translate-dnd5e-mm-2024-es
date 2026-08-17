@@ -1,0 +1,34 @@
+{
+  "version": "v30",
+  "base": "dnd-monster-manual.actors.es.v29-kobold-warrior-to-lemure.json",
+  "output": "dnd-monster-manual.actors.es.v30-lich-to-mammoth.json",
+  "patch": "dnd-monster-manual.actors.es.v30-lich-to-mammoth.patch.json",
+  "range": {
+    "from": "mmLich0000000000",
+    "to": "mmMammoth0000000"
+  },
+  "entries_total": 504,
+  "entries_updated": [
+    "mmLich0000000000",
+    "mmLion0000000000",
+    "mmLizard00000000",
+    "mmLizardfolkGeom",
+    "mmLizardfolkSove",
+    "mmMage0000000000",
+    "mmMageApprentice",
+    "mmMagmaMephit000",
+    "mmMagmin00000000",
+    "mmMammoth0000000"
+  ],
+  "updated_count": 10,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "protected_placeholders_found": false,
+  "missing_items_from_en_source_in_range": [],
+  "missing_descriptions_when_en_has_description": [],
+  "notes": [
+    "Generated cumulatively from v29.",
+    "Preserves Foundry/Babele entry and embedded item IDs.",
+    "Preserves @UUID, inline roll, lookup, and &Reference macro keys."
+  ]
+}

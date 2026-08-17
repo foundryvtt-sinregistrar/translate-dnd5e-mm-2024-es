@@ -1,0 +1,31 @@
+{
+  "version": "v21",
+  "base": "dnd-monster-manual.actors.es.v20-giant-crocodile-to-giant-owl.json",
+  "output": "dnd-monster-manual.actors.es.v21-giant-rat-to-giant-wasp.json",
+  "patch": "dnd-monster-manual.actors.es.v21-giant-rat-to-giant-wasp.patch.json",
+  "updated_count": 10,
+  "updated_ids": [
+    "mmGiantRat000000",
+    "mmGiantScorpion0",
+    "mmGiantSeahorse0",
+    "mmGiantShark0000",
+    "mmGiantSpider000",
+    "mmGiantSquid0000",
+    "mmGiantToad00000",
+    "mmGiantVenomousS",
+    "mmGiantVulture00",
+    "mmGiantWasp00000"
+  ],
+  "total_entries": 504,
+  "mapping_preserved": true,
+  "json_parse_ok": true,
+  "placeholders_found": false,
+  "macro_counts_in_updated_entries": {
+    "@UUID[": 0,
+    "[[/": 35,
+    "[[lookup": 35,
+    "&amp;Reference[": 22,
+    "&Reference[": 0
+  },
+  "issues": []
+}

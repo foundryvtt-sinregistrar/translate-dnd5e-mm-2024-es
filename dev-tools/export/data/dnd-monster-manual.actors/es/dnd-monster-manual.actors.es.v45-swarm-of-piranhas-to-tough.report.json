@@ -1,0 +1,30 @@
+{
+  "version": "v45",
+  "range": {
+    "from": "mmSwarmOfPiranha",
+    "to": "mmTough000000000"
+  },
+  "entries_total": 504,
+  "entries_updated": 10,
+  "updated_ids": [
+    "mmSwarmOfPiranha",
+    "mmSwarmOfRats000",
+    "mmSwarmOfRavens0",
+    "mmSwarmOfStirges",
+    "mmSwarmOfVenomou",
+    "mmTarrasque00000",
+    "mmThrikreenMarau",
+    "mmThrikreenPsion",
+    "mmTiger000000000",
+    "mmTough000000000"
+  ],
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "missing_embedded_items": [],
+  "empty_descriptions_from_en_source": [],
+  "protected_placeholders_found": false,
+  "notes": [
+    "Generated cumulatively from v44.",
+    "Preserved Foundry/Babele IDs and macro syntax."
+  ]
+}

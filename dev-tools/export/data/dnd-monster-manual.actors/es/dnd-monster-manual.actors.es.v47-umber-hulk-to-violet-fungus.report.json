@@ -1,0 +1,42 @@
+{
+  "version": "v47",
+  "range": {
+    "from": "mmUmberHulk00000",
+    "to": "mmVioletFungus00"
+  },
+  "updated_entries": [
+    "mmUmberHulk00000",
+    "mmUnicorn0000000",
+    "mmVampire0000000",
+    "mmVampireFamilia",
+    "mmVampireNightbr",
+    "mmVampireSpawn00",
+    "mmVampireUmbralL",
+    "mmVenomousSnake0",
+    "mmVineBlight0000",
+    "mmVioletFungus00"
+  ],
+  "entry_count_total": 504,
+  "updated_count": 10,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholder_count": 0,
+  "missing_items_in_updated_range": [],
+  "missing_descriptions_in_updated_range": [],
+  "notes": [
+    "Continúa desde v46.",
+    "Completa el tramo Umber Hulk → Violet Fungus.",
+    "Añade/revisa debilidades vampíricas, mordiscos, cambio de forma, efectos de agarre/envenenado/paralizado y conjuros del unicornio/vampiros.",
+    "Preserva macros Foundry/Babele, UUID, lookup, inline rolls y claves internas de &Reference."
+  ],
+  "generic_macro_descriptions_left_intact": [
+    "mmUmberHulk00000.mmRend0000000000:Rend",
+    "mmUnicorn0000000.mmHooves00000000:Hooves",
+    "mmUnicorn0000000.mmRadiantHorn000:Radiant Horn",
+    "mmVampireNightbr.mmShadowStrike00:Shadow Strike",
+    "mmVampireUmbralL.mmGraveStrike000:Grave Strike",
+    "mmVenomousSnake0.mmBite0000000000:Bite",
+    "mmVioletFungus00.mmRottingTouch00:Rotting Touch"
+  ],
+  "identical_non_generic_english_descriptions_in_updated_range": []
+}

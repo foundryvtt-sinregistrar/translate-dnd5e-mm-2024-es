@@ -1,0 +1,571 @@
+{
+  "entries": {
+    "mmIncubus0000000": {
+      "name": "Íncubo",
+      "details": {
+        "alignment": "Neutral malvado"
+      },
+      "items": {
+        "mmSuccubusForm00": {
+          "name": "Forma de súcubo",
+          "description": "<p class=\"feature\">Cuando el [[lookup @name lowercase]] termina un descanso largo, puede cambiar de forma a <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmSuccubus000000]{Súcubo}</strong>, usando ese bloque de estadísticas en lugar de este. Cualquier equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "t0iCIk7tfwvsOkXE": {
+              "name": "Cambiar de forma: súcubo"
+            }
+          }
+        },
+        "mmRestlessTouch0": {
+          "name": "Toque inquietante",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo queda maldito durante 24 horas o hasta que el [[lookup @name lowercase]] muera. Hasta que termine la maldición, el objetivo no obtiene ningún beneficio al terminar descansos cortos.</p>",
+          "activities": {
+            "EbLsg8CKlFLegU6p": {
+              "name": ""
+            }
+          },
+          "effects": {
+            "BvP51cOd6lyrhEgq": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda maldito durante 24 horas o hasta que la criatura atacante muera. Hasta que termine la maldición, el objetivo no obtiene ningún beneficio al terminar descansos cortos.</p>"
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmRestlessTouch0]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmSpellcasting00": {
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Carisma como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disfrazarse}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEtherealne]{Excursión etérea}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDream00000]{Ensueño}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Patrón hipnótico}</em></p>",
+          "activities": {
+            "3MkhXZwZstyLUC3q": {
+              "name": ""
+            },
+            "4niv7GRkc5MSpdJB": {
+              "name": ""
+            },
+            "1LiS9RkRQ6CxlqU8": {
+              "name": ""
+            },
+            "GLd7uBKeTMA5hZR1": {
+              "name": ""
+            }
+          }
+        },
+        "mmNightmare00000": {
+          "name": "Pesadilla",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=Y9H9ImnMcffBZlH3]], un [[lookup @target.affects.type activity=Y9H9ImnMcffBZlH3]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Y9H9ImnMcffBZlH3]] pies o menos.</p><p><em>Fallo:</em> Si el objetivo tiene 20 puntos de golpe o menos, tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=Y9H9ImnMcffBZlH3]] [[lookup @duration.units activity=Y9H9ImnMcffBZlH3]], hasta que reciba daño o hasta que una criatura a 5 pies o menos de él use una acción para despertarlo. De lo contrario, el objetivo recibe [[/damage average]] de daño.</p>",
+          "activities": {
+            "Y9H9ImnMcffBZlH3": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "Di6rSDXgFkxAGsFE": {
+              "name": "Inconsciente",
+              "description": "<p>Si el objetivo tiene 20 puntos de golpe o menos, tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante 1 hora, hasta que reciba daño o hasta que una criatura a 5 pies o menos de él use una acción para despertarlo.</p>"
+            }
+          }
+        },
+        "Epzabor9RV5yUeqA": {
+          "name": "Disfrazarse",
+          "description": "<p>Haces que tú mismo —incluida tu ropa, armadura, armas y otras pertenencias que lleves encima— parezcas diferente hasta que el conjuro termina. Puedes parecer 1 pie más bajo o más alto y parecer más pesado o más ligero. Debes adoptar una forma con la misma disposición básica de miembros que tienes. Por lo demás, el alcance de la ilusión depende de ti.</p><p>Los cambios producidos por este conjuro no resisten la inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a tu atuendo, los objetos atraviesan el sombrero, y cualquiera que lo toque no sentiría nada o sentiría tu cabeza y pelo. Para discernir que estás disfrazado, una criatura debe realizar la acción Estudiar para inspeccionar tu apariencia y superar una prueba [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "SrIb7dbaZs5F4zi9": {
+              "name": "Disfrazado",
+              "description": "<p>Para discernir que estás disfrazado, una criatura debe realizar la acción Estudiar para inspeccionar tu apariencia y superar una prueba [[/check ability=int skill=inv dc=@attributes.spell.dc]] contra tu CD de salvación de conjuros.</p>"
+            },
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        },
+        "cuHZ2sYkluUF9oHO": {
+          "name": "Excursión etérea",
+          "description": "<p>Das un paso hacia las regiones fronterizas del Plano Etéreo, donde se superpone con tu plano actual. Permaneces en el Etéreo Fronterizo durante la duración. Durante este tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada pie de movimiento cuesta 1 pie adicional. Puedes percibir el plano que has dejado, que se ve gris, y no puedes ver nada allí a más de 60 pies de distancia.</p><p>Mientras estás en el Plano Etéreo, solo puedes afectar y ser afectado por criaturas, objetos y efectos que estén en ese plano. Las criaturas que no estén en el Plano Etéreo no pueden percibirte ni interactuar contigo, salvo que un rasgo les conceda la capacidad de hacerlo.</p><p>Cuando el conjuro termina, regresas al plano que dejaste en el punto que corresponde a tu espacio en el Etéreo Fronterizo. Si apareces en un espacio ocupado, eres desplazado al espacio desocupado más cercano y recibes daño de Fuerza igual al doble del número de pies que te hayas movido.</p><p>Este conjuro termina instantáneamente si lo lanzas mientras estás en el Plano Etéreo o en un plano que no limite con él, como uno de los Planos Exteriores.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong> Puedes elegir como objetivo hasta tres criaturas voluntarias, incluyéndote a ti, por cada nivel de espacio de conjuro por encima de 7. Las criaturas deben estar a 10 pies o menos de ti cuando lanzas el conjuro.</p>",
+          "activities": {
+            "goIEUkL18XKPxbiu": {
+              "name": "Entrar en el Etéreo fronterizo"
+            }
+          },
+          "effects": {
+            "louTI4Z9bNUYBa8K": {
+              "name": "Excursión etérea"
+            },
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        },
+        "CM68DGw3MVinKTAz": {
+          "name": "Ensueño",
+          "description": "<p>Eliges como objetivo una criatura que conozcas y que esté en el mismo plano de existencia que tú. Tú o una criatura voluntaria que toques entráis en estado de trance para actuar como mensajero onírico. Mientras está en trance, el mensajero está &amp;Reference[Incapacitated apply=false]{Incapacitado} y tiene Velocidad 0.</p><p>Si el objetivo está dormido, el mensajero aparece en sus sueños y puede conversar con él mientras siga dormido, durante la duración del conjuro. El mensajero también puede modelar el entorno del sueño, creando paisajes, objetos y otras imágenes. El mensajero puede salir del trance en cualquier momento, lo que termina el conjuro de forma anticipada. Al despertar, el objetivo recuerda el sueño perfectamente.</p><p>Si el objetivo está despierto cuando lanzas el conjuro, el mensajero lo sabe y puede terminar el trance o esperar a que el objetivo se duerma, momento en el que el mensajero aparece en sus sueños.</p><p>Puedes hacer que el mensajero resulte monstruoso y aterrador para el objetivo. Si lo haces, el mensaje no puede contener más de diez palabras, y el objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, los ecos de la monstruosidad fantasmal engendran una pesadilla que dura todo el sueño del objetivo e impide que obtenga beneficio de ese descanso. Cuando el objetivo despierta, recibe 3d6 de daño Psíquico.</p><p>Si tienes una parte del cuerpo, un mechón de pelo, un recorte de uña u otra porción similar del cuerpo del objetivo, este realiza la salvación con Desventaja.</p>",
+          "effects": {
+            "x52Ga7U45IJOPFxK": {
+              "name": "Estado de trance",
+              "description": "<p>Mientras está en trance, el mensajero está &amp;Reference[Incapacitated apply=false]{Incapacitado} y tiene Velocidad 0.</p>"
+            },
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        },
+        "4pZ322c02dDoRQXF": {
+          "name": "Patrón hipnótico",
+          "description": "<p>Creas un patrón ondulante de colores en un Cubo de 30 pies dentro del alcance. El patrón aparece un instante y se desvanece. Cada criatura en el área que pueda verlo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[charmed apply=false]{Hechizado} mientras dure el conjuro. Mientras esté hechizada, la criatura tiene la condición &amp;Reference[incapacitated apply=false]{Incapacitado} y una Velocidad de 0.</p><p>El conjuro termina para una criatura afectada si recibe cualquier daño o si otra criatura usa una acción para sacudirla y sacarla de su estupor.</p>",
+          "effects": {
+            "mjAs8ssQlgp0AQOp": {
+              "name": "Hipnotizado",
+              "description": "<p>Mientras esté &amp;Reference[charmed apply=false]{Hechizado}, la criatura tiene la condición &amp;Reference[incapacitated apply=false]{Incapacitado} y una Velocidad de 0.</p><p>El conjuro termina para una criatura afectada si recibe cualquier daño o si otra criatura usa una acción para sacudirla y sacarla de su estupor.</p>"
+            },
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        }
+      }
+    },
+    "mmIntellectDevou": {
+      "name": "Devorador de intelectos",
+      "details": {
+        "alignment": "Legal malvado"
+      },
+      "items": {
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque de [[/item Claw]] y usa [[/item Devour Intellect]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmDetectIntellig": {
+          "name": "Detectar inteligencia",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] percibe mágicamente la ubicación de cualquier criatura a 300 pies o menos de sí mismo que tenga una puntuación de Inteligencia de 3 o superior, sin importar las barreras interpuestas.</p>"
+        },
+        "mmClaw0000000000": {
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "W1T7dZnG8GMMwyEP": {
+              "name": ""
+            }
+          }
+        },
+        "mmDevourIntellec": {
+          "name": "Devorar intelecto",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Inteligencia:</em> CD [[lookup @save.dc.value activity=7LNepwMsw4xbXyRk]], un [[lookup @target.affects.type activity=7LNepwMsw4xbXyRk]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=7LNepwMsw4xbXyRk]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "7LNepwMsw4xbXyRk": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "ZaYIN5Q0TftqUIDM": {
+              "name": "Aturdido",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Stunned apply=false]{Aturdido} hasta el final del siguiente turno de la criatura atacante.</p>"
+            }
+          }
+        },
+        "mmStealBody00000": {
+          "name": "Robar cuerpo",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Inteligencia:</em> CD [[lookup @save.dc.value activity=dKA6FqhkPRD5rLhA]], [[lookup @target.affects.special activity=dKA6FqhkPRD5rLhA]]</p><p class=\"feature\"><em>Fallo:</em> El [[lookup @name lowercase]] posee al objetivo, consume su cerebro y se teletransporta al interior de su cráneo.</p><p class=\"feature\">Mientras está allí, el [[lookup @name lowercase]] tiene &amp;Reference[Total Cover]{Cobertura total} contra ataques y otros efectos que se originen fuera de su anfitrión. El [[lookup @name lowercase]] conserva sus puntuaciones de Inteligencia, Sabiduría y Carisma; su comprensión del habla profunda; su telepatía; y su rasgo Detectar inteligencia. Por lo demás, adopta las estadísticas de juego del objetivo. Sabe todo lo que sabía el objetivo, incluidos conjuros e idiomas.</p><p class=\"feature\">Si el cuerpo anfitrión muere, el [[lookup @name lowercase]] debe abandonarlo. El [[lookup @name lowercase]] también es expulsado si el objetivo recupera su cerebro devorado mediante un conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Deseo}</em>.</p><p class=\"feature\">Gastando 5 pies de su movimiento, el [[lookup @name lowercase]] puede abandonar voluntariamente el cuerpo, teletransportándose al espacio desocupado más cercano a 5 pies o menos de él. Entonces el cuerpo muere, salvo que su cerebro sea restaurado antes del final del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "dKA6FqhkPRD5rLhA": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "jMXHiuori8qaVGww": {
+              "name": "Cobertura total",
+              "description": "<p>La criatura posesora tiene &amp;Reference[Total Cover]{Cobertura total} contra ataques y otros efectos que se originen fuera de su anfitrión.</p>"
+            },
+            "0E3z90uTzBGeozXr": {
+              "name": "Idiomas",
+              "description": "<p>La criatura posesora conserva su comprensión del habla profunda y su telepatía.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmInvisibleStalk": {
+      "name": "Acechador invisible",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "effects": {
+        "dnd5einvisible00": {
+          "name": "Invisible",
+          "description": "@Embed[Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u inline]"
+        }
+      },
+      "items": {
+        "mmAirForm0000000": {
+          "name": "Forma aérea",
+          "description": "<p>El [[lookup @name lowercase]] puede entrar en el espacio de un enemigo y detenerse allí. Puede moverse por un espacio tan estrecho como 1 pulgada sin gastar movimiento adicional para hacerlo.</p>"
+        },
+        "mmInvisibility00": {
+          "name": "Invisibilidad",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] tiene la condición &amp;Reference[Invisible apply=false]{Invisible}.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques con [[/item .mmWindSwipe00000]]. Puede reemplazar un ataque por un uso de [[/item .mmVortex00000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmWindSwipe00000": {
+          "name": "Barrido de viento",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "I1Wr7g5gPMPEe68k": {
+              "name": ""
+            }
+          }
+        },
+        "mmVortex00000000": {
+          "name": "Vórtice",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=cZy0VYbCVY8aRB4z]], un [[lookup @target.affects.special activity=cZy0VYbCVY8aRB4z]] en el espacio del [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average activity=cZy0VYbCVY8aRB4z]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]). Hasta que termine el agarre, el objetivo no puede lanzar conjuros con componente verbal y recibe [[/damage average activity=kDz92inkRCjGrPiz]] de daño al comienzo de cada turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "cZy0VYbCVY8aRB4z": {
+              "name": "Salvación"
+            },
+            "kDz92inkRCjGrPiz": {
+              "name": "Daño: agarrado"
+            },
+            "HtOlg4C8C2cikzCt": {
+              "name": "Prueba para escapar"
+            }
+          },
+          "effects": {
+            "fWPQye4Mr7VNbX9J": {
+              "name": "Agarrado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p><p>Hasta que termine el agarre, el objetivo no puede lanzar conjuros con componente verbal y recibe daño adicional al comienzo de cada turno del PNJ.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmIronGolem00000": {
+      "name": "Gólem de hierro",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmFireAbsorption": {
+          "name": "Absorción de fuego",
+          "description": "<p class=\"feature\">Cada vez que el [[lookup @name lowercase]] sufre daño de Fuego, recupera un número de puntos de golpe igual al daño de Fuego infligido.</p>"
+        },
+        "mmImmutableForm0": {
+          "name": "Forma inmutable",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] no puede cambiar de forma.</p>"
+        },
+        "mmMagicResistanc": {
+          "name": "Resistencia mágica",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item Bladed Arm]] o [[/item Fiery Bolt]] en cualquier combinación.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmFieryBolt00000": {
+          "name": "Descarga ígnea",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "cTIUSr5mWEJl1bhK": {
+              "name": ""
+            }
+          }
+        },
+        "mmBladedArm00000": {
+          "name": "Brazo afilado",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "HhaIrcdH5A1WO9PG": {
+              "name": ""
+            }
+          }
+        },
+        "mmPoisonBreath00": {
+          "name": "Aliento venenoso",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un [[lookup @target.template.type activity=lnabW9bM51HoluPp]] de [[lookup @target.template.size activity=lnabW9bM51HoluPp]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> Mitad de daño.</p>",
+          "activities": {
+            "lnabW9bM51HoluPp": {
+              "name": "Salvación"
+            }
+          }
+        }
+      }
+    },
+    "mmJackal00000000": {
+      "name": "Chacal",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmJackalwere0000": {
+      "name": "Hombre chacal",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mmPackTactics000": {
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de la criatura y el aliado no tiene la condición Incapacitado.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmRend0000000000]]{Desgarrar} o [[/item .mmSlam0000000000]]{Golpe}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmRend0000000000": {
+          "name": "Desgarrar (solo forma de chacal o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
+        },
+        "mmSlam0000000000": {
+          "name": "Golpe (solo forma humana o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "mEQjWdqU7zGv6Ott": {
+              "name": ""
+            }
+          }
+        },
+        "mmSleepGaze00000": {
+          "name": "Mirada somnífera",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=TXstlDE42CZicPAk]], [[lookup @target.affects.labels.statblock activity=TXstlDE42CZicPAk]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=TXstlDE42CZicPAk]] pies o menos (los Constructos y Muertos vivientes tienen éxito automáticamente).</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @labels.duration activity=TXstlDE42CZicPAk]], o hasta que reciba daño o una criatura a 5 pies o menos de él use una acción para despertarlo.</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune a la Mirada somnífera de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "TXstlDE42CZicPAk": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "LWfoFnHRORd9HZsh": {
+              "name": "Inconsciente",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante la duración (consulta el objeto de origen para la duración) o hasta que reciba daño o una criatura a 5 pies o menos de él use una acción para despertarlo.</p>"
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a un humano Mediano o a un híbrido humanoide-chacal Mediano, o vuelve a su forma verdadera (la de un chacal Pequeño). Salvo por su tamaño, sus estadísticas de juego son las mismas en cada forma. Cualquier equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          }
+        }
+      }
+    },
+    "mmJuvenileShadow": {
+      "name": "Dragón sombrío juvenil",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mmLivingShadow00": {
+          "name": "Sombra viviente",
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] tiene Resistencia al daño que no sea de Fuerza, Psíquico ni Radiante.</p><section class=\"secret\" id=\"secret-mDlPy4LM9OwpRBJk\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo proporciona un efecto activo para gestionar las <strong>resistencias al daño</strong> en la pestaña Efectos de la hoja de personaje.</p></section>",
+          "effects": {
+            "boNhrUtzyo91oCNw": {
+              "name": "Sombra viviente",
+              "description": "<p>Mientras está en luz tenue u oscuridad, la criatura tiene Resistencia al daño que no sea de Fuerza, Psíquico ni Radiante.</p>"
+            }
+          }
+        },
+        "mmSunlightSensit": {
+          "name": "Sensibilidad a la luz del sol",
+          "description": "<p>Mientras está bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de característica y las tiradas de ataque.</p>"
+        },
+        "mmRend0000000000": {
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmRend0000000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmShadowStealth0": {
+          "name": "Sigilo sombrío",
+          "description": "<p class=\"feature\">Mientras está en luz tenue u oscuridad, el [[lookup @name lowercase]] realiza la acción &amp;Reference[Hide]{Esconderse}.</p>",
+          "activities": {
+            "ydslIM9mBqNRGOnq": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "siHMgi75fxHCESex": {
+              "name": "Esconderse",
+              "description": "<p>Realizas la acción &amp;Reference[Hide]{Esconderse}.</p>"
+            }
+          }
+        },
+        "mmShadowBreath00": {
+          "name": "Aliento sombrío",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=hvGQg4CsoCNgrjGy]], cada criatura en un [[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]] de [[lookup @target.template.size activity=hvGQg4CsoCNgrjGy]] [[lookup @target.template.units activity=hvGQg4CsoCNgrjGy]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> Mitad de daño.</p><p class=\"feature\"><em>Fallo o éxito:</em> Un Humanoide reducido a 0 puntos de golpe por este daño muere, y una <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmShadow00000000]{Sombra} </strong>se alza de su cadáver. La sombra está bajo el control del [[lookup @name lowercase]] y comparte el contador de Iniciativa del [[lookup @name lowercase]], pero actúa inmediatamente después del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "hvGQg4CsoCNgrjGy": {
+              "name": "Salvación"
+            },
+            "2KYLIEvj53EC6nLq": {
+              "name": "La sombra se alza"
+            }
+          }
+        }
+      }
+    },
+    "mmKenku000000000": {
+      "name": "Kenku",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "items": {
+        "mmMimicry0000000": {
+          "name": "Mimetismo",
+          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">El </span>[[lookup @name lowercase]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> puede imitar cualquier sonido que haya oído, incluidas voces. Una criatura que oiga los sonidos puede reconocer que son imitaciones con una prueba [[/check format=long]] con éxito.</span></p>",
+          "activities": {
+            "QY46N3x1OIBN2Bu1": {
+              "name": ""
+            }
+          }
+        },
+        "mmShadowBlade000": {
+          "name": "Hoja sombría",
+          "description": "<p class=\"feature\"><em>Tirada de ataque cuerpo a cuerpo o a distancia:</em> [[/attack]], alcance [[lookup @item.range.reach]] pies o alcance [[lookup @item.range.value]] pies. <em>Impacto:</em> [[/damage average]] de daño. <em>Impacto o fallo:</em> La hoja regresa mágicamente a la mano del [[lookup @name lowercase]] inmediatamente después de un ataque a distancia.</p>"
+        },
+        "mmEldritchLanter": {
+          "name": "Farol sobrenatural",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire]{Fuego feérico}</em>, usando Inteligencia como característica para lanzar conjuros (CD de salvación de conjuros [[lookup @abilities.int.dc]]).</p>",
+          "activities": {
+            "JRqaqeuKgQqVmmUB": {
+              "name": ""
+            }
+          }
+        },
+        "HqBMb3Y0Mw76tDVK": {
+          "name": "Fuego feérico",
+          "description": "<p>Los objetos en un Cubo de 20 pies dentro del alcance quedan perfilados con luz azul, verde o violeta (a tu elección). Cada criatura en el Cubo también queda perfilada si falla una tirada de salvación de Destreza. Durante la duración, los objetos y criaturas afectados emiten &amp;Reference[dimlight]{luz tenue} en un radio de 10 pies y no pueden beneficiarse de la condición Invisible.</p><p>Las tiradas de ataque contra una criatura u objeto afectados tienen Ventaja si el atacante puede verlos.</p>",
+          "effects": {
+            "Y2i0OvwOixxag0ed": {
+              "name": "Contorneado",
+              "description": "<p>Durante la duración, los objetos y criaturas afectados emiten &amp;Reference[dimlight]{luz tenue} en un radio de 10 pies y no pueden beneficiarse de la condición Invisible.</p><p>Las tiradas de ataque contra una criatura u objeto afectados tienen Ventaja si el atacante puede verlos.</p>"
+            },
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        }
+      }
+    },
+    "mmKillerWhale000": {
+      "name": "Orca",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmHoldBreath0000": {
+          "name": "Contener la respiración",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede contener la respiración durante 30 minutos.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmKnight00000000": {
+      "name": "Caballero",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "items": {
+        "qFzUqCv1LU1T2l9W": {
+          "name": "Espadón",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "zi3BW6RGO2ugOyXu": {
+              "name": ""
+            }
+          }
+        },
+        "iqOpigRADMF7BFDu": {
+          "name": "Ballesta pesada",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "bZgdThKc69XEv43i": {
+              "name": ""
+            }
+          }
+        },
+        "78ddr9iMnLejcYIE": {
+          "name": "Armadura de placas"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .qFzUqCv1LU1T2l9W]] o [[/item .iqOpigRADMF7BFDu]] en cualquier combinación.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "iABmmvaDjjwSkvTZ": {
+          "name": "Parada",
+          "description": "<p><em>Desencadenante:</em> El [[lookup @name lowercase]] es [[lookup @activation.condition activity=aLG3BRZL7P6OEjwd]]. <em>Respuesta:</em> El [[lookup @name lowercase]] añade [[lookup @prof]] a su CA contra ese ataque, lo que puede hacer que falle.</p>",
+          "activities": {
+            "aLG3BRZL7P6OEjwd": {
+              "name": "Usar",
+              "activation": {
+                "condition": "impactado por una tirada de ataque cuerpo a cuerpo mientras sostiene un arma"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

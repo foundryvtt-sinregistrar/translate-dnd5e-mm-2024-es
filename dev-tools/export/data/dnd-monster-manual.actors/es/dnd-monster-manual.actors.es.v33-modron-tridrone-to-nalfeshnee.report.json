@@ -1,0 +1,34 @@
+{
+  "version": "v33",
+  "base": "dnd-monster-manual.actors.es.v32-mezzoloth-to-modron-quadrone.json",
+  "output": "dnd-monster-manual.actors.es.v33-modron-tridrone-to-nalfeshnee.json",
+  "patch": "dnd-monster-manual.actors.es.v33-modron-tridrone-to-nalfeshnee.patch.json",
+  "range": {
+    "from": "mmModronTridrone",
+    "to": "mmNalfeshnee0000",
+    "count": 10,
+    "ids": [
+      "mmModronTridrone",
+      "mmMudMephit00000",
+      "mmMule0000000000",
+      "mmMummy000000000",
+      "mmMummyLord00000",
+      "mmMyconidAdult00",
+      "mmMyconidSoverei",
+      "mmMyconidSporeSe",
+      "mmMyconidSprout0",
+      "mmNalfeshnee0000"
+    ]
+  },
+  "total_entries": 504,
+  "mapping_preserved": true,
+  "validation": {
+    "ok": true,
+    "errors": []
+  },
+  "notes": [
+    "JSON acumulado v32 → v33 generado correctamente.",
+    "Se conservan IDs, UUID links, inline rolls, lookup macros y claves internas de &Reference.",
+    "Se han reutilizado traducciones ya consolidadas para Disipar magia, Taumaturgia, Animar a los muertos y Orden imperiosa."
+  ]
+}

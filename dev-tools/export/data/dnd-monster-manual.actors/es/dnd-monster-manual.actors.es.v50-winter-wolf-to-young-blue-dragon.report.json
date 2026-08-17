@@ -1,0 +1,46 @@
+{
+  "version": "v50",
+  "base": "dnd-monster-manual.actors.es.v49-weasel-to-winged-kobold.json",
+  "output": "dnd-monster-manual.actors.es.v50-winter-wolf-to-young-blue-dragon.json",
+  "patch": "dnd-monster-manual.actors.es.v50-winter-wolf-to-young-blue-dragon.patch.json",
+  "range": {
+    "from": "mmWinterWolf0000",
+    "to": "mmYoungBlueDrago",
+    "count": 10
+  },
+  "updated_entries": [
+    "mmWinterWolf0000",
+    "mmWolf0000000000",
+    "mmWorg0000000000",
+    "mmWraith00000000",
+    "mmWyvern00000000",
+    "mmXorn0000000000",
+    "mmYeti0000000000",
+    "mmYochlol0000000",
+    "mmYoungBlackDrag",
+    "mmYoungBlueDrago"
+  ],
+  "total_entries": 504,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholder_count": 0,
+  "missing_items_from_en_source": [],
+  "missing_descriptions_from_en_source": [],
+  "notes": [
+    "Continúa la cadena acumulativa v49 -> v50.",
+    "Se preservan IDs, macros @UUID, [[/attack]], [[/damage]], [[lookup ...]] y claves internas &Reference[...].",
+    "Se reutilizan traducciones ya consolidadas para conjuros repetidos de Yochlol.",
+    "Las descripciones genéricas tipo [[/attack extended]]. [[/damage average extended]]. se conservan intactas por ser macros funcionales sin texto narrativo traducible."
+  ],
+  "accepted_generic_macro_descriptions": [
+    "mmWyvern00000000.mmBite0000000000:Bite",
+    "mmXorn0000000000.mmBite0000000000:Bite",
+    "mmXorn0000000000.mmClaw0000000000:Claw",
+    "mmYeti0000000000.mmClaw0000000000:Claw",
+    "mmYeti0000000000.mmIceThrow000000:Ice Throw",
+    "mmYochlol0000000.mmCausticLash000:Caustic Lash",
+    "mmYoungBlackDrag.mmRend0000000000:Rend",
+    "mmYoungBlueDrago.mmRend0000000000:Rend"
+  ],
+  "identical_english_descriptions_in_updated_range": []
+}

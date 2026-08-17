@@ -1,0 +1,21 @@
+{
+  "version": "v18",
+  "base": "dnd-monster-manual.actors.json",
+  "applied_previous_patch": "dnd-monster-manual.actors.es.v17-erinyes-to-flumph.patch.json",
+  "output": "dnd-monster-manual.actors.es.v18-flying-snake-to-ghast-gravecaller.json",
+  "patch": "dnd-monster-manual.actors.es.v18-flying-snake-to-ghast-gravecaller.patch.json",
+  "entries_updated": [
+    "mmFlyingSnake000",
+    "mmFomorian000000",
+    "mmFrog0000000000",
+    "mmFrostGiant0000",
+    "mmGalebDuhr00000",
+    "mmGargoyle000000",
+    "mmGasSporeFungus",
+    "mmGelatinousCube",
+    "mmGhast000000000",
+    "mmGhastGravecall"
+  ],
+  "entries_count": 10,
+  "issues": []
+}

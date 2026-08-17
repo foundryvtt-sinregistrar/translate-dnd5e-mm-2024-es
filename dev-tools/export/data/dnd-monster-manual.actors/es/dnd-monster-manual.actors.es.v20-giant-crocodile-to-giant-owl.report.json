@@ -1,0 +1,29 @@
+{
+  "version": "v20",
+  "source_base": "dnd-monster-manual.actors.es.v19-ghost-to-giant-crab.json",
+  "output": "dnd-monster-manual.actors.es.v20-giant-crocodile-to-giant-owl.json",
+  "patch": "dnd-monster-manual.actors.es.v20-giant-crocodile-to-giant-owl.patch.json",
+  "entries_total": 504,
+  "updated_count": 10,
+  "updated_ids": [
+    "mmGiantCrocodile",
+    "mmGiantEagle0000",
+    "mmGiantElk000000",
+    "mmGiantFireBeetl",
+    "mmGiantFrog00000",
+    "mmGiantGoat00000",
+    "mmGiantHyena0000",
+    "mmGiantLizard000",
+    "mmGiantOctopus00",
+    "mmGiantOwl000000"
+  ],
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "empty_descriptions_in_updated_items": [],
+  "protected_placeholders_found": [],
+  "notes": [
+    "Continuación de actores tras mmGiantCrab00000.",
+    "Se completan descripciones de rasgos, acciones, efectos y conjuros embebidos donde correspondía.",
+    "Se preservan IDs, enlaces UUID, inline rolls, lookups y macros &Reference."
+  ]
+}

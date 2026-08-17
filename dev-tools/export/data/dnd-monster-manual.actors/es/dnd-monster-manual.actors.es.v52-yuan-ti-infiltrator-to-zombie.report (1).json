@@ -1,0 +1,37 @@
+{
+  "version": "v52",
+  "source": "dnd-monster-manual.actors.es.v51-young-brass-dragon-to-yuan-ti-abomination.json",
+  "output": "dnd-monster-manual.actors.es.v52-yuan-ti-infiltrator-to-zombie.json",
+  "patch": "dnd-monster-manual.actors.es.v52-yuan-ti-infiltrator-to-zombie.patch.json",
+  "entries_total": 504,
+  "entries_reviewed": 5,
+  "reviewed_entries": [
+    {
+      "id": "mmYuantiInfiltra",
+      "name": "Yuan-ti infiltrado"
+    },
+    {
+      "id": "mmYuantiMalison1",
+      "name": "Yuan-ti corrupto (tipo 1)"
+    },
+    {
+      "id": "mmYuantiMalison2",
+      "name": "Yuan-ti corrupto (tipo 2)"
+    },
+    {
+      "id": "mmYuantiMalison3",
+      "name": "Yuan-ti corrupto (tipo 3)"
+    },
+    {
+      "id": "mmZombie00000000",
+      "name": "Zombi"
+    }
+  ],
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "no_protected_placeholders": true,
+    "pending_en_descriptions_in_range": [],
+    "errors": []
+  }
+}

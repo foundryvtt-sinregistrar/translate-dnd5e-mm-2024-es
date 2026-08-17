@@ -1,0 +1,3365 @@
+{
+  "meta": {
+    "file": "dnd-monster-manual.actors.es.v52-yuan-ti-infiltrator-to-zombie.json",
+    "source": "dnd-monster-manual.actors.en-source.json",
+    "review": "final-general-review"
+  },
+  "summary": {
+    "entries_es": 504,
+    "entries_en": 504,
+    "entry_key_sets_equal": true,
+    "mapping_equal": true,
+    "label": "Monstruos",
+    "protected_placeholders_count": 0,
+    "missing_item_patches_count": 6,
+    "extra_item_patches_count": 1,
+    "source_descriptions_without_es_description_count": 34,
+    "missing_activity_patches_count": 418,
+    "missing_effect_patches_count": 3,
+    "english_pattern_hits_count": 18,
+    "same_as_en_actor_names_count": 64,
+    "same_as_en_item_names_count": 7,
+    "same_as_en_activity_names_count": 2,
+    "same_as_en_effect_names_count": 21,
+    "core_references_without_es_label_count": 246,
+    "malformed_reference_tokens_count": 0,
+    "macro_syntax_issue_count": 0,
+    "entry_order_equal_en": true
+  },
+  "checks": {},
+  "findings": {
+    "missing_entries": [],
+    "extra_entries": [],
+    "protected_placeholders": [],
+    "missing_item_patches": [
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_en": "Faerie Dragon Adult",
+        "item": "mmSuperiorInvisi",
+        "item_en": "Superior Invisibility"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "actor_en": "Faerie Dragon Youth",
+        "item": "mmSuperiorInvisi",
+        "item_en": "Superior Invisibility"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_en": "Fiend Cultist",
+        "item": "mmPactAxe0000000",
+        "item_en": "Pact Axe"
+      },
+      {
+        "actor": "mmFlamingSkeleto",
+        "actor_en": "Flaming Skeleton",
+        "item": "jmtfmb8isTfURSSq",
+        "item_en": "Flame Scepter"
+      },
+      {
+        "actor": "mmFleshGolem0000",
+        "actor_en": "Flesh Golem",
+        "item": "mmAversionToFire",
+        "item_en": "Aversion to Fire"
+      },
+      {
+        "actor": "mmFleshGolem0000",
+        "actor_en": "Flesh Golem",
+        "item": "mmBerserk0000000",
+        "item_en": "Berserk"
+      }
+    ],
+    "extra_item_patches": [
+      {
+        "actor": "mmFleshGolem0000",
+        "actor_es": "Gólem de carne",
+        "item": "mmBerserk000000",
+        "item_es": "Descontrol"
+      }
+    ],
+    "source_descriptions_without_es_description": [
+      {
+        "actor": "mmDeathSlaad0000",
+        "actor_es": "Slaad de la muerte",
+        "item": "34iS6LFQxT3lWLIy",
+        "item_en": "Blight"
+      },
+      {
+        "actor": "mmDeathSlaad0000",
+        "actor_es": "Slaad de la muerte",
+        "item": "0NIYgbOrP5XIXVvy",
+        "item_en": "Cloudkill"
+      },
+      {
+        "actor": "mmDeva0000000000",
+        "actor_es": "Deva",
+        "item": "RIzW4Hz3llGsevNc",
+        "item_en": "Commune"
+      },
+      {
+        "actor": "mmDjinni00000000",
+        "actor_es": "Djinn",
+        "item": "WYNqNayywAsakkLh",
+        "item_en": "Wind Walk"
+      },
+      {
+        "actor": "mmDjinni00000000",
+        "actor_es": "Djinn",
+        "item": "Hadl6dF4CewMXQXo",
+        "item_en": "Creation"
+      },
+      {
+        "actor": "mmDustMephit0000",
+        "actor_es": "Mefit de polvo",
+        "item": "mmClaw0000000000",
+        "item_en": "Claw"
+      },
+      {
+        "actor": "mmEagle000000000",
+        "actor_es": "Águila",
+        "item": "mmTalons00000000",
+        "item_en": "Talons"
+      },
+      {
+        "actor": "mmEarthElemental",
+        "actor_es": "Elemental de tierra",
+        "item": "mmSlam0000000000",
+        "item_en": "Slam"
+      },
+      {
+        "actor": "mmEfreeti0000000",
+        "actor_es": "Ifrit",
+        "item": "mmHeatedBlade000",
+        "item_en": "Heated Blade"
+      },
+      {
+        "actor": "mmEfreeti0000000",
+        "actor_es": "Ifrit",
+        "item": "mmHurlFlame00000",
+        "item_en": "Hurl Flame"
+      },
+      {
+        "actor": "mmElementalCatac",
+        "actor_es": "Cataclismo elemental",
+        "item": "mmMultiattack000",
+        "item_en": "Multiattack"
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_es": "Dragón feérico adulto",
+        "item": "AcYePNFJ0My6yRSu",
+        "item_en": "Dancing Lights"
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_es": "Dragón feérico adulto",
+        "item": "CFxJvsVV3d7OH3BE",
+        "item_en": "Mage Hand"
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_es": "Dragón feérico adulto",
+        "item": "GQAt3nfkYJXnxQB9",
+        "item_en": "Minor Illusion"
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_es": "Dragón feérico adulto",
+        "item": "GBikJaCjcbahMvb6",
+        "item_en": "Hallucinatory Terrain"
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "actor_es": "Dragón feérico adulto",
+        "item": "iVtNhcbirqzW1vWp",
+        "item_en": "Polymorph"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "actor_es": "Dragón feérico joven",
+        "item": "RvZKaiCjENNT9evZ",
+        "item_en": "Greater Invisibility"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "actor_es": "Dragón feérico joven",
+        "item": "SoqfQdtIQid8OOxP",
+        "item_en": "Dancing Lights"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "actor_es": "Dragón feérico joven",
+        "item": "78uiIsQS8E011bTo",
+        "item_en": "Mage Hand"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "actor_es": "Dragón feérico joven",
+        "item": "uC4rGw0dkXYhJVS8",
+        "item_en": "Minor Illusion"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "mmMultiattack000",
+        "item_en": "Multiattack"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "mmSpellcasting00",
+        "item_en": "Spellcasting"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "mmHellishRebuke0",
+        "item_en": "Hellish Rebuke"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "JKj2mFhjY5PxpL16",
+        "item_en": "Hellish Rebuke"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "RpoXhQgd1WjWCzba",
+        "item_en": "Scorching Ray"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "R4oudgL7XsgC64Gz",
+        "item_en": "Thaumaturgy"
+      },
+      {
+        "actor": "mmFiendCultist00",
+        "actor_es": "Sectario infernal",
+        "item": "EkBgu4PTF2Ev91BV",
+        "item_en": "Fireball"
+      },
+      {
+        "actor": "mmFlameskull0000",
+        "actor_es": "Calavera llameante",
+        "item": "QFOFt36zW1Bo8Aiy",
+        "item_en": "Mage Hand"
+      },
+      {
+        "actor": "mmFlameskull0000",
+        "actor_es": "Calavera llameante",
+        "item": "iLkYWWJpMUr2TwTJ",
+        "item_en": "Magic Missile"
+      },
+      {
+        "actor": "mmFlameskull0000",
+        "actor_es": "Calavera llameante",
+        "item": "MN3yeYFdiwwmsoi1",
+        "item_en": "Fireball"
+      },
+      {
+        "actor": "mmFlamingSkeleto",
+        "actor_es": "Esqueleto llameante",
+        "item": "WJAMwCo1U9TJagnC",
+        "item_en": "Illumination"
+      },
+      {
+        "actor": "mmFlamingSkeleto",
+        "actor_es": "Esqueleto llameante",
+        "item": "GYNtFIOpXxiyGALA",
+        "item_en": "Death Burst"
+      },
+      {
+        "actor": "mmFlamingSkeleto",
+        "actor_es": "Esqueleto llameante",
+        "item": "juTK6jd3xDb5xZba",
+        "item_en": "Multiattack"
+      },
+      {
+        "actor": "mmFlamingSkeleto",
+        "actor_es": "Esqueleto llameante",
+        "item": "zhyJH2fjFrdV5nRI",
+        "item_en": "Hurl Flame"
+      }
+    ],
+    "missing_activity_patches": [
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "mmSpellcasting00",
+        "activity": "LiVzXp0hfthv1Xe3",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "mmSpellcasting00",
+        "activity": "xekMOU1wuTwVTzN5",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "mmSpellcasting00",
+        "activity": "eJC0YiofgPlRji6Z",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "mmSpellcasting00",
+        "activity": "oA6eSbkpCgn3pQsj",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "mmSpellcasting00",
+        "activity": "bzvYu6Xc9rv8HJT7",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "dWYREmsWqBqUx44b",
+        "activity": "QdMC2s97UJKjUBoD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAarakocraAerom",
+        "item": "veXFEVCxcnHLPodm",
+        "activity": "MoCYuk9kBsDS9F12",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAberrantCultis",
+        "item": "mmTentacleLash00",
+        "activity": "klT3y2MvOOeP5hxs",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAberrantCultis",
+        "item": "mmSpellcasting00",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAberrantCultis",
+        "item": "mmSpellcasting00",
+        "activity": "PrwxJOdm0dCa3pIH",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAberrantCultis",
+        "item": "mmCounterspell00",
+        "activity": "26VoJNytnrZQ9TGE",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAboleth0000000",
+        "item": "mmMucusCloud0000",
+        "activity": "clFFG8uDBSFzxIo8",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAboleth0000000",
+        "item": "mmTentacle000000",
+        "activity": "EeiSFNs2NulOBg6i",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAboleth0000000",
+        "item": "yiiKNaJ2svcUWqLi",
+        "activity": "zdXAMnjaOcsVmLZP",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAbominableYeti",
+        "item": "mmChillingGaze00",
+        "activity": "EREXmcv7YU7T9pj6",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAbominableYeti",
+        "item": "mmClaw0000000000",
+        "activity": "W1T7dZnG8GMMwyEP",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAbominableYeti",
+        "item": "mmIceThrow000000",
+        "activity": "8MblMnVk9INTaYUL",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAbominableYeti",
+        "item": "mmColdBreath0000",
+        "activity": "8P7hmd3Nron4RAIv",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmAcidBreath0000",
+        "activity": "qNI6W02jCUQbPpYE",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmSpellcasting00",
+        "activity": "TcBLW088E4dOgGRD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmSpellcasting00",
+        "activity": "fjwUS5UvTBBRHbJC",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmSpellcasting00",
+        "activity": "2DB38Qs0OA59Vo7p",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmSpellcasting00",
+        "activity": "h2avt8aUaFmisIII",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmSpellcasting00",
+        "activity": "YHrCbAZxiFbRb6Hp",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "YtqaPviYTERxxntD",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmCloudOfInsects",
+        "activity": "0OkFhjOM80ipoNKy",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlackDrag",
+        "item": "mmFrightfulPrese",
+        "activity": "lbzj4R6LBDa4r4Hk",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmLightningBreat",
+        "activity": "LpjgVwftzGNMgTUJ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "yjQvHZ9PNQKAthW6",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "Fbxn9PUE52WjIhaw",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "LfSHlmZcY1KlCvee",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "n3l58tsV0IUMMLEX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "DodpK8h6GY0F8ykO",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSpellcasting00",
+        "activity": "v57liOVE8ZchX4T0",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "2NUx0vDjK5sXIma8",
+        "activity": "QdMC2s97UJKjUBoD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBlueDrago",
+        "item": "mmSonicBoom00000",
+        "activity": "ijIOufHOvI06vyN3",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmFireBreath0000",
+        "activity": "bDqgmtLG3zcVuqdi",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "mgOj16go0Hn5DnYT",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "cy0Jz7lpWxMKEHSi",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "DHhlsyLH0tW6OdQq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "MePRnufO2BdCC987",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "sVL4ZjY58fsRfoMm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBrassDrag",
+        "item": "mmSpellcasting00",
+        "activity": "FclPWRNXRRWJmE2P",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmLightningBreat",
+        "activity": "LpjgVwftzGNMgTUJ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "Cpd8vd1EER5gUSvQ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "ze924C680jda0r9T",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "aRmjzvUIReJbfnDD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "vpQKJWySM5Xtfxnm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "7kKQrfyREsH9g1OB",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "W3sveD2Wm3abIdqD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmSpellcasting00",
+        "activity": "NiOwXtwCP98weKXJ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultBronzeDra",
+        "item": "mmGuidingLight00",
+        "activity": "zm9pGaRN3rgfVgGl",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmAcidBreath0000",
+        "activity": "qNI6W02jCUQbPpYE",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "pFqrNChLLaLcVLTh",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "AbpsvPf1bYAOnJWQ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "WdAwufRFzWkTzm5X",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "aQqbBA2qkQtZzh2d",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "MnK0EgBYeiFAV0fT",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSpellcasting00",
+        "activity": "qfxui7AXdORSuf30",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmMindJolt000000",
+        "activity": "f3Q5Cky4bKFVdOT2",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultCopperDra",
+        "item": "mmSlowingBreath0",
+        "activity": "teMMQNDDIE9XkPN3",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmFireBreath0000",
+        "activity": "bDqgmtLG3zcVuqdi",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmSpellcasting00",
+        "activity": "va2Rz2JpO59nzURk",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmSpellcasting00",
+        "activity": "CxVMn80ZaWKN6l5h",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmSpellcasting00",
+        "activity": "GUqZkQ1Vnf8WMckz",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmSpellcasting00",
+        "activity": "4gQeZpIwkm0iYmiC",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmSpellcasting00",
+        "activity": "zpiAmuKkl0JxMpDB",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "UHVf95GO7pUqRScP",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmBanish00000000",
+        "activity": "kWKwiAYgyeKBLMNJ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGoldDrago",
+        "item": "mmGuidingLight00",
+        "activity": "zm9pGaRN3rgfVgGl",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "mmSpellcasting00",
+        "activity": "cqi2NEwfNQ6tLmhe",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "mmSpellcasting00",
+        "activity": "wWcMNOhvarPgpPIT",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "mmSpellcasting00",
+        "activity": "wjZhxhQ2wYKCpZSn",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "uphk5wRe7cRCXMDE",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "mmMindInvasion00",
+        "activity": "SxaXUPLBRHtYL9As",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmFireBreath0000",
+        "activity": "bDqgmtLG3zcVuqdi",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmCommandingPres",
+        "activity": "Ouie1mEfXPRou9cj",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmSpellcasting00",
+        "activity": "wjUmU9dX4sy0f4SF",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmSpellcasting00",
+        "activity": "NHrfagsqSLT32oSk",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmSpellcasting00",
+        "activity": "Jaz0gSib4KNHVzjz",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmSpellcasting00",
+        "activity": "NYI0XAuSZOULfXoN",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultRedDragon",
+        "item": "mmFieryRays00000",
+        "activity": "EA1U9O6Z71z2lUZV",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmColdBreath0000",
+        "activity": "8P7hmd3Nron4RAIv",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "CiyV6aE1iDTziw6G",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "JnW5QuL2QpiZdkZd",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "Mm57tpsRQNJeqBEk",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "x0Bq3sGlabIhhkI9",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "fb1EproTsdan1xxh",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmSpellcasting00",
+        "activity": "IJQB1IY6tiKR3glw",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "SivIEpMZpBnAAlI3",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmChill000000000",
+        "activity": "RfHNQIf2DtRCskYp",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultSilverDra",
+        "item": "mmColdGale000000",
+        "activity": "pVs8BTVDNh54CZ0a",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultWhiteDrag",
+        "item": "mmRend0000000000",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultWhiteDrag",
+        "item": "mmColdBreath0000",
+        "activity": "8P7hmd3Nron4RAIv",
+        "source_name": ""
+      },
+      {
+        "actor": "mmAdultWhiteDrag",
+        "item": "mmFrightfulPrese",
+        "activity": "lbzj4R6LBDa4r4Hk",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBanditDeceiver",
+        "item": "b4qQybeLYA5LaLqI",
+        "activity": "QdMC2s97UJKjUBoD",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "mmSpellcasting00",
+        "activity": "tCzDMZRNjkuIGfqa",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "mmSpellcasting00",
+        "activity": "UNyqZmmyUYjcU7WL",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "mmSpellcasting00",
+        "activity": "voONeRFOu7rX8BqU",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "mmSpellcasting00",
+        "activity": "a90OiziSAuZYysp6",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "mmSpellcasting00",
+        "activity": "x3RQC6RHl5KWXAQQ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmBullywugBogSag",
+        "item": "ifCCry0YNCvnIKmN",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmClaw0000000000",
+        "activity": "W1T7dZnG8GMMwyEP",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmSpellcasting00",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmSpellcasting00",
+        "activity": "VFiNJbcKszfLJCgL",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmSpellcasting00",
+        "activity": "kegOWX9bwq1MRnDd",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmSpellcasting00",
+        "activity": "ON6yijwbWNMIzVzW",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCambion0000000",
+        "item": "mmSpellcasting00",
+        "activity": "4kXl5G2v7TJzEHBS",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCarrionCrawler",
+        "item": "mmBite0000000000",
+        "activity": "xWlMeXFjELfSUWX9",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCat00000000000",
+        "item": "mmScratch0000000",
+        "activity": "m9s3pmhoNA9tnQzX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCentaurTrooper",
+        "item": "4C5jy0VkmoTdrbTC",
+        "activity": "b04WToYLVtgE03Dm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCentaurWarden0",
+        "item": "mmSunRay00000000",
+        "activity": "8w88JJqQcBJspLlO",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCentaurWarden0",
+        "item": "mmSpellcasting00",
+        "activity": "tCtSTjbvaT027Ipv",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCentaurWarden0",
+        "item": "mmSpellcasting00",
+        "activity": "AhKAZERiZubEJxN4",
+        "source_name": ""
+      },
+      {
+        "actor": "mmChainDevil0000",
+        "item": "mmChain000000000",
+        "activity": "xxaJRogpJ10CtbNx",
+        "source_name": ""
+      },
+      {
+        "actor": "mmChasme00000000",
+        "item": "mmProboscis00000",
+        "activity": "6MZpHY61F2goMSDV",
+        "source_name": ""
+      },
+      {
+        "actor": "mmChimera0000000",
+        "item": "mmRam00000000000",
+        "activity": "z58sUDUmqxECJgT3",
+        "source_name": ""
+      },
+      {
+        "actor": "mmChimera0000000",
+        "item": "mmFireBreath0000",
+        "activity": "bDqgmtLG3zcVuqdi",
+        "source_name": ""
+      },
+      {
+        "actor": "mmChuul000000000",
+        "item": "mmPincer00000000",
+        "activity": "3L2u4vI16JJ6lA0p",
+        "source_name": ""
+      },
+      {
+        "actor": "mmClayGolem00000",
+        "item": "mmSlam0000000000",
+        "activity": "mEQjWdqU7zGv6Ott",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloaker0000000",
+        "item": "mmPhantasms00000",
+        "activity": "4GBMAwbnCOrMQ4Gf",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmThunderousMace",
+        "activity": "2NSwHPpxx2VDFUnb",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmThundercloud00",
+        "activity": "YOCWTezNd6HcNU2j",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "NdueMCpXRc7fLDFa",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "bhjL32S4ziUQZALT",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "VCMQtb1U2Tcr48cE",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "c0EtMztiY2kfISaf",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmSpellcasting00",
+        "activity": "cg7Ucc16ElBsXmRo",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "mmMistyStep00000",
+        "activity": "sstmyMnemXbXqI5Y",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCloudGiant0000",
+        "item": "2QgHUABlBcMzHf5Z",
+        "activity": "ntGShpXYlBqLMZmK",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCockatrice0000",
+        "item": "mmPetrifyingBite",
+        "activity": "ShppIfYgKgtWRJwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCockatriceRege",
+        "item": "mmPetrifyingBite",
+        "activity": "ShppIfYgKgtWRJwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmColossus000000",
+        "item": "mmRadiantRay0000",
+        "activity": "oRLYzYR9GUWN4rkm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCommoner000000",
+        "item": "uXeL0cGWqRTReue0",
+        "activity": "tFtnW9SGsqxilkl5",
+        "source_name": ""
+      },
+      {
+        "actor": "mmConstrictorSna",
+        "item": "mmConstrict00000",
+        "activity": "IgOMjRxAt7UISkJq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCopperDragonWy",
+        "item": "mmAcidBreath0000",
+        "activity": "qNI6W02jCUQbPpYE",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCopperDragonWy",
+        "item": "mmSlowingBreath0",
+        "activity": "teMMQNDDIE9XkPN3",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmBite0000000000",
+        "activity": "xWlMeXFjELfSUWX9",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmConstrict00000",
+        "activity": "IgOMjRxAt7UISkJq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "pqsEdkk5pmlT6JqV",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "mRewTdJpZuAtSCaO",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "l0rzaO0IDtNrBl00",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "unDa71kCTCQ5dYQe",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "d39dHMBqm2sZnUGa",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "item": "mmSpellcasting00",
+        "activity": "RAZiIRqr2r002XSq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCrab0000000000",
+        "item": "mmClaw0000000000",
+        "activity": "W1T7dZnG8GMMwyEP",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCrawlingClaw00",
+        "item": "rU49zZEzRmQ1fmrL",
+        "activity": "mEQjWdqU7zGv6Ott",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCrocodile00000",
+        "item": "mmBite0000000000",
+        "activity": "xWlMeXFjELfSUWX9",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultist0000000",
+        "item": "mmRitualSickle00",
+        "activity": "fhlmKxtRzVaTeFzt",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmPactBlade00000",
+        "activity": "eJZuoJjhMQzj3YKs",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmSpellcasting00",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmSpellcasting00",
+        "activity": "onvTWamS398c51Rq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmSpellcasting00",
+        "activity": "NsBX7tBXlDfi2BWV",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmSpellcasting00",
+        "activity": "RmN0E36r5loY1n21",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "mmSpiritualWeapo",
+        "activity": "X8EhZV0KcZv64V4J",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistFanatic",
+        "item": "z817Et9IPt6qHawH",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "mmPactBlade00000",
+        "activity": "eJZuoJjhMQzj3YKs",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "mmRadiantRay0000",
+        "activity": "oRLYzYR9GUWN4rkm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "mmSpellcasting00",
+        "activity": "elbB7YaqC5lMYnli",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "mmSpellcasting00",
+        "activity": "098SvlGyHm9OiItR",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "mmSpellcasting00",
+        "activity": "Qw1EX3DawUneKUPb",
+        "source_name": ""
+      },
+      {
+        "actor": "mmCultistHieroph",
+        "item": "MrU64fdXHkzu5ZsD",
+        "activity": "OLcbp8SQOX4EwM13",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDoppelganger00",
+        "item": "mmReadThoughts00",
+        "activity": "pZvAlG6vpOmPZ3KP",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDracolich00000",
+        "item": "KVgeVIHhqlrLNLD0",
+        "activity": "VP3t6lmmuXKGCRwX",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDracolich00000",
+        "item": "hkpO8GXAHAtvY86z",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDracolich00000",
+        "item": "hkpO8GXAHAtvY86z",
+        "activity": "5n39jOq2X004GaG6",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDracolich00000",
+        "item": "hkpO8GXAHAtvY86z",
+        "activity": "jjsMVFgU9RM6hqlm",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDracolich00000",
+        "item": "hkpO8GXAHAtvY86z",
+        "activity": "HnOVA3xWDH4UX6RZ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDragonTurtle00",
+        "item": "mmBite0000000000",
+        "activity": "xWlMeXFjELfSUWX9",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDragonTurtle00",
+        "item": "mmTail0000000000",
+        "activity": "LLodCm31qWyIpHyK",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDretch00000000",
+        "item": "mmFetidCloud0000",
+        "activity": "vRnhmBCQqIwIlfS4",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "mmForeleg0000000",
+        "activity": "5FBLocCqNmbD0Ntf",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "mmPoisonBurst000",
+        "activity": "am9XxYZtSyBqs4RM",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "mmMagicOfTheSpid",
+        "activity": "ErB1BoIjo8Wj9KXS",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "mmMagicOfTheSpid",
+        "activity": "8Zw5hRXyd8axv5Zs",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "mmMagicOfTheSpid",
+        "activity": "B8OHv2CaawtJoMu7",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDrider00000000",
+        "item": "gAdVTIyqf9DLBQT4",
+        "activity": "dnd5eactivity000",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmVineStaff00000",
+        "activity": "aZLlS74cFCSgUbgg",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmVerdantWisp000",
+        "activity": "B1OsrKxihj11gTHf",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "3MkhXZwZstyLUC3q",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "2HDHPkwefVWFOzlW",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "kRFj55nvsQK6tgYJ",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "nkTQoVkqdDGCEbsC",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "mknEHePWqzWQ3BAI",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "k6VQ3W6iKHSqJlZg",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDruid000000000",
+        "item": "mmSpellcasting00",
+        "activity": "qhGxfRb2sww4YJKs",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDryad000000000",
+        "item": "mmVineLash000000",
+        "activity": "ViVXiFKnkpJofRtx",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDryad000000000",
+        "item": "mmThornBurst0000",
+        "activity": "z1CblIG3JjciJtO0",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDryad000000000",
+        "item": "mmSpellcasting00",
+        "activity": "5yv4J9JeR6CdKUpq",
+        "source_name": ""
+      },
+      {
+        "actor": "mmDryad000000000",
+        "item": "mmSpellcasting00",
+        "activity": "bAmZSyK4cn33HwwI",
+        "source_name": ""
+      }
+    ],
+    "missing_effect_patches": [
+      {
+        "actor": "mmEttin000000000",
+        "item": "5LN8JEIko2tgE2WO",
+        "effect": "1SUTrOeGym7HuWxB",
+        "source_name": "Next Attack: Disadv."
+      },
+      {
+        "actor": "mmFaerieDragonAd",
+        "item": "P6aIXlIJ6aMTJYdI",
+        "effect": "NDpw6r63ZdEgks1a",
+        "source_name": "Invisible"
+      },
+      {
+        "actor": "mmFaerieDragonYo",
+        "item": "RvZKaiCjENNT9evZ",
+        "effect": "NDpw6r63ZdEgks1a",
+        "source_name": "Invisible"
+      }
+    ],
+    "english_pattern_hits": [
+      {
+        "pattern": "The lookup EN",
+        "path": "entries.mmAncientGoldDra.items.mmMultiattack000.description",
+        "snippet": "<p>The [[lookup @name lowercase]] makes {count} [[/item]] attacks and uses [[/item]].</p><p>The dragon makes three [[/item Rend]] attacks. Puede reemplazar un ataque por un uso de (A) Spellcasting para lanzar [[/item Guiding Bolt]] (versión de nivel "
+      },
+      {
+        "pattern": "The lookup EN",
+        "path": "entries.mmAnimalLord0000.items.mmMultiattack000.description",
+        "snippet": "<p>The [[lookup @name lowercase]] makes two ataques, usando [[/item Rend]] o [[/item Radiant Ray]] en cualquier combinación, y usa [[/item Animal Spirit]].</p>"
+      },
+      {
+        "pattern": "The lookup EN",
+        "path": "entries.mmAnimalLord0000.items.mmAnimalSpirit00.description",
+        "snippet": "<p>The [[lookup @name lowercase]] conjures an animal spirit that strikes at a creature and then disappears.</p><p><em>Tirada de salvación de Destreza:</em> DC [[lookup @save.dc.value activity=cx21u9ZYjSdu2m3U]], una criatura que el [[lookup @name low"
+      },
+      {
+        "pattern": "takes EN damage phrase",
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.description",
+        "snippet": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> DC [[lookup @save.dc.value activity=IlmzjggKrDB1c9dr]], any [[lookup @target.affects.type activity=IlmzjggKrDB1c9dr]] that starts its turn in a [[lookup @target.template.size activity=Ilmz"
+      },
+      {
+        "pattern": "has the condition EN",
+        "path": "entries.mmAdultBronzeDra.items.mmThunderclap000.description",
+        "snippet": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en un [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-f"
+      },
+      {
+        "pattern": "has the condition EN",
+        "path": "entries.mmAncientBronzeD.items.mmThunderclap000.description",
+        "snippet": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en un [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-f"
+      },
+      {
+        "pattern": "has the condition EN",
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description",
+        "snippet": "<p>The target has the &amp;Reference[Charmed apply=false] condition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p>"
+      },
+      {
+        "pattern": "has the condition EN",
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.BR99gMLiBwIoLHVU.description",
+        "snippet": "<p>The target has the &amp;Reference[Frightened apply=false] condition hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "pattern": "has the condition EN",
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.description",
+        "snippet": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> DC [[lookup @save.dc.value activity=IlmzjggKrDB1c9dr]], any [[lookup @target.affects.type activity=IlmzjggKrDB1c9dr]] that starts its turn in a [[lookup @target.template.size activity=Ilmz"
+      },
+      {
+        "pattern": "feet word",
+        "path": "entries.mmAncientSilverD.items.mmColdGale000000.activities.pVs8BTVDNh54CZ0a.description.chatFlavor",
+        "snippet": "On Success: The target is pushed up to 30 feet straight away from the attacking creature"
+      },
+      {
+        "pattern": "feet word",
+        "path": "entries.mmCultistFanatic.items.z817Et9IPt6qHawH.description",
+        "snippet": "<p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 fe"
+      },
+      {
+        "pattern": "feet word",
+        "path": "entries.mmPrimevalOwlbea.items.mmRavage00000000.activities.Gi7NHst31Yf0KVM9.activation.condition",
+        "snippet": "moved 20+ feet"
+      },
+      {
+        "pattern": "spell save DC",
+        "path": "entries.mmAncientBronzeD.items.weRr4SCAG9rNPGAp.description",
+        "snippet": "<p>Until el conjuro ends, you control any water inside an area you choose that is a Cube up to 100 pies on a side, using one of the following effects. As a acción mágica on your later turns, you can repeat the same effect or choose a different one.</"
+      },
+      {
+        "pattern": "spell save DC",
+        "path": "entries.mmAncientCopperD.items.QZ63bcTw0GBEeavI.description",
+        "snippet": "<p>You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location dentro del alcance that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you, but it is intangibl"
+      },
+      {
+        "pattern": "spell save DC",
+        "path": "entries.mmMarid000000000.items.R7FNJUssksG8Ycmx.description",
+        "snippet": "<p>Until el conjuro ends, you control any water inside an area you choose that is a Cube up to 100 pies on a side, using one of the following effects. As a acción mágica on your later turns, you can repeat the same effect or choose a different one.</"
+      },
+      {
+        "pattern": "spell save DC",
+        "path": "entries.mmMerfolkWaveben.items.T0CkqKWNcTKcEUwI.description",
+        "snippet": "<p>Until el conjuro ends, you control any water inside an area you choose that is a Cube up to 100 pies on a side, using one of the following effects. As a acción mágica on your later turns, you can repeat the same effect or choose a different one.</"
+      },
+      {
+        "pattern": "1/Day Each",
+        "path": "entries.mmAnimalLord0000.items.mmSpellcasting00.description",
+        "snippet": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Sabiduría como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"featu"
+      },
+      {
+        "pattern": "Using a Higher-Level Spell Slot",
+        "path": "entries.mmCultistFanatic.items.z817Et9IPt6qHawH.description",
+        "snippet": "<p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 fe"
+      }
+    ],
+    "same_as_en_actor_names": [
+      {
+        "actor": "mmAboleth0000000",
+        "name": "Aboleth"
+      },
+      {
+        "actor": "mmAnkheg00000000",
+        "name": "Ankheg"
+      },
+      {
+        "actor": "mmArcanaloth0000",
+        "name": "Arcanaloth"
+      },
+      {
+        "actor": "mmArchelon000000",
+        "name": "Archelon"
+      },
+      {
+        "actor": "mmBalor000000000",
+        "name": "Balor"
+      },
+      {
+        "actor": "mmBanshee0000000",
+        "name": "Banshee"
+      },
+      {
+        "actor": "mmBarlgura000000",
+        "name": "Barlgura"
+      },
+      {
+        "actor": "mmBehir000000000",
+        "name": "Behir"
+      },
+      {
+        "actor": "mmBerserker00000",
+        "name": "Berserker"
+      },
+      {
+        "actor": "mmBulette0000000",
+        "name": "Bulette"
+      },
+      {
+        "actor": "mmCambion0000000",
+        "name": "Cambion"
+      },
+      {
+        "actor": "mmChasme00000000",
+        "name": "Chasme"
+      },
+      {
+        "actor": "mmChuul000000000",
+        "name": "Chuul"
+      },
+      {
+        "actor": "mmCouatl00000000",
+        "name": "Couatl"
+      },
+      {
+        "actor": "mmDao00000000000",
+        "name": "Dao"
+      },
+      {
+        "actor": "mmDeva0000000000",
+        "name": "Deva"
+      },
+      {
+        "actor": "mmDoppelganger00",
+        "name": "Doppelganger"
+      },
+      {
+        "actor": "mmDretch00000000",
+        "name": "Dretch"
+      },
+      {
+        "actor": "mmEttercap000000",
+        "name": "Ettercap"
+      },
+      {
+        "actor": "mmEttin000000000",
+        "name": "Ettin"
+      },
+      {
+        "actor": "mmFlumph00000000",
+        "name": "Flumph"
+      },
+      {
+        "actor": "mmGalebDuhr00000",
+        "name": "Galeb Duhr"
+      },
+      {
+        "actor": "mmGhast000000000",
+        "name": "Ghast"
+      },
+      {
+        "actor": "mmGlabrezu000000",
+        "name": "Glabrezu"
+      },
+      {
+        "actor": "mmGorgon00000000",
+        "name": "Gorgon"
+      },
+      {
+        "actor": "mmGoristro000000",
+        "name": "Goristro"
+      },
+      {
+        "actor": "mmGrell000000000",
+        "name": "Grell"
+      },
+      {
+        "actor": "mmGrick000000000",
+        "name": "Grick"
+      },
+      {
+        "actor": "mmGrimlock000000",
+        "name": "Grimlock"
+      },
+      {
+        "actor": "mmHezrou00000000",
+        "name": "Hezrou"
+      },
+      {
+        "actor": "mmKenku000000000",
+        "name": "Kenku"
+      },
+      {
+        "actor": "mmKraken00000000",
+        "name": "Kraken"
+      },
+      {
+        "actor": "mmKuotoa00000000",
+        "name": "Kuo-toa"
+      },
+      {
+        "actor": "mmLamia000000000",
+        "name": "Lamia"
+      },
+      {
+        "actor": "mmLarva000000000",
+        "name": "Larva"
+      },
+      {
+        "actor": "mmMagmin00000000",
+        "name": "Magmin"
+      },
+      {
+        "actor": "mmMarid000000000",
+        "name": "Marid"
+      },
+      {
+        "actor": "mmMarilith000000",
+        "name": "Marilith"
+      },
+      {
+        "actor": "mmMedusa00000000",
+        "name": "Medusa"
+      },
+      {
+        "actor": "mmMerrow00000000",
+        "name": "Merrow"
+      },
+      {
+        "actor": "mmMezzoloth00000",
+        "name": "Mezzoloth"
+      },
+      {
+        "actor": "mmNalfeshnee0000",
+        "name": "Nalfeshnee"
+      },
+      {
+        "actor": "mmNoble000000000",
+        "name": "Noble"
+      },
+      {
+        "actor": "mmNycaloth000000",
+        "name": "Nycaloth"
+      },
+      {
+        "actor": "mmOni00000000000",
+        "name": "Oni"
+      },
+      {
+        "actor": "mmOtyugh00000000",
+        "name": "Otyugh"
+      },
+      {
+        "actor": "mmPeryton0000000",
+        "name": "Peryton"
+      },
+      {
+        "actor": "mmPixie000000000",
+        "name": "Pixie"
+      },
+      {
+        "actor": "mmPlanetar000000",
+        "name": "Planetar"
+      },
+      {
+        "actor": "mmPoltergeist000",
+        "name": "Poltergeist"
+      },
+      {
+        "actor": "mmPteranodon0000",
+        "name": "Pteranodon"
+      },
+      {
+        "actor": "mmQuaggoth000000",
+        "name": "Quaggoth"
+      },
+      {
+        "actor": "mmQuasit00000000",
+        "name": "Quasit"
+      },
+      {
+        "actor": "mmRakshasa000000",
+        "name": "Rakshasa"
+      },
+      {
+        "actor": "mmRemorhaz000000",
+        "name": "Remorhaz"
+      },
+      {
+        "actor": "mmRoc00000000000",
+        "name": "Roc"
+      },
+      {
+        "actor": "mmSolar000000000",
+        "name": "Solar"
+      },
+      {
+        "actor": "mmTriceratops000",
+        "name": "Triceratops"
+      },
+      {
+        "actor": "mmTroll000000000",
+        "name": "Troll"
+      },
+      {
+        "actor": "mmUltroloth00000",
+        "name": "Ultroloth"
+      },
+      {
+        "actor": "mmVrock000000000",
+        "name": "Vrock"
+      },
+      {
+        "actor": "mmXorn0000000000",
+        "name": "Xorn"
+      },
+      {
+        "actor": "mmYeti0000000000",
+        "name": "Yeti"
+      },
+      {
+        "actor": "mmYochlol0000000",
+        "name": "Yochlol"
+      }
+    ],
+    "same_as_en_item_names": [
+      {
+        "actor": "mmAdultGreenDrag",
+        "item": "uphk5wRe7cRCXMDE",
+        "name": "Geas"
+      },
+      {
+        "actor": "mmClayGolem00000",
+        "item": "mmBerserk0000000",
+        "name": "Berserk"
+      },
+      {
+        "actor": "mmDemilich000000",
+        "item": "7FNhaof0rFuM2yTG",
+        "name": "Necrosis"
+      },
+      {
+        "actor": "mmGuardianNaga00",
+        "item": "Kl2qli45InLejqV3",
+        "name": "Geas"
+      },
+      {
+        "actor": "mmLamia000000000",
+        "item": "2M6IcnU5z2CDUmR9",
+        "name": "Geas"
+      },
+      {
+        "actor": "mmThrikreenMarau",
+        "item": "mmGythka00000000",
+        "name": "Gythka"
+      },
+      {
+        "actor": "mmThrikreenMarau",
+        "item": "mmChatkcha000000",
+        "name": "Chatkcha"
+      }
+    ],
+    "same_as_en_activity_names": [
+      {
+        "actor": "mmOchreJelly0000",
+        "item": "mmSplit000000000",
+        "activity": "zoXFSgzmWq8frUjI",
+        "name": "Split"
+      },
+      {
+        "actor": "mmTrollLimb00000",
+        "item": "mmTrollSpawn0000",
+        "activity": "6Um1z9LMOVV2qdcS",
+        "name": "Troll"
+      }
+    ],
+    "same_as_en_effect_names": [
+      {
+        "actor": "mmArchhag0000000",
+        "item": "mmSpitefulEscape",
+        "effect": "WP7LXEByRHwDlUE8",
+        "name": "Cursed: Disadv. Checks & Saves"
+      },
+      {
+        "actor": "mmArchmage000000",
+        "item": "LJAWrZ47CuLAxDH6",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmClayGolem00000",
+        "item": "mmBerserk0000000",
+        "effect": "8SBNBxgUqwEyYJcK",
+        "name": "Berserk"
+      },
+      {
+        "actor": "mmEfreeti0000000",
+        "item": "aDInRtd983tifrXD",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmGraySlaad00000",
+        "item": "2MVtdxU8zlqzRTKk",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmGreenHag000000",
+        "item": "P1WohR9zwkV78Jwb",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmGreenSlaad0000",
+        "item": "4rDtqNx7oc6qNBSG",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmImp00000000000",
+        "item": "BGYUyh36nOQKX4Pr",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmLich0000000000",
+        "item": "dz9rY4S9xO1zL4Vi",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmMage0000000000",
+        "item": "gYeuuG0rUMIaWuTJ",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmMarid000000000",
+        "item": "oKUEoMYZQZaeH1vA",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmNobleProdigy00",
+        "item": "JQoWeGhzIxKWQv7I",
+        "effect": "KjjRlnccDwmAY7gG",
+        "name": "Befuddled"
+      },
+      {
+        "actor": "mmNycaloth000000",
+        "item": "mmShadowyTelepor",
+        "effect": "RyZ6FJMrHcReQwbx",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmOni00000000000",
+        "item": "7zCgLqwWT0prZxhy",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmPixieWonderbri",
+        "item": "PmyATqF8oBkW1DMQ",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmPlanetar000000",
+        "item": "bxsn6ULg4criZxQj",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmPoltergeist000",
+        "item": "mmVanish00000000",
+        "effect": "oY6W5ijpozecYGkq",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmQuasit00000000",
+        "item": "32LONl1rUCtttKkg",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmRakshasa000000",
+        "item": "J3Pzx3o5sXfl7xkc",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmUltroloth00000",
+        "item": "Fa84JUu8IXzi2KGL",
+        "effect": "9svfDetqjhsFP3ey",
+        "name": "Invisible"
+      },
+      {
+        "actor": "mmWillowisp00000",
+        "item": "mmVanish00000000",
+        "effect": "oY6W5ijpozecYGkq",
+        "name": "Invisible"
+      }
+    ],
+    "core_references_without_es_label": [
+      {
+        "path": "entries.mmAbominableYeti.items.mmChillingGaze00.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Paralyzed apply=false] hasta el comienzo del siguiente turno del [[lookup @name lowercase]], salvo que el objetivo tenga Inmunidad al daño de "
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.usixW0YhBv27P281.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.usixW0YhBv27P281.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.usixW0YhBv27P281.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.usixW0YhBv27P281.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.mmCloudOfInsects.description",
+        "reference": "&amp;Reference[concentration]",
+        "snippet": " daño, y el objetivo tiene Desventaja en las tiradas de salvación para mantener &amp;Reference[concentration] hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a lle"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.gVlAKwebdYMDFAzv.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.gVlAKwebdYMDFAzv.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.gVlAKwebdYMDFAzv.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAdultBlackDrag.items.gVlAKwebdYMDFAzv.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAdultBlueDrago.items.7gDzjW0xMFSlUZyE.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmAdultWhiteDrag.items.J6PEYQgS9LHDoTaq.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAdultWhiteDrag.items.J6PEYQgS9LHDoTaq.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAdultWhiteDrag.items.J6PEYQgS9LHDoTaq.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAdultWhiteDrag.items.J6PEYQgS9LHDoTaq.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAirElemental00.items.mmWhirlwind00000.effects.qihlGD6RZ55pZY9n.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "pies en línea recta alejándose de la criatura atacante y queda con la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAirElemental00.items.mmWhirlwind00000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": " línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false].</p><p><em>Éxito:</em> Solo la mitad del daño.</p>"
+      },
+      {
+        "path": "entries.mmAllosaurus0000.items.mmClaws000000000.effects.o2HIiixtauDbonc3.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo queda con la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAllosaurus0000.items.mmClaws000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "a hacia él inmediatamente antes del impacto, el objetivo queda con la condición &amp;Reference[Prone apply=false], y el [[lookup @name lowercase]] puede realizar un ataque de [[/item .mmBite0000000000]] contra él.</p>"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.5JLSjcBWRU5O5oKu.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.5JLSjcBWRU5O5oKu.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.5JLSjcBWRU5O5oKu.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.5JLSjcBWRU5O5oKu.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.mmCloudOfInsects.description",
+        "reference": "&amp;Reference[concentration]",
+        "snippet": "ge, y el objetivo tiene desventaja en las tiradas de salvación para mantener la &amp;Reference[concentration] hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a rea"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.VVUgABLlS8lQwH7N.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.VVUgABLlS8lQwH7N.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.VVUgABLlS8lQwH7N.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAncientBlackDr.items.VVUgABLlS8lQwH7N.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAncientBlueDra.items.FlUeG3M3TNcZ4aNj.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmAncientBlueDra.items.j529u2kIzgwyFvaW.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "<p>El objetivo queda con la condición &amp;Reference[Unconscious apply=false] durante the duration (see source item for the length of the duration). </p>"
+      },
+      {
+        "path": "entries.mmAncientBrassDr.items.mmSleepBreath000.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo queda con la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</"
+      },
+      {
+        "path": "entries.mmAncientBrassDr.items.mmSleepBreath000.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo queda con la condición &amp;Reference[Unconscious apply=false] durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. Este efecto termina para el objetivo si recibe dañ"
+      },
+      {
+        "path": "entries.mmAncientBronzeD.items.mmRepulsionBreat.effects.HG9R2hTEqJ0G5urK.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo queda con la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAncientBronzeD.items.mmRepulsionBreat.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": " línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAncientCopperD.items.19dZZq6HVUzWWRAU.effects.AbNgTsT2gRxwmBpg.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p>"
+      },
+      {
+        "path": "entries.mmAncientCopperD.items.19dZZq6HVUzWWRAU.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong"
+      },
+      {
+        "path": "entries.mmAncientCopperD.items.8H0gCoUxI0FV16Ie.effects.AbNgTsT2gRxwmBpg.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p>"
+      },
+      {
+        "path": "entries.mmAncientCopperD.items.8H0gCoUxI0FV16Ie.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.AnuzCEpfFtXuG3W7.effects.AbNgTsT2gRxwmBpg.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p>"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.AnuzCEpfFtXuG3W7.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.5hVmOPSU4TtlM3Dq.effects.AbNgTsT2gRxwmBpg.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p>"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.5hVmOPSU4TtlM3Dq.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "te conocimiento, el objetivo no puede esconderse de ti, y si tiene la condición &amp;Reference[invisible apply=false], no obtiene beneficio de esa condición contra ti.</p><p><strong>Usando un espacio de conjuro de nivel superior.</strong"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.effects.ayfixWGhTtaIUusk.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p><span style=\"font-family:Signika, sans-serif\">While &amp;Reference[Charmed apply=false] in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply=false] condición and is unaware of its su"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.effects.ayfixWGhTtaIUusk.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " &amp;Reference[Charmed apply=false] in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply=false] condición and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another "
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "riatura, it has ventaja on the save. On a failed save, el objetivo queda con la &amp;Reference[Charmed apply=false] condición for the duration. While Charmed in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply"
+      },
+      {
+        "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "ción for the duration. While Charmed in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply=false] condición and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another "
+      },
+      {
+        "path": "entries.mmAncientWhiteDr.items.JGAy5fooJdCpaQig.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo qu"
+      },
+      {
+        "path": "entries.mmAncientWhiteDr.items.JGAy5fooJdCpaQig.effects.ijiWLu6EJZmEJPOZ.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "<p>Una criatura &amp;Reference[frightened apply=false] lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAncientWhiteDr.items.JGAy5fooJdCpaQig.description",
+        "reference": "&amp;Reference[frightened apply=false]",
+        "snippet": "de salvación de Sabiduría o soltar lo que esté sosteniendo y tener la condición &amp;Reference[frightened apply=false] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por "
+      },
+      {
+        "path": "entries.mmAncientWhiteDr.items.JGAy5fooJdCpaQig.description",
+        "reference": "&amp;Reference[dash]",
+        "snippet": "e] mientras dure el conjuro.</p><p>Una criatura Asustada lleva a cabo la acción &amp;Reference[dash] y se aleja de ti por la ruta más segura en cada uno de sus turnos, salvo que no tenga adónde moverse. Si la criatura te"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>The target has the &amp;Reference[Charmed apply=false] condition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=fa"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "ndition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p>"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.BR99gMLiBwIoLHVU.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>The target has the &amp;Reference[Frightened apply=false] condition hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "=\"feature-trait\"><strong>Captivated (Forager Only).</strong> The target has the &amp;Reference[Charmed apply=false] condition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=fa"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "ndition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p><p class=\"feature-trait\"><strong>Fearful (Hunter Only).</strong> The target has the &amp;Reference[Fright"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "lass=\"feature-trait\"><strong>Fearful (Hunter Only).</strong> The target has the &amp;Reference[Frightened apply=false] condition hasta el final de su siguiente turno.</p><p class=\"feature-trait\"><strong>Mired (Sage Only).</strong> The tar"
+      },
+      {
+        "path": "entries.mmAnimalLord0000.items.R4o9hsyBMBs7zLGA.description",
+        "reference": "&amp;Reference[Charmed]",
+        "snippet": "m>Manual de Monstruos</em>.</p><p>El objetivo despertado queda con la condición &amp;Reference[Charmed] durante 30 días o hasta que tú o tus aliados le inflijáis daño. Cuando esa condición termina, la criatura despertada el"
+      },
+      {
+        "path": "entries.mmAnimatedBoulde.items.mmAvalancheSlam0.description",
+        "reference": "&amp;Reference[Prone]",
+        "snippet": ", sans-serif\">7 (2d6) de daño contundente</span> adicional y tiene la condición &amp;Reference[Prone].</p>"
+      },
+      {
+        "path": "entries.mmAnimatedRugOfS.items.mmSmother0000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "diana o más pequeña, el [[lookup @name lowercase]] puede imponerle la condición &amp;Reference[Grappled apply=false] (CD para escapar [[lookup @skills.ath.passive]]) en lugar de causar daño. Hasta que termine el agarrón, el objetivo tie"
+      },
+      {
+        "path": "entries.mmAnimatedRugOfS.items.mmSmother0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "garrón, el objetivo tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Restrained apply=false], está &amp;Reference[Suffocating]{asfixiándose} y recibe [[/damage average]] de daño al comienzo de cada uno de sus tur"
+      },
+      {
+        "path": "entries.mmAnimatedRugOfS.items.mmSmother0000000.effects.wfTA3WUcjBVzGa2H.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>El objetivo queda &amp;Reference[Grappled apply=false] (CD para escapar [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD) en lugar de rec"
+      },
+      {
+        "path": "entries.mmAnimatedRugOfS.items.mmSmother0000000.effects.wfTA3WUcjBVzGa2H.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "garrón, el objetivo tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Restrained apply=false], y está &amp;Reference[Suffocating]{asfixiándose}.</p>"
+      },
+      {
+        "path": "entries.mmAnkheg00000000.items.mmBite0000000000.effects.ihvVTpfklXa7XAe2.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD para escapar [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
+      },
+      {
+        "path": "entries.mmAnkheg00000000.items.mmBite0000000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD para escapar [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmAnkylosaurus00.items.mmTail0000000000.effects.uAvQlHXKSwnCjRtt.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAnkylosaurus00.items.mmTail0000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura {size} o más pequeña, tiene la condición &amp;Reference[Prone apply=false]. Si el objetivo es una criatura Enorme o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmAnkylosaurus00.items.mmTail0000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "false]. Si el objetivo es una criatura Enorme o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmArcanaloth0000.items.mmBanishingClaw0.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " del Tomo de almas. Mientras está atrapado allí, el objetivo tiene la condición &amp;Reference[Incapacitated apply=false]. Al final de cada uno de sus turnos, el objetivo repite la salvación de [[/save ability=cha]] y escapa del tomo si tien"
+      },
+      {
+        "path": "entries.mmArcanaloth0000.items.mmBanishingClaw0.effects.hk2VPWrwmyRfsd76.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " del Tomo de almas. Mientras está atrapado allí, el objetivo tiene la condición &amp;Reference[Incapacitated apply=false]. Al final de cada uno de sus turnos, el objetivo repite la salvación de [[/save ability=cha]] y escapa del tomo si tien"
+      },
+      {
+        "path": "entries.mmArcanaloth0000.items.vyvBadLkrZixl0RA.description",
+        "reference": "&amp;Reference[Incapacitated]",
+        "snippet": "p><p>Si fallas la salvación, recibes 6d6 de daño psíquico y tienes la condición &amp;Reference[Incapacitated] hasta que termines un descanso largo. Un conjuro <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.mmSpectralClaw00.effects.0gF80Ut6uK6MowHm.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.mmSpectralClaw00.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "e daño. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.l0WYWl6FK1SECMdt.effects.kkxX701wci61fEvH.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados le causéis daño. Cada objetivo hechizado sigue la sugerencia lo mejor "
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.l0WYWl6FK1SECMdt.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados le causéis daño. Cada objetivo hechizado sigue la sugerencia lo mejor "
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.effects.ayfixWGhTtaIUusk.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p><span style=\"font-family:Signika, sans-serif\">Mientras esté &amp;Reference[Charmed apply=false] de esta forma, el objetivo también tiene la condición &amp;Reference[Incapacitated apply=false] y no es consciente de s"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.effects.ayfixWGhTtaIUusk.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "ence[Charmed apply=false] de esta forma, el objetivo también tiene la condición &amp;Reference[Incapacitated apply=false] y no es consciente de su entorno, aunque puede oírte. Si recibe cualquier daño o es objetivo de otro conjuro, este conj"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "riatura, it has ventaja on the save. On a failed save, el objetivo queda con la &amp;Reference[Charmed apply=false] condición for the duration. While Charmed in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply"
+      },
+      {
+        "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "ción for the duration. While Charmed in this way, el objetivo also queda con la &amp;Reference[Incapacitated apply=false] condición and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another "
+      },
+      {
+        "path": "entries.mmArchmage000000.items.LJAWrZ47CuLAxDH6.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmAssassin000000.items.jLa5l9pntsTVrMKH.effects.gUiotlwd6du6hxyJ.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el comienzo del siguiente turno del asesino.</p>"
+      },
+      {
+        "path": "entries.mmAssassin000000.items.jLa5l9pntsTVrMKH.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "tack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el comienzo del siguiente turno del asesino.</p>"
+      },
+      {
+        "path": "entries.mmBalor000000000.items.mmFlameWhip00000.effects.ZjYcf64z7AHBBoj5.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBalor000000000.items.mmFlameWhip00000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "a de él hasta 25 pies en línea recta hacia sí, y el objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBanshee0000000.items.BgXdOU6xf5CiGoyc.effects.rttbSuOfCKb1TjGs.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el inicio del siguiente turno de la criatura atacante.</p>"
+      },
+      {
+        "path": "entries.mmBanshee0000000.items.BgXdOU6xf5CiGoyc.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> El objetivo es inmune al Rost"
+      },
+      {
+        "path": "entries.mmBarbedDevil000.items.mmClaws000000000.effects.MpjWPflcv7Jqd7Tu.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD) por ambas garras.</p>"
+      },
+      {
+        "path": "entries.mmBarbedDevil000.items.mmClaws000000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[lookup @skills.ath.passive]]) por ambas garras.</p>"
+      },
+      {
+        "path": "entries.mmBarlgura000000.items.mmThrash00000000.effects.xzHXyIuJFEngV2ck.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBarlgura000000.items.mmThrash00000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBarlgura000000.items.h5arcxzmwZl9HOfz.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmBasilisk000000.items.mmPetrifyingGaze.effects.a5kKgU7vfT0v17yF.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmBasilisk000000.items.mmPetrifyingGaze.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ón.</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmBeardedDevil00.items.mmBeard000000000.effects.dnpr0RaXDWfSZOYz.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el inicio del siguiente turno del usuario. Hasta que termine este veneno, no puede recuperar puntos de golpe.</p>"
+      },
+      {
+        "path": "entries.mmBeardedDevil00.items.mmBeard000000000.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "tack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]]. Hasta que termine este veneno, el objetivo no puede"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmConstrict00000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "><p><em>Fallo:</em> [[/damage average]] de daño. El objetivo tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[lookup @skills.ath.passive]]) y tiene la condición &amp;Reference[Restrained apply=false] hasta que termin"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmConstrict00000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ed apply=false] (escape CD [[lookup @skills.ath.passive]]) y tiene la condición &amp;Reference[Restrained apply=false] hasta que termine el agarre.</p>"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmSwallow0000000.effects.VOHv1LyO3hHolZXo.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "llida, una criatura tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Restrained apply=false], y tiene &amp;Reference[Total Cover apply=false] contra ataques.</p>"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmSwallow0000000.effects.aS5FyMP72vn3OKf1.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si eres regurgitado, caes en un espacio a 10 pies o menos y quedas &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmSwallow0000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "allo:</em> El [[lookup @name lowercase]] engulle al objetivo, que deja de estar &amp;Reference[Grappled apply=false]. Mientras esté engullida, una criatura tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Restr"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmSwallow0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "llida, una criatura tiene las condiciones &amp;Reference[Blinded apply=false] y &amp;Reference[Restrained apply=false], tiene Cobertura total contra ataques y otros efectos externos al [[lookup @name lowercase]], y recibe [[/damage averag"
+      },
+      {
+        "path": "entries.mmBehir000000000.items.mmSwallow0000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "=rGeGukkm2t2fXsoy]] o menos del [[lookup @name lowercase]] y tiene la condición &amp;Reference[Prone apply=false]. Si el [[lookup @name lowercase]] muere, una criatura engullida deja de estar Apresada y puede escapar del cadáver usan"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.OZBZrDI0m8zZSCxq.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] durante 1 hora o hasta que reciba daño.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.uqejMIv7S1xZmEcD.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.okGmSea9t9idzzrp.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.XvZO30AwVhzcboC7.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.TlR4l9cSFcUEbsJW.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante 1 minuto.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.5tr2oDlFLN7khXBT.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.effects.K1dTJYj98PUwPBTZ.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "e average activity=dcpGMW2jBewtY5lx]] de daño, y el objetivo tiene la condición &amp;Reference[Charmed apply=false] durante [[lookup @duration.value activity=dcpGMW2jBewtY5lx]] [[lookup @duration.units activity=dcpGMW2jBewtY5lx]] o has"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "tivity=EZ5rsyCFKBY3TWww]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "e average activity=aMfevxGsYy5swVDA]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p><p><em>Éxito:</em> Solo la mitad del daño.</p><p class=\"feature-trait\"><strong"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "e average activity=9srzVFm9txeDeMFf]] de daño, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno. Mientras esté Envenenado, el objetivo no puede recuperar puntos de golpe.</p><p><"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "vity=a5zT8E1cS4yBVodK]]. en cualquier dirección. El objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]] o hasta que el contemplador tenga la condición Incap"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "cto o un Muerto viviente).</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante [[lookup @duration.value activity=CSKrXM1Pkhlf23et]] [[lookup @duration.units activity=CSKrXM1Pkhlf23et]]. La c"
+      },
+      {
+        "path": "entries.mmBeholder000000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ivity=q67AgIfRplRO2e9p]]. <em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.effects.uqejMIv7S1xZmEcD.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.effects.okGmSea9t9idzzrp.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.effects.XvZO30AwVhzcboC7.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "tivity=EZ5rsyCFKBY3TWww]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "e average activity=aMfevxGsYy5swVDA]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p><p><em>Éxito:</em> Solo la mitad del daño.</p><p class=\"feature-trait\"><strong"
+      },
+      {
+        "path": "entries.mmBeholderZombie.items.XDw7TpLSibnKMcZI.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "e average activity=9srzVFm9txeDeMFf]] de daño, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno. Mientras esté Envenenado, el objetivo no puede recuperar puntos de golpe.</p><p><"
+      },
+      {
+        "path": "entries.mmBlobOfAnnihila.items.mmEngulf00000000.description",
+        "reference": "&amp;Reference[Restrained apply=long]",
+        "snippet": " sus turnos, está &amp;Reference[Suffocating]{asfixiándose}, tiene la condición &amp;Reference[Restrained apply=long] y repite la salvación al final de cada uno de sus turnos. Una criatura engullida que quede reducida a 0 puntos de golpe"
+      },
+      {
+        "path": "entries.mmBlobOfAnnihila.items.mmEngulf00000000.effects.vsa7d6xWOAvWdOWM.description",
+        "reference": "&amp;Reference[Restrained apply=long]",
+        "snippet": " sus turnos, está &amp;Reference[Suffocating]{asfixiándose}, tiene la condición &amp;Reference[Restrained apply=long] y repite la salvación al final de cada uno de sus turnos.</p>"
+      },
+      {
+        "path": "entries.mmBlobOfAnnihila.items.mmRestrainingGlo.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "nea recta hacia el [[lookup @name lowercase]], y el objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final de su siguiente turno, cuando el glóbulo se disuelve sin causar daño.</p><p><em>Éxito:</em> solo [[looku"
+      },
+      {
+        "path": "entries.mmBlobOfAnnihila.items.mmRestrainingGlo.effects.Dtzd0hd114z3Iv0x.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmBoar0000000000.items.mmGore0000000000.effects.dgfff9ONKHAUcthM.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false] si la criatura atacante usó su rasgo de ataque en movimiento.</p>"
+      },
+      {
+        "path": "entries.mmBoar0000000000.items.mmGore0000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "style=\"font-family:'Roboto Condensed', sans-serif\"> </span>y tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBoneDevil00000.items.mmInfernalSting0.effects.96f41YwmHtjW8P0o.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el inicio del siguiente turno de la criatura atacante.</p>"
+      },
+      {
+        "path": "entries.mmBoneDevil00000.items.mmInfernalSting0.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "tack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]]. Mientras esté envenenado, el objetivo no puede recu"
+      },
+      {
+        "path": "entries.mmBoneNaga000000.items.hINC0uXwiT3mG6gu.effects.dSiW4VhNs7w30eO0.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] hasta el inicio del siguiente turno de la criatura atacante.</p>"
+      },
+      {
+        "path": "entries.mmBoneNaga000000.items.hINC0uXwiT3mG6gu.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Charmed apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>"
+      },
+      {
+        "path": "entries.mmBrassDragonWyr.items.mmSleepBreath000.effects.9t5G87DeDyAF22dr.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno, momento en el que repite la salvación.</p>"
+      },
+      {
+        "path": "entries.mmBrassDragonWyr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante la duración (consulta el objeto de origen para la duración concreta). </p>"
+      },
+      {
+        "path": "entries.mmBrassDragonWyr.items.mmSleepBreath000.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "SF]] pies.</p><p class=\"feature\"><em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</"
+      },
+      {
+        "path": "entries.mmBrassDragonWyr.items.mmSleepBreath000.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "n.</p><p class=\"feature\"><em>Segundo fallo:</em> el objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minuto. Este efecto termina para el objetivo si recibe dañ"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.effects.LWkIghqRZ7VM59yW.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p><p>Hasta que term"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.effects.LWkIghqRZ7VM59yW.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": " para la CD).</p><p>Hasta que termine el agarre, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.effects.yYSd1OyTtM0P6xYG.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si el objetivo ya está agarrado, tiene la condición &amp;Reference[Prone apply=false] en su lugar.</p><p>Hasta que termine el agarre, el objetivo tiene la condición &amp;Reference[Restrained apply=false].<"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.effects.yYSd1OyTtM0P6xYG.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": " en su lugar.</p><p>Hasta que termine el agarre, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "vo es arrastrado al espacio del [[lookup @name lowercase]] y tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[lookup @skills.ath.passive]]); si el [[lookup @name lowercase]] ya tiene a una criatura agarrada, el objet"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "me lowercase]] ya tiene a una criatura agarrada, el objetivo tiene la condición &amp;Reference[Prone apply=false] en su lugar.</p><p class=\"feature\">Hasta que termine el agarre, el objetivo tiene la condición &amp;Reference[Restraine"
+      },
+      {
+        "path": "entries.mmBrazenGorgon00.items.mmSmeltingCharge.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "><p class=\"feature\">Hasta que termine el agarre, el objetivo tiene la condición &amp;Reference[Restrained apply=false]. Cuando el [[lookup @name lowercase]] se mueve, el objetivo agarrado se mueve con él, sin costar movimiento adicional.<"
+      },
+      {
+        "path": "entries.mmBronzeDragonWy.items.mmRepulsionBreat.effects.HG9R2hTEqJ0G5urK.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBronzeDragonWy.items.mmRepulsionBreat.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "s en línea recta alejándose del [[lookup @name lowercase]] y tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBrownBear00000.items.mmClaw0000000000.effects.5q1vcRvzYS3N0DhQ.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o menor, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBrownBear00000.items.mmClaw0000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "e extended]]. Si el objetivo es una criatura Grande o menor, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBugbearStalker.items.mmQuickGrapple00.effects.5yLzwp2Gu803QgI9.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
+      },
+      {
+        "path": "entries.mmBugbearStalker.items.mmQuickGrapple00.description",
+        "reference": "&amp;Reference[Grappled]",
+        "snippet": "DWVHpJgsNPPNrDs]] o menos.</p><p><em>Fallo:</em> el objetivo tiene la condición &amp;Reference[Grappled] (escape CD [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmBugbearWarrior.items.mmGrab0000000000.effects.2N5R5UunQHBncwF3.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Mediana o menor, tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
+      },
+      {
+        "path": "entries.mmBugbearWarrior.items.mmGrab0000000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": " extended]]. Si el objetivo es una criatura Mediana o menor, tiene la condición &amp;Reference[Grappled apply=false] (escape CD [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmBulette0000000.items.mmDeadlyLeap0000.effects.6922OmgCjpz242Ib.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmBulette0000000.items.mmDeadlyLeap0000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Prone apply=false].</p><p class=\"feature\"><em>Éxito:</em> Mitad de daño, y el objetivo es empujado 5 pies en línea recta alejándose del [["
+      },
+      {
+        "path": "entries.mmCambion0000000.items.V5LAXi3XgqHBiF30.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": " alcance debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo tiene ventaja en la salvación si tú o tus aliados estáis luchando contra él. Siempre q"
+      },
+      {
+        "path": "entries.mmCarrionCrawler.items.mmParalyzingTent.effects.5ReKSrBu11ume7GP.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo con un éxito.</p><p>Mient"
+      },
+      {
+        "path": "entries.mmCarrionCrawler.items.mmParalyzingTent.effects.5ReKSrBu11ume7GP.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "mo con un éxito.</p><p>Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
+      },
+      {
+        "path": "entries.mmCarrionCrawler.items.mmParalyzingTent.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "s o menos.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo con un éxito. Después de "
+      },
+      {
+        "path": "entries.mmCarrionCrawler.items.mmParalyzingTent.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "éxito automáticamente. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
+      },
+      {
+        "path": "entries.mmCentaurTrooper.items.mmTramplingCharg.effects.OY3B1NBPgGcFmHGi.description",
+        "reference": "&amp;Reference[Prone apply=long]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=long].</p><p></p>"
+      },
+      {
+        "path": "entries.mmCentaurTrooper.items.mmTramplingCharg.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmCentaurWarden0.items.mmEntanglingTrai.effects.xbTNeTDl4xlD6WEJ.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmCentaurWarden0.items.mmEntanglingTrai.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmConjureInferna.effects.Bt9VAqf3PkeRQt8K.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final del siguiente turno de la criatura atacante.</p>"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmConjureInferna.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]], momento en que la cadena desaparece. Si el objetivo "
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmUnnervingGaze0.effects.BheOE4RU2wcG94yl.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su turno.</p>"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmUnnervingGaze0.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "cadenante.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su turno.</p><p class=\"feature\"><em>Éxito:</em> El objetivo es inmune a la Mirada inquietante de este"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmChain000000000.effects.07IW8bZzgQ4Jk3sW.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD) por una de dos cad"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmChain000000000.effects.07IW8bZzgQ4Jk3sW.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ta el objeto de origen para la CD) por una de dos cadenas, y tiene la condición &amp;Reference[Restrained apply=false] hasta que termine la presa.</p>"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmChain000000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]) por una de dos cadenas, y tiene la condición &amp;Reference[Restrained ap"
+      },
+      {
+        "path": "entries.mmChainDevil0000.items.mmChain000000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "pe [[lookup @skills.ath.passive]]) por una de dos cadenas, y tiene la condición &amp;Reference[Restrained apply=false] hasta que termine la presa.</p>"
+      },
+      {
+        "path": "entries.mmChasme00000000.items.mmDrone000000000.effects.f04Z8zNXMjMn7x6U.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] y repite la salvación al final de cada uno de sus turnos.</p>"
+      },
+      {
+        "path": "entries.mmChasme00000000.items.mmDrone000000000.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "alvación).</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false] y repite la salvación al final de cada uno de sus turnos. El objetivo tiene éxito automáticamente tras 10 minutos o si "
+      },
+      {
+        "path": "entries.mmChimera0000000.items.mmRam00000000000.effects.HUmtXTzr92ZaAvf3.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmChimera0000000.items.mmRam00000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "ded]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmParalyzingTent.effects.5ReKSrBu11ume7GP.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p><p>Mie"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmParalyzingTent.effects.5ReKSrBu11ume7GP.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": " si tiene éxito.</p><p>Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmParalyzingTent.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Tras 1 mi"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmParalyzingTent.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "éxito automáticamente. Mientras está Envenenado, el objetivo tiene la condición &amp;Reference[Paralyzed apply=false].</p>"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmPincer00000000.effects.GCED8YlF6qXTgEkd.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmChuul000000000.items.mmPincer00000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]) por una de dos pinzas.</p>"
+      },
+      {
+        "path": "entries.mmCloaker0000000.items.mmMoan0000000000.effects.ozk8flGDR2kAITEI.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final del siguiente turno de la criatura atacante.</p>"
+      },
+      {
+        "path": "entries.mmCloaker0000000.items.mmMoan0000000000.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]].</p><p><em>Éxito:</em> El objetivo es inmune al Gemid"
+      },
+      {
+        "path": "entries.mmCloudGiant0000.items.mmThundercloud00.effects.ZwKTwzvDAUm6FSgv.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmCloudGiant0000.items.mmThundercloud00.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": "tack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Incapacitated apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmCloudGiant0000.items.2QgHUABlBcMzHf5Z.description",
+        "reference": "&amp;Reference[Restrained]",
+        "snippet": "l conjuro. Hasta el final de tu siguiente turno, la criatura tiene la condición &amp;Reference[Restrained], y si la elevas en el aire, queda suspendida allí. Cae al final de tu siguiente turno a menos que vuelvas a usar esta o"
+      },
+      {
+        "path": "entries.mmCockatrice0000.items.mmPetrifyingBite.effects.9dBgxzdq0cmzyhfR.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmCockatrice0000.items.mmPetrifyingBite.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "]].</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmCockatriceRege.items.mmPetrifyingBite.effects.9dBgxzdq0cmzyhfR.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmCockatriceRege.items.mmPetrifyingBite.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "]].</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmColossus000000.items.mmRadiantRay0000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "nded]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmConstrictorSna.items.mmConstrict00000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmCouatl00000000.items.mmBite0000000000.effects.6JlL9rZMoNowDipt.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final del siguiente turno del mordedor.</p>"
+      },
+      {
+        "path": "entries.mmCouatl00000000.items.mmBite0000000000.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "tack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final del siguiente turno del [[lookup @name lowercase]].</p>"
+      },
+      {
+        "path": "entries.mmCouatl00000000.items.mmConstrict00000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmCouatl00000000.items.2QpBQBYj5OOOROeD.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " para actuar como mensajero onírico. Mientras está en trance, el mensajero está &amp;Reference[Incapacitated apply=false] y tiene Velocidad 0.</p><p>Si el objetivo está dormido, el mensajero aparece en sus sueños y puede conversar con él mie"
+      },
+      {
+        "path": "entries.mmCrocodile00000.items.mmBite0000000000.effects.DmAM7moVZNE5wb5i.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD). Mientras está Aga"
+      },
+      {
+        "path": "entries.mmCrocodile00000.items.mmBite0000000000.effects.DmAM7moVZNE5wb5i.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "o de origen para la CD). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p><p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability"
+      },
+      {
+        "path": "entries.mmCrocodile00000.items.mmBite0000000000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "ded]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Re"
+      },
+      {
+        "path": "entries.mmCrocodile00000.items.mmBite0000000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": " @skills.ath.passive]]). Mientras está Agarrado, el objetivo tiene la condición &amp;Reference[Restrained apply=false].</p>"
+      },
+      {
+        "path": "entries.mmCultistHieroph.items.MrU64fdXHkzu5ZsD.effects.kkxX701wci61fEvH.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados le inflijáis daño. Cada objetivo Hechizado sigue la sugerencia lo mejo"
+      },
+      {
+        "path": "entries.mmCultistHieroph.items.MrU64fdXHkzu5ZsD.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "objetivo debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración o hasta que tú o tus aliados inflijáis daño al objetivo. Cada objetivo Hechizado sigue la sugerenci"
+      },
+      {
+        "path": "entries.mmDao00000000000.items.lmC6TZYCjZ8pTJxz.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmDeathSlaad0000.items.7vpQstF0VFmgT5HH.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.OZBZrDI0m8zZSCxq.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] durante 1 hora o hasta que reciba daño.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.uqejMIv7S1xZmEcD.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.okGmSea9t9idzzrp.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.XvZO30AwVhzcboC7.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.TlR4l9cSFcUEbsJW.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante 1 minuto.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.5tr2oDlFLN7khXBT.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.effects.K1dTJYj98PUwPBTZ.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "e average activity=dcpGMW2jBewtY5lx]] de daño, y el objetivo tiene la condición &amp;Reference[Charmed apply=false] durante [[lookup @duration.value activity=dcpGMW2jBewtY5lx]] [[lookup @duration.units activity=dcpGMW2jBewtY5lx]] o has"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Paralyzed apply=false]",
+        "snippet": "tivity=EZ5rsyCFKBY3TWww]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "e average activity=aMfevxGsYy5swVDA]] de daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p><p><em>Éxito:</em> Solo la mitad del daño.</p><p class=\"feature-trait\"><strong"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "e average activity=9srzVFm9txeDeMFf]] de daño, y el objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno. Mientras esté Envenenado, el objetivo no puede recuperar puntos de golpe.</p><p><"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "vity=a5zT8E1cS4yBVodK]]. en cualquier dirección. El objetivo tiene la condición &amp;Reference[Restrained apply=false] hasta el inicio del siguiente turno del [[lookup @name lowercase]] o hasta que el contemplador tenga la condición Incap"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Unconscious apply=false]",
+        "snippet": "cto o un Muerto viviente).</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Unconscious apply=false] durante [[lookup @duration.value activity=CSKrXM1Pkhlf23et]] [[lookup @duration.units activity=CSKrXM1Pkhlf23et]]. La c"
+      },
+      {
+        "path": "entries.mmDeathTyrant000.items.mmEyeRays0000000.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ivity=q67AgIfRplRO2e9p]]. <em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmDeer0000000000.items.mmRam00000000000.effects.HUmtXTzr92ZaAvf3.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmDireWolf000000.items.mmBite0000000000.effects.06LlPZDddykVJ2XW.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>Si el objetivo es una criatura Grande o menor, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmDireWolf000000.items.mmBite0000000000.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "e extended]]. Si el objetivo es una criatura Grande o menor, tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmDjinni00000000.items.k0eU3EIGLCIUzIni.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmDoppelganger00.items.mmUnsettlingVisa.effects.t3d77s2YYM0OgsvZ.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmDoppelganger00.items.mmUnsettlingVisa.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "wercase]].</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Frightened apply=false] y repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después d"
+      },
+      {
+        "path": "entries.mmDracolich00000.items.Ml3peAqEgqgm95nj.effects.qSjE5JhBhGvLBnhx.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p>"
+      },
+      {
+        "path": "entries.mmDracolich00000.items.Ml3peAqEgqgm95nj.description",
+        "reference": "&amp;Reference[Frightened apply=false]",
+        "snippet": "rcase]].</p><p><em>Fallo:</em> Mitad del daño, y el objetivo tiene la condición &amp;Reference[Frightened apply=false] hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a rea"
+      },
+      {
+        "path": "entries.mmDragonTurtle00.items.mmTail0000000000.effects.uAvQlHXKSwnCjRtt.description",
+        "reference": "&amp;Reference[Prone apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false].</p>"
+      },
+      {
+        "path": "entries.mmDretch00000000.items.mmFetidCloud0000.effects.IqfKmepxiah2U3YT.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno. Mientras está Envenenado, la criatura puede realizar una acción o una acción adic"
+      },
+      {
+        "path": "entries.mmDretch00000000.items.mmFetidCloud0000.description",
+        "reference": "&amp;Reference[Poisoned apply=false]",
+        "snippet": "wercase]].</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false] hasta el final de su siguiente turno. Mientras está Envenenado, la criatura puede realizar una acción o una acción adic"
+      },
+      {
+        "path": "entries.mmDryad000000000.items.VLb2DFHh9haywGHI.effects.CB1jIPB4yINOpjQX.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false] hasta que el conjuro termine o hasta que tú o tus aliados le inflijáis daño. La criatura Hechizada se muestra amistosa "
+      },
+      {
+        "path": "entries.mmDryad000000000.items.VLb2DFHh9haywGHI.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": "liados estáis combatiendo contra ella. Si falla, el objetivo tiene la condición &amp;Reference[Charmed apply=false] hasta que el conjuro termine o hasta que tú o tus aliados le inflijáis daño. La criatura Hechizada se muestra amistosa "
+      },
+      {
+        "path": "entries.mmEfreeti0000000.items.aDInRtd983tifrXD.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmGraySlaad00000.items.2MVtdxU8zlqzRTKk.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmGreenHag000000.items.P1WohR9zwkV78Jwb.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmGreenSlaad0000.items.4rDtqNx7oc6qNBSG.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmMarid000000000.items.oKUEoMYZQZaeH1vA.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmMarilith000000.items.mmConstrict00000.description",
+        "reference": "&amp;Reference[Grappled apply=false]",
+        "snippet": "p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Grappled apply=false] (CD de escape [[lookup @skills.ath.passive]]).</p>"
+      },
+      {
+        "path": "entries.mmMedusa00000000.items.mmPetrifyingGaze.effects.a5kKgU7vfT0v17yF.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmMedusa00000000.items.mmPetrifyingGaze.description",
+        "reference": "&amp;Reference[Restrained apply=false]",
+        "snippet": "ón.</p><p class=\"feature\"><em>Primer fallo:</em> El objetivo tiene la condición &amp;Reference[Restrained apply=false] y repite la salvación al final de su siguiente turno si sigue Apresado, terminando el efecto sobre sí mismo si tiene éx"
+      },
+      {
+        "path": "entries.mmNightHag000000.items.MRauSCb3hN012Rrr.description",
+        "reference": "&amp;Reference[Incapacitated apply=false]",
+        "snippet": " para actuar como mensajero onírico. Mientras está en trance, el mensajero está &amp;Reference[Incapacitated apply=false] y tiene Velocidad 0.</p><p>Si el objetivo está dormido, el mensajero aparece en sus sueños y puede conversar con él mie"
+      },
+      {
+        "path": "entries.mmPixie000000000.items.2DmiohHo8me2Wozb.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmPixieWonderbri.items.PmyATqF8oBkW1DMQ.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmPlanetar000000.items.bxsn6ULg4criZxQj.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmSprite00000000.items.FAek73jM5CyQOO60.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmSuccubus000000.items.ngMn9mjUa63VWbHY.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": " alcance debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo tiene ventaja en la salvación si tú o tus aliados estáis luchando contra él. Siempre q"
+      },
+      {
+        "path": "entries.mmUltroloth00000.items.Fa84JUu8IXzi2KGL.description",
+        "reference": "&amp;Reference[invisible apply=false]",
+        "snippet": "<p>Una criatura que tocas tiene la condición &amp;Reference[invisible apply=false] hasta que el conjuro termine. El conjuro termina antes inmediatamente después de que el objetivo haga una tirada de ata"
+      },
+      {
+        "path": "entries.mmYochlol0000000.items.vef8Qiprfi9RhkBu.description",
+        "reference": "&amp;Reference[Charmed apply=false]",
+        "snippet": " alcance debe superar una tirada de salvación de Sabiduría o tener la condición &amp;Reference[Charmed apply=false] durante la duración. El objetivo tiene ventaja en la salvación si tú o tus aliados estáis luchando contra él. Siempre q"
+      }
+    ],
+    "malformed_reference_tokens": [],
+    "macro_syntax_issues": [],
+    "terminology_watchlist": [
+      {
+        "check": "Mephit term",
+        "count": 6,
+        "examples": [
+          {
+            "path": "entries.mmIceMephit00000.name",
+            "snippet": "Mephit de hielo"
+          },
+          {
+            "path": "entries.mmIceMephit00000.items.mmFogCloud000000.description",
+            "snippet": "<p>El mephit lanza <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]</em>, sin requerir componentes de conjuro y usando Carisma como característica para lanzar conjuros.</p>"
+          },
+          {
+            "path": "entries.mmMagmaMephit000.name",
+            "snippet": "Mephit de magma"
+          },
+          {
+            "path": "entries.mmMudMephit00000.name",
+            "snippet": "Mephit de barro"
+          },
+          {
+            "path": "entries.mmSmokeMephit000.name",
+            "snippet": "Mephit de humo"
+          },
+          {
+            "path": "entries.mmSteamMephit000.name",
+            "snippet": "Mephit de vapor"
+          }
+        ]
+      },
+      {
+        "check": "Mefit term",
+        "count": 1,
+        "examples": [
+          {
+            "path": "entries.mmDustMephit0000.name",
+            "snippet": "Mefit de polvo"
+          }
+        ]
+      },
+      {
+        "check": "Gorgon untranslated",
+        "count": 1,
+        "examples": [
+          {
+            "path": "entries.mmGorgon00000000.name",
+            "snippet": "Gorgon"
+          }
+        ]
+      },
+      {
+        "check": "acida missing accent",
+        "count": 2,
+        "examples": [
+          {
+            "path": "entries.mmAdultBlackDrag.items.IjO0nHwPyxtJ6RzW.name",
+            "snippet": "Flecha acida de Melf"
+          },
+          {
+            "path": "entries.mmAncientBlackDr.items.cuqkOUrmNhkntoHX.name",
+            "snippet": "Flecha acida de Melf"
+          }
+        ]
+      },
+      {
+        "check": "magica missing accent",
+        "count": 0,
+        "examples": []
+      },
+      {
+        "check": "caracteristica missing accent",
+        "count": 0,
+        "examples": []
+      },
+      {
+        "check": "accion missing accent",
+        "count": 0,
+        "examples": []
+      },
+      {
+        "check": "salvacion missing accent",
+        "count": 0,
+        "examples": []
+      }
+    ]
+  },
+  "recommendations": [
+    "La integridad estructural del JSON es correcta: entradas, mapping, macros y referencias básicas no muestran errores críticos.",
+    "Revisar restos de inglés detectados por patrones. Muchos pueden ser falsos positivos por nombres propios o macros, pero conviene revisar los ejemplos del informe.",
+    "Revisar nombres de actores idénticos al EN source. Algunos son nombres propios válidos; otros podrían requerir castellanización.",
+    "Añadir etiquetas españolas a &Reference[...] de condiciones cuando falten, sin modificar la clave interna.",
+    "Unificar criterio Mephit/Mefit en nombres y textos. En el proyecto se usó previamente “Mefit” en algunas entradas."
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": "v49",
+  "range": {
+    "from": "mmWeasel00000000",
+    "to": "mmWingedKobold00"
+  },
+  "updated_actor_count": 10,
+  "total_entries": 504,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "placeholders": [],
+  "updated_actors": [
+    {
+      "id": "mmWeasel00000000",
+      "name": "Comadreja"
+    },
+    {
+      "id": "mmWerebear000000",
+      "name": "Hombre oso"
+    },
+    {
+      "id": "mmWereboar000000",
+      "name": "Hombre jabalí"
+    },
+    {
+      "id": "mmWererat0000000",
+      "name": "Hombre rata"
+    },
+    {
+      "id": "mmWeretiger00000",
+      "name": "Hombre tigre"
+    },
+    {
+      "id": "mmWerewolf000000",
+      "name": "Hombre lobo"
+    },
+    {
+      "id": "mmWhiteDragonWyr",
+      "name": "Cría de dragón blanco"
+    },
+    {
+      "id": "mmWight000000000",
+      "name": "Tumulario"
+    },
+    {
+      "id": "mmWillowisp00000",
+      "name": "Fuego fatuo"
+    },
+    {
+      "id": "mmWingedKobold00",
+      "name": "Kobold alado"
+    }
+  ],
+  "missing_source_item_patches": {},
+  "notes": [
+    "Las descripciones genéricas de ataques tipo [[/attack extended]]. [[/damage average extended]]. se han dejado intactas de forma intencionada."
+  ],
+  "ok": true,
+  "generic_descriptions_preserved": [
+    {
+      "actor": "mmWeasel00000000",
+      "item": "mmBite0000000000",
+      "source_name": "Bite",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWerebear000000",
+      "item": "JIRP6xpVCOyZotXc",
+      "source_name": "Handaxe (Humanoid or Hybrid Form Only)",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWerebear000000",
+      "item": "mmRend0000000000",
+      "source_name": "Rend (Bear or Hybrid Form Only)",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWereboar000000",
+      "item": "hhfnX7eT1ZFun8oQ",
+      "source_name": "Javelin (Humanoid or Hybrid Form Only)",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWererat0000000",
+      "item": "hd3JZprvOwTX7QK1",
+      "source_name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWererat0000000",
+      "item": "mmScratch0000000",
+      "source_name": "Scratch",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWeretiger00000",
+      "item": "Spw5gbTlI2AKsGWd",
+      "source_name": "Longbow (Humanoid or Hybrid Form Only)",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWeretiger00000",
+      "item": "mmScratch0000000",
+      "source_name": "Scratch",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWerewolf000000",
+      "item": "mYM6o8kM9SDVm45w",
+      "source_name": "Longbow",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWerewolf000000",
+      "item": "mmScratch0000000",
+      "source_name": "Scratch",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWhiteDragonWyr",
+      "item": "mmRend0000000000",
+      "source_name": "Rend",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWight000000000",
+      "item": "mmNecroticSword0",
+      "source_name": "Necrotic Sword",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWight000000000",
+      "item": "mmNecroticBow000",
+      "source_name": "Necrotic Bow",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWillowisp00000",
+      "item": "KSPu27tkSo11sWcw",
+      "source_name": "Shock",
+      "issue": "description still equals EN source"
+    },
+    {
+      "actor": "mmWingedKobold00",
+      "item": "mmDragontoothBla",
+      "source_name": "Dragon-Tooth Blade",
+      "issue": "description still equals EN source"
+    }
+  ],
+  "pending_descriptions": []
+}

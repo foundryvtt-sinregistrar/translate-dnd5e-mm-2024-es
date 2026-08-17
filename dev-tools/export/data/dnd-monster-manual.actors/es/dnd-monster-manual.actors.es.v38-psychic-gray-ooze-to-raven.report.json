@@ -1,0 +1,32 @@
+{
+  "version": "v38",
+  "range": {
+    "from": "mmPsychicGrayOoz",
+    "to": "mmRaven000000000"
+  },
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "reviewed_ids": [
+    "mmPsychicGrayOoz",
+    "mmPteranodon0000",
+    "mmPurpleWorm0000",
+    "mmQuaggoth000000",
+    "mmQuaggothThonot",
+    "mmQuasit00000000",
+    "mmQuestingKnight",
+    "mmRakshasa000000",
+    "mmRat00000000000",
+    "mmRaven000000000"
+  ],
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "missing_entries": [],
+  "missing_item_patches_from_en_source": [],
+  "pending_descriptions_when_en_source_has_description": [],
+  "protected_placeholders_found": false,
+  "notes": [
+    "Generated from v37 cumulative JSON.",
+    "Preserves Foundry/Babele IDs, UUID links, inline rolls, lookup macros, and &Reference keys.",
+    "Adds/reviews embedded item patches for Psychic Gray Ooze, Purple Worm, Quaggoth Thonot, Quasit, Questing Knight, Rakshasa, Rat, and Raven."
+  ]
+}

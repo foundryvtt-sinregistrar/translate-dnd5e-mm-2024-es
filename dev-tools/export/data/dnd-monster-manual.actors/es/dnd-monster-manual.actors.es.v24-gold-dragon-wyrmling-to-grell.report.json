@@ -1,0 +1,36 @@
+{
+  "version": "v24",
+  "base": "dnd-monster-manual.actors.es.v23-gladiator-to-goblin-warrior.json",
+  "output": "dnd-monster-manual.actors.es.v24-gold-dragon-wyrmling-to-grell.json",
+  "patch": "dnd-monster-manual.actors.es.v24-gold-dragon-wyrmling-to-grell.patch.json",
+  "range": {
+    "from": "mmGoldDragonWyrm",
+    "to": "mmGrell000000000"
+  },
+  "updated_entries": [
+    "mmGoldDragonWyrm",
+    "mmGorgon00000000",
+    "mmGoristro000000",
+    "mmGraveyardReven",
+    "mmGrayOoze000000",
+    "mmGraySlaad00000",
+    "mmGreenDragonWyr",
+    "mmGreenHag000000",
+    "mmGreenSlaad0000",
+    "mmGrell000000000"
+  ],
+  "entry_count": 504,
+  "updated_count": 10,
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "no_protected_placeholders": true,
+    "missing_source_items_or_descriptions": [],
+    "ok": true
+  },
+  "notes": [
+    "Continues the accumulated actor translation chain from v23.",
+    "Adds missing embedded item patches from the EN source where the ES file only had partial names/effects.",
+    "Preserves Foundry/Babele IDs, UUID links, inline rolls, lookup macros and Reference keys."
+  ]
+}

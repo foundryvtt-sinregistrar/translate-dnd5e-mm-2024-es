@@ -1,0 +1,27 @@
+{
+  "version": "v46",
+  "source": "dnd-monster-manual.actors.es.v45-swarm-of-piranhas-to-tough.json",
+  "output": "dnd-monster-manual.actors.es.v46-tough-boss-to-ultroloth.json",
+  "patch": "dnd-monster-manual.actors.es.v46-tough-boss-to-ultroloth.patch.json",
+  "range": {
+    "from": "mmToughBoss00000",
+    "to": "mmUltroloth00000"
+  },
+  "updated_entries": [
+    "mmToughBoss00000",
+    "mmTreant00000000",
+    "mmTreeBlight0000",
+    "mmTriceratops000",
+    "mmTroglodyte0000",
+    "mmTroll000000000",
+    "mmTrollLimb00000",
+    "mmTwigBlight0000",
+    "mmTyrannosaurusR",
+    "mmUltroloth00000"
+  ],
+  "total_entries": 504,
+  "mapping_preserved": true,
+  "json_valid": true,
+  "protected_placeholders_found": [],
+  "missing_descriptions_for_updated_range": []
+}

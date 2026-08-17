@@ -1,0 +1,34 @@
+{
+  "version": "v23",
+  "range": {
+    "from": "mmGladiator00000",
+    "to": "mmGoblinWarrior0"
+  },
+  "base": "dnd-monster-manual.actors.es.v22-giant-weasel-to-glabrezu.json",
+  "source": "dnd-monster-manual.actors.en-source.json",
+  "output": "dnd-monster-manual.actors.es.v23-gladiator-to-goblin-warrior.json",
+  "patch": "dnd-monster-manual.actors.es.v23-gladiator-to-goblin-warrior.patch.json",
+  "total_entries": 504,
+  "updated_entries_count": 10,
+  "updated_entries": [
+    "mmGladiator00000",
+    "mmGnollDemoniac0",
+    "mmGnollFangOfYee",
+    "mmGnollPackLord0",
+    "mmGnollWarrior00",
+    "mmGoat0000000000",
+    "mmGoblinBoss0000",
+    "mmGoblinHexer000",
+    "mmGoblinMinion00",
+    "mmGoblinWarrior0"
+  ],
+  "missing_embedded_items_after_patch": [],
+  "source_items_with_nonempty_description_still_empty": [],
+  "protected_placeholders_found": [],
+  "mapping_preserved": true,
+  "notes": [
+    "JSON parseado correctamente.",
+    "Se añadieron parches por _id para objetos embebidos ausentes en el JSON ES del tramo.",
+    "Se conservaron @UUID, macros de tirada, lookups y claves internas de &Reference."
+  ]
+}

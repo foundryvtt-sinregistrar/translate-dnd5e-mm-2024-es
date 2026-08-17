@@ -1,0 +1,2900 @@
+{
+  "label": "Tablas de tiradas",
+  "mapping": {
+    "results": {
+      "path": "results",
+      "converter": "mm2024RollTableResultsById"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "mmAbolethSchemes": {
+      "name": "Aboleth Schemes",
+      "results": {
+        "qHOo4M3sBjxuSZUW": {
+          "text": "Accomplish incomprehensible plans that lead it to act in seemingly random ways."
+        },
+        "MON8Eod1S6DThXrv": {
+          "text": "Learn more of the world by kidnapping people and consuming their minds."
+        },
+        "YWwwhuKFq4DYGTpd": {
+          "text": "Manipulate innocents into worshiping it as a god by using its telepathy from hiding."
+        },
+        "Bc4k9awuIvFBbsJ9": {
+          "text": "Open a gate to the distant past or future, releasing an invasion from another time."
+        },
+        "PLoLBcSzPwDxkwgE": {
+          "text": "Rouse a dragon turtle, a kraken, or another sea monster to flood a coastal city."
+        },
+        "Sb1fy7GjU0X22qVv": {
+          "text": "Trick treasure hunters into recovering relics from its long-fallen empire."
+        }
+      }
+    },
+    "mmAirElementalCo": {
+      "name": "Air Elemental Compositions",
+      "results": {
+        "fMiPKmLqRLjP5F4t": {
+          "text": "Cumulus or cirrus clouds."
+        },
+        "RFnDpvRVmzjzdToU": {
+          "text": "A mixture of vibrantly colored gases."
+        },
+        "eraTZjdnL1uFdm0F": {
+          "text": "A pungent, sour-looking miasma"
+        },
+        "E8X3VVRU23g35TG2": {
+          "text": "Shifting cloud clusters that resemble animals and simple shapes."
+        },
+        "6pnXSn5H9LwbpuBj": {
+          "text": "Sinister features obscured in a misty mass."
+        },
+        "lrICXC0fBz8Fedlg": {
+          "text": "Swirling storm clouds."
+        }
+      }
+    },
+    "mmAnimatedObject": {
+      "name": "Animated Object Catalysts",
+      "results": {
+        "acJgzhHHoqefwwk5": {
+          "text": "A Celestial or Fiend using the object to protect or torment a mortal."
+        },
+        "ADaDD8qHY3jPr8eM": {
+          "text": "A combination of magic and technology, such as alchemy or alien science."
+        },
+        "gjgFcvAnJ9ZzINDC": {
+          "text": "The essence of someone transformed by a supernatural trickster."
+        },
+        "1HJrVrbDBg0GvgEI": {
+          "text": "Fey as part of their games or wiles."
+        },
+        "xU1bAMGOw0jj9NFf": {
+          "text": "A magic-user in need of a guardian or servant."
+        },
+        "ystEWN4dQPoovlhO": {
+          "text": "Happenstance, with the item gaining a semblance of life after a hundred years of use."
+        },
+        "G5nigW46VXX9tJIr": {
+          "text": "The song of a magical instrument."
+        },
+        "yLEKc6l82p0Z54dX": {
+          "text": "A spirit possessing the object."
+        },
+        "cnri4p7NOw7MIyHH": {
+          "text": "Wild magic, a spell that went awry, or a chaotic Artifact."
+        },
+        "WcGmq4Hq4Fk83Era": {
+          "text": "The will of a powerful psychic being."
+        }
+      }
+    },
+    "mmAnkhegTunnelDi": {
+      "name": "Ankheg Tunnel Discoveries",
+      "results": {
+        "4z6OSG4ObsMZgr6k": {
+          "text": "Another tunnel (either natural or of worked stone) that extends into the Underdark."
+        },
+        "MhENiB31JkohqIio": {
+          "text": "A buried ruin or grave exposed by the tunnel."
+        },
+        "nio2isPyFiuc3Sfh": {
+          "text": "A cluster of 1d4 fresh ankheg eggs that can be broken and used as vials of Acid."
+        },
+        "3bIQGaKF15ePa2r7": {
+          "text": "A dead ankheg and evidence of a deadlier subterranean predator."
+        },
+        "PlUGvSzRoOvlw82n": {
+          "text": "A piece of ankheg carapace usable as a Shield."
+        },
+        "Mvnz383JFi2P5Ggc": {
+          "text": "A pouch with 2d6 GP near a puddle of acid."
+        },
+        "Sq1cSav44z8BrMOk": {
+          "text": "A stray farm or woodland animal."
+        },
+        "jWSuSuB3yb8if8Pp": {
+          "text": "A viciously mauled scarecrow."
+        }
+      }
+    },
+    "mmArchhagAnathem": {
+      "name": "Arch-hag Anathemas",
+      "results": {
+        "3zK7rX5PXirmsDa9": {
+          "text": "The bones of the arch-hag’s first love."
+        },
+        "uLFE9rCN1KCl0QCG": {
+          "text": "A devil’s tear."
+        },
+        "JyhRthzSQ4c0z9hP": {
+          "text": "An egg with a miniature castle inside."
+        },
+        "1496ySJPknths6xD": {
+          "text": "A flower that blooms only when time stops."
+        },
+        "kZfaE4NSb6ruUpT5": {
+          "text": "A gift from the hag’s twin."
+        },
+        "0XPAf0gRhSbTCc3U": {
+          "text": "The multiverse’s worst pun."
+        },
+        "vsfZiHIfG3brm2Gg": {
+          "text": "One of the hag’s missing teeth."
+        },
+        "KyKLfuLl6KkxRM1y": {
+          "text": "Snow from the top of Mount Celestia."
+        },
+        "foIrPsiOYlXVyNO5": {
+          "text": "A star pulled from the sky."
+        },
+        "7XHxDXGLswyX3JoZ": {
+          "text": "A thread from the Lady of Pain’s robes."
+        }
+      }
+    },
+    "mmAssassinModusO": {
+      "name": "Assassin Modus Operandi",
+      "results": {
+        "RFjJMb5uGR7BXSc3": {
+          "text": "Arranging their victims in artful tableaux."
+        },
+        "nQra2oYCY0Lod7vt": {
+          "text": "Hiding within large objects, such as suits of armor or hollow furnishings."
+        },
+        "N95t1eSrDkFGrTxo": {
+          "text": "Leaving behind a signature item, such as a calling card, flower, seashell, or tooth."
+        },
+        "n5OlIVHDoBRLJbzp": {
+          "text": "Posing as celebrities, holy people, or servants."
+        },
+        "a4ITSHQRFuICUYZw": {
+          "text": "Taking trophies from their victims."
+        },
+        "WOVhnLftcZgoBz41": {
+          "text": "Using poison with a distinctive color or smell."
+        }
+      }
+    },
+    "mmBanditMotivati": {
+      "name": "Bandit Motivations",
+      "results": {
+        "P6HS64jiV1fDBJxh": {
+          "text": "Fights only oppressors."
+        },
+        "DQeWlsD3jSXWbmzI": {
+          "text": "Is an ex-soldier who was discarded by their nation and now takes what they were promised."
+        },
+        "IH0BStje8oocjh7M": {
+          "text": "Is in a gang that views nonmembers as foes."
+        },
+        "uuI2anAewavmx8Ls": {
+          "text": "Hesitantly serves a villainous leader."
+        },
+        "VYJeyMFZbVkCUqsZ": {
+          "text": "Secretly works for a government or a regional ruler to sow chaos."
+        },
+        "JHScVrRWr1yW7rtJ": {
+          "text": "Takes what they need to survive."
+        }
+      }
+    },
+    "mmBansheeSorrows": {
+      "name": "Banshee Sorrows",
+      "results": {
+        "xAWwE18CFDZjRen1": {
+          "text": "Appear prior to a family member’s death."
+        },
+        "NB5Ek6cQVdko92a8": {
+          "text": "Haunt the site where it was executed."
+        },
+        "MlbwbDNrkQuWBFOd": {
+          "text": "Lament a lost love and haunt their grave."
+        },
+        "qYGMqtsGfIo7K0gO": {
+          "text": "Presage a disaster or tragedy."
+        },
+        "9l8cGmzi5LNJkGes": {
+          "text": "Seek the return of a stolen treasure."
+        },
+        "0voY6bd18YxzEpJc": {
+          "text": "Slay those more beautiful than it was in life."
+        }
+      }
+    },
+    "mmBlackPuddingSo": {
+      "name": "Black Pudding Sources",
+      "results": {
+        "N2g205i4v4xQTZ8g": {
+          "text": "An ancient black dragon’s acidic saliva."
+        },
+        "JhJk4p1HLhDqii0m": {
+          "text": "The blood or extreme emotions of a foul deity."
+        },
+        "q0dsQ2iZuHDGIL19": {
+          "text": "Cosmic entropy or ruinous planar forces."
+        },
+        "l3JipyYaUP4EHhj5": {
+          "text": "A curse that transformed a forgotten tyrant."
+        },
+        "27oy8zFpQSEaph27": {
+          "text": "Forbidden or industrialized magic."
+        },
+        "DZetKNmye6mpUnUp": {
+          "text": "Necrotic material animated by aimless spirits."
+        }
+      }
+    },
+    "mmBlightSeedCrea": {
+      "name": "Blight Seed Creature"
+    },
+    "mmBlobOfAnnihila": {
+      "name": "Blob of Annihilation Contents",
+      "results": {
+        "5SJCp0NyJ00hq7gB": {
+          "text": "An Amulet of the Planes."
+        },
+        "JuL41h425HwhtBLl": {
+          "text": "An Artifact of the DM’s choice."
+        },
+        "4vAxCUMppYg2ty3n": {
+          "text": "The corpses of two gods who were entangled in battle when the blob consumed them."
+        },
+        "RgG1B5PmZ7quv6P5": {
+          "text": "A Cubic Gate."
+        },
+        "Xs4NL6Hot4DG5Y3L": {
+          "text": "A Deck of Many Things."
+        },
+        "5uue66o6g86fMYLh": {
+          "text": "A magic key that opens a door in Sigil that no other key and no spell can open."
+        },
+        "f80UK8HiMZn5woEl": {
+          "text": "The preserved corpse of an empyrean."
+        },
+        "oaHOaQcKzaRaGeil": {
+          "text": "The remains of half a kraken."
+        },
+        "8vQkEERHrB4Dh2gV": {
+          "text": "The skull of a death god."
+        },
+        "0ONjvijnYvcqSJ2u": {
+          "text": "A tarrasque that just died."
+        }
+      }
+    },
+    "mmBoneDevilObjec": {
+      "name": "Bone Devil Objectives",
+      "results": {
+        "ikaUwDHt1XLAqvsm": {
+          "text": "Capture a soul that escaped the Nine Hells."
+        },
+        "mv1qIs0oDeiQ8Ju7": {
+          "text": "Convey a message or make an example of someone in the name of an archdevil."
+        },
+        "lifOpuj5JH2oltNh": {
+          "text": "Find someone who broke a deal with a devil."
+        },
+        "FE7Vw7YYVumbIxRD": {
+          "text": "Slay someone or steal something as part of its pact with a wicked magic-user."
+        }
+      }
+    },
+    "mmCambionOrigins": {
+      "name": "Cambion Origins",
+      "results": {
+        "R93N7gpegAty8Z1m": {
+          "text": "Being possessed by a fiendish being."
+        },
+        "CmAN4RpmUVueNqIM": {
+          "text": "Being resurrected by an evil magic-user."
+        },
+        "tg0hyxxYiprtMHCq": {
+          "text": "Lengthy exposure to a Lower Plane."
+        },
+        "AJmZ5w1dw1yodaED": {
+          "text": "Making a bargain with a Fiend."
+        },
+        "fxk4ydP99xhMDBM6": {
+          "text": "Suffering a god’s curse."
+        },
+        "Qhq2593K838CdN9M": {
+          "text": "Taking part in fiendish rituals."
+        }
+      }
+    },
+    "mmChainDevilMask": {
+      "name": "Chain Devil Masks",
+      "results": {
+        "HatopZ0I2USRyeq9": {
+          "text": "The corpse of a loved one."
+        },
+        "mgPnQdBkP0nQAvn4": {
+          "text": "A disapproving deity."
+        },
+        "klzIiqfDGjTNRxJ6": {
+          "text": "A harsh instructor or superior."
+        },
+        "sYpHhxUueDRUGp0i": {
+          "text": "The viewer at their lowest point in life."
+        }
+      }
+    },
+    "mmClayGolemOrder": {
+      "name": "Clay Golem Orders",
+      "results": {
+        "fNNTzloL2LxNmiZW": {
+          "text": "Block the path of anyone who enters a site with a weapon drawn."
+        },
+        "h7HCEPFRESvH3Lbn": {
+          "text": "Defend any member of their creator’s family or community who is threatened in its sight."
+        },
+        "9jTNMQ7lv5xLmBGb": {
+          "text": "Prevent any Fiend from crossing a bridge."
+        },
+        "YxtPrTqRyW8s30lq": {
+          "text": "Remove any who enter its creator’s workshop."
+        }
+      }
+    },
+    "mmCultSymbols000": {
+      "name": "Cult Symbols",
+      "results": {
+        "eQczyapVgw7ghsTk": {
+          "text": "<strong>The symbol is</strong> an alchemical sign"
+        },
+        "4oIX4xma6hijPwE6": {
+          "text": "<strong>The symbol is</strong> an animal"
+        },
+        "fcyw9aY2fTv8mrTm": {
+          "text": "<strong>The symbol is</strong> a celestial body"
+        },
+        "gqSsMfDy9DztmaSz": {
+          "text": "<strong>The symbol is</strong> a deity’s icon"
+        },
+        "5zaCTpcKidkYorWk": {
+          "text": "<strong>The symbol is</strong> an element"
+        },
+        "2xAo3aoUEkwxwC3z": {
+          "text": "<strong>The symbol is</strong> an eye"
+        },
+        "TFv0puJU2TvwU1OQ": {
+          "text": "<strong>The symbol is</strong> a geometric shape"
+        },
+        "M8I7xAjYvyqpA0Wc": {
+          "text": "<strong>The symbol is</strong> a letter or number"
+        },
+        "gjZxheaidEWJUl9D": {
+          "text": "<strong>The symbol is</strong> part of a monster"
+        },
+        "nJYYkFvrhChec7AR": {
+          "text": "<strong>The symbol is</strong> a skull"
+        }
+      }
+    },
+    "mmCultSymbolsDep": {
+      "name": "Cult Symbols - Depictions",
+      "results": {
+        "t3VojlQ9SYzOjIMv": {
+          "text": "<strong>Depicted as</strong> A calendar or map"
+        },
+        "Ylv022xuwXYJrWuR": {
+          "text": "<strong>Depicted as</strong> A crest or as heraldry"
+        },
+        "tylGJqzFMxCXO73y": {
+          "text": "<strong>Depicted as</strong> An elaborate diagram"
+        },
+        "HbZIvVuVExJA3yIe": {
+          "text": "<strong>Depicted as</strong> A metaphorical image"
+        },
+        "lN5FL7K5EX5PXhtn": {
+          "text": "<strong>Depicted as</strong> A mystical being"
+        },
+        "Zn4AbkPDI5QeQtRO": {
+          "text": "<strong>Depicted as</strong> Part of an equation"
+        },
+        "2j1BqinU8Kikszlh": {
+          "text": "<strong>Depicted as</strong> A repeating pattern"
+        },
+        "9ohj5XnC7WrKWkba": {
+          "text": "<strong>Depicted as</strong> A series of scratches"
+        },
+        "uOyVZ4gOm4nevqc6": {
+          "text": "<strong>Depicted as</strong> A simple pictogram"
+        },
+        "xwLKWhviEaJF0bJU": {
+          "text": "<strong>Depicted as</strong> A weapon or tool"
+        }
+      }
+    },
+    "mmCultistAgendas": {
+      "name": "Cultist Agendas",
+      "results": {
+        "UwUlUq22vqaHpJYD": {
+          "text": "Bring about the end of a dominant order, an age, or the world."
+        },
+        "kckXc48lcginZV84": {
+          "text": "Expand their faith though mind control or supernatural coercion."
+        },
+        "xmkSIL75zYlZg1Ms": {
+          "text": "Burn away the comfortable lies of reality, revealing forgotten or terrible truths."
+        },
+        "DeMekjWF01X9Vos6": {
+          "text": "Make global changes, like sinking the land or awakening volcanoes."
+        },
+        "E0ieDl2Q0wzVbIHe": {
+          "text": "Remake life on a mass scale, altering other creatures’ bodies or spiritual beings."
+        },
+        "I1S7y6w3I0ybD6lN": {
+          "text": "Summon their deity or its herald, weapon, or realm into their world."
+        }
+      }
+    },
+    "mmDeathDogMalady": {
+      "name": "Death Dog Malady Symptoms",
+      "results": {
+        "DochhAnVHJtNR1xw": {
+          "text": "Marks from canine jaws to appear on the victim’s body, as if they were still being mauled."
+        },
+        "4QlZg4PKY3B2kChI": {
+          "text": "The victim’s body to wither, as if constantly exposed to desert heat."
+        },
+        "IK42eVByiHDohfE2": {
+          "text": "The victim to be distracted by distant howling or vague whispers only they can hear."
+        },
+        "vGQr4b0nBFwFd75t": {
+          "text": "The victim’s flesh to rot like a corpse."
+        },
+        "EcUHfdPT4ptOg2Z1": {
+          "text": "The victim to itch, as if they had fleas or sand beneath their skin."
+        },
+        "FGs8O5pWTFQVX0n5": {
+          "text": "Wicked symbols to gradually appear on and spread across the victim’s body."
+        }
+      }
+    },
+    "mmDemonicUnderta": {
+      "name": "Demonic Undertakings",
+      "results": {
+        "eBcobfsU7Xs0A7rW": {
+          "text": "Break open a vault and steal what’s within."
+        },
+        "txZrC4Ta8ECfddRx": {
+          "text": "Defile a place using blasphemous symbols and demonic gore."
+        },
+        "wWhggL3Il61UlaR6": {
+          "text": "Fetch or otherwise provide materials for a profane ritual."
+        },
+        "pQfPFlx4ABBDfhoY": {
+          "text": "Guard a site and slay anyone who comes near."
+        },
+        "Da4oTMsvGs1uUWA4": {
+          "text": "Hunt down a foe, destroying everything barring the demon’s path."
+        },
+        "jES0Oyx0pGhVMnV7": {
+          "text": "Intimidate someone into following orders."
+        }
+      }
+    },
+    "mmDevaMessages00": {
+      "name": "Deva Messages",
+      "results": {
+        "rg6mTit0sPc1KeaL": {
+          "text": "The corpse of a hero in need of redemption."
+        },
+        "02Ab4xOQqsjqE6h4": {
+          "text": "The cure for a plague in a distant land."
+        },
+        "Nd5H06BzGz9PDAeX": {
+          "text": "A holy coffer that must not be opened."
+        },
+        "EMaxq2gMDxa8Qmqx": {
+          "text": "A magic weapon usable only by a true hero."
+        },
+        "jhXBQqc4zP0LKPT6": {
+          "text": "A seedling that wilts if exposed to anger."
+        },
+        "hamgak54F7PbWWCM": {
+          "text": "Someone from another world with a prophesied purpose but no memory."
+        }
+      }
+    },
+    "mmDoppelgangerDe": {
+      "name": "Doppelganger Deceptions",
+      "results": {
+        "Fk7ie0AKIqnueZT3": {
+          "text": "Cause chaos within the temple of a deity that cursed it to live without a true form."
+        },
+        "9ZyqNuKTuDVKhj1U": {
+          "text": "Conceal evidence of a vast conspiracy."
+        },
+        "6lzIhw9rphPjKDsW": {
+          "text": "Control a community through fear by posing as a legendary bogeyman."
+        },
+        "xSaolngUQ3vi6y92": {
+          "text": "Replace a noble to enjoy a decadent lifestyle."
+        },
+        "dDnReUi6TT0Cq6Yi": {
+          "text": "Spy on wizards to learn how to complete its own botched magical creation."
+        },
+        "CvndeaNbVYJM7jtU": {
+          "text": "Take an influential position, acting as a sleeper agent for a doppelganger invasion."
+        }
+      }
+    },
+    "mmDracolichSoulG": {
+      "name": "Dracolich Soul Gem Vessels",
+      "results": {
+        "1KvZPV1zkOhfKJt8": {
+          "text": "Another dragon’s treasure hoard."
+        },
+        "nKDv3drNw0BcVkrn": {
+          "text": "The body of a servant or an ancestor."
+        },
+        "Wo2cgr06NaKnEWi0": {
+          "text": "The core of a dracolich’s melted hoard."
+        },
+        "iORjAgIFKIqZeGg5": {
+          "text": "A corrupted dragon egg."
+        },
+        "xLhWgpnJyz6OXAkh": {
+          "text": "A dragon horn a hero took as a trophy."
+        },
+        "WM1TMuveZm7j4N4J": {
+          "text": "A nation’s royal or religious treasure."
+        },
+        "kN4f0Mia7r4M9nl7": {
+          "text": "A powerful magic item."
+        },
+        "730KUsXPkfRtAMeH": {
+          "text": "A source of magical wonders, such as a giant tree or mystical pool."
+        },
+        "9pM6mrG2Xfol7AEA": {
+          "text": "The vault of an archdevil, a wicked god, or another extraplanar villain."
+        },
+        "8mBZsvq9S94y6aYy": {
+          "text": "The weapon that slew the dracolich."
+        }
+      }
+    },
+    "mmDriderMetamorp": {
+      "name": "Drider Metamorphoses",
+      "results": {
+        "rYUbVKbxr8w0G9qq": {
+          "text": "A blessing from a deity of assassins, dangerous wildernesses, or the Underdark."
+        },
+        "yLzNv4NA0TjjXrGQ": {
+          "text": "A curse from a powerful hag, vengeful witch, or strange Artifact."
+        },
+        "u8yuUpG7wKHa4R3N": {
+          "text": "An experiment by an aboleth, a mind flayer, or another life-shaping magic-user."
+        },
+        "vPtDMzytT38lWEQ6": {
+          "text": "A magical means of escaping disaster or some worse fate."
+        },
+        "OrpHy0fZiSxP6a46": {
+          "text": "A mutation after exposure to chaotic planar energies or strange Underdark radiations."
+        },
+        "Z2YwJ994Y3w6RNKH": {
+          "text": "A punishment from a spiteful god, like Lolth or the Queen of Air and Darkness."
+        }
+      }
+    },
+    "mmDruidTradition": {
+      "name": "Druid Traditions",
+      "results": {
+        "Jc5DwjoMK5miFwtH": {
+          "text": "An avenger who strikes against destructive civilizations and those who abuse nature."
+        },
+        "DplgjRh8Ki4xNzvk": {
+          "text": "A guide who aids travelers in navigating the realms of Beasts, Fey, or Plants."
+        },
+        "bxJbPidfslSIDu4q": {
+          "text": "A hermit who works alone to protect the lands, seas, or skies they call home."
+        },
+        "FrLpbDSxgzSAJqH7": {
+          "text": "A mender who travels the world healing natural, magical, or manufactured disasters."
+        },
+        "EXJ1L6P9qDBZFBNX": {
+          "text": "Part of a loose organization that adheres to timeless rituals and guards natural secrets."
+        },
+        "lG6KV8I4cMdA9kQn": {
+          "text": "A warden who minds the underpinnings of reality and protects against extraplanar threats."
+        }
+      }
+    },
+    "mmDryadSanctuari": {
+      "name": "Dryad Sanctuaries",
+      "results": {
+        "tKmmFGZQdT2EaDsS": {
+          "text": "An acres-large clonal colony—a stand of identical, interconnected trees."
+        },
+        "zKONKFuX7wQwwmoW": {
+          "text": "A fortresslike tree, like a baobab or sequoia."
+        },
+        "YDthkGHEM9ASykl1": {
+          "text": "A living lock—a plant that seals evil below or blocks the path to a dungeon."
+        },
+        "Ivccc3ktzBVHekED": {
+          "text": "A lonely tree that stands atop a windswept mountain or amid a petrified forest."
+        },
+        "bJ1tnRjW4g7pxUdj": {
+          "text": "A plant with magic fruit or remarkable seeds."
+        },
+        "WFUlHcdGSFMxn7Q6": {
+          "text": "A shambling mound or treant that the dryad lives in or around as a Fey symbiote."
+        }
+      }
+    },
+    "mmEarthElemental": {
+      "name": "Earth Elemental Compositions",
+      "results": {
+        "0uGe9G95bIpq87Ao": {
+          "text": "Colorful mineral formations."
+        },
+        "RiAeouWJ8wtVdF0q": {
+          "text": "Cooled magma in melted heaps."
+        },
+        "bMGcJ63zZXE3QVk3": {
+          "text": "Grass, moss, or plant roots."
+        },
+        "GYD8sBKjc9OGStPX": {
+          "text": "Heaps of peat or decaying matter."
+        },
+        "cijuX3qrfXzVcCq2": {
+          "text": "Mounds of sand studded with shells."
+        },
+        "6njEtprbQ5HPTIbK": {
+          "text": "Rubble or pieces of a ruined structure."
+        },
+        "RiyP9Ho0M1xL2qnn": {
+          "text": "Striking striations or bands of color."
+        },
+        "kzymEsKqIQSzwT3y": {
+          "text": "Veins of iron or other ore."
+        }
+      }
+    },
+    "mmElementalAlter": {
+      "name": "Elemental Alterations",
+      "results": {
+        "t835RWtRZvoMhTLy": {
+          "text": "Dramatic increase or decrease in temperature."
+        },
+        "6ERWNnxqdP3hEohR": {
+          "text": "Gigantic coral reef or fungal forest."
+        },
+        "fgB5AAyvUT1m2lrS": {
+          "text": "Never-ending storm or whirlpool."
+        },
+        "Xhs0MXKTdyAEJ2HS": {
+          "text": "Passage to the Underdark or portal to an Elemental Plane."
+        },
+        "M34YzuM8lr62C9ba": {
+          "text": "Primeval or previously extinct animal population."
+        },
+        "4uIDFZY254cLXBfw": {
+          "text": "Rapidly growing rainforest."
+        },
+        "hNQNR7vWaJwqtHUt": {
+          "text": "River where previously there was none."
+        },
+        "uI6jaj6347h5siw8": {
+          "text": "Series of dramatic rock formations."
+        }
+      }
+    },
+    "mmEmpyreanInflue": {
+      "name": "Empyrean Influences",
+      "results": {
+        "p0BnIzXCVWxZdv0q": {
+          "text": "Balanced, naturalistic, or suggestive of watching eyes."
+        },
+        "kP77JLLKwc1bMCmv": {
+          "text": "Colorful, shadowy, or fluid or that vary depending on the viewer."
+        },
+        "HAVmjeW2bxNJTOqi": {
+          "text": "Comforting and gentle or that remind viewers of pleasant memories."
+        },
+        "W6SuEPaj7D0zsjoC": {
+          "text": "Disconnected parts, visible thoughts, or errant shapes."
+        },
+        "5RtuhBpZPxHV3FPg": {
+          "text": "Machinelike, stoic, symmetrical, or suggestive of judgment."
+        },
+        "UtbJFZw3uQQsUmad": {
+          "text": "Morbid, menacing, or monstrous or that embody the viewer’s fears."
+        }
+      }
+    },
+    "mmEttinInteracti": {
+      "name": "Ettin Interactions",
+      "results": {
+        "CrS7ZejzBgGq0kAX": {
+          "text": "Amping up one another in preparation for a conflict or challenge."
+        },
+        "fS9fba5sXCAhVn61": {
+          "text": "Arguing over plans for battle, dinner, or how to spend the day."
+        },
+        "E7TV16oWGZFwrF3w": {
+          "text": "Criticizing one another as they perform separate tasks."
+        },
+        "dYXOnob7CLVyzCni": {
+          "text": "Engaged in a staring contest."
+        },
+        "0swq0I52VXZN9a1V": {
+          "text": "Making polite small talk as if they were meeting for the first time."
+        },
+        "TyDdd1RyAr1q6bEq": {
+          "text": "Performatively ignoring one another."
+        },
+        "CmRGuJC6wzM6DPfZ": {
+          "text": "Talking over an increasingly convoluted plot."
+        },
+        "Da6gNfoDkWU7C4KG": {
+          "text": "Trying to keep one another awake."
+        }
+      }
+    },
+    "mmFireElementalC": {
+      "name": "Fire Elemental Compositions",
+      "results": {
+        "ZUAQEqjpkB0V8VDy": {
+          "text": "Colorful, superheated gases."
+        },
+        "gFQuNvAW1CpFB8eU": {
+          "text": "A column of diabolical or divine flame."
+        },
+        "DtRNirvI03cC8u84": {
+          "text": "Crackling shapes that look like animals, fiends, skeletons, sprites, or other beings."
+        },
+        "XzM6h5LVx70Qpocf": {
+          "text": "Flames that are predominantly white, blue, or a more unusual color."
+        },
+        "av3troXemZCZ4eTl": {
+          "text": "The form of a calm or tormented humanoid."
+        },
+        "RojbNcb8FeK0Sk7N": {
+          "text": "Smoke that forms eerie shapes or symbols."
+        },
+        "W9kQuOS9gQmlV53R": {
+          "text": "Soot that smells like cedar, cloves, incense, or burning meat."
+        },
+        "EHuYXEMdKEqi3w3c": {
+          "text": "Swirls of cinders and burning debris."
+        }
+      }
+    },
+    "mmFlameskullDeta": {
+      "name": "Flameskull Details",
+      "results": {
+        "L2j8OeuJZRfHLROG": {
+          "text": "Arcane diagrams etched into it."
+        },
+        "8k1GqUlyN19pkqaH": {
+          "text": "Flames like dramatic features, horns, or hair."
+        },
+        "WanSOct44HJDbdjl": {
+          "text": "Fractured pieces that fly in unison."
+        },
+        "RKhuXxCikQmBI7BO": {
+          "text": "An iron plate bolted over its mouth."
+        },
+        "QLBdWi0iuqZaCOiJ": {
+          "text": "Lethal head trauma."
+        },
+        "haG2lCcntA5gInaK": {
+          "text": "Mismatched animal teeth."
+        }
+      }
+    },
+    "mmFleshGolemChar": {
+      "name": "Flesh Golem Characteristics",
+      "results": {
+        "pxYsMhfHF0uEBqJl": {
+          "text": "Animal parts among its humanlike pieces."
+        },
+        "wmrhasU260AjB73I": {
+          "text": "A disguise of makeup and heavy clothing."
+        },
+        "zeyvhIiHbrKbXJCe": {
+          "text": "Missing parts and exposed insides."
+        },
+        "LKoJB4QWtoOC4NpH": {
+          "text": "Parts serving unintended roles, like a body composed of dozens of hands."
+        },
+        "mPAVCsLp5gLKoK7l": {
+          "text": "Perfect features accented by beautiful stitching."
+        },
+        "0NraGWSZQwEu1bbA": {
+          "text": "Visible mechanisms, bellows, and engines."
+        }
+      }
+    },
+    "mmFlumphAssistan": {
+      "name": "Flumph Assistance",
+      "results": {
+        "M4nFuJCRrFBvHbNB": {
+          "text": "Cooking a meal of Underdark delicacies."
+        },
+        "UmfZqmwzefJvlOhw": {
+          "text": "Performing a psychic song or “smell poem.”"
+        },
+        "apOPDSi6G9jm85iz": {
+          "text": "Recovering and nursing fallen adventurers."
+        },
+        "DgTMou45FD8RIxMW": {
+          "text": "Revealing the location of helpful magic items."
+        },
+        "bAX4MaTDAyr5y1WJ": {
+          "text": "Serving as a guide to a foe’s hidden lair."
+        },
+        "Sm5mCCBg6EpB4a35": {
+          "text": "Sharing excessive encouragement and praise."
+        }
+      }
+    },
+    "mmFlumphColorsAn": {
+      "name": "Flumph Colors and Emotions",
+      "results": {
+        "9p8Pf9anyTSvImRT": {
+          "text": "<strong>Color:</strong> Blue, Dark <strong>Emotion:</strong> Sadness"
+        },
+        "Ekkl24GHYgQetWpb": {
+          "text": "<strong>Color:</strong> Blue, Light <strong>Emotion:</strong> Happiness"
+        },
+        "9AoJUhM5YIsiTlD4": {
+          "text": "<strong>Color:</strong> Green <strong>Emotion:</strong> Curiositiy"
+        },
+        "1UqJnceyMVFejl3k": {
+          "text": "<strong>Color:</strong> Magenta <strong>Emotion:</strong> Unknown*"
+        },
+        "dOxULJYWr5pU6aZB": {
+          "text": "<strong>Color:</strong> Orange <strong>Emotion:</strong> Confusion"
+        },
+        "15ZecgYVuqskC5l3": {
+          "text": "<strong>Color:</strong> Pink <strong>Emotion:</strong> Amusement"
+        },
+        "Y5Paey5LhI7CqLXu": {
+          "text": "<strong>Color:</strong> Purple <strong>Emotion:</strong> Fear"
+        },
+        "jfz28rPJcPVsuNTT": {
+          "text": "<strong>Color:</strong> Red <strong>Emotion:</strong> Anger"
+        },
+        "rPN4Zr8Lh5inTfa5": {
+          "text": "<strong>Color:</strong> Teal <strong>Emotion:</strong> Serenity"
+        },
+        "K4i4jXAypmNuOVsw": {
+          "text": "<strong>Color:</strong> Yellow <strong>Emotion:</strong> Excitement"
+        }
+      }
+    },
+    "mmFomorianWarpin": {
+      "name": "Fomorian Warping",
+      "results": {
+        "24OZcBJSJA6Q6zK6": {
+          "text": "Colorful, wandering pustules."
+        },
+        "3f3pFxKBJTFjHvuW": {
+          "text": "Excessive sweating of rainbow-hued fluids."
+        },
+        "rUcMJZ6QLUoem1Zl": {
+          "text": "Patches of wriggling hair."
+        },
+        "kxOOdq5G1SlZNEB7": {
+          "text": "Veins that bulge and lurch under the skin."
+        }
+      }
+    },
+    "mmForagerAnimalL": {
+      "name": "Forager Animal Lord Appearances",
+      "results": {
+        "WOsfmffUgQr8Bsxt": {
+          "text": "Bear"
+        },
+        "pK8k6JEjlpN9lrw0": {
+          "text": "Bee"
+        },
+        "Sc0e3tLlbwBnJmUP": {
+          "text": "Bison"
+        },
+        "9IKATqDf1qnGeduN": {
+          "text": "Capybara"
+        },
+        "ieVuDhCYp1sUnZoJ": {
+          "text": "Carp"
+        },
+        "5eSZEt0mXr469RYf": {
+          "text": "Rabbit"
+        },
+        "BhX8vOuupHOpKxYr": {
+          "text": "Rooster"
+        },
+        "tkM1mN6JI7rdZ5GF": {
+          "text": "Sloth"
+        },
+        "CPIM4fTB2UQMlkkI": {
+          "text": "Stag"
+        },
+        "5MZjy6v6K3uO5Ih5": {
+          "text": "Vulture"
+        }
+      }
+    },
+    "mmGargoyleCamouf": {
+      "name": "Gargoyle Camouflage",
+      "results": {
+        "Ubrzr6YNB9yAds1R": {
+          "text": "Burls and bark on a giant tree."
+        },
+        "FjgdmlpMDfDFCiLh": {
+          "text": "Monuments in a graveyard or memorial."
+        },
+        "qb8auFe1ur7C5mbD": {
+          "text": "Outcroppings on a cliff or rock formation"
+        },
+        "Z3nCF60zrUlSJbjW": {
+          "text": "Reliefs on a sculpted gate or wall."
+        },
+        "j0FMnithyBeBQG6C": {
+          "text": "The petrified victims of a basilisk or medusa."
+        },
+        "hQjQPV8BhULv29Ei": {
+          "text": "Rubble in a ruin or junkyard."
+        },
+        "bchWZJUVbYbRTjV0": {
+          "text": "Statuary on a castle, mansion, or temple."
+        },
+        "sTf2Jh7zDFbbKVZa": {
+          "text": "Stalactites or icicles on a cavern ceiling."
+        }
+      }
+    },
+    "mmGargoyleSculpt": {
+      "name": "Gargoyle Sculptures",
+      "results": {
+        "ylPTkeQBO5zu0giK": {
+          "text": "Cherubic with perpetually smiling features."
+        },
+        "uD9mqY0abfnw5Ail": {
+          "text": "Crudely hewed or naturally formed."
+        },
+        "llGoUDmdhkqyZQ0q": {
+          "text": "Damaged or marred by mismatched pieces."
+        },
+        "za5ClXnbIGzNhWeP": {
+          "text": "Dragon-like with polished stone scales."
+        },
+        "yUZ3zx7Yyb3vKRy9": {
+          "text": "Gothically fiendish with horns and a tail."
+        },
+        "L4Ts0nRAIHyPnxPd": {
+          "text": "Useful, like an ornate podium or a pillar."
+        }
+      }
+    },
+    "mmGelatinousCube": {
+      "name": "Gelatinous Cube Debris",
+      "results": {
+        "GhMvBkgo2tRo61aN": {
+          "text": "Chest or recently trapped mimic."
+        },
+        "3aCF7TJmE1i9tyYf": {
+          "text": "Collection of bubbles or rocks resembling eyes."
+        },
+        "oqxyKvwzSAxqtp2e": {
+          "text": "Key to a nearby door or coffer."
+        },
+        "IxVpwn0yuGxfdk0Q": {
+          "text": "Remarkable weapon in need of repair."
+        },
+        "tMCTssJ8dVbjTAaY": {
+          "text": "Skeleton belonging to a famous adventurer."
+        },
+        "BYDZ2ovjp06IO4fW": {
+          "text": "Tablet bearing a mysterious message."
+        }
+      }
+    },
+    "mmGibberingMouth": {
+      "name": "Gibbering Mouther Nascencies",
+      "results": {
+        "w7lQvigqgquoXuZ6": {
+          "text": "Another creature warped by dangerous magic."
+        },
+        "GSzUwqcm3hHpAwhi": {
+          "text": "The autonomous appendage of a chaotic deity, Far Realm entity, or star-spawn horror."
+        },
+        "S3eKzR4TUIohHkaW": {
+          "text": "The experiment of an aberrant manipulator."
+        },
+        "UjLRYMXAyEynCQZc": {
+          "text": "Part of the life cycle of some other Aberration."
+        },
+        "Iv2ovRnmC6lsX4Mk": {
+          "text": "A shape-shifter that lost control of its powers."
+        },
+        "5N9PiXCtkE2wNa0Y": {
+          "text": "Someone cursed by a cult or vengeful deity."
+        }
+      }
+    },
+    "mmGithConflicts0": {
+      "name": "Gith Conflicts",
+      "results": {
+        "MwEJtGwpPVaQMRP9": {
+          "text": "Called on to deliver a message or mysterious parcel to or from Vlaakith the Lich Queen."
+        },
+        "dsmYYRy5UthDSQTp": {
+          "text": "Encouraged by a disguised intellect devourer to seek out an elusive gith leader."
+        },
+        "PqnIBTVIjk8xBv8j": {
+          "text": "Entreated to aid githzerai fleeing the githyanki who destroyed their sanctuary."
+        },
+        "eMk1GeuArT1jdiWr": {
+          "text": "Entrusted with renewing or disrupting the githyanki’s alliance with red dragons."
+        },
+        "y3zecRzdm6IdEdOD": {
+          "text": "Invited to hunt illithids with githyanki."
+        },
+        "lFthEGsOATFObmGs": {
+          "text": "Pressed to uncover a gith spy in a planar community or on a spelljamming ship."
+        },
+        "O1IYIWVFH26UG2Sf": {
+          "text": "Sent on a quest to discover the last known location of the hero Gith or Zerthimon."
+        },
+        "FSEpRTi5AKcJOlbd": {
+          "text": "Tasked with returning the blade of a fallen githyanki knight to the knight’s people."
+        }
+      }
+    },
+    "mmGladiatorTheat": {
+      "name": "Gladiator Theatrics",
+      "results": {
+        "WRFD4BElImEIepw7": {
+          "text": "Dedicates their impending victory to a deity, ruler, beloved noble, or member of the crowd."
+        },
+        "e9AikE6sF1DSmfVL": {
+          "text": "Dresses in a monster-themed mask and cape."
+        },
+        "qJt2DBt4EryymAFM": {
+          "text": "Judges whether their foe fights honorably."
+        },
+        "oOHhIgOFdchzhY5w": {
+          "text": "Leads the crowd in a rousing theme song."
+        },
+        "tISy1GZ3b2mndZaO": {
+          "text": "Seeks to claim a trophy from a foe."
+        },
+        "AyTZ6e3wKv7Wf5Kh": {
+          "text": "Takes advice from the crowd, omens, or a pet."
+        }
+      }
+    },
+    "mmGorgonCommandK": {
+      "name": "Gorgon Command Keys",
+      "results": {
+        "Obzt90Aqf5HuPBEy": {
+          "text": "Cast a particular spell in the gorgon’s presence."
+        },
+        "IJk6nDSCyvM5kaJ4": {
+          "text": "Keep their back to the gorgon or otherwise act like they don’t see the monster."
+        },
+        "xCU35PDA5OTceZ4r": {
+          "text": "Offer it a drink of blood, water, or wine."
+        },
+        "q4oJHTa0UlDQ413M": {
+          "text": "Recite a specific rhyme or sing a certain song."
+        },
+        "usvJQ0BaCWfuEiJV": {
+          "text": "Say its creator’s name backward."
+        },
+        "TKIMgdem6AWQOAJJ": {
+          "text": "Wear a mask, perhaps in the shape of a bull or an animal meaningful to the gorgon’s creator."
+        }
+      }
+    },
+    "mmGreenHagBargai": {
+      "name": "Green Hag Bargains",
+      "results": {
+        "UWgSXlZTZY22NfhV": {
+          "text": "A bargainer’s memories of a loved one."
+        },
+        "9gyqOh5ExVHMKeNx": {
+          "text": "The cauldron of a rival hag."
+        },
+        "F1Dx4bgrIDq63ZNS": {
+          "text": "A favor to be redeemed when the hag wishes."
+        },
+        "vFTjr3VQcCsVZQz1": {
+          "text": "A flower from a hidden Feywild garden."
+        },
+        "VqOogGCpDgzlT6zo": {
+          "text": "A gift given freely by a yugoloth."
+        },
+        "0w1gCHVHwJgkMlnQ": {
+          "text": "A vial filled with a ruler’s tears."
+        }
+      }
+    },
+    "mmGrellExplorati": {
+      "name": "Grell Explorations",
+      "results": {
+        "FxqNw31QOQGLnn0G": {
+          "text": "Advanced viruses, each the clone of all other grell. They exist only to feed and spread."
+        },
+        "Zc6X63YOq7fFQdhp": {
+          "text": "The larvae of another creature and require electrically charged environs to reproduce."
+        },
+        "cdQ7wfujdlPq9MFr": {
+          "text": "Seeking to escape some catastrophe or terror lurking in the depths."
+        },
+        "yuFbsQDzBM0uEz56": {
+          "text": "Supernaturally connected to ravenous alien beings and serve as their feeding appendages."
+        },
+        "YhhS7AEOOuErCSsD": {
+          "text": "Vestiges of an ancient evil that will return if grells collectively consume enough creatures."
+        },
+        "4LuNZjvEpZWPULCn": {
+          "text": "Without souls, but convinced they can attain souls by eating certain beings."
+        }
+      }
+    },
+    "mmGriffonTales00": {
+      "name": "Griffon Tales",
+      "results": {
+        "ZPGCAgogfW216fRT": {
+          "text": "Attack anything in the skies near their lairs."
+        },
+        "QUx8xq6WxuFoT7kJ": {
+          "text": "Curse their killers. Those who slay a griffon face the enmity of all animals."
+        },
+        "GOCyRVQenfaITJoq": {
+          "text": "Lay eggs with remarkable healing properties."
+        },
+        "EcdvetlFU9hvl865": {
+          "text": "Prefer the taste of horses over all other prey."
+        },
+        "ib346QUfqMdBNUuG": {
+          "text": "Serve the first creature they see after hatching."
+        },
+        "f6idHg0ig82SuNSF": {
+          "text": "Won’t attack those with royal blood."
+        }
+      }
+    },
+    "mmGrimlockTasks0": {
+      "name": "Grimlock Tasks",
+      "results": {
+        "tQQQRm9Bp9UXpXAB": {
+          "text": "Carving caves to serve as illithid outposts."
+        },
+        "qcvmbYhlzWlHfH0H": {
+          "text": "Hiding the threat of mind flayers beneath fake, purposefully crude dwellings."
+        },
+        "bz94UrSVb2ffqrTG": {
+          "text": "Pretending to be helpful and luring travelers into false senses of security."
+        },
+        "tZ0ZcZMq9eUZeViV": {
+          "text": "Raiding surface communities and tempting other creatures to pursue it into illithid traps."
+        }
+      }
+    },
+    "mmGuardianNagaLo": {
+      "name": "Guardian Naga Lore",
+      "results": {
+        "v0PIATNlSroq8GPk": {
+          "text": "The last words of an ancient sage or leader."
+        },
+        "lDTWcFCbPtpcBP9t": {
+          "text": "The location of a hidden city or continent."
+        },
+        "X47KcgvgLzMjaogg": {
+          "text": "A magic word, password, or riddle’s answer."
+        },
+        "nW5XyFxnA4t0ApqN": {
+          "text": "The names of all who have told it stories."
+        },
+        "xxNRickr7WlwWY9t": {
+          "text": "An otherwise forgotten ritual or spell."
+        },
+        "6Zx5CTaZVMC8Ey9F": {
+          "text": "Recipes using regional ingredients."
+        },
+        "IVwufkpbp4JsB3pl": {
+          "text": "Stories of forgotten gods and local spirits."
+        },
+        "ZIj8wsSz67qESkJf": {
+          "text": "The vulnerabilities of a legendary monster."
+        }
+      }
+    },
+    "mmHelmedHorrorDi": {
+      "name": "Helmed Horror Directives",
+      "results": {
+        "e4QUCZrL09S2mGt9": {
+          "text": "Carry its master’s palanquin through the air."
+        },
+        "KvShIx0kDHfuIBvD": {
+          "text": "Defend a remarkable treasure or piece of armor by incorporating the item into its being."
+        },
+        "3x2LkSmqje0RqUAw": {
+          "text": "Imitate a dead or imprisoned hero by using their armor and weapons."
+        },
+        "k4oBKTjVFrinVQER": {
+          "text": "Perform as a laborer or servant."
+        },
+        "nu58Gf45EKRzgTMn": {
+          "text": "Serve in a legion formed from the armors of a land’s ancient defenders."
+        },
+        "vfx7pv0gwGzX0Bd4": {
+          "text": "Stand sentry in a gallery of mundane armors."
+        }
+      }
+    },
+    "mmHippogriffDest": {
+      "name": "Hippogriff Destination",
+      "results": {
+        "w9gCj1tmvg28KFVE": {
+          "text": "Low-hanging moon, star, or other solar body."
+        },
+        "MHFA0b9dqtCAYM4o": {
+          "text": "Magical garden on a floating island."
+        },
+        "CO22vvJqGqdw8Ztv": {
+          "text": "Mountaintop with a view of a giant geoglyph."
+        },
+        "jZE07Z5FHECzaRZU": {
+          "text": "Nest full of hippogriff eggs atop a spire."
+        },
+        "nliYMZlInuDWwI95": {
+          "text": "Portal to the Feywild or an Upper Plane."
+        },
+        "5u0Rk0eqOWxVChAi": {
+          "text": "Lost ruin hidden by clouds or fog."
+        }
+      }
+    },
+    "mmHobgoblinStrat": {
+      "name": "Hobgoblin Strategies",
+      "results": {
+        "0sgbgJ9EUWNzt2rE": {
+          "text": "Build a vessel to carry hobgoblin armies to new conquests."
+        },
+        "DZDbMOYHGziJjc5j": {
+          "text": "Capture monsters and train them to fight."
+        },
+        "3n7OkKId2ME2tlGX": {
+          "text": "Collapse a region into the Underdark so riches can be sifted from the ruins."
+        },
+        "pRmYl8r8oha8b6fH": {
+          "text": "Construct a giant machine to strip resources."
+        },
+        "lhHwdc42SbVkriuR": {
+          "text": "Convince devils, dragons, or hobgoblins from Acheron to invade an enemy land."
+        },
+        "KkHiLc2lQ2YZVEkj": {
+          "text": "Help shortsighted merchants undermine a government or despoil the environment."
+        }
+      }
+    },
+    "mmHomunculusFeat": {
+      "name": "Homunculus Features",
+      "results": {
+        "j6RywSt9hN2KelxM": {
+          "text": "Bat-like with tattered wings."
+        },
+        "tx2UwcxxC3T4indI": {
+          "text": "Made of soft metal and delicate gears."
+        },
+        "oXU9qnh2slvoqVen": {
+          "text": "Marked with its creator’s symbol."
+        },
+        "lsFvr01uM3inpSHW": {
+          "text": "Similar to those of a winged humanoid."
+        },
+        "oPgadW6ijkQ1jFHs": {
+          "text": "Sprouting flowers and leaves."
+        },
+        "rSP4CSFA9wFqdjaQ": {
+          "text": "Suggestive of its creator’s appearance."
+        },
+        "dvMtYWU4PvRPaDHL": {
+          "text": "Underdeveloped and fleshy with beady eyes."
+        },
+        "ucW7sKYdQuvAKMft": {
+          "text": "Woven and patchwork, like a well-loved toy."
+        }
+      }
+    },
+    "mmHunterAnimalLo": {
+      "name": "Hunter Animal Lord Appearances",
+      "results": {
+        "Me1PD9HUSDD3PrTA": {
+          "text": "Alligator"
+        },
+        "Ji6eyn9sgTMStip3": {
+          "text": "Badger"
+        },
+        "FaPptSiiDR0nOJJs": {
+          "text": "Bat"
+        },
+        "6xvQgghdKhEnyGDO": {
+          "text": "Cat"
+        },
+        "7NUVt3b4K7xmsGkm": {
+          "text": "Hawk"
+        },
+        "SMqmIRr8uKHwBuHv": {
+          "text": "Mongoose"
+        },
+        "pP70uan3bNVd5jfo": {
+          "text": "Praying mantis"
+        },
+        "J3SOAGHGILc55G53": {
+          "text": "Shark"
+        },
+        "ifq6KgTEVRKkxIv5": {
+          "text": "Snake"
+        },
+        "Ib2BdSa5MaIooEZ4": {
+          "text": "Wolf"
+        }
+      }
+    },
+    "mmHydraLairs0000": {
+      "name": "Hydra Lairs",
+      "results": {
+        "tml2nZDfAKNDVAR1": {
+          "text": "Ensure none claim the weapon of a fallen hero."
+        },
+        "PvuFKVu2G0vhwEhx": {
+          "text": "Defend the home of a wise but sinister oracle."
+        },
+        "chdeycIuBMwCzxXS": {
+          "text": "Guard a magical herb that blooms once a year."
+        },
+        "ooBPe5sK6SlYZ2yb": {
+          "text": "Protect a font of poison that pollutes a river."
+        }
+      }
+    },
+    "mmIncubusNightma": {
+      "name": "Incubus Nightmares",
+      "results": {
+        "jV3OuGruNiBNV0pP": {
+          "text": "An angry family member or authority figure."
+        },
+        "Kxs9xm381uTxjqqT": {
+          "text": "Being chased through the wilderness."
+        },
+        "TsHxN9YWmXAITN2j": {
+          "text": "Being devoured by animals or monsters."
+        },
+        "TS6ab78PS1b2K2rE": {
+          "text": "Falling, drowning, or suffocating."
+        },
+        "H0FEwutKcvoKLGyE": {
+          "text": "A ruinous public embarrassment."
+        },
+        "I4WLZIBdDepXHwhf": {
+          "text": "A shadowy intruder or monstrous silhouette."
+        },
+        "voXtAlQjLCxnpiOC": {
+          "text": "A traumatic past event."
+        },
+        "kEORPW2ykhHtBdzm": {
+          "text": "A visitor with an eerie or enigmatic message."
+        }
+      }
+    },
+    "mmIronGolemOrder": {
+      "name": "Iron Golem Orders",
+      "results": {
+        "E01Ee4RZPlxNVLLp": {
+          "text": "Block a door that has never been opened, moving only when a prophecy is fulfilled."
+        },
+        "YSKHSygmoX9Fkrws": {
+          "text": "Exhale poison gas whenever it can, pausing only when someone speaks a passphrase."
+        },
+        "g1GcAyHAbIhNb4OF": {
+          "text": "Pose as a statue until a community’s hour of greatest need."
+        },
+        "NyO13gKflaUdgN6d": {
+          "text": "Stand atop the resting place of a powerful magic item."
+        }
+      }
+    },
+    "mmJackalwereTric": {
+      "name": "Jackalwere Tricks",
+      "results": {
+        "EosCwwvqiVfVRQdN": {
+          "text": "Guiding them into wildernesses, then abandoning them."
+        },
+        "CKjYzZVrK7qQg1JZ": {
+          "text": "Mapping a shortcut through a monster’s lair."
+        },
+        "6YXKL9hshbUwWGBo": {
+          "text": "Putting them to sleep, then stealing mounts or supplies."
+        },
+        "TyNCBhTOlEEKn61p": {
+          "text": "Sharing the location of hidden treasure, which turns out to be sunlight on sand or water."
+        }
+      }
+    },
+    "mmKrakenAttacks0": {
+      "name": "Kraken Attacks",
+      "results": {
+        "kEWNIaRpvwQDVegX": {
+          "text": "Abducts the vessel of a leader or another important community member."
+        },
+        "MJSO5CEF9wEAA64G": {
+          "text": "Attacks a community from below using flooded ruins, hidden aquifers, or sewers."
+        },
+        "uz4Nk0vNSGLCOhYS": {
+          "text": "Breaks a lighthouse or seaside tower, carrying it and the occupants to a secret island."
+        },
+        "cRhTZalLWZmFwxvl": {
+          "text": "Calls down lightning on any ship that enters its aquatic territory."
+        },
+        "zNLySZDqg6PNNCYI": {
+          "text": "Carries ships to an inescapable sargassum."
+        },
+        "E5FJz9dmUQsB2O2s": {
+          "text": "Dams a river or cuts off a city’s sea access."
+        },
+        "KjisW4oRlcuPZDPs": {
+          "text": "Devours all sea life near a fishing community, threatening it with ruin."
+        },
+        "c85rzKb18Rc3gDqw": {
+          "text": "Masterminds an invasion from the sea by merfolk, sahuagin, or storm giants."
+        }
+      }
+    },
+    "mmKuotoaFeatures": {
+      "name": "Kuo-toa Deity Features: Body",
+      "results": {
+        "xGFMgEXON74osLDB": {
+          "text": "Hermit crab"
+        },
+        "6fwox7T9xYgbp5vV": {
+          "text": "Jellyfish"
+        },
+        "fngMi7aYQsmWvjhT": {
+          "text": "Kuo-toa"
+        },
+        "WDbLsd4rn725sH4s": {
+          "text": "Mantis shrimp"
+        },
+        "mST2a0DmcFypiL8Z": {
+          "text": "Merfolk"
+        },
+        "b1A26hG71kAoUhZy": {
+          "text": "Plesiosaurus"
+        },
+        "4k3S6PPvIiqtW3yt": {
+          "text": "Sea cucumber"
+        },
+        "PN0v1VU5CX9cI5Id": {
+          "text": "Ship’s figurehead"
+        },
+        "XYpp2qWpKUWbt3nX": {
+          "text": "Squid"
+        },
+        "aqMezrkwI0JNT8q0": {
+          "text": "Whale"
+        }
+      }
+    },
+    "mmKuotoaDeityFea": {
+      "name": "Kuo-toa Deity Features: Head",
+      "results": {
+        "zzx5nmys2J8nppth": {
+          "text": "Barnacle"
+        },
+        "edhVuU8gc3t6ag2z": {
+          "text": "Crab claw"
+        },
+        "ow809Ecp9wJv9KCW": {
+          "text": "Hagfish"
+        },
+        "UfWEuVYqums0unfU": {
+          "text": "Moray eel"
+        },
+        "gtXFIbq6FujvvcTT": {
+          "text": "Sea anemone"
+        },
+        "ow41pljvilQZRDa9": {
+          "text": "Shark"
+        },
+        "HMbyRym7Y1qutnHN": {
+          "text": "Sunfish"
+        },
+        "cZqiJtP3Cc7Jqv8D": {
+          "text": "Tentacle"
+        },
+        "gW6tJ4o9JUosbCZZ": {
+          "text": "Treasure chest"
+        },
+        "pYTLfSxDWy2qChj5": {
+          "text": "Viperfish"
+        }
+      }
+    },
+    "mmKuotoaRitualSi": {
+      "name": "Kuo-toa Ritual Sites",
+      "results": {
+        "5e1QXiM0LhinQwgx": {
+          "text": "An arena scattered with weapons made from crustacean shells."
+        },
+        "CzHpn7gNLIOUHI9K": {
+          "text": "A gallery of hibernating chuuls."
+        },
+        "NNe2VusEe213LhEs": {
+          "text": "A garden of mussels and tide pool creatures that whisper secrets."
+        },
+        "LevZJTvlz8E52jm0": {
+          "text": "A hidden shrine with a patchwork depiction of a new kuo-toa deity."
+        },
+        "ZNAXeL1w7JhcuwkD": {
+          "text": "The lavish chamber of an animal or monster said to be prophetic, lucky, or literate."
+        },
+        "6qDuYJmG0qQAs6MM": {
+          "text": "A pool filled with jellyfish, eels, or fish roe that glow in organized patterns."
+        },
+        "oXdqjdVfktrThpTn": {
+          "text": "A punishment chamber exposed to the light of the surface."
+        },
+        "rE3NCWf6koye8Qo0": {
+          "text": "A towering statue of a kuo-toa deity."
+        }
+      }
+    },
+    "mmLamiaPacts0000": {
+      "name": "Lamia Pacts",
+      "results": {
+        "YqjbOPStg1enbVYb": {
+          "text": "Bring it a possession from a ruler or noble."
+        },
+        "uCZYuhuwooUyQMjF": {
+          "text": "Create a map of a dungeon or ruin."
+        },
+        "NAHA005WuGgtgRay": {
+          "text": "Escort it through a nearby community’s gate."
+        },
+        "70CDNEEwsrKaepss": {
+          "text": "Place a strange idol in a specific site or home."
+        },
+        "jbVLXhKuWekLAM7y": {
+          "text": "Remove a magic item’s curse, then return it."
+        },
+        "vnbw345Ozg3Ydqdw": {
+          "text": "Slay a monster and retrieve a specific organ."
+        }
+      }
+    },
+    "mmLichSpiritJars": {
+      "name": "Lich Spirit Jars",
+      "results": {
+        "EoCR8BVIg9jiwZQn": {
+          "text": "A bottle or puzzle box inscribed with sigils."
+        },
+        "pBr0smCt07Ddu2P9": {
+          "text": "A contract folded into a paper figure."
+        },
+        "qhnF6w5vQZYTNLe4": {
+          "text": "The first magic item the lich created."
+        },
+        "sByUDCfoElYaimVK": {
+          "text": "A hollow figurine of a deity or monster."
+        },
+        "EofKb0hySayY55ut": {
+          "text": "An hourglass with its sands floating in stasis."
+        },
+        "t9UOWuPT9kgy5J0k": {
+          "text": "A locket or signet ring with a noble crest."
+        },
+        "qfWaLtfSCdRUmsyk": {
+          "text": "A rune-etched egg."
+        },
+        "tjZ65tzFxn3WMmWY": {
+          "text": "The skull of the lich’s mentor."
+        }
+      }
+    },
+    "mmMageRoles00000": {
+      "name": "Mage Roles",
+      "results": {
+        "5VrUJXj7jGJOp4LX": {
+          "text": "An astronomer who draws magic from stars."
+        },
+        "P3qsL1FtB0ojfX5G": {
+          "text": "An author who writes about the occult."
+        },
+        "P9nCWbVyhqiZ3HEt": {
+          "text": "A magical engineer who creates wonders."
+        },
+        "zGJ8mDaYHwdZvRhh": {
+          "text": "An oracle who interprets omens."
+        },
+        "VcrmrTD2inKyfgDO": {
+          "text": "A prodigy with a remarkable magical heritage."
+        },
+        "Xzhe3XULcl8gUcmI": {
+          "text": "A psion whose powers manifest as spells."
+        },
+        "rAA5bLETx9It7Kum": {
+          "text": "A scholar investigating ancient lore."
+        },
+        "bOi3xdnTPmSQSbmF": {
+          "text": "A soothsayer who advises rulers."
+        },
+        "BjwL88ARDEB13mJV": {
+          "text": "A war mage who aids soldiers in battle."
+        },
+        "S0ACnpu7KRmeyBlm": {
+          "text": "A witch who shares secret wisdom."
+        }
+      }
+    },
+    "mmManticoreNegot": {
+      "name": "Manticore Negotiations",
+      "results": {
+        "MlworDEZIR4hELYp": {
+          "text": "Attack a particular foe."
+        },
+        "wnjvn145qNIpGNcj": {
+          "text": "Create a distraction."
+        },
+        "8XYDrfwlnc0I8GBR": {
+          "text": "Give up a captive or corpse."
+        },
+        "9PQT8940G65ARH3q": {
+          "text": "Let a group navigate its territory unharmed."
+        },
+        "vgJB9mv6POgpmeyR": {
+          "text": "Let someone pretend to slay it in battle."
+        },
+        "jDayvoNLrtIklyYS": {
+          "text": "Scare or threaten someone."
+        },
+        "O6tbE9LUxtGJ4RWj": {
+          "text": "Serve a creature as a steed until the sun sets."
+        },
+        "daZPTCefQ9vNgYm9": {
+          "text": "Try to locate something from its vantage point in the sky."
+        }
+      }
+    },
+    "mmMedusaFates000": {
+      "name": "Medusa Fates",
+      "results": {
+        "XSrvP4BJiu1HwvIk": {
+          "text": "Born a medusa and lives unaware of whatever curse or circumstances afflicted its ancestor."
+        },
+        "A7vpVmwwGaLbaTLH": {
+          "text": "Created by a god and tasked with guarding a treasure or secret."
+        },
+        "cnlKENPo6jqTKGAZ": {
+          "text": "A cultist who made a fiendish bargain and enjoyed rewards that have since faded."
+        },
+        "P5wfJ1E9SD2UTV9o": {
+          "text": "An explorer transformed and compelled to defend a cursed ruin."
+        },
+        "etTXPIrRmXCpLzBC": {
+          "text": "A vain noble whose magical attempt to gain eternal beauty backfired."
+        },
+        "zwH1NcZKdk6dnIqR": {
+          "text": "The victim of a bite from a magical serpent or reptilian god in disguise."
+        }
+      }
+    },
+    "mmMezzolothPayme": {
+      "name": "Mezzoloth Payments",
+      "results": {
+        "byqijkYbLUTfFWkZ": {
+          "text": "Access to a planar portal."
+        },
+        "XPUQDb0XTkeUjVli": {
+          "text": "Information valued by its true master."
+        },
+        "XvkEYInxdn3v6lIY": {
+          "text": "A lair where it can bring others of its kind."
+        },
+        "afJcGj3G7AhFry7a": {
+          "text": "Magic weapons or armor."
+        },
+        "eZzgQwfAygavQfu5": {
+          "text": "The right to loot holy sites in places it conquers."
+        },
+        "wX5KrzzJtig4qXoQ": {
+          "text": "Souls, whether as larvae or captured spirits."
+        }
+      }
+    },
+    "mmMindFlayerMach": {
+      "name": "Mind Flayer Machinations",
+      "results": {
+        "kNZYIG7DgL0S2qZ5": {
+          "text": "Blot out the sun so their Underdark-dwelling servants can invade the surface."
+        },
+        "D2xSvFiUklHGjgTX": {
+          "text": "Create a new monstrous fusion between mind flayers and a legendary monster."
+        },
+        "v9G1VjailBZUXbCZ": {
+          "text": "Forge a psionic network uniting illithid colonies."
+        },
+        "gWVuva08ZXRJVwUU": {
+          "text": "Replace world leaders with intellect devourers."
+        },
+        "sHeuZyy16odmFIwU": {
+          "text": "Restore a vessel to travel through Wildspace."
+        },
+        "7wS4fOFVnxXWBU4R": {
+          "text": "Sacrifice the mental energy of a planet’s populace to take control of a githyanki bastion."
+        }
+      }
+    },
+    "mmMinotaurMazes0": {
+      "name": "Minotaur Mazes",
+      "results": {
+        "PEaB4HIGK7tvH1Gm": {
+          "text": "A multilevel mine or sewer."
+        },
+        "YsFLYI11LY9AZIDm": {
+          "text": "Multiple mazes connected by magic portals."
+        },
+        "1S0bEuHPa9eED5WO": {
+          "text": "A poisonous swamp with labyrinthine paths."
+        },
+        "TKKagNWsoFF9GB8P": {
+          "text": "The ruins of a buried palace or temple."
+        }
+      }
+    },
+    "mmModronOperatio": {
+      "name": "Modron Operations",
+      "results": {
+        "mZxjU3pX87MEEeRw": {
+          "text": "Create a clockwork outpost to monitor the balance of obscure planar forces."
+        },
+        "MsCU7rTMrwUK7jbO": {
+          "text": "Ensure neither side gains the upper hand in a conflict between good and evil."
+        },
+        "q8mNTdfOml24LFvB": {
+          "text": "Excavate a portal to another plane."
+        },
+        "wvv1AGeHN0TdTj23": {
+          "text": "Find a lost contingent of modrons."
+        },
+        "OJx0HOf9Z93hYjQq": {
+          "text": "Reactivate a titanic but lost modron device."
+        },
+        "r8iYLae4vI5sCjGw": {
+          "text": "Remove a forest, mountain, or city before the arrival of a modron procession."
+        },
+        "WDljZyhUbt6XmJaP": {
+          "text": "Seal off a planar rift or wild magic zone."
+        },
+        "ElMu2YUZzEFiFO5e": {
+          "text": "Wage war with demons, slaadi, or chaotic Fey."
+        }
+      }
+    },
+    "mmMummyLordPlots": {
+      "name": "Mummy Lord Plots",
+      "results": {
+        "Xi4fkOv0bW1MDtKe": {
+          "text": "Open a portal to the past, when its power was at its height."
+        },
+        "W6fwl5dBhiTCI0G1": {
+          "text": "Perform a ritual that can be attempted only once every eight hundred years."
+        },
+        "vP2wTpfDOBBOrbX5": {
+          "text": "Reclaim and resurrect a loved one’s corpse."
+        },
+        "giqMaFUoXRFSQwG3": {
+          "text": "Reconquer the lands that once composed its empire."
+        },
+        "pnr0UicR4frGgi5V": {
+          "text": "Recover the pieces of its lost heart."
+        },
+        "EXxJ19Fj4QnxLlrn": {
+          "text": "Replace its descendant as the ruler of a realm."
+        },
+        "PIHGyFsY6YB5IMnA": {
+          "text": "Sacrifice a thousand souls to its god in return for true life."
+        },
+        "EkrI3aTPYhlN9v1H": {
+          "text": "Transform the people of an entire nation into Undead servants."
+        }
+      }
+    },
+    "mmMummyResurrect": {
+      "name": "Mummy Resurrections",
+      "results": {
+        "2irmR1PTY67Vihx7": {
+          "text": "Defend a holy site it was created to protect."
+        },
+        "tye5XYoZJ8jV3Vye": {
+          "text": "Obey the summons of a mummy lord."
+        },
+        "YemMemtYJvAaeqqH": {
+          "text": "Oppose an enemy who has returned to life."
+        },
+        "qspns5HV0atbshPq": {
+          "text": "Protect its descendants from an ancient threat."
+        },
+        "wwI4xMo6EMJGUIVs": {
+          "text": "Punish the progeny of those who cursed it."
+        },
+        "T3lz2R0yGypBcM4w": {
+          "text": "Reclaim treasures robbed from its crypt."
+        },
+        "Ugagk1p77wVM4qU3": {
+          "text": "Serve whoever speaks the prayer on its tomb."
+        },
+        "HzhCzkZHffzm4EKU": {
+          "text": "Slay anyone who sets eyes on it."
+        }
+      }
+    },
+    "mmNightmareRider": {
+      "name": "Nightmare Riders",
+      "results": {
+        "COFwLfP5LT5B6xZz": {
+          "text": "The champion or messenger of an evil deity."
+        },
+        "4ge2NlZngtLi9Fhg": {
+          "text": "A group of joyriding imps or quasits."
+        },
+        "gBJB8SZSrRrJNfqb": {
+          "text": "An innocent soul trapped on the wild Fiend."
+        },
+        "Gzqh7fpYOprVRmRX": {
+          "text": "A lore-hunting mage, cultist, or lich."
+        },
+        "33wBtt46n1O347mM": {
+          "text": "A night hag herding larvae between planes."
+        },
+        "eZDg31Uk7Lmj0SeA": {
+          "text": "A wicked cavalier, such as a death knight, an erinyes, an incubus, or a vampire."
+        }
+      }
+    },
+    "mmOchreJellyLeft": {
+      "name": "Ochre Jelly Leftovers",
+      "results": {
+        "q3yR3PCheZFearq0": {
+          "text": "A bone etched with a word or an eerie symbol."
+        },
+        "Zgc08lfr8KVodR9L": {
+          "text": "Broken dragonborn or tiefling horns."
+        },
+        "LkDPSJK8CA7zxFLv": {
+          "text": "An ornate prosthetic limb."
+        },
+        "IlrDlU5zq6iyywDU": {
+          "text": "The skeleton of an explorer’s pet (perhaps a small dog, monkey, or parrot)."
+        },
+        "UMTVAKtDkPXeaqS9": {
+          "text": "A skull with gold teeth worth 1d4 GP."
+        },
+        "QLuS9S7NnWskLls6": {
+          "text": "A spotless suit of metal armor."
+        }
+      }
+    },
+    "mmOniTroubles000": {
+      "name": "Oni Troubles",
+      "results": {
+        "LMXkFPRJH0YxK8t9": {
+          "text": "Charming people to perform nasty tricks."
+        },
+        "4iHVUSWj3Age2Ure": {
+          "text": "Claiming a bridge, gate, shrine, or trail and trying to eat anyone who comes near."
+        },
+        "l7wnYDlyKLX9yqZY": {
+          "text": "Luring other monsters to the settlement."
+        },
+        "6aEDzbmMD6ODhDR7": {
+          "text": "Playing drums that keep everyone awake."
+        }
+      }
+    },
+    "mmOtyughLures000": {
+      "name": "Otyugh Lures",
+      "results": {
+        "8xGwp1pLs1GBt5yz": {
+          "text": "Disguises its tentacles with garbage puppets."
+        },
+        "sD4jzGQbIcwbUgip": {
+          "text": "Sings an enticing song in Otyugh."
+        },
+        "fBI9ZU0KnCmDq4Ql": {
+          "text": "Telepathically transmits a message like “Happy good stuff here!” or “Help now! I’m too delicious?”"
+        },
+        "UALQk9p3WitnpvMk": {
+          "text": "Telepathically transmits an image of a large gemstone, crooked weapon, or soggy pastry."
+        }
+      }
+    },
+    "mmOwlbearDenFeat": {
+      "name": "Owlbear Den Features",
+      "results": {
+        "MI8sYutrTB6iytoZ": {
+          "text": "Evidence of previous occupants, like bandits, wolves, or dragons."
+        },
+        "bSiYOUCrvAt3zhEt": {
+          "text": "Heaps of regurgitated pellets studded with coins or other treasure."
+        },
+        "tiFGcNsTVO3UkobM": {
+          "text": "A nest with 1d6 owlbear eggs."
+        },
+        "L1sRrKRRFMR7KlDh": {
+          "text": "Passages through the earth or hollow trees."
+        }
+      }
+    },
+    "mmPegasusOfferin": {
+      "name": "Pegasus Offerings",
+      "results": {
+        "Qw8bPyztZrigLlIz": {
+          "text": "Bearing the gear of a hero the pegasus aided."
+        },
+        "S8Hutt56yTCqZfKv": {
+          "text": "Offering magical fruit or holy spring water."
+        },
+        "VOyHsmnYSSAuIFmV": {
+          "text": "Singing a song in Celestial, Druidic, or Sylvan."
+        },
+        "7tGdacXmgydUAop3": {
+          "text": "Wearing the garb of an ancient heroic order."
+        }
+      }
+    },
+    "mmPerytonSuperst": {
+      "name": "Peryton Superstitions",
+      "results": {
+        "QzCGc12JMLxhdZk2": {
+          "text": "The hearts grant an evil wish."
+        },
+        "oyzR4Y16GGXCX5HS": {
+          "text": "It reverts to its original form."
+        },
+        "CeDoF1KxMEhHHeOQ": {
+          "text": "A new peryton hatches from each heart."
+        },
+        "BvlCzxW9v5zY0PPf": {
+          "text": "A portal opens to the Lower Planes."
+        }
+      }
+    },
+    "mmPetrifiedBasil": {
+      "name": "Petrified Basilisk Victims",
+      "results": {
+        "gYDJRjpnvcNr2bNL": {
+          "text": "An adventurer with an ornate key hanging around their neck."
+        },
+        "5DE7bxasd535w2RW": {
+          "text": "Animals like bats, bears, deer, or goats."
+        },
+        "9BhtuIl5HbCebcP0": {
+          "text": "A climber clinging to a stalactite."
+        },
+        "FCVb5VpOsmeunZU9": {
+          "text": "Itself using a large mirror or shiny surface."
+        },
+        "wSo6g1NCQse26QvA": {
+          "text": "A mimic disguised as a chest full of treasure."
+        },
+        "FkTlrAgiXqFX21pX": {
+          "text": "A monster such as an umber hulk or a troglodyte."
+        },
+        "odXjvWjV2YMRRL6U": {
+          "text": "Someone caught in a comic pose or making a regrettable face."
+        },
+        "C0P9JTbzme5ta0RG": {
+          "text": "A victim now being used as a nest for insects or other vermin."
+        }
+      }
+    },
+    "mmPirateFlagsAcc": {
+      "name": "Pirate Flags - Accesosry",
+      "results": {
+        "9zq8SYPIF5sXucPe": {
+          "text": "A captain’s hat"
+        },
+        "BvZXlxAPUT5iCCDr": {
+          "text": "Crossbones"
+        },
+        "yF82xcYZ0tt20DTd": {
+          "text": "Crossed blades"
+        },
+        "ZYPZwKaM4oJP7a3k": {
+          "text": "An eye patch"
+        },
+        "OIzDDbRIAaiSz9pG": {
+          "text": "Lightning bolts"
+        },
+        "6MtoiAlyIjfnkdbe": {
+          "text": "A mug of ale"
+        },
+        "MOMHr1rUPtD5gGuf": {
+          "text": "A tattoo"
+        },
+        "YvrvmWlHhfPlQcru": {
+          "text": "A treasure chest"
+        }
+      }
+    },
+    "mmPirateFlags000": {
+      "name": "Pirate Flags - Main",
+      "results": {
+        "H4TxEPozPtugtaIm": {
+          "text": "Buccaneer"
+        },
+        "gHi5CbHQ8hvCcaoV": {
+          "text": "Dragon"
+        },
+        "mKn4ibQzfcLVnsgQ": {
+          "text": "Fiend"
+        },
+        "NhIF4ldk29OKJe04": {
+          "text": "Goat"
+        },
+        "AGRbVNTMWeswXZX9": {
+          "text": "Kraken"
+        },
+        "kqAnHKZh4VfITXyJ": {
+          "text": "Merfolk"
+        },
+        "9qcnD8AyK6torWTW": {
+          "text": "Skull"
+        },
+        "S4Dc3FsuCpE39IW7": {
+          "text": "Whale"
+        }
+      }
+    },
+    "mmPlanetarQuests": {
+      "name": "Planetar Quests",
+      "results": {
+        "qo7h8EawowoSaiAW": {
+          "text": "Convince a villain to meet with the angel."
+        },
+        "2mPfPAZMJmcsphzb": {
+          "text": "Find a loved one a villain believes is dead."
+        },
+        "pYOgUORU3Qbs1Fc5": {
+          "text": "Heal the loved one of an evil ruler."
+        },
+        "4MbSrUVx6MQVHySz": {
+          "text": "Inspire the defenders of a besieged holy site."
+        },
+        "j1QwZNrJh4SoA48L": {
+          "text": "Recover and destroy an evil Artifact."
+        },
+        "ZVE4gqiO09WJO9Po": {
+          "text": "Reveal the true name of a devil to banish it."
+        }
+      }
+    },
+    "mmPoltergeistAct": {
+      "name": "Poltergeist Activities",
+      "results": {
+        "CR88SpTVMYizFkx6": {
+          "text": "Keeps returning a discarded item."
+        },
+        "ZiV9BxkSwXbwE9Rq": {
+          "text": "Leaves footprints on vertical surfaces."
+        },
+        "rMcT0Q4lEiYceOWt": {
+          "text": "Makes noises like someone trapped in a wall."
+        },
+        "oWNgHdBwG72hJ6Mr": {
+          "text": "Organizes a pack’s contents across the floor."
+        },
+        "yNQikoHhkiHurTUX": {
+          "text": "Playfully puppets a corpse or doll."
+        },
+        "0WFbiF7jf7U0qpK0": {
+          "text": "Removes bedding while someone sleeps."
+        },
+        "qPhcYcDKG99Tnxf1": {
+          "text": "Sticks knives or weapons in the ceiling."
+        },
+        "CgoSN07mubEGUqWF": {
+          "text": "Uncannily stacks books, furniture, or utensils."
+        }
+      }
+    },
+    "mmPriestRoles000": {
+      "name": "Priest Roles",
+      "results": {
+        "X9R2TNKJVhxfJF1m": {
+          "text": "An ascetic who keeps wicked spirits at bay."
+        },
+        "cduapbY8Uz0vcDDt": {
+          "text": "An elder who speaks for the dead."
+        },
+        "ZkDYmADBJGxB7WGh": {
+          "text": "An exorcist who hunts wicked spirits."
+        },
+        "Mch5Ejq5TDqood1t": {
+          "text": "A follower of a god no one has heard of."
+        },
+        "vsxMzXIof8gZjVbh": {
+          "text": "A mediator and teacher of traditional ways."
+        },
+        "xwYuf9toAPQEcjrR": {
+          "text": "A philosopher devoted to a concept, multiversal view, or plane of existence."
+        },
+        "AE0lPEXsZFQsDx1e": {
+          "text": "The reincarnation of an ancient faith leader."
+        },
+        "UJyPanyW4ZN2Nhgw": {
+          "text": "A ritualist who uses tinctures and performances to access the divine."
+        },
+        "dwYbTx2IFep7sBmx": {
+          "text": "A shaman whose medicines ease many ills."
+        },
+        "0X9LzKAsOZ7DNcgc": {
+          "text": "A zealot who wages war for a divine cause."
+        }
+      }
+    },
+    "mmPseudodragonTr": {
+      "name": "Pseudodragon Treats",
+      "results": {
+        "GGmRmiYuBOPA46As": {
+          "text": "Flamboyant accessories it can wear."
+        },
+        "NW0eJVPqQ8IM20cS": {
+          "text": "Mementos from a lost friend or master."
+        },
+        "GyMn3syS7t4koiQ5": {
+          "text": "Outlandish delicacies—like axe beak-egg omelets or mammoth-milk cheese."
+        },
+        "lo3q7jK8FOOMcwte": {
+          "text": "The possessions of a sibling, rival, or master."
+        },
+        "3k5bVw27ov76faYZ": {
+          "text": "Shiny gifts, from gems to abalone shells."
+        },
+        "74Jy4msjX9MBkuQw": {
+          "text": "Soft bedding and stuffed toys."
+        },
+        "JR2BSRI0kZ0odhoB": {
+          "text": "A specific cook’s signature dessert."
+        },
+        "y3OYnTcNPR0Uk2s7": {
+          "text": "Time-consuming beauty treatments."
+        },
+        "qcyAKQQLfLufHG1E": {
+          "text": "To hear a bedtime story or favorite song."
+        },
+        "xsV73bWhntV3Fdqc": {
+          "text": "Trophies and important-sounding titles."
+        }
+      }
+    },
+    "mmRocNestRemnant": {
+      "name": "Roc Nest Remnants",
+      "results": {
+        "w2fXn5wtvPObVf0k": {
+          "text": "The burial litter of a lost hero."
+        },
+        "2N5YciiuKkmxdPTe": {
+          "text": "A caravan wagon full of trade goods."
+        },
+        "h2YPT8ONS5qBj7ri": {
+          "text": "A live elephant."
+        },
+        "2E5DPhugEzWfnRy1": {
+          "text": "[[/r 1d4#Eggs]]{1d4 eggs} larger than adult humans"
+        },
+        "1ynblsmb6tA3I1C5": {
+          "text": "Someone marooned in the nest."
+        },
+        "36GZGaiuBKbNh4X5": {
+          "text": "A statue of a knight riding a rearing steed."
+        }
+      }
+    },
+    "mmRoperHazards00": {
+      "name": "Roper Hazards",
+      "results": {
+        "1bVnqxQFGG89z3IN": {
+          "text": "Areas that trigger traps."
+        },
+        "p9MY0ZAzBAANvAdl": {
+          "text": "Caverns filled with smoke or gas."
+        },
+        "gqz6Ke89ZhH23TJH": {
+          "text": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#dead-magic-zone]{Dead magic}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#wild-magic-zone]{wild magic}* zones."
+        },
+        "fMxNBq2WqaZkKB1Q": {
+          "text": "The lair of a creature it is trying to bait out."
+        },
+        "2ejJVQzpSlsBVdqt": {
+          "text": "A nest of rats, insects, or other vermin."
+        },
+        "qn9vHH3oQr5lpOtq": {
+          "text": "Patches of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{brown mold}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{green slime}*."
+        },
+        "iJds0Bck9qelo5iA": {
+          "text": "Pools of magma or boiling water."
+        },
+        "iyh2FDUtDy9ByXcj": {
+          "text": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#razorvine]{Razorvine}* or similar dangerous plants."
+        }
+      }
+    },
+    "mmSageAnimalLord": {
+      "name": "Sage Animal Lord Appearances",
+      "results": {
+        "esPBZeKHqn8cpOln": {
+          "text": "Coyote"
+        },
+        "TtGWKQMvxF5HPKtZ": {
+          "text": "Crow"
+        },
+        "M0QSajCOUKjJi9eB": {
+          "text": "Elephant"
+        },
+        "TsKHqbJTgmWEzLtK": {
+          "text": "Lizard"
+        },
+        "pCMQUTBJUWhMPacF": {
+          "text": "Mouse"
+        },
+        "kHOs5cPdiZSA1usf": {
+          "text": "Owl"
+        },
+        "Z83JBGLtZIqjnrQr": {
+          "text": "Salmon"
+        },
+        "50Dk7j8Nf46WNhnl": {
+          "text": "Spider"
+        },
+        "5oKiLKUtpaJmRTzz": {
+          "text": "Turtle"
+        },
+        "quhMMYvpi5aw5VCT": {
+          "text": "Whale"
+        }
+      }
+    },
+    "mmScarecrowFrame": {
+      "name": "Scarecrow Frames",
+      "results": {
+        "kuzC3wY7tU7otPy3": {
+          "text": "Animal furs, bones, horns, and claws."
+        },
+        "g1EhrrY9hdQ4reHW": {
+          "text": "Beehives or wasp nests over a wicker frame."
+        },
+        "s6k4vLc62GQFcGXy": {
+          "text": "A carved pumpkin atop a body of thick vines."
+        },
+        "56tTTNVVexcJOHya": {
+          "text": "Nets, flotsam, grapnels, and fishing tackle."
+        },
+        "PNyPKjvZ0UJSRACr": {
+          "text": "Oversize stuffed animal or mannequin parts."
+        },
+        "BhZ3Y2VK6x2OucDX": {
+          "text": "Rusty armor and torture devices."
+        },
+        "K696TyDkwHdVa76o": {
+          "text": "A sackcloth head atop straw-stuffed clothes."
+        },
+        "FQjTdlIjKaUobZtM": {
+          "text": "Wedding clothes that were never worn."
+        }
+      }
+    },
+    "mmSeaHagDisguise": {
+      "name": "Sea Hag Disguises",
+      "results": {
+        "paAAjClySIiGzbTa": {
+          "text": "Captive and claims nearby villagers bound them and left them to drown."
+        },
+        "mTjLHHQX7hcYdj9R": {
+          "text": "Castaway and shares a cursed item’s location with would-be rescuers."
+        },
+        "zJmv5jsedph0a6Ou": {
+          "text": "Healer and passes off poisons as medicine."
+        },
+        "hYNIre3dF4pA6KrD": {
+          "text": "Panic-spreading prophesier of doom."
+        },
+        "2OBryEgjS8gIsKOu": {
+          "text": "Ship captain and delivers passengers to the hag’s pet sea monster."
+        },
+        "ZqNZnJDUec3VU8nq": {
+          "text": "Wounded sailor and claims their ship was destroyed by merfolk or other peaceful people."
+        }
+      }
+    },
+    "mmShadowShapes00": {
+      "name": "Shadow Shapes",
+      "results": {
+        "iXjuzrYW6uGGtS28": {
+          "text": "A distorted stalker that lurks in the woods."
+        },
+        "6wcLN33MkD6b3Ehu": {
+          "text": "A fiend that dwells near a wicked ritual site."
+        },
+        "ZoakeLqvDu5GfIdi": {
+          "text": "Grasping hands that haunt a miser’s home."
+        },
+        "nvZvlsbg2WrMIg4Z": {
+          "text": "A grim storybook character that follows those who speak its name."
+        },
+        "pkMYBK2pph6EWEQs": {
+          "text": "Its target, acting in eerie pantomime."
+        },
+        "bi8WWjkFSgbAxnky": {
+          "text": "An ominous priest that haunts a defiled site."
+        }
+      }
+    },
+    "mmShamblingMound": {
+      "name": "Shambling Mound Cultivation",
+      "results": {
+        "AomhX5lCXs6HXRR3": {
+          "text": "Covered in vibrant alien or Feywild blooms."
+        },
+        "q4jz9dwDvQPApG1I": {
+          "text": "Hauling a rune-etched menhir in its torso."
+        },
+        "P2T2TalWx97b0gTs": {
+          "text": "Infested with vermin or fungi."
+        },
+        "cjGPVReDnf8PYbLn": {
+          "text": "Made up of knotty vines entangling skeletons."
+        },
+        "gDpWgCQyArXUZssl": {
+          "text": "Mutated and leaking glowing pollution."
+        },
+        "L2TG6iiFNke5WIfJ": {
+          "text": "The remains of an ancient tree or a treant."
+        }
+      }
+    },
+    "mmSkeletonPantom": {
+      "name": "Skeleton Pantomimes",
+      "results": {
+        "FyFpsLsRx0wm6q7j": {
+          "text": "Delivers meal salvers or ages-old correspondence to the crypt of its dead master."
+        },
+        "8Is2VfOt9nOmP41O": {
+          "text": "Endlessly trains in battle with other skeletons, despite being hacked to animate splinters."
+        },
+        "Ac1TtjeYGtIjy8QA": {
+          "text": "Mimics ways it entertained itself in life, such as acting, dancing, or reading."
+        },
+        "8VHT1NUKW3VqvwOK": {
+          "text": "Performs a familiar task, such as cleaning, cooking, mining, or praying."
+        },
+        "3eMsliR4wExfUMG7": {
+          "text": "Repeats its final moments of life."
+        },
+        "tfALAOKNarljGG5Q": {
+          "text": "Stands guard at the post it protected in life."
+        }
+      }
+    },
+    "mmSpecterHaunts0": {
+      "name": "Specter Haunts",
+      "results": {
+        "NfOOKjOQeTlwFqTU": {
+          "text": "A community afflicted by curses, grudges, plagues, or tragedies."
+        },
+        "Y9mvGTMXFZU3DQjK": {
+          "text": "An evil Artifact or a deadly magical device."
+        },
+        "N7Z5f7eFsbX5kMEb": {
+          "text": "The place where a villain died or is buried."
+        },
+        "jHPLlubrKVXb8Lc9": {
+          "text": "The lair of a Fiend or an Undead."
+        },
+        "LRmsvPTJS8d1xvra": {
+          "text": "A portal to the Lower Planes, Negative Plane, or Shadowfell."
+        },
+        "3Nq2yrTA4YtTtREI": {
+          "text": "The sanctuary of a necromancer or death cult."
+        },
+        "p67aCui0c8ghpiGr": {
+          "text": "A secluded monument binding wicked souls."
+        },
+        "9dCdjbYTuvvQN4Ph": {
+          "text": "The site of a disaster or mass death."
+        }
+      }
+    },
+    "mmSpinedDevilInt": {
+      "name": "Spined Devil Intelligence",
+      "results": {
+        "z2RjUot0drkxfah9": {
+          "text": "Artifacts, their locations, and their owners."
+        },
+        "xTyvTTInSddLd5FQ": {
+          "text": "Betrayals by infernal allies or other devils."
+        },
+        "qWjgqAmJimSxBsY8": {
+          "text": "Crimes or deceptions by influential leaders."
+        },
+        "U2LfseZapRZzQBSm": {
+          "text": "Prophecies or secrets hidden by gods."
+        },
+        "N69JwO9XfKwZcw7Q": {
+          "text": "The identities of incognito individuals."
+        },
+        "4uOee7APU9JrvwvQ": {
+          "text": "The movements of extraplanar armies."
+        }
+      }
+    },
+    "mmSpiritNagaGrie": {
+      "name": "Spirit Naga Grievances",
+      "results": {
+        "2ONNPy5rbmfhRaI0": {
+          "text": "A character is to blame for its recent failures."
+        },
+        "TnOkW1r7l8dqWAsh": {
+          "text": "It has been evicted from its rightful home."
+        },
+        "L8asq9os4LAqllyR": {
+          "text": "Locals have reneged on an age-old bargain."
+        },
+        "twtAsXfBvGM4GM1G": {
+          "text": "Other creatures are mocking it."
+        },
+        "K1QS8Qrri1tyJpJx": {
+          "text": "A rival is spying on it."
+        },
+        "NS1kudUlWzV0tzlo": {
+          "text": "Someone’s treasure rightfully belongs to it."
+        }
+      }
+    },
+    "mmSpyPersonas000": {
+      "name": "Spy Personas",
+      "results": {
+        "7Y3j32YGMG31ay4Z": {
+          "text": "A bard or traveling performer."
+        },
+        "K7kpSJWRxs9Y6R9i": {
+          "text": "A captive or servant of a monster or villain."
+        },
+        "k9wuLpFLLGuTFaC7": {
+          "text": "A dignitary or traveler from a distant land."
+        },
+        "yVOuWf2Z2DmrssI7": {
+          "text": "A visitor from a different time or world."
+        }
+      }
+    },
+    "mmStirgeRoosts00": {
+      "name": "Stirge Roosts",
+      "results": {
+        "C6NOP3kjrt4VZaZ1": {
+          "text": "The attic or furniture of a ruined building."
+        },
+        "8i67qExMbOruy6O3": {
+          "text": "A cave or narrow crevice."
+        },
+        "cCeoROoJHZgzxQFj": {
+          "text": "A hollow tree or thicket."
+        },
+        "olqQra3fhEyr1X3W": {
+          "text": "The remains of a gigantic, dead creature."
+        }
+      }
+    },
+    "mmStoneGolemOrde": {
+      "name": "Stone Golem Orders",
+      "results": {
+        "DQUltRa1FfVrTZMj": {
+          "text": "Allow only those wearing ritual garb to pass."
+        },
+        "imZNu0QYUdwTgQfn": {
+          "text": "Cast Slow on and aid in apprehending anyone who touches a city’s prized relic."
+        },
+        "uDiPFGvIOJWtZ4ga": {
+          "text": "Destroy a dam or bridge at the command of one bearing a ruler’s medallion of office."
+        },
+        "Fssf4yJ9pjCUQ3pi": {
+          "text": "Obey whoever places a missing crest in its chest, then deactivate for a year."
+        },
+        "PCTM9pH0yk3Au71W": {
+          "text": "Reveal a hidden passage to those who recite a leader’s final words."
+        },
+        "tYuboNGLOdFfu2du": {
+          "text": "Watch for and do battle with the type of monster that slew the hero it resembles."
+        }
+      }
+    },
+    "mmSuccubusTempta": {
+      "name": "Succubus Temptations",
+      "results": {
+        "CalxsfCtIh847tka": {
+          "text": "Adopting the form of a lost loved one."
+        },
+        "qWnjKkYmbsgxJEWt": {
+          "text": "Charming someone close to its target."
+        },
+        "7oFtYu6jzi8VXXqD": {
+          "text": "Isolating them from their loved ones."
+        },
+        "7Ia446lLXbWlQ13d": {
+          "text": "Manipulating events to bring surprise fortune."
+        },
+        "NDVm6eS55EUjjwDt": {
+          "text": "Posing as a flattering underling."
+        },
+        "6ZuEY0HhmwsInAgf": {
+          "text": "Taking the form of one in need of protection."
+        }
+      }
+    },
+    "mmTarrasqueEvide": {
+      "name": "Tarrasque Evidence",
+      "results": {
+        "JBZxA9iXXQ8sVxhm": {
+          "text": "Evidence of a magic spell reflected back on its caster, like Ice Knife or Melf’s Acid Arrow ."
+        },
+        "LHvInw3SMt0V4ALK": {
+          "text": "Massive footprints or claw marks."
+        },
+        "gXYVwSAERQUOwa3Q": {
+          "text": "A shattered mountain or diverted river."
+        },
+        "GJbJxGWiJUdFaev0": {
+          "text": "A russet scale the size of a knight’s shield."
+        }
+      }
+    },
+    "mmTreantSecrets0": {
+      "name": "Treant Secrets",
+      "results": {
+        "FTHF5OygmZpahFjJ": {
+          "text": "Blessed by a god and grows magic fruit."
+        },
+        "8lW3qRXOVTrGVeEG": {
+          "text": "Growing atop the entrance to a dungeon or portal to the Feywild."
+        },
+        "YeX1jAyAT2jy5ljJ": {
+          "text": "Home to a community of pixies or sprites."
+        },
+        "b5IlpdzUkL6XyUOF": {
+          "text": "The last lore keeper of lost druidic knowledge."
+        },
+        "Mbn1cPp3APDWCrhU": {
+          "text": "Rooted on a hero’s burial mound and animates trees that look like questing knights."
+        },
+        "cBms1FOwtrZeN7mT": {
+          "text": "Scarred by a fire and holds the bones of the arsonist who started it in a hollow."
+        }
+      }
+    },
+    "mmUltrolothConsp": {
+      "name": "Ultroloth Conspiracies",
+      "results": {
+        "tduRhxKNR78xg4j6": {
+          "text": "Convince cultists their god has forsaken them."
+        },
+        "NLYNeF9E7aBg15Xb": {
+          "text": "Destabilize a nation and rule the chaos."
+        },
+        "Vkbuu04uft2w65Br": {
+          "text": "Incite a calamity and hold a world hostage."
+        },
+        "9XdIe5griXAJHFXt": {
+          "text": "Provoke hostilities between immortal armies and sell magic weapons to both sides."
+        },
+        "bnemSFEU2HZbZbgW": {
+          "text": "Steal an invention and slay all who know of it."
+        },
+        "GMYNTFxX74IOmVVf": {
+          "text": "Unleash fiendish hordes on a foe’s homeland."
+        }
+      }
+    },
+    "mmUncontrolledIn": {
+      "name": "Uncontrolled Invisible Stalkers",
+      "results": {
+        "Rh5VEVlfLV6HLkkS": {
+          "text": "The breath of an infamous god or monster."
+        },
+        "qN5wH87fhHC161Im": {
+          "text": "A guardian of a hidden portal or magical site."
+        },
+        "O6jJ1yEeL9FtHU6k": {
+          "text": "The lingering violent thoughts of someone killed in a great battle."
+        },
+        "Mnxz4jGir5EP5XR8": {
+          "text": "A manifestation of uncontrolled magic."
+        },
+        "GMSng8vO4kPDQKDU": {
+          "text": "A servant of an evil elemental ruler such as Yan-C-Bin (the Elemental Prince of Evil Air)."
+        },
+        "0QrOd0mjQqEzHEv9": {
+          "text": "Unable to complete its duty and tries to create circumstances allowing it to fulfill its task."
+        }
+      }
+    },
+    "mmVampireResting": {
+      "name": "Vampire Resting Places",
+      "results": {
+        "f5gnQJfI9wUKtkFy": {
+          "text": "Among the roots of a dead tree."
+        },
+        "wP18bDcrkjEM6EwO": {
+          "text": "At the bottom of a stagnant pool."
+        },
+        "2r4z4jm4M0F1s547": {
+          "text": "A coffin filled with grave dirt."
+        },
+        "4b3kL5Tnm3jcab1f": {
+          "text": "A large pot full of blood or vinegar."
+        },
+        "gHjiivgWU0yyfcjA": {
+          "text": "A space accessible only by shape-shifting."
+        },
+        "ZRQzHgeLpHEcY2R8": {
+          "text": "Within a statue or suit of armor."
+        }
+      }
+    },
+    "mmWarriorRoles00": {
+      "name": "Warrior Roles",
+      "results": {
+        "KmFIgF2WZHInd9wf": {
+          "text": "A bodyguard who protects a noble."
+        },
+        "Gi6KNTFbMUpVFj6a": {
+          "text": "A cavalry officer with an unusual steed."
+        },
+        "CEdOJy4YKwFTMru1": {
+          "text": "A crusader who fights for a divine cause."
+        },
+        "eymAU2VCtvdplvR3": {
+          "text": "A duelist who claims to be unbeatable."
+        },
+        "8MGOJBBiBfuV9YIr": {
+          "text": "A gate guard who asks nonsensical questions."
+        },
+        "M3x7CjwJ3yUZph38": {
+          "text": "A grizzled veteran who trains new recruits."
+        },
+        "CdtwC7XoMwGbbxrJ": {
+          "text": "A hunter skilled at slaying specific monsters."
+        },
+        "nqx9k3EHMzKUitc2": {
+          "text": "A retired general who is weary of battle."
+        },
+        "wWV9iw1VygmKkkhO": {
+          "text": "A volunteer with a homemade weapon."
+        },
+        "zqoQR2gy2eurj0d4": {
+          "text": "A young mercenary trying to prove their skill."
+        }
+      }
+    },
+    "mmWaterElemental": {
+      "name": "Water Elemental Compositions",
+      "results": {
+        "vbp3JSGkXDzhdpU4": {
+          "text": "Chilling or near-boiling temperatures."
+        },
+        "bS9rplymfunJ0ifd": {
+          "text": "Energetic effervescence."
+        },
+        "hNezyqES8KY3h9up": {
+          "text": "Muddy, polluted, or crystal-clear water."
+        },
+        "3vgB0CW56tDIEm4O": {
+          "text": "Seaweed, tiny fish, or other sea life."
+        }
+      }
+    },
+    "mmWeretigerWards": {
+      "name": "Weretiger Wards",
+      "results": {
+        "koiQLDfDZ9AxMQL1": {
+          "text": "Legendary weapon or symbol of rulership."
+        },
+        "UwUHWUSOsbclrpuy": {
+          "text": "Proving ground for prophesied heroes."
+        },
+        "LqmKkylUNOK5dDFz": {
+          "text": "Rare species of magical plant or animal."
+        },
+        "PmsWJMuEJJpHF2YL": {
+          "text": "Sacred fountain with magical waters."
+        }
+      }
+    },
+    "mmWightMotives00": {
+      "name": "Wight Motives",
+      "results": {
+        "PtBVPRyMYRMmuxRZ": {
+          "text": "Challenge anyone who passes near its grave on a certain cursed night."
+        },
+        "NcYObDmgL7gBa6yt": {
+          "text": "Conquer the land it believes it should rule."
+        },
+        "nj7EqPd3iPRAXobL": {
+          "text": "Continue the crimes it was executed for."
+        },
+        "bRRMJoL42bHNlMfD": {
+          "text": "Follow the foul master it served in life."
+        },
+        "Vb4KsrGsUPzLYjxR": {
+          "text": "Honor an oath it left unfulfilled in life."
+        },
+        "bH1i7PXoJ4n9kbDD": {
+          "text": "Obey the cult or deity that gave it unlife."
+        },
+        "5WGfwhLInXcvICTA": {
+          "text": "Prove it was the greatest warrior to ever live."
+        },
+        "1swZwWIulbylt7hF": {
+          "text": "Seek its stolen heart or other treasure."
+        }
+      }
+    },
+    "mmWillowispAmbus": {
+      "name": "Will-o’-Wisp Ambushes",
+      "results": {
+        "5C3pOAW1cJD7hNiW": {
+          "text": "An abandoned structure ready to collapse."
+        },
+        "ZelA58lV9LzdhmeV": {
+          "text": "An ambush by hungry ghouls or vampires."
+        },
+        "1qNYPAfYIMJnUZd2": {
+          "text": "A dreaded ruin that curses those who enter."
+        },
+        "ycB4c8SyeW4T8hqQ": {
+          "text": "The lair of a predator, like a bear or wyvern."
+        },
+        "GlooKCZNMW5LyWra": {
+          "text": "Patches of @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#brown-mold]{brown mold}* or @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#green-slime]{green slime.}*"
+        },
+        "qc5B2BZKQm9aJOsK": {
+          "text": "@UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7#quicksand-pit]{Quicksand}* or pools covered in @UUID[Compendium.dnd-dungeon-masters-guide.content.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK#thin-ice]{thin ice.}*"
+        }
+      }
+    },
+    "mmWraithManifest": {
+      "name": "Wraith Manifestations",
+      "results": {
+        "Rui6UyGfpVKedlWL": {
+          "text": "The blasphemous magic of a cursed location."
+        },
+        "FwYhqnywb4t06cIK": {
+          "text": "The exorcised evil of a redeemed villain."
+        },
+        "I3uNNol743Mu9NkI": {
+          "text": "A legendary villain who returns once a century."
+        },
+        "sEu5FXylAOHREDEc": {
+          "text": "Locals’ fear of a superstition or legend."
+        },
+        "ApijoNZfHoRirM0a": {
+          "text": "The memory of a tragedy."
+        },
+        "WjXNAEk5yEzsAdH0": {
+          "text": "A profane idea or foul piece of lore."
+        },
+        "xxZJmMvUL6SGMUIH": {
+          "text": "The torment of one or more suffering souls."
+        },
+        "qWDq25Yj3cwgzZsb": {
+          "text": "The viciousness of a profane Artifact."
+        },
+        "KGbamR3MSyQlKxx9": {
+          "text": "The vile dreams of a slumbering god."
+        },
+        "B1rv2fCde3JaDpPG": {
+          "text": "The voracity of a life-hungry realm, such as the Shadowfell or Negative Plane."
+        }
+      }
+    },
+    "mmXornDelicacies": {
+      "name": "Xorn Delicacies",
+      "results": {
+        "NCuKUEwFAWa4XdHi": {
+          "text": "Adamantine or mithral."
+        },
+        "lzxgJk1rWjOmNkUo": {
+          "text": "Coins minted by a long-dead empire."
+        },
+        "a4957zaBQh93YYYt": {
+          "text": "Fossils or petrified wood."
+        },
+        "N7VqLMnOY71IvKZz": {
+          "text": "A gem that’s part of a magic item."
+        },
+        "gQHXAX2TAESTOUke": {
+          "text": "The keystone of a great arch or bridge."
+        },
+        "rqnA6B7QxLxcnlI5": {
+          "text": "Parts of a galeb duhr or stone golem."
+        },
+        "POPa4WOVweBFMsIt": {
+          "text": "A piece of a meteor or moon."
+        },
+        "pFRUqs0B5IlYS370": {
+          "text": "The stone crowning a mountain peak."
+        }
+      }
+    },
+    "mmYuantiTransfor": {
+      "name": "Yuan-ti Transformations",
+      "results": {
+        "C849oztWjb2Qejvq": {
+          "text": "Bargaining parts of its soul to a pantheon of serpentine demigods."
+        },
+        "S8o2nw8FYV5zOyCG": {
+          "text": "A curse laid on its people in the distant past."
+        },
+        "y9OmlprirvgOUgCn": {
+          "text": "The dream-venom of Merrshaulk, a slumbering snake god."
+        },
+        "5oI1SFMIOlYA2Qio": {
+          "text": "Experiments by spirit nagas or other yuan-ti."
+        },
+        "kyoiQSpZIziJXzH1": {
+          "text": "A ritual involving the skin of a fiendish snake."
+        },
+        "fHc4jwUnIminSH2A": {
+          "text": "Trials to excise its “weak” human parts."
+        }
+      }
+    },
+    "mmYugolothIncurs": {
+      "name": "Yugoloth Incursions",
+      "results": {
+        "P24heSCJdP4lBmcK": {
+          "text": "Claim a portal with strategic importance."
+        },
+        "BfPsp3pbwSF5EmWc": {
+          "text": "Enlist monsters as allies or beasts of war."
+        },
+        "HZTWzbGiWhkXppb0": {
+          "text": "Destroy a city harboring enemy cultists."
+        },
+        "dzz99ku4RU1iEZIi": {
+          "text": "Liberate an imprisoned fiendish ally."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "v36",
+  "source_base": "dnd-monster-manual.actors.es.v35-ogre-zombie-to-performer-legend.json",
+  "output": "dnd-monster-manual.actors.es.v36-performer-maestro-to-pixie.json",
+  "patch": "dnd-monster-manual.actors.es.v36-performer-maestro-to-pixie.patch.json",
+  "range": {
+    "from": "mmPerformerMaest",
+    "to": "mmPixie000000000"
+  },
+  "entries_total": 504,
+  "entries_updated": 10,
+  "entries": [
+    {
+      "id": "mmPerformerMaest",
+      "name": "Artista virtuoso"
+    },
+    {
+      "id": "mmPeryton0000000",
+      "name": "Peryton"
+    },
+    {
+      "id": "mmPhaseSpider000",
+      "name": "Araña de fase"
+    },
+    {
+      "id": "mmPiercer0000000",
+      "name": "Perforador"
+    },
+    {
+      "id": "mmPiranha0000000",
+      "name": "Piraña"
+    },
+    {
+      "id": "mmPirate00000000",
+      "name": "Pirata"
+    },
+    {
+      "id": "mmPirateAdmiral0",
+      "name": "Pirata almirante"
+    },
+    {
+      "id": "mmPirateCaptain0",
+      "name": "Pirata capitán"
+    },
+    {
+      "id": "mmPitFiend000000",
+      "name": "Diablo de la sima"
+    },
+    {
+      "id": "mmPixie000000000",
+      "name": "Pixie"
+    }
+  ],
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "missing_items_or_descriptions": [],
+    "protected_placeholders_found": [],
+    "status": "ok"
+  }
+}

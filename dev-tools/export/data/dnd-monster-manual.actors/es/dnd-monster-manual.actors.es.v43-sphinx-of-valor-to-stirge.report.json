@@ -1,0 +1,66 @@
+{
+  "version": "v43",
+  "base": "dnd-monster-manual.actors.es.v42-shrieker-fungus-to-sphinx-of-secrets.json",
+  "output": "dnd-monster-manual.actors.es.v43-sphinx-of-valor-to-stirge.json",
+  "patch": "dnd-monster-manual.actors.es.v43-sphinx-of-valor-to-stirge.patch.json",
+  "range": {
+    "from": "mmSphinxOfValor0",
+    "to": "mmStirge00000000"
+  },
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "reviewed_entries": [
+    {
+      "id": "mmSphinxOfValor0",
+      "name": "Esfinge del valor"
+    },
+    {
+      "id": "mmSphinxOfWonder",
+      "name": "Esfinge de las maravillas"
+    },
+    {
+      "id": "mmSpider00000000",
+      "name": "Araña"
+    },
+    {
+      "id": "mmSpinedDevil000",
+      "name": "Diablo espinoso"
+    },
+    {
+      "id": "mmSpiritNaga0000",
+      "name": "Naga espiritual"
+    },
+    {
+      "id": "mmSprite00000000",
+      "name": "Duende"
+    },
+    {
+      "id": "mmSpy00000000000",
+      "name": "Espía"
+    },
+    {
+      "id": "mmSpyMaster00000",
+      "name": "Espía maestro"
+    },
+    {
+      "id": "mmSteamMephit000",
+      "name": "Mephit de vapor"
+    },
+    {
+      "id": "mmStirge00000000",
+      "name": "Estirge"
+    }
+  ],
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "no_protected_placeholders": true,
+    "errors": [],
+    "ok": true
+  },
+  "notes": [
+    "Continúa desde v42 y revisa/traduce el bloque de actores Sphinx of Valor → Stirge.",
+    "Se añaden parches de objetos embebidos faltantes del EN source, incluidas acciones, actividades y efectos.",
+    "Se reutilizan traducciones consolidadas para conjuros repetidos cuando ya existían en el acumulado."
+  ]
+}

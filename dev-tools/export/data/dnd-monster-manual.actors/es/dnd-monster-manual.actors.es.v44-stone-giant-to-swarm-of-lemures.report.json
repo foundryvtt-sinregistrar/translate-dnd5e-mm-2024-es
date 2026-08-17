@@ -1,0 +1,65 @@
+{
+  "version": "v44",
+  "base": "dnd-monster-manual.actors.es.v43-sphinx-of-valor-to-stirge.json",
+  "output": "dnd-monster-manual.actors.es.v44-stone-giant-to-swarm-of-lemures.json",
+  "patch": "dnd-monster-manual.actors.es.v44-stone-giant-to-swarm-of-lemures.patch.json",
+  "range": {
+    "from": "mmStoneGiant0000",
+    "to": "mmSwarmOfLemures"
+  },
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "reviewed_entries": [
+    {
+      "id": "mmStoneGiant0000",
+      "name": "Gigante de piedra"
+    },
+    {
+      "id": "mmStoneGolem0000",
+      "name": "Gólem de piedra"
+    },
+    {
+      "id": "mmStormGiant0000",
+      "name": "Gigante de las tormentas"
+    },
+    {
+      "id": "mmSuccubus000000",
+      "name": "Súcubo"
+    },
+    {
+      "id": "mmSwarmOfBats000",
+      "name": "Enjambre de murciélagos"
+    },
+    {
+      "id": "mmSwarmOfCrawlin",
+      "name": "Enjambre de garras reptantes"
+    },
+    {
+      "id": "mmSwarmOfDretche",
+      "name": "Enjambre de dretchs"
+    },
+    {
+      "id": "mmSwarmOfInsects",
+      "name": "Enjambre de insectos"
+    },
+    {
+      "id": "mmSwarmOfLarvae0",
+      "name": "Enjambre de larvas"
+    },
+    {
+      "id": "mmSwarmOfLemures",
+      "name": "Enjambre de lémures"
+    }
+  ],
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "no_protected_placeholders": true,
+    "errors": [],
+    "ok": true
+  },
+  "notes": [
+    "Continúa desde v43.",
+    "Preserva macros Foundry/Babele y añade parches por _id para objetos embebidos, actividades y efectos."
+  ]
+}

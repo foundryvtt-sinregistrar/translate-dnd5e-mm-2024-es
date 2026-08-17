@@ -1,0 +1,31 @@
+{
+  "version": "v39",
+  "base": "dnd-monster-manual.actors.es.v38-psychic-gray-ooze-to-raven.json",
+  "output": "dnd-monster-manual.actors.es.v39-red-dragon-wyrmling-to-rust-monster.json",
+  "patch": "dnd-monster-manual.actors.es.v39-red-dragon-wyrmling-to-rust-monster.patch.json",
+  "entries_total": 504,
+  "entries_reviewed": 10,
+  "range": {
+    "from": "mmRedDragonWyrml",
+    "to": "mmRustMonster000"
+  },
+  "reviewed_entries": {
+    "mmRedDragonWyrml": "Cría de dragón rojo",
+    "mmRedSlaad000000": "Slaad rojo",
+    "mmReefShark00000": "Tiburón de arrecife",
+    "mmRemorhaz000000": "Remorhaz",
+    "mmRevenant000000": "Redivivo",
+    "mmRhinoceros0000": "Rinoceronte",
+    "mmRidingHorse000": "Caballo de monta",
+    "mmRoc00000000000": "Roc",
+    "mmRoper000000000": "Lacero",
+    "mmRustMonster000": "Monstruo corrosivo"
+  },
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "no_protected_placeholders": true,
+    "missing_or_empty_item_descriptions": [],
+    "errors": []
+  }
+}

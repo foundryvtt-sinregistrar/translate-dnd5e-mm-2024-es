@@ -1,0 +1,33 @@
+{
+  "version": "v22",
+  "range": {
+    "from": "mmGiantWeasel000",
+    "to": "mmGlabrezu000000"
+  },
+  "base_file": "dnd-monster-manual.actors.es.v21-giant-rat-to-giant-wasp.json",
+  "output_file": "dnd-monster-manual.actors.es.v22-giant-weasel-to-glabrezu.json",
+  "patch_file": "dnd-monster-manual.actors.es.v22-giant-weasel-to-glabrezu.patch.json",
+  "total_entries": 504,
+  "updated_entries": [
+    "mmGiantWeasel000",
+    "mmGiantWolfSpide",
+    "mmGibberingMouth",
+    "mmGithyankiDraco",
+    "mmGithyankiKnigh",
+    "dmgGithyankiWarr",
+    "mmGithzeraiMonk0",
+    "mmGithzeraiPsion",
+    "mmGithzeraiZerth",
+    "mmGlabrezu000000"
+  ],
+  "updated_count": 10,
+  "source_items_with_description_missing_after_patch": [],
+  "placeholder_hits": [],
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "notes": [
+    "v22 continúa desde v21 y actualiza el tramo Giant Weasel → Glabrezu.",
+    "Se añaden también objetos embebidos ausentes en el JSON ES previo, como Silver Sword, Psi Blade, Psi Strike y Psi-Powered Leap.",
+    "Se preservan IDs, macros Foundry, UUID, lookup macros, inline rolls y claves internas de &Reference."
+  ]
+}

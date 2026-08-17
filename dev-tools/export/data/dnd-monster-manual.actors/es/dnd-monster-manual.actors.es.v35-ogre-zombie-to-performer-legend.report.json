@@ -1,0 +1,37 @@
+{
+  "version": "v35",
+  "base_file": "dnd-monster-manual.actors.es.v34-needle-blight-to-ogre.json",
+  "output_file": "dnd-monster-manual.actors.es.v35-ogre-zombie-to-performer-legend.json",
+  "patch_file": "dnd-monster-manual.actors.es.v35-ogre-zombie-to-performer-legend.patch.json",
+  "range": {
+    "from": "mmOgreZombie0000",
+    "to": "mmPerformerLegen",
+    "entry_count": 10,
+    "entry_ids": [
+      "mmOgreZombie0000",
+      "mmOgrillonOgre00",
+      "mmOni00000000000",
+      "mmOtyugh00000000",
+      "mmOwl00000000000",
+      "mmOwlbear0000000",
+      "mmPanther0000000",
+      "mmPegasus0000000",
+      "mmPerformer00000",
+      "mmPerformerLegen"
+    ]
+  },
+  "validation": {
+    "json_parse": "ok",
+    "total_entries": 504,
+    "mapping_preserved": true,
+    "folders_preserved": true,
+    "protected_placeholders": 0,
+    "missing_embedded_items_from_en_source": [],
+    "missing_descriptions_when_en_has_description": []
+  },
+  "notes": [
+    "Continúa la cadena acumulativa v17→v35.",
+    "Se preservan IDs de actor, IDs de objetos embebidos, macros Foundry, inline rolls, lookup macros y claves internas de &Reference.",
+    "Se añadieron parches de objetos embebidos que estaban presentes en el EN source y aún no estaban completos en el JSON ES del tramo."
+  ]
+}

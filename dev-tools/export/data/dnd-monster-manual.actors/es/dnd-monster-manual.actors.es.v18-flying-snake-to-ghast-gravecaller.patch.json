@@ -1,0 +1,387 @@
+{
+  "label": "Monstruos",
+  "mapping": {
+    "details": {
+      "path": "system.details",
+      "converter": "mm2024ActorDetails"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mm2024MergeEffects"
+    },
+    "items": {
+      "path": "items",
+      "converter": "mm2024ActorFullById"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "mmFlyingSnake000": {
+      "name": "Serpiente voladora",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmFlyby000000000": {
+          "name": "Sobrevuelo",
+          "description": "<p>El [[lookup @name lowercase]] no provoca un &amp;Reference[OpportunityAttacks]{Ataque de oportunidad} cuando vuela fuera del alcance de un enemigo.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmFomorian000000": {
+      "name": "Fomoré",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "Eba7VT2YBJ5cHYyK": {
+          "name": "Garrote de piedra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques con [[/item .Eba7VT2YBJ5cHYyK]]. Puede reemplazar un ataque por un uso de [[/item .mmWarpingHex0000]] si está disponible.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmWarpingHex0000": {
+          "name": "Maleficio deformante",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=KaTc2c6hOHAqtywC]], un [[lookup @target.affects.type activity=KaTc2c6hOHAqtywC]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=KaTc2c6hOHAqtywC]] pies o menos.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo gana 1 nivel de &amp;Reference[Exhaustion apply=false]{Agotamiento}.</p><p class=\"feature\"><em>Éxito:</em> solo la mitad de daño.</p><section class=\"secret\" id=\"secret-uoh3tHmERuVKckmg\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo proporciona un <strong>efecto activo</strong> que modificará al objetivo. Como la condición <strong>Agotamiento</strong> puede aplicarse varias veces, el efecto activo debe arrastrarse desde la pestaña Efectos de este objeto hasta la hoja del objetivo después de la aplicación inicial de la condición Agotamiento.</p></section>",
+          "activities": {
+            "KaTc2c6hOHAqtywC": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "undY4wYomCW7TcOz": {
+              "name": "Agotamiento",
+              "description": "<p>El objetivo del ataque de la criatura atacante gana un nivel de &amp;Reference[Exhaustion apply=false]{Agotamiento}.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmFrog0000000000": {
+      "name": "Rana",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmAmphibious0000": {
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
+        },
+        "mmStandingLeap00": {
+          "name": "Salto sin carrerilla",
+          "description": "<p class=\"feature\">El salto de longitud del [[lookup @name lowercase]] es de hasta 20 pies y su salto de altura es de hasta 10 pies, con o sin carrerilla.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmFrostGiant0000": {
+      "name": "Gigante de escarcha",
+      "details": {
+        "alignment": "Neutral malvado"
+      },
+      "items": {
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmFrostAxe000000]] o [[/item .mmGreatBow000000]] en cualquier combinación.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmFrostAxe000000": {
+          "name": "Hacha de escarcha",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmGreatBow000000": {
+          "name": "Gran arco",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y la velocidad del objetivo se reduce en 10 pies hasta el final de su siguiente turno.</p>",
+          "effects": {
+            "cGogXX8DEY06laQN": {
+              "name": "Velocidad: -10 pies",
+              "description": "<p>La velocidad del objetivo se reduce en 10 pies hasta el final de su siguiente turno.</p>"
+            }
+          }
+        },
+        "mmWarCry00000000": {
+          "name": "Grito de guerra",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] o un [[lookup @target.affects.type activity=uN0VTW2Fqig7YAs9]] de su elección que pueda verlo u oírlo gana [[/healing average temp]] y tiene ventaja en las tiradas de ataque hasta el inicio del siguiente turno del [[lookup @name lowercase]].</p>",
+          "activities": {
+            "uN0VTW2Fqig7YAs9": {
+              "name": "Curación temporal"
+            }
+          },
+          "effects": {
+            "qNmREVJzIbrjEJyb": {
+              "name": "Ataque: ventaja",
+              "description": "<p>El objetivo tiene ventaja en las tiradas de ataque hasta el inicio del siguiente turno de quien le concedió este beneficio.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGalebDuhr00000": {
+      "name": "Galeb Duhr",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "items": {
+        "mmAvalancheSlam0": {
+          "name": "Golpe de avalancha",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura [[lookup @target.affects.special activity=M8ntOH8iSnEUaYhj]] y el [[lookup @name lowercase]] [[lookup @activation.condition activity=M8ntOH8iSnEUaYhj]] en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe <span style=\"font-family:'Roboto Condensed', sans-serif\">7 (2d6) de daño contundente</span> adicional y tiene la condición &amp;Reference[Prone]{Derribado}.</p>",
+          "activities": {
+            "RGsNfG12GpGcodD5": {
+              "name": "Ataque"
+            },
+            "M8ntOH8iSnEUaYhj": {
+              "name": "Ataque en movimiento",
+              "activation": {
+                "condition": "se movió 20+ pies"
+              }
+            }
+          }
+        },
+        "mmAnimateBoulder": {
+          "name": "Animar peñascos",
+          "description": "<p>El [[lookup @name lowercase]] anima [[lookup @target.affects.special activity=lydBv987ChZ7itoS]] que pueda ver a [[lookup @range.value activity=lydBv987ChZ7itoS]] pies o menos de sí mismo. Cada peñasco usa el bloque de estadísticas de @UUID[Compendium.dnd-monster-manual.actors.Actor.mmGalebDuhr00000], salvo que tiene puntuaciones de Inteligencia y Carisma de 1 y carece de esta acción. El peñasco actúa inmediatamente después del [[lookup @name lowercase]] en el mismo recuento de iniciativa y obedece al [[lookup @name lowercase]]. Un peñasco permanece animado durante [[lookup @duration.value activity=lydBv987ChZ7itoS]] minuto o hasta que él o el [[lookup @name lowercase]] muera.</p>"
+        }
+      }
+    },
+    "mmGargoyle000000": {
+      "name": "Gárgola",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mmFlyby000000000": {
+          "name": "Sobrevuelo",
+          "description": "<p>El [[lookup @name lowercase]] no provoca un &amp;Reference[OpportunityAttacks]{Ataque de oportunidad} cuando vuela fuera del alcance de un enemigo.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmClaw0000000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmClaw0000000000": {
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmGasSporeFungus": {
+      "name": "Hongo espora de gas",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmDeathBurst0000": {
+          "name": "Estallido de muerte",
+          "description": "<p>El [[lookup @name lowercase]] explota [[lookup @activation.condition activity=1SfqWSp7RSyHgG4b]].</p><p><em>Tirada de salvación de Constitución: </em>CD [[lookup @save.dc.value activity=1SfqWSp7RSyHgG4b]], cada criatura en una Emanación de [[lookup @target.template.size activity=1SfqWSp7RSyHgG4b]] [[lookup @target.template.units activity=1SfqWSp7RSyHgG4b]] originada en el [[lookup @name lowercase]].</p><p><em>Fallo: </em>El objetivo recibe [[/damage average]] de daño y tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante [[/r 1d12#Horas]] horas. A menos que se elimine la condición Envenenado, el objetivo muere al final de ese tiempo y brotan de él [[/r 2d4#Hongos espora de gas diminutos]] <strong>hongos espora de gas</strong> Diminutos (cada uno con 1 punto de golpe). Después de [[/r 2d6#Días]] días, se vuelven Grandes y tienen 13 puntos de golpe.</p>",
+          "activities": {
+            "1SfqWSp7RSyHgG4b": {
+              "name": "",
+              "activation": {
+                "condition": "cuando muere"
+              }
+            }
+          },
+          "effects": {
+            "b2GcNj2sMZJWDisn": {
+              "name": "Esporas: envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} durante [[/r 1d12#Horas]] horas.</p>"
+            }
+          }
+        },
+        "mmTendril0000000": {
+          "name": "Zarcillo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final de su siguiente turno.</p>",
+          "effects": {
+            "D04gZoCviPqLrPym": {
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final de su siguiente turno.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGelatinousCube": {
+      "name": "Cubo gelatinoso",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmOozeCube000000": {
+          "name": "Cubo rezumante",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] llena todo su espacio y es transparente. Otras criaturas pueden entrar en ese espacio, pero una criatura que lo haga queda sometida al Engullir del [[lookup @name lowercase]] y tiene desventaja en la tirada de salvación.</p><p class=\"feature\">Las criaturas dentro del [[lookup @name lowercase]] tienen &amp;Reference[Total Cover]{Cobertura total}, y el [[lookup @name lowercase]] puede contener en su interior a una criatura Grande o hasta cuatro criaturas Medianas o Pequeñas a la vez.</p><p class=\"feature\">Como acción, una criatura situada a [[lookup @range.value activity=EcTOfXWsDJRHLydy]] [[lookup @range.units activity=EcTOfXWsDJRHLydy]]. o menos del [[lookup @name lowercase]] puede sacar una criatura u objeto del [[lookup @name lowercase]] si supera una prueba de [[/check dc=12 ability=str skill=ath format=long]], y quien tira recibe [[/damage average activity=PMCvyqxfUYiPzNK8]] de daño.</p>",
+          "activities": {
+            "89uMXhpAg9x9P6dg": {
+              "name": "Cobertura total"
+            },
+            "EcTOfXWsDJRHLydy": {
+              "name": "Prueba para sacar"
+            },
+            "PMCvyqxfUYiPzNK8": {
+              "name": "Daño a quien tira"
+            }
+          },
+          "effects": {
+            "Nqpxg74Yw9uEVMxQ": {
+              "name": "Cobertura total",
+              "description": "<p>Las criaturas dentro de la criatura atacante tienen cobertura total.</p>"
+            }
+          }
+        },
+        "mmTransparent000": {
+          "name": "Transparente",
+          "description": "<p class=\"feature\">Incluso cuando el [[lookup @name lowercase]] está a plena vista, una criatura debe superar una prueba de [[/check dc=15 ability=wis skill=prc format=long]] para advertir su presencia si no ha visto al [[lookup @name lowercase]] moverse o actuar de otro modo.</p>"
+        },
+        "mmPseudopod00000": {
+          "name": "Seudópodo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmEngulf00000000": {
+          "name": "Engullir",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta su velocidad sin provocar ataques de oportunidad. El [[lookup @name lowercase]] puede moverse a través de los espacios de criaturas Grandes o más pequeñas si tiene espacio en su interior para contenerlas (consulta el rasgo @UUID[.mmOozeCube000000]).</p><p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=5o0Bh8PQaojx5XMx]], cada criatura en cuyo espacio entre el [[lookup @name lowercase]] por primera vez durante este movimiento.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo queda engullido. Un objetivo engullido se está &amp;Reference[suffocating]{asfixiando}, no puede lanzar conjuros con componente verbal, tiene la condición &amp;Reference[Restrained apply=false]{Apresado} y recibe [[/damage average]] de daño al inicio de cada uno de los turnos del [[lookup @name lowercase]]. Cuando el [[lookup @name lowercase]] se mueve, el objetivo engullido se mueve con él. Un objetivo engullido puede intentar escapar llevando a cabo una acción para hacer una prueba de [[/check ability=str skill=ath dc=@abilities.str.dc]]. Si tiene éxito, el objetivo escapa y entra en el espacio desocupado más cercano.</p><p class=\"feature\"><em>Éxito:</em> mitad de daño, y el objetivo se mueve a un espacio desocupado a 5 pies o menos del [[lookup @name lowercase]]. Si no hay ningún espacio desocupado, el objetivo falla la salvación en su lugar.</p>",
+          "activities": {
+            "5o0Bh8PQaojx5XMx": {
+              "name": "Salvación"
+            },
+            "0sTemtp4b2QnaOMR": {
+              "name": "Prueba para escapar"
+            }
+          },
+          "effects": {
+            "vsa7d6xWOAvWdOWM": {
+              "name": "Cobertura total, asfixiándose y apresado",
+              "description": "<p>Un objetivo engullido se está &amp;Reference[suffocating]{asfixiando}, no puede lanzar conjuros con componente verbal, tiene la condición &amp;Reference[Restrained apply=false]{Apresado} y recibe [[/damage average 3d6 type=acid]] de daño al inicio de cada uno de los turnos del usuario.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGhast000000000": {
+      "name": "Ghast",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "5bjPpreGFvealK36": {
+          "name": "Hedor",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=mJbwhj3beOIB3Jgj]], cualquier criatura (que no sea un [[lookup @name lowercase]]) que comience su turno en una Emanación de [[lookup @target.template.size activity=mJbwhj3beOIB3Jgj]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p><p><em>Éxito:</em> El objetivo es inmune al Hedor de todos los [[lookup @name lowercase]] durante 1 hora.</p>",
+          "effects": {
+            "rHL9lpchOon81CN1": {
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>"
+            }
+          }
+        },
+        "ywBCReF0tJFKe5MO": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "SQ1vT3qHTKj46khh": {
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura que no sea Muerto viviente, queda sometido al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=nDM4WpckiZjvBzfg]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>",
+          "effects": {
+            "Iw0CKY4OcHwWY1LV": {
+              "name": "Paralizado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGhastGravecall": {
+      "name": "Ghast llamatumbas",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "LLl2zs1gDAwvqKDD": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .gJilki9uDfxw8OeL]]. Puede reemplazar un ataque por un ataque con [[/item .pF4ucCgUSL6IY7YA]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "pF4ucCgUSL6IY7YA": {
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo no es un Muerto viviente, tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>",
+          "effects": {
+            "lXZJe5XL9sFFSkX0": {
+              "name": "Paralizado",
+              "description": "<p>Si el objetivo no es un Muerto viviente, tiene la condición &amp;Reference[Paralyzed apply=false]{Paralizado} hasta el final de su siguiente turno.</p>"
+            }
+          }
+        },
+        "gJilki9uDfxw8OeL": {
+          "name": "Necrosis horrenda",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>",
+          "effects": {
+            "xL7wJXOwVuR4MFdD": {
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>"
+            }
+          }
+        },
+        "MRycvp48OAEDK4QB": {
+          "name": "Lanzamiento de conjuros",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes materiales y usando Inteligencia como característica para lanzar conjuros:</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{Hablar con los muertos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p>"
+        },
+        "oek7louG4zEKd1T7": {
+          "name": "Hablar con los muertos",
+          "description": "<p>Concedes una apariencia de vida a un cadáver de tu elección dentro del alcance, lo que le permite responder a las preguntas que le plantees. El cadáver debe tener boca, y este conjuro falla si la criatura fallecida era Muerto viviente cuando murió. El conjuro también falla si el cadáver fue objetivo de este conjuro en los últimos 10 días.</p><p>Hasta que el conjuro termine, puedes hacer hasta cinco preguntas al cadáver. El cadáver solo sabe lo que sabía en vida, incluidos los idiomas que conocía. Las respuestas suelen ser breves, crípticas o repetitivas, y el cadáver no está obligado a ofrecer una respuesta veraz si eres hostil hacia él o te reconoce como enemigo. Este conjuro no devuelve el alma de la criatura a su cuerpo, solo su espíritu animador. Por tanto, el cadáver no puede aprender información nueva, no comprende nada que haya ocurrido desde su muerte y no puede especular sobre acontecimientos futuros.</p>",
+          "effects": {
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        },
+        "ONv48yJOTotdKabN": {
+          "name": "Taumaturgia",
+          "description": "<p>Manifiestas una maravilla menor dentro del alcance. Creas uno de los siguientes efectos dentro del alcance. Si lanzas este conjuro varias veces, puedes tener hasta tres de sus efectos de 1 minuto activos a la vez.</p><p><strong>Ojos alterados.</strong> Alteras la apariencia de tus ojos durante 1 minuto.</p><p><strong>Voz retumbante.</strong> Tu voz retumba hasta tres veces más fuerte de lo normal durante 1 minuto. Durante la duración, tienes ventaja en las pruebas de [[/check ability=cha skill=itm]].</p><p><strong>Juego de fuego.</strong> Haces que las llamas titilen, brillen más, se atenúen o cambien de color durante 1 minuto.</p><p><strong>Mano invisible.</strong> Haces instantáneamente que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de golpe.</p><p><strong>Sonido fantasma.</strong> Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno lejano, el graznido de un cuervo o susurros ominosos.</p><p><strong>Temblores.</strong> Provocas temblores inofensivos en el suelo durante 1 minuto.</p>",
+          "activities": {
+            "q83milmNAKF9cymI": {
+              "name": "Lanzar"
+            }
+          },
+          "effects": {
+            "dnd5espellchange": {
+              "name": "Cambios de conjuro"
+            }
+          }
+        },
+        "mmStench00000000": {
+          "name": "Hedor",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=mJbwhj3beOIB3Jgj]], cualquier criatura (que no sea un [[lookup @name lowercase]]) que comience su turno en una Emanación de [[lookup @target.template.size activity=mJbwhj3beOIB3Jgj]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p><p><em>Éxito:</em> El objetivo es inmune al Hedor de todos los [[lookup @name lowercase]] durante 1 hora.</p>",
+          "effects": {
+            "rHL9lpchOon81CN1": {
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el inicio de su siguiente turno.</p>"
+            }
+          }
+        }
+      }
+    }
+  }
+}

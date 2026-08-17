@@ -1,0 +1,31 @@
+{
+  "version": "v41",
+  "source_base": "dnd-monster-manual.actors.es.v40-saber-toothed-tiger-to-scarecrow.json",
+  "output": "dnd-monster-manual.actors.es.v41-scorpion-to-shield-guardian.json",
+  "patch": "dnd-monster-manual.actors.es.v41-scorpion-to-shield-guardian.patch.json",
+  "entries_total": 504,
+  "entries_updated": [
+    "mmScorpion000000",
+    "mmScout000000000",
+    "mmScoutCaptain00",
+    "mmSeaHag00000000",
+    "mmSeahorse000000",
+    "mmShadow00000000",
+    "mmShadowDemon000",
+    "mmShadowDragon00",
+    "mmShamblingMound",
+    "mmShieldGuardian"
+  ],
+  "entries_updated_count": 10,
+  "json_parse_ok": true,
+  "mapping_preserved": true,
+  "protected_placeholders_found": false,
+  "missing_items_from_en_source_in_range": [],
+  "missing_descriptions_from_en_source_in_range": [],
+  "preservation_checks": {
+    "uuid_tokens_present": true,
+    "inline_rolls_present": true,
+    "lookup_macros_present": true,
+    "reference_macros_present": true
+  }
+}

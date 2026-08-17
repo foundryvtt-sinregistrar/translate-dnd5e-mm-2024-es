@@ -1,0 +1,587 @@
+{
+  "label": "Monstruos",
+  "mapping": {
+    "details": {
+      "path": "system.details",
+      "converter": "mm2024ActorDetails"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "mm2024MergeEffects"
+    },
+    "items": {
+      "path": "items",
+      "converter": "mm2024ActorFullById"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "mmWeasel00000000": {
+      "name": "Comadreja",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        }
+      }
+    },
+    "mmWerebear000000": {
+      "name": "Hombre oso",
+      "details": {
+        "alignment": "Neutral bueno"
+      },
+      "items": {
+        "JIRP6xpVCOyZotXc": {
+          "name": "Hacha de mano (solo forma humanoide o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "rkjuC3ZV4s9UpD0i": {
+              "name": "",
+              "activation": {
+                "condition": "Solo forma humanoide o híbrida"
+              }
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .JIRP6xpVCOyZotXc]]{Hacha de mano} o [[/item .mmRend0000000000]]{Desgarrar} en cualquier combinación. Puede reemplazar un ataque por un ataque de [[/item .mmBite0000000000]]{Mordisco}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco (solo forma de oso o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un Humanoide, queda sujeto al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=q7leyHRdAkccDyqG]].</p><p><em>Fallo:</em> El objetivo queda maldito. Si el objetivo maldito cae a 0 puntos de golpe, en su lugar se convierte en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWerebear000000]{Hombre oso}</strong> bajo el control del DM y tiene 10 puntos de golpe.</p><p><em>Éxito:</em> El objetivo es inmune a la maldición de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": "",
+              "activation": {
+                "condition": "Solo forma de oso o híbrida"
+              }
+            },
+            "q7leyHRdAkccDyqG": {
+              "name": ""
+            },
+            "dpw1I9NImq3qAgeK": {
+              "name": "Convertirse en hombre oso"
+            }
+          },
+          "effects": {
+            "SddCHTo4ze77lMvs": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda &amp;Reference[cursed apply=false]{Maldito} si falla su tirada de salvación.</p>"
+            }
+          }
+        },
+        "mmRend0000000000": {
+          "name": "Desgarrar (solo forma de oso o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": "",
+              "activation": {
+                "condition": "Solo forma de oso o híbrida"
+              }
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una forma híbrida oso-humanoide Grande o a un oso Grande, o vuelve a su forma humanoide verdadera, o vuelve a su forma verdadera. Sus estadísticas de juego, salvo su tamaño, son las mismas en cada forma. El equipo que lleve puesto o transporte no se transforma.</p><section class=\"secret\" id=\"secret-sXqQQUhRZU9Efayl\"><p><strong>Nota de Foundry</strong></p><p>Este rasgo también proporciona un <strong>efecto activo (AE)</strong> que modificará la velocidad de esta criatura en forma de oso. Puedes activar el AE en la pestaña de efectos de la hoja de personaje.</p></section>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "UeN1SvpeSeyZBU5R": {
+              "name": "Velocidad: forma de oso"
+            }
+          }
+        }
+      }
+    },
+    "mmWereboar000000": {
+      "name": "Hombre jabalí",
+      "details": {
+        "alignment": "Neutral malvado"
+      },
+      "items": {
+        "hhfnX7eT1ZFun8oQ": {
+          "name": "Jabalina (solo forma humanoide o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "r1hUkUrLD8kqx8X0": {
+              "name": ""
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .hhfnX7eT1ZFun8oQ]]{Jabalina} o [[/item .mmTusk0000000000]]{Colmillo} en cualquier combinación. Puede reemplazar un ataque por un ataque de [[/item .mmGore0000000000]]{Cornada}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmGore0000000000": {
+          "name": "Cornada (solo forma de jabalí o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage extended average]]. Si el objetivo es un Humanoide, queda sujeto al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lS5miercc4WPdVfN]].</p><p><em>Fallo:</em> El objetivo queda maldito. Si el objetivo maldito cae a 0 puntos de golpe, en su lugar se convierte en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWereboar000000]{Hombre jabalí}</strong> bajo el control del DM y tiene 10 puntos de golpe.</p><p><em>Éxito:</em> El objetivo es inmune a la maldición de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "OeVR19Hp2kvxSNZv": {
+              "name": "Ataque"
+            },
+            "lS5miercc4WPdVfN": {
+              "name": ""
+            },
+            "xIIoCiQF5dvSILYt": {
+              "name": "Convertirse en hombre jabalí"
+            }
+          },
+          "effects": {
+            "dgfff9ONKHAUcthM": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda &amp;Reference[cursed apply=false]{Maldito} si falla su tirada de salvación.</p>"
+            }
+          }
+        },
+        "mmTusk0000000000": {
+          "name": "Colmillo (solo forma de jabalí o híbrida)",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe 7 (2d6)<span class=\"Apple-converted-space\"> </span>de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
+          "activities": {
+            "4WhhkoNFnRKp1sv5": {
+              "name": "Ataque",
+              "description": {
+                "chatFlavor": "Solo forma de jabalí o híbrida"
+              }
+            },
+            "aoO5F7lV8yW9zdiD": {
+              "name": "Ataque en movimiento",
+              "activation": {
+                "condition": "Solo forma de jabalí o híbrida"
+              }
+            }
+          },
+          "effects": {
+            "OhQRYqL5fjvDhcQq": {
+              "name": "Derribado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una forma híbrida jabalí-humanoide Mediana o a un jabalí Mediano, o vuelve a su forma humanoide verdadera, o vuelve a su forma verdadera. Sus estadísticas de juego, salvo su tamaño, son las mismas en cada forma. El equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "0MySRgQBnXCMPL21": {
+              "name": "Velocidad: forma de jabalí"
+            }
+          }
+        }
+      }
+    },
+    "mmWererat0000000": {
+      "name": "Hombre rata",
+      "details": {
+        "alignment": "Legal malvado"
+      },
+      "items": {
+        "hd3JZprvOwTX7QK1": {
+          "name": "Ballesta de mano (solo forma humanoide o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "CJjRI7JX8tziGFSo": {
+              "name": ""
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmScratch0000000]]{Arañazo} o [[/item .hd3JZprvOwTX7QK1]]{Ballesta de mano} en cualquier combinación. Puede reemplazar un ataque por un ataque de [[/item .mmBite0000000000]]{Mordisco}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco (solo forma de rata o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un Humanoide, queda sujeto al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=HAz6jK7w7zFU77Wk]].</p><p><em>Fallo:</em> El objetivo queda maldito. Si el objetivo maldito cae a 0 puntos de golpe, en su lugar se convierte en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWererat0000000]{Hombre rata}</strong> bajo el control del DM y tiene 10 puntos de golpe.</p><p><em>Éxito:</em> El objetivo es inmune a la maldición de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            },
+            "HAz6jK7w7zFU77Wk": {
+              "name": ""
+            },
+            "WQmjSxessEqUVQxn": {
+              "name": "Convertirse en hombre rata"
+            }
+          },
+          "effects": {
+            "58kiIw4L79XZqgUt": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda maldito si falla su tirada de salvación.</p>"
+            }
+          }
+        },
+        "mmScratch0000000": {
+          "name": "Arañazo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "m9s3pmhoNA9tnQzX": {
+              "name": ""
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una forma híbrida rata-humanoide Mediana o a una rata Pequeña, o vuelve a su forma humanoide verdadera, o vuelve a su forma verdadera. Sus estadísticas de juego, salvo su tamaño, son las mismas en cada forma. El equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          }
+        }
+      }
+    },
+    "mmWeretiger00000": {
+      "name": "Hombre tigre",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "items": {
+        "Spw5gbTlI2AKsGWd": {
+          "name": "Arco largo (solo forma humanoide o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "b04WToYLVtgE03Dm": {
+              "name": ""
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmScratch0000000]]{Arañazo} o [[/item .Spw5gbTlI2AKsGWd]]{Arco largo} en cualquier combinación. Puede reemplazar un ataque por un ataque de [[/item .mmBite0000000000]]{Mordisco}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco (solo forma de tigre o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un Humanoide, queda sujeto al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=jgkWL5fxyqrDPr4D]].</p><p><em>Fallo:</em> El objetivo queda maldito. Si el objetivo maldito cae a 0 puntos de golpe, en su lugar se convierte en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWeretiger00000]{Hombre tigre}</strong> bajo el control del DM y tiene 10 puntos de golpe.</p><p><em>Éxito:</em> El objetivo es inmune a la maldición de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "jgkWL5fxyqrDPr4D": {
+              "name": ""
+            },
+            "ZHFhymKVPrjsOh6V": {
+              "name": "Convertirse en hombre tigre"
+            }
+          },
+          "effects": {
+            "r6YopUyuFY5BB4T5": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda maldito si falla su tirada de salvación.</p>"
+            }
+          }
+        },
+        "mmScratch0000000": {
+          "name": "Arañazo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "m9s3pmhoNA9tnQzX": {
+              "name": ""
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una forma híbrida tigre-humanoide Grande o a un tigre Grande, o vuelve a su forma humanoide verdadera, o vuelve a su forma verdadera. Sus estadísticas de juego, salvo su tamaño, son las mismas en cada forma. El equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "4XnVTvvmrKKbIP8n": {
+          "name": "Acechar (solo forma de tigre o híbrida)",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] se mueve hasta su Velocidad sin provocar &amp;Reference[OpportunityAttacks]{Ataques de oportunidad}. Al final de este movimiento, el [[lookup @name lowercase]] puede llevar a cabo la acción &amp;Reference[Hide apply=false]{Esconderse}.</p>",
+          "activities": {
+            "rJZ08yOwJQS9Ic7i": {
+              "name": "Gastar uso"
+            }
+          }
+        }
+      }
+    },
+    "mmWerewolf000000": {
+      "name": "Hombre lobo",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mYM6o8kM9SDVm45w": {
+          "name": "Arco largo",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "b04WToYLVtgE03Dm": {
+              "name": ""
+            }
+          }
+        },
+        "mmPackTactics000": {
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de la criatura y el aliado no tiene la condición Incapacitado.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmScratch0000000]]{Arañazo} o [[/item .mYM6o8kM9SDVm45w]]{Arco largo} en cualquier combinación. Puede reemplazar un ataque por un ataque de [[/item .mmBite0000000000]]{Mordisco}.</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco (solo forma de lobo o híbrida)",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es un Humanoide, queda sujeto al siguiente efecto.</p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=GBKhdBPogHNssDIa]].</p><p><em>Fallo:</em> El objetivo queda maldito. Si el objetivo maldito cae a 0 puntos de golpe, en su lugar se convierte en un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmWerewolf000000]{Hombre lobo}</strong> bajo el control del DM y tiene 10 puntos de golpe.</p><p><em>Éxito:</em> El objetivo es inmune a la maldición de este [[lookup @name lowercase]] durante 24 horas.</p>",
+          "activities": {
+            "GBKhdBPogHNssDIa": {
+              "name": ""
+            },
+            "WwTFv4wfaKWd80xL": {
+              "name": "Convertirse en hombre lobo"
+            }
+          },
+          "effects": {
+            "EbwiU99jQULR0XNJ": {
+              "name": "Maldito",
+              "description": "<p>El objetivo queda maldito si falla su tirada de salvación.</p>"
+            }
+          }
+        },
+        "mmScratch0000000": {
+          "name": "Arañazo",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "m9s3pmhoNA9tnQzX": {
+              "name": ""
+            }
+          }
+        },
+        "mmShapeshift0000": {
+          "name": "Cambiar de forma",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] cambia de forma a una forma híbrida lobo-humanoide Grande o a un lobo Mediano, o vuelve a su forma humanoide verdadera, o vuelve a su forma verdadera. Sus estadísticas de juego, salvo su tamaño, son las mismas en cada forma. El equipo que lleve puesto o transporte no se transforma.</p>",
+          "activities": {
+            "EU2q25V5hIaM1ZlR": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "lY4nQHrfwYJqGuWE": {
+              "name": "Velocidad: forma de lobo"
+            }
+          }
+        }
+      }
+    },
+    "mmWhiteDragonWyr": {
+      "name": "Cría de dragón blanco",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mmIceWalk0000000": {
+          "name": "Caminar sobre hielo",
+          "description": "<p>El [[lookup @name lowercase]] puede moverse y trepar por superficies heladas sin necesidad de hacer una prueba de característica. Además, el &amp;Reference[Difficult Terrain]{Terreno difícil} compuesto de hielo o nieve no le cuesta movimiento adicional.</p>"
+        },
+        "mmRend0000000000": {
+          "name": "Desgarrar",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "VP3t6lmmuXKGCRwX": {
+              "name": ""
+            }
+          }
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques de [[/item .mmRend0000000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmColdBreath0000": {
+          "name": "Aliento frío",
+          "description": "<p><em>Tirada de salvación de Constitución: </em>CD [[lookup @save.dc.value activity=8P7hmd3Nron4RAIv]], cada [[lookup @target.affects.type activity=8P7hmd3Nron4RAIv]] en un cono de [[lookup @target.template.size activity=8P7hmd3Nron4RAIv]] pies.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad de daño.</p>",
+          "activities": {
+            "8P7hmd3Nron4RAIv": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmWight000000000": {
+      "name": "Tumulario",
+      "details": {
+        "alignment": "Neutral malvado"
+      },
+      "items": {
+        "H1F8HwTAk3IA9UoP": {
+          "name": "Armadura de cuero tachonado"
+        },
+        "mmSunlightSensit": {
+          "name": "Sensibilidad a la luz del sol",
+          "description": "<p>Mientras está bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de característica y las tiradas de ataque.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] realiza dos ataques, usando [[/item .mmNecroticSword0]] o [[/item .mmNecroticBow000]] en cualquier combinación. Puede reemplazar un ataque por un uso de [[/item .mmLifeDrain00000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmNecroticSword0": {
+          "name": "Espada necrótica",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "FVbf8oZYqxmgsPgK": {
+              "name": ""
+            }
+          }
+        },
+        "mmLifeDrain00000": {
+          "name": "Drenar vida",
+          "description": "<p class=\"feature\"><em><strong>Drenar vida.</strong></em></p><p><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=FA4Mt9cXsYfHDDcs]], una [[lookup @target.affects.type activity=FA4Mt9cXsYfHDDcs]] a [[lookup @range.value activity=FA4Mt9cXsYfHDDcs]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el máximo de puntos de golpe del objetivo disminuye en una cantidad igual al daño recibido.</p><p class=\"feature\">Un Humanoide muerto por este ataque se alza 24 horas después como un <strong>@UUID[Compendium.dnd-monster-manual.actors.Actor.mmZombie00000000]{Zombi}</strong> bajo el control del [[lookup @name lowercase]], a menos que el Humanoide sea devuelto a la vida o su cuerpo sea destruido. El [[lookup @name lowercase]] no puede tener más de doce zombis bajo su control a la vez.</p>",
+          "activities": {
+            "FA4Mt9cXsYfHDDcs": {
+              "name": ""
+            },
+            "UbdasnhYW7Y78wUs": {
+              "name": "Zombi se alza"
+            }
+          }
+        },
+        "mmNecroticBow000": {
+          "name": "Arco necrótico",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "BlfhtejqUaKF5pUy": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmWillowisp00000": {
+      "name": "Fuego fatuo",
+      "details": {
+        "alignment": "Caótico malvado"
+      },
+      "items": {
+        "mmEphemeral00000": {
+          "name": "Efímero",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] no puede llevar puesto ni transportar nada.</p>"
+        },
+        "mmIllumination00": {
+          "name": "Iluminación",
+          "description": "<p>El [[lookup @name lowercase]] emite luz brillante en un radio de 20 pies y luz tenue durante 20 pies adicionales.</p>"
+        },
+        "mmIncorporealMov": {
+          "name": "Movimiento incorpóreo",
+          "description": "<p>El [[lookup @name lowercase]] puede moverse a través de otras criaturas y objetos como si fueran &amp;Reference[Difficult Terrain]{Terreno difícil}. Recibe [[/damage 1d10 average type=force]] de daño si termina su turno dentro de un objeto.</p>"
+        },
+        "mmVanish00000000": {
+          "name": "Desvanecerse",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] y su luz tienen la condición &amp;Reference[Invisible apply=false]{Invisible} hasta que termine la &amp;Reference[Concentration]{Concentración} del [[lookup @name lowercase]] sobre este efecto, que termina antes inmediatamente después de que el [[lookup @name lowercase]] haga una tirada de ataque o use Consumir vida.</p>",
+          "activities": {
+            "RYoAjqR06oGKDiVC": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "oY6W5ijpozecYGkq": {
+              "name": "Invisible",
+              "description": "<p>La criatura atacante y su luz tienen la condición &amp;Reference[Invisible apply=false]{Invisible} hasta que termine su Concentración sobre este efecto, que termina antes inmediatamente después de que el fuego fatuo haga una tirada de ataque o use la acción adicional Consumir vida.</p>"
+            }
+          }
+        },
+        "YPy3wAfsPZ7cNJoJ": {
+          "name": "Consumir vida",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=1Hy8CdhpwQlLxDPq]], [[lookup @target.affects.special activity=1Hy8CdhpwQlLxDPq]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=1Hy8CdhpwQlLxDPq]] pies o menos y que tenga 0 puntos de golpe.</p><p><em>Fallo:</em> El objetivo muere, y el [[lookup @name lowercase]] recupera [[/healing average activity=1waYTjY3NAIGZgrI]].</p>",
+          "activities": {
+            "1Hy8CdhpwQlLxDPq": {
+              "name": "Salvación"
+            },
+            "1waYTjY3NAIGZgrI": {
+              "name": "Fuego fatuo: curación"
+            }
+          },
+          "effects": {
+            "gCuUMpz0XzscFB4K": {
+              "name": "Fallo: muerto",
+              "description": "<p>El objetivo muere si la criatura que está a 0 puntos de golpe falla una salvación de Constitución.</p>"
+            }
+          }
+        },
+        "KSPu27tkSo11sWcw": {
+          "name": "Descarga",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "7tB0zZJlNLfqtG6p": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmWingedKobold00": {
+      "name": "Kobold alado",
+      "details": {
+        "alignment": "Neutral"
+      },
+      "items": {
+        "mmPackTactics000": {
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de la criatura y el aliado no tiene la condición Incapacitado.</p>"
+        },
+        "mmSunlightSensit": {
+          "name": "Sensibilidad a la luz del sol",
+          "description": "<p>Mientras está bajo la luz del sol, el [[lookup @name lowercase]] tiene Desventaja en las pruebas de característica y las tiradas de ataque.</p>"
+        },
+        "mmDragontoothBla": {
+          "name": "Hoja de diente de dragón",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmChromaticSpitt": {
+          "name": "Saliva cromática",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]] (tipo elegido por el [[lookup @name lowercase]]).</p>",
+          "activities": {
+            "37oG7G63JEhaYdPU": {
+              "name": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

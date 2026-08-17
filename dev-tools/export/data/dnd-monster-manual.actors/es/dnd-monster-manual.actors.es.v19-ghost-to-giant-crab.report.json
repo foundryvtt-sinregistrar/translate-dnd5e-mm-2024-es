@@ -1,0 +1,80 @@
+{
+  "version": "v19",
+  "base": "dnd-monster-manual.actors.es.v18-flying-snake-to-ghast-gravecaller.json",
+  "output": "dnd-monster-manual.actors.es.v19-ghost-to-giant-crab.json",
+  "patch": "dnd-monster-manual.actors.es.v19-ghost-to-giant-crab.patch.json",
+  "entries_total": 504,
+  "entries_updated": 10,
+  "range": {
+    "from": "mmGhost000000000",
+    "to": "mmGiantCrab00000"
+  },
+  "updated_entries": {
+    "mmGhost000000000": "Fantasma",
+    "mmGhoul000000000": "Gul",
+    "mmGiantApe000000": "Simio gigante",
+    "mmGiantAxeBeak00": "Pico de hacha gigante",
+    "mmGiantBadger000": "Tejón gigante",
+    "mmGiantBat000000": "Murciélago gigante",
+    "mmGiantBoar00000": "Jabalí gigante",
+    "mmGiantCentipede": "Ciempiés gigante",
+    "mmGiantConstrict": "Serpiente constrictora gigante",
+    "mmGiantCrab00000": "Cangrejo gigante"
+  },
+  "checks": {
+    "json_parse_ok": true,
+    "no_protected_placeholders": true,
+    "top_level_keys": [
+      "label",
+      "mapping",
+      "folders",
+      "entries"
+    ],
+    "mapping_preserved": true,
+    "missing_descriptions_in_updated_range": [],
+    "raw_english_checks_note": "Los tokens EN detectados en el rango actualizado corresponden a claves internas de &Reference[...] o macros Foundry que deben conservarse.",
+    "expected_internal_reference_keys": [
+      {
+        "mmGhost000000000": [
+          "Frightened",
+          "Incapacitated"
+        ]
+      },
+      {
+        "mmGhoul000000000": [
+          "Paralyzed"
+        ]
+      },
+      {
+        "mmGiantApe000000": [
+          "Prone"
+        ]
+      },
+      {
+        "mmGiantAxeBeak00": [
+          "Prone"
+        ]
+      },
+      {
+        "mmGiantBoar00000": [
+          "Prone"
+        ]
+      },
+      {
+        "mmGiantCentipede": [
+          "Poisoned"
+        ]
+      },
+      {
+        "mmGiantConstrict": [
+          "Grappled"
+        ]
+      },
+      {
+        "mmGiantCrab00000": [
+          "Grappled"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "v34",
+  "base": "dnd-monster-manual.actors.es.v33-modron-tridrone-to-nalfeshnee.json",
+  "output": "dnd-monster-manual.actors.es.v34-needle-blight-to-ogre.json",
+  "patch": "dnd-monster-manual.actors.es.v34-needle-blight-to-ogre.patch.json",
+  "range": {
+    "from": "mmNeedleBlight00",
+    "to": "mmOgre0000000000"
+  },
+  "entries_total": 504,
+  "entries_updated": [
+    "mmNeedleBlight00",
+    "mmNightHag000000",
+    "mmNightmare00000",
+    "mmNoble000000000",
+    "mmNobleProdigy00",
+    "mmNothic00000000",
+    "mmNycaloth000000",
+    "mmOchreJelly0000",
+    "mmOctopus0000000",
+    "mmOgre0000000000"
+  ],
+  "updated_names": {
+    "mmNeedleBlight00": "Marchita aguja",
+    "mmNightHag000000": "Saga de la noche",
+    "mmNightmare00000": "Pesadilla",
+    "mmNoble000000000": "Noble",
+    "mmNobleProdigy00": "Noble prodigio",
+    "mmNothic00000000": "Nótico",
+    "mmNycaloth000000": "Nycaloth",
+    "mmOchreJelly0000": "Gelatina ocre",
+    "mmOctopus0000000": "Pulpo",
+    "mmOgre0000000000": "Ogro"
+  },
+  "validation": {
+    "json_parse_ok": true,
+    "mapping_preserved": true,
+    "placeholders_found": 0,
+    "issues": []
+  }
+}

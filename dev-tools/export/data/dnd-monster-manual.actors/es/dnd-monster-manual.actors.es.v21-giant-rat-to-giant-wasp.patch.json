@@ -1,0 +1,363 @@
+{
+  "_meta": {
+    "version": "v21",
+    "base": "dnd-monster-manual.actors.es.v20-giant-crocodile-to-giant-owl.json",
+    "range": "mmGiantRat000000..mmGiantWasp00000",
+    "count": 10
+  },
+  "entries": {
+    "mmGiantRat000000": {
+      "name": "Rata gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmPackTactics000": {
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de esa criatura y el aliado no tiene la condición &amp;Reference[Incapacitated]{Incapacitado}.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmGiantScorpion0": {
+      "name": "Escorpión gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmClaw0000000000]] y un ataque con [[/item .mmSting000000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Gastar uso"
+            }
+          }
+        },
+        "mmClaw0000000000": {
+          "name": "Garra",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por una de las dos pinzas.</p>",
+          "activities": {
+            "W1T7dZnG8GMMwyEP": {
+              "name": ""
+            },
+            "6By7NkEmrZGMhJ0A": {
+              "name": "Prueba para escapar"
+            }
+          },
+          "effects": {
+            "4UopxSJg0E7WAHOk": {
+              "name": "Agarrado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
+            }
+          }
+        },
+        "mmSting000000000": {
+          "name": "Aguijón",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "ExJB3aZAPF3shVJA": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmGiantSeahorse0": {
+      "name": "Caballito de mar gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmRam00000000000": {
+          "name": "Embestida",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=YI7aqJ7iiFSYAT7z]] de daño si el caballito de mar se movió 20+ pies en línea recta hacia el objetivo inmediatamente antes del impacto.</p>",
+          "activities": {
+            "z58sUDUmqxECJgT3": {
+              "name": ""
+            },
+            "YI7aqJ7iiFSYAT7z": {
+              "name": "Ataque en movimiento"
+            }
+          }
+        },
+        "mmBubbleDash0000": {
+          "name": "Impulso burbujeante",
+          "description": "<p>Mientras está bajo el agua, el [[lookup @name lowercase]] se mueve hasta la mitad de su velocidad de nado sin provocar &amp;Reference[Opportunity Attacks]{ataques de oportunidad}.</p>",
+          "activities": {
+            "ftrbPqT29lnHwzHG": {
+              "name": "Gastar uso",
+              "activation": {
+                "condition": "mientras está bajo el agua"
+              }
+            }
+          }
+        },
+        "mmWaterBreathing": {
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua.</p>"
+        }
+      }
+    },
+    "mmGiantShark0000": {
+      "name": "Tiburón gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmWaterBreathing": {
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua. Puede aguantar la respiración durante {duration} fuera del agua.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza dos ataques con [[/item .mmBite0000000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p><em>Tirada de ataque cuerpo a cuerpo:</em> [[/attack]] ([[lookup @activation.condition activity=xWlMeXFjELfSUWX9]]), alcance [[lookup @item.range.reach item=xWlMeXFjELfSUWX9]] pies. [[/damage average extended]]</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": "",
+              "activation": {
+                "condition": "con Ventaja si al objetivo no le quedan todos sus puntos de golpe"
+              }
+            }
+          }
+        }
+      }
+    },
+    "mmGiantSpider000": {
+      "name": "Araña gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmSpiderClimb000": {
+          "name": "Trepar cual arácnido",
+          "description": "<p>El [[lookup @name lowercase]] puede trepar por superficies difíciles, incluidos techos, sin necesidad de realizar una prueba de característica.</p>"
+        },
+        "mmWebWalker00000": {
+          "name": "Caminante de telarañas",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] ignora las restricciones al movimiento causadas por telarañas, y el [[lookup @name lowercase]] conoce la ubicación de cualquier otra criatura en contacto con la misma telaraña.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
+        },
+        "mmWeb00000000000": {
+          "name": "Telaraña",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza</em>: CD [[lookup @save.dc.value activity=6iMoUgxwYlvfKTXr]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=6iMoUgxwYlvfKTXr]] pies o menos.</p><p class=\"feature\"><em>Fallo</em>: El objetivo tiene la condición &amp;Reference[Restrained apply=false]{Apresado} hasta que la telaraña sea destruida (CA 10; PG 5; Vulnerabilidad al daño de Fuego; Inmunidad al daño de Veneno y Psíquico).</p>",
+          "activities": {
+            "6iMoUgxwYlvfKTXr": {
+              "name": "Salvación"
+            }
+          },
+          "effects": {
+            "fihuYABujdt7o9uo": {
+              "name": "Apresado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Restrained apply]{Apresado} hasta que la telaraña sea destruida.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGiantSquid0000": {
+      "name": "Calamar gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmWaterBreathing": {
+          "name": "Respirar bajo el agua",
+          "description": "<p>El [[lookup @name lowercase]] solo puede respirar bajo el agua. Puede aguantar la respiración durante {duration} fuera del agua.</p>"
+        },
+        "mmMultiattack000": {
+          "name": "Ataque múltiple",
+          "description": "<p>El [[lookup @name lowercase]] realiza un ataque con [[/item .mmBite0000000000]] y un ataque con [[/item .mmTentacle000000]].</p>",
+          "activities": {
+            "Ms63W7e3Mv2Margn": {
+              "name": "Usar"
+            }
+          }
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
+        },
+        "mmTentacle000000": {
+          "name": "Tentáculo",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Enorme o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por uno de los dos tentáculos, y el [[lookup @name lowercase]] puede tirar del objetivo hasta 10 pies en línea recta hacia sí.</p>",
+          "activities": {
+            "EeiSFNs2NulOBg6i": {
+              "name": ""
+            },
+            "AXTWfIqBExpxSKly": {
+              "name": "Prueba para escapar"
+            }
+          },
+          "effects": {
+            "KxcWsIHohpNmagLJ": {
+              "name": "Agarrado",
+              "description": "<p><strong>Pruebas para escapar (consulta el objeto de origen para la CD)</strong></p><p>[[/check skill=ath ability=str]]</p><p>[[/check skill=acr ability=dex]]</p>"
+            }
+          }
+        },
+        "mmInkCloud000000": {
+          "name": "Nube de tinta",
+          "description": "<p><em>Desencadenante</em>: El [[lookup @name lowercase]] recibe daño mientras está bajo el agua. </p><p><em>Respuesta</em>: El [[lookup @name lowercase]] libera tinta que llena un Cubo de [[lookup @target.template.size activity=1MiIPcVuCpfgBIkS]] pies centrado en sí mismo, y el [[lookup @name lowercase]] se mueve hasta su velocidad de nado. El Cubo está muy oscurecido durante 1 minuto o hasta que una corriente fuerte o un efecto similar disperse la tinta.</p>",
+          "activities": {
+            "1MiIPcVuCpfgBIkS": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "ix1fTDDx7fkT1OGI": {
+              "name": "Cegado: muy oscurecido",
+              "description": "<p>Tienes la condición &amp;Reference[Blinded apply=false]{Cegado} mientras intentas ver algo en un espacio muy oscurecido.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGiantToad00000": {
+      "name": "Sapo gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmAmphibious0000": {
+          "name": "Anfibio",
+          "description": "<p>El [[lookup @name lowercase]] puede respirar aire y agua.</p>"
+        },
+        "mmStandingLeap00": {
+          "name": "Salto sin carrerilla",
+          "description": "<p class=\"feature\">El salto de longitud del [[lookup @name lowercase]] es de hasta 20 pies y su salto de altura de hasta 10 pies, con o sin carrerilla.</p>"
+        },
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]).</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          },
+          "effects": {
+            "1gX8RxYfePXlY6yf": {
+              "name": "Agarrado",
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[/check ability=str skill=ath format=long]], consulta el objeto de origen para la CD).</p>"
+            }
+          }
+        },
+        "mmSwallow0000000": {
+          "name": "Engullir",
+          "description": "<p>El [[lookup @name lowercase]] engulle a un objetivo Mediano o más pequeño al que esté agarrando.</p><p>Mientras está engullido, el objetivo no está Agarrado, pero tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y tiene &amp;Reference[Total Cover]{Cobertura total} contra ataques y otros efectos procedentes de fuera del [[lookup @name lowercase]].</p><p>Además, el objetivo recibe [[/damage average]] de daño al final de cada uno de los turnos del [[lookup @name lowercase]]. El [[lookup @name lowercase]] solo puede tener un objetivo engullido a la vez, y no puede usar Mordisco mientras tenga un objetivo engullido.</p><p>Si el [[lookup @name lowercase]] muere, una criatura engullida deja de estar Apresada y puede escapar del cadáver usando 5 pies de movimiento, saliendo con la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
+          "activities": {
+            "zrWNjO9mkbN28spL": {
+              "name": "Daño: engullido"
+            },
+            "Ucb9p9Fw3W9EoSbr": {
+              "name": "Escapar del cadáver"
+            },
+            "0A0cIyRNbphDR82L": {
+              "name": "Gastar uso"
+            }
+          },
+          "effects": {
+            "VOHv1LyO3hHolZXo": {
+              "name": "Cegado, apresado y cobertura total",
+              "description": "<p>Mientras está engullida, una criatura tiene las condiciones &amp;Reference[Blinded apply=false]{Cegado} y &amp;Reference[Restrained apply=false]{Apresado}, y tiene &amp;Reference[Total Cover apply=false]{Cobertura total} contra ataques.</p>"
+            },
+            "aS5FyMP72vn3OKf1": {
+              "name": "Derribado",
+              "description": "<p>Si eres regurgitado, caes en un espacio a 10 pies o menos y quedas &amp;Reference[Prone apply=false]{Derribado}.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGiantVenomousS": {
+      "name": "Serpiente venenosa gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmBite0000000000": {
+          "name": "Mordisco",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "xWlMeXFjELfSUWX9": {
+              "name": ""
+            }
+          }
+        }
+      }
+    },
+    "mmGiantVulture00": {
+      "name": "Buitre gigante",
+      "details": {
+        "alignment": "Neutral malvado"
+      },
+      "items": {
+        "mmPackTactics000": {
+          "name": "Tácticas de manada",
+          "description": "<p>El [[lookup @name lowercase]] tiene Ventaja en una tirada de ataque contra una criatura si al menos uno de los aliados del [[lookup @name lowercase]] está a 5 pies o menos de esa criatura y el aliado no tiene la condición &amp;Reference[Incapacitated]{Incapacitado}.</p>"
+        },
+        "mmGouge000000000": {
+          "name": "Desgarrón",
+          "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]], y el objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final de su siguiente turno.</p>",
+          "activities": {
+            "MewgpDaGS8BsGDsD": {
+              "name": ""
+            }
+          },
+          "effects": {
+            "Bu9GvjGYEnGjbq3U": {
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Poisoned apply=false]{Envenenado} hasta el final de su siguiente turno.</p>"
+            }
+          }
+        }
+      }
+    },
+    "mmGiantWasp00000": {
+      "name": "Avispa gigante",
+      "details": {
+        "alignment": "Sin alineamiento"
+      },
+      "items": {
+        "mmFlyby000000000": {
+          "name": "Sobrevuelo",
+          "description": "<p>El [[lookup @name lowercase]] no provoca un &amp;Reference[OpportunityAttacks]{ataque de oportunidad} cuando vuela para salir del alcance de un enemigo.</p>"
+        },
+        "mmSting000000000": {
+          "name": "Aguijón",
+          "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>",
+          "activities": {
+            "ExJB3aZAPF3shVJA": {
+              "name": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
