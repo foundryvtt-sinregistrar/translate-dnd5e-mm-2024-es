@@ -4,7 +4,7 @@
 
 - Missing Spanish entries: 0
 - Extra Spanish entries: 0
-- Invalid internal references: 14
+- Invalid internal references: 0
 - Macro mutation candidates: 140
 - Visible English terminology residues: 12
 - Deprecated Spanish terminology occurrences: 4
@@ -21,20 +21,6 @@
 
 ## Invalid internal references
 
-- `content:entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content`: targetPack=actors, entryId=mmExplorador000000000
-- `content:entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content`: targetPack=actors, entryId=mmExplorador000000000
-- `content:entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content`: targetPack=actors, entryId=mmMudMéfit00000
-- `content:entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content`: targetPack=actors, entryId=mmSmokeMéfit000
-- `content:entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content`: targetPack=actors, entryId=mmSteamMéfit000
-- `content:entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content`: targetPack=actors, entryId=mmDustMéfit0000
-- `content:entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content`: targetPack=actors, entryId=mmIceMéfit00000
-- `content:entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content`: targetPack=actors, entryId=mmMagmaMéfit000
-- `content:entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content`: targetPack=actors, entryId=mmExplorador000000000
-- `content:entries.mmAppendixBMonst.pages.RYSOXTXYX7115N3B.text.content`: targetPack=actors, entryId=mmExploradorCaptain00
-- `content:entries.mmAppendixBMonst.pages.08hQUwW9emtVljw0.text.content`: targetPack=actors, entryId=mmGorgón00000000
-- `content:entries.mmAppendixBMonst.pages.TrDbgc8iKWUh5E8m.text.content`: targetPack=actors, entryId=mmBrazenGorgón00
-- `content:entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content`: targetPack=actors, entryId=mmExplorador000000000
-- `content:entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content`: targetPack=actors, entryId=mmExploradorCaptain00
 
 ## Macro mutation candidates
 

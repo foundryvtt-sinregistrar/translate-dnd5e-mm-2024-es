@@ -18,3 +18,10 @@ python dev-tools/pdf-audit/audit_mm_translation.py `
 The audit verifies top-level entry coverage, internal Monster Manual
 references, protected Foundry commands, official terminology, deprecated
 Spanish variants, and probable untranslated fields.
+
+Restore translated identifiers and anchors inside Monster Manual `UUID` and
+`Embed` targets while preserving their Spanish visible labels:
+
+```powershell
+python dev-tools/pdf-audit/repair_internal_references.py --write
+```

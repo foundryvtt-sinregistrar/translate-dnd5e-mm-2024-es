@@ -33,92 +33,7 @@
   },
   "references": {
     "checked": 2764,
-    "invalid": [
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExplorador000000000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExplorador000000000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
-        "targetPack": "actors",
-        "entryId": "mmMudMéfit00000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
-        "targetPack": "actors",
-        "entryId": "mmSmokeMéfit000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
-        "targetPack": "actors",
-        "entryId": "mmSteamMéfit000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
-        "targetPack": "actors",
-        "entryId": "mmDustMéfit0000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
-        "targetPack": "actors",
-        "entryId": "mmIceMéfit00000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
-        "targetPack": "actors",
-        "entryId": "mmMagmaMéfit000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExplorador000000000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.RYSOXTXYX7115N3B.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExploradorCaptain00"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.08hQUwW9emtVljw0.text.content",
-        "targetPack": "actors",
-        "entryId": "mmGorgón00000000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmAppendixBMonst.pages.TrDbgc8iKWUh5E8m.text.content",
-        "targetPack": "actors",
-        "entryId": "mmBrazenGorgón00"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExplorador000000000"
-      },
-      {
-        "pack": "content",
-        "path": "entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content",
-        "targetPack": "actors",
-        "entryId": "mmExploradorCaptain00"
-      }
-    ]
+    "invalid": []
   },
   "macroMutations": [
     {
@@ -1870,7 +1785,7 @@
   "summary": {
     "missingEntries": 0,
     "extraEntries": 0,
-    "invalidReferences": 14,
+    "invalidReferences": 0,
     "macroMutations": 140,
     "englishResidues": 12,
     "deprecatedSpanish": 4,
