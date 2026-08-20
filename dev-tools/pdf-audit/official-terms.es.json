@@ -1,0 +1,38 @@
+{
+  "actions": {
+    "Bonus Action": "Acción adicional",
+    "Multiattack": "Ataque múltiple",
+    "Parry": "Parada",
+    "Ethereal Jaunt": "Salto etéreo"
+  },
+  "conditions": {
+    "Blinded": "Cegado",
+    "Charmed": "Hechizado",
+    "Deafened": "Ensordecido",
+    "Frightened": "Asustado",
+    "Grappled": "Agarrado",
+    "Incapacitated": "Incapacitado",
+    "Invisible": "Invisible",
+    "Paralyzed": "Paralizado",
+    "Petrified": "Petrificado",
+    "Poisoned": "Envenenado",
+    "Prone": "Derribado",
+    "Restrained": "Apresado",
+    "Stunned": "Aturdido",
+    "Unconscious": "Inconsciente"
+  },
+  "rules": {
+    "Armor Class": "Clase de Armadura",
+    "Hit Points": "Puntos de golpe",
+    "Saving Throw": "Tirada de salvación",
+    "Ability Check": "Prueba de característica"
+  },
+  "deprecatedSpanish": {
+    "Acción de bonificación": "Acción adicional",
+    "Ataque multiple": "Ataque múltiple",
+    "Atemorizado": "Asustado",
+    "Aterrorizado": "Asustado",
+    "Restringido": "Apresado",
+    "Tránsito etéreo": "Salto etéreo"
+  }
+}

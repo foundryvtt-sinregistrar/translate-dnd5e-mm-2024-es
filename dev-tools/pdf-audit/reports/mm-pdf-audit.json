@@ -1,0 +1,1883 @@
+{
+  "pdf": {
+    "files": 385,
+    "characters": 0,
+    "blankFiles": 385,
+    "warning": "All PDF pages are scanned images; OCR is required for corpus searches."
+  },
+  "structure": {
+    "actors": {
+      "englishEntries": 504,
+      "spanishEntries": 504,
+      "missing": [],
+      "extra": []
+    },
+    "content": {
+      "englishEntries": 8,
+      "spanishEntries": 8,
+      "missing": [],
+      "extra": []
+    },
+    "features": {
+      "englishEntries": 680,
+      "spanishEntries": 680,
+      "missing": [],
+      "extra": []
+    },
+    "tables": {
+      "englishEntries": 116,
+      "spanishEntries": 116,
+      "missing": [],
+      "extra": []
+    }
+  },
+  "references": {
+    "checked": 2764,
+    "invalid": [
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExplorador000000000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExplorador000000000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
+        "targetPack": "actors",
+        "entryId": "mmMudMéfit00000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
+        "targetPack": "actors",
+        "entryId": "mmSmokeMéfit000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.EQedNb5me0dN4Lu6.text.content",
+        "targetPack": "actors",
+        "entryId": "mmSteamMéfit000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
+        "targetPack": "actors",
+        "entryId": "mmDustMéfit0000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
+        "targetPack": "actors",
+        "entryId": "mmIceMéfit00000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
+        "targetPack": "actors",
+        "entryId": "mmMagmaMéfit000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.mlqkV9Q8Mj7kPW75.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExplorador000000000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.RYSOXTXYX7115N3B.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExploradorCaptain00"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.08hQUwW9emtVljw0.text.content",
+        "targetPack": "actors",
+        "entryId": "mmGorgón00000000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmAppendixBMonst.pages.TrDbgc8iKWUh5E8m.text.content",
+        "targetPack": "actors",
+        "entryId": "mmBrazenGorgón00"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExplorador000000000"
+      },
+      {
+        "pack": "content",
+        "path": "entries.mmMonstersAtoZ00.pages.QSlsqIPbYl4uICvq.text.content",
+        "targetPack": "actors",
+        "entryId": "mmExploradorCaptain00"
+      }
+    ]
+  },
+  "macroMutations": [
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultBlueDrago.items.mmLightningBreat.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultCopperDra.items.mmAcidBreath0000.description",
+      "kind": "lookup-key",
+      "command": "@de daño.onSave capitalize activity=qNI6W02jCUQbPpYE"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultCopperDra.items.mmAcidBreath0000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
+      ],
+      "added": [
+        "[[lookup @de daño.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultCopperDra.items.mmGigglingMagic0.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": [
+        "[[lookup @damage.onSave capitalize activity=Ttrajc4RC5Ut7pkj]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultGreenDrag.items.mmPoisonBreath00.description",
+      "kind": "lookup-key",
+      "command": "@de daño.onSave capitalize activity=lnabW9bM51HoluPp"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultGreenDrag.items.mmPoisonBreath00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @damage.onSave capitalize activity=lnabW9bM51HoluPp]]"
+      ],
+      "added": [
+        "[[lookup @de daño.onSave capitalize activity=lnabW9bM51HoluPp]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientBronzeD.items.mmLightningBreat.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientBronzeD.items.weRr4SCAG9rNPGAp.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientCopperD.items.mmAcidBreath0000.description",
+      "kind": "lookup-key",
+      "command": "@de daño.onSave capitalize activity=qNI6W02jCUQbPpYE"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientCopperD.items.mmAcidBreath0000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
+      ],
+      "added": [
+        "[[lookup @de daño.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGoldDra.items.mmMultiattack000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/item]]",
+        "[[/item]]"
+      ],
+      "added": [
+        "[[/item Spellcasting]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAnkheg00000000.items.mmAcidSpray00000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=20GU2JBM5zJfNPD1]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=20GU2JBM5zJfNPD1]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmArchmage000000.items.4tR7ZpnNmbsmZohl.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAzerPyromancer.items.mmFireAura000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": [
+        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAzerSentinel00.items.mmFireAura000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": [
+        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBalor000000000.items.mmFireAura000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": [
+        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBanditDeceiver.items.hVNBxP519B3wWXdo.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBarlgura000000.items.5sdQOeYB1FK386Lr.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
+      "kind": "lookup-key",
+      "command": "@item.range.reach item=ST0XpSUdRn52jAF0"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
+      "kind": "lookup-key",
+      "command": "@item.range.value item=ST0XpSUdRn52jAF0"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
+      "kind": "lookup-key",
+      "command": "@item.range.long item=ST0XpSUdRn52jAF0"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmDeathTyrant000.items.Z6pyFtoaSxxVedl5.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]",
+        "[[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=TLqcxF6OYH0LweRo]]",
+        "[[lookup @target.affects.type activity=TLqcxF6OYH0LweRo]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmDjinni00000000.items.mmElementalResto.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Days]]"
+      ],
+      "added": [
+        "[[/r 1d4#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmDjinni00000000.items.mmWishes00000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmDjinni00000000.items.mmCreateWhirlwin.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage average]]"
+      ],
+      "added": [
+        "[[/damage average activity=vxRsrpVaHxa02z8F]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmEfreeti0000000.items.mmElementalResto.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Days]]"
+      ],
+      "added": [
+        "[[/r 1d4#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmEfreeti0000000.items.mmWishes00000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmElementalCatac.items.mmCataclysmicEve.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Cataclysmic Event]]"
+      ],
+      "added": [
+        "[[/r 1d4#Evento cataclísmico]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmElk00000000000.items.mmRam00000000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.affects.special activity=z58sUDUmqxECJgT3]]",
+        "[[/damage 1d6 bludgeoning average]]"
+      ],
+      "added": [
+        "[[/damage average activity=hAnQ4KbZpJFBPEPg]]",
+        "[[lookup @save.dc.value activity=hAnQ4KbZpJFBPEPg]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmEmpyrean000000.items.mmMultiattack000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/item Sacred Weapon]]",
+        "[[/item Divine Ray]]"
+      ],
+      "added": [
+        "[[/item .mmSacredWeapon00]]",
+        "[[/item .mmDivineRay00000]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmEttercap000000.items.mmBite0000000000.effects.Mbzt84HngDw6JyWm.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmFaerieDragonAd.items.P6aIXlIJ6aMTJYdI.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmFaerieDragonYo.items.RvZKaiCjENNT9evZ.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmFireElemental0.items.mmWaterSusceptib.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGasSporeFungus.items.mmDeathBurst0000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d12#Hours]]",
+        "[[/r 2d4#Tiny Gas Spore Fungi]]",
+        "[[/r 2d6#Days]]"
+      ],
+      "added": [
+        "[[/r 1d12#Horas]]",
+        "[[/r 2d4#Hongos espora de gas diminutos]]",
+        "[[/r 2d6#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGasSporeFungus.items.mmDeathBurst0000.effects.b2GcNj2sMZJWDisn.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d12#Hours]]"
+      ],
+      "added": [
+        "[[/r 1d12#Horas]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGelatinousCube.items.mmTransparent000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGiantElk000000.items.mmRam00000000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGiantShark0000.items.mmBite0000000000.description",
+      "kind": "lookup-key",
+      "command": "@item.range.reach item=xWlMeXFjELfSUWX9"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGnollDemoniac0.items.mmHungerOfYeenog.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=sIJYYjLHqCAPxOLm]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=sIJYYjLHqCAPxOLm]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGreenHag000000.items.3SIvYE13BfHn7qvz.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGrick000000000.items.mmMultiattack000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/item Beak]]",
+        "[[/item Tentacles]]"
+      ],
+      "added": [
+        "[[/item .mmBeak0000000000]]",
+        "[[/item .mmTentacles00000]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGrick000000000.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=str skill=ath format=long]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGrickAncient00.items.mmMultiattack000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/item Beak]]",
+        "[[/item Slam]]",
+        "[[/item Tentacles]]"
+      ],
+      "added": [
+        "[[/item .mmBeak0000000000]]",
+        "[[/item .mmSlam0000000000]]",
+        "[[/item .mmTentacles00000]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGrickAncient00.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=str skill=ath format=long]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGriffon0000000.items.mmRend0000000000.effects.FqB7QZZZTiN3trAC.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=str skill=ath format=long]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGuardianNaga00.items.mmMultiattack000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/item Bite]]",
+        "[[/item Poisonous Spittle]]"
+      ],
+      "added": [
+        "[[/item .mmBite0000000000]]",
+        "[[/item .mmPoisonousSpitt]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGuardianNaga00.items.Kl2qli45InLejqV3.effects.TXwfzpj9bERo0X1r.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage 5d10 type=psyhic]]"
+      ],
+      "added": [
+        "[[/damage 5d10 type=psychic]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGuardianNaga00.items.mmCelestialResto.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d6#Days]]"
+      ],
+      "added": [
+        "[[/r 1d6#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGulthiasBlight.items.mmBlightSeeds000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d6#Seeds expelled]]"
+      ],
+      "added": [
+        "[[/r 1d6#Semillas expulsadas]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmIncubus0000000.items.Epzabor9RV5yUeqA.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmIronGolem00000.items.mmPoisonBreath00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=lnabW9bM51HoluPp]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmJuvenileShadow.items.mmShadowBreath00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=hvGQg4CsoCNgrjGy]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmLamia000000000.items.6APauftroqjmXvbd.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmLamia000000000.items.2M6IcnU5z2CDUmR9.effects.TXwfzpj9bERo0X1r.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage 5d10 type=psyhic]]"
+      ],
+      "added": [
+        "[[/damage 5d10 type=psychic]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMarid000000000.items.mmElementalResto.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Days]]"
+      ],
+      "added": [
+        "[[/r 1d4#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMarid000000000.items.R7FNJUssksG8Ycmx.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMerfolkWaveben.items.T0CkqKWNcTKcEUwI.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMindFlayer0000.items.mmMindBlast00000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=lHIQgEzz6hc3hjWx]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=lHIQgEzz6hc3hjWx]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmModronDuodrone.items.jbso67HYFgxJVoyJ.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMummy000000000.items.mmRottingFist000.effects.t7Anyyhyg6fmTdXw.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 3d6#HP Max Decrease]]"
+      ],
+      "added": [
+        "[[/r 3d6#Reducción de PG máximos]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMummy000000000.items.mmRottingFist000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 3d6#HP Max Decrease]]"
+      ],
+      "added": [
+        "[[/r 3d6#Reducción de PG máximos]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMummyLord00000.items.mmRottingFist000.effects.B1S4dZd1Lz0jokIo.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 3d6#HP Max Decrease]]"
+      ],
+      "added": [
+        "[[/r 3d6#Reducción de PG máximos]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMummyLord00000.items.mmRottingFist000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 3d6#HP Max Decrease]]"
+      ],
+      "added": [
+        "[[/r 3d6#Reducción de PG máximos]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMummyLord00000.items.Hp6Uq0ZvymMIEGys.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @range.units activity=EsBmMUQMO4b0g6Yw]]",
+        "[[lookup @target.affects.special activity=EsBmMUQMO4b0g6Yw]]",
+        "[[lookup @target.template.size activity=EsBmMUQMO4b0g6Yw]]",
+        "[[lookup @target.template.units activity=EsBmMUQMO4b0g6Yw]]"
+      ],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNightHag000000.items.q6QIeb22Jwvnb6cR.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]",
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNightmare00000.items.mmEtherealStride.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @range.units activity=0EfvhIXAIPlYUiNE]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNoble000000000.items.vyPsPLDVgeQfiZcP.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @prof]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNobleProdigy00.items.mmSpellcasting00.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNothic00000000.items.mmRottingGaze000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @damage.onSave capitalize activity=k4jetEkSCPApNFgz]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNycaloth000000.items.mmShadowyTelepor.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNycaloth000000.items.mmMercurialAxe00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage average extended]]"
+      ],
+      "added": [
+        "[[/damage average]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmOchreJelly0000.items.mmSplit000000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]",
+        "[[lookup @name lowercase]]",
+        "[[lookup @name lowercase]]",
+        "[[lookup @name lowercase]]",
+        "[[lookup @name capitalize]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.IYnaRAbPSikYHp99.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.CfdgxlE2FD4F1rL6.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPixieWonderbri.items.nvZ5JjyGRPRtnuSD.effects.wn7K2m4XhXhItgPT.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=str skill=ath]]"
+      ],
+      "added": [
+        "[[/check ability=str skill=ath dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPoltergeist000.items.mmIncorporealMov.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage 1d10 average type=force]]"
+      ],
+      "added": [
+        "[[/damage 1d10 force average]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPoltergeist000.items.mmTelekineticThr.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]",
+        "[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]",
+        "[[/damage average]]",
+        "[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]"
+      ],
+      "added": [
+        "[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPoltergeist000.items.mmVanish00000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPoltergeist000.items.mmObjectSlam0000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriest00000000.items.mmSpellcasting00.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriestAcolyte0.items.Xuc1V3JdoGcGkuam.effects.OuM8iKhckcDKavOx.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/save ability=wis format=long]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmSeaHag00000000.items.xFcYJfM0OoEYYQns.effects.SrIb7dbaZs5F4zi9.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/check ability=int skill=inv]]"
+      ],
+      "added": [
+        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmShadowDragon00.items.mmShadowBreath00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=hvGQg4CsoCNgrjGy]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmSolar000000000.items.0lf6wzfUsp3jTIti.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/r 1d4*10]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.effects.z1lkguBohjqXRSHm.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&gt;25#Slowed spell cast success]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&gt;25#Éxito de lanzamiento ralentizado]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;=25#Slowed spell cast success]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;=25#Éxito de lanzamiento ralentizado]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmTrollLimb00000.items.mmTrollSpawn0000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d12#On a 12, the limb turns into a troll]]"
+      ],
+      "added": [
+        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmUltroloth00000.items.mmHypnoticGaze00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=Sc5RbdImboeEd4zt]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=Sc5RbdImboeEd4zt]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmUnicorn0000000.items.mmShimmeringShie.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]",
+        "[[/healing average temp]]"
+      ],
+      "added": [
+        "[[/healing average]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmYoungBlueDrago.items.mmLightningBreat.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmYoungBronzeDra.items.mmLightningBreat.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmYoungGreenDrag.items.mmPoisonBreath00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=lnabW9bM51HoluPp]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmYuantiAbominat.items.mmPoisonSpray000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=Ab1fnEh4JGShDFte]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=Ab1fnEh4JGShDFte]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmAcidSpray00000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=20GU2JBM5zJfNPD1]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=20GU2JBM5zJfNPD1]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmAntimagicCone0.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=7vRTku30dhIyBf68]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=7vRTku30dhIyBf68]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmBerserk0000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]",
+        "[[lookup @name lowercase]]",
+        "[[lookup @range.value activity=tnkOsrSwEElO2kZM]]",
+        "[[/check ability=cha skill=per dc=@abilities.str.dc]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmBlightSeeds000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d6#Seeds expelled]]"
+      ],
+      "added": [
+        "[[/r 1d6#Semillas expulsadas]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCataclysmicEve.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Cataclysmic Event]]"
+      ],
+      "added": [
+        "[[/r 1d4#Evento cataclísmico]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/check ability=str skill=ath format=long]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCelestialResto.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d6#Days]]"
+      ],
+      "added": [
+        "[[/r 1d6#Días]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCorruptingTouc.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/attack extended]]",
+        "[[/damage average extended]]"
+      ],
+      "added": [
+        "[[lookup @save.dc.value activity=F4cByCi1IEouN08a]]",
+        "[[lookup @target.affects.labels.statblock activity=F4cByCi1IEouN08a]]",
+        "[[lookup @name lowercase]]",
+        "[[lookup @range.value activity=F4cByCi1IEouN08a]]",
+        "[[/damage average]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCounterattack0.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .cWEx0aUNtgAiphWk]]",
+        "[[/item .UYIXz9iBOnpRuR1H]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmCreateWhirlwin.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage average]]"
+      ],
+      "added": [
+        "[[/damage average activity=vxRsrpVaHxa02z8F]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmDrainingSwipe0.effects.6AjyMN83LppkkgC3.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmEruption000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmElementalBurst]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmEtherealStride.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @range.units activity=0EfvhIXAIPlYUiNE]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmGnash000000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @damage.onSave capitalize activity=CNoawEWxNhs5HRIk]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmGraspingGlob00.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmRestrainingGlo]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmHagsSwipe00000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmSpectralClaw00]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmHungerOfYeenog.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=sIJYYjLHqCAPxOLm]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=sIJYYjLHqCAPxOLm]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmHypnoticGaze00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=Sc5RbdImboeEd4zt]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=Sc5RbdImboeEd4zt]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLashingGoop000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmPseudopod00000]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmMagicRope00000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmEntanglingRope]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmMercurialAxe00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage average extended]]"
+      ],
+      "added": [
+        "[[/damage average]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmMindBlast00000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=lHIQgEzz6hc3hjWx]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=lHIQgEzz6hc3hjWx]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmMindrendingRoa.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.units activity=zPMfwwIoTFzIrN5H]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmNegativeEnergy.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]",
+        "[[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=TLqcxF6OYH0LweRo]]",
+        "[[lookup @target.affects.type activity=TLqcxF6OYH0LweRo]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmOnslaught00000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmClaw0000000000]]",
+        "[[/item .mmTail0000000000]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmPoisonSpray000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.template.type capitalize activity=Ab1fnEh4JGShDFte]]"
+      ],
+      "added": [
+        "[[lookup @target.template.type activity=Ab1fnEh4JGShDFte]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmPortent0000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.affects.special activity=uGaJoaDIgntkFbDg]]"
+      ],
+      "added": [
+        "[[lookup @target.affects.special activity=4pPRsHy9QaQvVgqt]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmRavage00000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.affects.special activity=TH3dFl51uS33f80l]]",
+        "[[lookup @activation.condition activity=TH3dFl51uS33f80l]]"
+      ],
+      "added": [
+        "[[lookup @target.affects.special activity=Gi7NHst31Yf0KVM9]]",
+        "[[lookup @activation.condition activity=Gi7NHst31Yf0KVM9]]",
+        "[[/damage 2d8 slashing average]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmReflexiveAnten.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmAntennae000000]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmRottingGaze000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @damage.onSave capitalize activity=k4jetEkSCPApNFgz]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmShadowyTelepor.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @name lowercase]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmShimmeringShie.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]",
+        "[[/healing average temp]]"
+      ],
+      "added": [
+        "[[/healing average]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmSickeningRay00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": [
+        "[[/attack extended]]",
+        "[[/damage average extended]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmSlow0000000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @attributes.spell.dc]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmSoulTome000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmBanishingClaw0]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmStakeToTheHear.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmStomp000000000.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item Slam]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmSwarmOfGraspin.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[lookup @activation.condition activity=hzeHzcSKHC4AvIJQ]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmTelekineticThr.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]",
+        "[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]",
+        "[[/damage average]]",
+        "[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]"
+      ],
+      "added": [
+        "[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmTentacleLash00.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @skills.ath.passive]]"
+      ],
+      "added": [
+        "[[lookup @skills.acr.passive]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmTransparent000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmTrollSpawn0000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d12#On a 12, the limb turns into a troll]]"
+      ],
+      "added": [
+        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmTusk0000000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/damage average activity=M8zolxGeUsp7MCgI]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmUmbralStrike00.description",
+      "kind": "command-difference",
+      "removed": [],
+      "added": [
+        "[[/item .mmGraveStrike000]]",
+        "[[/item .mmSickeningRay00]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmWaterSusceptib.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[lookup @name lowercase]]"
+      ],
+      "added": []
+    },
+    {
+      "pack": "tables",
+      "path": "entries.mmRocNestRemnant.results.2E5DPhugEzWfnRy1.text",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d4#Eggs]]"
+      ],
+      "added": [
+        "[[/r 1d4#Huevos]]"
+      ]
+    }
+  ],
+  "englishResidues": [
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientCopperD.items.mmGigglingMagic0.description",
+      "found": "Ability Check",
+      "expected": "Prueba de característica"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
+      "found": "Saving Throw",
+      "expected": "Tirada de salvación"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmArchhag0000000.items.mmLegendaryResis.activities.nLPRJi7ipeAet7ir.activation.condition",
+      "found": "Saving Throw",
+      "expected": "Tirada de salvación"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
+      "found": "Saving Throw",
+      "expected": "Tirada de salvación"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition",
+      "found": "Hit Points",
+      "expected": "Puntos de golpe"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description",
+      "found": "Saving Throw",
+      "expected": "Tirada de salvación"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description",
+      "found": "Saving Throw",
+      "expected": "Tirada de salvación"
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmAnimalSpirit00.description",
+      "found": "Hit Points",
+      "expected": "Puntos de golpe"
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description",
+      "found": "Charmed",
+      "expected": "Hechizado"
+    }
+  ],
+  "deprecatedSpanish": [
+    {
+      "pack": "actors",
+      "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.activities.54pvTrWlc7CB2ra6.name",
+      "found": "Atemorizado",
+      "expected": "Asustado"
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPhaseSpider000.items.mmEtherealJaunt0.name",
+      "found": "Tránsito etéreo",
+      "expected": "Salto etéreo"
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmEtherealJaunt0.name",
+      "found": "Tránsito etéreo",
+      "expected": "Salto etéreo"
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.activities.54pvTrWlc7CB2ra6.name",
+      "found": "Atemorizado",
+      "expected": "Asustado"
+    }
+  ],
+  "probableEnglishFields": [
+    {
+      "pack": "actors",
+      "path": "entries.mmAdultBrassDrag.items.nVRTlv14fzhoDhWf.description",
+      "markers": 55,
+      "words": 156
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description",
+      "markers": 4,
+      "words": 19
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientCopperD.items.mmGigglingMagic0.description",
+      "markers": 12,
+      "words": 61
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGoldDra.items.mmWeakeningBreat.description",
+      "markers": 23,
+      "words": 62
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGoldDra.items.8fyeR6xiLPhR9TgR.description",
+      "markers": 31,
+      "words": 76
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGreenDr.items.mmPoisonBreath00.description",
+      "markers": 5,
+      "words": 18
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.effects.ayfixWGhTtaIUusk.description",
+      "markers": 20,
+      "words": 42
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
+      "markers": 109,
+      "words": 345
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAnimalLord0000.items.mmLordlyPresence.effects.gZ5h0K8uFTRui7av.description",
+      "markers": 8,
+      "words": 23
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmAnimalLord0000.items.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description",
+      "markers": 8,
+      "words": 20
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
+      "markers": 109,
+      "words": 345
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmGreenDragonWyr.items.mmPoisonBreath00.description",
+      "markers": 5,
+      "words": 18
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNightHag000000.items.YL2yDZHhJnpRigTh.effects.4k92Sjfpcm5bnguO.description",
+      "markers": 21,
+      "words": 52
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNobleProdigy00.items.Jnn25hKp9FEjaHsk.effects.Bv3EoHGfYCprLdG1.description",
+      "markers": 14,
+      "words": 26
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmNobleProdigy00.items.JQoWeGhzIxKWQv7I.effects.KjjRlnccDwmAY7gG.description",
+      "markers": 22,
+      "words": 47
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition",
+      "markers": 11,
+      "words": 19
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.LcdboPtDut4HQJfr.description",
+      "markers": 55,
+      "words": 156
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.fkctWMs3HtVhRarn.effects.RMeb9TUrFdhXMTzz.description",
+      "markers": 13,
+      "words": 34
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.etY0sDrXe6DcFEzc.description",
+      "markers": 12,
+      "words": 32
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.QUWVMgg2HidYsUxy.description",
+      "markers": 12,
+      "words": 32
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.vyf4vVVoGkZPyAqa.description",
+      "markers": 12,
+      "words": 32
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.0EAyGy8YaKbvgvkm.description",
+      "markers": 12,
+      "words": 32
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description",
+      "markers": 14,
+      "words": 25
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description",
+      "markers": 14,
+      "words": 25
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmUnicorn0000000.items.tqXlS6FGdENkOvOt.description",
+      "markers": 31,
+      "words": 76
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmAnimalSpirit00.description",
+      "markers": 21,
+      "words": 99
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description",
+      "markers": 8,
+      "words": 20
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.description",
+      "markers": 36,
+      "words": 97
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description",
+      "markers": 9,
+      "words": 19
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.effects.BR99gMLiBwIoLHVU.description",
+      "markers": 4,
+      "words": 12
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmLordlyPresence.effects.gZ5h0K8uFTRui7av.description",
+      "markers": 8,
+      "words": 23
+    }
+  ],
+  "summary": {
+    "missingEntries": 0,
+    "extraEntries": 0,
+    "invalidReferences": 14,
+    "macroMutations": 140,
+    "englishResidues": 12,
+    "deprecatedSpanish": 4,
+    "probableEnglishFields": 31,
+    "probableEnglishByPack": {
+      "actors": 25,
+      "features": 6
+    }
+  }
+}
