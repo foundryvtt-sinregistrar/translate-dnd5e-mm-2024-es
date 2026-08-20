@@ -6,9 +6,9 @@
 - Extra Spanish entries: 0
 - Invalid internal references: 0
 - Macro mutation candidates: 99
-- Visible English terminology residues: 12
+- Visible English terminology residues: 6
 - Deprecated Spanish terminology occurrences: 4
-- Probable untranslated English fields: 31
+- Probable untranslated English fields: 15
 
 ## Pack structure
 
@@ -127,14 +127,8 @@
 ## Visible English terminology findings
 
 - `actors:entries.mmAncientCopperD.items.mmGigglingMagic0.description`: found=Ability Check, expected=Prueba de característica
-- `actors:entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description`: found=Charmed, expected=Hechizado
-- `actors:entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description`: found=Saving Throw, expected=Tirada de salvación
 - `actors:entries.mmArchhag0000000.items.mmLegendaryResis.activities.nLPRJi7ipeAet7ir.activation.condition`: found=Saving Throw, expected=Tirada de salvación
-- `actors:entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description`: found=Charmed, expected=Hechizado
-- `actors:entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description`: found=Saving Throw, expected=Tirada de salvación
 - `actors:entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition`: found=Hit Points, expected=Puntos de golpe
-- `actors:entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description`: found=Saving Throw, expected=Tirada de salvación
-- `actors:entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description`: found=Saving Throw, expected=Tirada de salvación
 - `features:entries.mmAnimalSpirit00.description`: found=Hit Points, expected=Puntos de golpe
 - `features:entries.mmLordlyPresence.description`: found=Charmed, expected=Hechizado
 - `features:entries.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description`: found=Charmed, expected=Hechizado
@@ -148,31 +142,15 @@
 
 ## Probable untranslated English fields
 
-- `actors:entries.mmAdultBrassDrag.items.nVRTlv14fzhoDhWf.description`: markers=55, words=156
 - `actors:entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description`: markers=4, words=19
 - `actors:entries.mmAncientCopperD.items.mmGigglingMagic0.description`: markers=12, words=61
 - `actors:entries.mmAncientGoldDra.items.mmWeakeningBreat.description`: markers=23, words=62
-- `actors:entries.mmAncientGoldDra.items.8fyeR6xiLPhR9TgR.description`: markers=31, words=76
 - `actors:entries.mmAncientGreenDr.items.mmPoisonBreath00.description`: markers=5, words=18
-- `actors:entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.effects.ayfixWGhTtaIUusk.description`: markers=20, words=42
-- `actors:entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description`: markers=109, words=345
 - `actors:entries.mmAnimalLord0000.items.mmLordlyPresence.effects.gZ5h0K8uFTRui7av.description`: markers=8, words=23
 - `actors:entries.mmAnimalLord0000.items.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description`: markers=8, words=20
-- `actors:entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description`: markers=109, words=345
 - `actors:entries.mmGreenDragonWyr.items.mmPoisonBreath00.description`: markers=5, words=18
-- `actors:entries.mmNightHag000000.items.YL2yDZHhJnpRigTh.effects.4k92Sjfpcm5bnguO.description`: markers=21, words=52
-- `actors:entries.mmNobleProdigy00.items.Jnn25hKp9FEjaHsk.effects.Bv3EoHGfYCprLdG1.description`: markers=14, words=26
-- `actors:entries.mmNobleProdigy00.items.JQoWeGhzIxKWQv7I.effects.KjjRlnccDwmAY7gG.description`: markers=22, words=47
 - `actors:entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition`: markers=11, words=19
-- `actors:entries.mmPlanetar000000.items.LcdboPtDut4HQJfr.description`: markers=55, words=156
 - `actors:entries.mmPlanetar000000.items.fkctWMs3HtVhRarn.effects.RMeb9TUrFdhXMTzz.description`: markers=13, words=34
-- `actors:entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.etY0sDrXe6DcFEzc.description`: markers=12, words=32
-- `actors:entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.QUWVMgg2HidYsUxy.description`: markers=12, words=32
-- `actors:entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.vyf4vVVoGkZPyAqa.description`: markers=12, words=32
-- `actors:entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.0EAyGy8YaKbvgvkm.description`: markers=12, words=32
-- `actors:entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description`: markers=14, words=25
-- `actors:entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description`: markers=14, words=25
-- `actors:entries.mmUnicorn0000000.items.tqXlS6FGdENkOvOt.description`: markers=31, words=76
 - `features:entries.mmAnimalSpirit00.description`: markers=21, words=99
 - `features:entries.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description`: markers=8, words=20
 - `features:entries.mmLordlyPresence.description`: markers=36, words=97

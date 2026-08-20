@@ -32,3 +32,10 @@ aligned English fields. Visible Spanish roll labels after `#` are preserved:
 ```powershell
 python dev-tools/pdf-audit/repair_foundry_commands.py --write
 ```
+
+Reuse reviewed PHB translations when an identical English spell or effect is
+embedded in a Monster Manual actor:
+
+```powershell
+python dev-tools/pdf-audit/sync_phb_embedded_text.py --write
+```

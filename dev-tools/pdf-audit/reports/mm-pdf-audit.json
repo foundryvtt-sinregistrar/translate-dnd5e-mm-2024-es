@@ -1051,31 +1051,7 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
-      "found": "Charmed",
-      "expected": "Hechizado"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
-      "found": "Saving Throw",
-      "expected": "Tirada de salvación"
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmArchhag0000000.items.mmLegendaryResis.activities.nLPRJi7ipeAet7ir.activation.condition",
-      "found": "Saving Throw",
-      "expected": "Tirada de salvación"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
-      "found": "Charmed",
-      "expected": "Hechizado"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
       "found": "Saving Throw",
       "expected": "Tirada de salvación"
     },
@@ -1084,18 +1060,6 @@
       "path": "entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition",
       "found": "Hit Points",
       "expected": "Puntos de golpe"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description",
-      "found": "Saving Throw",
-      "expected": "Tirada de salvación"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description",
-      "found": "Saving Throw",
-      "expected": "Tirada de salvación"
     },
     {
       "pack": "features",
@@ -1145,12 +1109,6 @@
   "probableEnglishFields": [
     {
       "pack": "actors",
-      "path": "entries.mmAdultBrassDrag.items.nVRTlv14fzhoDhWf.description",
-      "markers": 55,
-      "words": 156
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description",
       "markers": 4,
       "words": 19
@@ -1169,27 +1127,9 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmAncientGoldDra.items.8fyeR6xiLPhR9TgR.description",
-      "markers": 31,
-      "words": 76
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmAncientGreenDr.items.mmPoisonBreath00.description",
       "markers": 5,
       "words": 18
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.effects.ayfixWGhTtaIUusk.description",
-      "markers": 20,
-      "words": 42
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientGreenDr.items.LKsjPtvevuO1j4M6.description",
-      "markers": 109,
-      "words": 345
     },
     {
       "pack": "actors",
@@ -1205,33 +1145,9 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmArchhag0000000.items.gaOtjFhFZtfjnGJ4.description",
-      "markers": 109,
-      "words": 345
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmGreenDragonWyr.items.mmPoisonBreath00.description",
       "markers": 5,
       "words": 18
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmNightHag000000.items.YL2yDZHhJnpRigTh.effects.4k92Sjfpcm5bnguO.description",
-      "markers": 21,
-      "words": 52
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmNobleProdigy00.items.Jnn25hKp9FEjaHsk.effects.Bv3EoHGfYCprLdG1.description",
-      "markers": 14,
-      "words": 26
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmNobleProdigy00.items.JQoWeGhzIxKWQv7I.effects.KjjRlnccDwmAY7gG.description",
-      "markers": 22,
-      "words": 47
     },
     {
       "pack": "actors",
@@ -1241,57 +1157,9 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmPlanetar000000.items.LcdboPtDut4HQJfr.description",
-      "markers": 55,
-      "words": 156
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmPlanetar000000.items.fkctWMs3HtVhRarn.effects.RMeb9TUrFdhXMTzz.description",
       "markers": 13,
       "words": 34
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.etY0sDrXe6DcFEzc.description",
-      "markers": 12,
-      "words": 32
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.QUWVMgg2HidYsUxy.description",
-      "markers": 12,
-      "words": 32
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.vyf4vVVoGkZPyAqa.description",
-      "markers": 12,
-      "words": 32
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPlanetar000000.items.sHGzr73GjWhM74N0.effects.0EAyGy8YaKbvgvkm.description",
-      "markers": 12,
-      "words": 32
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPriest00000000.items.pTeocF4StpOtAxCp.effects.1dzvDffEh8wZ0oQy.description",
-      "markers": 14,
-      "words": 25
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPriestAcolyte0.items.RTN8hls1FRHQEPQh.effects.1dzvDffEh8wZ0oQy.description",
-      "markers": 14,
-      "words": 25
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmUnicorn0000000.items.tqXlS6FGdENkOvOt.description",
-      "markers": 31,
-      "words": 76
     },
     {
       "pack": "features",
@@ -1335,11 +1203,11 @@
     "extraEntries": 0,
     "invalidReferences": 0,
     "macroMutations": 99,
-    "englishResidues": 12,
+    "englishResidues": 6,
     "deprecatedSpanish": 4,
-    "probableEnglishFields": 31,
+    "probableEnglishFields": 15,
     "probableEnglishByPack": {
-      "actors": 25,
+      "actors": 9,
       "features": 6
     }
   }
