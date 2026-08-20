@@ -1,0 +1,67 @@
+{
+  "fingerprints": {
+    "source-command-correction": ["5410cb5293a473ca"],
+    "localized-static-equivalent": ["62c6e1c2989b9d15", "2622332feae795d2", "4e5cac0c15a06da2", "2ed8194d6683196b", "292bed319aa2e09f", "23e0b67993977dd0", "a820dbe6ae109197"],
+    "spanish-automation-enhancement": ["4834cd46695352f4", "844ded7109e20e8c", "c774c0a16f5cd681", "bc24204d96ab191b", "da88a91de4306678", "5102e13967fe2c72", "e1f1fb8df9565e12", "6575646fb17e4f65", "f08e3af4d6e0c76b", "225c48465c9fd434", "684e5240c0bd0251", "1472e3008bcf0e4a", "dd40a2713f2d43c1", "a337f23ad9de4b9f", "e3e23b7b8d1815ba", "9457b95429b32b48", "8b605be250d6f28c", "57809d394b83c87b", "902b421822e7799f"],
+    "source-version-divergence": ["46e7c6f500f2a380", "61fcc5315cc56e94", "e209e14d38c5c5fe", "7095d7241b036a22", "031fa8a3f5150674"]
+  },
+  "source-command-correction": [
+    "actors:entries.mmAncientGoldDra.items.mmMultiattack000.description"
+  ],
+  "localized-static-equivalent": [
+    "actors:entries.mmEttercap000000.items.mmBite0000000000.effects.Mbzt84HngDw6JyWm.description",
+    "actors:entries.mmFireElemental0.items.mmWaterSusceptib.description",
+    "actors:entries.mmGelatinousCube.items.mmTransparent000.description",
+    "actors:entries.mmNightmare00000.items.mmEtherealStride.description",
+    "actors:entries.mmNoble000000000.items.vyPsPLDVgeQfiZcP.description",
+    "actors:entries.mmOchreJelly0000.items.mmSplit000000000.description",
+    "actors:entries.mmYoungBlueDrago.items.mmLightningBreat.description",
+    "features:entries.mmDrainingSwipe0.effects.6AjyMN83LppkkgC3.description",
+    "features:entries.mmEtherealStride.description",
+    "features:entries.mmMindrendingRoa.description",
+    "features:entries.mmStakeToTheHear.description",
+    "features:entries.mmTransparent000.description",
+    "features:entries.mmWaterSusceptib.description"
+  ],
+  "spanish-automation-enhancement": [
+    "actors:entries.mmFaerieDragonAd.items.P6aIXlIJ6aMTJYdI.description",
+    "actors:entries.mmFaerieDragonYo.items.RvZKaiCjENNT9evZ.description",
+    "actors:entries.mmGiantElk000000.items.mmRam00000000000.description",
+    "actors:entries.mmModronDuodrone.items.jbso67HYFgxJVoyJ.description",
+    "actors:entries.mmNightHag000000.items.q6QIeb22Jwvnb6cR.description",
+    "actors:entries.mmNobleProdigy00.items.mmSpellcasting00.description",
+    "actors:entries.mmNothic00000000.items.mmRottingGaze000.description",
+    "actors:entries.mmNycaloth000000.items.mmShadowyTelepor.description",
+    "actors:entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.IYnaRAbPSikYHp99.description",
+    "actors:entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.CfdgxlE2FD4F1rL6.description",
+    "actors:entries.mmPoltergeist000.items.mmVanish00000000.description",
+    "actors:entries.mmPoltergeist000.items.mmObjectSlam0000.description",
+    "actors:entries.mmPriest00000000.items.mmSpellcasting00.description",
+    "actors:entries.mmSolar000000000.items.0lf6wzfUsp3jTIti.description",
+    "features:entries.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description",
+    "features:entries.mmCounterattack0.description",
+    "features:entries.mmEruption000000.description",
+    "features:entries.mmGnash000000000.description",
+    "features:entries.mmGraspingGlob00.description",
+    "features:entries.mmHagsSwipe00000.description",
+    "features:entries.mmLashingGoop000.description",
+    "features:entries.mmMagicRope00000.description",
+    "features:entries.mmOnslaught00000.description",
+    "features:entries.mmReflexiveAnten.description",
+    "features:entries.mmRottingGaze000.description",
+    "features:entries.mmShadowyTelepor.description",
+    "features:entries.mmSlow0000000000.description",
+    "features:entries.mmSoulTome000000.description",
+    "features:entries.mmStomp000000000.description",
+    "features:entries.mmSwarmOfGraspin.description",
+    "features:entries.mmUmbralStrike00.description"
+  ],
+  "source-version-divergence": [
+    "actors:entries.mmMummyLord00000.items.Hp6Uq0ZvymMIEGys.description",
+    "actors:entries.mmPoltergeist000.items.mmTelekineticThr.description",
+    "features:entries.mmCorruptingTouc.description",
+    "features:entries.mmRavage00000000.description",
+    "features:entries.mmSickeningRay00.description",
+    "features:entries.mmTelekineticThr.description"
+  ]
+}

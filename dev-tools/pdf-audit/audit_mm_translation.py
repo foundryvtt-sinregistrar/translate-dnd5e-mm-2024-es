@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -17,6 +18,7 @@ COMPENDIUM = ROOT / "compendium"
 ENGLISH = ROOT / "dev-tools" / "export" / "data"
 PDF_DIR = ROOT / "dev-tools" / "export" / "_data" / "pdf"
 TERMS_FILE = Path(__file__).with_name("official-terms.es.json")
+REVIEWED_COMMANDS_FILE = Path(__file__).with_name("reviewed-command-differences.json")
 PACKS = ("actors", "content", "features", "tables")
 
 PROTECTED = re.compile(
@@ -102,12 +104,20 @@ def pdf_statistics() -> dict[str, Any]:
 def run_audit() -> dict[str, Any]:
     spanish, english = load_packs()
     terms = load_json(TERMS_FILE)
+    reviewed_groups = load_json(REVIEWED_COMMANDS_FILE)
+    reviewed_fingerprints = reviewed_groups.pop("fingerprints")
+    reviewed_commands = {
+        key: category
+        for category, keys in reviewed_groups.items()
+        for key in keys
+    }
     canonical = {**terms["actions"], **terms["conditions"], **terms["rules"]}
     identifiers = {pack: set(data.get("entries", {})) for pack, data in spanish.items()}
     structure: dict[str, Any] = {}
     references = 0
     invalid_references: list[dict[str, str]] = []
     macro_mutations: list[dict[str, str]] = []
+    reviewed_macro_differences: list[dict[str, str]] = []
     residues: list[dict[str, str]] = []
     deprecated_hits: list[dict[str, str]] = []
     probable_english: list[dict[str, Any]] = []
@@ -170,19 +180,34 @@ def run_audit() -> dict[str, Any]:
                 removed = source_commands - translated_commands
                 added = translated_commands - source_commands
                 if removed or added:
-                    macro_mutations.append({
+                    finding = {
                         "pack": pack,
                         "path": path,
                         "kind": "command-difference",
                         "removed": list(removed.elements()),
                         "added": list(added.elements()),
-                    })
+                    }
+                    review_category = reviewed_commands.get(f"{pack}:{path}")
+                    fingerprint_payload = json.dumps(
+                        {"removed": finding["removed"], "added": finding["added"]},
+                        ensure_ascii=False,
+                        sort_keys=True,
+                        separators=(",", ":"),
+                    )
+                    fingerprint = hashlib.sha256(fingerprint_payload.encode()).hexdigest()[:16]
+                    if review_category and fingerprint in reviewed_fingerprints[review_category]:
+                        finding["reviewCategory"] = review_category
+                        finding["fingerprint"] = fingerprint
+                        reviewed_macro_differences.append(finding)
+                    else:
+                        macro_mutations.append(finding)
 
     return {
         "pdf": pdf_statistics(),
         "structure": structure,
         "references": {"checked": references, "invalid": invalid_references},
         "macroMutations": macro_mutations,
+        "reviewedMacroDifferences": reviewed_macro_differences,
         "englishResidues": residues,
         "deprecatedSpanish": deprecated_hits,
         "probableEnglishFields": probable_english,
@@ -191,6 +216,7 @@ def run_audit() -> dict[str, Any]:
             "extraEntries": sum(len(row["extra"]) for row in structure.values()),
             "invalidReferences": len(invalid_references),
             "macroMutations": len(macro_mutations),
+            "reviewedMacroDifferences": len(reviewed_macro_differences),
             "englishResidues": len(residues),
             "deprecatedSpanish": len(deprecated_hits),
             "probableEnglishFields": len(probable_english),
@@ -207,6 +233,7 @@ def markdown(report: dict[str, Any]) -> str:
         f"- Extra Spanish entries: {summary['extraEntries']}",
         f"- Invalid internal references: {summary['invalidReferences']}",
         f"- Macro mutation candidates: {summary['macroMutations']}",
+        f"- Reviewed command differences: {summary['reviewedMacroDifferences']}",
         f"- Visible English terminology residues: {summary['englishResidues']}",
         f"- Deprecated Spanish terminology occurrences: {summary['deprecatedSpanish']}",
         f"- Probable untranslated English fields: {summary['probableEnglishFields']}",
@@ -222,6 +249,7 @@ def markdown(report: dict[str, Any]) -> str:
     sections = (
         ("Invalid internal references", report["references"]["invalid"]),
         ("Macro mutation candidates", report["macroMutations"]),
+        ("Reviewed command differences", report["reviewedMacroDifferences"]),
         ("Visible English terminology findings", report["englishResidues"]),
         ("Deprecated Spanish terminology", report["deprecatedSpanish"]),
         ("Probable untranslated English fields", report["probableEnglishFields"]),
