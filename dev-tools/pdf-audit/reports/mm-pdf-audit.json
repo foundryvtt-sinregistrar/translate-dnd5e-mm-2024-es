@@ -1,9 +1,9 @@
 {
   "pdf": {
     "files": 385,
-    "characters": 0,
-    "blankFiles": 385,
-    "warning": "All PDF pages are scanned images; OCR is required for corpus searches."
+    "characters": null,
+    "blankFiles": null,
+    "warning": "Install pypdf to inspect the local PDF files."
   },
   "structure": {
     "actors": {
@@ -193,33 +193,6 @@
       "added": [
         "[[lookup @name lowercase]]"
       ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGrick000000000.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=str skill=ath format=long]]"
-      ],
-      "added": []
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGrickAncient00.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=str skill=ath format=long]]"
-      ],
-      "added": []
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGriffon0000000.items.mmRend0000000000.effects.FqB7QZZZTiN3trAC.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=str skill=ath format=long]]"
-      ],
-      "added": []
     },
     {
       "pack": "actors",
@@ -472,15 +445,6 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmPriestAcolyte0.items.Xuc1V3JdoGcGkuam.effects.OuM8iKhckcDKavOx.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/save ability=wis format=long]]"
-      ],
-      "added": []
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmSolar000000000.items.0lf6wzfUsp3jTIti.description",
       "kind": "command-difference",
       "removed": [],
@@ -523,34 +487,10 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmUnicorn0000000.items.mmShimmeringShie.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]",
-        "[[/healing average temp]]"
-      ],
-      "added": [
-        "[[/healing average]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmYoungBlueDrago.items.mmLightningBreat.description",
       "kind": "command-difference",
       "removed": [
         "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
-      ],
-      "added": []
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmBerserk0000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]",
-        "[[lookup @name lowercase]]",
-        "[[lookup @range.value activity=tnkOsrSwEElO2kZM]]",
-        "[[/check ability=cha skill=per dc=@abilities.str.dc]]"
       ],
       "added": []
     },
@@ -756,18 +696,6 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmShimmeringShie.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]",
-        "[[/healing average temp]]"
-      ],
-      "added": [
-        "[[/healing average]]"
-      ]
-    },
-    {
-      "pack": "features",
       "path": "entries.mmSickeningRay00.description",
       "kind": "command-difference",
       "removed": [
@@ -904,7 +832,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
-    "macroMutations": 84,
+    "macroMutations": 77,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
     "probableEnglishFields": 0,

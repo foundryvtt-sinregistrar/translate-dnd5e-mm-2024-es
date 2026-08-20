@@ -5,7 +5,7 @@
 - Missing Spanish entries: 0
 - Extra Spanish entries: 0
 - Invalid internal references: 0
-- Macro mutation candidates: 84
+- Macro mutation candidates: 77
 - Visible English terminology residues: 0
 - Deprecated Spanish terminology occurrences: 0
 - Probable untranslated English fields: 0
@@ -39,9 +39,6 @@
 - `actors:entries.mmGasSporeFungus.items.mmDeathBurst0000.effects.b2GcNj2sMZJWDisn.description`: kind=command-difference, removed=['[[/r 1d12#Hours]]'], added=['[[/r 1d12#Horas]]']
 - `actors:entries.mmGelatinousCube.items.mmTransparent000.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=[]
 - `actors:entries.mmGiantElk000000.items.mmRam00000000000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
-- `actors:entries.mmGrick000000000.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]
-- `actors:entries.mmGrickAncient00.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]
-- `actors:entries.mmGriffon0000000.items.mmRend0000000000.effects.FqB7QZZZTiN3trAC.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]
 - `actors:entries.mmGuardianNaga00.items.mmCelestialResto.description`: kind=command-difference, removed=['[[/r 1d6#Days]]'], added=['[[/r 1d6#Días]]']
 - `actors:entries.mmGulthiasBlight.items.mmBlightSeeds000.description`: kind=command-difference, removed=['[[/r 1d6#Seeds expelled]]'], added=['[[/r 1d6#Semillas expulsadas]]']
 - `actors:entries.mmMarid000000000.items.mmElementalResto.description`: kind=command-difference, removed=['[[/r 1d4#Days]]'], added=['[[/r 1d4#Días]]']
@@ -66,14 +63,11 @@
 - `actors:entries.mmPoltergeist000.items.mmVanish00000000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
 - `actors:entries.mmPoltergeist000.items.mmObjectSlam0000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
 - `actors:entries.mmPriest00000000.items.mmSpellcasting00.description`: kind=command-difference, removed=[], added=['[[lookup @attributes.spell.dc]]']
-- `actors:entries.mmPriestAcolyte0.items.Xuc1V3JdoGcGkuam.effects.OuM8iKhckcDKavOx.description`: kind=command-difference, removed=['[[/save ability=wis format=long]]'], added=[]
 - `actors:entries.mmSolar000000000.items.0lf6wzfUsp3jTIti.description`: kind=command-difference, removed=[], added=['[[/r 1d4*10]]']
 - `actors:entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.effects.z1lkguBohjqXRSHm.description`: kind=command-difference, removed=['[[/r 1d100cs&gt;25#Slowed spell cast success]]'], added=['[[/r 1d100cs&gt;25#Éxito de lanzamiento ralentizado]]']
 - `actors:entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.description`: kind=command-difference, removed=['[[/r 1d100cs&lt;=25#Slowed spell cast success]]'], added=['[[/r 1d100cs&lt;=25#Éxito de lanzamiento ralentizado]]']
 - `actors:entries.mmTrollLimb00000.items.mmTrollSpawn0000.description`: kind=command-difference, removed=['[[/r 1d12#On a 12, the limb turns into a troll]]'], added=['[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]']
-- `actors:entries.mmUnicorn0000000.items.mmShimmeringShie.description`: kind=command-difference, removed=['[[lookup @name lowercase]]', '[[/healing average temp]]'], added=['[[/healing average]]']
 - `actors:entries.mmYoungBlueDrago.items.mmLightningBreat.description`: kind=command-difference, removed=['[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]'], added=[]
-- `features:entries.mmBerserk0000000.description`: kind=command-difference, removed=['[[lookup @name lowercase]]', '[[lookup @name lowercase]]', '[[lookup @range.value activity=tnkOsrSwEElO2kZM]]', '[[/check ability=cha skill=per dc=@abilities.str.dc]]'], added=[]
 - `features:entries.mmBlightSeeds000.description`: kind=command-difference, removed=['[[/r 1d6#Seeds expelled]]'], added=['[[/r 1d6#Semillas expulsadas]]']
 - `features:entries.mmCataclysmicEve.description`: kind=command-difference, removed=['[[/r 1d4#Cataclysmic Event]]'], added=['[[/r 1d4#Evento cataclísmico]]']
 - `features:entries.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description`: kind=command-difference, removed=[], added=['[[/check ability=str skill=ath format=long]]']
@@ -94,7 +88,6 @@
 - `features:entries.mmReflexiveAnten.description`: kind=command-difference, removed=[], added=['[[/item .mmAntennae000000]]']
 - `features:entries.mmRottingGaze000.description`: kind=command-difference, removed=[], added=['[[lookup @damage.onSave capitalize activity=k4jetEkSCPApNFgz]]']
 - `features:entries.mmShadowyTelepor.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
-- `features:entries.mmShimmeringShie.description`: kind=command-difference, removed=['[[lookup @name lowercase]]', '[[/healing average temp]]'], added=['[[/healing average]]']
 - `features:entries.mmSickeningRay00.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=['[[/attack extended]]', '[[/damage average extended]]']
 - `features:entries.mmSlow0000000000.description`: kind=command-difference, removed=[], added=['[[lookup @attributes.spell.dc]]']
 - `features:entries.mmSoulTome000000.description`: kind=command-difference, removed=[], added=['[[/item .mmBanishingClaw0]]']

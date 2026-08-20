@@ -488,7 +488,7 @@
           "name": "Comprobación de frenesí"
         }
       },
-      "description": "<p>Siempre que el [[lookup @name lowercase]] comience su turno &amp;Reference[Bloodied], tira [[/r 1d6]]. Con un 6, el [[lookup @name lowercase]] entra en frenesí. En cada uno de sus turnos mientras está en frenesí, el [[lookup @name lowercase]] ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, el [[lookup @name lowercase]] ataca un objeto. Una vez que el [[lookup @name lowercase]] entra en frenesí, permanece así hasta que es destruido o deja de estar Maltrecho.</p>",
+      "description": "<p>Siempre que el [[lookup @name lowercase]] comience su turno &amp;Reference[Bloodied], tira [[/r 1d6]]. Con un 6, el [[lookup @name lowercase]] entra en frenesí. En cada uno de sus turnos mientras está en frenesí, el [[lookup @name lowercase]] ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, el [[lookup @name lowercase]] ataca un objeto. Una vez que el [[lookup @name lowercase]] entra en frenesí, permanece así hasta que es destruido o deja de estar Maltrecho.</p><p>El creador del [[lookup @name lowercase]], si se encuentra a [[lookup @range.value activity=tnkOsrSwEElO2kZM]] pies o menos del [[lookup @name lowercase]] en frenesí, puede intentar calmarlo usando una acción para realizar una [[/check ability=cha skill=per dc=@abilities.str.dc]] CD 15; el gólem debe poder oír a su creador. Si la prueba tiene éxito, el gólem deja de estar en frenesí hasta el comienzo de su siguiente turno, momento en el que vuelve a tirar por este rasgo si aún está Maltrecho.</p>",
       "effects": {
         "8SBNBxgUqwEyYJcK": {
           "description": "<p>En cada uno de sus turnos mientras está en frenesí, la criatura ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, la criatura ataca un objeto. Una vez que la criatura entra en frenesí, permanece así hasta que es destruida o deja de estar &amp;Reference[Bloodied apply=false].</p>",
@@ -4923,7 +4923,7 @@
           "name": "Curación temporal"
         }
       },
-      "description": "<p>El [[lookup @name lowercase]] se elige a sí mismo o elige a un [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] que pueda ver a [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] pies o menos de sí. El objetivo gana [[/healing average]] puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
+      "description": "<p>El [[lookup @name lowercase]] se elige a sí mismo o elige a un [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] que pueda ver a [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] pies o menos de sí. El objetivo gana [[/healing average temp]] puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
       "effects": {
         "sGQwUaOCcVnE2PA7": {
           "description": "<p>La CA del objetivo aumenta en 2 hasta el final del siguiente turno de quien otorga el beneficio.</p>",

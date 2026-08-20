@@ -17541,7 +17541,7 @@
           "effects": {
             "GyZrmzBP0NB8oRZI": {
               "name": "Agarrado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado}.</p>"
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD para escapar [[/check ability=str skill=ath format=long]]; consulta el objeto de origen para conocer la CD).</p>"
             }
           },
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por los cuatro tentáculos.</p>"
@@ -17587,7 +17587,7 @@
           "effects": {
             "GyZrmzBP0NB8oRZI": {
               "name": "Agarrado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado}.</p>"
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD para escapar [[/check ability=str skill=ath format=long]]; consulta el objeto de origen para conocer la CD).</p>"
             }
           },
           "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Grande o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por los cuatro tentáculos.</p>"
@@ -17619,7 +17619,7 @@
           "effects": {
             "FqB7QZZZTiN3trAC": {
               "name": "Agarrado",
-              "description": "<p>El objetivo tiene la condición &amp;Reference[Grappled apply=false]{Agarrado}.</p>"
+              "description": "<p>Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD para escapar [[/check ability=str skill=ath format=long]]; la presa usa las dos garras delanteras de la criatura atacante y la CD figura en el objeto de origen).</p>"
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña, tiene la condición &amp;Reference[Grappled apply=false]{Agarrado} (CD de escape [[lookup @skills.ath.passive]]) por ambas garras delanteras del [[lookup @name lowercase]].</p>"
@@ -25921,7 +25921,7 @@
             },
             "OuM8iKhckcDKavOx": {
               "name": "Protegido",
-              "description": "<p>Hasta que termine el conjuro, cualquier criatura que elija como objetivo a la criatura protegida con una tirada de ataque o un conjuro dañino debe superar una tirada de salvación de Sabiduría o elegir un nuevo objetivo o perder el ataque o el conjuro.</p>"
+              "description": "<p>Hasta que termine el conjuro, cualquier criatura que elija como objetivo a la criatura protegida con una tirada de ataque o un conjuro dañino debe superar una [[/save ability=wis format=long]] o elegir un nuevo objetivo o perder el ataque o el conjuro.</p><p>El conjuro termina si la criatura protegida realiza una tirada de ataque, lanza un conjuro o inflige daño.</p>"
             }
           },
           "description": "<div><p>Proteges a una criatura dentro del alcance. Hasta que termine el conjuro, cualquier criatura que elija como objetivo a la criatura protegida con una tirada de ataque o un conjuro dañino debe superar una [[/save ability=wis dc=@attributes.spell.dc format=long]] o elegir un nuevo objetivo o perder el ataque o el conjuro. Este conjuro no protege a la criatura protegida contra áreas de efecto. El conjuro termina si la criatura protegida hace una tirada de ataque, lanza un conjuro o inflige daño.</p></div>"
@@ -31863,7 +31863,7 @@
         },
         "mmShimmeringShie": {
           "name": "Escudo reluciente",
-          "description": "<p>El [[lookup @name lowercase]] se elige a sí mismo o elige a un [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] que pueda ver a [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] pies o menos de sí. El objetivo gana [[/healing average]] puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del [[lookup @name lowercase]].</p>",
+          "description": "<p>El [[lookup @name lowercase]] se elige a sí mismo o elige a un [[lookup @target.affects.type activity=sl8NoPhB0e5z6jmK]] que pueda ver a [[lookup @range.value activity=sl8NoPhB0e5z6jmK]] pies o menos de sí. El objetivo gana [[/healing average temp]] puntos de golpe temporales y su CA aumenta en 2 hasta el final del siguiente turno del [[lookup @name lowercase]]. El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
           "activities": {
             "sl8NoPhB0e5z6jmK": {
               "name": "Curación temporal"
