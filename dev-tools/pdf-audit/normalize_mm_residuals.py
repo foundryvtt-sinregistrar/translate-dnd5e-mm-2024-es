@@ -5,12 +5,29 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[2]
 COMPENDIUM = ROOT / "compendium"
+PROTECTED = re.compile(
+    r"@(?:UUID|Embed)\[[^\]]*\](?:\{[^}]*\})?"
+    r"|&(?:amp;)?Reference\[[^\]]*\](?:\{[^}]*\})?"
+    r"|\[\[[^\]]*\]\]|<[^>]+>"
+)
+COMMON_REPLACEMENTS = {
+    "DC ": "CD ",
+    "each ": "cada ",
+    " in a ": " en un ",
+    " damage.": " de daño.",
+    "Half damage": "La mitad del daño",
+    "The target": "El objetivo",
+    " has the ": " tiene la ",
+    " condition ": " condición ",
+    " minute.": " minuto.",
+}
 
 
 ANIMAL_SPIRIT = (
@@ -43,6 +60,7 @@ LORDLY_PRESENCE = (
 
 
 UPDATES: dict[str, dict[str, str]] = {
+    "content": {},
     "actors": {
         "entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description":
             '<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante la duración (consulta el objeto de origen para conocer la duración).</p>',
@@ -94,6 +112,48 @@ def set_path(data: dict[str, Any], path: str, value: str) -> bool:
     return changed
 
 
+def normalize_visible(text: str) -> tuple[str, int]:
+    output: list[str] = []
+    cursor = 0
+    changes = 0
+    for match in PROTECTED.finditer(text):
+        segment = text[cursor:match.start()]
+        for source, target in COMMON_REPLACEMENTS.items():
+            count = segment.count(source)
+            segment = segment.replace(source, target)
+            changes += count
+        output.extend((segment, match.group(0)))
+        cursor = match.end()
+    segment = text[cursor:]
+    for source, target in COMMON_REPLACEMENTS.items():
+        count = segment.count(source)
+        segment = segment.replace(source, target)
+        changes += count
+    output.append(segment)
+    return "".join(output), changes
+
+
+def normalize_tree(value: Any) -> tuple[Any, int]:
+    if isinstance(value, dict):
+        result = {}
+        changes = 0
+        for key, child in value.items():
+            result[key], count = normalize_tree(child)
+            changes += count
+        return result, changes
+    if isinstance(value, list):
+        result = []
+        changes = 0
+        for child in value:
+            normalized, count = normalize_tree(child)
+            result.append(normalized)
+            changes += count
+        return result, changes
+    if isinstance(value, str):
+        return normalize_visible(value)
+    return value, 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--write", action="store_true")
@@ -103,6 +163,8 @@ def main() -> None:
         path = COMPENDIUM / f"dnd-monster-manual.{pack}.json"
         data = json.loads(path.read_text(encoding="utf-8-sig"))
         changes = sum(set_path(data, field, value) for field, value in updates.items())
+        data, common_changes = normalize_tree(data)
+        changes += common_changes
         if args.write and changes:
             path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"{pack}: {changes} reviewed field(s) normalized")

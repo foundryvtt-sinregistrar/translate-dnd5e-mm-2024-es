@@ -775,7 +775,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
         },
         "mmSleepBreath000": {
           "name": "Aliento somnífero",
@@ -925,7 +925,7 @@
               "description": "<p>El objetivo’s Velocidad is halved hasta el final de su siguiente turno</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> DC [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>"
         }
       }
     },
@@ -966,7 +966,7 @@
         },
         "mmLightningBreat": {
           "name": "Aliento relampagueante",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en un [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-pies de largo y [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en un [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-pies de largo y [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
         },
         "mmRepulsionBreat": {
           "name": "Aliento repulsor",
@@ -1162,7 +1162,7 @@
         },
         "mmAcidBreath0000": {
           "name": "Aliento ácido",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en un [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>"
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], cada [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en un [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>"
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
@@ -1334,7 +1334,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
@@ -1501,7 +1501,7 @@
               "name": "Salvación"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=lnabW9bM51HoluPp]] de daño.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-foot [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=lnabW9bM51HoluPp]] de daño.</p>"
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
@@ -1626,7 +1626,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>"
         },
         "mmCommandingPres": {
           "name": "Presencia imponente",
@@ -2272,7 +2272,7 @@
         },
         "mmLightningBreat": {
           "name": "Aliento relampagueante",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], each [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] in a [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-pies-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-pies-wide Line</p><p><em>Fallo: </em>[[/damage average]] damage.</p><p><em>Éxito:</em> Mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en un [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-pies-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-pies-wide Line</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad del daño.</p>",
           "activities": {
             "LpjgVwftzGNMgTUJ": {}
           }
@@ -2471,7 +2471,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de largo y [[lookup @target.template.width activity=bDqgmtLG3zcVuqdi]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>",
           "activities": {
             "bDqgmtLG3zcVuqdi": {}
           }
@@ -2496,7 +2496,7 @@
               "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante la duración (consulta el objeto de origen para conocer la duración).</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-pies Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo queda con la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo queda con la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. Este efecto termina para el objetivo si recibe daño o si una criatura a 5 pies o menos usa una acción para despertarlo.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], cada [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] en un [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-pies Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo queda con la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo queda con la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minuto. Este efecto termina para el objetivo si recibe daño o si una criatura a 5 pies o menos usa una acción para despertarlo.</p>"
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
@@ -2643,7 +2643,7 @@
               "name": "Salvación"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> DC [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
           "effects": {
             "n3I76HfSH6eKLALf": {
               "name": "Mitad de velocidad",
@@ -2704,7 +2704,7 @@
               "description": "<p>El objetivo queda con la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> DC [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]], each [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] in a [[lookup @target.template.size activity=zuf9EEVj4nI1joaH]]-pies Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo es empujado hasta 60 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=zuf9EEVj4nI1joaH]], cada [[lookup @target.affects.type activity=zuf9EEVj4nI1joaH]] en un [[lookup @target.template.size activity=zuf9EEVj4nI1joaH]]-pies Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo es empujado hasta 60 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false]{Derribado}.</p>"
         },
         "mmLightningBreat": {
           "name": "Aliento relampagueante",
@@ -2967,7 +2967,7 @@
         },
         "mmAcidBreath0000": {
           "name": "Aliento ácido",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], each [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en un [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=qNI6W02jCUQbPpYE]], cada [[lookup @target.affects.type activity=qNI6W02jCUQbPpYE]] en un [[lookup @target.template.size activity=qNI6W02jCUQbPpYE]]-pies de largo y [[lookup @target.template.width activity=qNI6W02jCUQbPpYE]]-pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> [[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]] de daño.</p>",
           "activities": {
             "qNI6W02jCUQbPpYE": {}
           }
@@ -3174,7 +3174,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies cone.</p><p><em>Fallo: </em>[[/damage average]] damage.</p><p><em>Éxito:</em> Mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies cone.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad del daño.</p>",
           "activities": {
             "bDqgmtLG3zcVuqdi": {}
           }
@@ -3413,7 +3413,7 @@
               "description": "<p>El objetivo sufre un penalizador de −2 a la CA hasta el final de su siguiente turno.</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=Blm8nddvCOH69bL8]], each [[lookup @target.affects.type activity=Blm8nddvCOH69bL8]] in a [[lookup @target.template.size activity=Blm8nddvCOH69bL8]]-pie-radius Sphere centered on a point el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Blm8nddvCOH69bL8]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo takes a −2 penalty to AC hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Blm8nddvCOH69bL8]], cada [[lookup @target.affects.type activity=Blm8nddvCOH69bL8]] en un [[lookup @target.template.size activity=Blm8nddvCOH69bL8]]-pie-radius Sphere centered on a point el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Blm8nddvCOH69bL8]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo takes a −2 penalty to AC hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
         },
         "mmPounce00000000": {
           "name": "Abalanzarse",
@@ -3520,7 +3520,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] in a [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies Cone</p><p><em>Fallo: </em>[[/damage average]] damage.</p><p><em>Éxito:</em> Mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies Cone</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad del daño.</p>",
           "activities": {
             "bDqgmtLG3zcVuqdi": {}
           }
@@ -3747,7 +3747,7 @@
         },
         "mmColdGale000000": {
           "name": "Vendaval gélido",
-          "description": "<p><em>Tirada de salvación de Destreza:</em> DC [[lookup @save.dc.value activity=pVs8BTVDNh54CZ0a]], each creature in a [[lookup @target.template.size activity=pVs8BTVDNh54CZ0a]]-pie-long, [[lookup @target.template.width activity=pVs8BTVDNh54CZ0a]]-pie-wide Line.</p><p><em>Fallo:</em> [[/damage average]] damage, and el objetivo is pushed up to 30 pies straight away from el [[lookup @name lowercase]].</p><p><em>Éxito:</em> Half damage solamente.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=pVs8BTVDNh54CZ0a]], cada creature en un [[lookup @target.template.size activity=pVs8BTVDNh54CZ0a]]-pie-long, [[lookup @target.template.width activity=pVs8BTVDNh54CZ0a]]-pie-wide Line.</p><p><em>Fallo:</em> [[/damage average]] damage, and el objetivo is pushed up to 30 pies straight away from el [[lookup @name lowercase]].</p><p><em>Éxito:</em> La mitad del daño solamente.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "pVs8BTVDNh54CZ0a": {
               "description": {
@@ -4222,7 +4222,7 @@
             },
             "EaYfvxJPLJ2Ko434": {
               "name": "Sabio: enjambre molesto",
-              "description": "<p>The target tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>"
+              "description": "<p>El objetivo tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>"
             }
           }
         }
@@ -16598,7 +16598,7 @@
         },
         "mmFireBreath0000": {
           "name": "Aliento de fuego",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>DC [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], each [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=bDqgmtLG3zcVuqdi]], cada [[lookup @target.affects.type activity=bDqgmtLG3zcVuqdi]] en un [[lookup @target.template.size activity=bDqgmtLG3zcVuqdi]]-pies de Cono.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p>",
           "activities": {
             "bDqgmtLG3zcVuqdi": {
               "name": ""
@@ -23643,7 +23643,7 @@
           "effects": {
             "I59O22yjAwzqZOhN": {
               "name": "Armadura de mago",
-              "description": "<p>The target's base CA becomes 13 + its Dexterity modifier.</p>"
+              "description": "<p>El objetivo's base CA becomes 13 + its Dexterity modifier.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"

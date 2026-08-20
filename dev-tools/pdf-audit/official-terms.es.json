@@ -23,6 +23,7 @@
   },
   "rules": {
     "Armor Class": "Clase de Armadura",
+    "DC": "CD",
     "Hit Points": "Puntos de golpe",
     "Saving Throw": "Tirada de salvación",
     "Ability Check": "Prueba de característica"

@@ -61,24 +61,6 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
-      "kind": "lookup-key",
-      "command": "@item.range.reach item=ST0XpSUdRn52jAF0"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
-      "kind": "lookup-key",
-      "command": "@item.range.value item=ST0XpSUdRn52jAF0"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description",
-      "kind": "lookup-key",
-      "command": "@item.range.long item=ST0XpSUdRn52jAF0"
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmDjinni00000000.items.mmElementalResto.description",
       "kind": "command-difference",
       "removed": [
@@ -211,12 +193,6 @@
       "added": [
         "[[lookup @name lowercase]]"
       ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGiantShark0000.items.mmBite0000000000.description",
-      "kind": "lookup-key",
-      "command": "@item.range.reach item=xWlMeXFjELfSUWX9"
     },
     {
       "pack": "actors",
@@ -928,7 +904,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
-    "macroMutations": 88,
+    "macroMutations": 84,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
     "probableEnglishFields": 0,

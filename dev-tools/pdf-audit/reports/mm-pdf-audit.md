@@ -5,7 +5,7 @@
 - Missing Spanish entries: 0
 - Extra Spanish entries: 0
 - Invalid internal references: 0
-- Macro mutation candidates: 88
+- Macro mutation candidates: 84
 - Visible English terminology residues: 0
 - Deprecated Spanish terminology occurrences: 0
 - Probable untranslated English fields: 0
@@ -26,9 +26,6 @@
 
 - `actors:entries.mmAncientBronzeD.items.weRr4SCAG9rNPGAp.description`: kind=command-difference, removed=['[[/r 1d100cs&lt;26#Vehicle is capsized]]'], added=['[[/r 1d100cs&lt;26#El vehículo vuelca]]']
 - `actors:entries.mmAncientGoldDra.items.mmMultiattack000.description`: kind=command-difference, removed=['[[/item]]', '[[/item]]'], added=['[[/item Spellcasting]]']
-- `actors:entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description`: kind=lookup-key, command=@item.range.reach item=ST0XpSUdRn52jAF0
-- `actors:entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description`: kind=lookup-key, command=@item.range.value item=ST0XpSUdRn52jAF0
-- `actors:entries.mmBugbearWarrior.items.ST0XpSUdRn52jAF0.description`: kind=lookup-key, command=@item.range.long item=ST0XpSUdRn52jAF0
 - `actors:entries.mmDjinni00000000.items.mmElementalResto.description`: kind=command-difference, removed=['[[/r 1d4#Days]]'], added=['[[/r 1d4#Días]]']
 - `actors:entries.mmDjinni00000000.items.mmWishes00000000.description`: kind=command-difference, removed=['[[/r 1d100cs&lt;31#Knows Wish on 1]]'], added=['[[/r 1d100cs&lt;31#Conoce Deseo con 1]]']
 - `actors:entries.mmEfreeti0000000.items.mmElementalResto.description`: kind=command-difference, removed=['[[/r 1d4#Days]]'], added=['[[/r 1d4#Días]]']
@@ -42,7 +39,6 @@
 - `actors:entries.mmGasSporeFungus.items.mmDeathBurst0000.effects.b2GcNj2sMZJWDisn.description`: kind=command-difference, removed=['[[/r 1d12#Hours]]'], added=['[[/r 1d12#Horas]]']
 - `actors:entries.mmGelatinousCube.items.mmTransparent000.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=[]
 - `actors:entries.mmGiantElk000000.items.mmRam00000000000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
-- `actors:entries.mmGiantShark0000.items.mmBite0000000000.description`: kind=lookup-key, command=@item.range.reach item=xWlMeXFjELfSUWX9
 - `actors:entries.mmGrick000000000.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]
 - `actors:entries.mmGrickAncient00.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]
 - `actors:entries.mmGriffon0000000.items.mmRend0000000000.effects.FqB7QZZZTiN3trAC.description`: kind=command-difference, removed=['[[/check ability=str skill=ath format=long]]'], added=[]

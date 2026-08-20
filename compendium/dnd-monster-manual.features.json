@@ -161,7 +161,7 @@
           "name": "Cazador: marcado como presa"
         },
         "EaYfvxJPLJ2Ko434": {
-          "description": "<p>The target tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>",
+          "description": "<p>El objetivo tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>",
           "name": "Sabio: enjambre molesto"
         }
       },
@@ -5827,7 +5827,7 @@
           "name": "Salvación"
         }
       },
-      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], each [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en un [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo has the &amp;Reference[Deafened apply=false] condition hasta el final de su siguiente turno.</p>",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], cada [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en un [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo tiene la &amp;Reference[Deafened apply=false] condición hasta el final de su siguiente turno.</p>",
       "effects": {
         "QyuBYDW1zznn0OS4": {
           "description": "<p>El objetivo tiene la condición &amp;Reference[Deafened apply=long]{Ensordecido} hasta el final de su siguiente turno.</p>",

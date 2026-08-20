@@ -130,7 +130,7 @@ def run_audit() -> dict[str, Any]:
                 unexpected = [
                     token for token in tokens[1:]
                     if token not in {"capitalize", "lowercase"}
-                    and not re.match(r"(?:activity|format|fallback)=", token)
+                    and not re.match(r"(?:activity|fallback|format|item)=", token)
                 ]
                 if unexpected:
                     macro_mutations.append({
@@ -141,9 +141,10 @@ def run_audit() -> dict[str, Any]:
                     })
             visible = visible_text(value)
             for old, new in canonical.items():
-                if old.casefold() != new.casefold() and re.search(
-                    rf"\b{re.escape(old)}\b", visible, re.IGNORECASE
-                ):
+                pattern = rf"\b{re.escape(old)}\b"
+                if old == "DC":
+                    pattern = rf"(?<!\.)\b{re.escape(old)}\b"
+                if old.casefold() != new.casefold() and re.search(pattern, visible, re.IGNORECASE):
                     residues.append({"pack": pack, "path": path, "found": old, "expected": new})
             for old, new in terms["deprecatedSpanish"].items():
                 if re.search(rf"\b{re.escape(old)}\b", visible, re.IGNORECASE):
