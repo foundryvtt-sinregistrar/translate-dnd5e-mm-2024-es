@@ -63,6 +63,12 @@ def source_path(pack: str) -> Path:
     return ENGLISH / base / "en" / f"{base}.en-source.json"
 
 
+def normalized_foundry_commands(value: str) -> Counter[str]:
+    """Return commands while ignoring translated display labels after ``#``."""
+    commands = re.findall(r"\[\[(?:lookup|/)[^\]]+\]\]", value)
+    return Counter(re.sub(r"#.*(?=\]\]$)", "", command) for command in commands)
+
+
 def load_packs() -> tuple[dict[str, dict], dict[str, dict]]:
     spanish = {
         pack: load_json(COMPENDIUM / f"dnd-monster-manual.{pack}.json") for pack in PACKS
@@ -159,8 +165,8 @@ def run_audit() -> dict[str, Any]:
                 )
             source_value = source_fields.get(path)
             if source_value and value != source_value:
-                source_commands = Counter(re.findall(r"\[\[(?:lookup|/)[^\]]+\]\]", source_value))
-                translated_commands = Counter(re.findall(r"\[\[(?:lookup|/)[^\]]+\]\]", value))
+                source_commands = normalized_foundry_commands(source_value)
+                translated_commands = normalized_foundry_commands(value)
                 removed = source_commands - translated_commands
                 added = translated_commands - source_commands
                 if removed or added:

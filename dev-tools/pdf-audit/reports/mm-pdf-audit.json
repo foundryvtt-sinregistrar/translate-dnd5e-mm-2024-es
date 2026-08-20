@@ -38,17 +38,6 @@
   "macroMutations": [
     {
       "pack": "actors",
-      "path": "entries.mmAncientBronzeD.items.weRr4SCAG9rNPGAp.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmAncientGoldDra.items.mmMultiattack000.description",
       "kind": "command-difference",
       "removed": [
@@ -57,61 +46,6 @@
       ],
       "added": [
         "[[/item Spellcasting]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmDjinni00000000.items.mmElementalResto.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Days]]"
-      ],
-      "added": [
-        "[[/r 1d4#Días]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmDjinni00000000.items.mmWishes00000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmEfreeti0000000.items.mmElementalResto.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Days]]"
-      ],
-      "added": [
-        "[[/r 1d4#Días]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmEfreeti0000000.items.mmWishes00000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmElementalCatac.items.mmCataclysmicEve.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Cataclysmic Event]]"
-      ],
-      "added": [
-        "[[/r 1d4#Evento cataclísmico]]"
       ]
     },
     {
@@ -152,32 +86,6 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmGasSporeFungus.items.mmDeathBurst0000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d12#Hours]]",
-        "[[/r 2d4#Tiny Gas Spore Fungi]]",
-        "[[/r 2d6#Days]]"
-      ],
-      "added": [
-        "[[/r 1d12#Horas]]",
-        "[[/r 2d4#Hongos espora de gas diminutos]]",
-        "[[/r 2d6#Días]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGasSporeFungus.items.mmDeathBurst0000.effects.b2GcNj2sMZJWDisn.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d12#Hours]]"
-      ],
-      "added": [
-        "[[/r 1d12#Horas]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmGelatinousCube.items.mmTransparent000.description",
       "kind": "command-difference",
       "removed": [
@@ -196,110 +104,11 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmGuardianNaga00.items.mmCelestialResto.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d6#Days]]"
-      ],
-      "added": [
-        "[[/r 1d6#Días]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGulthiasBlight.items.mmBlightSeeds000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d6#Seeds expelled]]"
-      ],
-      "added": [
-        "[[/r 1d6#Semillas expulsadas]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMarid000000000.items.mmElementalResto.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Days]]"
-      ],
-      "added": [
-        "[[/r 1d4#Días]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMarid000000000.items.R7FNJUssksG8Ycmx.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMerfolkWaveben.items.T0CkqKWNcTKcEUwI.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmModronDuodrone.items.jbso67HYFgxJVoyJ.description",
       "kind": "command-difference",
       "removed": [],
       "added": [
         "[[lookup @name lowercase]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMummy000000000.items.mmRottingFist000.effects.t7Anyyhyg6fmTdXw.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 3d6#HP Max Decrease]]"
-      ],
-      "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMummy000000000.items.mmRottingFist000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 3d6#HP Max Decrease]]"
-      ],
-      "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMummyLord00000.items.mmRottingFist000.effects.B1S4dZd1Lz0jokIo.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 3d6#HP Max Decrease]]"
-      ],
-      "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMummyLord00000.items.mmRottingFist000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 3d6#HP Max Decrease]]"
-      ],
-      "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
       ]
     },
     {
@@ -453,39 +262,6 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.effects.z1lkguBohjqXRSHm.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&gt;25#Slowed spell cast success]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&gt;25#Éxito de lanzamiento ralentizado]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmStoneGolem0000.items.rHwlDG85kUcrUFdg.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d100cs&lt;=25#Slowed spell cast success]]"
-      ],
-      "added": [
-        "[[/r 1d100cs&lt;=25#Éxito de lanzamiento ralentizado]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmTrollLimb00000.items.mmTrollSpawn0000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d12#On a 12, the limb turns into a troll]]"
-      ],
-      "added": [
-        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmYoungBlueDrago.items.mmLightningBreat.description",
       "kind": "command-difference",
       "removed": [
@@ -495,44 +271,11 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmBlightSeeds000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d6#Seeds expelled]]"
-      ],
-      "added": [
-        "[[/r 1d6#Semillas expulsadas]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmCataclysmicEve.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Cataclysmic Event]]"
-      ],
-      "added": [
-        "[[/r 1d4#Evento cataclísmico]]"
-      ]
-    },
-    {
-      "pack": "features",
       "path": "entries.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description",
       "kind": "command-difference",
       "removed": [],
       "added": [
         "[[/check ability=str skill=ath format=long]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmCelestialResto.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d6#Days]]"
-      ],
-      "added": [
-        "[[/r 1d6#Días]]"
       ]
     },
     {
@@ -774,17 +517,6 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmTrollSpawn0000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d12#On a 12, the limb turns into a troll]]"
-      ],
-      "added": [
-        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
-      ]
-    },
-    {
-      "pack": "features",
       "path": "entries.mmUmbralStrike00.description",
       "kind": "command-difference",
       "removed": [],
@@ -801,17 +533,6 @@
         "[[lookup @name lowercase]]"
       ],
       "added": []
-    },
-    {
-      "pack": "tables",
-      "path": "entries.mmRocNestRemnant.results.2E5DPhugEzWfnRy1.text",
-      "kind": "command-difference",
-      "removed": [
-        "[[/r 1d4#Eggs]]"
-      ],
-      "added": [
-        "[[/r 1d4#Huevos]]"
-      ]
     }
   ],
   "englishResidues": [],
@@ -821,7 +542,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
-    "macroMutations": 76,
+    "macroMutations": 51,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
     "probableEnglishFields": 0,
