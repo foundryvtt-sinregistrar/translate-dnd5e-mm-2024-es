@@ -25,3 +25,10 @@ Restore translated identifiers and anchors inside Monster Manual `UUID` and
 ```powershell
 python dev-tools/pdf-audit/repair_internal_references.py --write
 ```
+
+Restore functional `lookup`, item, roll, attack, and damage commands from the
+aligned English fields. Visible Spanish roll labels after `#` are preserved:
+
+```powershell
+python dev-tools/pdf-audit/repair_foundry_commands.py --write
+```

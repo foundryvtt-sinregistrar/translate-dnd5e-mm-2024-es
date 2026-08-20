@@ -38,97 +38,13 @@
   "macroMutations": [
     {
       "pack": "actors",
-      "path": "entries.mmAdultBlueDrago.items.mmLightningBreat.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAdultCopperDra.items.mmAcidBreath0000.description",
-      "kind": "lookup-key",
-      "command": "@de daño.onSave capitalize activity=qNI6W02jCUQbPpYE"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAdultCopperDra.items.mmAcidBreath0000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
-      ],
-      "added": [
-        "[[lookup @de daño.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAdultCopperDra.items.mmGigglingMagic0.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]"
-      ],
-      "added": [
-        "[[lookup @damage.onSave capitalize activity=Ttrajc4RC5Ut7pkj]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAdultGreenDrag.items.mmPoisonBreath00.description",
-      "kind": "lookup-key",
-      "command": "@de daño.onSave capitalize activity=lnabW9bM51HoluPp"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAdultGreenDrag.items.mmPoisonBreath00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @damage.onSave capitalize activity=lnabW9bM51HoluPp]]"
-      ],
-      "added": [
-        "[[lookup @de daño.onSave capitalize activity=lnabW9bM51HoluPp]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientBronzeD.items.mmLightningBreat.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmAncientBronzeD.items.weRr4SCAG9rNPGAp.description",
       "kind": "command-difference",
       "removed": [
         "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientCopperD.items.mmAcidBreath0000.description",
-      "kind": "lookup-key",
-      "command": "@de daño.onSave capitalize activity=qNI6W02jCUQbPpYE"
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAncientCopperD.items.mmAcidBreath0000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @damage.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
-      ],
-      "added": [
-        "[[lookup @de daño.onSave capitalize activity=qNI6W02jCUQbPpYE]]"
+        "[[/r 1d100cs&lt;#El vehículo vuelca]]"
       ]
     },
     {
@@ -145,79 +61,35 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmAnkheg00000000.items.mmAcidSpray00000.description",
+      "path": "entries.mmBlobOfAnnihila.items.mmAstralImplosio.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @target.template.type capitalize activity=20GU2JBM5zJfNPD1]]"
+        "[[/r 1d20#Years]]"
       ],
       "added": [
-        "[[lookup @target.template.type activity=20GU2JBM5zJfNPD1]]"
+        "[[/r 1d#Years]]"
       ]
     },
     {
       "pack": "actors",
-      "path": "entries.mmArchmage000000.items.4tR7ZpnNmbsmZohl.effects.SrIb7dbaZs5F4zi9.description",
+      "path": "entries.mmBlueSlaad00000.items.mmMutatingClaw00.effects.OKOEoW15QRwevNhU.description",
       "kind": "command-difference",
       "removed": [
-        "[[/check ability=int skill=inv]]"
+        "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+        "[[/r 3#HP Max Decrease]]"
       ]
     },
     {
       "pack": "actors",
-      "path": "entries.mmAzerPyromancer.items.mmFireAura000000.description",
+      "path": "entries.mmBlueSlaad00000.items.mmMutatingClaw00.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @name lowercase]]"
+        "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmAzerSentinel00.items.mmFireAura000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]"
-      ],
-      "added": [
-        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmBalor000000000.items.mmFireAura000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @name lowercase]]"
-      ],
-      "added": [
-        "[[lookup @save.dc.value activity=15VgJKVXwYBOFSqJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmBanditDeceiver.items.hVNBxP519B3wWXdo.effects.SrIb7dbaZs5F4zi9.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=int skill=inv]]"
-      ],
-      "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmBarlgura000000.items.5sdQOeYB1FK386Lr.effects.SrIb7dbaZs5F4zi9.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=int skill=inv]]"
-      ],
-      "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
+        "[[/r 3#HP Max Decrease]]"
       ]
     },
     {
@@ -240,15 +112,24 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmDeathTyrant000.items.Z6pyFtoaSxxVedl5.description",
+      "path": "entries.mmCloaker0000000.items.jluXgJ7dG39ONk0R.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]",
-        "[[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]"
+        "[[/r (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate destroyed]]"
       ],
       "added": [
-        "[[lookup @target.template.type activity=TLqcxF6OYH0LweRo]]",
-        "[[lookup @target.affects.type activity=TLqcxF6OYH0LweRo]]"
+        "[[/r (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt#Duplicate destroyed]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmDao00000000000.items.mmWishes00000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;#Knows Wish on 1]]"
       ]
     },
     {
@@ -259,7 +140,7 @@
         "[[/r 1d4#Days]]"
       ],
       "added": [
-        "[[/r 1d4#Días]]"
+        "[[/r 1#Días]]"
       ]
     },
     {
@@ -270,18 +151,7 @@
         "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmDjinni00000000.items.mmCreateWhirlwin.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage average]]"
-      ],
-      "added": [
-        "[[/damage average activity=vxRsrpVaHxa02z8F]]"
+        "[[/r 1d100cs&lt;#Conoce Deseo con 1]]"
       ]
     },
     {
@@ -292,7 +162,7 @@
         "[[/r 1d4#Days]]"
       ],
       "added": [
-        "[[/r 1d4#Días]]"
+        "[[/r 1#Días]]"
       ]
     },
     {
@@ -303,7 +173,7 @@
         "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;31#Conoce Deseo con 1]]"
+        "[[/r 1d100cs&lt;#Conoce Deseo con 1]]"
       ]
     },
     {
@@ -314,33 +184,7 @@
         "[[/r 1d4#Cataclysmic Event]]"
       ],
       "added": [
-        "[[/r 1d4#Evento cataclísmico]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmElk00000000000.items.mmRam00000000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.affects.special activity=z58sUDUmqxECJgT3]]",
-        "[[/damage 1d6 bludgeoning average]]"
-      ],
-      "added": [
-        "[[/damage average activity=hAnQ4KbZpJFBPEPg]]",
-        "[[lookup @save.dc.value activity=hAnQ4KbZpJFBPEPg]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmEmpyrean000000.items.mmMultiattack000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/item Sacred Weapon]]",
-        "[[/item Divine Ray]]"
-      ],
-      "added": [
-        "[[/item .mmSacredWeapon00]]",
-        "[[/item .mmDivineRay00000]]"
+        "[[/r 1#Evento cataclísmico]]"
       ]
     },
     {
@@ -389,9 +233,9 @@
         "[[/r 2d6#Days]]"
       ],
       "added": [
-        "[[/r 1d12#Horas]]",
-        "[[/r 2d4#Hongos espora de gas diminutos]]",
-        "[[/r 2d6#Días]]"
+        "[[/r 1d#Horas]]",
+        "[[/r 2#Hongos espora de gas diminutos]]",
+        "[[/r 2#Días]]"
       ]
     },
     {
@@ -402,7 +246,7 @@
         "[[/r 1d12#Hours]]"
       ],
       "added": [
-        "[[/r 1d12#Horas]]"
+        "[[/r 1d#Horas]]"
       ]
     },
     {
@@ -431,62 +275,12 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmGnollDemoniac0.items.mmHungerOfYeenog.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=sIJYYjLHqCAPxOLm]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=sIJYYjLHqCAPxOLm]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGreenHag000000.items.3SIvYE13BfHn7qvz.effects.SrIb7dbaZs5F4zi9.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=int skill=inv]]"
-      ],
-      "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGrick000000000.items.mmMultiattack000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/item Beak]]",
-        "[[/item Tentacles]]"
-      ],
-      "added": [
-        "[[/item .mmBeak0000000000]]",
-        "[[/item .mmTentacles00000]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmGrick000000000.items.mmTentacles00000.effects.GyZrmzBP0NB8oRZI.description",
       "kind": "command-difference",
       "removed": [
         "[[/check ability=str skill=ath format=long]]"
       ],
       "added": []
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGrickAncient00.items.mmMultiattack000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/item Beak]]",
-        "[[/item Slam]]",
-        "[[/item Tentacles]]"
-      ],
-      "added": [
-        "[[/item .mmBeak0000000000]]",
-        "[[/item .mmSlam0000000000]]",
-        "[[/item .mmTentacles00000]]"
-      ]
     },
     {
       "pack": "actors",
@@ -508,37 +302,13 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmGuardianNaga00.items.mmMultiattack000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/item Bite]]",
-        "[[/item Poisonous Spittle]]"
-      ],
-      "added": [
-        "[[/item .mmBite0000000000]]",
-        "[[/item .mmPoisonousSpitt]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmGuardianNaga00.items.Kl2qli45InLejqV3.effects.TXwfzpj9bERo0X1r.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage 5d10 type=psyhic]]"
-      ],
-      "added": [
-        "[[/damage 5d10 type=psychic]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmGuardianNaga00.items.mmCelestialResto.description",
       "kind": "command-difference",
       "removed": [
         "[[/r 1d6#Days]]"
       ],
       "added": [
-        "[[/r 1d6#Días]]"
+        "[[/r 1#Días]]"
       ]
     },
     {
@@ -549,62 +319,7 @@
         "[[/r 1d6#Seeds expelled]]"
       ],
       "added": [
-        "[[/r 1d6#Semillas expulsadas]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmIncubus0000000.items.Epzabor9RV5yUeqA.effects.SrIb7dbaZs5F4zi9.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=int skill=inv]]"
-      ],
-      "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmIronGolem00000.items.mmPoisonBreath00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=lnabW9bM51HoluPp]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmJuvenileShadow.items.mmShadowBreath00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=hvGQg4CsoCNgrjGy]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmLamia000000000.items.6APauftroqjmXvbd.effects.SrIb7dbaZs5F4zi9.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=int skill=inv]]"
-      ],
-      "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmLamia000000000.items.2M6IcnU5z2CDUmR9.effects.TXwfzpj9bERo0X1r.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage 5d10 type=psyhic]]"
-      ],
-      "added": [
-        "[[/damage 5d10 type=psychic]]"
+        "[[/r 1#Semillas expulsadas]]"
       ]
     },
     {
@@ -615,7 +330,18 @@
         "[[/r 1d4#Days]]"
       ],
       "added": [
-        "[[/r 1d4#Días]]"
+        "[[/r 1#Días]]"
+      ]
+    },
+    {
+      "pack": "actors",
+      "path": "entries.mmMarid000000000.items.mmWishes00000000.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 1d100cs&lt;31#Knows Wish on 1]]"
+      ],
+      "added": [
+        "[[/r 1d100cs&lt;#Knows Wish on 1]]"
       ]
     },
     {
@@ -626,7 +352,7 @@
         "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
+        "[[/r 1d100cs&lt;#El vehículo vuelca]]"
       ]
     },
     {
@@ -637,18 +363,7 @@
         "[[/r 1d100cs&lt;26#Vehicle is capsized]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;26#El vehículo vuelca]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmMindFlayer0000.items.mmMindBlast00000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=lHIQgEzz6hc3hjWx]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=lHIQgEzz6hc3hjWx]]"
+        "[[/r 1d100cs&lt;#El vehículo vuelca]]"
       ]
     },
     {
@@ -668,7 +383,7 @@
         "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
+        "[[/r 3#Reducción de PG máximos]]"
       ]
     },
     {
@@ -679,7 +394,7 @@
         "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
+        "[[/r 3#Reducción de PG máximos]]"
       ]
     },
     {
@@ -690,7 +405,7 @@
         "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
+        "[[/r 3#Reducción de PG máximos]]"
       ]
     },
     {
@@ -701,7 +416,7 @@
         "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[/r 3d6#Reducción de PG máximos]]"
+        "[[/r 3#Reducción de PG máximos]]"
       ]
     },
     {
@@ -775,17 +490,6 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmNycaloth000000.items.mmMercurialAxe00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage average extended]]"
-      ],
-      "added": [
-        "[[/damage average]]"
-      ]
-    },
-    {
-      "pack": "actors",
       "path": "entries.mmOchreJelly0000.items.mmSplit000000000.description",
       "kind": "command-difference",
       "removed": [
@@ -813,28 +517,6 @@
       "removed": [],
       "added": [
         "[[lookup @name lowercase]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPixieWonderbri.items.nvZ5JjyGRPRtnuSD.effects.wn7K2m4XhXhItgPT.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/check ability=str skill=ath]]"
-      ],
-      "added": [
-        "[[/check ability=str skill=ath dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmPoltergeist000.items.mmIncorporealMov.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage 1d10 average type=force]]"
-      ],
-      "added": [
-        "[[/damage 1d10 force average]]"
       ]
     },
     {
@@ -889,24 +571,13 @@
     },
     {
       "pack": "actors",
-      "path": "entries.mmSeaHag00000000.items.xFcYJfM0OoEYYQns.effects.SrIb7dbaZs5F4zi9.description",
+      "path": "entries.mmRedSlaad000000.items.mmInjectingClaw0.description",
       "kind": "command-difference",
       "removed": [
-        "[[/check ability=int skill=inv]]"
+        "[[/r 2d4*10#Days egg gestates]]"
       ],
       "added": [
-        "[[/check ability=int skill=inv dc=@attributes.spell.dc]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmShadowDragon00.items.mmShadowBreath00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=hvGQg4CsoCNgrjGy]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=hvGQg4CsoCNgrjGy]]"
+        "[[/r 2d4*#Days egg gestates]]"
       ]
     },
     {
@@ -926,7 +597,7 @@
         "[[/r 1d100cs&gt;25#Slowed spell cast success]]"
       ],
       "added": [
-        "[[/r 1d100cs&gt;25#Éxito de lanzamiento ralentizado]]"
+        "[[/r 1d100cs&gt;#Éxito de lanzamiento ralentizado]]"
       ]
     },
     {
@@ -937,7 +608,7 @@
         "[[/r 1d100cs&lt;=25#Slowed spell cast success]]"
       ],
       "added": [
-        "[[/r 1d100cs&lt;=25#Éxito de lanzamiento ralentizado]]"
+        "[[/r 1d100cs&lt;=#Éxito de lanzamiento ralentizado]]"
       ]
     },
     {
@@ -948,18 +619,7 @@
         "[[/r 1d12#On a 12, the limb turns into a troll]]"
       ],
       "added": [
-        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmUltroloth00000.items.mmHypnoticGaze00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=Sc5RbdImboeEd4zt]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=Sc5RbdImboeEd4zt]]"
+        "[[/r 1d#Con un 12, la extremidad se convierte en un troll]]"
       ]
     },
     {
@@ -984,58 +644,14 @@
       "added": []
     },
     {
-      "pack": "actors",
-      "path": "entries.mmYoungBronzeDra.items.mmLightningBreat.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=LpjgVwftzGNMgTUJ]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=LpjgVwftzGNMgTUJ]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmYoungGreenDrag.items.mmPoisonBreath00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=lnabW9bM51HoluPp]]"
-      ]
-    },
-    {
-      "pack": "actors",
-      "path": "entries.mmYuantiAbominat.items.mmPoisonSpray000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=Ab1fnEh4JGShDFte]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=Ab1fnEh4JGShDFte]]"
-      ]
-    },
-    {
       "pack": "features",
-      "path": "entries.mmAcidSpray00000.description",
+      "path": "entries.mmAstralImplosio.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @target.template.type capitalize activity=20GU2JBM5zJfNPD1]]"
+        "[[/r 1d20#Years]]"
       ],
       "added": [
-        "[[lookup @target.template.type activity=20GU2JBM5zJfNPD1]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmAntimagicCone0.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=7vRTku30dhIyBf68]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=7vRTku30dhIyBf68]]"
+        "[[/r 1d#Years]]"
       ]
     },
     {
@@ -1058,7 +674,7 @@
         "[[/r 1d6#Seeds expelled]]"
       ],
       "added": [
-        "[[/r 1d6#Semillas expulsadas]]"
+        "[[/r 1#Semillas expulsadas]]"
       ]
     },
     {
@@ -1069,7 +685,7 @@
         "[[/r 1d4#Cataclysmic Event]]"
       ],
       "added": [
-        "[[/r 1d4#Evento cataclísmico]]"
+        "[[/r 1#Evento cataclísmico]]"
       ]
     },
     {
@@ -1089,7 +705,7 @@
         "[[/r 1d6#Days]]"
       ],
       "added": [
-        "[[/r 1d6#Días]]"
+        "[[/r 1#Días]]"
       ]
     },
     {
@@ -1116,17 +732,6 @@
       "added": [
         "[[/item .cWEx0aUNtgAiphWk]]",
         "[[/item .UYIXz9iBOnpRuR1H]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmCreateWhirlwin.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage average]]"
-      ],
-      "added": [
-        "[[/damage average activity=vxRsrpVaHxa02z8F]]"
       ]
     },
     {
@@ -1185,24 +790,13 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmHungerOfYeenog.description",
+      "path": "entries.mmInjectingClaw0.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @target.template.type capitalize activity=sIJYYjLHqCAPxOLm]]"
+        "[[/r 2d4*10#Days egg gestates]]"
       ],
       "added": [
-        "[[lookup @target.template.type activity=sIJYYjLHqCAPxOLm]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmHypnoticGaze00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=Sc5RbdImboeEd4zt]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=Sc5RbdImboeEd4zt]]"
+        "[[/r 2d4*#Days egg gestates]]"
       ]
     },
     {
@@ -1225,28 +819,6 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmMercurialAxe00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage average extended]]"
-      ],
-      "added": [
-        "[[/damage average]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmMindBlast00000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=lHIQgEzz6hc3hjWx]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=lHIQgEzz6hc3hjWx]]"
-      ]
-    },
-    {
-      "pack": "features",
       "path": "entries.mmMindrendingRoa.description",
       "kind": "command-difference",
       "removed": [
@@ -1256,15 +828,24 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmNegativeEnergy.description",
+      "path": "entries.mmMutatingClaw00.description",
       "kind": "command-difference",
       "removed": [
-        "[[lookup @target.template.type capitalize activity=TLqcxF6OYH0LweRo]]",
-        "[[lookup @target.affects.type capitalize activity=TLqcxF6OYH0LweRo]]"
+        "[[/r 3d6#HP Max Decrease]]"
       ],
       "added": [
-        "[[lookup @target.template.type activity=TLqcxF6OYH0LweRo]]",
-        "[[lookup @target.affects.type activity=TLqcxF6OYH0LweRo]]"
+        "[[/r 3#HP Max Decrease]]"
+      ]
+    },
+    {
+      "pack": "features",
+      "path": "entries.mmMutatingClaw00.effects.OKOEoW15QRwevNhU.description",
+      "kind": "command-difference",
+      "removed": [
+        "[[/r 3d6#HP Max Decrease]]"
+      ],
+      "added": [
+        "[[/r 3#HP Max Decrease]]"
       ]
     },
     {
@@ -1275,28 +856,6 @@
       "added": [
         "[[/item .mmClaw0000000000]]",
         "[[/item .mmTail0000000000]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmPoisonSpray000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.template.type capitalize activity=Ab1fnEh4JGShDFte]]"
-      ],
-      "added": [
-        "[[lookup @target.template.type activity=Ab1fnEh4JGShDFte]]"
-      ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmPortent0000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @target.affects.special activity=uGaJoaDIgntkFbDg]]"
-      ],
-      "added": [
-        "[[lookup @target.affects.special activity=4pPRsHy9QaQvVgqt]]"
       ]
     },
     {
@@ -1425,17 +984,6 @@
     },
     {
       "pack": "features",
-      "path": "entries.mmTentacleLash00.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[lookup @skills.ath.passive]]"
-      ],
-      "added": [
-        "[[lookup @skills.acr.passive]]"
-      ]
-    },
-    {
-      "pack": "features",
       "path": "entries.mmTransparent000.description",
       "kind": "command-difference",
       "removed": [
@@ -1451,7 +999,7 @@
         "[[/r 1d12#On a 12, the limb turns into a troll]]"
       ],
       "added": [
-        "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
+        "[[/r 1d#Con un 12, la extremidad se convierte en un troll]]"
       ]
     },
     {
@@ -1490,7 +1038,7 @@
         "[[/r 1d4#Eggs]]"
       ],
       "added": [
-        "[[/r 1d4#Huevos]]"
+        "[[/r 1#Huevos]]"
       ]
     }
   ],
@@ -1786,7 +1334,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
-    "macroMutations": 140,
+    "macroMutations": 99,
     "englishResidues": 12,
     "deprecatedSpanish": 4,
     "probableEnglishFields": 31,
