@@ -154,10 +154,10 @@
           "name": "Recolector: fortalecer"
         }
       },
-      "description": "<p>The [[lookup @name lowercase]] conjures an animal spirit that strikes at a creature and then disappears.</p><p><em>Tirada de salvación de Destreza:</em> DC [[lookup @save.dc.value activity=cx21u9ZYjSdu2m3U]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=cx21u9ZYjSdu2m3U]] pies.</p><p><em>Fallo:</em> [[/damage average]] damage.</p><p><em>Éxito:</em> Mitad del daño.</p><p><em>Fallo o éxito:</em> One of the following effects occurs:</p><p class=\"feature-trait\"><strong>Fortify (Forager Only).</strong> The [[lookup @name lowercase]] gains [[lookup @healing.formula activity=emHqEek8e9Mwyaj7]] Temporary Hit Points.</p><p class=\"feature-trait\"><strong>Marked as Prey (Hunter Only).</strong> The [[lookup @name lowercase]] tiene ventaja en tiradas de ataque against the target until the start of the [[lookup @name lowercase]]'s next turn.</p><p class=\"feature-trait\"><strong>Pesky Swarm (Sage Only).</strong> The target tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>",
+      "description": "<p>El [[lookup @name lowercase]] conjura un espíritu animal que golpea a una criatura y después desaparece.</p><p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=cx21u9ZYjSdu2m3U]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=cx21u9ZYjSdu2m3U]] pies.</p><p><em>Fallo:</em> [[/damage average]] de daño.</p><p><em>Éxito:</em> La mitad del daño.</p><p><em>Fallo o éxito:</em> Se produce uno de los siguientes efectos:</p><p class=\"feature-trait\"><strong>Fortificar (solo recolector).</strong> El [[lookup @name lowercase]] obtiene [[lookup @healing.formula activity=emHqEek8e9Mwyaj7]] puntos de golpe temporales.</p><p class=\"feature-trait\"><strong>Marcado como presa (solo cazador).</strong> El [[lookup @name lowercase]] tiene ventaja en las tiradas de ataque contra el objetivo hasta el comienzo del siguiente turno del [[lookup @name lowercase]].</p><p class=\"feature-trait\"><strong>Enjambre molesto (solo sabio).</strong> El objetivo tiene desventaja en las tiradas de ataque y las pruebas de característica hasta el final de su siguiente turno.</p>",
       "effects": {
         "ERS5n6nHszCnoySl": {
-          "description": "<p>The user tiene ventaja en tiradas de ataque against the target until the start of the user’s next turn.</p>",
+          "description": "<p>El usuario tiene ventaja en las tiradas de ataque contra el objetivo hasta el comienzo del siguiente turno del usuario.</p>",
           "name": "Cazador: marcado como presa"
         },
         "EaYfvxJPLJ2Ko434": {
@@ -1969,7 +1969,7 @@
         }
       },
       "description": "<p class=\"feature\">El [[lookup @name lowercase]] se teleporta del Plano Material al Plano Etéreo o viceversa.</p>",
-      "name": "Tránsito etéreo"
+      "name": "Salto etéreo"
     },
     "mmEtherealSight0": {
       "description": "<p class=\"feature\">El [[lookup @name lowercase]] puede ver 60 pies dentro del Plano Etéreo cuando está en el Plano Material.</p>",
@@ -3422,7 +3422,7 @@
     "mmLordlyPresence": {
       "activities": {
         "54pvTrWlc7CB2ra6": {
-          "name": "Atemorizado"
+          "name": "Asustado"
         },
         "IlmzjggKrDB1c9dr": {
           "name": "Salvación inicial"
@@ -3434,18 +3434,18 @@
           "name": "Embarrado"
         }
       },
-      "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> DC [[lookup @save.dc.value activity=IlmzjggKrDB1c9dr]], any [[lookup @target.affects.type activity=IlmzjggKrDB1c9dr]] that starts its turn in a [[lookup @target.template.size activity=IlmzjggKrDB1c9dr]]-pies Emanation originating from the [[lookup @name lowercase]].</p><p><em>Fallo:</em> The target suffers one of the following effects:</p><p class=\"feature-trait\"><strong>Captivated (Forager Only).</strong> The target has the &amp;Reference[Charmed apply=false] condition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p><p class=\"feature-trait\"><strong>Fearful (Hunter Only).</strong> The target has the &amp;Reference[Frightened apply=false] condition hasta el final de su siguiente turno.</p><p class=\"feature-trait\"><strong>Mired (Sage Only).</strong> The target takes [[/damage average activity=hYhryWdKIuHOzmO3]] damage, and the target is magically bewildered hasta el final de su siguiente turno. While bewildered, the target subtracts [[/r 1d4]] from its tiradas de salvación.</p>",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Sabiduría:</em> CD [[lookup @save.dc.value activity=IlmzjggKrDB1c9dr]], cualquier [[lookup @target.affects.type activity=IlmzjggKrDB1c9dr]] que empiece su turno en una Emanación de [[lookup @target.template.size activity=IlmzjggKrDB1c9dr]] pies originada en el [[lookup @name lowercase]].</p><p><em>Fallo:</em> El objetivo sufre uno de los siguientes efectos:</p><p class=\"feature-trait\"><strong>Cautivado (solo recolector).</strong> El objetivo tiene la condición &amp;Reference[Charmed apply=false]{Hechizado} hasta el final de su siguiente turno. Mientras está hechizado, también tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado}.</p><p class=\"feature-trait\"><strong>Asustado (solo cazador).</strong> El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p><p class=\"feature-trait\"><strong>Atascado (solo sabio).</strong> El objetivo recibe [[/damage average activity=hYhryWdKIuHOzmO3]] de daño y queda confundido mágicamente hasta el final de su siguiente turno. Mientras está confundido, resta [[/r 1d4]] de sus tiradas de salvación.</p>",
       "effects": {
         "1JhQS3UFjWKSZqyP": {
-          "description": "<p>The target has the &amp;Reference[Charmed apply=false] condition hasta el final de su siguiente turno. While Charmed, the target has the &amp;Reference[Incapacitated apply=false] condition.</p>",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Charmed apply=false]{Hechizado} hasta el final de su siguiente turno. Mientras está hechizado, también tiene la condición &amp;Reference[Incapacitated apply=false]{Incapacitado}.</p>",
           "name": "Hechizado e incapacitado"
         },
         "BR99gMLiBwIoLHVU": {
-          "description": "<p>The target has the &amp;Reference[Frightened apply=false] condition hasta el final de su siguiente turno.</p>",
+          "description": "<p>El objetivo tiene la condición &amp;Reference[Frightened apply=false]{Asustado} hasta el final de su siguiente turno.</p>",
           "name": "Asustado"
         },
         "gZ5h0K8uFTRui7av": {
-          "description": "<p>The target is magically bewildered hasta el final de su siguiente turno. While bewildered, the target subtracts [[/r 1d4]] from its tiradas de salvación.</p>",
+          "description": "<p>El objetivo queda confundido mágicamente hasta el final de su siguiente turno. Mientras está confundido, resta [[/r 1d4]] de sus tiradas de salvación.</p>",
           "name": "Aturdido"
         }
       },

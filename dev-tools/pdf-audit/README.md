@@ -39,3 +39,9 @@ embedded in a Monster Manual actor:
 ```powershell
 python dev-tools/pdf-audit/sync_phb_embedded_text.py --write
 ```
+
+Apply the curated translations for MM-only residual fields and official terms:
+
+```powershell
+python dev-tools/pdf-audit/normalize_mm_residuals.py --write
+```

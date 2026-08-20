@@ -2493,7 +2493,7 @@
             },
             "eiPsvHBjVi4pRHqJ": {
               "name": "Inconsciente",
-              "description": "<p>El objetivo queda con la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante the duration (see source item for the length of the duration). </p>"
+              "description": "<p>El objetivo tiene la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante la duración (consulta el objeto de origen para conocer la duración).</p>"
             }
           },
           "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=6ce9oevQRWomSVSF]], each [[lookup @target.affects.type activity=6ce9oevQRWomSVSF]] in a [[lookup @target.template.size activity=6ce9oevQRWomSVSF]]-pies Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo queda con la condición &amp;Reference[Incapacitated apply=false]{Incapacitado} hasta el final de su siguiente turno, momento en el que repite la salvación.</p><p class=\"feature\"><em>Segundo fallo:</em> El objetivo queda con la condición &amp;Reference[Unconscious apply=false]{Inconsciente} durante [[lookup @duration.value activity=EZma0lCmQeTuVuAL]] minute. Este efecto termina para el objetivo si recibe daño o si una criatura a 5 pies o menos usa una acción para despertarlo.</p>"
@@ -3088,7 +3088,7 @@
               "description": "<p>Hasta el final de su siguiente turno, el objetivo tira [[/r 1d6]] cada vez que haga una prueba de característica o ataque y resta el resultado a la tirada.</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Carisma:</em> DC [[lookup @save.dc.value activity=Ttrajc4RC5Ut7pkj]], [[lookup @target.affects.labels.statblock activity=Ttrajc4RC5Ut7pkj]] el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Ttrajc4RC5Ut7pkj]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage. Until the end of its next turn, el objetivo rolls [[/r 1d8]] whenever it makes an ability check or ataque roll and subtracts the number rolled from the D20 Test.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Carisma:</em> CD [[lookup @save.dc.value activity=Ttrajc4RC5Ut7pkj]], [[lookup @target.affects.labels.statblock activity=Ttrajc4RC5Ut7pkj]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Ttrajc4RC5Ut7pkj]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño. Hasta el final de su siguiente turno, el objetivo tira [[/r 1d8]] cuando realiza una prueba de característica o una tirada de ataque y resta el resultado de la prueba de D20.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
         },
         "mmMindJolt000000": {
           "name": "Sacudida mental",
@@ -3204,7 +3204,7 @@
               "description": "<p>El objetivo tiene Desventaja en pruebas d20 basadas en Fuerza y resta 2 (1d4) de sus tiradas de daño. Repite la salvación al final de cada uno de sus turnos, terminando el efecto sobre sí mismo si tiene éxito. Después de 1 minuto, tiene éxito automáticamente.</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> DC [[lookup @save.dc.value activity=EGZ4bS4HpJkfNG9s]], each creature that isn’t currently affected by this breath in a [[lookup @target.template.size activity=EGZ4bS4HpJkfNG9s]]-pie Cone.</p><p class=\"feature\"><em>Fallo:</em> El objetivo has desventaja on Strength-based D20 Tests and subtracts 5 ([[/r 1d10]]) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After [[lookup @duration.value activity=EGZ4bS4HpJkfNG9s]] minute, it succeeds automatically.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=EGZ4bS4HpJkfNG9s]], cada criatura que no esté afectada por este aliento en un Cono de [[lookup @target.template.size activity=EGZ4bS4HpJkfNG9s]] pies.</p><p class=\"feature\"><em>Fallo:</em> El objetivo tiene desventaja en las pruebas de D20 basadas en Fuerza y resta 5 ([[/r 1d10]]) de sus tiradas de daño. Repite la salvación al final de cada uno de sus turnos y termina el efecto sobre sí mismo si tiene éxito. Después de [[lookup @duration.value activity=EGZ4bS4HpJkfNG9s]] minuto, tiene éxito automáticamente.</p>"
         },
         "mmBanish00000000": {
           "name": "Desterrar",
@@ -3368,7 +3368,7 @@
               "name": "Salvación"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], each creature in a [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-pie [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage.</p><p class=\"feature\"><em>Éxito:</em> Half damage.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un área de [[lookup @target.template.size activity=lnabW9bM51HoluPp]] pies con forma de [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> La mitad del daño.</p>"
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
@@ -4015,7 +4015,7 @@
             },
             "gZ5h0K8uFTRui7av": {
               "name": "Aturdido",
-              "description": "<p>The target is magically bewildered hasta el final de su siguiente turno. While bewildered, the target subtracts [[/r 1d4]] from its tiradas de salvación.</p>"
+              "description": "<p>El objetivo queda confundido mágicamente hasta el final de su siguiente turno. Mientras está confundido, resta [[/r 1d4]] de sus tiradas de salvación.</p>"
             }
           },
           "name": "Presencia señorial",
@@ -4028,7 +4028,7 @@
               "name": "Cautivado"
             },
             "54pvTrWlc7CB2ra6": {
-              "name": "Atemorizado"
+              "name": "Asustado"
             },
             "hYhryWdKIuHOzmO3": {
               "name": "Embarrado"
@@ -4218,7 +4218,7 @@
           "effects": {
             "ERS5n6nHszCnoySl": {
               "name": "Cazador: marcado como presa",
-              "description": "<p>The user tiene ventaja en tiradas de ataque against the target until the start of the user’s next turn.</p>"
+              "description": "<p>El usuario tiene ventaja en las tiradas de ataque contra el objetivo hasta el comienzo del siguiente turno del usuario.</p>"
             },
             "EaYfvxJPLJ2Ko434": {
               "name": "Sabio: enjambre molesto",
@@ -4856,7 +4856,7 @@
             "nLPRJi7ipeAet7ir": {
               "name": "Gastar uso",
               "activation": {
-                "condition": "fails a saving throw"
+                "condition": "falla una tirada de salvación"
               }
             }
           },
@@ -17063,7 +17063,7 @@
               "name": "Salvación"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> DC [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], each creature in a [[lookup @target.template.size activity=lnabW9bM51HoluPp]]-pie [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage.</p><p class=\"feature\"><em>Éxito:</em> Half damage.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=lnabW9bM51HoluPp]], cada criatura en un área de [[lookup @target.template.size activity=lnabW9bM51HoluPp]] pies con forma de [[lookup @target.template.type capitalize activity=lnabW9bM51HoluPp]].</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño.</p><p class=\"feature\"><em>Éxito:</em> La mitad del daño.</p>"
         }
       }
     },
@@ -23896,7 +23896,7 @@
             "zoXFSgzmWq8frUjI": {
               "name": "Dividirse",
               "activation": {
-                "condition": "is Large or Medium and has 10+ Hit Points, it becomes Bloodied or is subjected to Lightning or Slashing damage."
+                "condition": "es Grande o Mediana y tiene 10 puntos de golpe o más, queda malherida o recibe daño de relámpago o cortante."
               }
             }
           }
@@ -24629,7 +24629,7 @@
               "name": "Gastar uso"
             }
           },
-          "name": "Tránsito etéreo",
+          "name": "Salto etéreo",
           "description": "<p class=\"feature\">El [[lookup @name lowercase]] se teleporta del Plano Material al Plano Etéreo o viceversa.</p>"
         },
         "mmEtherealSight0": {
@@ -25468,7 +25468,7 @@
           "effects": {
             "RMeb9TUrFdhXMTzz": {
               "name": "Disipar el bien y el mal",
-              "description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions: <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>"
+              "description": "<p>Durante la duración, los Celestiales, Elementales, Feéricos, Infernales y Muertos vivientes tienen desventaja en las tiradas de ataque contra ti. Puedes terminar el conjuro antes de tiempo usando una de las siguientes funciones especiales: <strong>Romper encantamiento</strong> o <strong>Expulsión</strong>.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuro"

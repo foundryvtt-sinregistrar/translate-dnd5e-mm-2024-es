@@ -6,9 +6,9 @@
 - Extra Spanish entries: 0
 - Invalid internal references: 0
 - Macro mutation candidates: 99
-- Visible English terminology residues: 6
-- Deprecated Spanish terminology occurrences: 4
-- Probable untranslated English fields: 15
+- Visible English terminology residues: 0
+- Deprecated Spanish terminology occurrences: 0
+- Probable untranslated English fields: 0
 
 ## Pack structure
 
@@ -126,34 +126,8 @@
 
 ## Visible English terminology findings
 
-- `actors:entries.mmAncientCopperD.items.mmGigglingMagic0.description`: found=Ability Check, expected=Prueba de característica
-- `actors:entries.mmArchhag0000000.items.mmLegendaryResis.activities.nLPRJi7ipeAet7ir.activation.condition`: found=Saving Throw, expected=Tirada de salvación
-- `actors:entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition`: found=Hit Points, expected=Puntos de golpe
-- `features:entries.mmAnimalSpirit00.description`: found=Hit Points, expected=Puntos de golpe
-- `features:entries.mmLordlyPresence.description`: found=Charmed, expected=Hechizado
-- `features:entries.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description`: found=Charmed, expected=Hechizado
 
 ## Deprecated Spanish terminology
 
-- `actors:entries.mmAnimalLord0000.items.mmLordlyPresence.activities.54pvTrWlc7CB2ra6.name`: found=Atemorizado, expected=Asustado
-- `actors:entries.mmPhaseSpider000.items.mmEtherealJaunt0.name`: found=Tránsito etéreo, expected=Salto etéreo
-- `features:entries.mmEtherealJaunt0.name`: found=Tránsito etéreo, expected=Salto etéreo
-- `features:entries.mmLordlyPresence.activities.54pvTrWlc7CB2ra6.name`: found=Atemorizado, expected=Asustado
 
 ## Probable untranslated English fields
-
-- `actors:entries.mmAncientBrassDr.items.mmSleepBreath000.effects.eiPsvHBjVi4pRHqJ.description`: markers=4, words=19
-- `actors:entries.mmAncientCopperD.items.mmGigglingMagic0.description`: markers=12, words=61
-- `actors:entries.mmAncientGoldDra.items.mmWeakeningBreat.description`: markers=23, words=62
-- `actors:entries.mmAncientGreenDr.items.mmPoisonBreath00.description`: markers=5, words=18
-- `actors:entries.mmAnimalLord0000.items.mmLordlyPresence.effects.gZ5h0K8uFTRui7av.description`: markers=8, words=23
-- `actors:entries.mmAnimalLord0000.items.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description`: markers=8, words=20
-- `actors:entries.mmGreenDragonWyr.items.mmPoisonBreath00.description`: markers=5, words=18
-- `actors:entries.mmOchreJelly0000.items.mmSplit000000000.activities.zoXFSgzmWq8frUjI.activation.condition`: markers=11, words=19
-- `actors:entries.mmPlanetar000000.items.fkctWMs3HtVhRarn.effects.RMeb9TUrFdhXMTzz.description`: markers=13, words=34
-- `features:entries.mmAnimalSpirit00.description`: markers=21, words=99
-- `features:entries.mmAnimalSpirit00.effects.ERS5n6nHszCnoySl.description`: markers=8, words=20
-- `features:entries.mmLordlyPresence.description`: markers=36, words=97
-- `features:entries.mmLordlyPresence.effects.1JhQS3UFjWKSZqyP.description`: markers=9, words=19
-- `features:entries.mmLordlyPresence.effects.BR99gMLiBwIoLHVU.description`: markers=4, words=12
-- `features:entries.mmLordlyPresence.effects.gZ5h0K8uFTRui7av.description`: markers=8, words=23
