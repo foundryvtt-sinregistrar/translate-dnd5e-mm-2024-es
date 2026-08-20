@@ -31,7 +31,7 @@ def preserve_roll_label(source: str, translated: str) -> str:
     if not source.startswith("[[/r ") or "#" not in translated:
         return source
     label = translated.rsplit("#", 1)[1][:-2]
-    base = source.split("#", 1)[0][:-2]
+    base = source.split("#", 1)[0]
     return f"{base}#{label}]]"
 
 
