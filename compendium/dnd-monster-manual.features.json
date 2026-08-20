@@ -5673,7 +5673,7 @@
           "name": "Salvación"
         }
       },
-      "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=qHeMp7n2VPHtGbDS]], una criatura Mediana o más pequeña que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=qHeMp7n2VPHtGbDS]] pies o menos.</p><p><em>Fallo:</em> El objetivo es empujado hasta [[lookup @range.special activity=qHeMp7n2VPHtGbDS]] pies en línea recta alejándose del [[lookup @name lowercase]].</p>",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=qHeMp7n2VPHtGbDS]], una criatura Mediana o más pequeña que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=qHeMp7n2VPHtGbDS]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo es empujado hasta [[lookup @range.special activity=qHeMp7n2VPHtGbDS]] pies en línea recta alejándose del [[lookup @name lowercase]].</p>",
       "name": "Empujón telequinético"
     },
     "mmTelepathicBond": {
@@ -6032,7 +6032,7 @@
           "name": "Ataque en movimiento"
         }
       },
-      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe 7 (2d6)<span class=\"Apple-converted-space\"> </span>de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
+      "description": "<p class=\"feature\">[[/attack extended]]. [[/damage average extended]]. Si el objetivo es una criatura Mediana o más pequeña y el [[lookup @name lowercase]] se movió 20+ pies en línea recta hacia ella inmediatamente antes del impacto, el objetivo recibe [[/damage average activity=M8zolxGeUsp7MCgI]] de daño adicional y tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",
       "effects": {
         "OhQRYqL5fjvDhcQq": {
           "description": "<p>El objetivo tiene la condición &amp;Reference[Prone apply=false]{Derribado}.</p>",

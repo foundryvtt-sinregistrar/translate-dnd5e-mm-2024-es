@@ -5,7 +5,7 @@
 - Missing Spanish entries: 0
 - Extra Spanish entries: 0
 - Invalid internal references: 0
-- Macro mutation candidates: 77
+- Macro mutation candidates: 76
 - Visible English terminology residues: 0
 - Deprecated Spanish terminology occurrences: 0
 - Probable untranslated English fields: 0
@@ -59,7 +59,7 @@
 - `actors:entries.mmOchreJelly0000.items.mmSplit000000000.description`: kind=command-difference, removed=['[[lookup @name lowercase]]', '[[lookup @name lowercase]]', '[[lookup @name lowercase]]', '[[lookup @name lowercase]]', '[[lookup @name capitalize]]'], added=[]
 - `actors:entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.IYnaRAbPSikYHp99.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
 - `actors:entries.mmPixieWonderbri.items.mmFaerieDust0000.effects.CfdgxlE2FD4F1rL6.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
-- `actors:entries.mmPoltergeist000.items.mmTelekineticThr.description`: kind=command-difference, removed=['[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]', '[[/damage average]]', '[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]'], added=['[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]']
+- `actors:entries.mmPoltergeist000.items.mmTelekineticThr.description`: kind=command-difference, removed=['[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]'], added=['[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]']
 - `actors:entries.mmPoltergeist000.items.mmVanish00000000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
 - `actors:entries.mmPoltergeist000.items.mmObjectSlam0000.description`: kind=command-difference, removed=[], added=['[[lookup @name lowercase]]']
 - `actors:entries.mmPriest00000000.items.mmSpellcasting00.description`: kind=command-difference, removed=[], added=['[[lookup @attributes.spell.dc]]']
@@ -94,10 +94,9 @@
 - `features:entries.mmStakeToTheHear.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=[]
 - `features:entries.mmStomp000000000.description`: kind=command-difference, removed=[], added=['[[/item Slam]]']
 - `features:entries.mmSwarmOfGraspin.description`: kind=command-difference, removed=[], added=['[[lookup @activation.condition activity=hzeHzcSKHC4AvIJQ]]']
-- `features:entries.mmTelekineticThr.description`: kind=command-difference, removed=['[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]', '[[/damage average]]', '[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]'], added=['[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]']
+- `features:entries.mmTelekineticThr.description`: kind=command-difference, removed=['[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]', '[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]'], added=['[[lookup @range.special activity=qHeMp7n2VPHtGbDS]]']
 - `features:entries.mmTransparent000.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=[]
 - `features:entries.mmTrollSpawn0000.description`: kind=command-difference, removed=['[[/r 1d12#On a 12, the limb turns into a troll]]'], added=['[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]']
-- `features:entries.mmTusk0000000000.description`: kind=command-difference, removed=['[[/damage average activity=M8zolxGeUsp7MCgI]]'], added=[]
 - `features:entries.mmUmbralStrike00.description`: kind=command-difference, removed=[], added=['[[/item .mmGraveStrike000]]', '[[/item .mmSickeningRay00]]']
 - `features:entries.mmWaterSusceptib.description`: kind=command-difference, removed=['[[lookup @name lowercase]]'], added=[]
 - `tables:entries.mmRocNestRemnant.results.2E5DPhugEzWfnRy1.text`: kind=command-difference, removed=['[[/r 1d4#Eggs]]'], added=['[[/r 1d4#Huevos]]']

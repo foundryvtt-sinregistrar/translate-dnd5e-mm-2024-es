@@ -25647,7 +25647,7 @@
             }
           },
           "name": "Empujón telequinético",
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=qHeMp7n2VPHtGbDS]], una criatura Mediana o más pequeña que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=qHeMp7n2VPHtGbDS]] pies o menos.</p><p><em>Fallo:</em> El objetivo es empujado hasta [[lookup @range.special activity=qHeMp7n2VPHtGbDS]] pies en línea recta alejándose del [[lookup @name lowercase]].</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=qHeMp7n2VPHtGbDS]], una criatura Mediana o más pequeña que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=qHeMp7n2VPHtGbDS]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo es empujado hasta [[lookup @range.special activity=qHeMp7n2VPHtGbDS]] pies en línea recta alejándose del [[lookup @name lowercase]].</p>"
         },
         "mmVanish00000000": {
           "activities": {

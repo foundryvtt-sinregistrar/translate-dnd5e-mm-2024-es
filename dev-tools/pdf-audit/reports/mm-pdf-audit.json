@@ -409,7 +409,6 @@
       "removed": [
         "[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]",
         "[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]",
-        "[[/damage average]]",
         "[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]"
       ],
       "added": [
@@ -758,7 +757,6 @@
       "removed": [
         "[[lookup @target.affects.labels.statblock activity=qHeMp7n2VPHtGbDS]]",
         "[[lookup @range.value activity=qHeMp7n2VPHtGbDS]]",
-        "[[/damage average]]",
         "[[lookup @range.units activity=qHeMp7n2VPHtGbDS]]"
       ],
       "added": [
@@ -784,15 +782,6 @@
       "added": [
         "[[/r 1d12#Con un 12, la extremidad se convierte en un troll]]"
       ]
-    },
-    {
-      "pack": "features",
-      "path": "entries.mmTusk0000000000.description",
-      "kind": "command-difference",
-      "removed": [
-        "[[/damage average activity=M8zolxGeUsp7MCgI]]"
-      ],
-      "added": []
     },
     {
       "pack": "features",
@@ -832,7 +821,7 @@
     "missingEntries": 0,
     "extraEntries": 0,
     "invalidReferences": 0,
-    "macroMutations": 77,
+    "macroMutations": 76,
     "englishResidues": 0,
     "deprecatedSpanish": 0,
     "probableEnglishFields": 0,
