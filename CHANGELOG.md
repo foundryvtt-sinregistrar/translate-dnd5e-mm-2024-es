@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+No changes yet.
+
+### Added
+- —
+
+### Changed
+- —
+
+### Fixed
+- —
+
+---
+
+## [1.14.0] - 2026-08-25
+
+### Fixed
+- Corrected Spanish translations across Monster Manual compendiums.
+- Fixed Foundry activity references, target templates, and damage macros.
+- Updated actor, content, feature, and roll table data.
+
+### Changed
+- Added release archive exclusions through `.gitattributes`.
+- Updated `.gitignore` for temporary and distribution files.
+
 ### Added
 - MM 2024 Spanish translation workflow
 - Babele integration and converter infrastructure for Monster Manual 2024
