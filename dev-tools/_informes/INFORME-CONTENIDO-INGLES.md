@@ -2,6 +2,38 @@
 
 Fecha: 2026-09-21. Módulo: `translate-dnd5e-mm-2024-es`. Entorno indicado: Foundry VTT 14.368 y dnd5e 6.0.3.
 
+## Actualización: contenido corregido (2026-09-21)
+
+Se han corregido **15 campos** de `compendium/dnd-monster-manual.content.json`:
+
+- Resueltos los dos hallazgos confirmados: nombres de la tabla de conversiones de 2014, etiqueta «dragón de oro anciano» y unidades en pies del registro de cambios.
+- Localizados los títulos ingleses como «Manual de Monstruos», «Manual del Jugador» y «Guía del Dungeon Master».
+- Unificados los nombres de modrones en las ilustraciones y la tabla de conversiones.
+
+Se conservan las marcas y nombres propios (Wizards of the Coast, Foundry Virtual Tabletop, autores), la denominación «Dungeon Master» usada por el módulo y los nombres técnicos de archivos. Los casos editoriales de contenido listados en la revisión inicial quedan revisados: traducidos cuando correspondía o conservados por estos criterios.
+
+**Estado actual: quedan 5 campos confirmados pendientes, todos en `features.json`**, además de sus casos editoriales. Las tablas de hallazgos e inventario iniciales son históricas. Las observaciones técnicas de actores siguen pendientes fuera de esta fase.
+
+Validación: JSON válido; exactamente 15 valores de texto modificados; misma estructura, etiquetas HTML, atributos, UUID, macros y números. La búsqueda posterior no ha confirmado más restos de prosa inglesa; las coincidencias restantes corresponden a marcas o cadenas técnicas. No se ha realizado una comprobación visual en Foundry.
+
+Rutas corregidas:
+
+- `entries.mmArtHandouts000.pages.WykIOuhgQjo87lN1.name`
+- `entries.mmArtHandouts000.pages.tYyUvYZLyr5C7u3k.name`
+- `entries.mmArtHandouts000.pages.lNfr64YOHdeqMXn0.name`
+- `entries.mmArtHandouts000.pages.4VYbWc8f1lZLMsrT.name`
+- `entries.mmArtHandouts000.pages.rteWKEN08dVe23Gz.name`
+- `entries.mmCredits0000000.pages.VpoUc0Eu4wWKZrJS.text.content`
+- `entries.mmCredits0000000.pages.dtqA6TTb2PAbwRpm.text.content`
+- `entries.mmMonsterManual0.pages.IJXSi0n0LwKyq6RO.text.content`
+- `entries.mmMonsterManual0.pages.X1H2rUg0Z2D8BYVm.text.content`
+- `entries.mmMonsterManual0.pages.YcOK2OcfuipNi24h.text.content`
+- `entries.mmMonsterManual0.pages.L30mSCHBdIu0HYSW.text.content`
+- `entries.mmAppendixBMonst.pages.saPG2kKobk5RjHhN.text.content`
+- `entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content`
+- `entries.mmChangelog00000.name`
+- `entries.mmChangelog00000.pages.3qT5PydsQbImmZC4.text.content`
+
 ## Actualización: actores corregidos (2026-09-21)
 
 Se han traducido los **32 campos de los 18 actores** señalados en la revisión inicial de `compendium/dnd-monster-manual.actors.json`: descripciones, efectos y la condición de activación del Noble. Se han conservado los IDs, UUID, macros, parámetros de actividades y valores mecánicos. Se ha simplificado el HTML de Ataque múltiple del dragón verde anciano para recomponer correctamente la frase española.
@@ -74,7 +106,7 @@ En las tablas no se han encontrado restos ingleses confirmados. `Kuo-toa`, `Krak
 | `entries.mmBloodHawk00000.items.mmBeak0000000000.description` | . , o daño si el objetivo is {Ensangrentado}. |
 | `entries.mmNoble000000000.items.vyPsPLDVgeQfiZcP.activities.aLG3BRZL7P6OEjwd.activation.condition` | hit by a melee attack roll while holding a weapon |
 
-### `compendium/dnd-monster-manual.content.json`
+### `compendium/dnd-monster-manual.content.json` — 2 campos resueltos
 
 | Ruta JSON exacta | Fragmento o explicación |
 | --- | --- |
