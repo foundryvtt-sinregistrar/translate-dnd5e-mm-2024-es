@@ -1,10 +1,10 @@
 {
   "id": "translate-dnd5e-mm-2024-es",
-  "title": "D&D 5e MM 2024 Spanish Translation (Babele)",
+  "title": "Translation: DnD5e MM 2024 Spanish Translation (Babele)",
   "description": "Spanish translation for the official D&D 5e Monster Manual 2024 using Babele.",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14.367",
     "verified": "14.368"
   },
   "languages": [
@@ -25,7 +25,7 @@
         "id": "dnd5e",
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "minimum": "5.2.1",
+          "minimum": "6.0.0",
           "verified": "6.0.3"
         },
         "type": "system"
@@ -37,7 +37,7 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {
-          "minimum": "2.7.5",
+          "minimum": "2.9.1",
           "verified": "2.9.1"
         }
       }
