@@ -12390,7 +12390,7 @@
             },
             "NNfBNxg6PO0NlffF": {
               "name": "Tierra engullidora: apresado, cobertura y asfixia",
-              "description": "<p>Un objetivo sepultado tiene la condición &amp;Reference[Restrained apply=false]{Apresado}, tiene &amp;Reference[Total Cover]{cobertura total} y está &amp;Reference[suffocating]{asfixiándose}. Como acción, una criatura sepultada u otra criatura a 5 pies o menos de ella puede hacer una [[/check ability=str skill=ath format=long] (consulta el objeto de origen para la CD de escape). Si supera la prueba, la criatura deja de estar sepultada.</p>"
+              "description": "<p>Un objetivo sepultado tiene la condición &amp;Reference[Restrained apply=false]{Apresado}, tiene &amp;Reference[Total Cover]{cobertura total} y está &amp;Reference[suffocating]{asfixiándose}. Como acción, una criatura sepultada u otra criatura a 5 pies o menos de ella puede hacer una [[/check ability=str skill=ath format=long]] (consulta el objeto de origen para la CD de escape). Si supera la prueba, la criatura deja de estar sepultada.</p>"
             }
           },
           "name": "Evento cataclísmico",

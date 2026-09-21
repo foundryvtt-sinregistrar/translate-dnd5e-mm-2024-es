@@ -2,6 +2,14 @@
 
 Fecha: 2026-09-21. Módulo: `translate-dnd5e-mm-2024-es`. Entorno indicado: Foundry VTT 14.368 y dnd5e 6.0.3.
 
+## Corrección técnica completada (2026-09-21)
+
+Corregido el corchete de cierre que faltaba en `compendium/dnd-monster-manual.actors.json`, ruta `entries.mmElementalCatac.items.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description`.
+
+La macro queda como `[[/check ability=str skill=ath format=long]]`. Se conservan sus parámetros y el texto restante. Verificado el JSON y que el único cambio en el compendio es este corchete adicional.
+
+**La observación técnica de actores queda resuelta.** No quedan hallazgos confirmados pendientes de este informe. Las menciones posteriores a esta incidencia pendiente corresponden al historial anterior a esta corrección. No se ha comprobado el renderizado en Foundry.
+
 ## Actualización: rasgos corregidos (2026-09-21)
 
 Se han corregido **7 campos** de `compendium/dnd-monster-manual.features.json`: los cinco hallazgos confirmados y los dos nombres editoriales `Berserk`.
