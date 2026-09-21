@@ -4,16 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-No changes yet.
-
-### Added
-- —
+### Fixed
+- Register translations and converters through `babele.init` and `setup`, avoiding initialization-order dependencies and premature access to core settings in Foundry 14.
+- Use the configured Spanish language (including regional variants) for registration.
+- Adapt legacy RollTable result translations to Foundry 14 `name` and `description`, preserving IDs and mechanics.
 
 ### Changed
-- —
+- Updated compatibility metadata for Foundry VTT 14.368, dnd5e 6.0.3 and Babele 2.9.1.
 
-### Fixed
-- —
+### Added
+- Node regression tests for registration, converter mappings and table results: `node --test tests/*.test.mjs` (requires the adjacent Babele installation).
 
 ---
 
