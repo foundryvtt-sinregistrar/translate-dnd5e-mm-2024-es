@@ -17,6 +17,18 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.14.1] - 2026-09-21
+
+### Changed
+- Updated compatibility metadata for Foundry VTT `14.368` and dnd5e `6.0.3`.
+- Updated the documented dnd5e compatibility range to `6.0.x`.
+- Bumped the module version to `1.14.1`.
+
+### Fixed
+- Synchronized the release version and compatibility information across `module.json`, `README.md`, and `README.en.md`.
+
+---
+
 ## [1.14.0] - 2026-08-25
 
 ### Fixed
