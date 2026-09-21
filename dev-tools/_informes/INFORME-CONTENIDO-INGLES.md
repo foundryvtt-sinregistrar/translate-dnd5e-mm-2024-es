@@ -2,6 +2,28 @@
 
 Fecha: 2026-09-21. Módulo: `translate-dnd5e-mm-2024-es`. Entorno indicado: Foundry VTT 14.368 y dnd5e 6.0.3.
 
+## Actualización: rasgos corregidos (2026-09-21)
+
+Se han corregido **7 campos** de `compendium/dnd-monster-manual.features.json`: los cinco hallazgos confirmados y los dos nombres editoriales `Berserk`.
+
+- Traducidos el efecto de Espíritu animal, la condición de activación de Devastar, el nombre del efecto de Huida rencorosa y las descripciones de Tronar y Torbellino.
+- La condición «se ha movido 20 pies o más» conserva el umbral y encaja en la frase que la inserta mediante `lookup`.
+- Unificados el rasgo «Descontrol» y el efecto «Descontrolado» con los nombres ya usados en los actores.
+
+**Estado actual: no quedan hallazgos confirmados pendientes de la revisión inicial de los compendios.** Los casos editoriales de rasgos también están resueltos. Las observaciones técnicas previas de actores quedan fuera de esta fase. Las secciones inferiores reflejan el historial de revisión, no nuevos pendientes.
+
+Validación: JSON válido; exactamente 7 valores de texto modificados; estructura, macros, UUID, HTML y números conservados. La búsqueda léxica posterior no ha detectado nuevos candidatos visibles en inglés, excluidos los marcadores técnicos de la plantilla de lanzamiento de conjuros. No se ha comprobado el resultado visualmente en Foundry.
+
+Rutas corregidas:
+
+- `entries.mmAnimalSpirit00.effects.EaYfvxJPLJ2Ko434.description`
+- `entries.mmBerserk0000000.effects.8SBNBxgUqwEyYJcK.name`
+- `entries.mmBerserk0000000.name`
+- `entries.mmRavage00000000.activities.Gi7NHst31Yf0KVM9.activation.condition`
+- `entries.mmSpitefulEscape.effects.WP7LXEByRHwDlUE8.name`
+- `entries.mmThunderclap000.description`
+- `entries.mmWhirlwind00000.description`
+
 ## Actualización: contenido corregido (2026-09-21)
 
 Se han corregido **15 campos** de `compendium/dnd-monster-manual.content.json`:
@@ -113,7 +135,7 @@ En las tablas no se han encontrado restos ingleses confirmados. `Kuo-toa`, `Krak
 | `entries.mmAppendixBMonst.pages.h3BTeEccSFxjFvqd.text.content` | Todos los monstruos del Monster Manual de 2014 aparecen en este libro o tienen un sustituto adecuado a  […] ie Dragón (if green, blue, indigo, or violet) {Dragón feérico adulto} Faerie Dragón (if red, orange, or yellow) {Dragón feérico joven} Fire Snake {Serpiente de fuego} {Espada voladora} {Espada voladora animada} Gas Spore {Hongo espora de gas} {Serpiente venenosa gigante} {Serpiente ve […] sticas de 2014 Equivalente de 2025 Half-Ogre (Ogrillon) {Ogrillón} {Veterano semidragón rojo} {Semidragón} {H […] garto} {Explorador} Hombre lagarto Shaman {Hombre lagarto geomante} Lagarto King/Queen {Hombre lagarto soberano} {Sirénido} {Sirénido experto en escara |
 | `entries.mmChangelog00000.pages.3qT5PydsQbImmZC4.text.content` | Etiqueta visible {ancient gold dragon}; unidades «20 ft.» y «40 ft.». Los nombres de archivos swarm-of-insects.webp y swarm of insects.webp son técnicos. |
 
-### `compendium/dnd-monster-manual.features.json`
+### `compendium/dnd-monster-manual.features.json` — 5 campos resueltos
 
 | Ruta JSON exacta | Fragmento o explicación |
 | --- | --- |

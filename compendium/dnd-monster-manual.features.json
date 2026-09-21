@@ -161,7 +161,7 @@
           "name": "Cazador: marcado como presa"
         },
         "EaYfvxJPLJ2Ko434": {
-          "description": "<p>El objetivo tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>",
+          "description": "<p>El objetivo tiene desventaja en tiradas de ataque y pruebas de característica hasta el final de su siguiente turno.</p>",
           "name": "Sabio: enjambre molesto"
         }
       },
@@ -492,10 +492,10 @@
       "effects": {
         "8SBNBxgUqwEyYJcK": {
           "description": "<p>En cada uno de sus turnos mientras está en frenesí, la criatura ataca a la criatura más cercana que pueda ver. Si no hay ninguna criatura lo bastante cerca para moverse hasta ella y atacarla, la criatura ataca un objeto. Una vez que la criatura entra en frenesí, permanece así hasta que es destruida o deja de estar &amp;Reference[Bloodied apply=false].</p>",
-          "name": "Berserk"
+          "name": "Descontrolado"
         }
       },
-      "name": "Berserk"
+      "name": "Descontrol"
     },
     "mmBite0000000000": {
       "name": "Mordisco",
@@ -4502,7 +4502,7 @@
         },
         "Gi7NHst31Yf0KVM9": {
           "activation": {
-            "condition": "moved 20+ feet"
+            "condition": "se ha movido 20 pies o más"
           },
           "name": "Ataque en movimiento"
         }
@@ -5249,7 +5249,7 @@
       "effects": {
         "WP7LXEByRHwDlUE8": {
           "description": "<p>Hasta que la maldición termina, una criatura tiene desventaja en las pruebas de característica y las tiradas de salvación.</p>",
-          "name": "Cursed: Disadv. Checks & Saves"
+          "name": "Maldito: desventaja en pruebas y salvaciones"
         }
       },
       "name": "Huida rencorosa"
@@ -5827,7 +5827,7 @@
           "name": "Salvación"
         }
       },
-      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], cada [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en un [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]]-foot-radius Sphere centered on a point que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo tiene la &amp;Reference[Deafened apply=false] condición hasta el final de su siguiente turno.</p>",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Lq6GexegvlEVB6Dh]], cada [[lookup @target.affects.type activity=Lq6GexegvlEVB6Dh]] en una Esfera de [[lookup @target.template.size activity=Lq6GexegvlEVB6Dh]] pies de radio centrada en un punto que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Lq6GexegvlEVB6Dh]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene la condición &amp;Reference[Deafened apply=false] hasta el final de su siguiente turno.</p>",
       "effects": {
         "QyuBYDW1zznn0OS4": {
           "description": "<p>El objetivo tiene la condición &amp;Reference[Deafened apply=long]{Ensordecido} hasta el final de su siguiente turno.</p>",
@@ -6426,7 +6426,7 @@
           "name": "Salvación"
         }
       },
-      "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]], cada [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] Mediano o más pequeño que esté en el espacio del [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] damage, y el objetivo es empujado hasta 20 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false].</p><p><em>Éxito:</em> Solo la mitad del daño.</p>",
+      "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]], cada [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] Mediano o más pequeño que esté en el espacio del [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo es empujado hasta 20 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false].</p><p><em>Éxito:</em> Solo la mitad del daño.</p>",
       "effects": {
         "qihlGD6RZ55pZY9n": {
           "description": "<p>El objetivo es empujado hasta 20 pies en línea recta alejándose de la criatura atacante y queda con la condición &amp;Reference[Prone apply=false].</p>",
