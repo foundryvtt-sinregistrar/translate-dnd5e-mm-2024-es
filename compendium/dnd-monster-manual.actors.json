@@ -922,10 +922,10 @@
           "effects": {
             "n3I76HfSH6eKLALf": {
               "name": "Fallo: 1/2 Velocidad",
-              "description": "<p>El objetivo’s Velocidad is halved hasta el final de su siguiente turno</p>"
+              "description": "<p>La velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y la velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>"
         }
       }
     },
@@ -985,7 +985,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +10 to hit with spell attacks):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Hablar con los animales}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Respirar bajo el agua}</em></p>"
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +10 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]{Hablar con los animales}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg]{Taumaturgia}</em></p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detectar pensamientos}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat]{Respirar bajo el agua}</em></p>"
         },
         "Fq2btaoAHlpjfrnn": {
           "name": "Detectar magia",
@@ -1154,7 +1154,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Slowing Breath]] or (B) [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (level 4 version).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Slowing Breath]] o (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (versión de nivel 4).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -1166,7 +1166,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (level 4 version), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión menor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Imagen mayor}</em></p>"
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (versión de nivel 4), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{Ilusión menor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Restablecimiento mayor}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Imagen mayor}</em></p>"
         },
         "VfJl4waJI38BhqP4": {
           "name": "Detectar magia",
@@ -1326,7 +1326,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Spellcasting]] to cast [[/item Guiding Bolt]] (versión de nivel 2) or (B) [[/item Weakening Breath]].</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Spellcasting]] para lanzar [[/item Guiding Bolt]] (versión de nivel 2) o (B) [[/item Weakening Breath]].</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -1643,7 +1643,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +12 to hit with spell attacks):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em></p>"
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +12 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em></p><p class=\"feature-trait\"><strong>1/día:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em></p>"
         },
         "96FsmcQizygzJObm": {
           "name": "Orden imperiosa",
@@ -1769,7 +1769,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +11 to hit with spell attacks):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Inmovilizar monstruo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Cuchillo de hielo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de hielo}</em> (level 5 version), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p>"
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +11 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Inmovilizar monstruo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Cuchillo de hielo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de hielo}</em> (versión de nivel 5), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p>"
         },
         "xM689Lh3r7eqGpAY": {
           "name": "Detectar magia",
@@ -2000,7 +2000,7 @@
             }
           },
           "name": "Torbellino",
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]], cada [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] Mediano o más pequeño que esté en el espacio del [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] damage, y el objetivo es empujado hasta 20 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false]{Derribado}.</p><p><em>Éxito:</em> Solo la mitad del daño.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Fuerza:</em> CD [[lookup @save.dc.value activity=GQzr4EMMm6kkZVdC]], cada [[lookup @target.affects.type activity=GQzr4EMMm6kkZVdC]] Mediano o más pequeño que esté en el espacio del [[lookup @name lowercase]].</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo es empujado hasta 20 pies en línea recta alejándose del [[lookup @name lowercase]] y queda con la condición &amp;Reference[Prone apply=false]{Derribado}.</p><p><em>Éxito:</em> Solo la mitad del daño.</p>"
         },
         "mmThunderousSlam": {
           "name": "Golpe atronador",
@@ -2194,7 +2194,7 @@
         },
         "mmCloudOfInsects": {
           "name": "Nube de insectos",
-          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=0OkFhjOM80ipoNKy]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] damage, y el objetivo tiene desventaja en las tiradas de salvación para mantener la &amp;Reference[concentration]{Concentración} hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=0OkFhjOM80ipoNKy]], una criatura que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=0OkFhjOM80ipoNKy]] pies o menos.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo tiene desventaja en las tiradas de salvación para mantener la &amp;Reference[concentration]{Concentración} hasta el final de su siguiente turno.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "0OkFhjOM80ipoNKy": {}
           },
@@ -2272,7 +2272,7 @@
         },
         "mmLightningBreat": {
           "name": "Aliento relampagueante",
-          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en un [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]]-pies-long, [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]]-pies-wide Line</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad del daño.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza: </em>CD [[lookup @save.dc.value activity=LpjgVwftzGNMgTUJ]], cada [[lookup @target.affects.type activity=LpjgVwftzGNMgTUJ]] en una Línea de [[lookup @target.template.size activity=LpjgVwftzGNMgTUJ]] pies de largo y [[lookup @target.template.width activity=LpjgVwftzGNMgTUJ]] pies de ancho.</p><p><em>Fallo: </em>[[/damage average]] de daño.</p><p><em>Éxito:</em> Mitad del daño.</p>",
           "activities": {
             "LpjgVwftzGNMgTUJ": {}
           }
@@ -2460,7 +2460,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Sleep Breath]] or (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em> (versión de nivel 3).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Sleep Breath]] o (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em> (versión de nivel 3).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -2643,11 +2643,11 @@
               "name": "Salvación"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo’s Velocidad is halved hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=g5fxAWhrpwohtETl]], [[lookup @target.affects.labels.statblock activity=g5fxAWhrpwohtETl]] que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=g5fxAWhrpwohtETl]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y la velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el comienzo de su siguiente turno.</p>",
           "effects": {
             "n3I76HfSH6eKLALf": {
               "name": "Mitad de velocidad",
-              "description": "<p>El objetivo’s Velocidad is halved hasta el final de su siguiente turno</p>"
+              "description": "<p>La velocidad del objetivo se reduce a la mitad hasta el final de su siguiente turno</p>"
             }
           }
         }
@@ -2682,7 +2682,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Repulsion Breath]] or (B) [[/item Spellcasting]] para lanzar <em>Guiding Bolt</em> (versión de nivel 2).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Repulsion Breath]] o (B) [[/item Spellcasting]] para lanzar <em>Saeta guía</em> (versión de nivel 2).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -2956,7 +2956,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Slowing Breath]] or (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (level 5 version).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item Rend]]. Puede reemplazar un ataque por un uso de (A) [[/item Slowing Breath]] o (B) [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (versión de nivel 5).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -3092,7 +3092,7 @@
         },
         "mmMindJolt000000": {
           "name": "Sacudida mental",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (level 5 version). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMindSpike0]{Clavo mental}</em> (versión de nivel 5). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "f3Q5Cky4bKFVdOT2": {}
           }
@@ -3181,7 +3181,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (versión de nivel 4), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Golpe flamígero} </em>(level 6 version<em><strong>)</strong></em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWordofReca]{Palabra de regreso},</em> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]]):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (versión de nivel 4), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFlameStrik]{Golpe flamígero} </em>(versión de nivel 6<em><strong>)</strong></em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWordofReca]{Palabra de regreso},</em> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p>",
           "activities": {
             "oEh9guOjQyQ0x9Fm": {},
             "KjpOjAZ9HUwxD7aF": {},
@@ -3221,7 +3221,7 @@
         },
         "mmGuidingLight00": {
           "name": "Luz guía",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] uses Spellcasting to cast <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (level 2 version).</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa Lanzamiento de conjuros para lanzar <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Saeta guía}</em> (versión de nivel 2).</p>",
           "activities": {
             "zm9pGaRN3rgfVgGl": {}
           }
@@ -3352,7 +3352,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p><span style=\"font-family:'Roboto Condensed', sans-serif\">The </span>[[lookup @name lowercase]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> makes three </span><span class=\"Apple-converted-space\"> </span>[[/item .mmRend0000000000]]<span style=\"font-family:'Roboto Condensed', sans-serif\"> attacks. Puede reemplazar un ataque por un uso de Spellcasting para lanzar </span><em>[[/item .mmSpellcasting00.Activity.hHQiQYfo3AV5ZW6F]]</em><span style=\"font-family:'Roboto Condensed', sans-serif\"> (level 5 version).</span></p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de Lanzamiento de conjuros para lanzar <em>[[/item .mmSpellcasting00.Activity.hHQiQYfo3AV5ZW6F]]</em> (versión de nivel 5).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -3382,7 +3382,7 @@
         },
         "mmMindInvasion00": {
           "name": "Invasión mental",
-          "description": "<p class=\"feature\">The dragon uses [[/item Spellcasting]] to cast <em>[[/item .mmSpellcasting00.Activity.hHQiQYfo3AV5ZW6F]]</em> (level 3 version).</p>",
+          "description": "<p class=\"feature\">El dragón usa [[/item Spellcasting]] para lanzar <em>[[/item .mmSpellcasting00.Activity.hHQiQYfo3AV5ZW6F]]</em> (versión de nivel 3).</p>",
           "activities": {
             "SxaXUPLBRHtYL9As": {}
           }
@@ -3413,7 +3413,7 @@
               "description": "<p>El objetivo sufre un penalizador de −2 a la CA hasta el final de su siguiente turno.</p>"
             }
           },
-          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Blm8nddvCOH69bL8]], cada [[lookup @target.affects.type activity=Blm8nddvCOH69bL8]] en un [[lookup @target.template.size activity=Blm8nddvCOH69bL8]]-pie-radius Sphere centered on a point el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Blm8nddvCOH69bL8]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] damage, and el objetivo takes a −2 penalty to AC hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
+          "description": "<p class=\"feature\"><em>Tirada de salvación de Constitución:</em> CD [[lookup @save.dc.value activity=Blm8nddvCOH69bL8]], cada [[lookup @target.affects.type activity=Blm8nddvCOH69bL8]] en una Esfera de [[lookup @target.template.size activity=Blm8nddvCOH69bL8]] pies de radio centrada en un punto que el [[lookup @name lowercase]] pueda ver a [[lookup @range.value activity=Blm8nddvCOH69bL8]] pies.</p><p class=\"feature\"><em>Fallo:</em> [[/damage average]] de daño, y el objetivo sufre un penalizador de −2 a la CA hasta el final de su siguiente turno.</p><p class=\"feature\"><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>"
         },
         "mmPounce00000000": {
           "name": "Abalanzarse",
@@ -3509,7 +3509,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de Spellcasting para lanzar [[/item .mmSpellcasting00.Activity.bXJvvKCoI0uVBG4W]] (versión de nivel 3).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de Lanzamiento de conjuros para lanzar [[/item .mmSpellcasting00.Activity.bXJvvKCoI0uVBG4W]] (versión de nivel 3).</p>"
         },
         "mmRend0000000000": {
           "name": "Desgarrar",
@@ -3527,7 +3527,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +15 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em> (versión de nivel 3)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em> (level 6 version), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Escudriñar}</em></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +15 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCommand000]{Orden imperiosa}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]{Rayo abrasador}</em> (versión de nivel 3)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]{Bola de fuego}</em> (versión de nivel 6), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScrying000]{Escudriñar}</em></p>",
           "activities": {
             "yT3FKrXFGNmp9LYe": {},
             "qHxPBX3ox7wjwBo5": {},
@@ -3538,7 +3538,7 @@
         },
         "mmCommandingPres": {
           "name": "Presencia imponente",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>[[/item .mmSpellcasting00.Activity.yT3FKrXFGNmp9LYe]]</em> (level 2 version). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>[[/item .mmSpellcasting00.Activity.yT3FKrXFGNmp9LYe]]</em> (versión de nivel 2). El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "Ouie1mEfXPRou9cj": {}
           }
@@ -3554,7 +3554,7 @@
         },
         "mmFieryRays00000": {
           "name": "Rayos ígneos",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>[[/item .mmSpellcasting00.Activity.bXJvvKCoI0uVBG4W]]. </em>El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>[[/item .mmSpellcasting00.Activity.bXJvvKCoI0uVBG4W]]. </em>El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "EA1U9O6Z71z2lUZV": {}
           }
@@ -3677,7 +3677,7 @@
               "name": "Usar"
             }
           },
-          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de (A) [[/item .mmParalyzingBrea]] or (B) Spellcasting para lanzar [[/item .mmSpellcasting00.Activity.DJGcakjcAlCCOOFg]] (versión de nivel 2).</p>"
+          "description": "<p>El [[lookup @name lowercase]] realiza tres ataques de [[/item .mmRend0000000000]]. Puede reemplazar un ataque por un uso de (A) [[/item .mmParalyzingBrea]] o (B) Lanzamiento de conjuros para lanzar [[/item .mmSpellcasting00.Activity.DJGcakjcAlCCOOFg]] (versión de nivel 2).</p>"
         },
         "mmLegendaryResis": {
           "name": "Resistencia legendaria",
@@ -3726,7 +3726,7 @@
         },
         "mmSpellcasting00": {
           "name": "Lanzamiento de conjuros",
-          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +15 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Inmovilizar monstruo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Cuchillo de hielo}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{Controlar el clima}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de hielo}</em> (level 7 version), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teletransporte}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p><p></p>",
+          "description": "<p class=\"feature\">El [[lookup @name lowercase]] lanza uno de los siguientes conjuros, sin requerir componentes Materiales y usando Carisma como característica mágica (CD de salvación de conjuros [[lookup @attributes.spell.dc]], +15 a impactar con ataques de conjuro):</p><p class=\"feature-trait\"><strong>A voluntad:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi]{Detectar magia}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Inmovilizar monstruo}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00]{Cuchillo de hielo}</em> (versión de nivel 2), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShapechang]{Cambiar de forma}</em> (solo forma de Bestia o Humanoide, sin obtener Puntos de golpe temporales del conjuro y sin requerir Concentración ni Puntos de golpe temporales para mantener el conjuro)</p><p class=\"feature-trait\"><strong>1/día cada uno:</strong> <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplControlWea]{Controlar el clima}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplIceStorm00]{Tormenta de hielo}</em> (versión de nivel 7), <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTeleport00]{Teletransporte}</em>, <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplZoneofTrut]{Zona de la verdad}</em></p><p></p>",
           "activities": {
             "HCQQsqcyNqjgejDm": {},
             "2CC68ooxyWo6GXU4": {},
@@ -3740,14 +3740,14 @@
         },
         "mmChill000000000": {
           "name": "Escalofrío",
-          "description": "<p>El [[lookup @name lowercase]] uses [[/item Spellcasting]] to cast <em>[[/item .mmSpellcasting00.Activity.2CC68ooxyWo6GXU4]]</em>. The dragon no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p>El [[lookup @name lowercase]] usa [[/item Spellcasting]] para lanzar <em>[[/item .mmSpellcasting00.Activity.2CC68ooxyWo6GXU4]]</em>. El dragón no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "o8mXdG8q9Qh65U1Z": {}
           }
         },
         "mmColdGale000000": {
           "name": "Vendaval gélido",
-          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=pVs8BTVDNh54CZ0a]], cada creature en un [[lookup @target.template.size activity=pVs8BTVDNh54CZ0a]]-pie-long, [[lookup @target.template.width activity=pVs8BTVDNh54CZ0a]]-pie-wide Line.</p><p><em>Fallo:</em> [[/damage average]] damage, and el objetivo is pushed up to 30 pies straight away from el [[lookup @name lowercase]].</p><p><em>Éxito:</em> La mitad del daño solamente.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
+          "description": "<p><em>Tirada de salvación de Destreza:</em> CD [[lookup @save.dc.value activity=pVs8BTVDNh54CZ0a]], cada criatura en una Línea de [[lookup @target.template.size activity=pVs8BTVDNh54CZ0a]] pies de largo y [[lookup @target.template.width activity=pVs8BTVDNh54CZ0a]] pies de ancho.</p><p><em>Fallo:</em> [[/damage average]] de daño, y el objetivo es empujado hasta 30 pies en línea recta alejándose del [[lookup @name lowercase]].</p><p><em>Éxito:</em> La mitad del daño solamente.</p><p><em>Fallo o éxito:</em> El [[lookup @name lowercase]] no puede volver a realizar esta acción hasta el inicio de su siguiente turno.</p>",
           "activities": {
             "pVs8BTVDNh54CZ0a": {
               "description": {
@@ -4222,7 +4222,7 @@
             },
             "EaYfvxJPLJ2Ko434": {
               "name": "Sabio: enjambre molesto",
-              "description": "<p>El objetivo tiene desventaja en tiradas de ataque and pruebas de característica hasta el final de su siguiente turno.</p>"
+              "description": "<p>El objetivo tiene desventaja en tiradas de ataque y pruebas de característica hasta el final de su siguiente turno.</p>"
             }
           }
         }
@@ -7382,7 +7382,7 @@
               "name": ""
             }
           },
-          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=EsTerwQE7jI9CDxE]] daño si el objetivo is &amp;Reference[Bloodied]{Ensangrentado}.</p>"
+          "description": "<p>[[/attack extended]]. [[/damage average extended]], o [[/damage average activity=EsTerwQE7jI9CDxE]] de daño si el objetivo está &amp;Reference[Bloodied]{Ensangrentado}.</p>"
         }
       }
     },
@@ -23533,7 +23533,7 @@
             "aLG3BRZL7P6OEjwd": {
               "name": "Usar",
               "activation": {
-                "condition": "hit by a melee attack roll while holding a weapon"
+                "condition": "recibe el impacto de una tirada de ataque cuerpo a cuerpo mientras empuña un arma"
               }
             }
           },

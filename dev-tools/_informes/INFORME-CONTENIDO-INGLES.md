@@ -2,6 +2,18 @@
 
 Fecha: 2026-09-21. Módulo: `translate-dnd5e-mm-2024-es`. Entorno indicado: Foundry VTT 14.368 y dnd5e 6.0.3.
 
+## Actualización: actores corregidos (2026-09-21)
+
+Se han traducido los **32 campos de los 18 actores** señalados en la revisión inicial de `compendium/dnd-monster-manual.actors.json`: descripciones, efectos y la condición de activación del Noble. Se han conservado los IDs, UUID, macros, parámetros de actividades y valores mecánicos. Se ha simplificado el HTML de Ataque múltiple del dragón verde anciano para recomponer correctamente la frase española.
+
+En la comprobación posterior se ha corregido un campo adicional: `entries.mmAncientBlueDra.items.mmLightningBreat.description`, que conservaba `-pies-long, -pies-wide Line`. Total de esta fase: **33 campos corregidos en 19 actores**. La búsqueda ampliada no ha confirmado otros restos visibles en inglés.
+
+Observación técnica fuera de esta traducción: `entries.mmElementalCatac.items.mmCataclysmicEve.effects.NNfBNxg6PO0NlffF.description` contiene una macro `[[/check ... format=long]` con un solo corchete de cierre. `long` es un parámetro técnico; se conserva y se deja su sintaxis pendiente de revisión.
+
+**Pendientes confirmados de la revisión inicial: 7 campos** (5 en rasgos y 2 en contenido). Los 32 hallazgos de actores que aparecen más abajo se conservan como registro histórico y están **resueltos**. Los recuentos del inventario y las muestras corresponden al análisis inicial, anterior a esta corrección; no describen el estado posterior de actores. Los casos editoriales siguen separados.
+
+Validación: JSON válido; exactamente 33 valores modificados; estructura y todas las referencias funcionales de esos valores conservadas.
+
 ## Alcance y método
 
 Se han recorrido los **206 archivos JSON** del módulo, incluidos `compendium`, `lang`, `module.json` y los materiales de `dev-tools`. Se ha comprobado su sintaxis y examinado recursivamente sus valores de texto mediante detección de vocabulario inglés. Los candidatos de los compendios activos se han revisado en contexto y se han contrastado cadenas sin cambios con los cuatro originales `en-source.json` locales. No se han modificado las traducciones.
@@ -10,7 +22,7 @@ Se omiten de la detección las etiquetas HTML y el interior de macros `@UUID`, `
 
 La detección es léxica, no una certificación lingüística exhaustiva. El inventario incluye todos los JSON; los candidatos de archivos históricos y auxiliares no se presentan como errores confirmados. No se ha verificado el texto que generan dinámicamente los enlaces en una sesión de Foundry ni la cobertura frente a los compendios oficiales actuales.
 
-## Resumen de los compendios activos
+## Resumen inicial de los compendios activos
 
 | Archivo | Entradas | Valores de texto | Campos con restos confirmados | IDs de entrada afectados |
 | --- | ---: | ---: | ---: | ---: |
@@ -25,7 +37,7 @@ En las tablas no se han encontrado restos ingleses confirmados. `Kuo-toa`, `Krak
 
 ## Hallazgos confirmados
 
-### `compendium/dnd-monster-manual.actors.json`
+### `compendium/dnd-monster-manual.actors.json` — 32 campos resueltos
 
 | Ruta JSON exacta | Fragmento o explicación |
 | --- | --- |
