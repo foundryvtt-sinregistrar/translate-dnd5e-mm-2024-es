@@ -1,4 +1,4 @@
-# D&D 5e Monster Manual (2024) — Traducción al español
+# Monster Manual (2024) — Traducción al español
 
 **Español** | [English](README.en.md)
 
@@ -6,42 +6,41 @@ Traducción para Foundry VTT mediante Babele. Identificador: `translate-dnd5e-mm
 
 ## Estado
 
-Versión: **1.14.1**. Incluye traducciones para cuatro compendios del producto oficial: monstruos, contenido del manual, rasgos y tablas de tiradas.
-
-Las pruebas automatizadas cubren el registro, la selección de idioma, los mappings de convertidores y los resultados de tablas. Parte de ellas requiere una instalación local de Babele. La verificación visual y funcional en Foundry durante esta homogeneización sigue pendiente; la presencia de traducciones no acredita por sí sola una revisión completa.
+Versión: **1.14.1**. Incluye los cuatro compendios del manual. Las pruebas cubren registro, convertidores y resultados de tablas. La verificación visual y funcional completa durante esta homogeneización sigue pendiente.
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 
 ## Requisitos
 
-Compatibilidad declarada en `module.json`:
+Versiones declaradas en el manifiesto; «—» indica que no se declara ese límite.
 
-| Dependencia | Versión mínima | Versión verificada |
+| Dependencia | Mínima | Verificada |
 |---|---|---|
 | Foundry VTT | 14.367 | 14.368 |
-| Sistema dnd5e | 6.0.0 | 6.0.3 |
-| Babele | 2.9.1 | 2.9.1 |
+| dnd5e | 6.0.0 | 6.0.3 |
+| babele | 2.9.1 | 2.9.1 |
+| dnd-monster-manual | — | — |
 
-También se necesita el módulo oficial **Monster Manual** (`dnd-monster-manual`), instalado y activado, y las dependencias de Babele. Adquiere e instala el producto oficial por separado. El manifiesto de esta traducción todavía no declara ese producto como dependencia y no establece una versión mínima o verificada para él.
+Instala y activa las dependencias, adquiriendo por separado los productos oficiales cuando sean necesarios.
 
 ## Instalación
 
 En la configuración de Foundry, abre **Add-on Modules → Install Module** y utiliza este manifiesto:
 
 ```text
-https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/main/module.json
+https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases/latest/download/module.json
 ```
 
 Para instalar manualmente, descarga `translate-dnd5e-mm-2024-es.zip` de las [releases](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases). Con Foundry detenido, extrae la carpeta `translate-dnd5e-mm-2024-es` en `Data/modules/`; el manifiesto debe quedar en `Data/modules/translate-dnd5e-mm-2024-es/module.json`.
 
 ## Activación
 
-1. Abre un mundo con el sistema dnd5e.
-2. Activa Babele y sus dependencias, el módulo oficial Monster Manual y esta traducción.
-3. Selecciona **Español** como idioma de Foundry y recarga el mundo.
-4. Abre un compendio del manual para comprobar la traducción.
+1. Abre un mundo dnd5e.
+2. Activa Babele, sus dependencias, los productos oficiales requeridos y esta traducción.
+3. Selecciona **Español** y recarga el mundo.
+4. Abre un compendio traducido para comprobar el resultado.
 
-El registro es automático para `es` y variantes regionales como `es-ES`. Con otros idiomas no se aplica la traducción española.
+El registro es automático para `es` y sus variantes regionales. Otros idiomas no activan la traducción española.
 
 ## Actualización
 
@@ -49,19 +48,14 @@ Actualiza desde Foundry o sustituye la carpeta con el ZIP publicado y Foundry de
 
 ## Contenido incluido
 
-- Monstruos (`actors`), incluidos campos e ítems anidados cubiertos por los mappings.
-- Contenido del manual y diarios (`content`).
-- Rasgos (`features`).
-- Tablas de tiradas (`tables`).
-
-Babele y los convertidores aplican las traducciones a los compendios del producto oficial conservando identificadores y referencias.
+- `dnd-monster-manual.actors.json`.
+- `dnd-monster-manual.content.json`.
+- `dnd-monster-manual.features.json`.
+- `dnd-monster-manual.tables.json`.
 
 ## Limitaciones
 
-- Se requiere el producto oficial; este módulo aporta las traducciones.
-- La tabla de requisitos reproduce el manifiesto; no representa una nueva validación funcional de esas combinaciones.
-- La revisión visual y funcional sigue pendiente en esta homogeneización.
-- Las copias importadas requieren la revisión descrita en Actualización.
+La cobertura textual y las pruebas automáticas no acreditan todas las automatizaciones de una partida. Conserva las limitaciones indicadas en Estado. Las copias importadas no se actualizan automáticamente. Las nuevas URLs de release necesitan una publicación con sus adjuntos; mientras no estén disponibles, utiliza un ZIP validado. No se distribuyen fuentes privadas, PDF, OCR ni exportaciones oficiales completas.
 
 ## Soporte y contribuciones
 
@@ -73,10 +67,6 @@ La [guía de desarrollo](https://github.com/foundryvtt-sinregistrar/translate-dn
 
 ## Licencia y créditos
 
-La licencia Apache 2.0 incluida en el repositorio se puede consultar en [LICENSE.md](LICENSE.md).
+Consulta la licencia y sus condiciones en [LICENSE.md](LICENSE.md). Se conserva la licencia Apache 2.0 existente.
 
-Este proyecto contiene traducciones de material del **Monster Manual**, propiedad de Wizards of the Coast. Es una traducción no oficial y no está afiliada a Wizards of the Coast. Consulta también la [Wizards of the Coast Fan Content Policy](https://dnd.wizards.com/en/digital-tools-licensing).
-
-Dungeons & Dragons Monster Manual 2024 © Wizards of the Coast LLC. Todos los derechos reservados.
-
-Autor del módulo: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).
+Traducción no oficial, sin afiliación con Wizards of the Coast ni Foundry VTT. Los materiales del producto oficial pertenecen a sus respectivos titulares. Autor del módulo: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).

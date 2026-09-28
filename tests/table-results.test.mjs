@@ -1,9 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { mm2024RollTableResultsById as translate } from "../scripts/converters/mm2024-rollTableResultsById.js";
-import { ConverterRegistry } from "../../babele/script/converter/converter-registry.js";
-import { FieldMapping } from "../../babele/script/mapping/field-mapping.js";
 
 const row = () => ({ _id: "one", name: "Original", description: "Original description",
     range: [1, 2], weight: 2, type: "document", documentUuid: "Compendium.example.actors.Actor.one" });
@@ -36,7 +34,29 @@ test("supports legacy results, current patches, collections and keyed results", 
     assert.equal(translate({ one: { name: "Original" } }, { one: { text: "Traducido" } }).one.name, "Traducido");
 });
 
-test("all shipped table translations reach a visible Foundry 14 field", () => {
+test("all shipped table patches reach a visible field through the converter", () => {
+    const pack = JSON.parse(readFileSync(new URL("../compendium/dnd-monster-manual.tables.json", import.meta.url)));
+    let count = 0;
+    for (const entry of Object.values(pack.entries)) {
+        for (const [id, patch] of Object.entries(entry.results ?? {})) {
+            const source = { ...row(), _id: id };
+            const [result] = translate([source], { [id]: patch });
+            assert.ok(result.name === patch.text || result.description === patch.text, id);
+            assert.deepEqual(result.range, source.range);
+            assert.equal(result.documentUuid, source.documentUuid);
+            count++;
+        }
+    }
+    assert.ok(count > 0);
+});
+
+const registryURL = new URL("../../babele/script/converter/converter-registry.js", import.meta.url);
+const mappingURL = new URL("../../babele/script/mapping/field-mapping.js", import.meta.url);
+test("Babele integration: all shipped table translations reach a visible Foundry 14 field", {
+    skip: !existsSync(registryURL) || !existsSync(mappingURL)
+}, async () => {
+    const { ConverterRegistry } = await import(registryURL.href);
+    const { FieldMapping } = await import(mappingURL.href);
     const pack = JSON.parse(readFileSync(new URL("../compendium/dnd-monster-manual.tables.json", import.meta.url)));
     const registry = new ConverterRegistry({ mm2024RollTableResultsById: translate });
     const mapping = new FieldMapping("results", pack.mapping.results, registry);

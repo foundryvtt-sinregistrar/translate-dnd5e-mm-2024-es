@@ -1,4 +1,4 @@
-# D&D 5e Monster Manual (2024) — Spanish Translation
+# Monster Manual (2024) — Spanish Translation
 
 [Español](README.md) | **English**
 
@@ -6,42 +6,41 @@ Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-mm-2024-es
 
 ## Status
 
-Version: **1.14.1**. Includes translations for four compendiums from the official product: monsters, handbook content, features, and roll tables.
-
-Automated tests cover registration, language selection, converter mappings, and table results. Some require a local Babele installation. Visual and functional verification in Foundry during this standardization remains pending; the presence of translations alone does not establish a complete review.
+Version: **1.14.1**. Includes the four handbook compendiums. Tests cover registration, converters and table results. Complete visual and functional verification during this standardization remains pending.
 
 See [CHANGELOG.md](CHANGELOG.md).
 
 ## Requirements
 
-Compatibility declared in `module.json`:
+Versions declared in the manifest; “—” means that the corresponding limit is not declared.
 
-| Dependency | Minimum version | Verified version |
+| Dependency | Minimum | Verified |
 |---|---|---|
 | Foundry VTT | 14.367 | 14.368 |
-| dnd5e system | 6.0.0 | 6.0.3 |
-| Babele | 2.9.1 | 2.9.1 |
+| dnd5e | 6.0.0 | 6.0.3 |
+| babele | 2.9.1 | 2.9.1 |
+| dnd-monster-manual | — | — |
 
-The official **Monster Manual** module (`dnd-monster-manual`) must also be installed and enabled, along with Babele's dependencies. Purchase and install the official product separately. This translation's manifest does not yet declare that product as a dependency or set a minimum or verified version for it.
+Install and enable the dependencies, purchasing official products separately when required.
 
 ## Installation
 
 In Foundry's Setup screen, open **Add-on Modules → Install Module** and use this manifest:
 
 ```text
-https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/main/module.json
+https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases/latest/download/module.json
 ```
 
 For manual installation, download `translate-dnd5e-mm-2024-es.zip` from [releases](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases). With Foundry stopped, extract the `translate-dnd5e-mm-2024-es` folder into `Data/modules/`; the manifest must be at `Data/modules/translate-dnd5e-mm-2024-es/module.json`.
 
 ## Activation
 
-1. Open a world using the dnd5e system.
-2. Enable Babele and its dependencies, the official Monster Manual module, and this translation.
-3. Select **Spanish** as Foundry's language and reload the world.
-4. Open a handbook compendium to check the translation.
+1. Open a dnd5e world.
+2. Enable Babele, its dependencies, the required official products and this translation.
+3. Select **Spanish** and reload the world.
+4. Open a translated compendium to check the result.
 
-Registration is automatic for `es` and regional variants such as `es-ES`. The Spanish translation is not applied with other languages.
+Registration is automatic for `es` and its regional variants. Other languages do not enable the Spanish translation.
 
 ## Updating
 
@@ -49,19 +48,14 @@ Update through Foundry or replace the folder with the published ZIP while Foundr
 
 ## Included content
 
-- Monsters (`actors`), including embedded fields and items covered by the mappings.
-- Handbook content and journals (`content`).
-- Features (`features`).
-- Roll tables (`tables`).
-
-Babele and the converters apply translations to the official product's compendiums while preserving identifiers and references.
+- `dnd-monster-manual.actors.json`.
+- `dnd-monster-manual.content.json`.
+- `dnd-monster-manual.features.json`.
+- `dnd-monster-manual.tables.json`.
 
 ## Limitations
 
-- The official product is required; this module provides translations.
-- The requirements table reproduces the manifest; it does not represent a new functional validation of those combinations.
-- Visual and functional review remains pending during this standardization.
-- Imported copies require the review described in Updating.
+Text coverage and automated tests do not establish that every gameplay automation works. Observe the limitations listed under Status. Imported copies do not update automatically. New release URLs require a publication containing their assets; until available, use a validated ZIP. Private sources, PDFs, OCR and complete official exports are not distributed.
 
 ## Support and contributions
 
@@ -73,10 +67,6 @@ The [development guide](https://github.com/foundryvtt-sinregistrar/translate-dnd
 
 ## License and credits
 
-The Apache 2.0 license included in the repository is available in [LICENSE.md](LICENSE.md).
+See the license and its terms in [LICENSE.md](LICENSE.md). The existing Apache 2.0 license is preserved.
 
-This project contains translations of **Monster Manual** material owned by Wizards of the Coast. It is an unofficial translation and is not affiliated with Wizards of the Coast. See also the [Wizards of the Coast Fan Content Policy](https://dnd.wizards.com/en/digital-tools-licensing).
-
-Dungeons & Dragons Monster Manual 2024 © Wizards of the Coast LLC. All rights reserved.
-
-Module author: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).
+Unofficial translation, not affiliated with Wizards of the Coast or Foundry VTT. Official product materials belong to their respective owners. Module author: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).

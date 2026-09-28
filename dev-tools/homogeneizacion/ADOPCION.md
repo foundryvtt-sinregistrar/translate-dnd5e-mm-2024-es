@@ -1,46 +1,21 @@
-# Registro de adopción del proceso común
+# Registro de adopción
 
-- Proyecto: `translate-dnd5e-mm-2024-es`.
-- Repositorio: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es.
-- Plantilla: versión 1 del piloto PHB.
-- Commit de las plantillas: `caf298ee2c8b78c27634c2e2f23baf87e44243fe`.
-- Base común disponible: `7ccfc5aaf85b39561a35da0b78209aefd68e1321`; todavía no se han incorporado sus archivos de configuración, constructor ni pruebas.
-- Rama de trabajo: `chore/homogeneizacion-documentacion`, creada desde `develop` en `463e77ae4ba52340894017cae90ed2ad55458a8a`.
+Proyecto: `translate-dnd5e-mm-2024-es`. Rama: `chore/homogeneizacion-documentacion`.
 
-## Estado inicial de ramas
-
-Después de `git fetch origin`, las ramas locales coinciden con sus referencias remotas. `main` (`2d27f1700e814726d83c43245a88840d07d13b95`) y `develop` divergen: uno y once commits exclusivos, respectivamente. Fuera de `dev-tools/`, sus árboles tienen contenido idéntico.
-
-`develop` conserva 212 archivos ausentes en `main`: tres de `dev-tools/IA-ChatGPT/`, uno de `dev-tools/_informes/`, 198 de `dev-tools/export/` y diez de `dev-tools/pdf-audit/`. Se han conservado al crear la rama; no se ha realizado una fusión, eliminación ni reescritura de las ramas principales. Antes de integrar o publicar hay que revisar qué herramientas siguen versionadas y qué fuentes se conservan solo localmente.
+Plantilla inicial: PHB `caf298ee2c8b78c27634c2e2f23baf87e44243fe`; base anterior a esta aplicación en el destino: `56c15b2e82bf5094e8cdf9a333928f5125bb2bc0`. Base común ampliada: `4ab392ea3fbe0e3d7eb44f803a07fe631d15916e` (plantilla versión 2; perfiles y SHA-256). La suite común y el constructor proceden de esa revisión; el perfil de cada destino se conserva por separado.
 
 ## Archivos y adaptaciones
 
-| Destino | Origen | Adaptación |
-|---|---|---|
-| `README.md` | `plantillas/README.md.template`, commit del kit indicado arriba | Producto MM; requisitos del manifiesto; cuatro compendios reales; activación según el runtime; Apache 2.0 y avisos existentes |
-| `README.en.md` | `plantillas/README.en.md.template`, misma revisión | Equivalente inglés de la traducción al español, con los mismos requisitos, alcance y límites |
-| `CHANGELOG.md` | Archivo propio | Entrada bajo `[Unreleased]`; se conserva el historial |
-| Este registro | Estructura de `plantillas/ADOPCION.md.template` | Procedencia y pendientes específicos de MM |
+Documentación bilingüe, DEVELOPER, CHANGELOG, `.editorconfig`, `.gitattributes`, base de `.gitignore`, constructor y suite de 24 pruebas compartida. El perfil versionado conserva alias `translate-dnd5e-mm-2024-es.zip`, canal `latest` y variante `standard`. Se mantiene la licencia existente; los avisos de DM/Tomb no sustituyen la decisión pendiente sobre sus aportaciones.
 
-Se conserva el manifiesto de instalación en `main/module.json` y el alias de ZIP actual. No se ha aplicado todavía la transición de canal del piloto. El producto oficial continúa como requisito documental pendiente de incorporar al manifiesto.
+Se mantienen los ocho convertidores `mm2024`. La prueba de integración real con Babele es opcional si falta el módulo hermano; la prueba portable recorre todos los parches de tablas con el convertidor. Los wrappers PowerShell y Bash delegan en el mismo constructor Python. Se conservan herramientas de exportación y auditoría; las exportaciones completas dejan de versionarse sin borrar la copia local.
 
-## Verificación del primer paso
+## Sincronización
 
-Los requisitos se contrastan con `module.json`; los cuatro compendios, con los archivos de `compendium/`; la activación, con `scripts/babele-register.js` y `scripts/converters.js`. Se comprueban enlaces locales, ausencia de marcadores pendientes, coherencia ES/EN y diferencias de Git. El registro queda excluido de `git archive` por la regla existente `dev-tools/ export-ignore`.
+Antes de actualizar herramientas comunes, compara la base registrada con la nueva revisión de PHB y revisa las diferencias de cada archivo. Conserva este perfil, las suites propias y los adaptadores. No sobrescribas traducciones ni adaptes una licencia mediante una copia ciega. Los SHA-256 del inventario identifican los bytes de Git sin conversiones LF/CRLF.
 
-No se han cambiado traducciones, scripts, manifiesto, licencia ni herramientas. Este paso documental no acredita nuevas pruebas de runtime, ejecución remota de CI ni comprobación funcional en Foundry.
+## Validación y commits
 
-## Commits del destino
+El informe global registra los resultados definitivos, omisiones, inventario del ZIP y commits. Consulta `git log --oneline -- dev-tools/homogeneizacion/ADOPCION.md` para localizar la adopción. CI remota, pruebas funcionales en Foundry y publicación se verifican por separado; no se presentan como ejecutadas por una validación local.
 
-Este registro se incorpora con el primer commit documental de la rama. Para localizarlo y seguir las adopciones posteriores, consulta `git log --oneline -- dev-tools/homogeneizacion/ADOPCION.md`.
-
-## Pendientes
-
-- Resolver la divergencia entre ramas antes de integrar o publicar, preservando herramientas útiles y fuentes locales.
-- Ampliar y traducir DEVELOPER, con los ocho convertidores reales y los procedimientos de este proyecto.
-- Revisar exclusiones, archivos privados ya versionados, `.editorconfig` y contenido del ZIP.
-- Resolver la dependencia de Babele adyacente para las pruebas portables.
-- Unificar los constructores Python/PowerShell/Bash conservando sus usos y añadir pruebas del contrato de distribución.
-- Declarar el módulo oficial con evidencia para sus límites de versión; preservar Apache 2.0 y las atribuciones existentes.
-- Adoptar CI compartida y revisar la coordinación de manifiesto, etiqueta y publicación.
-- Completar la comprobación funcional en Foundry y registrar el entorno y alcance.
+El commit `56c15b2` integra el historial de main conservando la documentación revisada y las herramientas de develop. Las fuentes completas se retiran del índice conservando sus archivos locales. Las ramas principales no se han sobrescrito.
