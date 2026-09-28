@@ -6,7 +6,7 @@ Plantilla inicial: PHB `caf298ee2c8b78c27634c2e2f23baf87e44243fe`; base anterior
 
 ## Archivos y adaptaciones
 
-Documentación bilingüe, DEVELOPER, CHANGELOG, `.editorconfig`, `.gitattributes`, base de `.gitignore`, constructor y suite de 24 pruebas compartida. El perfil versionado conserva alias `translate-dnd5e-mm-2024-es.zip`, canal `latest` y variante `standard`. Se mantiene la licencia existente; los avisos de DM/Tomb no sustituyen la decisión pendiente sobre sus aportaciones.
+Documentación bilingüe, DEVELOPER, CHANGELOG, `.editorconfig`, `.gitattributes`, base de `.gitignore`, constructor y suite de 24 pruebas compartida. El perfil versionado conserva alias `translate-dnd5e-mm-2024-es.zip`, canal `latest` y variante `standard`. Se mantiene la licencia existente de este proyecto. DM y Tomb adoptaron posteriormente MIT para sus aportaciones propias por elección expresa del titular; sus avisos conservan el alcance y los derechos de terceros.
 
 Se mantienen los ocho convertidores `mm2024`. La prueba de integración real con Babele es opcional si falta el módulo hermano; la prueba portable recorre todos los parches de tablas con el convertidor. Los wrappers PowerShell y Bash delegan en el mismo constructor Python. Se conservan herramientas de exportación y auditoría; las exportaciones completas dejan de versionarse sin borrar la copia local.
 
