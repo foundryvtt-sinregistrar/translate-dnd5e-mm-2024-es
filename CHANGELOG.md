@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Adapt legacy RollTable result translations to Foundry 14 `name` and `description`, preserving IDs and mechanics.
 
 ### Changed
+- Homogeneizados los README español e inglés: requisitos alineados con el manifiesto, activación automática para español, cuatro compendios reales, límites de validación y enlaces de soporte, desarrollo y licencia. Se conserva el canal de instalación actual.
 - Updated compatibility metadata for Foundry VTT 14.368, dnd5e 6.0.3 and Babele 2.9.1.
 
 ### Added
