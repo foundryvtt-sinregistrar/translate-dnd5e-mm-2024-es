@@ -6,7 +6,7 @@ Traducción para Foundry VTT mediante Babele. Identificador: `translate-dnd5e-mm
 
 ## Estado
 
-Versión: **1.14.1**. Incluye los cuatro compendios del manual. Las pruebas cubren registro, convertidores y resultados de tablas. La verificación visual y funcional completa durante esta homogeneización sigue pendiente.
+Versión: **1.14.2**. Incluye los cuatro compendios del manual. Las pruebas cubren registro, convertidores y resultados de tablas. La verificación visual y funcional completa durante esta homogeneización sigue pendiente.
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 

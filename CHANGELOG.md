@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.14.2] - 2026-09-28
+
 ### Changed
 
 - Homogeneizados documentación ES/EN, guía de desarrollo, configuración de edición, exclusiones y proceso de distribución. Constructor desde un único commit, perfil por proyecto, manifiesto externo, SHA-256 y validación compartida en PR y releases. Se conservan las particularidades y los avisos de licencia del proyecto.
@@ -100,3 +102,8 @@ All notable changes to this project will be documented in this file.
 - refined creature name pluralization and grammatical agreement in Spanish
 - optimized title case semantics for structural field labels
 - updated release preparation flow to align with Foundry module packaging
+
+## Version Links
+
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/compare/v1.14.2...HEAD
+[1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases/tag/v1.14.2

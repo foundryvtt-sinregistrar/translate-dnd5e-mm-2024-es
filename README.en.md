@@ -6,7 +6,7 @@ Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-mm-2024-es
 
 ## Status
 
-Version: **1.14.1**. Includes the four handbook compendiums. Tests cover registration, converters and table results. Complete visual and functional verification during this standardization remains pending.
+Version: **1.14.2**. Includes the four handbook compendiums. Tests cover registration, converters and table results. Complete visual and functional verification during this standardization remains pending.
 
 See [CHANGELOG.md](CHANGELOG.md).
 
