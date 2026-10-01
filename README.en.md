@@ -1,5 +1,13 @@
 # Monster Manual (2024) — Spanish Translation
 
+**Current version — Foundry v14**
+
+![Foundry v14](https://img.shields.io/badge/Foundry-v14-green)
+[![Release v1.14.2](https://img.shields.io/badge/release-v1.14.2-blue)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-mm-2024-es/releases/tag/v1.14.2)
+![dnd5e 6.0.3](https://img.shields.io/badge/dnd5e-6.0.3-blue)
+![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
+![MM 2024 required](https://img.shields.io/badge/MM_2024-required-orange)
+
 [Español](README.md) | **English**
 
 Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-mm-2024-es`.
