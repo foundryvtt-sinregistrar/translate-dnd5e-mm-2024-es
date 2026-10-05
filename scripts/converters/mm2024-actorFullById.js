@@ -44,12 +44,12 @@ export function mm2024ActorFullById(source, translation) {
         }
 
         // Effects
-        if (patch.effects && Array.isArray(item.effects)) {
+        if (patch.effects && item.effects) {
             item.effects = mm2024MergeEffects(item.effects, patch.effects);
         }
 
         // Advancement
-        if (patch.advancement && Array.isArray(item.system?.advancement)) {
+        if (patch.advancement && item.system?.advancement) {
             item.system.advancement = mm2024AdvancementById(item.system.advancement, patch.advancement);
         }
     }
